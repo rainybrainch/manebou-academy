@@ -1,0 +1,225 @@
+'use client';
+
+import { useState, useMemo } from 'react';
+import Link from 'next/link';
+
+interface GlossaryEntry {
+  term: string;
+  definition: string;
+  lessonTitle: string;
+  courseId: string;
+  lessonId: string;
+  categoryTitle: string;
+}
+
+interface Props {
+  entries: GlossaryEntry[];
+}
+
+export default function GlossaryClient({ entries }: Props) {
+  const [query, setQuery] = useState('');
+  const [expanded, setExpanded] = useState<string | null>(null);
+  const [activeCategory, setActiveCategory] = useState<string | null>(null);
+
+  const categories = useMemo(() => {
+    const seen = new Set<string>();
+    return entries.map(e => e.categoryTitle).filter(c => { if (seen.has(c)) return false; seen.add(c); return true; });
+  }, [entries]);
+
+  const filtered = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    return entries.filter(e => {
+      if (activeCategory && e.categoryTitle !== activeCategory) return false;
+      if (!q) return true;
+      return (
+        e.term.toLowerCase().includes(q) ||
+        e.definition.toLowerCase().includes(q) ||
+        e.lessonTitle.toLowerCase().includes(q)
+      );
+    });
+  }, [entries, query, activeCategory]);
+
+  // Group by first character
+  const grouped = useMemo(() => {
+    const map = new Map<string, GlossaryEntry[]>();
+    for (const e of filtered) {
+      const key = e.term.charAt(0).toUpperCase();
+      if (!map.has(key)) map.set(key, []);
+      map.get(key)!.push(e);
+    }
+    return Array.from(map.entries()).sort(([a], [b]) => a.localeCompare(b, 'ja'));
+  }, [filtered]);
+
+  return (
+    <div className="max-w-2xl mx-auto px-4 py-6">
+      {/* Header */}
+      <div className="mb-6">
+        <div
+          className="inline-block text-[10px] font-bold tracking-[4px] px-3 py-1 rounded mb-3"
+          style={{ background: 'var(--mb-dark)', color: 'var(--mb-gold)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+        >
+          GLOSSARY
+        </div>
+        <h1 className="text-2xl" style={{ fontFamily: "'Dela Gothic One', sans-serif", color: 'var(--mb-dark)' }}>
+          用語集
+        </h1>
+        <p className="text-sm mt-1" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+          全{entries.length}用語 — 講義で登場したキーワードを一覧で確認
+        </p>
+      </div>
+
+      {/* Search */}
+      <div className="relative mb-6">
+        <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 pointer-events-none" style={{ color: 'rgba(26,26,46,0.3)' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+        <input
+          type="text"
+          value={query}
+          onChange={e => setQuery(e.target.value)}
+          onKeyDown={e => e.key === 'Escape' && setQuery('')}
+          placeholder="用語・説明を検索…"
+          className="w-full pl-9 pr-9 py-2.5 rounded-xl border-2 text-sm outline-none transition-all"
+          style={{
+            borderColor: query ? 'var(--mb-dark)' : 'rgba(26,26,46,0.15)',
+            background: 'white',
+            color: 'var(--mb-dark)',
+            fontFamily: "'Zen Maru Gothic', sans-serif",
+            boxShadow: query ? '2px 2px 0 var(--mb-gold)' : 'none',
+          }}
+        />
+        {query && (
+          <button onClick={() => setQuery('')} className="absolute right-3 top-1/2 -translate-y-1/2 text-xs" style={{ color: 'rgba(26,26,46,0.35)' }}>✕</button>
+        )}
+      </div>
+
+      {/* Category filter pills */}
+      <div className="flex flex-wrap gap-2 mb-4">
+        <button
+          onClick={() => setActiveCategory(null)}
+          className="px-3 py-1 rounded-full text-[11px] font-bold border-2 transition-all"
+          style={{
+            background: activeCategory === null ? 'var(--mb-dark)' : 'transparent',
+            borderColor: activeCategory === null ? 'var(--mb-dark)' : 'rgba(26,26,46,0.15)',
+            color: activeCategory === null ? 'var(--mb-gold)' : 'rgba(26,26,46,0.45)',
+            fontFamily: "'Zen Maru Gothic', sans-serif",
+          }}
+        >
+          すべて
+        </button>
+        {categories.map(cat => (
+          <button
+            key={cat}
+            onClick={() => setActiveCategory(activeCategory === cat ? null : cat)}
+            className="px-3 py-1 rounded-full text-[11px] font-bold border-2 transition-all"
+            style={{
+              background: activeCategory === cat ? 'var(--mb-dark)' : 'transparent',
+              borderColor: activeCategory === cat ? 'var(--mb-dark)' : 'rgba(26,26,46,0.15)',
+              color: activeCategory === cat ? 'var(--mb-gold)' : 'rgba(26,26,46,0.45)',
+              fontFamily: "'Zen Maru Gothic', sans-serif",
+            }}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
+
+      {/* Results count when searching */}
+      {query && (
+        <p className="text-xs mb-4" style={{ color: 'rgba(26,26,46,0.45)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+          「{query}」の検索結果：{filtered.length}件
+        </p>
+      )}
+
+      {/* Grouped list */}
+      {grouped.length === 0 ? (
+        <div className="text-center py-12">
+          <div className="text-3xl mb-3">🔍</div>
+          <p className="text-sm" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+            「{query}」に一致する用語が見つかりませんでした
+          </p>
+        </div>
+      ) : (
+        <div className="space-y-6">
+          {grouped.map(([letter, items]) => (
+            <div key={letter}>
+              {/* Section letter */}
+              <div
+                className="inline-flex items-center justify-center w-8 h-8 rounded-lg text-sm font-bold mb-3"
+                style={{
+                  background: 'var(--mb-dark)',
+                  color: 'var(--mb-gold)',
+                  fontFamily: "'Dela Gothic One', sans-serif",
+                }}
+              >
+                {letter}
+              </div>
+              <div className="space-y-2">
+                {items.map(entry => {
+                  const isOpen = expanded === entry.term;
+                  return (
+                    <div
+                      key={entry.term}
+                      className="rounded-xl border-2 overflow-hidden transition-all"
+                      style={{
+                        borderColor: isOpen ? 'var(--mb-dark)' : 'rgba(26,26,46,0.12)',
+                        background: 'white',
+                        boxShadow: isOpen ? '3px 3px 0 var(--mb-gold)' : 'none',
+                      }}
+                    >
+                      <button
+                        onClick={() => setExpanded(isOpen ? null : entry.term)}
+                        className="w-full flex items-center justify-between px-4 py-3 text-left"
+                      >
+                        <span
+                          className="text-sm font-bold"
+                          style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                        >
+                          {entry.term}
+                        </span>
+                        <svg
+                          className="w-4 h-4 shrink-0 ml-2 transition-transform"
+                          style={{
+                            color: 'rgba(26,26,46,0.4)',
+                            transform: isOpen ? 'rotate(180deg)' : 'rotate(0deg)',
+                          }}
+                          fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </button>
+
+                      {isOpen && (
+                        <div
+                          className="px-4 pb-4"
+                          style={{ borderTop: '1px solid rgba(26,26,46,0.08)', paddingTop: '12px' }}
+                        >
+                          <p
+                            className="text-sm leading-relaxed mb-3"
+                            style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                          >
+                            {entry.definition}
+                          </p>
+                          <Link
+                            href={`/courses/${entry.courseId}/lessons/${entry.lessonId}`}
+                            className="inline-flex items-center gap-1 text-[10px] font-bold hover:underline"
+                            style={{ color: 'var(--mb-sky)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                          >
+                            <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                            </svg>
+                            {entry.lessonTitle} で学ぶ
+                          </Link>
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}

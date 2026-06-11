@@ -1,0 +1,188 @@
+'use client';
+
+import Link from 'next/link';
+import { useEffect, useMemo, useState } from 'react';
+import { categories } from '@/data/courses';
+
+interface NoteEntry {
+  courseId: string;
+  lessonId: string;
+  courseTitle: string;
+  lessonTitle: string;
+  text: string;
+}
+
+export default function AllNotes() {
+  const [notes, setNotes] = useState<NoteEntry[]>([]);
+  const [expanded, setExpanded] = useState<string | null>(null);
+  const [mounted, setMounted] = useState(false);
+  const [query, setQuery] = useState('');
+  const [courseFilter, setCourseFilter] = useState<string>('all');
+
+  useEffect(() => {
+    const found: NoteEntry[] = [];
+    categories.forEach(cat =>
+      cat.courses.forEach(course =>
+        course.lessons.forEach(lesson => {
+          const text = localStorage.getItem(`mb_note_${course.id}_${lesson.id}`)?.trim();
+          if (text) found.push({ courseId: course.id, lessonId: lesson.id, courseTitle: course.title, lessonTitle: lesson.title, text });
+        })
+      )
+    );
+    setNotes(found);
+    setMounted(true);
+  }, []);
+
+  const uniqueCourses = useMemo(() => {
+    const seen = new Map<string, string>();
+    notes.forEach(n => seen.set(n.courseId, n.courseTitle));
+    return Array.from(seen.entries());
+  }, [notes]);
+
+  const filtered = useMemo(() => {
+    const q = query.toLowerCase().trim();
+    return notes.filter(n => {
+      if (courseFilter !== 'all' && n.courseId !== courseFilter) return false;
+      if (!q) return true;
+      return n.lessonTitle.toLowerCase().includes(q) || n.courseTitle.toLowerCase().includes(q) || n.text.toLowerCase().includes(q);
+    });
+  }, [notes, query, courseFilter]);
+
+  if (!mounted || notes.length === 0) return null;
+
+  return (
+    <div className="mb-8">
+      <h2 className="text-sm font-bold mb-3 flex items-center gap-2" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)' }}>
+        <span>📝</span> マイメモ一覧
+        <span className="text-[10px] font-bold px-2 py-0.5 rounded-full" style={{ background: 'rgba(26,26,46,0.08)', color: 'rgba(26,26,46,0.6)' }}>
+          {filtered.length}/{notes.length}件
+        </span>
+      </h2>
+
+      {/* Search + filter row */}
+      <div className="flex flex-col gap-2 mb-3">
+        <div className="relative">
+          <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-3.5 h-3.5" style={{ color: 'rgba(26,26,46,0.35)' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-4.35-4.35M17 11A6 6 0 1 1 5 11a6 6 0 0 1 12 0z" />
+          </svg>
+          <input
+            type="text"
+            placeholder="メモを検索…"
+            value={query}
+            onChange={e => setQuery(e.target.value)}
+            className="w-full text-xs rounded-lg border-2 pl-8 pr-3 py-2 outline-none transition-colors"
+            style={{
+              borderColor: query ? 'var(--mb-dark)' : 'rgba(26,26,46,0.15)',
+              fontFamily: "'Zen Maru Gothic', sans-serif",
+              color: 'var(--mb-dark)',
+              background: 'white',
+            }}
+          />
+          {query && (
+            <button
+              onClick={() => setQuery('')}
+              className="absolute right-2.5 top-1/2 -translate-y-1/2 text-[10px] font-bold"
+              style={{ color: 'rgba(26,26,46,0.4)' }}
+            >
+              ✕
+            </button>
+          )}
+        </div>
+        {uniqueCourses.length > 1 && (
+          <div className="flex gap-1.5 flex-wrap">
+            <button
+              onClick={() => setCourseFilter('all')}
+              className="text-[9px] font-bold px-2.5 py-1 rounded-full border transition-all"
+              style={{
+                background: courseFilter === 'all' ? 'var(--mb-dark)' : 'transparent',
+                borderColor: courseFilter === 'all' ? 'var(--mb-dark)' : 'rgba(26,26,46,0.2)',
+                color: courseFilter === 'all' ? 'var(--mb-gold)' : 'rgba(26,26,46,0.5)',
+                fontFamily: "'Zen Maru Gothic', sans-serif",
+              }}
+            >
+              すべて
+            </button>
+            {uniqueCourses.map(([id, title]) => (
+              <button
+                key={id}
+                onClick={() => setCourseFilter(courseFilter === id ? 'all' : id)}
+                className="text-[9px] font-bold px-2.5 py-1 rounded-full border transition-all truncate max-w-[120px]"
+                style={{
+                  background: courseFilter === id ? 'var(--mb-dark)' : 'transparent',
+                  borderColor: courseFilter === id ? 'var(--mb-dark)' : 'rgba(26,26,46,0.2)',
+                  color: courseFilter === id ? 'var(--mb-gold)' : 'rgba(26,26,46,0.5)',
+                  fontFamily: "'Zen Maru Gothic', sans-serif",
+                }}
+              >
+                {title}
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {filtered.length === 0 ? (
+        <p className="text-xs text-center py-4" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+          条件に一致するメモが見つかりません
+        </p>
+      ) : (
+        <div className="space-y-2">
+          {filtered.map(({ courseId, lessonId, courseTitle, lessonTitle, text }) => {
+            const key = `${courseId}/${lessonId}`;
+            const isOpen = expanded === key;
+            const q = query.toLowerCase().trim();
+            const highlight = (str: string) => {
+              if (!q) return str;
+              const idx = str.toLowerCase().indexOf(q);
+              if (idx === -1) return str;
+              return (
+                <>
+                  {str.slice(0, idx)}
+                  <mark style={{ background: 'rgba(245,200,66,0.35)', borderRadius: '2px' }}>{str.slice(idx, idx + q.length)}</mark>
+                  {str.slice(idx + q.length)}
+                </>
+              );
+            };
+            return (
+              <div
+                key={key}
+                className="rounded-xl border-2 overflow-hidden"
+                style={{ borderColor: isOpen ? 'var(--mb-dark)' : 'rgba(26,26,46,0.12)', background: 'white' }}
+              >
+                <button
+                  onClick={() => setExpanded(isOpen ? null : key)}
+                  className="w-full flex items-center gap-3 px-4 py-3 text-left"
+                >
+                  <span className="text-base shrink-0">📝</span>
+                  <div className="flex-1 min-w-0">
+                    <div className="text-xs font-bold truncate" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                      {highlight(lessonTitle)}
+                    </div>
+                    <div className="text-[10px] truncate" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                      {highlight(courseTitle)}
+                    </div>
+                  </div>
+                  <span className="text-xs shrink-0" style={{ color: 'rgba(26,26,46,0.3)' }}>{isOpen ? '▲' : '▼'}</span>
+                </button>
+                {isOpen && (
+                  <div className="px-4 pb-4 border-t" style={{ borderColor: 'rgba(26,26,46,0.08)' }}>
+                    <p className="text-xs leading-relaxed mt-3 mb-3 whitespace-pre-wrap" style={{ color: 'rgba(26,26,46,0.7)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                      {highlight(text)}
+                    </p>
+                    <Link
+                      href={`/courses/${courseId}/lessons/${lessonId}`}
+                      className="text-[10px] font-bold hover:underline"
+                      style={{ color: 'var(--mb-sky)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                    >
+                      講義を見る →
+                    </Link>
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+}

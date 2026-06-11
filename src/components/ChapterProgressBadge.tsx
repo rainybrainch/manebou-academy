@@ -1,0 +1,37 @@
+'use client';
+
+import { useProgress } from '@/hooks/useProgress';
+import type { Course } from '@/types';
+import ProgressRing from './ProgressRing';
+
+interface Props {
+  course: Course;
+  courseId: string;
+  accentColor: string;
+}
+
+export default function ChapterProgressBadge({ course, courseId, accentColor }: Props) {
+  const { isCompleted, mounted } = useProgress();
+  if (!mounted) return null;
+
+  const available = course.lessons.filter(l => !l.isComingSoon);
+  const done = available.filter(l => isCompleted(courseId, l.id)).length;
+  if (done === 0) return null;
+
+  const pct = Math.round((done / available.length) * 100);
+
+  return (
+    <div className="relative shrink-0 flex items-center justify-center" style={{ width: 36, height: 36 }}>
+      <ProgressRing pct={pct} size={36} stroke={3} color={accentColor} />
+      <span
+        className="absolute text-[8px] font-bold"
+        style={{
+          color: pct === 100 ? '#4CAF7D' : accentColor,
+          fontFamily: "'Dela Gothic One', sans-serif",
+        }}
+      >
+        {pct === 100 ? '✓' : `${pct}`}
+      </span>
+    </div>
+  );
+}

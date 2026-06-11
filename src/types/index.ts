@@ -1,3 +1,32 @@
+// ── 学習構造の5層 ─────────────────────────────────────
+// Genre（ジャンル） → Category（カテゴリ） → Category（コース）
+//   → Course（章） → Lesson（講義）
+//
+// コード内の既存型との対応:
+//   Genre      = 新規（座学系 / ゲーム系 / 受験用）
+//   Category   = 新規（お金 / 投資 / ZAi …）
+//   Category   = 既存（お金の基本コース など）← 画像・レベルを追加
+//   Course     = 既存（第1章 など）
+//   Lesson     = 既存
+// ─────────────────────────────────────────────────────
+
+export type CourseLevel = '入門' | '基礎' | '応用' | '上級';
+
+export interface Genre {
+  id: string;
+  title: string;
+  description: string;
+  image?: string;
+}
+
+export interface TopicCategory {
+  id: string;
+  title: string;
+  description: string;
+  image?: string;
+  genreId: string;
+}
+
 export type LessonSection =
   | { type: 'text'; content: string }
   | { type: 'heading'; level: 2 | 3; content: string }
@@ -7,7 +36,8 @@ export type LessonSection =
   | { type: 'info-box'; content: string }
   | { type: 'practice'; question: string; auxiliaryPrompt: string; answer: string }
   | { type: 'glossary'; terms: { term: string; definition: string }[] }
-  | { type: 'summary'; content: string; nextLesson: string };
+  | { type: 'summary'; content: string; nextLesson: string }
+  | { type: 'image'; src: string; alt: string; caption?: string };
 
 export interface GameTag {
   source: 'ZAi';
@@ -31,6 +61,7 @@ export interface Course {
   id: string;
   title: string;
   description?: string;
+  image?: string;
   lessons: Lesson[];
 }
 
@@ -38,5 +69,8 @@ export interface Category {
   id: string;
   title: string;
   description: string;
+  image?: string;
+  level?: CourseLevel;
+  topicCategoryId?: string;
   courses: Course[];
 }
