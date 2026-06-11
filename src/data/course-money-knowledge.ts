@@ -7,7 +7,6 @@ export const moneyKnowledgeCategory: Category = {
     '給料・物価・家計から、GDP・インフレ・円安・少子化・政治とお金まで。生活に直結する日本経済の知識を体系的に学ぶコースです。',
   level: '基礎',
   topicCategoryId: 'cat-money',
-  image: '/images/courses/money-knowledge.png',
   courses: [
 
     // ─────────────────────────────────────────

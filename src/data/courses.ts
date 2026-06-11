@@ -10,7 +10,6 @@ const nisaBasicsCategory: Category = {
   description: '新NISA制度を活用した投資の基礎知識を分かりやすく解説します。',
   level: '入門',
   topicCategoryId: 'cat-investment',
-  image: '/images/courses/nisa-basics.png',
   courses: [
     {
       id: 'nisa-ch1',

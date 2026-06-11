@@ -71,7 +71,7 @@ export default function HomeCourseGrid({ categories }: Props) {
                 </div>
               ) : (
                 <div
-                  className="w-full h-16 flex items-center justify-center text-3xl"
+                  className="w-full h-20 flex items-center justify-center text-3xl"
                   style={{ background: `${meta?.color ?? '#ccc'}18` }}
                 >
                   {meta?.icon ?? '📖'}

@@ -7,7 +7,6 @@ export const stockIntroCategory: Category = {
     '「知っている」から「判断できる」へ。ZAiゲームのメカニクスと対応させながら、バリュー投資・リスク管理・ポートフォリオの考え方を体系的に学ぶコースです。',
   level: '基礎',
   topicCategoryId: 'cat-investment',
-  image: '/images/courses/stock-intro.png',
   courses: [
     // ─────────────────────────────────────────
     // 第1章：株とは何か

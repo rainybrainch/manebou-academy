@@ -7,7 +7,6 @@ export const zaiCategory: Category = {
     'ダイヤモンドZAiが作った「株ゲーム」を教科書に、株式市場の動きを体感しながら学ぶコース。各ゲームメカニクスが現実の投資行動にどう対応しているかを丁寧に解説します。',
   level: '入門',
   topicCategoryId: 'cat-zai',
-  image: '/images/courses/zai-course.png',
   courses: [
     // ─────────────────────────────────────────
     // 第1章：ゲームの世界＝市場の縮図
