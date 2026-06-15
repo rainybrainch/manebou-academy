@@ -175,8 +175,9 @@ export default function LessonShell({
     fireConfetti();
     // Detect if this was the last lesson in the course
     const availableLessons = course.lessons.filter(l => !l.isComingSoon);
-    const isLastLesson = !next && availableLessons[availableLessons.length - 1]?.id === lesson.id;
-    if (isLastLesson) {
+    // Fire chapter-complete modal when finishing the last lesson of the current chapter
+    const isLastInChapter = availableLessons[availableLessons.length - 1]?.id === lesson.id;
+    if (isLastInChapter) {
       setTimeout(() => { setJustCompleted(false); setShowCourseComplete(true); }, 2600);
     } else {
       setTimeout(() => setJustCompleted(false), 2500);
