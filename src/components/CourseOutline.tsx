@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { useEffect, useRef } from 'react';
 import { useProgress } from '@/hooks/useProgress';
 import type { Course } from '@/types';
 
@@ -15,6 +16,16 @@ interface Props {
 
 export default function CourseOutline({ chapters, courseId, currentLessonId, categoryTitle, isOpen, onClose }: Props) {
   const { isCompleted, mounted } = useProgress();
+  const currentRef = useRef<HTMLAnchorElement>(null);
+
+  useEffect(() => {
+    if (isOpen && currentRef.current) {
+      setTimeout(() => {
+        currentRef.current?.scrollIntoView({ block: 'center', behavior: 'smooth' });
+      }, 80);
+    }
+  }, [isOpen]);
+
   if (!isOpen) return null;
 
   const allLessons = chapters.flatMap(ch => ch.lessons.filter(l => !l.isComingSoon));
@@ -155,6 +166,7 @@ export default function CourseOutline({ chapters, courseId, currentLessonId, cat
                   return (
                     <Link
                       key={lesson.id}
+                      ref={isCurrent ? currentRef : undefined}
                       href={`/courses/${courseId}/lessons/${lesson.id}`}
                       onClick={onClose}
                       className="flex items-center gap-3 px-4 py-2.5 transition-colors"
