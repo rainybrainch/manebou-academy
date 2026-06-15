@@ -420,9 +420,10 @@ export default function LessonShell({
         onClose={() => setCheckOpen(false)}
       />
       <CourseOutline
-        course={course}
+        chapters={categories.find(c => c.id === categoryId)?.courses ?? [course]}
         courseId={courseId}
         currentLessonId={lesson.id}
+        categoryTitle={courseTitle}
         isOpen={outlineOpen}
         onClose={() => setOutlineOpen(false)}
       />
