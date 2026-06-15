@@ -6,11 +6,26 @@ import { categories } from '@/data/courses';
 import { Skeleton, SkeletonStyle } from './Skeleton';
 
 const categoryMeta: Record<string, { icon: string; color: string }> = {
-  'money-basics-full': { icon: '💴', color: '#5BC8E8' },
-  'money-knowledge':   { icon: '🌐', color: '#9B6DD6' },
-  'zai-course':        { icon: '🎲', color: '#F5C842' },
-  'stock-intro':       { icon: '📈', color: '#4CAF7D' },
-  'nisa-basics':       { icon: '🏦', color: '#E8354A' },
+  'money-basics-full':    { icon: '💴', color: '#5BC8E8' },
+  'money-knowledge':      { icon: '🌐', color: '#9B6DD6' },
+  'money-household':      { icon: '🏠', color: '#5BC8E8' },
+  'money-tax':            { icon: '🧾', color: '#5BC8E8' },
+  'money-insurance':      { icon: '🛡️', color: '#5BC8E8' },
+  'money-lifeplan':       { icon: '📅', color: '#5BC8E8' },
+  'zai-course':           { icon: '🎲', color: '#F5C842' },
+  'stock-intro':          { icon: '📈', color: '#4CAF7D' },
+  'nisa-basics':          { icon: '🏦', color: '#E8354A' },
+  'investment-advanced':  { icon: '💹', color: '#4CAF7D' },
+  'index-funds':          { icon: '📊', color: '#4CAF7D' },
+  'economics':            { icon: '🌏', color: '#9B6DD6' },
+  'politics':             { icon: '🏛️', color: '#9B6DD6' },
+  'exam-public':          { icon: '📝', color: '#E8354A' },
+  'boardgame-monopoly':   { icon: '🎯', color: '#F5C842' },
+  'dividend-stocks':      { icon: '💰', color: '#4CAF7D' },
+  'crypto-basics':        { icon: '🪙', color: '#F5C842' },
+  'furusato-tax':         { icon: '🎁', color: '#5BC8E8' },
+  'freelance-money':      { icon: '💼', color: '#5BC8E8' },
+  'fx-forex':             { icon: '💱', color: '#4CAF7D' },
 };
 
 export default function NextLessonCard() {

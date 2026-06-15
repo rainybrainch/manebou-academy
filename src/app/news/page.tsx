@@ -33,6 +33,13 @@ function renderBody(text: string): React.ReactNode {
 const updates = [
   {
     date: '2026-06-15',
+    tag: 'UPDATE',
+    tagColor: '#5BC8E8',
+    title: '講義ページのMOVIE・COMIC表示を改善',
+    body: '①動画（MOVIE）を講義コンテンツの先頭に移動し、まず動画で学べる構成に②漫画（COMIC）を2カラムグリッド表示に変更し、縦スクロール量を約半分に削減③次回から20コース全ジャンルのアイコンが「次のレッスン」カードに正しく表示されるよう修正',
+  },
+  {
+    date: '2026-06-15',
     tag: 'FIX',
     tagColor: '#E8354A',
     title: 'パンくず・最終講義ボタンのリンク修正',
