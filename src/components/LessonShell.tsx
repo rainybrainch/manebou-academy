@@ -355,7 +355,7 @@ export default function LessonShell({
               </div>
             ) : (
               <button
-                onClick={() => router.push(`/courses/${courseId}`)}
+                onClick={() => router.push('/courses')}
                 className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl border-2 text-sm font-bold transition-all hover:opacity-90 active:scale-95"
                 style={{
                   background: 'rgba(255,255,255,0.08)',

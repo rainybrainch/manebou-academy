@@ -57,6 +57,8 @@ export default async function CategoryPage({ params }: Props) {
       <div className="flex items-center gap-2 mb-4 text-xs" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
         <Link href="/" className="hover:underline">ホーム</Link>
         <span>›</span>
+        <Link href="/courses" className="hover:underline">コース一覧</Link>
+        <span>›</span>
         <span style={{ color: accent }}>{tc.title}</span>
       </div>
 

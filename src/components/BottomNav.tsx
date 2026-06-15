@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { useProgress } from '@/hooks/useProgress';
 
-const LATEST_NEWS_DATE = '2026-06-15';
+const LATEST_NEWS_DATE = '2026-06-15b';
 const NEWS_SEEN_KEY = 'mb_news_seen';
 
 const items = [
