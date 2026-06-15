@@ -7,6 +7,10 @@ import { economicsCategory } from './course-economics';
 import { politicsCategory } from './course-politics';
 import { investmentAdvancedCategory } from './course-investment-advanced';
 import { indexFundsCategory } from './course-index-funds';
+import { moneyHouseholdCategory } from './course-money-household';
+import { moneyTaxCategory } from './course-money-tax';
+import { moneyInsuranceCategory } from './course-money-insurance';
+import { moneyLifeplanCategory } from './course-money-lifeplan';
 
 const nisaBasicsCategory: Category = {
   id: 'nisa-basics',
@@ -430,6 +434,10 @@ const nisaBasicsCategory: Category = {
 export const categories: Category[] = [
   moneyBasicsFullCategory,
   moneyKnowledgeCategory,
+  moneyHouseholdCategory,
+  moneyTaxCategory,
+  moneyInsuranceCategory,
+  moneyLifeplanCategory,
   zaiCategory,
   stockIntroCategory,
   nisaBasicsCategory,
