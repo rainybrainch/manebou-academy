@@ -34,7 +34,7 @@ const nisaBasicsCategory: Category = {
           id: 'l1',
           title: 'NISAとは何か？メリット・デメリット',
           duration: '12:10',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             'NISAの基本的な仕組みを理解した',
@@ -78,7 +78,7 @@ const nisaBasicsCategory: Category = {
           id: 'l2',
           title: 'NISAで買える商品の選び方',
           duration: '10:30',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             'つみたて投資枠と成長投資枠の違いを理解した',
@@ -120,7 +120,7 @@ const nisaBasicsCategory: Category = {
           id: 'l3',
           title: 'NISA口座の開設と積立設定',
           duration: '9:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             '金融機関の選び方を理解した',
@@ -402,7 +402,7 @@ const nisaBasicsCategory: Category = {
           id: 'l4',
           title: '複利の力と長期投資の考え方',
           duration: '11:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             '複利の仕組みと威力を理解した',

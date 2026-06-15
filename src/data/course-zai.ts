@@ -19,7 +19,7 @@ export const zaiCategory: Category = {
           id: 'z1-1',
           title: '9銘柄 × 3業種——市場の構造を知る',
           duration: '10:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             'ZAiゲームの3業種分類（変動・普通・安定）を説明できる',
@@ -89,7 +89,7 @@ export const zaiCategory: Category = {
           id: 'z1-2',
           title: '二重株価システム——理論株価と実勢価格',
           duration: '12:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             '理論株価マーカー（オレンジ）と株価マーカー（ブルー）の違いを説明できる',
@@ -159,7 +159,7 @@ export const zaiCategory: Category = {
           id: 'z1-3',
           title: 'ZAiコロとコースカード——市場のランダム性',
           duration: '9:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             'ZAiコロの12面が表す市場のランダム性を説明できる',
@@ -238,7 +238,7 @@ export const zaiCategory: Category = {
           id: 'z2-1',
           title: '決算と配当——投資の果実を受け取る',
           duration: '10:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             'ZAiゲームの4回の決算（第1四半期・中間・第3四半期・本決算）を理解した',
@@ -304,7 +304,7 @@ export const zaiCategory: Category = {
           id: 'z2-2',
           title: '倒産ゾーンとサドンデス——最悪のシナリオ',
           duration: '10:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             '倒産ゾーン（灰色）とサドンデスカードの条件を説明できる',
@@ -377,7 +377,7 @@ export const zaiCategory: Category = {
           id: 'z2-3',
           title: 'イベントカードが教える「市場の急変」',
           duration: '9:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             'ZAiゲームの4種類のイベントカードを説明できる',
@@ -456,7 +456,7 @@ export const zaiCategory: Category = {
           id: 'z3-1',
           title: 'ゲームで勝つ戦略——バリュー投資の実践',
           duration: '11:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             'ZAiゲームで勝つための基本戦略を3つ言える',
@@ -522,7 +522,7 @@ export const zaiCategory: Category = {
           id: 'z3-2',
           title: 'ゲーム終了——資産評価と出口戦略',
           duration: '9:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             'ZAiゲームの最終資産評価の計算方法を説明できる',
@@ -588,7 +588,7 @@ export const zaiCategory: Category = {
           id: 'z3-3',
           title: 'ZAiゲームから現実投資へ——つながりと限界',
           duration: '10:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             'ZAiゲームで体験したことと現実の投資の対応を5つ言える',

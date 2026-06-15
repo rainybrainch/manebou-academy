@@ -19,7 +19,7 @@ export const stockIntroCategory: Category = {
           id: 's1-1',
           title: '株式とは「企業の所有権の一部」',
           duration: '10:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             '株式の基本的な定義を説明できる',
@@ -97,7 +97,7 @@ export const stockIntroCategory: Category = {
           id: 's1-2',
           title: '株価はなぜ動くのか',
           duration: '11:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             '需要と供給で株価が決まる仕組みを理解した',
@@ -190,7 +190,7 @@ export const stockIntroCategory: Category = {
           id: 's2-1',
           title: '理論株価 vs 実勢価格（割安の発見）',
           duration: '12:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             '理論株価と実勢価格の違いを説明できる',
@@ -265,7 +265,7 @@ export const stockIntroCategory: Category = {
           id: 's2-2',
           title: 'なぜ割安株を買うのか',
           duration: '10:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             '平均回帰性（Mean Reversion）の概念を理解した',
@@ -352,7 +352,7 @@ export const stockIntroCategory: Category = {
           id: 's3-1',
           title: '自分のリスク許容度を知る',
           duration: '10:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             'リスク許容度の定義を説明できる',
@@ -425,7 +425,7 @@ export const stockIntroCategory: Category = {
           id: 's3-2',
           title: 'なぜ人は損切りできないのか',
           duration: '11:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             'プロスペクト理論（損失回避）を理解した',
@@ -508,7 +508,7 @@ export const stockIntroCategory: Category = {
           id: 's3-3',
           title: '企業が倒産するとき（サドンデス）',
           duration: '9:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             '倒産と株式価値ゼロの関係を理解した',
@@ -593,7 +593,7 @@ export const stockIntroCategory: Category = {
           id: 's4-1',
           title: 'ポートフォリオとは何か',
           duration: '10:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             'ポートフォリオの定義を説明できる',
@@ -668,7 +668,7 @@ export const stockIntroCategory: Category = {
           id: 's4-2',
           title: 'インカムゲインとキャピタルゲイン',
           duration: '10:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             'インカムゲインとキャピタルゲインの違いを説明できる',
@@ -746,7 +746,7 @@ export const stockIntroCategory: Category = {
           id: 's4-3',
           title: '相場を読む：ブル・ベアとトレンド',
           duration: '11:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             'ブル相場・ベア相場の定義を説明できる',
@@ -834,7 +834,7 @@ export const stockIntroCategory: Category = {
           id: 's5-1',
           title: 'インデックス投資とは何か',
           duration: '10:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             'インデックス投資の仕組みを説明できる',
@@ -890,7 +890,7 @@ export const stockIntroCategory: Category = {
           id: 's5-2',
           title: '定期積立の力：ドルコスト平均法',
           duration: '9:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             'ドルコスト平均法の仕組みを説明できる',

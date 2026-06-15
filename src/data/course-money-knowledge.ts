@@ -20,7 +20,7 @@ export const moneyKnowledgeCategory: Category = {
           id: '2-1',
           title: '給料はどこから来るのか',
           duration: '10:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             '給料の原資（付加価値）を説明できる',
@@ -82,7 +82,7 @@ export const moneyKnowledgeCategory: Category = {
           id: '2-2',
           title: '物価が上がるとは（実例で理解）',
           duration: '9:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             'インフレが生活に与える影響を具体的に説明できる',
@@ -145,7 +145,7 @@ export const moneyKnowledgeCategory: Category = {
           id: '2-3',
           title: '家計簿から見える流れ',
           duration: '8:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             '固定費・変動費・特別支出を分類できる',
@@ -200,7 +200,7 @@ export const moneyKnowledgeCategory: Category = {
           id: '2-4',
           title: '収入・支出・貯蓄の関係',
           duration: '9:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             '貯蓄率の計算式を使えるようになった',
@@ -275,7 +275,7 @@ export const moneyKnowledgeCategory: Category = {
           id: '4-1',
           title: 'GDP＝日本の生産量（入門）',
           duration: '10:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             'GDPの定義と計算方法を説明できる',
@@ -339,7 +339,7 @@ export const moneyKnowledgeCategory: Category = {
           id: '4-2',
           title: 'デフレ・インフレとは',
           duration: '10:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             'デフレスパイラルの仕組みを説明できる',
@@ -405,7 +405,7 @@ export const moneyKnowledgeCategory: Category = {
           id: '4-3',
           title: '円安・円高で何が変わるか',
           duration: '10:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             '円安・円高が生活に与える影響を具体的に説明できる',
@@ -474,7 +474,7 @@ export const moneyKnowledgeCategory: Category = {
           id: '4-4',
           title: '働く人が減るとどうなるか',
           duration: '9:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             '少子化が経済成長に与える影響を説明できる',
@@ -545,7 +545,7 @@ export const moneyKnowledgeCategory: Category = {
           id: '5-1',
           title: '予算（政府のお金の使い方）',
           duration: '10:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             '国の予算（歳入・歳出）の構造を説明できる',
@@ -605,7 +605,7 @@ export const moneyKnowledgeCategory: Category = {
           id: '5-2',
           title: '税金は何に使われるか',
           duration: '9:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             '主要な税の種類と使途を説明できる',
@@ -662,7 +662,7 @@ export const moneyKnowledgeCategory: Category = {
           id: '5-3',
           title: '社会保障（年金・医療）の仕組み',
           duration: '11:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             '年金の賦課方式と積立方式の違いを説明できる',
@@ -724,7 +724,7 @@ export const moneyKnowledgeCategory: Category = {
           id: '5-4',
           title: '政治の決定が生活に影響する例',
           duration: '9:00',
-          videoId: 'dQw4w9WgXcQ',
+          videoId: '',
           isPremium: false,
           checkItems: [
             '政策が家計・投資に影響した具体例を3つ挙げられる',
