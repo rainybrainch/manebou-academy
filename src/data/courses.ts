@@ -11,6 +11,7 @@ import { moneyHouseholdCategory } from './course-money-household';
 import { moneyTaxCategory } from './course-money-tax';
 import { moneyInsuranceCategory } from './course-money-insurance';
 import { moneyLifeplanCategory } from './course-money-lifeplan';
+import { examPublicCategory } from './course-exam-public';
 
 const nisaBasicsCategory: Category = {
   id: 'nisa-basics',
@@ -445,6 +446,7 @@ export const categories: Category[] = [
   indexFundsCategory,
   economicsCategory,
   politicsCategory,
+  examPublicCategory,
 ];
 
 export function getCourse(courseId: string) {
