@@ -16,6 +16,7 @@ import { boardgameMonopolyCategory } from './course-boardgame-monopoly';
 import { dividendStocksCategory } from './course-dividend-stocks';
 import { cryptoBasicsCategory } from './course-crypto-basics';
 import { furusatoTaxCategory } from './course-furusato-tax';
+import { freelanceMoneyCategory } from './course-freelance-money';
 
 const nisaBasicsCategory: Category = {
   id: 'nisa-basics',
@@ -545,6 +546,7 @@ export const categories: Category[] = [
   dividendStocksCategory,
   cryptoBasicsCategory,
   furusatoTaxCategory,
+  freelanceMoneyCategory,
 ];
 
 export function getCourse(courseId: string) {
