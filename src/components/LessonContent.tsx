@@ -18,8 +18,8 @@ interface LessonContentProps {
   courseId: string;
   courseTitle: string;
   chapterTitle: string;
-  prev: { lesson: { id: string; title: string }; chapterTitle: string } | null;
-  next: { lesson: { id: string; title: string }; chapterTitle: string } | null;
+  prev: { lesson: { id: string; title: string }; chapterTitle: string; courseId: string } | null;
+  next: { lesson: { id: string; title: string }; chapterTitle: string; courseId: string } | null;
   checkOpen?: boolean;
   onToggleCheck?: () => void;
   outlineOpen?: boolean;
@@ -598,7 +598,7 @@ export default function LessonContent({
         <div className="flex gap-1 shrink-0">
           {prev ? (
             <Link
-              href={`/courses/${courseId}/lessons/${prev.lesson.id}`}
+              href={`/courses/${prev.courseId}/lessons/${prev.lesson.id}`}
               className="w-7 h-7 flex items-center justify-center rounded-lg border-2 transition-all hover:-translate-y-px"
               style={{ borderColor: 'var(--mb-dark)', background: 'var(--mb-cream)', boxShadow: '2px 2px 0 var(--mb-dark)' }}
               title={prev.lesson.title}
@@ -616,7 +616,7 @@ export default function LessonContent({
           )}
           {next ? (
             <Link
-              href={`/courses/${courseId}/lessons/${next.lesson.id}`}
+              href={`/courses/${next.courseId}/lessons/${next.lesson.id}`}
               className="w-7 h-7 flex items-center justify-center rounded-lg border-2 transition-all hover:-translate-y-px"
               style={{ background: 'var(--mb-dark)', borderColor: 'var(--mb-dark)', boxShadow: '2px 2px 0 var(--mb-gold)' }}
               title={next.lesson.title}
@@ -902,7 +902,7 @@ export default function LessonContent({
                 次の講義
               </div>
               <a
-                href={`/courses/${courseId}/lessons/${next.lesson.id}`}
+                href={`/courses/${next.courseId}/lessons/${next.lesson.id}`}
                 className="flex items-center gap-2 p-2.5 rounded-lg transition-all hover:-translate-y-0.5"
                 style={{ background: 'rgba(91,200,232,0.08)', border: '1px solid rgba(91,200,232,0.2)', textDecoration: 'none' }}
               >

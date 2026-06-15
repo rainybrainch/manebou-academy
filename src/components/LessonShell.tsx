@@ -64,6 +64,7 @@ const COMPLETION_QUOTES = [
 interface AdjacentLesson {
   lesson: { id: string; title: string };
   chapterTitle: string;
+  courseId: string;
 }
 
 interface LessonShellProps {
@@ -108,7 +109,7 @@ export default function LessonShell({
   useEffect(() => {
     if (autoNextCount === null || autoNextCount <= 0) {
       if (autoNextCount === 0 && next) {
-        router.push(`/courses/${courseId}/lessons/${next.lesson.id}`);
+        router.push(`/courses/${next.courseId}/lessons/${next.lesson.id}`);
       }
       return;
     }
@@ -132,11 +133,11 @@ export default function LessonShell({
   useSwipe({
     onSwipeLeft: () => {
       if (next && isCompleted(courseId, lesson.id)) {
-        router.push(`/courses/${courseId}/lessons/${next.lesson.id}`);
+        router.push(`/courses/${next.courseId}/lessons/${next.lesson.id}`);
       }
     },
     onSwipeRight: () => {
-      if (prev) router.push(`/courses/${courseId}/lessons/${prev.lesson.id}`);
+      if (prev) router.push(`/courses/${prev.courseId}/lessons/${prev.lesson.id}`);
     },
   });
 
@@ -145,10 +146,10 @@ export default function LessonShell({
       const tag = (e.target as HTMLElement).tagName;
       if (tag === 'INPUT' || tag === 'TEXTAREA') return;
       if (e.key === 'ArrowRight' && next && isCompleted(courseId, lesson.id)) {
-        router.push(`/courses/${courseId}/lessons/${next.lesson.id}`);
+        router.push(`/courses/${next.courseId}/lessons/${next.lesson.id}`);
       }
       if (e.key === 'ArrowLeft' && prev) {
-        router.push(`/courses/${courseId}/lessons/${prev.lesson.id}`);
+        router.push(`/courses/${prev.courseId}/lessons/${prev.lesson.id}`);
       }
       if ((e.key === 'c' || e.key === 'C') && !e.metaKey && !e.ctrlKey && !completed) {
         handleComplete();
@@ -188,7 +189,7 @@ export default function LessonShell({
     playSound();
     try { navigator.vibrate?.([30, 20, 60]); } catch {}
     if (next) {
-      router.push(`/courses/${courseId}/lessons/${next.lesson.id}`);
+      router.push(`/courses/${next.courseId}/lessons/${next.lesson.id}`);
     }
   }
 
@@ -303,7 +304,7 @@ export default function LessonShell({
             {next ? (
               <div className="flex-1 flex items-center gap-2">
                 <button
-                  onClick={() => { setAutoNextCount(null); router.push(`/courses/${courseId}/lessons/${next.lesson.id}`); }}
+                  onClick={() => { setAutoNextCount(null); router.push(`/courses/${next.courseId}/lessons/${next.lesson.id}`); }}
                   className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl border-2 text-sm font-bold transition-all hover:opacity-90 active:scale-95 relative overflow-hidden"
                   style={{
                     background: 'var(--mb-gold)',

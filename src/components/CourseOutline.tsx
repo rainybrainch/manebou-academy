@@ -28,14 +28,20 @@ export default function CourseOutline({ chapters, courseId, currentLessonId, cat
 
   if (!isOpen) return null;
 
-  const allLessons = chapters.flatMap(ch => ch.lessons.filter(l => !l.isComingSoon));
-  const totalCount = allLessons.length;
+  const allLessonsWithChapter = chapters.flatMap(ch =>
+    ch.lessons.filter(l => !l.isComingSoon).map(l => ({ lesson: l, chapterId: ch.id }))
+  );
+  const totalCount = allLessonsWithChapter.length;
   const completedCount = mounted
-    ? allLessons.filter(l => isCompleted(courseId, l.id)).length
+    ? allLessonsWithChapter.filter(({ lesson, chapterId }) => isCompleted(chapterId, lesson.id)).length
     : 0;
   const pct = totalCount > 0 ? Math.round((completedCount / totalCount) * 100) : 0;
 
-  const nextIncomplete = allLessons.find(l => !isCompleted(courseId, l.id));
+  const nextIncompleteEntry = mounted
+    ? allLessonsWithChapter.find(({ lesson, chapterId }) => !isCompleted(chapterId, lesson.id))
+    : undefined;
+  const nextIncomplete = nextIncompleteEntry?.lesson;
+  const nextIncompleteChapterId = nextIncompleteEntry?.chapterId;
 
   // chapter that contains current lesson
   const currentChapterId = chapters.find(ch => ch.lessons.some(l => l.id === currentLessonId))?.id;
@@ -107,7 +113,7 @@ export default function CourseOutline({ chapters, courseId, currentLessonId, cat
         {/* Jump to next */}
         {mounted && nextIncomplete && nextIncomplete.id !== currentLessonId && (
           <Link
-            href={`/courses/${courseId}/lessons/${nextIncomplete.id}`}
+            href={`/courses/${nextIncompleteChapterId}/lessons/${nextIncomplete.id}`}
             onClick={onClose}
             className="flex items-center justify-center gap-2 py-2.5 border-b text-xs font-bold transition-all hover:opacity-80 shrink-0"
             style={{ background: 'rgba(245,200,66,0.1)', borderColor: 'rgba(245,200,66,0.3)', color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
@@ -122,7 +128,7 @@ export default function CourseOutline({ chapters, courseId, currentLessonId, cat
           {chapters.map((chapter) => {
             const isCurrentChapter = chapter.id === currentChapterId;
             const chapterDone = mounted
-              ? chapter.lessons.filter(l => !l.isComingSoon).every(l => isCompleted(courseId, l.id))
+              ? chapter.lessons.filter(l => !l.isComingSoon).every(l => isCompleted(chapter.id, l.id))
               : false;
 
             return (
@@ -161,13 +167,13 @@ export default function CourseOutline({ chapters, courseId, currentLessonId, cat
                 {/* Lessons in this chapter */}
                 {chapter.lessons.map((lesson, idx) => {
                   const isCurrent = lesson.id === currentLessonId;
-                  const done = mounted && !lesson.isComingSoon && isCompleted(courseId, lesson.id);
+                  const done = mounted && !lesson.isComingSoon && isCompleted(chapter.id, lesson.id);
 
                   return (
                     <Link
                       key={lesson.id}
                       ref={isCurrent ? currentRef : undefined}
-                      href={`/courses/${courseId}/lessons/${lesson.id}`}
+                      href={`/courses/${chapter.id}/lessons/${lesson.id}`}
                       onClick={onClose}
                       className="flex items-center gap-3 px-4 py-2.5 transition-colors"
                       style={{
