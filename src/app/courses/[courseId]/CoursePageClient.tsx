@@ -77,6 +77,12 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
         <span>/</span>
         <Link href="/courses" className="hover:underline">コース一覧</Link>
         <span>/</span>
+        {category.topicCategoryId ? (
+          <Link href={`/categories/${category.topicCategoryId}`} className="hover:underline">{category.title}</Link>
+        ) : (
+          <span>{category.title}</span>
+        )}
+        <span>/</span>
         <span style={{ color: 'var(--mb-dark)' }}>{course.title}</span>
       </nav>
 
