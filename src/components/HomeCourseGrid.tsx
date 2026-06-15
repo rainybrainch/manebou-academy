@@ -31,10 +31,8 @@ interface Props {
 }
 
 export default function HomeCourseGrid({ categories }: Props) {
-  // コースが存在するカテゴリのみ表示
-  const activeTopics = topicCategories.filter(tc =>
-    categories.some(c => c.topicCategoryId === tc.id)
-  );
+  // 画像マッピングがあるカテゴリをすべて表示（コースの有無に関わらず）
+  const allTopics = topicCategories.filter(tc => appIconMap[tc.id]);
 
   return (
     <>
@@ -48,28 +46,22 @@ export default function HomeCourseGrid({ categories }: Props) {
 
       {/* アプリアイコングリッド */}
       <div className="grid grid-cols-4 gap-x-3 gap-y-5">
-        {activeTopics.map((tc, i) => {
+        {allTopics.map((tc, i) => {
           const tm = topicMeta[tc.id];
           const iconSrc = appIconMap[tc.id];
+          const hasContent = categories.some(c => c.topicCategoryId === tc.id);
 
-          return (
-            <Link
-              key={tc.id}
-              href={`/categories/${tc.id}`}
-              className="app-icon flex flex-col items-center gap-1.5 transition-transform"
-              style={{
-                animation: `appPop 0.3s ease both`,
-                animationDelay: `${i * 50}ms`,
-              }}
-            >
+          const inner = (
+            <>
               {/* アイコン本体 */}
               <div
-                className="w-full rounded-2xl overflow-hidden border-2 shadow-sm"
+                className="w-full rounded-2xl overflow-hidden border-2 shadow-sm relative"
                 style={{
                   aspectRatio: '1/1',
-                  borderColor: 'rgba(26,26,46,0.08)',
+                  borderColor: hasContent ? 'rgba(26,26,46,0.08)' : 'rgba(26,26,46,0.04)',
                   background: `${tm?.color ?? '#ccc'}22`,
-                  boxShadow: `0 2px 8px ${tm?.color ?? '#ccc'}30`,
+                  boxShadow: hasContent ? `0 2px 8px ${tm?.color ?? '#ccc'}30` : 'none',
+                  opacity: hasContent ? 1 : 0.45,
                 }}
               >
                 {iconSrc ? (
@@ -91,16 +83,55 @@ export default function HomeCourseGrid({ categories }: Props) {
                     {tm?.icon ?? '📚'}
                   </div>
                 )}
+                {/* 準備中バッジ */}
+                {!hasContent && (
+                  <div
+                    className="absolute bottom-1 left-0 right-0 flex justify-center"
+                  >
+                    <span
+                      className="text-[7px] font-bold px-1.5 py-0.5 rounded-full"
+                      style={{
+                        background: 'rgba(0,0,0,0.55)',
+                        color: 'rgba(255,255,255,0.85)',
+                        fontFamily: "'Zen Maru Gothic', sans-serif",
+                      }}
+                    >
+                      準備中
+                    </span>
+                  </div>
+                )}
               </div>
 
               {/* アプリ名 */}
               <span
                 className="text-[10px] font-bold text-center leading-tight"
-                style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                style={{
+                  color: hasContent ? 'var(--mb-dark)' : 'rgba(26,26,46,0.4)',
+                  fontFamily: "'Zen Maru Gothic', sans-serif",
+                }}
               >
                 {tm?.shortName ?? tc.title}
               </span>
+            </>
+          );
+
+          return hasContent ? (
+            <Link
+              key={tc.id}
+              href={`/categories/${tc.id}`}
+              className="app-icon flex flex-col items-center gap-1.5 transition-transform"
+              style={{ animation: `appPop 0.3s ease both`, animationDelay: `${i * 50}ms` }}
+            >
+              {inner}
             </Link>
+          ) : (
+            <div
+              key={tc.id}
+              className="flex flex-col items-center gap-1.5 cursor-default"
+              style={{ animation: `appPop 0.3s ease both`, animationDelay: `${i * 50}ms` }}
+            >
+              {inner}
+            </div>
           );
         })}
       </div>
