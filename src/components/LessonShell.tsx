@@ -15,7 +15,7 @@ import CourseCompleteModal from './CourseCompleteModal';
 import { useProgress } from '@/hooks/useProgress';
 import { useScrollMemory, clearScrollMemory } from '@/hooks/useScrollMemory';
 import { categories } from '@/data/courses';
-import type { Lesson, Course } from '@/types';
+import type { Lesson, Course, ComicData } from '@/types';
 
 const COMPLETION_QUOTES = [
   'その一歩が、資産への道。',
@@ -75,6 +75,7 @@ interface LessonShellProps {
   chapterTitle: string;
   prev: AdjacentLesson | null;
   next: AdjacentLesson | null;
+  comicData?: ComicData | null;
 }
 
 export default function LessonShell({
@@ -86,6 +87,7 @@ export default function LessonShell({
   chapterTitle,
   prev,
   next,
+  comicData,
 }: LessonShellProps) {
   const [checkOpen, setCheckOpen] = useState(false);
   const [outlineOpen, setOutlineOpen] = useState(false);
@@ -262,6 +264,7 @@ export default function LessonShell({
         isCompleted={completed}
         lessonIndex={course.lessons.filter(l => !l.isComingSoon).findIndex(l => l.id === lesson.id)}
         lessonTotal={course.lessons.filter(l => !l.isComingSoon).length}
+        comicData={comicData}
       />
 
       {/* Completion bar — fixed at bottom */}

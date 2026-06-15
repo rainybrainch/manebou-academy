@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { getLesson, getAdjacentLessons } from '@/data/courses';
 import LessonShell from '@/components/LessonShell';
+import { getComic } from '@/lib/comics';
 
 interface Props {
   params: Promise<{ courseId: string; lessonId: string }>;
@@ -35,6 +36,7 @@ export default async function LessonPage({ params }: Props) {
 
   const { lesson, course, category } = result;
   const { prev, next } = getAdjacentLessons(courseId, lessonId);
+  const comicData = getComic(courseId, lessonId);
 
   return (
     <LessonShell
@@ -46,6 +48,7 @@ export default async function LessonPage({ params }: Props) {
       chapterTitle={course.title}
       prev={prev}
       next={next}
+      comicData={comicData}
     />
   );
 }

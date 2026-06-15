@@ -74,3 +74,22 @@ export interface Category {
   topicCategoryId?: string;
   courses: Course[];
 }
+
+// ── 漫画機能 ────────────────────────────────────────────
+
+export type ComicPanel = {
+  role: string;
+  character: string;
+  text: string;
+};
+
+export type ComicData = {
+  title: string;
+  lessonId: string;
+  image: string;
+  panels: ComicPanel[];
+  learning: string[];
+  comicPrompt?: string;
+  generatedAt?: string;
+  imageVersion?: string;
+};

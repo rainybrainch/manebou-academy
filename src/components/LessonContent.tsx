@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
-import { Lesson, LessonSection } from '@/types';
+import { Lesson, LessonSection, ComicData } from '@/types';
 import ShareButton from './ShareButton';
 import { useFontSize } from '@/hooks/useFontSize';
 import LessonNotes from './LessonNotes';
@@ -10,6 +10,7 @@ import LessonLike from './LessonLike';
 import LessonTimer from './LessonTimer';
 import RevealSection from './RevealSection';
 import LessonTOC from './LessonTOC';
+import ComicSection from './lesson/ComicSection';
 
 interface LessonContentProps {
   lesson: Lesson;
@@ -25,6 +26,7 @@ interface LessonContentProps {
   isCompleted?: boolean;
   lessonIndex?: number;
   lessonTotal?: number;
+  comicData?: ComicData | null;
 }
 
 function CheckItemsCard({ items, courseId, lessonId }: { items: string[]; courseId: string; lessonId: string }) {
@@ -518,6 +520,7 @@ export default function LessonContent({
   isCompleted,
   lessonIndex,
   lessonTotal,
+  comicData,
 }: LessonContentProps) {
   const { cycle: cycleFont, cssSize, labelSize } = useFontSize();
 
@@ -778,6 +781,9 @@ export default function LessonContent({
           <div className="xl:hidden">
             <LessonTOC sections={lesson.sections} />
           </div>
+
+          {/* 漫画セクション（comic.jsonが存在する場合のみ） */}
+          {comicData && <ComicSection comic={comicData} />}
 
           {/* Content sections */}
           <div>
