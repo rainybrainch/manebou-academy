@@ -3,6 +3,8 @@ import { moneyKnowledgeCategory } from './course-money-knowledge';
 import { stockIntroCategory } from './course-stock-intro';
 import { zaiCategory } from './course-zai';
 import { moneyBasicsFullCategory } from './course-money-basics-full';
+import { economicsCategory } from './course-economics';
+import { politicsCategory } from './course-politics';
 
 const nisaBasicsCategory: Category = {
   id: 'nisa-basics',
@@ -429,6 +431,8 @@ export const categories: Category[] = [
   zaiCategory,
   stockIntroCategory,
   nisaBasicsCategory,
+  economicsCategory,
+  politicsCategory,
 ];
 
 export function getCourse(courseId: string) {
