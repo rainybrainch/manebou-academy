@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Lesson, LessonSection, ComicData } from '@/types';
 import ShareButton from './ShareButton';
 import { useFontSize } from '@/hooks/useFontSize';
@@ -482,12 +483,15 @@ function SectionRenderer({ section }: { section: LessonSection }) {
             className="rounded-xl overflow-hidden border-2"
             style={{ borderColor: 'rgba(26,26,46,0.12)', boxShadow: '3px 3px 0 rgba(26,26,46,0.08)' }}
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <Image
               src={section.src}
               alt={section.alt}
-              className="w-full block"
-              style={{ objectFit: 'contain', background: 'rgba(26,26,46,0.03)' }}
+              width={800}
+              height={1200}
+              className="w-full h-auto block"
+              style={{ background: 'rgba(26,26,46,0.03)' }}
+              loading="lazy"
+              quality={80}
             />
           </div>
           {section.caption && (
