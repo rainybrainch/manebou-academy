@@ -734,53 +734,7 @@ export default function LessonContent({
             </div>
           )}
 
-          {/* ── 漫画スペース ── manga images displayed first when present */}
-          {mangaImages.length > 0 && (
-            <div className="mb-8 -mx-6">
-              <div
-                className="px-0"
-                style={{ background: 'var(--mb-dark)' }}
-              >
-                {/* Header */}
-                <div className="flex items-center gap-2 px-5 py-3 border-b-2" style={{ borderColor: 'rgba(245,200,66,0.25)' }}>
-                  <span className="text-xs font-bold tracking-[3px]" style={{ color: 'var(--mb-gold)', fontFamily: "'Dela Gothic One', sans-serif" }}>
-                    COMIC
-                  </span>
-                  <span className="text-[10px]" style={{ color: 'rgba(255,255,255,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                    漫画で先取り予習
-                  </span>
-                </div>
-                {/* Manga images */}
-                {mangaImages.map((img, i) => (
-                  <div key={i} className="w-full">
-                    <Image
-                      src={img.src}
-                      alt={img.alt}
-                      width={800}
-                      height={1200}
-                      className="w-full h-auto block"
-                      style={{ display: 'block' }}
-                      loading={i === 0 ? 'eager' : 'lazy'}
-                      quality={85}
-                    />
-                  </div>
-                ))}
-                {/* Footer separator */}
-                <div
-                  className="flex items-center gap-3 px-5 py-3"
-                  style={{ borderTop: '2px solid rgba(245,200,66,0.25)' }}
-                >
-                  <div className="flex-1 h-px" style={{ background: 'rgba(255,255,255,0.08)' }} />
-                  <span className="text-[10px] font-bold" style={{ color: 'rgba(255,255,255,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                    ▼ 講義内容
-                  </span>
-                  <div className="flex-1 h-px" style={{ background: 'rgba(255,255,255,0.08)' }} />
-                </div>
-              </div>
-            </div>
-          )}
-
-          {/* Video player — only shown when there's a real video */}
+          {/* Video player — MOVIE first */}
           {lesson.videoId && (
             <div className="mb-6 rounded-xl overflow-hidden bg-black aspect-video">
               <iframe
@@ -790,6 +744,54 @@ export default function LessonContent({
                 allowFullScreen
                 className="w-full h-full"
               />
+            </div>
+          )}
+
+          {/* ── 漫画スペース ── COMIC below MOVIE, compact 2-column grid */}
+          {mangaImages.length > 0 && (
+            <div className="mb-8 -mx-6">
+              <div
+                className="px-0"
+                style={{ background: 'var(--mb-dark)' }}
+              >
+                {/* Header */}
+                <div className="flex items-center gap-2 px-5 py-2.5 border-b-2" style={{ borderColor: 'rgba(245,200,66,0.25)' }}>
+                  <span className="text-xs font-bold tracking-[3px]" style={{ color: 'var(--mb-gold)', fontFamily: "'Dela Gothic One', sans-serif" }}>
+                    COMIC
+                  </span>
+                  <span className="text-[10px]" style={{ color: 'rgba(255,255,255,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                    漫画で先取り予習
+                  </span>
+                </div>
+                {/* Manga images — 2-column grid to cut scroll height in half */}
+                <div className="grid grid-cols-2">
+                  {mangaImages.map((img, i) => (
+                    <div key={i} className="w-full">
+                      <Image
+                        src={img.src}
+                        alt={img.alt}
+                        width={400}
+                        height={600}
+                        className="w-full h-auto block"
+                        style={{ display: 'block' }}
+                        loading={i === 0 ? 'eager' : 'lazy'}
+                        quality={85}
+                      />
+                    </div>
+                  ))}
+                </div>
+                {/* Footer separator */}
+                <div
+                  className="flex items-center gap-3 px-5 py-2.5"
+                  style={{ borderTop: '2px solid rgba(245,200,66,0.25)' }}
+                >
+                  <div className="flex-1 h-px" style={{ background: 'rgba(255,255,255,0.08)' }} />
+                  <span className="text-[10px] font-bold" style={{ color: 'rgba(255,255,255,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                    ▼ 講義内容
+                  </span>
+                  <div className="flex-1 h-px" style={{ background: 'rgba(255,255,255,0.08)' }} />
+                </div>
+              </div>
             </div>
           )}
 
