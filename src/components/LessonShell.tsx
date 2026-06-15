@@ -265,8 +265,15 @@ export default function LessonShell({
         outlineOpen={outlineOpen}
         onToggleOutline={() => setOutlineOpen(!outlineOpen)}
         isCompleted={completed}
-        lessonIndex={course.lessons.filter(l => !l.isComingSoon).findIndex(l => l.id === lesson.id)}
-        lessonTotal={course.lessons.filter(l => !l.isComingSoon).length}
+        lessonIndex={(() => {
+          const allLessons = (categories.find(c => c.id === categoryId)?.courses ?? [course])
+            .flatMap(ch => ch.lessons.filter(l => !l.isComingSoon));
+          return allLessons.findIndex(l => l.id === lesson.id);
+        })()}
+        lessonTotal={(() => {
+          return (categories.find(c => c.id === categoryId)?.courses ?? [course])
+            .flatMap(ch => ch.lessons.filter(l => !l.isComingSoon)).length;
+        })()}
         comicData={comicData}
       />
 
