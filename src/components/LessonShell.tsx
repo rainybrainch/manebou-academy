@@ -205,6 +205,7 @@ export default function LessonShell({
           categoryId={categoryId}
           nextCourseId={nextCourseInCategory?.id ?? null}
           nextCourseTitle={nextCourseInCategory?.title ?? null}
+          nextFirstLessonId={nextCourseInCategory?.lessons.find(l => !l.isComingSoon)?.id ?? null}
           onClose={() => setShowCourseComplete(false)}
         />
       )}

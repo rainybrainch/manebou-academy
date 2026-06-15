@@ -7,6 +7,7 @@ interface Props {
   categoryId: string;
   nextCourseId?: string | null;
   nextCourseTitle?: string | null;
+  nextFirstLessonId?: string | null;
   onClose: () => void;
 }
 
@@ -54,7 +55,7 @@ const MESSAGES = [
   '勉強した記憶は消えても、考え方は残る。',
 ];
 
-export default function CourseCompleteModal({ courseTitle, categoryId, nextCourseId, nextCourseTitle, onClose }: Props) {
+export default function CourseCompleteModal({ courseTitle, categoryId, nextCourseId, nextCourseTitle, nextFirstLessonId, onClose }: Props) {
   const color = categoryColors[categoryId] ?? 'var(--mb-gold)';
   const msg = MESSAGES[Math.floor(Math.random() * MESSAGES.length)];
 
@@ -138,7 +139,7 @@ export default function CourseCompleteModal({ courseTitle, categoryId, nextCours
         <div className="p-5 space-y-3">
           {nextCourseId ? (
             <Link
-              href={`/courses/${nextCourseId}`}
+              href={nextFirstLessonId ? `/courses/${nextCourseId}/lessons/${nextFirstLessonId}` : `/courses/${nextCourseId}`}
               onClick={onClose}
               className="flex flex-col items-center justify-center gap-0.5 w-full py-3 rounded-xl border-2 text-sm font-bold transition-all hover:-translate-y-0.5"
               style={{
