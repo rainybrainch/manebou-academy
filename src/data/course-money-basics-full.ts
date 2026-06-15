@@ -31,6 +31,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: 'あなたは毎日お金を使っています。でも、「なぜ紙切れにそんな価値があるの？」と考えたことはありますか？この講義では、お金の本当の意味を一緒に考えていきましょう。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch1/mbc-1-1.png',
+              alt: 'お金とは何か――なぜ「紙」に価値があるの？　漫画',
+            },
             { type: 'heading', level: 2, content: 'もしお金がなかったら？' },
             {
               type: 'text',
@@ -94,6 +99,11 @@ export const moneyBasicsFullCategory: Category = {
             {
               type: 'info-box',
               content: 'お金は最初からコインや紙幣だったわけではありません。人類は何千年もかけて、今のお金の形を作り上げてきました。',
+            },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch1/mbc-1-2.png',
+              alt: 'お金の歴史――貝殻から電子マネーまで　漫画',
             },
             { type: 'heading', level: 2, content: 'お金の進化' },
             {
@@ -160,6 +170,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: '現代には「お金」の形がいくつもあります。現金・電子マネー・仮想通貨……どれも「お金」ですが、仕組みも特徴も違います。上手に使い分けることが大切です。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch1/mbc-1-3.png',
+              alt: 'お金の種類――現金・電子マネー・仮想通貨　漫画',
+            },
             { type: 'heading', level: 2, content: '① 現金（紙幣・硬貨）' },
             {
               type: 'text',
@@ -221,6 +236,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: '1万円は1万円……本当にそうでしょうか？実は同じ1万円でも、いつ・どこで・どんな状況で使うかによって、「実際に買えるもの」は大きく変わります。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch1/mbc-1-4.png',
+              alt: 'お金の価値――同じ1万円でも価値は変わる？　漫画',
+            },
             { type: 'heading', level: 2, content: '50年前の1万円で何が買えた？' },
             {
               type: 'text',
@@ -281,6 +301,11 @@ export const moneyBasicsFullCategory: Category = {
             {
               type: 'info-box',
               content: '「最近、物の値段が高くなったなあ」と感じたことはありませんか？チョコレートが昔より小さくなっていたり、ランチが1000円を超えるようになったり。これが「物価」の変化です。',
+            },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch1/mbc-1-5.png',
+              alt: '物価って何？――値段はどうやって決まるの？　漫画',
             },
             { type: 'heading', level: 2, content: '物価とは「値段の平均的な水準」' },
             {
@@ -356,6 +381,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: '毎月の給料・お小遣い・バイト代……これらはすべて「収入」です。でも収入にはいろんな種類があります。収入の全体像を知ることが、お金を管理する第一歩です。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch2/mbc-2-1.png',
+              alt: '収入とは何か――お金はどこから来るの？　漫画',
+            },
             { type: 'heading', level: 2, content: '収入の4つの種類' },
             {
               type: 'numbered-list',
@@ -423,6 +453,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: '収入があっても、出ていくお金の管理ができないと貯まりません。支出を「種類」で分けて理解することが、家計改善の基本です。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch2/mbc-2-2.png',
+              alt: '支出の種類――固定費・変動費・特別支出　漫画',
+            },
             { type: 'heading', level: 2, content: '支出の3分類' },
             {
               type: 'text',
@@ -488,6 +523,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: '「家計簿をつけよう」と思って3日で挫折した経験はありませんか？家計簿は続けることに意味があります。今日は無理なく続けられる方法を学びましょう。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch2/mbc-2-3.png',
+              alt: '家計簿のつけ方――続けるための3つのコツ　漫画',
+            },
             { type: 'heading', level: 2, content: '家計簿をつける目的' },
             {
               type: 'text',
@@ -552,6 +592,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: '「今月こそ貯めよう」と思っても、月末には残高がゼロ……そんな経験はありませんか？実は「余ったら貯める」という方法は、構造的に機能しません。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch2/mbc-2-4.png',
+              alt: '先取り貯蓄――「余ったら貯める」が貯まらない理由　漫画',
+            },
             { type: 'heading', level: 2, content: 'なぜ「余ったら貯める」は失敗するのか' },
             {
               type: 'text',
@@ -614,6 +659,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: '節約は大事。でも節約しすぎると生活の質が下がり、ストレスがたまって逆効果になることもあります。大切なのは「削るべき出費」と「残すべき出費」を見極めることです。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch2/mbc-2-5.png',
+              alt: '節約と消費のバランス――削るべき出費・残すべき出費　漫画',
+            },
             { type: 'heading', level: 2, content: '支出を3種類に分けて考える' },
             {
               type: 'highlight-box',
@@ -672,6 +722,11 @@ export const moneyBasicsFullCategory: Category = {
           ],
           sections: [
             { type: 'info-box', content: '節約には「変動費を我慢する」方法と「固定費を削る」方法があります。毎月の努力が不要な固定費削減の方が、長期的に圧倒的に効果的です。' },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch2/mbc-2-6.png',
+              alt: '固定費を削って貯蓄を加速する　漫画',
+            },
             { type: 'heading', level: 2, content: 'なぜ固定費削減が最強なのか' },
             { type: 'text', content: '食費を月2,000円節約するには毎日の努力が必要です。でも携帯を格安SIMに変えると月3,000円が自動的に節約され、その後は何もしなくて済みます。一度見直すだけで「永続的」に効果が続く——これが固定費削減の強みです。' },
             {
@@ -723,6 +778,11 @@ export const moneyBasicsFullCategory: Category = {
           ],
           sections: [
             { type: 'info-box', content: '投資を始める前に必ずやるべきことがあります。突然の収入減・病気・失業に備えた「生活防衛費」の確保です。' },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch2/mbc-2-7.png',
+              alt: '生活防衛費を確保しよう　漫画',
+            },
             { type: 'heading', level: 2, content: '生活防衛費とは' },
             { type: 'text', content: '生活防衛費とは「何かあったとき、すぐに使える現金」のことです。突然リストラにあっても、病気で働けなくなっても、この資金があれば焦って株を売る必要がなくなります。「投資は余裕資金で」とよく言われますが、その「余裕」を作るための資金が生活防衛費です。' },
             {
@@ -774,6 +834,11 @@ export const moneyBasicsFullCategory: Category = {
             {
               type: 'info-box',
               content: 'この講座では、銀行の基本的な仕組みを学びます。私たちが普段当たり前に使っている銀行が、実はとても面白い「お金の橋渡し役」であることを理解しましょう。',
+            },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch3/mbc-3-1.png',
+              alt: '銀行の仕組み　漫画',
             },
             { type: 'heading', level: 2, content: '銀行は「お金の橋渡し役」' },
             {
@@ -838,6 +903,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: 'この講座では「金利」の基本を学びます。お金を借りたときや預けたときに発生する金利の仕組みを理解することは、賢いお金の使い方の基礎です。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch3/mbc-3-2.png',
+              alt: '金利とは何か　漫画',
+            },
             { type: 'heading', level: 2, content: '金利とは「お金の使用料」' },
             {
               type: 'text',
@@ -897,6 +967,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: 'この講座では「複利」という魔法のような仕組みを学びます。アインシュタインが「世界8番目の不思議」と呼んだとされる複利の力を理解しましょう。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch3/mbc-3-3.png',
+              alt: '複利の力　漫画',
+            },
             { type: 'heading', level: 2, content: '単利 vs 複利' },
             {
               type: 'text',
@@ -951,6 +1026,11 @@ export const moneyBasicsFullCategory: Category = {
             {
               type: 'info-box',
               content: 'この講座では「ローン（借金）」の仕組みを学びます。ローンは使い方次第で有益なツールにも、危険な罠にもなります。正しい知識を身につけましょう。',
+            },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch3/mbc-3-4.png',
+              alt: 'ローン・借金の仕組み　漫画',
             },
             { type: 'heading', level: 2, content: 'ローンとは何か' },
             {
@@ -1017,6 +1097,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: 'この講座では「市場（しじょう）」と「価格」の関係を学びます。なぜりんごは1個100円なのか？なぜマスクがコロナ禍で値上がりしたのか？その仕組みを理解しましょう。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch4/mbc-4-1.png',
+              alt: '市場と価格　漫画',
+            },
             { type: 'heading', level: 2, content: '市場とは「売り手と買い手が出会う場」' },
             {
               type: 'text',
@@ -1071,6 +1156,11 @@ export const moneyBasicsFullCategory: Category = {
             {
               type: 'info-box',
               content: 'この講座では、経済学の根幹「需要と供給」を学びます。この法則を理解すると、日常のあらゆる価格変動のニュースが読めるようになります。',
+            },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch4/mbc-4-2.png',
+              alt: '需要と供給　漫画',
             },
             { type: 'heading', level: 2, content: '需要とは・供給とは' },
             {

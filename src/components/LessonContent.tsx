@@ -487,7 +487,7 @@ function SectionRenderer({ section }: { section: LessonSection }) {
               src={section.src}
               alt={section.alt}
               className="w-full block"
-              style={{ maxHeight: '360px', objectFit: 'contain', background: 'rgba(26,26,46,0.03)' }}
+              style={{ objectFit: 'contain', background: 'rgba(26,26,46,0.03)' }}
             />
           </div>
           {section.caption && (
