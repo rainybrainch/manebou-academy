@@ -528,6 +528,10 @@ export default function LessonContent({
 }: LessonContentProps) {
   const { cycle: cycleFont, cssSize, labelSize } = useFontSize();
 
+  // Separate manga images from other content sections
+  const mangaImages = lesson.sections.filter(s => s.type === 'image') as Extract<import('@/types').LessonSection, { type: 'image' }>[];
+  const contentSections = lesson.sections.filter(s => s.type !== 'image');
+
   // Estimate reading time from section text
   const wordCount = lesson.sections.reduce((acc, s) => {
     const text = 'content' in s ? (s as {content: string}).content
@@ -729,8 +733,54 @@ export default function LessonContent({
             </div>
           )}
 
-          {/* Video player */}
-          {lesson.videoId ? (
+          {/* ── 漫画スペース ── manga images displayed first when present */}
+          {mangaImages.length > 0 && (
+            <div className="mb-8 -mx-6">
+              <div
+                className="px-0"
+                style={{ background: 'var(--mb-dark)' }}
+              >
+                {/* Header */}
+                <div className="flex items-center gap-2 px-5 py-3 border-b-2" style={{ borderColor: 'rgba(245,200,66,0.25)' }}>
+                  <span className="text-xs font-bold tracking-[3px]" style={{ color: 'var(--mb-gold)', fontFamily: "'Dela Gothic One', sans-serif" }}>
+                    COMIC
+                  </span>
+                  <span className="text-[10px]" style={{ color: 'rgba(255,255,255,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                    漫画で先取り予習
+                  </span>
+                </div>
+                {/* Manga images */}
+                {mangaImages.map((img, i) => (
+                  <div key={i} className="w-full">
+                    <Image
+                      src={img.src}
+                      alt={img.alt}
+                      width={800}
+                      height={1200}
+                      className="w-full h-auto block"
+                      style={{ display: 'block' }}
+                      loading={i === 0 ? 'eager' : 'lazy'}
+                      quality={85}
+                    />
+                  </div>
+                ))}
+                {/* Footer separator */}
+                <div
+                  className="flex items-center gap-3 px-5 py-3"
+                  style={{ borderTop: '2px solid rgba(245,200,66,0.25)' }}
+                >
+                  <div className="flex-1 h-px" style={{ background: 'rgba(255,255,255,0.08)' }} />
+                  <span className="text-[10px] font-bold" style={{ color: 'rgba(255,255,255,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                    ▼ 講義内容
+                  </span>
+                  <div className="flex-1 h-px" style={{ background: 'rgba(255,255,255,0.08)' }} />
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Video player — only shown when there's a real video */}
+          {lesson.videoId && (
             <div className="mb-6 rounded-xl overflow-hidden bg-black aspect-video">
               <iframe
                 src={`https://www.youtube.com/embed/${lesson.videoId}`}
@@ -739,26 +789,6 @@ export default function LessonContent({
                 allowFullScreen
                 className="w-full h-full"
               />
-            </div>
-          ) : (
-            <div
-              className="mb-6 rounded-xl overflow-hidden aspect-video flex flex-col items-center justify-center gap-3 border-2"
-              style={{ background: 'var(--mb-dark)', borderColor: 'rgba(245,200,66,0.3)' }}
-            >
-              <div
-                className="w-14 h-14 rounded-full flex items-center justify-center border-2"
-                style={{ background: 'rgba(245,200,66,0.1)', borderColor: 'rgba(245,200,66,0.4)' }}
-              >
-                <svg className="w-6 h-6 ml-0.5" style={{ color: 'var(--mb-gold)' }} fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M8 5v14l11-7z"/>
-                </svg>
-              </div>
-              <p className="text-sm font-bold" style={{ color: 'rgba(255,255,255,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                動画は近日公開予定
-              </p>
-              <p className="text-xs" style={{ color: 'rgba(255,255,255,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                テキスト教材で先に学習できます
-              </p>
             </div>
           )}
 
@@ -789,9 +819,9 @@ export default function LessonContent({
           {/* 漫画セクション（comic.jsonが存在する場合のみ） */}
           {comicData && <ComicSection comic={comicData} />}
 
-          {/* Content sections */}
+          {/* Content sections (image type extracted to manga space above) */}
           <div>
-            {lesson.sections.map((section, i) => (
+            {contentSections.map((section, i) => (
               <RevealSection key={i} delay={Math.min(i * 40, 200)}>
                 <SectionRenderer section={section} />
               </RevealSection>
