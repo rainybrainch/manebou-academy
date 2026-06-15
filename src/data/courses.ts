@@ -405,7 +405,6 @@ const nisaBasicsCategory: Category = {
             {
               type: 'glossary',
               terms: [
-                { term: 'iDeCo', definition: '個人型確定拠出年金。掛金が全額所得控除になり節税効果が高いが、60歳まで引き出せない。' },
                 { term: '所得控除', definition: '課税対象となる所得から一定額を差し引ける制度。控除額が大きいほど税負担が軽くなる。' },
                 { term: 'マッチング拠出', definition: '会社員が企業型DCの掛金に加えて自分でも上乗せ拠出できる制度。節税効果がある。' },
               ],
