@@ -763,22 +763,29 @@ export default function LessonContent({
                     漫画で先取り予習
                   </span>
                 </div>
-                {/* Manga images — 2-column grid to cut scroll height in half */}
+                {/* Manga images — 2-column grid, last panel spans full width if odd */}
                 <div className="grid grid-cols-2">
-                  {mangaImages.map((img, i) => (
-                    <div key={i} className="w-full">
-                      <Image
-                        src={img.src}
-                        alt={img.alt}
-                        width={400}
-                        height={600}
-                        className="w-full h-auto block"
-                        style={{ display: 'block' }}
-                        loading={i === 0 ? 'eager' : 'lazy'}
-                        quality={85}
-                      />
-                    </div>
-                  ))}
+                  {mangaImages.map((img, i) => {
+                    const isLastOdd = mangaImages.length % 2 === 1 && i === mangaImages.length - 1;
+                    return (
+                      <div
+                        key={i}
+                        className={isLastOdd ? 'col-span-2' : ''}
+                        style={{ background: 'var(--mb-dark)' }}
+                      >
+                        <Image
+                          src={img.src}
+                          alt={img.alt}
+                          width={isLastOdd ? 800 : 400}
+                          height={600}
+                          className="w-full h-auto block"
+                          style={{ display: 'block' }}
+                          loading={i === 0 ? 'eager' : 'lazy'}
+                          quality={85}
+                        />
+                      </div>
+                    );
+                  })}
                 </div>
                 {/* Footer separator */}
                 <div
