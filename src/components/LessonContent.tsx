@@ -902,7 +902,7 @@ export default function LessonContent({
                 次の講義
               </div>
               <a
-                href={`/courses/${courseId}/${next.lesson.id}`}
+                href={`/courses/${courseId}/lessons/${next.lesson.id}`}
                 className="flex items-center gap-2 p-2.5 rounded-lg transition-all hover:-translate-y-0.5"
                 style={{ background: 'rgba(91,200,232,0.08)', border: '1px solid rgba(91,200,232,0.2)', textDecoration: 'none' }}
               >

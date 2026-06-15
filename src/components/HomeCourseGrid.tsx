@@ -45,7 +45,7 @@ export default function HomeCourseGrid({ categories }: Props) {
       `}</style>
 
       {/* アプリアイコングリッド */}
-      <div className="grid grid-cols-4 gap-x-3 gap-y-5">
+      <div className="grid grid-cols-3 sm:grid-cols-4 gap-x-3 gap-y-5">
         {allTopics.map((tc, i) => {
           const tm = topicMeta[tc.id];
           const iconSrc = appIconMap[tc.id];
