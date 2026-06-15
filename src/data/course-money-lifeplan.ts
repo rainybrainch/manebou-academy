@@ -6,7 +6,6 @@ export const moneyLifeplanCategory: Category = {
   description: '結婚・住宅・子育て・老後…人生のお金はいつ・いくら必要か。ライフイベントから逆算してお金を準備する方法を学びます。',
   level: '入門',
   topicCategoryId: 'cat-money',
-  image: '/images/courses/money-lifeplan.png',
   courses: [
     // ─────────────────────────────────────────
     // 第1章：人生とお金のタイムライン

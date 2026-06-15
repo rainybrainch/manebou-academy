@@ -6,7 +6,6 @@ export const cryptoBasicsCategory: Category = {
   description: 'ビットコインから始まるブロックチェーンの世界。仕組み・リスク・投資法を正しく理解する。',
   level: '基礎',
   topicCategoryId: 'cat-investment',
-  image: '/images/courses/crypto-basics.png',
   courses: [
     {
       id: 'cry-ch1',

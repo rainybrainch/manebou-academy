@@ -6,7 +6,6 @@ export const dividendStocksCategory: Category = {
   description: '株の配当金でキャッシュフローを作る「配当投資」の基礎を学びます。配当利回り・配当性向・増配株の見つけ方まで、インカムゲイン投資の全体像を解説します。',
   level: '基礎',
   topicCategoryId: 'cat-investment',
-  image: '/images/courses/dividend-stocks.png',
   courses: [
     // ─────────────────────────────────────────
     // 第1章：配当投資の基本

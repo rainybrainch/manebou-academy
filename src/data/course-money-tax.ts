@@ -6,7 +6,6 @@ export const moneyTaxCategory: Category = {
   description: '所得税・消費税・住民税のしくみから節税まで。知らないと損する税の知識を体系的に学びます。',
   level: '基礎',
   topicCategoryId: 'cat-money',
-  image: '/images/courses/money-tax.png',
   courses: [
     // ─────────────────────────────────────────
     // 第1章：税金の種類と仕組み

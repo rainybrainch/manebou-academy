@@ -13,11 +13,26 @@ import AnimatedCollapse from '@/components/AnimatedCollapse';
 
 // コース（Category）ごとのアイコン・カラー
 const courseMeta: Record<string, { icon: string; color: string }> = {
-  'money-basics-full': { icon: '💴', color: '#5BC8E8' },
-  'money-knowledge':   { icon: '🌐', color: '#9B6DD6' },
-  'zai-course':        { icon: '🎲', color: '#F5C842' },
-  'stock-intro':       { icon: '📈', color: '#4CAF7D' },
-  'nisa-basics':       { icon: '🏦', color: '#E8354A' },
+  'money-basics-full':     { icon: '💴', color: '#5BC8E8' },
+  'money-knowledge':       { icon: '🌐', color: '#9B6DD6' },
+  'money-household':       { icon: '🏠', color: '#5BC8E8' },
+  'money-tax':             { icon: '📋', color: '#5BC8E8' },
+  'money-insurance':       { icon: '🛡️', color: '#5BC8E8' },
+  'money-lifeplan':        { icon: '🗺️', color: '#9B6DD6' },
+  'furusato-tax':          { icon: '🎁', color: '#4CAF7D' },
+  'freelance-money':       { icon: '💼', color: '#5BC8E8' },
+  'zai-course':            { icon: '🎲', color: '#F5C842' },
+  'boardgame-monopoly':    { icon: '🎯', color: '#F5C842' },
+  'stock-intro':           { icon: '📈', color: '#4CAF7D' },
+  'nisa-basics':           { icon: '🏦', color: '#E8354A' },
+  'investment-advanced':   { icon: '🏗️', color: '#4CAF7D' },
+  'index-funds':           { icon: '📊', color: '#4CAF7D' },
+  'dividend-stocks':       { icon: '💰', color: '#4CAF7D' },
+  'crypto-basics':         { icon: '₿', color: '#F5A623' },
+  'economics':             { icon: '🌐', color: '#9B6DD6' },
+  'fx-forex':              { icon: '💱', color: '#9B6DD6' },
+  'politics':              { icon: '🏛️', color: '#9B6DD6' },
+  'exam-public':           { icon: '📝', color: '#E8354A' },
 };
 
 // カテゴリ（TopicCategory）のアイコン・カラー

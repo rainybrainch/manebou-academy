@@ -6,7 +6,6 @@ export const examPublicCategory: Category = {
   description: '共通テスト「公共」「政治経済」の頻出テーマを完全網羅。基本的人権・民主主義・市場経済・国際社会まで、試験で点が取れる知識を体系的に学びます。',
   level: '応用',
   topicCategoryId: 'cat-exam-public',
-  image: '/images/courses/exam-public.png',
   courses: [
     // ─────────────────────────────────────────
     // 第1章：基本的人権と日本国憲法

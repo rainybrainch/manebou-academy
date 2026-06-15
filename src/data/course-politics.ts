@@ -6,7 +6,6 @@ export const politicsCategory: Category = {
   description: '選挙・税制・社会保障・国会の仕組みまで。暮らしに直結する政治とお金の話を分かりやすく解説します。',
   level: '基礎',
   topicCategoryId: 'cat-politics',
-  image: '/images/courses/politics.png',
   courses: [
     // ─────────────────────────────────────────
     // 第1章：日本の政治の仕組み

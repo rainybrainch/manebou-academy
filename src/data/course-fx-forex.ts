@@ -6,7 +6,6 @@ export const fxForexCategory: Category = {
   description: '1ドル100円？150円？為替レートが私たちの生活にどう影響するか。FX投資の仕組みとリスクも正確に理解する。',
   level: '基礎',
   topicCategoryId: 'cat-economics',
-  image: '/images/courses/fx-forex.png',
   courses: [
     {
       id: 'fx-ch1',

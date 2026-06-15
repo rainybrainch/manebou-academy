@@ -6,7 +6,6 @@ export const boardgameMonopolyCategory: Category = {
   description: 'あの人気ボードゲーム「モノポリー」を題材に、不動産投資・独占・キャッシュフローなどの経済概念を体験的に理解します。ゲームで遊んだことがある人も、初めての人も楽しく学べます。',
   level: '入門',
   topicCategoryId: 'cat-boardgame',
-  image: '/images/courses/boardgame-monopoly.png',
   courses: [
     // ─────────────────────────────────────────
     // 第1章：モノポリーのルールと経済のしくみ

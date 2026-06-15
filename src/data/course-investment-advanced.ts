@@ -6,7 +6,6 @@ export const investmentAdvancedCategory: Category = {
   description: 'NISAの次のステップ。iDeCo・債券・不動産投資・リスク管理まで、資産形成を実践レベルで学ぶコース。',
   level: '応用',
   topicCategoryId: 'cat-investment',
-  image: '/images/courses/investment-advanced.png',
   courses: [
     // ─────────────────────────────────────────
     // 第1章：iDeCo（個人型確定拠出年金）

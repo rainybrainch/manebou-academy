@@ -6,7 +6,6 @@ export const moneyHouseholdCategory: Category = {
   description: '収入・支出の把握から先取り貯蓄まで。毎月のお金の流れをコントロールする実践的な方法を学びます。',
   level: '入門',
   topicCategoryId: 'cat-money',
-  image: '/images/courses/money-household.png',
   courses: [
     // ─────────────────────────────────────────
     // 第1章：収入と支出を把握する

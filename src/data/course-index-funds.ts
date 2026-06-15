@@ -6,7 +6,6 @@ export const indexFundsCategory: Category = {
   description: 'NISAで何を買うか迷っている人へ。S&P500・全世界株・eMAXIS Slimなど人気ファンドの選び方を完全解説。',
   level: '入門',
   topicCategoryId: 'cat-investment',
-  image: '/images/courses/index-funds.png',
   courses: [
     // ─────────────────────────────────────────
     // 第1章：投資信託の基本

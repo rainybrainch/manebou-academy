@@ -6,7 +6,6 @@ export const freelanceMoneyCategory: Category = {
   description: '会社員の副業から個人事業主まで。確定申告・節税・社会保険の全体像を整理して「手元に残るお金」を最大化する。',
   level: '基礎',
   topicCategoryId: 'cat-money',
-  image: '/images/courses/freelance-money.png',
   courses: [
     {
       id: 'free-ch1',
