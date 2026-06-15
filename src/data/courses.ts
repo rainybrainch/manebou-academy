@@ -5,6 +5,7 @@ import { zaiCategory } from './course-zai';
 import { moneyBasicsFullCategory } from './course-money-basics-full';
 import { economicsCategory } from './course-economics';
 import { politicsCategory } from './course-politics';
+import { investmentAdvancedCategory } from './course-investment-advanced';
 
 const nisaBasicsCategory: Category = {
   id: 'nisa-basics',
@@ -431,6 +432,7 @@ export const categories: Category[] = [
   zaiCategory,
   stockIntroCategory,
   nisaBasicsCategory,
+  investmentAdvancedCategory,
   economicsCategory,
   politicsCategory,
 ];
