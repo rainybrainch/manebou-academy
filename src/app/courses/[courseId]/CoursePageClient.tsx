@@ -169,19 +169,27 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
                 <span className="text-3xl shrink-0">🏆</span>
                 <div className="flex-1 min-w-0">
                   <div className="text-sm font-bold" style={{ color: 'var(--mb-gold)', fontFamily: "'Dela Gothic One', sans-serif" }}>
-                    完全制覇！
+                    {nextCourse ? '完全制覇！' : 'コース完全制覇！'}
                   </div>
                   <div className="text-[10px] mt-0.5" style={{ color: 'rgba(255,255,255,0.55)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
                     全{availableCount}講義クリア ⭐⭐⭐
                   </div>
                 </div>
-                {nextCourse && (
+                {nextCourse ? (
                   <Link
                     href={`/courses/${nextCourse.id}`}
                     className="shrink-0 text-[10px] font-bold px-3 py-1.5 rounded-lg border transition-all hover:opacity-90"
                     style={{ background: 'var(--mb-gold)', borderColor: 'var(--mb-gold)', color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
                   >
                     次の章へ →
+                  </Link>
+                ) : (
+                  <Link
+                    href={category.topicCategoryId ? `/categories/${category.topicCategoryId}` : '/courses'}
+                    className="shrink-0 text-[10px] font-bold px-3 py-1.5 rounded-lg border transition-all hover:opacity-90"
+                    style={{ background: 'var(--mb-gold)', borderColor: 'var(--mb-gold)', color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                  >
+                    コース一覧へ →
                   </Link>
                 )}
               </div>

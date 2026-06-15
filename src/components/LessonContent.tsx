@@ -570,10 +570,11 @@ export default function LessonContent({
         <nav className="flex items-center gap-1 flex-1 min-w-0 overflow-hidden">
           <Link
             href={`/courses/${courseId}`}
-            className="shrink-0 text-[10px] font-bold hover:opacity-70 transition-opacity hidden sm:block"
+            className="shrink-0 text-[10px] font-bold hover:opacity-70 transition-opacity hidden sm:block max-w-[160px] truncate"
             style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+            title={chapterTitle}
           >
-            ←コース
+            ←{chapterTitle}
           </Link>
           <span className="hidden sm:block text-[10px]" style={{ color: 'rgba(26,26,46,0.2)' }}>/</span>
           <span
