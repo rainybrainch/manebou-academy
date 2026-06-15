@@ -33,7 +33,7 @@ export const moneyBasicsFullCategory: Category = {
             },
             {
               type: 'image',
-              src: '/comics/mbc-ch1/mbc-1-1.png',
+              src: '/comics/mbc-ch1/mbc-1-1.webp',
               alt: 'お金とは何か――なぜ「紙」に価値があるの？　漫画',
             },
             { type: 'heading', level: 2, content: 'もしお金がなかったら？' },
@@ -102,7 +102,7 @@ export const moneyBasicsFullCategory: Category = {
             },
             {
               type: 'image',
-              src: '/comics/mbc-ch1/mbc-1-2.png',
+              src: '/comics/mbc-ch1/mbc-1-2.webp',
               alt: 'お金の歴史――貝殻から電子マネーまで　漫画',
             },
             { type: 'heading', level: 2, content: 'お金の進化' },
@@ -172,7 +172,7 @@ export const moneyBasicsFullCategory: Category = {
             },
             {
               type: 'image',
-              src: '/comics/mbc-ch1/mbc-1-3.png',
+              src: '/comics/mbc-ch1/mbc-1-3.webp',
               alt: 'お金の種類――現金・電子マネー・仮想通貨　漫画',
             },
             { type: 'heading', level: 2, content: '① 現金（紙幣・硬貨）' },
@@ -238,7 +238,7 @@ export const moneyBasicsFullCategory: Category = {
             },
             {
               type: 'image',
-              src: '/comics/mbc-ch1/mbc-1-4.png',
+              src: '/comics/mbc-ch1/mbc-1-4.webp',
               alt: 'お金の価値――同じ1万円でも価値は変わる？　漫画',
             },
             { type: 'heading', level: 2, content: '50年前の1万円で何が買えた？' },
@@ -304,7 +304,7 @@ export const moneyBasicsFullCategory: Category = {
             },
             {
               type: 'image',
-              src: '/comics/mbc-ch1/mbc-1-5.png',
+              src: '/comics/mbc-ch1/mbc-1-5.webp',
               alt: '物価って何？――値段はどうやって決まるの？　漫画',
             },
             { type: 'heading', level: 2, content: '物価とは「値段の平均的な水準」' },
@@ -383,7 +383,7 @@ export const moneyBasicsFullCategory: Category = {
             },
             {
               type: 'image',
-              src: '/comics/mbc-ch2/mbc-2-1.png',
+              src: '/comics/mbc-ch2/mbc-2-1.webp',
               alt: '収入とは何か――お金はどこから来るの？　漫画',
             },
             { type: 'heading', level: 2, content: '収入の4つの種類' },
@@ -455,7 +455,7 @@ export const moneyBasicsFullCategory: Category = {
             },
             {
               type: 'image',
-              src: '/comics/mbc-ch2/mbc-2-2.png',
+              src: '/comics/mbc-ch2/mbc-2-2.webp',
               alt: '支出の種類――固定費・変動費・特別支出　漫画',
             },
             { type: 'heading', level: 2, content: '支出の3分類' },
@@ -525,7 +525,7 @@ export const moneyBasicsFullCategory: Category = {
             },
             {
               type: 'image',
-              src: '/comics/mbc-ch2/mbc-2-3.png',
+              src: '/comics/mbc-ch2/mbc-2-3.webp',
               alt: '家計簿のつけ方――続けるための3つのコツ　漫画',
             },
             { type: 'heading', level: 2, content: '家計簿をつける目的' },
@@ -594,7 +594,7 @@ export const moneyBasicsFullCategory: Category = {
             },
             {
               type: 'image',
-              src: '/comics/mbc-ch2/mbc-2-4.png',
+              src: '/comics/mbc-ch2/mbc-2-4.webp',
               alt: '先取り貯蓄――「余ったら貯める」が貯まらない理由　漫画',
             },
             { type: 'heading', level: 2, content: 'なぜ「余ったら貯める」は失敗するのか' },
@@ -661,7 +661,7 @@ export const moneyBasicsFullCategory: Category = {
             },
             {
               type: 'image',
-              src: '/comics/mbc-ch2/mbc-2-5.png',
+              src: '/comics/mbc-ch2/mbc-2-5.webp',
               alt: '節約と消費のバランス――削るべき出費・残すべき出費　漫画',
             },
             { type: 'heading', level: 2, content: '支出を3種類に分けて考える' },
@@ -724,7 +724,7 @@ export const moneyBasicsFullCategory: Category = {
             { type: 'info-box', content: '節約には「変動費を我慢する」方法と「固定費を削る」方法があります。毎月の努力が不要な固定費削減の方が、長期的に圧倒的に効果的です。' },
             {
               type: 'image',
-              src: '/comics/mbc-ch2/mbc-2-6.png',
+              src: '/comics/mbc-ch2/mbc-2-6.webp',
               alt: '固定費を削って貯蓄を加速する　漫画',
             },
             { type: 'heading', level: 2, content: 'なぜ固定費削減が最強なのか' },
@@ -780,7 +780,7 @@ export const moneyBasicsFullCategory: Category = {
             { type: 'info-box', content: '投資を始める前に必ずやるべきことがあります。突然の収入減・病気・失業に備えた「生活防衛費」の確保です。' },
             {
               type: 'image',
-              src: '/comics/mbc-ch2/mbc-2-7.png',
+              src: '/comics/mbc-ch2/mbc-2-7.webp',
               alt: '生活防衛費を確保しよう　漫画',
             },
             { type: 'heading', level: 2, content: '生活防衛費とは' },
@@ -837,7 +837,7 @@ export const moneyBasicsFullCategory: Category = {
             },
             {
               type: 'image',
-              src: '/comics/mbc-ch3/mbc-3-1.png',
+              src: '/comics/mbc-ch3/mbc-3-1.webp',
               alt: '銀行の仕組み　漫画',
             },
             { type: 'heading', level: 2, content: '銀行は「お金の橋渡し役」' },
@@ -905,7 +905,7 @@ export const moneyBasicsFullCategory: Category = {
             },
             {
               type: 'image',
-              src: '/comics/mbc-ch3/mbc-3-2.png',
+              src: '/comics/mbc-ch3/mbc-3-2.webp',
               alt: '金利とは何か　漫画',
             },
             { type: 'heading', level: 2, content: '金利とは「お金の使用料」' },
@@ -969,7 +969,7 @@ export const moneyBasicsFullCategory: Category = {
             },
             {
               type: 'image',
-              src: '/comics/mbc-ch3/mbc-3-3.png',
+              src: '/comics/mbc-ch3/mbc-3-3.webp',
               alt: '複利の力　漫画',
             },
             { type: 'heading', level: 2, content: '単利 vs 複利' },
@@ -1029,7 +1029,7 @@ export const moneyBasicsFullCategory: Category = {
             },
             {
               type: 'image',
-              src: '/comics/mbc-ch3/mbc-3-4.png',
+              src: '/comics/mbc-ch3/mbc-3-4.webp',
               alt: 'ローン・借金の仕組み　漫画',
             },
             { type: 'heading', level: 2, content: 'ローンとは何か' },
@@ -1099,7 +1099,7 @@ export const moneyBasicsFullCategory: Category = {
             },
             {
               type: 'image',
-              src: '/comics/mbc-ch4/mbc-4-1.png',
+              src: '/comics/mbc-ch4/mbc-4-1.webp',
               alt: '市場と価格　漫画',
             },
             { type: 'heading', level: 2, content: '市場とは「売り手と買い手が出会う場」' },
@@ -1159,7 +1159,7 @@ export const moneyBasicsFullCategory: Category = {
             },
             {
               type: 'image',
-              src: '/comics/mbc-ch4/mbc-4-2.png',
+              src: '/comics/mbc-ch4/mbc-4-2.webp',
               alt: '需要と供給　漫画',
             },
             { type: 'heading', level: 2, content: '需要とは・供給とは' },
@@ -1217,6 +1217,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: 'この講座では「インフレ（物価上昇）」と「デフレ（物価下落）」を学びます。これを理解すると、なぜ「銀行に預けるだけではお金が目減りするのか」がわかります。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch4/mbc-4-3.webp',
+              alt: 'インフレ・デフレ　漫画',
+            },
             { type: 'heading', level: 2, content: 'インフレとは' },
             {
               type: 'text',
@@ -1271,6 +1276,11 @@ export const moneyBasicsFullCategory: Category = {
             {
               type: 'info-box',
               content: 'この講座では「GDP（国内総生産）」を学びます。ニュースで「日本のGDPが世界4位に」などと出てきますが、GDPとは一体何を測っているのでしょうか？',
+            },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch4/mbc-4-4.webp',
+              alt: 'GDPとは何か　漫画',
             },
             { type: 'heading', level: 2, content: 'GDPとは「経済の年収」' },
             {
@@ -1328,6 +1338,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: 'この講座では「景気循環」を学びます。景気はずっと良いままでも悪いままでもありません。波のように繰り返すこのリズムを理解すると、投資の判断力が養われます。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch4/mbc-4-5.webp',
+              alt: '景気循環　漫画',
+            },
             { type: 'heading', level: 2, content: '景気循環の4つの局面' },
             {
               type: 'text',
@@ -1384,6 +1399,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: 'この講座では「為替レート」を学びます。「1ドル＝150円」「円安」などのニュースが理解でき、海外旅行・輸入品の価格・投資への影響がわかるようになります。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch4/mbc-4-6.webp',
+              alt: '為替レート　漫画',
+            },
             { type: 'heading', level: 2, content: '為替レートとは' },
             {
               type: 'text',
@@ -1438,6 +1458,11 @@ export const moneyBasicsFullCategory: Category = {
             {
               type: 'info-box',
               content: 'この講座では「税金」の基本を学びます。なぜ税金を払うのか、どんな種類があるのか、そして私たちの生活にどう役立っているのかを理解しましょう。',
+            },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch4/mbc-4-7.webp',
+              alt: '税金の仕組み　漫画',
             },
             { type: 'heading', level: 2, content: '税金とは「社会の会費」' },
             {
@@ -1502,6 +1527,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: 'この講座では「株式」の基本を学びます。ZAiゲームで銘柄を買う体験と連動しています。株を買うとは何をしていることなのか、しっかり理解しましょう。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch5/mbc-5-1.webp',
+              alt: '株式とは　漫画',
+            },
             { type: 'heading', level: 2, content: '株式とは「会社の小さな所有権」' },
             {
               type: 'text',
@@ -1557,6 +1587,11 @@ export const moneyBasicsFullCategory: Category = {
             {
               type: 'info-box',
               content: 'この講座では「株主の権利」を学びます。ZAiゲームで銘柄を買った後に発生する特典は、現実の株主権利に対応しています。',
+            },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch5/mbc-5-2.webp',
+              alt: '株主の権利　漫画',
             },
             { type: 'heading', level: 2, content: '株主に与えられる3つの権利' },
             {
@@ -1618,6 +1653,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: 'この講座では「配当」の仕組みを学びます。ZAiゲームで安定業種から毎ターン配当を受け取る体験は、現実の配当株投資に対応しています。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch5/mbc-5-3.webp',
+              alt: '配当とは何か　漫画',
+            },
             { type: 'heading', level: 2, content: '配当とは会社の「利益の分け前」' },
             {
               type: 'text',
@@ -1678,6 +1718,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: 'この講座では「業種・セクター分類」を学びます。ZAiの「変動・普通・安定」の3業種分類は、現実の株式市場のセクター分類に基づいています。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch5/mbc-5-4.webp',
+              alt: '業種・セクター分類　漫画',
+            },
             { type: 'heading', level: 2, content: '株式市場は業種で分類される' },
             {
               type: 'text',
@@ -1733,6 +1778,11 @@ export const moneyBasicsFullCategory: Category = {
             {
               type: 'info-box',
               content: 'この講座では「株価の動き」を学びます。ZAiのイベントカードで株価が変動する体験は、現実の株価変動のメカニズムを体感しています。',
+            },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch5/mbc-5-5.webp',
+              alt: '株価の動きと要因　漫画',
             },
             { type: 'heading', level: 2, content: '株価を動かす要因' },
             {
@@ -1794,6 +1844,11 @@ export const moneyBasicsFullCategory: Category = {
             {
               type: 'info-box',
               content: 'この講座では「リスクとリターン」の関係を学びます。ZAiで変動業種（高リスク）と安定業種（低リスク）を使い分ける判断は、現実の投資判断と同じ思考です。',
+            },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch5/mbc-5-6.webp',
+              alt: 'リスクとリターン　漫画',
             },
             { type: 'heading', level: 2, content: 'リスクとリターンは表裏一体' },
             {
