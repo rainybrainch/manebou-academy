@@ -31,8 +31,8 @@ interface Props {
 }
 
 export default function HomeCourseGrid({ categories }: Props) {
-  // 画像マッピングがあるカテゴリをすべて表示（コースの有無に関わらず）
-  const allTopics = topicCategories.filter(tc => appIconMap[tc.id]);
+  // 全カテゴリを表示（画像がないものは絵文字フォールバック）
+  const allTopics = topicCategories;
 
   return (
     <>

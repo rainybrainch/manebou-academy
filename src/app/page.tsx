@@ -77,8 +77,26 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* ── はじめての方へ（初回のみ） ── */}
-      <FirstVisitGuide />
+      {/* ── カテゴリグリッド ── */}
+      <div>
+        <div className="flex items-center justify-between mb-3">
+          <div className="flex items-center gap-2">
+            <div className="w-1.5 h-4 rounded-full" style={{ background: '#4CAF7D' }} />
+            <h2 className="text-sm font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+              COURSES
+            </h2>
+          </div>
+          <Link
+            href="/courses"
+            className="text-xs font-bold hover:underline"
+            style={{ color: 'var(--mb-sky)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+          >
+            すべて見る →
+          </Link>
+        </div>
+
+        <HomeCourseGrid categories={categories} />
+      </div>
 
       {/* ── 全講義制覇 ── */}
       <AllCoursesComplete />
@@ -135,26 +153,8 @@ export default function HomePage() {
       {/* ── 最近完了した講義 ── */}
       <RecentLessons />
 
-      {/* ── カテゴリグリッド ── */}
-      <div>
-        <div className="flex items-center justify-between mb-3">
-          <div className="flex items-center gap-2">
-            <div className="w-1.5 h-4 rounded-full" style={{ background: '#4CAF7D' }} />
-            <h2 className="text-sm font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-              COURSES
-            </h2>
-          </div>
-          <Link
-            href="/courses"
-            className="text-xs font-bold hover:underline"
-            style={{ color: 'var(--mb-sky)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
-          >
-            すべて見る →
-          </Link>
-        </div>
-
-        <HomeCourseGrid categories={categories} />
-      </div>
+      {/* ── はじめての方へ（トグル） ── */}
+      <FirstVisitGuide />
 
     </div>
   );
