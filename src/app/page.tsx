@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { categories } from '@/data/courses';
+import { topicCategories } from '@/data/structure';
 import HomeStats from '@/components/HomeStats';
 import NextLessonCard from '@/components/NextLessonCard';
 import MilestoneCard from '@/components/MilestoneCard';
@@ -70,7 +71,7 @@ export default function HomePage() {
             className="text-xs leading-relaxed"
             style={{ color: 'rgba(255,255,255,0.55)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
           >
-            お金の基本から資産形成まで。全{categories.length}カテゴリ・{totalLessons}講義を楽しく学ぼう。
+            お金の基本から資産形成まで。全{topicCategories.length}ジャンル・{totalLessons}講義を楽しく学ぼう。
           </p>
 
           <HeroCtaButton />
