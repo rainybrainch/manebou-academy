@@ -332,14 +332,19 @@ export default function LessonShell({
                       }}
                     />
                   )}
-                  <span className="relative z-10 flex items-center gap-2">
-                    次の講義へ
-                    {autoNextCount !== null && autoNextCount > 0 && (
-                      <span className="text-[11px] font-bold opacity-70">{autoNextCount}</span>
+                  <span className="relative z-10 flex flex-col items-center gap-0.5">
+                    <span className="flex items-center gap-2">
+                      次の講義へ
+                      {autoNextCount !== null && autoNextCount > 0 && (
+                        <span className="text-[11px] font-bold opacity-70">{autoNextCount}</span>
+                      )}
+                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+                      </svg>
+                    </span>
+                    {next.chapterTitle !== chapterTitle && (
+                      <span className="text-[9px] font-normal opacity-60">次の章: {next.chapterTitle}</span>
                     )}
-                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
-                    </svg>
                   </span>
                 </button>
                 {autoNextCount !== null && (

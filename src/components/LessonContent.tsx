@@ -903,13 +903,20 @@ export default function LessonContent({
               </div>
               <a
                 href={`/courses/${next.courseId}/lessons/${next.lesson.id}`}
-                className="flex items-center gap-2 p-2.5 rounded-lg transition-all hover:-translate-y-0.5"
+                className="flex flex-col gap-1 p-2.5 rounded-lg transition-all hover:-translate-y-0.5"
                 style={{ background: 'rgba(91,200,232,0.08)', border: '1px solid rgba(91,200,232,0.2)', textDecoration: 'none' }}
               >
-                <span className="text-sm">→</span>
-                <span className="text-[11px] leading-snug flex-1" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif", fontWeight: 600 }}>
-                  {next.lesson.title}
-                </span>
+                {next.chapterTitle !== chapterTitle && (
+                  <span className="text-[9px] font-bold" style={{ color: 'var(--mb-sky)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                    次の章: {next.chapterTitle}
+                  </span>
+                )}
+                <div className="flex items-center gap-2">
+                  <span className="text-sm">→</span>
+                  <span className="text-[11px] leading-snug flex-1" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif", fontWeight: 600 }}>
+                    {next.lesson.title}
+                  </span>
+                </div>
               </a>
             </div>
           )}
