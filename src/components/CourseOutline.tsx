@@ -7,14 +7,13 @@ import type { Course } from '@/types';
 
 interface Props {
   chapters: Course[];
-  courseId: string;
   currentLessonId: string;
   categoryTitle: string;
   isOpen: boolean;
   onClose: () => void;
 }
 
-export default function CourseOutline({ chapters, courseId, currentLessonId, categoryTitle, isOpen, onClose }: Props) {
+export default function CourseOutline({ chapters, currentLessonId, categoryTitle, isOpen, onClose }: Props) {
   const { isCompleted, mounted } = useProgress();
   const currentRef = useRef<HTMLAnchorElement>(null);
 

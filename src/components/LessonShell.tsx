@@ -423,7 +423,6 @@ export default function LessonShell({
       />
       <CourseOutline
         chapters={categories.find(c => c.id === categoryId)?.courses ?? [course]}
-        courseId={courseId}
         currentLessonId={lesson.id}
         categoryTitle={courseTitle}
         isOpen={outlineOpen}
