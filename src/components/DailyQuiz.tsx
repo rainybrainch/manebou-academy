@@ -349,6 +349,7 @@ export default function DailyQuiz() {
   const [totals, setTotals] = useState<Reactions>({ knew: 0, learned: 0 });
   const [answeredToday, setAnsweredToday] = useState(false);
   const [quizStreak, setQuizStreak] = useState(0);
+  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     if (!mounted) return;
@@ -370,7 +371,15 @@ export default function DailyQuiz() {
   function nextQuiz() {
     setRevealed(false);
     setReacted(null);
+    setCopied(false);
     setOffset(o => o + 1);
+  }
+
+  function copyQA() {
+    navigator.clipboard.writeText(`Q: ${quiz.question}\nA: ${quiz.answer}`).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1500);
+    }).catch(() => {});
   }
 
   function react(type: 'knew' | 'learned') {
@@ -412,7 +421,7 @@ export default function DailyQuiz() {
         </span>
         {total > 0 ? (
           <div className="ml-auto flex items-center gap-1.5">
-            {quizStreak >= 2 && (
+            {quizStreak >= 1 && (
               <span
                 className="text-[9px] font-bold px-1.5 py-0.5 rounded-full"
                 style={{ background: 'rgba(232,53,74,0.25)', color: '#E8354A', fontFamily: "'Dela Gothic One', sans-serif" }}
@@ -551,18 +560,32 @@ export default function DailyQuiz() {
               </div>
             )}
 
-            <button
-              onClick={nextQuiz}
-              className="w-full py-2 rounded-xl border text-xs font-bold transition-all hover:opacity-80"
-              style={{
-                background: 'transparent',
-                borderColor: 'rgba(26,26,46,0.15)',
-                color: 'rgba(26,26,46,0.45)',
-                fontFamily: "'Zen Maru Gothic', sans-serif",
-              }}
-            >
-              もう一問 →
-            </button>
+            <div className="flex items-center gap-2">
+              <button
+                onClick={copyQA}
+                className="text-[9px] font-bold px-2 py-2 rounded-xl border transition-all"
+                style={{
+                  background: copied ? 'rgba(76,175,125,0.08)' : 'transparent',
+                  borderColor: copied ? '#4CAF7D' : 'rgba(26,26,46,0.15)',
+                  color: copied ? '#4CAF7D' : 'rgba(26,26,46,0.35)',
+                  fontFamily: "'Zen Maru Gothic', sans-serif",
+                }}
+              >
+                {copied ? '✓ コピー済' : 'コピー'}
+              </button>
+              <button
+                onClick={nextQuiz}
+                className="flex-1 py-2 rounded-xl border text-xs font-bold transition-all hover:opacity-80"
+                style={{
+                  background: 'transparent',
+                  borderColor: 'rgba(26,26,46,0.15)',
+                  color: 'rgba(26,26,46,0.45)',
+                  fontFamily: "'Zen Maru Gothic', sans-serif",
+                }}
+              >
+                もう一問 →
+              </button>
+            </div>
           </div>
         )}
       </div>
