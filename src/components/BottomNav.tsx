@@ -60,6 +60,11 @@ const menuLinks = [
     icon: '📖',
   },
   {
+    href: '/questions',
+    label: 'よくある質問',
+    icon: '❓',
+  },
+  {
     href: '/manual',
     label: 'マニュアル',
     icon: '📋',
