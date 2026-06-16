@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import type { Category } from '@/types';
@@ -132,8 +132,8 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
     setOpenMap(prev => ({ ...prev, ...autoOpen }));
   }, [q, categories]);
 
-  // ジャンル・カテゴリ・クエリでフィルタリング
-  const filteredCategories = (() => {
+  // ジャンル・カテゴリ・クエリでフィルタリング（openMapの変化では再計算しない）
+  const filteredCategories = useMemo(() => {
     let cats = categories;
 
     if (selectedTopic) {
@@ -156,12 +156,13 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
     }
 
     return cats;
-  })();
+  }, [categories, selectedTopic, selectedGenre, q]);
 
   // 現在選択中のジャンル内のトピックカテゴリ
-  const visibleTopics = selectedGenre
-    ? topicCategories.filter(tc => tc.genreId === selectedGenre)
-    : topicCategories;
+  const visibleTopics = useMemo(
+    () => selectedGenre ? topicCategories.filter(tc => tc.genreId === selectedGenre) : topicCategories,
+    [selectedGenre]
+  );
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-6">
