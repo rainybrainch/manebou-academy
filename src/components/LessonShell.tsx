@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import LessonContent from './LessonContent';
 import LessonScrollProgress from './LessonScrollProgress';
@@ -191,6 +191,12 @@ export default function LessonShell({
     }
   }
 
+  const { lessonIndex, lessonTotal } = useMemo(() => {
+    const all = (categories.find(c => c.id === categoryId)?.courses ?? [course])
+      .flatMap(ch => ch.lessons.filter(l => !l.isComingSoon));
+    return { lessonIndex: all.findIndex(l => l.id === lesson.id), lessonTotal: all.length };
+  }, [categoryId, course, lesson.id]);
+
   return (
     <div className="min-h-screen">
       <LessonScrollProgress />
@@ -251,15 +257,8 @@ export default function LessonShell({
         outlineOpen={outlineOpen}
         onToggleOutline={() => setOutlineOpen(!outlineOpen)}
         isCompleted={completed}
-        lessonIndex={(() => {
-          const allLessons = (categories.find(c => c.id === categoryId)?.courses ?? [course])
-            .flatMap(ch => ch.lessons.filter(l => !l.isComingSoon));
-          return allLessons.findIndex(l => l.id === lesson.id);
-        })()}
-        lessonTotal={(() => {
-          return (categories.find(c => c.id === categoryId)?.courses ?? [course])
-            .flatMap(ch => ch.lessons.filter(l => !l.isComingSoon)).length;
-        })()}
+        lessonIndex={lessonIndex}
+        lessonTotal={lessonTotal}
       />
 
       {/* Completion bar — fixed at bottom */}
