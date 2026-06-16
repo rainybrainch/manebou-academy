@@ -100,7 +100,7 @@ export default function MyCoursesList() {
                     className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-[10px] font-bold transition-all hover:opacity-80"
                     style={{ background: accent, color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
                   >
-                    {done > 0 ? '続き' : '学ぶ'}
+                    {pct === 100 ? '復習' : done > 0 ? '続き' : '学ぶ'}
                     <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
                     </svg>

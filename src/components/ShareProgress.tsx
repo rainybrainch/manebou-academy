@@ -35,7 +35,7 @@ export default function ShareProgress() {
                             'Monebou Academyで学び始めました！';
 
   const text = [
-    '📚 Monebou Academy 学習記録',
+    '📚 マネぼうアカデミー 学習記録',
     '',
     `✅ 完了講義　${completedCount} / ${totalLessons} 講義`,
     `${bar(completedCount, totalLessons)} ${pct}%`,
@@ -50,9 +50,9 @@ export default function ShareProgress() {
   ].join('\n');
 
   const tweetText = [
-    `📚 Monebou Academyで学習中！`,
+    `📚 マネぼうアカデミーで学習中！`,
     `✅ ${completedCount}/${totalLessons}講義完了（${pct}%）`,
-    streakDays >= 2 ? `🔥 ${streakDays}日連続学習中` : `🏅 実績${badges}個獲得`,
+    streakDays >= 1 ? `🔥 ${streakDays}日連続学習中` : `🏅 実績${badges}個獲得`,
     '',
     'https://manebou-juku.vercel.app',
     '',
