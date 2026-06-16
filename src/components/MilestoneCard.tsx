@@ -5,7 +5,7 @@ import { useMemo } from 'react';
 import { useProgress } from '@/hooks/useProgress';
 import { ACHIEVEMENTS } from '@/data/achievements';
 
-const LESSON_MILESTONES = [1, 5, 10, 20, 30, 40, 50, 75, 100];
+const LESSON_MILESTONES = [1, 5, 10, 15, 20, 30, 40, 50, 75, 100];
 
 export default function MilestoneCard() {
   const { completedCount, streakDays, bestStreak, completedLessonKeys, mounted } = useProgress();
