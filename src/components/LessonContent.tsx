@@ -565,6 +565,18 @@ export default function LessonContent({
 
         {/* Breadcrumb — course link only, lesson title truncated */}
         <nav className="flex items-center gap-1 flex-1 min-w-0 overflow-hidden">
+          {/* Mobile: icon-only back button */}
+          <Link
+            href={`/courses/${courseId}`}
+            className="shrink-0 w-6 h-6 flex items-center justify-center rounded hover:opacity-70 transition-opacity sm:hidden"
+            style={{ color: 'rgba(26,26,46,0.4)' }}
+            title={chapterTitle}
+          >
+            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
+            </svg>
+          </Link>
+          {/* Desktop: text breadcrumb */}
           <Link
             href={`/courses/${courseId}`}
             className="shrink-0 text-[10px] font-bold hover:opacity-70 transition-opacity hidden sm:block max-w-[160px] truncate"
