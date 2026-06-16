@@ -65,7 +65,7 @@ export default function HomeCourseGrid({ categories }: Props) {
                       src={iconSrc}
                       alt={tc.title}
                       fill
-                      sizes="(max-width: 640px) 25vw, 120px"
+                      sizes="(max-width: 640px) 30vw, 120px"
                       className="object-cover"
                       quality={85}
                     />

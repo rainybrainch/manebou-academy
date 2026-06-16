@@ -218,6 +218,11 @@ export default function CourseOutline({ chapters, currentLessonId, categoryTitle
 
                       {/* Badges */}
                       <div className="flex items-center gap-1 shrink-0">
+                        {lesson.duration && !lesson.isComingSoon && (
+                          <span className="text-[8px]" style={{ color: 'rgba(26,26,46,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                            {lesson.duration}
+                          </span>
+                        )}
                         {lesson.isComingSoon && (
                           <span className="text-[8px] font-bold px-1 py-0.5 rounded" style={{ background: 'rgba(26,26,46,0.1)', color: 'rgba(26,26,46,0.4)' }}>
                             準備中
