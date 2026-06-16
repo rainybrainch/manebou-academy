@@ -120,11 +120,31 @@ export default function PacePrediction({ totalLessons }: Props) {
         >
           週平均ペース
         </span>
-        <span
-          style={{ fontFamily: "'Dela Gothic One', sans-serif", color: 'var(--mb-sky)', fontSize: '14px' }}
-        >
-          週{prediction.weeklyRate}講義
-        </span>
+        <div className="flex items-center gap-2">
+          <span
+            className="text-[9px] font-bold px-1.5 py-0.5 rounded-full"
+            style={{
+              background: prediction.weeklyRate >= 7
+                ? 'rgba(232,53,74,0.25)'
+                : prediction.weeklyRate >= 4
+                  ? 'rgba(76,175,125,0.25)'
+                  : 'rgba(91,200,232,0.2)',
+              color: prediction.weeklyRate >= 7
+                ? '#E8354A'
+                : prediction.weeklyRate >= 4
+                  ? '#4CAF7D'
+                  : 'var(--mb-sky)',
+              fontFamily: "'Zen Maru Gothic', sans-serif",
+            }}
+          >
+            {prediction.weeklyRate >= 7 ? '🚀 快速ペース' : prediction.weeklyRate >= 4 ? '👍 好ペース' : '📖 着実ペース'}
+          </span>
+          <span
+            style={{ fontFamily: "'Dela Gothic One', sans-serif", color: 'var(--mb-sky)', fontSize: '14px' }}
+          >
+            週{prediction.weeklyRate}講義
+          </span>
+        </div>
       </div>
     </div>
   );

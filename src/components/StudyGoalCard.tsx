@@ -177,15 +177,33 @@ export default function StudyGoalCard() {
 
       {remaining > 0 ? (
         <div
-          className="flex items-center justify-between px-3 py-2 rounded-lg"
-          style={{ background: onTrack ? 'rgba(91,200,232,0.08)' : 'rgba(245,200,66,0.1)' }}
+          className="rounded-lg overflow-hidden"
+          style={{ border: `1px solid ${onTrack ? 'rgba(91,200,232,0.15)' : 'rgba(245,200,66,0.2)'}` }}
         >
-          <span className="text-[10px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-            必要ペース
-          </span>
-          <span style={{ fontFamily: "'Dela Gothic One', sans-serif", fontSize: '13px', color: onTrack ? 'var(--mb-sky)' : 'var(--mb-gold)' }}>
-            1日{lessonsPerDay}講義 / 週{lessonsPerWeek}講義
-          </span>
+          <div
+            className="flex items-center justify-between px-3 py-2"
+            style={{ background: onTrack ? 'rgba(91,200,232,0.08)' : 'rgba(245,200,66,0.1)' }}
+          >
+            <span className="text-[10px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+              必要ペース
+            </span>
+            <span style={{ fontFamily: "'Dela Gothic One', sans-serif", fontSize: '13px', color: onTrack ? 'var(--mb-sky)' : 'var(--mb-gold)' }}>
+              1日{lessonsPerDay}講義 / 週{lessonsPerWeek}講義
+            </span>
+          </div>
+          {onTrack && (
+            <div
+              className="flex items-center justify-center gap-1.5 py-1.5"
+              style={{ background: 'rgba(76,175,125,0.07)' }}
+            >
+              <svg className="w-3 h-3" style={{ color: '#4CAF7D' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+              </svg>
+              <span className="text-[9px] font-bold" style={{ color: '#4CAF7D', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                このペースで目標に間に合います
+              </span>
+            </div>
+          )}
         </div>
       ) : (
         <div
