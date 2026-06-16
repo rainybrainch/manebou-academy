@@ -1917,6 +1917,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: 'この講座では「株式市場での売買の仕組み」を学びます。ZAiのプレイヤー間売買交渉は、現実の株式市場の取引形式を体現しています。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch6/mbc-6-1.webp',
+              alt: '売買の仕組み（市場取引）　漫画',
+            },
             { type: 'heading', level: 2, content: '株式市場での売買はどう行われるか' },
             {
               type: 'text',
@@ -1976,6 +1981,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: 'この講座では「市場の参加者」を学びます。株式市場には様々なプレイヤーがいます。それぞれの特徴を知ることで、市場の動きが読みやすくなります。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch6/mbc-6-2.webp',
+              alt: '市場の参加者　漫画',
+            },
             { type: 'heading', level: 2, content: '市場の主なプレイヤー' },
             {
               type: 'text',
@@ -2032,6 +2042,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: 'この講座では「独占と競争」の経済学を学びます。ZAiで同業種を独占するとボーナスが発生するのは、現実の独占企業の優位性を反映しています。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch6/mbc-6-3.webp',
+              alt: '独占と競争　漫画',
+            },
             { type: 'heading', level: 2, content: '独占・寡占・完全競争' },
             {
               type: 'text',
@@ -2087,6 +2102,11 @@ export const moneyBasicsFullCategory: Category = {
             {
               type: 'info-box',
               content: 'この講座では「倒産と決算」の現実を学びます。ZAiで倒産カードが引かれて保有株がゼロになる体験は、現実の株式投資の最大リスクに対応しています。',
+            },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch6/mbc-6-4.webp',
+              alt: '倒産・決算の現実　漫画',
             },
             { type: 'heading', level: 2, content: '企業が倒産すると株はどうなる？' },
             {
@@ -2153,6 +2173,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: 'この講座では「分散投資」を学びます。ZAiで1業種に集中するより複数業種に分散した方が安定する体験は、現実の分散投資の本質を体感しています。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch6/mbc-6-5.webp',
+              alt: '分散投資でリスクを下げる　漫画',
+            },
             { type: 'heading', level: 2, content: '「卵を一つのカゴに盛るな」' },
             {
               type: 'text',
@@ -2218,6 +2243,11 @@ export const moneyBasicsFullCategory: Category = {
               type: 'info-box',
               content: 'この講座では「貯蓄と投資の違い」を学びます。どちらが正しいわけではなく、目的と時間軸によって使い分けることが賢いお金の育て方です。',
             },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch7/mbc-7-1.webp',
+              alt: '貯蓄と投資の違い　漫画',
+            },
             { type: 'heading', level: 2, content: '貯蓄と投資の基本的な違い' },
             {
               type: 'text',
@@ -2272,6 +2302,11 @@ export const moneyBasicsFullCategory: Category = {
             {
               type: 'info-box',
               content: 'この講座では「複利を投資で活かす方法」を学びます。第3章で複利の仕組みは学びました。ここでは株式投資・積立投資での複利の具体的な活用法を深めます。',
+            },
+            {
+              type: 'image',
+              src: '/comics/mbc-ch7/mbc-7-2.webp',
+              alt: '複利の魔法（投資で活かす）　漫画',
             },
             { type: 'heading', level: 2, content: '投資における複利：配当の再投資' },
             {
