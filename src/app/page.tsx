@@ -13,6 +13,7 @@ import FirstVisitGuide from '@/components/FirstVisitGuide';
 import WeeklyGoalCard from '@/components/WeeklyGoalCard';
 import HeroCtaButton from '@/components/HeroCtaButton';
 import HomeCourseGrid from '@/components/HomeCourseGrid';
+import MyCoursesList from '@/components/MyCoursesList';
 
 export default function HomePage() {
   const totalLessons = categories.reduce(
@@ -103,6 +104,9 @@ export default function HomePage() {
 
       {/* ── ウェルカムバック ── */}
       <WelcomeBack />
+
+      {/* ── マイコース ── */}
+      <MyCoursesList />
 
       {/* ── 次のレッスン ── */}
       <div>
