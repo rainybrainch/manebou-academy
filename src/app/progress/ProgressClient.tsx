@@ -22,11 +22,26 @@ interface Props {
 }
 
 const categoryColors: Record<string, string> = {
-  'money-basics-full': '#5BC8E8',
-  'money-knowledge':   '#9B6DD6',
-  'zai-course':        '#F5C842',
-  'stock-intro':       '#4CAF7D',
-  'nisa-basics':       '#E8354A',
+  'money-basics-full':    '#5BC8E8',
+  'money-knowledge':      '#9B6DD6',
+  'money-household':      '#5BC8E8',
+  'money-tax':            '#5BC8E8',
+  'money-insurance':      '#5BC8E8',
+  'money-lifeplan':       '#9B6DD6',
+  'furusato-tax':         '#4CAF7D',
+  'freelance-money':      '#5BC8E8',
+  'zai-course':           '#F5C842',
+  'boardgame-monopoly':   '#F5C842',
+  'stock-intro':          '#4CAF7D',
+  'nisa-basics':          '#E8354A',
+  'investment-advanced':  '#4CAF7D',
+  'index-funds':          '#4CAF7D',
+  'dividend-stocks':      '#4CAF7D',
+  'crypto-basics':        '#F5A623',
+  'economics':            '#9B6DD6',
+  'fx-forex':             '#9B6DD6',
+  'politics':             '#9B6DD6',
+  'exam-public':          '#E8354A',
 };
 
 export default function ProgressClient({ categories }: Props) {

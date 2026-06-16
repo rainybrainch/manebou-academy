@@ -32,6 +32,13 @@ function renderBody(text: string): React.ReactNode {
 
 const updates = [
   {
+    date: '2026-06-16',
+    tag: 'FIX',
+    tagColor: '#4CAF7D',
+    title: '進捗ページの全20コースカラー対応・不要コミック機能を削除',
+    body: '①学習レポートの「カテゴリ別進捗」バーが全20コースに正しいカラーで表示されるよう修正（以前は5コース以外がグレー）②講義ページ内の「今日の4コマ漫画」（comic.json連携機能）を削除。COMICスペースの漫画のみ表示する形にシンプル化③COМICが奇数パネルの場合に右側が黒く空白になる問題を修正',
+  },
+  {
     date: '2026-06-15',
     tag: 'UPDATE',
     tagColor: '#5BC8E8',
