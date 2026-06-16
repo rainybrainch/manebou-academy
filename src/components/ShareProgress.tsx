@@ -32,7 +32,7 @@ export default function ShareProgress() {
     completedCount >= 50  ? '50講義突破！金融知識がどんどん深まる💎' :
     completedCount >= 20  ? '着実に積み上げ中。お金と仲良くなっています📈' :
     completedCount >= 10  ? 'お金の知識を積み上げ中！継続が力🌱' :
-                            'Monebou Academyで学び始めました！';
+                            'マネぼうアカデミーで学び始めました！';
 
   const text = [
     '📚 マネぼうアカデミー 学習記録',
@@ -62,7 +62,7 @@ export default function ShareProgress() {
   async function handleShare() {
     try {
       if (navigator.share) {
-        await navigator.share({ title: 'Monebou Academy 学習記録', text });
+        await navigator.share({ title: 'マネぼうアカデミー 学習記録', text });
       } else {
         await navigator.clipboard.writeText(text);
       }

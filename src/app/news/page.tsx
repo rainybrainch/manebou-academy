@@ -37,6 +37,13 @@ function renderBody(text: string): React.ReactNode {
 const updates = [
   {
     date: '2026-06-16',
+    tag: 'update',
+    tagColor: 'var(--mb-gold)',
+    title: 'アプリ全体の日本語表記統一完了',
+    body: '①名言カード（250件超）の著者欄に残っていた「Monebou Academy」を全件「マネぼうアカデミー」に統一②全コース完了画面・FAQ・使い方ガイド・講義シェアボタン・シェアカードの英語表記も統一。アプリ内のあらゆる場所で「マネぼうアカデミー」に一本化されました。',
+  },
+  {
+    date: '2026-06-16',
     tag: 'fix',
     tagColor: 'var(--mb-sky)',
     title: '表記統一・スタンプ有効期限バグ修正',

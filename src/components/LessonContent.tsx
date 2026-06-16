@@ -779,7 +779,7 @@ export default function LessonContent({
               <LessonTimer />
               <LessonLike courseId={courseId} lessonId={lesson.id} />
               <CopyAllButton text={buildLessonText(lesson, courseTitle, chapterTitle)} />
-              <ShareButton title={lesson.title} text={`${lesson.title} — Monebou Academy`} />
+              <ShareButton title={lesson.title} text={`${lesson.title} — マネぼうアカデミー`} />
             </div>
           </div>
 

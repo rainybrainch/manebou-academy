@@ -102,7 +102,7 @@ export default function ManualPage() {
         使用マニュアル
       </h1>
       <p className="text-sm mb-8" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-        Monebou Academy の使い方ガイド
+        マネぼうアカデミーの使い方ガイド
       </p>
 
       <div className="space-y-6">
