@@ -469,6 +469,7 @@ const TIPS = [
 export default function DailyTip() {
   const [offset, setOffset] = useState(0);
   const [fade, setFade] = useState(false);
+  const [copied, setCopied] = useState(false);
 
   const tip = useMemo(() => {
     const dayIndex = Math.floor(Date.now() / 86400000);
@@ -481,6 +482,13 @@ export default function DailyTip() {
       setOffset(o => o + 1);
       setFade(false);
     }, 150);
+  }
+
+  function copyTip() {
+    navigator.clipboard.writeText(tip.text).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1500);
+    }).catch(() => {});
   }
 
   return (
@@ -518,7 +526,18 @@ export default function DailyTip() {
           </p>
         </div>
       </div>
-      <div className="px-4 pb-2.5 flex justify-end">
+      <div className="px-4 pb-2.5 flex items-center justify-between">
+        <button
+          onClick={copyTip}
+          className="text-[9px] font-bold px-2 py-1 rounded-lg transition-all"
+          style={{
+            background: copied ? 'rgba(76,175,125,0.12)' : 'rgba(26,26,46,0.06)',
+            color: copied ? '#4CAF7D' : 'rgba(26,26,46,0.4)',
+            fontFamily: "'Zen Maru Gothic', sans-serif",
+          }}
+        >
+          {copied ? '✓ コピー済' : 'コピー'}
+        </button>
         <button
           onClick={nextTip}
           className="text-[10px] font-bold flex items-center gap-1 transition-opacity hover:opacity-70"
