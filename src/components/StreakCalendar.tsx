@@ -27,7 +27,7 @@ export default function StreakCalendar() {
   const totalCells = 91 + todayDow;
 
   const days = useMemo(() => {
-    const result: { date: string; count: number; isToday: boolean; month: number; dayOfMonth: number }[] = [];
+    const result: { date: string; count: number; isToday: boolean; month: number; dayOfMonth: number; dayOfWeek: number }[] = [];
     for (let i = totalCells - 1; i >= 0; i--) {
       const d = new Date(today);
       d.setDate(today.getDate() - i);
@@ -39,6 +39,7 @@ export default function StreakCalendar() {
         isToday: dateStr === todayStr,
         month: d.getMonth(),
         dayOfMonth: d.getDate(),
+        dayOfWeek: d.getDay(),
       });
     }
     return result;
@@ -140,7 +141,7 @@ export default function StreakCalendar() {
                       outline: day.isToday ? '1.5px solid var(--mb-gold)' : 'none',
                       outlineOffset: '0px',
                     }}
-                    title={`${day.date}${day.count > 0 ? ` · ${day.count}講義` : ''}`}
+                    title={`${day.month + 1}月${day.dayOfMonth}日（${DAY_SHORT[day.dayOfWeek]}）${day.count > 0 ? ` · ${day.count}講義` : ''}`}
                   />
                 ))}
               </div>

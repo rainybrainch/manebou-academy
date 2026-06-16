@@ -28,6 +28,7 @@ export default function WelcomeBack() {
     streakDays >= 7  ? `${streakDays}日連続中！` :
     streakDays >= 3  ? `${streakDays}日連続中` :
     streakDays >= 2  ? `${streakDays}日連続` :
+    streakDays >= 1  ? '連続記録スタート！' :
     null;
 
   const todayCount = dailyLessonCounts[new Date().toISOString().slice(0, 10)] ?? 0;
