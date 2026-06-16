@@ -45,14 +45,14 @@ const items = [
       </svg>
     ),
   },
+];
+
+// メニューに入れるリンク
+const menuLinks = [
   {
     href: '/stamp',
     label: 'スタンプ',
-    icon: (active: boolean) => (
-      <svg className="w-5 h-5" fill={active ? 'currentColor' : 'none'} viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
-      </svg>
-    ),
+    icon: '⭐',
   },
 ];
 
@@ -60,6 +60,7 @@ export default function BottomNav() {
   const pathname = usePathname();
   const { streakDays, dailyLessonCounts, completedCount, mounted } = useProgress();
   const [hasNewNews, setHasNewNews] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const seen = localStorage.getItem(NEWS_SEEN_KEY);
@@ -71,6 +72,7 @@ export default function BottomNav() {
       localStorage.setItem(NEWS_SEEN_KEY, LATEST_NEWS_DATE);
       setHasNewNews(false);
     }
+    setMenuOpen(false);
   }, [pathname]);
 
   const todayStudied = mounted && (dailyLessonCounts[new Date().toISOString().slice(0, 10)] ?? 0) > 0;
@@ -79,63 +81,118 @@ export default function BottomNav() {
   if (pathname.includes('/lessons/')) return null;
 
   return (
-    <nav
-      className="fixed bottom-0 left-0 right-0 z-40 flex items-stretch"
-      style={{
-        background: 'var(--mb-dark)',
-        borderTop: '2px solid var(--mb-gold)',
-        paddingBottom: 'env(safe-area-inset-bottom)',
-        minHeight: '56px',
-      }}
-    >
-      {items.map((item) => {
-        const isActive = item.href === '/' ? pathname === '/' : pathname.startsWith(item.href);
-        const showStreak = item.href === '/progress' && mounted && streakDays >= 2;
-        const showNewsBadge = item.href === '/news' && hasNewNews;
-        const showCourseNudge = item.href === '/courses' && showStudyNudge;
+    <>
+      {/* メニューオーバーレイ */}
+      {menuOpen && (
+        <div
+          className="fixed inset-0 z-30"
+          onClick={() => setMenuOpen(false)}
+        />
+      )}
 
-        return (
-          <Link
-            key={item.href}
-            href={item.href}
-            className="flex-1 relative flex flex-col items-center justify-center gap-0.5 transition-opacity hover:opacity-80"
-            style={{ color: isActive ? 'var(--mb-gold)' : 'rgba(255,255,255,0.35)' }}
-          >
-            <div className="relative">
-              {item.icon(isActive)}
-              {showNewsBadge && (
+      {/* メニューポップアップ */}
+      {menuOpen && (
+        <div
+          className="fixed bottom-14 right-0 z-40 mr-1 mb-1 rounded-xl border-2 overflow-hidden"
+          style={{
+            background: 'var(--mb-dark)',
+            borderColor: 'rgba(245,200,66,0.4)',
+            boxShadow: '0 -4px 20px rgba(0,0,0,0.4)',
+            minWidth: '140px',
+          }}
+        >
+          {menuLinks.map(link => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="flex items-center gap-3 px-4 py-3 transition-opacity hover:opacity-70"
+              style={{ color: 'rgba(255,255,255,0.85)', fontFamily: "'Zen Maru Gothic', sans-serif", fontSize: '13px', fontWeight: 'bold' }}
+            >
+              <span className="text-base">{link.icon}</span>
+              {link.label}
+            </Link>
+          ))}
+        </div>
+      )}
+
+      <nav
+        className="fixed bottom-0 left-0 right-0 z-40 flex items-stretch"
+        style={{
+          background: 'var(--mb-dark)',
+          borderTop: '2px solid var(--mb-gold)',
+          paddingBottom: 'env(safe-area-inset-bottom)',
+          minHeight: '56px',
+        }}
+      >
+        {items.map((item) => {
+          const isActive = item.href === '/' ? pathname === '/' : pathname.startsWith(item.href);
+          const showStreak = item.href === '/progress' && mounted && streakDays >= 2;
+          const showNewsBadge = item.href === '/news' && hasNewNews;
+          const showCourseNudge = item.href === '/courses' && showStudyNudge;
+
+          return (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="flex-1 relative flex flex-col items-center justify-center gap-0.5 transition-opacity hover:opacity-80"
+              style={{ color: isActive ? 'var(--mb-gold)' : 'rgba(255,255,255,0.35)' }}
+            >
+              <div className="relative">
+                {item.icon(isActive)}
+                {showNewsBadge && (
+                  <div
+                    className="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 rounded-full border-2"
+                    style={{ background: '#E8354A', borderColor: 'var(--mb-dark)' }}
+                  />
+                )}
+                {showCourseNudge && (
+                  <div
+                    className="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 rounded-full border-2"
+                    style={{ background: 'var(--mb-sky)', borderColor: 'var(--mb-dark)', animation: 'pulse 2s infinite' }}
+                  />
+                )}
+                {showStreak && (
+                  <div
+                    className="absolute -top-1 -right-1.5 min-w-[14px] h-[14px] rounded-full flex items-center justify-center text-[8px] font-bold px-0.5"
+                    style={{ background: isActive ? 'var(--mb-gold)' : '#E8354A', color: 'white', fontFamily: "'Dela Gothic One', sans-serif" }}
+                  >
+                    {streakDays}
+                  </div>
+                )}
+              </div>
+              <span className="text-[9px] font-bold" style={{ fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                {item.label}
+              </span>
+              {isActive && (
                 <div
-                  className="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 rounded-full border-2"
-                  style={{ background: '#E8354A', borderColor: 'var(--mb-dark)' }}
+                  className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-0.5 rounded-full"
+                  style={{ background: 'var(--mb-gold)' }}
                 />
               )}
-              {showCourseNudge && (
-                <div
-                  className="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 rounded-full border-2"
-                  style={{ background: 'var(--mb-sky)', borderColor: 'var(--mb-dark)', animation: 'pulse 2s infinite' }}
-                />
-              )}
-              {showStreak && (
-                <div
-                  className="absolute -top-1 -right-1.5 min-w-[14px] h-[14px] rounded-full flex items-center justify-center text-[8px] font-bold px-0.5"
-                  style={{ background: isActive ? 'var(--mb-gold)' : '#E8354A', color: 'white', fontFamily: "'Dela Gothic One', sans-serif" }}
-                >
-                  {streakDays}
-                </div>
-              )}
-            </div>
-            <span className="text-[9px] font-bold" style={{ fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-              {item.label}
-            </span>
-            {isActive && (
-              <div
-                className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-0.5 rounded-full"
-                style={{ background: 'var(--mb-gold)' }}
-              />
-            )}
-          </Link>
-        );
-      })}
-    </nav>
+            </Link>
+          );
+        })}
+
+        {/* メニューボタン */}
+        <button
+          onClick={() => setMenuOpen(v => !v)}
+          className="flex-1 relative flex flex-col items-center justify-center gap-0.5 transition-opacity hover:opacity-80"
+          style={{ color: menuOpen ? 'var(--mb-gold)' : 'rgba(255,255,255,0.35)' }}
+        >
+          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+          <span className="text-[9px] font-bold" style={{ fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+            メニュー
+          </span>
+          {menuOpen && (
+            <div
+              className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-0.5 rounded-full"
+              style={{ background: 'var(--mb-gold)' }}
+            />
+          )}
+        </button>
+      </nav>
+    </>
   );
 }
