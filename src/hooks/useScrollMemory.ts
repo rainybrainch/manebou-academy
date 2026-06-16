@@ -14,7 +14,7 @@ export function useScrollMemory(courseId: string, lessonId: string, enabled: boo
       const saved = localStorage.getItem(key);
       if (!saved) return;
       const pct = parseFloat(saved);
-      if (!pct || pct < 5) return;
+      if (!pct || pct < 5 || pct > 90) return;
 
       // Delay to let the page render fully before scrolling
       const t = setTimeout(() => {
@@ -39,7 +39,7 @@ export function useScrollMemory(courseId: string, lessonId: string, enabled: boo
         if (total <= 0) return;
         const pct = Math.min(100, (el.scrollTop / total) * 100);
         try {
-          if (pct > 1) {
+          if (pct > 1 && pct < 90) {
             localStorage.setItem(key, String(pct.toFixed(1)));
           }
         } catch {}
