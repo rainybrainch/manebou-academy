@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { topicCategories } from '@/data/structure';
+import { useProgress } from '@/hooks/useProgress';
 import type { Category } from '@/types';
 
 // カテゴリIDとアプリアイコン画像のマッピング
@@ -31,8 +32,17 @@ interface Props {
 }
 
 export default function HomeCourseGrid({ categories }: Props) {
-  // 全カテゴリを表示（画像がないものは絵文字フォールバック）
+  const { isCompleted, mounted } = useProgress();
   const allTopics = topicCategories;
+
+  const getTopicProgress = (topicId: string) => {
+    const topicCourses = categories.filter(c => c.topicCategoryId === topicId);
+    const allLessons = topicCourses.flatMap(cat =>
+      cat.courses.flatMap(ch => ch.lessons.filter(l => !l.isComingSoon).map(l => ({ courseId: ch.id, lessonId: l.id })))
+    );
+    const done = allLessons.filter(({ courseId, lessonId }) => isCompleted(courseId, lessonId)).length;
+    return { done, total: allLessons.length };
+  };
 
   return (
     <>
@@ -50,6 +60,8 @@ export default function HomeCourseGrid({ categories }: Props) {
           const tm = topicMeta[tc.id];
           const iconSrc = appIconMap[tc.id];
           const hasContent = categories.some(c => c.topicCategoryId === tc.id);
+          const { done, total } = mounted && hasContent ? getTopicProgress(tc.id) : { done: 0, total: 0 };
+          const isAllDone = done > 0 && done === total;
 
           const inner = (
             <>
@@ -58,7 +70,7 @@ export default function HomeCourseGrid({ categories }: Props) {
                 className="w-full rounded-2xl overflow-hidden border-2 shadow-sm relative"
                 style={{
                   aspectRatio: '1/1',
-                  borderColor: hasContent ? 'rgba(26,26,46,0.08)' : 'rgba(26,26,46,0.04)',
+                  borderColor: isAllDone ? 'var(--mb-gold)' : hasContent ? 'rgba(26,26,46,0.08)' : 'rgba(26,26,46,0.04)',
                   background: `${tm?.color ?? '#ccc'}22`,
                   boxShadow: hasContent ? `0 2px 8px ${tm?.color ?? '#ccc'}30` : 'none',
                   opacity: hasContent ? 1 : 0.45,
@@ -85,19 +97,26 @@ export default function HomeCourseGrid({ categories }: Props) {
                 )}
                 {/* 準備中バッジ */}
                 {!hasContent && (
-                  <div
-                    className="absolute bottom-1 left-0 right-0 flex justify-center"
-                  >
+                  <div className="absolute bottom-1 left-0 right-0 flex justify-center">
                     <span
                       className="text-[7px] font-bold px-1.5 py-0.5 rounded-full"
-                      style={{
-                        background: 'rgba(0,0,0,0.55)',
-                        color: 'rgba(255,255,255,0.85)',
-                        fontFamily: "'Zen Maru Gothic', sans-serif",
-                      }}
+                      style={{ background: 'rgba(0,0,0,0.55)', color: 'rgba(255,255,255,0.85)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
                     >
                       準備中
                     </span>
+                  </div>
+                )}
+                {/* 進捗バッジ */}
+                {mounted && done > 0 && (
+                  <div
+                    className="absolute top-1 right-1 min-w-[16px] h-4 rounded-full flex items-center justify-center px-1 text-[8px] font-bold"
+                    style={{
+                      background: isAllDone ? 'var(--mb-gold)' : tm?.color ?? '#888',
+                      color: isAllDone ? 'var(--mb-dark)' : 'white',
+                      fontFamily: "'Dela Gothic One', sans-serif",
+                    }}
+                  >
+                    {isAllDone ? '✓' : done}
                   </div>
                 )}
               </div>
