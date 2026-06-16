@@ -1,6 +1,6 @@
 'use client';
 
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 
 const QUOTES = [
   { text: '複利は世界8番目の不思議だ。理解している人はそれを稼ぎ、理解していない人はそれを払う。', author: 'アルベルト・アインシュタイン（諸説あり）' },
@@ -327,29 +327,59 @@ const QUOTES = [
 ];
 
 export default function MoneyQuote() {
+  const [offset, setOffset] = useState(0);
+  const [fade, setFade] = useState(false);
+
   const quote = useMemo(() => {
     const idx = Math.floor(Date.now() / (1000 * 60 * 60 * 24)) % QUOTES.length;
-    return QUOTES[idx];
-  }, []);
+    return QUOTES[(idx + offset) % QUOTES.length];
+  }, [offset]);
+
+  function nextQuote() {
+    setFade(true);
+    setTimeout(() => {
+      setOffset(o => o + 1);
+      setFade(false);
+    }, 150);
+  }
 
   return (
     <div
       className="mb-8 p-5 rounded-xl border-2"
       style={{ background: 'var(--mb-dark)', borderColor: 'var(--mb-gold)', boxShadow: '4px 4px 0 var(--mb-gold)' }}
     >
-      <div className="text-2xl mb-3" style={{ color: 'var(--mb-gold)', lineHeight: 1 }}>"</div>
+      <div className="flex items-center justify-between mb-3">
+        <div className="text-2xl" style={{ color: 'var(--mb-gold)', lineHeight: 1 }}>"</div>
+        {offset > 0 && (
+          <span className="text-[9px]" style={{ color: 'rgba(255,255,255,0.2)', fontFamily: "'Dela Gothic One', sans-serif" }}>
+            +{offset}
+          </span>
+        )}
+      </div>
       <p
-        className="text-sm leading-relaxed mb-3"
-        style={{ color: 'rgba(255,255,255,0.85)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+        className="text-sm leading-relaxed mb-3 transition-opacity duration-150"
+        style={{ color: 'rgba(255,255,255,0.85)', fontFamily: "'Zen Maru Gothic', sans-serif", opacity: fade ? 0 : 1 }}
       >
         {quote.text}
       </p>
-      <p
-        className="text-[10px] text-right"
-        style={{ color: 'rgba(255,255,255,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
-      >
-        — {quote.author}
-      </p>
+      <div className="flex items-center justify-between">
+        <p
+          className="text-[10px] transition-opacity duration-150"
+          style={{ color: 'rgba(255,255,255,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif", opacity: fade ? 0 : 1 }}
+        >
+          — {quote.author}
+        </p>
+        <button
+          onClick={nextQuote}
+          className="text-[10px] font-bold flex items-center gap-1 transition-opacity hover:opacity-70 shrink-0"
+          style={{ color: 'rgba(245,200,66,0.6)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+        >
+          次の名言
+          <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+      </div>
     </div>
   );
 }

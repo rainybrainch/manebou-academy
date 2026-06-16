@@ -77,7 +77,11 @@ export default function AchievementsCard() {
       )}
 
       <div className="grid grid-cols-3 gap-2">
-        {ACHIEVEMENTS.map(a => {
+        {[...ACHIEVEMENTS].sort((a, b) => {
+          const aE = earned.includes(a) ? 1 : 0;
+          const bE = earned.includes(b) ? 1 : 0;
+          return bE - aE;
+        }).map(a => {
           const isEarned = earned.includes(a);
           return (
             <div
