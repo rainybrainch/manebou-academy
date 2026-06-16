@@ -116,17 +116,26 @@ export default function BottomNav() {
             minWidth: '140px',
           }}
         >
-          {menuLinks.map(link => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="flex items-center gap-3 px-4 py-3 transition-opacity hover:opacity-70"
-              style={{ color: 'rgba(255,255,255,0.85)', fontFamily: "'Zen Maru Gothic', sans-serif", fontSize: '13px', fontWeight: 'bold' }}
-            >
-              <span className="text-base">{link.icon}</span>
-              {link.label}
-            </Link>
-          ))}
+          {menuLinks.map(link => {
+            const isMenuActive = pathname === link.href;
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="flex items-center gap-3 px-4 py-3 transition-opacity hover:opacity-80"
+                style={{
+                  color: isMenuActive ? 'var(--mb-gold)' : 'rgba(255,255,255,0.85)',
+                  fontFamily: "'Zen Maru Gothic', sans-serif",
+                  fontSize: '13px',
+                  fontWeight: 'bold',
+                  background: isMenuActive ? 'rgba(245,200,66,0.08)' : 'transparent',
+                }}
+              >
+                <span className="text-base">{link.icon}</span>
+                {link.label}
+              </Link>
+            );
+          })}
         </div>
       )}
 
