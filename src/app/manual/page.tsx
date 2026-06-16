@@ -17,7 +17,7 @@ const shortcuts = [
 
 const sections = [
   {
-    title: 'Monebou Academy の使い方',
+    title: 'マネぼうアカデミーの使い方',
     icon: '📱',
     steps: [
       'ホーム画面から「続きから学ぶ」ボタンで前回のレッスンに続きから戻れます',
