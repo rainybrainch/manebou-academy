@@ -355,6 +355,22 @@ export const ACHIEVEMENTS: Achievement[] = [
     progress: (_, streak) => ({ current: Math.min(streak, 21), total: 21 }),
   },
   {
+    id: 'forty_lessons',
+    icon: '💎',
+    title: '40講義突破',
+    desc: '40講義を完了した',
+    check: (c) => c >= 40,
+    progress: (c) => ({ current: Math.min(c, 40), total: 40 }),
+  },
+  {
+    id: 'best_streak_14',
+    icon: '🌠',
+    title: '伝説の2週間',
+    desc: '最高連続記録14日以上',
+    check: (_, _s, best) => best >= 14,
+    progress: (_, _s, best) => ({ current: Math.min(best, 14), total: 14 }),
+  },
+  {
     id: 'all_categories',
     icon: '👑',
     title: '完全制覇',
