@@ -7,7 +7,7 @@ const steps = [
   { icon: '📖', text: '1講義 3〜10分。スキマ時間でOK' },
   { icon: '🎲', text: 'ZAiゲームで楽しく実践力を磨く' },
   { icon: '🏆', text: '連続学習で実績をゲット・レベルアップ' },
-  { icon: '💡', text: '毎日ヒント・クイズ・名言で知識をキープ' },
+  { icon: '📊', text: '学習レポートで進捗・いいね・メモを管理' },
 ];
 
 export default function FirstVisitGuide() {
