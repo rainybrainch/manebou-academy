@@ -54,6 +54,16 @@ const menuLinks = [
     label: 'スタンプ',
     icon: '⭐',
   },
+  {
+    href: '/glossary',
+    label: '用語集',
+    icon: '📖',
+  },
+  {
+    href: '/manual',
+    label: 'マニュアル',
+    icon: '📋',
+  },
 ];
 
 export default function BottomNav() {
