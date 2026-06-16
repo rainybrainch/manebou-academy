@@ -37,6 +37,13 @@ function renderBody(text: string): React.ReactNode {
 const updates = [
   {
     date: '2026-06-16',
+    tag: 'PERF',
+    tagColor: '#9B6DD6',
+    title: 'コード最適化：重複処理を共通化・CSSアニメーション効率化',
+    body: '①「次の講義URLを求める処理」が複数コンポーネントに重複していたため、共通ユーティリティ関数に統合（DailyGoalCard・StreakWarning・HeroCtaButton）②toast系コンポーネントや各種カードがレンダリングのたびに同じCSSキーフレームを<style>タグで再注入していた問題を修正。globals.cssに一元化することでDOM肥大化を防止',
+  },
+  {
+    date: '2026-06-16',
     tag: 'FIX',
     tagColor: '#E8354A',
     title: 'リセット後に実績トーストが再発火しない問題を修正・ページタイトル統一',

@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useProgress } from '@/hooks/useProgress';
-import { categories } from '@/data/courses';
+import { nextLessonHref } from '@/lib/nextLessonHref';
 
 export default function HeroCtaButton() {
   const { isCompleted, lastViewedLesson, completedCount, mounted } = useProgress();
@@ -16,39 +16,11 @@ export default function HeroCtaButton() {
   );
 
   if (mounted && completedCount > 0) {
-    // Try to resume last viewed incomplete lesson
-    if (lastViewedLesson) {
-      const [lvCourseId, lvLessonId] = lastViewedLesson.split('/');
-      for (const cat of categories) {
-        const course = cat.courses.find(c => c.id === lvCourseId);
-        if (course) {
-          const lesson = course.lessons.find(l => l.id === lvLessonId);
-          if (lesson && !lesson.isComingSoon && !isCompleted(lvCourseId, lvLessonId)) {
-            href = `/courses/${lvCourseId}/lessons/${lvLessonId}`;
-            label = '続きから学ぶ';
-            break;
-          }
-        }
-      }
-    }
-
-    // If no resume target, find first incomplete
-    if (label === '学習を始める') {
-      outer: for (const cat of categories) {
-        for (const course of cat.courses) {
-          for (const lesson of course.lessons) {
-            if (!lesson.isComingSoon && !isCompleted(course.id, lesson.id)) {
-              href = `/courses/${course.id}/lessons/${lesson.id}`;
-              label = '続きから学ぶ';
-              break outer;
-            }
-          }
-        }
-      }
-    }
-
-    // All done
-    if (label === '学習を始める') {
+    const next = nextLessonHref(isCompleted, lastViewedLesson);
+    if (next !== '/courses') {
+      href = next;
+      label = '続きから学ぶ';
+    } else {
       href = '/courses';
       label = 'もう一度見る';
       icon = (

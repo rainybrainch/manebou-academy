@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { useProgress } from '@/hooks/useProgress';
-import { categories } from '@/data/courses';
+import { nextLessonHref } from '@/lib/nextLessonHref';
 
 export default function StreakWarning() {
   const { streakDays, completedCount, dailyLessonCounts, isCompleted, lastViewedLesson, mounted } = useProgress();
@@ -19,33 +19,7 @@ export default function StreakWarning() {
 
   if (!show) return null;
 
-  // Find next lesson to study (prefer last viewed incomplete, else first incomplete)
-  let nextHref = '/courses';
-  if (lastViewedLesson) {
-    const [lvCourseId, lvLessonId] = lastViewedLesson.split('/');
-    for (const cat of categories) {
-      const course = cat.courses.find(c => c.id === lvCourseId);
-      if (course) {
-        const lesson = course.lessons.find(l => l.id === lvLessonId);
-        if (lesson && !lesson.isComingSoon && !isCompleted(lvCourseId, lvLessonId)) {
-          nextHref = `/courses/${lvCourseId}/lessons/${lvLessonId}`;
-          break;
-        }
-      }
-    }
-  }
-  if (nextHref === '/courses') {
-    outer: for (const cat of categories) {
-      for (const course of cat.courses) {
-        for (const lesson of course.lessons) {
-          if (!lesson.isComingSoon && !isCompleted(course.id, lesson.id)) {
-            nextHref = `/courses/${course.id}/lessons/${lesson.id}`;
-            break outer;
-          }
-        }
-      }
-    }
-  }
+  const nextHref = nextLessonHref(isCompleted, lastViewedLesson);
 
   return (
     <div
