@@ -46,14 +46,6 @@ export default function HomeCourseGrid({ categories }: Props) {
 
   return (
     <>
-      <style>{`
-        @keyframes appPop {
-          from { opacity: 0; transform: scale(0.8); }
-          to   { opacity: 1; transform: scale(1); }
-        }
-        .app-icon:active { transform: scale(0.92); }
-      `}</style>
-
       {/* アプリアイコングリッド */}
       <div className="grid grid-cols-3 sm:grid-cols-4 gap-x-3 gap-y-5">
         {allTopics.map((tc, i) => {

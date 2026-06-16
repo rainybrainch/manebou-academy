@@ -74,22 +74,6 @@ export default function CourseCompleteModal({ courseTitle, categoryId, nextCours
           animation: 'courseModalIn 0.45s cubic-bezier(0.34,1.56,0.64,1)',
         }}
       >
-        <style>{`
-          @keyframes courseModalIn {
-            from { opacity: 0; transform: scale(0.75) translateY(24px); }
-            to   { opacity: 1; transform: scale(1) translateY(0); }
-          }
-          @keyframes spinBadge {
-            0%   { transform: rotate(-15deg) scale(0.5); opacity: 0; }
-            60%  { transform: rotate(8deg) scale(1.15); opacity: 1; }
-            100% { transform: rotate(0deg) scale(1); opacity: 1; }
-          }
-          @keyframes shimmer {
-            0%,100% { opacity: 0.6; }
-            50%      { opacity: 1; }
-          }
-        `}</style>
-
         {/* Top accent bar */}
         <div className="h-1.5" style={{ background: `linear-gradient(90deg, transparent, ${color}, transparent)` }} />
 
@@ -112,7 +96,7 @@ export default function CourseCompleteModal({ courseTitle, categoryId, nextCours
             style={{
               color,
               fontFamily: "'Zen Maru Gothic', sans-serif",
-              animation: 'shimmer 1.8s ease-in-out infinite',
+              animation: 'shimmerPulse 1.8s ease-in-out infinite',
             }}
           >
             CHAPTER COMPLETE

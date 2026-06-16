@@ -56,7 +56,6 @@ export default function HomePage() {
               </span>
             </div>
           </div>
-          <style>{`@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}`}</style>
           <h1
             className="text-2xl leading-tight mb-2"
             style={{ fontFamily: "'Dela Gothic One', sans-serif", color: 'white' }}
