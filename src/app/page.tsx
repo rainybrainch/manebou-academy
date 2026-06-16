@@ -84,7 +84,7 @@ export default function HomePage() {
           <div className="flex items-center gap-2">
             <div className="w-1.5 h-4 rounded-full" style={{ background: '#4CAF7D' }} />
             <h2 className="text-sm font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-              COURSES
+              コース
             </h2>
           </div>
           <Link
@@ -116,7 +116,7 @@ export default function HomePage() {
         <div className="flex items-center gap-2 mb-3">
           <div className="w-1.5 h-4 rounded-full" style={{ background: 'var(--mb-sky)' }} />
           <span className="text-xs font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-            NEXT LESSON
+            次の講義
           </span>
         </div>
         <NextLessonCard />
@@ -142,7 +142,7 @@ export default function HomePage() {
         <div className="flex items-center gap-2 mb-3">
           <div className="w-1.5 h-4 rounded-full" style={{ background: 'var(--mb-gold)' }} />
           <span className="text-xs font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-            MY STATS
+            マイ実績
           </span>
         </div>
         <HomeStats />

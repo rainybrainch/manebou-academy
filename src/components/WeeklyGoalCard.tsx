@@ -87,7 +87,9 @@ export default function WeeklyGoalCard() {
                 ? `残り${daysLeft}日・もうすぐ達成！あと${Math.max(goal - weeklyCompletedCount, 0)}講義`
                 : pct >= 0.5
                   ? `折り返し超え！残り${daysLeft}日・あと${Math.max(goal - weeklyCompletedCount, 0)}講義`
-                  : `残り${daysLeft}日・あと${Math.max(goal - weeklyCompletedCount, 0)}講義`
+                  : daysLeft <= 2 && pct < 0.3
+                    ? `⚡ 残り${daysLeft}日！ペースを上げよう・あと${Math.max(goal - weeklyCompletedCount, 0)}講義`
+                    : `残り${daysLeft}日・あと${Math.max(goal - weeklyCompletedCount, 0)}講義`
           }
         </div>
         <button
