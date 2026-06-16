@@ -36,7 +36,7 @@ export default function CategoryPageClient({ tc, courses }: Props) {
   const tm = topicMeta[tc.id];
   const accent = tm?.color ?? '#5BC8E8';
 
-  const totalLessons = courses.reduce((a, c) => a + c.courses.reduce((b, ch) => b + ch.lessons.length, 0), 0);
+  const totalLessons = courses.reduce((a, c) => a + c.courses.reduce((b, ch) => b + ch.lessons.filter(l => !l.isComingSoon).length, 0), 0);
 
   return (
     <div className="max-w-xl mx-auto px-4 py-6">
@@ -124,7 +124,7 @@ export default function CategoryPageClient({ tc, courses }: Props) {
       <div className="space-y-4">
         {courses.map(course => {
           const chapterCount = course.courses.length;
-          const lessonCount = course.courses.reduce((a, c) => a + c.lessons.length, 0);
+          const lessonCount = course.courses.reduce((a, c) => a + c.lessons.filter(l => !l.isComingSoon).length, 0);
           const selected = mounted && isSelected(course.id);
 
           const allLessons = course.courses.flatMap(ch =>

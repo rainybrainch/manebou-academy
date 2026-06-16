@@ -62,13 +62,13 @@ export default function MyCoursesList() {
         {selectedCourses.map(course => {
           const meta = courseMeta[course.id];
           const firstChapter = course.courses[0];
-          const lessonCount = course.courses.reduce((a, c) => a + c.lessons.length, 0);
 
           const allLessons = course.courses.flatMap(ch =>
             ch.lessons.filter(l => !l.isComingSoon).map(l => ({ courseId: ch.id, lessonId: l.id }))
           );
+          const availableCount = allLessons.length;
           const done = mounted ? allLessons.filter(({ courseId, lessonId }) => isCompleted(courseId, lessonId)).length : 0;
-          const pct = lessonCount > 0 ? Math.round((done / lessonCount) * 100) : 0;
+          const pct = availableCount > 0 ? Math.round((done / availableCount) * 100) : 0;
           const accent = meta?.color ?? 'var(--mb-gold)';
 
           // 「続き」は最初の未完了レッスンへ、全完了なら最初の章へ
@@ -106,7 +106,7 @@ export default function MyCoursesList() {
                     {course.title}
                   </div>
                   <div className="text-[10px] mt-0.5" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                    {done > 0 ? `${done}/${lessonCount}講義完了` : `${course.courses.length}章 · ${lessonCount}講義`}
+                    {done > 0 ? `${done}/${availableCount}講義完了` : `${course.courses.length}章 · ${availableCount}講義`}
                   </div>
                 </div>
 
