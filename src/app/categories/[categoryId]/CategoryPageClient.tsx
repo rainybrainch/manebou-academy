@@ -7,16 +7,7 @@ import type { TopicCategory } from '@/types';
 import { useMyCourses } from '@/hooks/useMyCourses';
 import { useProgress } from '@/hooks/useProgress';
 import CategoryCardProgress from '@/components/CategoryCardProgress';
-
-const topicMeta: Record<string, { icon: string; color: string; tagline: string }> = {
-  'cat-money':      { icon: '💴', color: '#5BC8E8', tagline: 'お金を学ぼうマネぼう！' },
-  'cat-investment': { icon: '📈', color: '#4CAF7D', tagline: '投資を学ぼうマネぼう！' },
-  'cat-economics':  { icon: '🌐', color: '#9B6DD6', tagline: '経済を学ぼうマネぼう！' },
-  'cat-politics':   { icon: '🏛', color: '#9B6DD6', tagline: '政治を学ぼうマネぼう！' },
-  'cat-zai':        { icon: '🎲', color: '#F5C842', tagline: 'ZAiで学ぼうマネぼう！' },
-  'cat-boardgame':  { icon: '🎯', color: '#F5C842', tagline: 'ゲームで学ぼうマネぼう！' },
-  'cat-exam-public':{ icon: '📝', color: '#E8354A', tagline: '受験対策マネぼう！' },
-};
+import { TOPIC_META as topicMeta } from '@/data/topic-meta';
 
 const LEVEL_COLOR: Record<string, string> = {
   '入門': '#4CAF7D',

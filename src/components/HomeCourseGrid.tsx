@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { topicCategories } from '@/data/structure';
 import { useProgress } from '@/hooks/useProgress';
+import { TOPIC_META as topicMeta } from '@/data/topic-meta';
 import type { Category } from '@/types';
 
 // カテゴリIDとアプリアイコン画像のマッピング
@@ -15,16 +16,6 @@ const appIconMap: Record<string, string> = {
   'cat-zai':         '/images/apps/cat-game.webp',
   'cat-boardgame':   '/images/apps/cat-game.webp',
   'cat-exam-public': '/images/apps/cat-exam.webp',
-};
-
-const topicMeta: Record<string, { icon: string; color: string; shortName: string }> = {
-  'cat-money':       { icon: '💴', color: '#5BC8E8', shortName: 'お金' },
-  'cat-investment':  { icon: '📈', color: '#4CAF7D', shortName: '投資' },
-  'cat-economics':   { icon: '🌐', color: '#9B6DD6', shortName: '経済' },
-  'cat-politics':    { icon: '🏛', color: '#9B6DD6', shortName: '政治' },
-  'cat-zai':         { icon: '🎲', color: '#F5C842', shortName: 'ZAi' },
-  'cat-boardgame':   { icon: '🎯', color: '#F5C842', shortName: 'ゲーム' },
-  'cat-exam-public': { icon: '📝', color: '#E8354A', shortName: '受験' },
 };
 
 interface Props {
