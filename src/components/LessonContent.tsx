@@ -155,6 +155,84 @@ function CopyButton({ text }: { text: string }) {
   );
 }
 
+function buildLessonText(lesson: Lesson, courseTitle: string, chapterTitle: string): string {
+  const stripBold = (s: string) => s.replace(/\*\*/g, '');
+  const lines: string[] = [
+    `【コース】${courseTitle}`,
+    `【章】${chapterTitle}`,
+    `【講義】${lesson.title}`,
+    '==============================',
+    '',
+  ];
+  for (const section of lesson.sections) {
+    switch (section.type) {
+      case 'image': break;
+      case 'text': lines.push(stripBold(section.content), ''); break;
+      case 'heading':
+        lines.push(section.level === 2 ? `■ ${section.content}` : `▶ ${section.content}`, ''); break;
+      case 'bullet-list':
+        section.items.forEach(item => lines.push(`• ${stripBold(item)}`));
+        lines.push(''); break;
+      case 'numbered-list':
+        section.items.forEach((item, i) => lines.push(`${i + 1}. ${stripBold(item)}`));
+        lines.push(''); break;
+      case 'highlight-box':
+        lines.push(`【${section.title}】`);
+        section.items.forEach(item => lines.push(`• ${stripBold(item)}`));
+        lines.push(''); break;
+      case 'info-box': lines.push(stripBold(section.content), ''); break;
+      case 'practice':
+        lines.push('[練習問題]', section.question, '', '[解答例]', section.answer, ''); break;
+      case 'glossary':
+        lines.push('[用語集]');
+        section.terms.forEach(t => lines.push(`${t.term}：${stripBold(t.definition)}`));
+        lines.push(''); break;
+      case 'summary':
+        lines.push('[まとめ]', stripBold(section.content), `→ 次: ${section.nextLesson}`, ''); break;
+    }
+  }
+  if (lesson.checkItems && lesson.checkItems.length > 0) {
+    lines.push('[学習チェックポイント]');
+    lesson.checkItems.forEach((item, i) => lines.push(`${i + 1}. ${item}`));
+  }
+  return lines.join('\n').replace(/\n{3,}/g, '\n\n').trim();
+}
+
+function CopyAllButton({ text }: { text: string }) {
+  const [copied, setCopied] = useState(false);
+  const copy = async () => {
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {}
+  };
+  return (
+    <button
+      onClick={copy}
+      className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg border-2 text-[11px] font-bold transition-all hover:-translate-y-px active:translate-y-0"
+      style={{
+        background: copied ? 'rgba(76,175,125,0.1)' : 'var(--mb-cream, #fffdf5)',
+        borderColor: copied ? '#4CAF7D' : 'rgba(26,26,46,0.2)',
+        color: copied ? '#4CAF7D' : 'rgba(26,26,46,0.5)',
+        fontFamily: "'Zen Maru Gothic', sans-serif",
+      }}
+      title="講義テキストを全文コピー（漫画・動画を除く）"
+    >
+      {copied ? (
+        <>✓ コピー済</>
+      ) : (
+        <>
+          <svg className="w-3.5 h-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+          </svg>
+          全文コピー
+        </>
+      )}
+    </button>
+  );
+}
+
 const CIRCLED = ['①','②','③','④','⑤','⑥','⑦','⑧','⑨','⑩'];
 
 function renderAnswerText(answer: string): React.ReactNode {
@@ -700,6 +778,7 @@ export default function LessonContent({
             <div className="flex items-center gap-2">
               <LessonTimer />
               <LessonLike courseId={courseId} lessonId={lesson.id} />
+              <CopyAllButton text={buildLessonText(lesson, courseTitle, chapterTitle)} />
               <ShareButton title={lesson.title} text={`${lesson.title} — Monebou Academy`} />
             </div>
           </div>
