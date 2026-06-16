@@ -1,7 +1,11 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getCourse } from '@/data/courses';
+import { getCourse, categories } from '@/data/courses';
 import CoursePageClient from './CoursePageClient';
+
+export function generateStaticParams() {
+  return categories.flatMap(cat => cat.courses.map(course => ({ courseId: course.id })));
+}
 
 interface Props {
   params: Promise<{ courseId: string }>;

@@ -1,7 +1,17 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
-import { getLesson, getAdjacentLessons } from '@/data/courses';
+import { getLesson, getAdjacentLessons, categories } from '@/data/courses';
 import LessonShell from '@/components/LessonShell';
+
+export function generateStaticParams() {
+  return categories.flatMap(cat =>
+    cat.courses.flatMap(course =>
+      course.lessons
+        .filter(l => !l.isComingSoon)
+        .map(l => ({ courseId: course.id, lessonId: l.id }))
+    )
+  );
+}
 
 interface Props {
   params: Promise<{ courseId: string; lessonId: string }>;
