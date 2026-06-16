@@ -93,36 +93,12 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
   const [drawerOpen, setDrawerOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [helpOpen, setHelpOpen] = useState(false);
-  const [focusMode, setFocusMode] = useState(false);
-  const [wideMode, setWideMode] = useState(false);
   const pathname = usePathname();
-  const isLessonPage = pathname.includes('/lessons/');
   const { completedCount, streakDays, bestStreak, completedLessonKeys, dailyLessonCounts, mounted } = useProgress();
   const drawerBadgeCount = mounted
     ? ACHIEVEMENTS.filter(a => a.check(completedCount, streakDays, bestStreak, completedLessonKeys)).length
     : 0;
   const { kShortcut } = useModKey();
-
-  // Exit focus mode when navigating away from lesson pages
-  useEffect(() => {
-    if (!isLessonPage) setFocusMode(false);
-  }, [isLessonPage]);
-
-  // Wide mode: persist to localStorage and apply body class
-  useEffect(() => {
-    const saved = localStorage.getItem('mb_wide_mode');
-    if (saved === '1') setWideMode(true);
-  }, []);
-
-  useEffect(() => {
-    if (wideMode) {
-      document.body.classList.add('mb-wide');
-      localStorage.setItem('mb_wide_mode', '1');
-    } else {
-      document.body.classList.remove('mb-wide');
-      localStorage.setItem('mb_wide_mode', '0');
-    }
-  }, [wideMode]);
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
@@ -130,42 +106,19 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
       if (tag === 'INPUT' || tag === 'TEXTAREA') return;
       if (e.key === '/' || (e.key === 'k' && (e.metaKey || e.ctrlKey))) { e.preventDefault(); setSearchOpen(true); }
       if (e.key === '?') { e.preventDefault(); setHelpOpen(true); }
-      if ((e.key === 'f' || e.key === 'F') && !e.metaKey && !e.ctrlKey && isLessonPage) {
-        e.preventDefault();
-        setFocusMode(prev => !prev);
-      }
     };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [isLessonPage]);
+  }, []);
 
   return (
     <div className="min-h-screen" style={{ background: 'var(--mb-cream)' }}>
-      {/* Focus mode exit chip */}
-      {focusMode && (
-        <button
-          onClick={() => setFocusMode(false)}
-          className="fixed top-3 right-3 z-50 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-bold border transition-all hover:opacity-90"
-          style={{
-            background: 'rgba(26,26,46,0.9)',
-            borderColor: 'rgba(255,255,255,0.2)',
-            color: 'rgba(255,255,255,0.6)',
-            fontFamily: "'Zen Maru Gothic', sans-serif",
-            backdropFilter: 'blur(8px)',
-          }}
-        >
-          <span style={{ color: 'var(--mb-sky)', fontSize: '10px' }}>●</span>
-          フォーカスモード中 (F で解除)
-        </button>
-      )}
-
       {/* Fixed top header — Monebou dark #1A1A2E with gold bottom border */}
       <header
         className="fixed top-0 left-0 right-0 z-40 h-14 flex items-center px-4 gap-3 transition-transform duration-300"
         style={{
           background: 'var(--mb-dark)',
           borderBottom: '3px solid var(--mb-gold)',
-          transform: focusMode ? 'translateY(-100%)' : 'translateY(0)',
         }}
       >
         {/* Logo */}
@@ -189,44 +142,6 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
             </div>
           </Link>
         </div>
-
-        {/* Focus mode button — only on lesson pages */}
-        {isLessonPage && (
-          <button
-            onClick={() => setFocusMode(prev => !prev)}
-            aria-label="フォーカスモード"
-            title="フォーカスモード (F)"
-            className="w-9 h-9 flex items-center justify-center rounded-full border-2 hover:opacity-80 transition-opacity shrink-0"
-            style={{ borderColor: focusMode ? 'var(--mb-sky)' : 'rgba(255,255,255,0.15)', color: focusMode ? 'var(--mb-sky)' : 'rgba(255,255,255,0.5)' }}
-          >
-            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4" />
-            </svg>
-          </button>
-        )}
-
-        {/* Wide mode toggle — desktop only */}
-        <button
-          onClick={() => setWideMode(prev => !prev)}
-          aria-label={wideMode ? '標準幅に戻す' : '横幅を広げる'}
-          title={wideMode ? '標準幅に戻す' : '横幅を広げる'}
-          className="hidden sm:flex items-center gap-1.5 px-2.5 h-8 rounded-lg border transition-all hover:opacity-80 shrink-0"
-          style={{
-            borderColor: wideMode ? 'var(--mb-sky)' : 'rgba(255,255,255,0.15)',
-            background: wideMode ? 'rgba(91,200,232,0.15)' : 'rgba(255,255,255,0.05)',
-            color: wideMode ? 'var(--mb-sky)' : 'rgba(255,255,255,0.4)',
-          }}
-        >
-          <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            {wideMode
-              ? <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 9l-6 6m0 0l6 6M3 15h18m0 0l-6-6m6 6l-6 6" />
-              : <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 8h16M4 16h16" />
-            }
-          </svg>
-          <span className="text-[10px]" style={{ fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-            {wideMode ? '標準' : 'ワイド'}
-          </span>
-        </button>
 
         {/* Search button */}
         <button
@@ -446,16 +361,11 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
         </nav>
       </aside>
 
-      <main className={focusMode ? 'pt-0 pb-0' : 'pt-14 pb-14'} style={{ transition: 'padding 0.3s' }}>
+      <main className="pt-14 pb-14">
         <PageTransition>{children}</PageTransition>
       </main>
 
-      <div
-        className="transition-transform duration-300"
-        style={{ transform: focusMode ? 'translateY(100%)' : 'translateY(0)' }}
-      >
-        <BottomNav />
-      </div>
+      <BottomNav />
       <BadgeToast />
       <LevelUpToast />
       <AchievementToast />

@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useProgress } from '@/hooks/useProgress';
-import type { Category } from '@/types';
+import { categories } from '@/data/courses';
 import StreakCalendar from '@/components/StreakCalendar';
 import MilestoneCard from '@/components/MilestoneCard';
 import MoneyQuote from '@/components/MoneyQuote';
@@ -16,10 +16,6 @@ import WeeklyActivityChart from '@/components/WeeklyActivityChart';
 import PacePrediction from '@/components/PacePrediction';
 import StudyGoalCard from '@/components/StudyGoalCard';
 import { ACHIEVEMENTS } from '@/data/achievements';
-
-interface Props {
-  categories: Category[];
-}
 
 const categoryColors: Record<string, string> = {
   'money-basics-full':    '#5BC8E8',
@@ -44,7 +40,7 @@ const categoryColors: Record<string, string> = {
   'exam-public':          '#E8354A',
 };
 
-export default function ProgressClient({ categories }: Props) {
+export default function ProgressClient() {
   const { isCompleted, completedCount, streakDays, bestStreak, lastViewedLesson, completedLessonKeys, mounted } = useProgress();
 
   const totalLessons = categories.flatMap(c => c.courses).flatMap(c => c.lessons).filter(l => !l.isComingSoon).length;
