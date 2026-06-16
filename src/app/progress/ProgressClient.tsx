@@ -222,10 +222,17 @@ export default function ProgressClient() {
                   const courseDone = mounted ? courseLessons.filter(l => isCompleted(course.id, l.id)).length : 0;
                   const allChDone = courseDone === courseLessons.length && courseLessons.length > 0;
 
+                  const nextIncomplete = mounted && !allChDone && courseDone > 0
+                    ? courseLessons.find(l => !isCompleted(course.id, l.id))
+                    : null;
+                  const chapterHref = nextIncomplete
+                    ? `/courses/${course.id}/lessons/${nextIncomplete.id}`
+                    : `/courses/${course.id}`;
+
                   return (
                     <Link
                       key={course.id}
-                      href={`/courses/${course.id}`}
+                      href={chapterHref}
                       className="flex items-center gap-2 py-1 transition-opacity hover:opacity-70"
                     >
                       <div
@@ -262,7 +269,7 @@ export default function ProgressClient() {
 
       {/* All notes */}
       <div className="flex items-center justify-between mb-2">
-        <span className="text-sm font-bold" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)' }}></span>
+        <span className="text-sm font-bold" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)' }}>メモ一覧</span>
         <ExportNotes />
       </div>
       <AllNotes />
