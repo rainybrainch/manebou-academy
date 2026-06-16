@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
@@ -106,13 +106,19 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
   const [helpOpen, setHelpOpen] = useState(false);
   const pathname = usePathname();
   const { completedCount, streakDays, bestStreak, completedLessonKeys, dailyLessonCounts, mounted } = useProgress();
-  const drawerBadgeCount = mounted
-    ? ACHIEVEMENTS.filter(a => a.check(completedCount, streakDays, bestStreak, completedLessonKeys)).length
-    : 0;
+  const drawerBadgeCount = useMemo(
+    () => mounted
+      ? ACHIEVEMENTS.filter(a => a.check(completedCount, streakDays, bestStreak, completedLessonKeys)).length
+      : 0,
+    [mounted, completedCount, streakDays, bestStreak, completedLessonKeys],
+  );
   const { kShortcut } = useModKey();
-  const avatarIcon = mounted && completedCount > 0
-    ? (LEVEL_ICONS.find(l => completedCount >= l.min && completedCount <= l.max)?.icon ?? '🌱')
-    : null;
+  const avatarIcon = useMemo(
+    () => mounted && completedCount > 0
+      ? (LEVEL_ICONS.find(l => completedCount >= l.min && completedCount <= l.max)?.icon ?? '🌱')
+      : null,
+    [mounted, completedCount],
+  );
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
