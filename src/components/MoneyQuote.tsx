@@ -329,6 +329,7 @@ const QUOTES = [
 export default function MoneyQuote() {
   const [offset, setOffset] = useState(0);
   const [fade, setFade] = useState(false);
+  const [copied, setCopied] = useState(false);
 
   const quote = useMemo(() => {
     const idx = Math.floor(Date.now() / (1000 * 60 * 60 * 24)) % QUOTES.length;
@@ -341,6 +342,13 @@ export default function MoneyQuote() {
       setOffset(o => o + 1);
       setFade(false);
     }, 150);
+  }
+
+  function copyQuote() {
+    navigator.clipboard.writeText(`「${quote.text}」\n— ${quote.author}`).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 1500);
+    }).catch(() => {});
   }
 
   return (
@@ -369,16 +377,29 @@ export default function MoneyQuote() {
         >
           — {quote.author}
         </p>
-        <button
-          onClick={nextQuote}
-          className="text-[10px] font-bold flex items-center gap-1 transition-opacity hover:opacity-70 shrink-0"
-          style={{ color: 'rgba(245,200,66,0.6)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
-        >
-          次の名言
-          <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
-          </svg>
-        </button>
+        <div className="flex items-center gap-2 shrink-0">
+          <button
+            onClick={copyQuote}
+            className="text-[9px] font-bold px-2 py-1 rounded-lg transition-all"
+            style={{
+              background: copied ? 'rgba(76,175,125,0.15)' : 'rgba(255,255,255,0.08)',
+              color: copied ? '#4CAF7D' : 'rgba(255,255,255,0.35)',
+              fontFamily: "'Zen Maru Gothic', sans-serif",
+            }}
+          >
+            {copied ? '✓ コピー済' : 'コピー'}
+          </button>
+          <button
+            onClick={nextQuote}
+            className="text-[10px] font-bold flex items-center gap-1 transition-opacity hover:opacity-70"
+            style={{ color: 'rgba(245,200,66,0.6)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+          >
+            次の名言
+            <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
   );

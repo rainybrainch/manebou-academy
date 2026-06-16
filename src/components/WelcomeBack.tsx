@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useProgress } from '@/hooks/useProgress';
 import { getLevel, getNextLevel } from '@/data/levels';
 
@@ -39,8 +40,9 @@ export default function WelcomeBack() {
     : 100;
 
   return (
-    <div
-      className="px-4 py-3 rounded-xl border-2"
+    <Link
+      href="/progress"
+      className="block px-4 py-3 rounded-xl border-2 transition-all hover:-translate-y-0.5 active:translate-y-0"
       style={{
         background: `${level.color}08`,
         borderColor: `${level.color}35`,
@@ -91,6 +93,6 @@ export default function WelcomeBack() {
           </div>
         </div>
       )}
-    </div>
+    </Link>
   );
 }
