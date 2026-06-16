@@ -37,6 +37,10 @@ export default function CategoryPageClient({ tc, courses }: Props) {
   const accent = tm?.color ?? '#5BC8E8';
 
   const totalLessons = courses.reduce((a, c) => a + c.courses.reduce((b, ch) => b + ch.lessons.filter(l => !l.isComingSoon).length, 0), 0);
+  const completedLessons = mounted
+    ? courses.reduce((a, c) => a + c.courses.reduce((b, ch) => b + ch.lessons.filter(l => !l.isComingSoon && isCompleted(ch.id, l.id)).length, 0), 0)
+    : 0;
+  const pct = totalLessons > 0 ? Math.round((completedLessons / totalLessons) * 100) : 0;
 
   return (
     <div className="max-w-xl mx-auto px-4 py-6">
@@ -77,16 +81,33 @@ export default function CategoryPageClient({ tc, courses }: Props) {
           </div>
         )}
 
-        <div className="px-4 py-3 flex items-center justify-between" style={{ background: 'var(--mb-dark)' }}>
+        <div className="px-4 pt-3 pb-2 flex items-center justify-between" style={{ background: 'var(--mb-dark)' }}>
           <div>
             <div className="text-xs" style={{ color: 'rgba(255,255,255,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>カテゴリ</div>
             <div className="text-sm font-bold text-white" style={{ fontFamily: "'Zen Maru Gothic', sans-serif" }}>{tc.title}</div>
           </div>
           <div className="text-right">
             <div className="text-sm font-bold" style={{ color: accent, fontFamily: "'Dela Gothic One', sans-serif" }}>{courses.length}コース</div>
-            <div className="text-xs" style={{ color: 'rgba(255,255,255,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>{totalLessons}講義</div>
+            <div className="text-xs" style={{ color: 'rgba(255,255,255,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+              {mounted && completedLessons > 0 ? `${completedLessons}/` : ''}{totalLessons}講義
+            </div>
           </div>
         </div>
+        {mounted && completedLessons > 0 && (
+          <div className="px-4 pb-3" style={{ background: 'var(--mb-dark)' }}>
+            <div className="flex items-center gap-2">
+              <div className="flex-1 h-1.5 rounded-full overflow-hidden" style={{ background: 'rgba(255,255,255,0.1)' }}>
+                <div
+                  className="h-full rounded-full transition-all duration-700"
+                  style={{ width: `${pct}%`, background: pct === 100 ? 'var(--mb-gold)' : accent }}
+                />
+              </div>
+              <span className="text-[10px] font-bold shrink-0" style={{ color: pct === 100 ? 'var(--mb-gold)' : accent, fontFamily: "'Dela Gothic One', sans-serif" }}>
+                {pct}%
+              </span>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* マイコース表示（選択済みがある場合） */}
