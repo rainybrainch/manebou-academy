@@ -9,13 +9,9 @@ import DailyGoalCard from '@/components/DailyGoalCard';
 import RecentLessons from '@/components/RecentLessons';
 import StreakWarning from '@/components/StreakWarning';
 import AllCoursesComplete from '@/components/AllCoursesComplete';
-import RandomLesson from '@/components/RandomLesson';
 import FirstVisitGuide from '@/components/FirstVisitGuide';
-import DailyTip from '@/components/DailyTip';
-import DailyQuiz from '@/components/DailyQuiz';
 import WeeklyGoalCard from '@/components/WeeklyGoalCard';
 import HeroCtaButton from '@/components/HeroCtaButton';
-import MoneyQuote from '@/components/MoneyQuote';
 import HomeCourseGrid from '@/components/HomeCourseGrid';
 
 export default function HomePage() {
@@ -108,6 +104,17 @@ export default function HomePage() {
       {/* ── ウェルカムバック ── */}
       <WelcomeBack />
 
+      {/* ── 次のレッスン ── */}
+      <div>
+        <div className="flex items-center gap-2 mb-3">
+          <div className="w-1.5 h-4 rounded-full" style={{ background: 'var(--mb-sky)' }} />
+          <span className="text-xs font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+            NEXT LESSON
+          </span>
+        </div>
+        <NextLessonCard />
+      </div>
+
       {/* ── 今日の目標 ── */}
       <DailyGoalCard />
 
@@ -127,29 +134,6 @@ export default function HomePage() {
 
       {/* ── マイルストーン ── */}
       <MilestoneCard />
-
-      {/* ── 次のレッスン ── */}
-      <div>
-        <div className="flex items-center gap-2 mb-3">
-          <div className="w-1.5 h-4 rounded-full" style={{ background: 'var(--mb-sky)' }} />
-          <span className="text-xs font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-            NEXT LESSON
-          </span>
-        </div>
-        <NextLessonCard />
-      </div>
-
-      {/* ── 今日の名言 ── */}
-      <MoneyQuote />
-
-      {/* ── 今日の復習クイズ ── */}
-      <DailyQuiz />
-
-      {/* ── 今日のヒント ── */}
-      <DailyTip />
-
-      {/* ── ランダム講義 ── */}
-      <RandomLesson />
 
       {/* ── 最近完了した講義 ── */}
       <RecentLessons />
