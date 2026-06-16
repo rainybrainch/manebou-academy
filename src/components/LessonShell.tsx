@@ -191,6 +191,13 @@ export default function LessonShell({
     }
   }
 
+  // Prefetch next lesson as soon as current is completed
+  useEffect(() => {
+    if (completed && next) {
+      router.prefetch(`/courses/${next.courseId}/lessons/${next.lesson.id}`);
+    }
+  }, [completed, next, router]);
+
   const { lessonIndex, lessonTotal } = useMemo(() => {
     const all = (categories.find(c => c.id === categoryId)?.courses ?? [course])
       .flatMap(ch => ch.lessons.filter(l => !l.isComingSoon));
@@ -322,6 +329,7 @@ export default function LessonShell({
                       {autoNextCount !== null && autoNextCount > 0 && (
                         <span className="text-[11px] font-bold opacity-70">{autoNextCount}</span>
                       )}
+                      <kbd className="hidden sm:inline text-[10px] opacity-40 font-mono">[→]</kbd>
                       <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
                       </svg>
@@ -382,6 +390,7 @@ export default function LessonShell({
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                   </svg>
                   講義を完了にする
+                  <kbd className="hidden sm:inline text-[10px] opacity-40 ml-1 font-mono">[C]</kbd>
                 </>
               )}
             </button>
