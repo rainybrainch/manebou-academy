@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { useState } from 'react';
 import { useProgress } from '@/hooks/useProgress';
 import { categories } from '@/data/courses';
 import StreakCalendar from '@/components/StreakCalendar';
@@ -42,6 +43,7 @@ const categoryColors: Record<string, string> = {
 
 export default function ProgressClient() {
   const { isCompleted, completedCount, streakDays, bestStreak, lastViewedLesson, completedLessonKeys, mounted } = useProgress();
+  const [hideNotStarted, setHideNotStarted] = useState(false);
 
   const totalLessons = categories.flatMap(c => c.courses).flatMap(c => c.lessons).filter(l => !l.isComingSoon).length;
   const overallPct = totalLessons > 0 ? Math.round((completedCount / totalLessons) * 100) : 0;
@@ -181,9 +183,25 @@ export default function ProgressClient() {
 
       {/* Per-category progress */}
       <div className="space-y-4 mb-8">
-        <h2 className="text-sm font-bold" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)' }}>
-          カテゴリ別進捗
-        </h2>
+        <div className="flex items-center justify-between">
+          <h2 className="text-sm font-bold" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)' }}>
+            カテゴリ別進捗
+          </h2>
+          {mounted && completedCount > 0 && (
+            <button
+              onClick={() => setHideNotStarted(h => !h)}
+              className="text-[10px] font-bold px-2.5 py-1 rounded-full border transition-all"
+              style={{
+                borderColor: hideNotStarted ? 'var(--mb-sky)' : 'rgba(26,26,46,0.2)',
+                background: hideNotStarted ? 'rgba(91,200,232,0.12)' : 'transparent',
+                color: hideNotStarted ? 'var(--mb-sky)' : 'rgba(26,26,46,0.45)',
+                fontFamily: "'Zen Maru Gothic', sans-serif",
+              }}
+            >
+              {hideNotStarted ? '全表示' : '未着手を非表示'}
+            </button>
+          )}
+        </div>
         {categories.map((category) => {
           const accent = categoryColors[category.id] ?? '#ccc';
           const lessonPairs = category.courses.flatMap(c =>
@@ -193,6 +211,8 @@ export default function ProgressClient() {
             ? lessonPairs.filter(({ courseId, lessonId }) => isCompleted(courseId, lessonId)).length
             : 0;
           const pct = lessonPairs.length > 0 ? Math.round((done / lessonPairs.length) * 100) : 0;
+
+          if (hideNotStarted && done === 0) return null;
 
           return (
             <div
