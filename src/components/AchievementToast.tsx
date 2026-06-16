@@ -59,12 +59,6 @@ export default function AchievementToast() {
         maxWidth: '240px',
       }}
     >
-      <style>{`
-        @keyframes slideInRight {
-          from { opacity: 0; transform: translateX(24px); }
-          to   { opacity: 1; transform: translateX(0); }
-        }
-      `}</style>
       <span className="text-2xl shrink-0">{visible.icon}</span>
       <div className="min-w-0">
         <div className="text-[9px] font-bold tracking-widest mb-0.5" style={{ color: 'var(--mb-gold)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>

@@ -64,3 +64,47 @@ body.mb-wide main {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+/* Toast & animation keyframes (extracted from component inline styles) */
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(24px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes slideDown {
+  from { opacity: 0; transform: translate(-50%, -20px); }
+  to   { opacity: 1; transform: translate(-50%, 0); }
+}
+@keyframes levelSlide {
+  from { opacity: 0; transform: translate(-50%, -24px) scale(0.85); }
+  to   { opacity: 1; transform: translate(-50%, 0) scale(1); }
+}
+@keyframes pulse-border {
+  0%, 100% { border-color: rgba(232,53,74,0.3); }
+  50%       { border-color: rgba(232,53,74,0.7); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+  to   { transform: rotate(8deg) scale(1.1); }
+}
+
+  to   { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+  15%  { opacity: 1; transform: translateY(0); }
+  85%  { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-4px); }
+}

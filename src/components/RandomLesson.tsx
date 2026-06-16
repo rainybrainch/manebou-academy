@@ -95,7 +95,6 @@ export default function RandomLesson() {
         >
           {isNew ? '🎲' : '🔁'}
         </span>
-        <style>{`@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}`}</style>
         {pool.length === 0
           ? (isNew ? '未完了講義なし' : '完了済み講義なし')
           : isNew

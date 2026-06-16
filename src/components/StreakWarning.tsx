@@ -56,7 +56,6 @@ export default function StreakWarning() {
         animation: 'pulse-border 2s infinite',
       }}
     >
-      <style>{`@keyframes pulse-border{0%,100%{border-color:rgba(232,53,74,0.3)}50%{border-color:rgba(232,53,74,0.7)}}`}</style>
       <span className="text-2xl shrink-0">🔥</span>
       <div className="flex-1 min-w-0">
         <div className="text-xs font-bold" style={{ color: '#E8354A', fontFamily: "'Dela Gothic One', sans-serif" }}>

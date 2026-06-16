@@ -433,7 +433,6 @@ export default function DailyQuiz() {
                 animation: 'fadeIn 0.3s ease',
               }}
             >
-              <style>{`@keyframes fadeIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}`}</style>
               <div className="flex items-center gap-1.5 mb-2">
                 <svg className="w-3.5 h-3.5" style={{ color: 'var(--mb-sky)' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />

@@ -40,12 +40,6 @@ export default function BadgeToast() {
         whiteSpace: 'nowrap',
       }}
     >
-      <style>{`
-        @keyframes slideDown {
-          from { opacity: 0; transform: translate(-50%, -20px); }
-          to   { opacity: 1; transform: translate(-50%, 0); }
-        }
-      `}</style>
       <span className="text-2xl">🏅</span>
       <div>
         <div style={{ fontFamily: "'Dela Gothic One', sans-serif", color: 'var(--mb-gold)', fontSize: '13px' }}>

@@ -49,12 +49,6 @@ export default function LevelUpToast() {
         whiteSpace: 'nowrap',
       }}
     >
-      <style>{`
-        @keyframes levelSlide {
-          from { opacity: 0; transform: translate(-50%, -24px) scale(0.85); }
-          to   { opacity: 1; transform: translate(-50%, 0) scale(1); }
-        }
-      `}</style>
       <span className="text-2xl">{toast.icon}</span>
       <div>
         <div style={{ fontFamily: "'Dela Gothic One', sans-serif", color: toast.color, fontSize: '13px' }}>
