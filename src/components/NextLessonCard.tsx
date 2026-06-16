@@ -129,7 +129,7 @@ export default function NextLessonCard() {
                 className="text-[8px] font-bold px-1.5 py-0.5 rounded-full"
                 style={{ background: 'rgba(91,200,232,0.15)', color: 'var(--mb-sky)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
               >
-                NEXT
+                次の講義
               </span>
             )}
             {mounted && courseTotal > 0 && courseDone > 0 && (

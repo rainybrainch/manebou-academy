@@ -47,10 +47,14 @@ export default function WeeklyActivityChart() {
     return Object.entries(dailyLessonCounts).filter(([d, c]) => d >= cutoffStr && c > 0).length;
   }, [dailyLessonCounts]);
 
-  const totalLessonsThisMonth = useMemo(() =>
-    Object.values(dailyLessonCounts).reduce((a, b) => a + b, 0),
-    [dailyLessonCounts]
-  );
+  const totalLessonsThisMonth = useMemo(() => {
+    const cutoff = new Date();
+    cutoff.setDate(cutoff.getDate() - 27);
+    const cutoffStr = cutoff.toISOString().slice(0, 10);
+    return Object.entries(dailyLessonCounts)
+      .filter(([d]) => d >= cutoffStr)
+      .reduce((a, [, c]) => a + c, 0);
+  }, [dailyLessonCounts]);
 
   if (!mounted) return null;
 
