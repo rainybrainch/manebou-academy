@@ -16,6 +16,7 @@ import WeeklyGoalCard from '@/components/WeeklyGoalCard';
 import HeroCtaButton from '@/components/HeroCtaButton';
 import HomeCourseGrid from '@/components/HomeCourseGrid';
 import MyCoursesList from '@/components/MyCoursesList';
+import MoneyQuote from '@/components/MoneyQuote';
 
 export default function HomePage() {
   const totalLessons = categories.reduce(
@@ -145,6 +146,9 @@ export default function HomePage() {
 
       {/* ── マイルストーン ── */}
       <MilestoneCard />
+
+      {/* ── 今日の名言 ── */}
+      <MoneyQuote />
 
       {/* ── 最近完了した講義 ── */}
       <RecentLessons />

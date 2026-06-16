@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { useProgress } from '@/hooks/useProgress';
 import { categories } from '@/data/courses';
 import { ACHIEVEMENTS } from '@/data/achievements';
@@ -9,11 +9,18 @@ export default function ShareProgress() {
   const { completedCount, streakDays, bestStreak, completedLessonKeys, mounted } = useProgress();
   const [shared, setShared] = useState(false);
 
+  const totalLessons = useMemo(
+    () => categories.flatMap(c => c.courses).flatMap(c => c.lessons).filter(l => !l.isComingSoon).length,
+    []
+  );
+  const badges = useMemo(
+    () => ACHIEVEMENTS.filter(a => a.check(completedCount, streakDays, bestStreak, completedLessonKeys)).length,
+    [completedCount, streakDays, bestStreak, completedLessonKeys]
+  );
+
   if (!mounted || completedCount === 0) return null;
 
-  const totalLessons = categories.flatMap(c => c.courses).flatMap(c => c.lessons).filter(l => !l.isComingSoon).length;
   const pct = Math.round((completedCount / totalLessons) * 100);
-  const badges = ACHIEVEMENTS.filter(a => a.check(completedCount, streakDays, bestStreak, completedLessonKeys)).length;
 
   const bar = (filled: number, total: number) => {
     const f = Math.round((filled / total) * 10);
