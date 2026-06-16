@@ -35,6 +35,14 @@ export const ACHIEVEMENTS: Achievement[] = [
     progress: (c) => ({ current: Math.min(c, 10), total: 10 }),
   },
   {
+    id: 'fifteen_lessons',
+    icon: '🔑',
+    title: '15講義クリア',
+    desc: '15講義を完了した',
+    check: (c) => c >= 15,
+    progress: (c) => ({ current: Math.min(c, 15), total: 15 }),
+  },
+  {
     id: 'twenty_lessons',
     icon: '💎',
     title: '20講義クリア',

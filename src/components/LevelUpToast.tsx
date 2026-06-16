@@ -8,6 +8,7 @@ const LEVELS = [
   { threshold: 10,  title: '努力家',      icon: '💪', color: '#4CAF7D' },
   { threshold: 20,  title: '猛者',        icon: '⚡', color: '#F5C842' },
   { threshold: 30,  title: '達人',        icon: '🔥', color: '#E8354A' },
+  { threshold: 40,  title: '修羅',        icon: '💎', color: '#9B6DD6' },
   { threshold: 50,  title: '伝説',        icon: '👑', color: '#F5C842' },
   { threshold: 75,  title: '超人',        icon: '🏆', color: '#F5C842' },
   { threshold: 100, title: '100講義の神', icon: '💯', color: '#F5C842' },
