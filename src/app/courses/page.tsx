@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { categories } from '@/data/courses';
 import { topicCategories } from '@/data/structure';
 import OverallProgressBar from '@/components/OverallProgressBar';
+import TopicProgressPill from '@/components/TopicProgressPill';
 
 const topicMeta: Record<string, { icon: string; color: string; shortName: string; tagline: string }> = {
   'cat-money':       { icon: '💴', color: '#5BC8E8', shortName: 'お金',         tagline: 'お金の仕組みを学ぼう' },
@@ -121,6 +122,7 @@ export default function CoursesPage() {
                       {lessonCount}講義
                     </span>
                   </div>
+                  <TopicProgressPill topicCategoryId={tc.id} color={tm?.color ?? '#888'} />
                 </div>
 
                 {/* Arrow */}

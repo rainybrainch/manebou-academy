@@ -15,7 +15,6 @@ function useGlobalShortcuts() {
 const LESSON_SHORTCUTS = [
   { key: '← →', desc: '前後の講義に移動' },
   { key: 'C', desc: '講義を完了にする' },
-  { key: 'F', desc: 'フォーカスモード切替' },
   { key: 'ESC', desc: 'パネルを閉じる' },
 ];
 

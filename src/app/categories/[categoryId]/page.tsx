@@ -1,8 +1,12 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { categories } from '@/data/courses';
-import { getTopicCategoryById } from '@/data/structure';
+import { topicCategories, getTopicCategoryById } from '@/data/structure';
 import CategoryPageClient from './CategoryPageClient';
+
+export function generateStaticParams() {
+  return topicCategories.map(tc => ({ categoryId: tc.id }));
+}
 
 interface Props {
   params: Promise<{ categoryId: string }>;
