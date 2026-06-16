@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useProgress } from '@/hooks/useProgress';
 import { Skeleton, SkeletonStyle } from './Skeleton';
 import { ACHIEVEMENTS } from '@/data/achievements';
@@ -30,9 +30,10 @@ function useCountUp(target: number, duration = 600): number {
 export default function HomeStats() {
   const { completedCount, streakDays, bestStreak, completedLessonKeys, mounted } = useProgress();
 
-  const earnedCount = mounted
-    ? ACHIEVEMENTS.filter(a => a.check(completedCount, streakDays, bestStreak, completedLessonKeys)).length
-    : 0;
+  const earnedCount = useMemo(
+    () => mounted ? ACHIEVEMENTS.filter(a => a.check(completedCount, streakDays, bestStreak, completedLessonKeys)).length : 0,
+    [mounted, completedCount, streakDays, bestStreak, completedLessonKeys]
+  );
 
   const animatedLessons = useCountUp(mounted ? completedCount : 0, 700);
   const animatedStreak = useCountUp(mounted ? streakDays : 0, 500);

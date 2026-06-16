@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { useMemo } from 'react';
 import { useProgress } from '@/hooks/useProgress';
 import { categories } from '@/data/courses';
 
@@ -26,25 +27,24 @@ const allLessons = categories.flatMap(cat =>
 export default function RecentLessons() {
   const { completedLessonKeys, lessonCompletionDates, completedCount, mounted } = useProgress();
 
+  const recentItems = useMemo(() => {
+    if (!mounted || completedCount === 0) return [];
+    return [...completedLessonKeys]
+      .sort((a, b) => {
+        const da = lessonCompletionDates[a] ?? '0000-00-00';
+        const db = lessonCompletionDates[b] ?? '0000-00-00';
+        return db.localeCompare(da);
+      })
+      .slice(0, 5)
+      .map(key => {
+        const [cId, lId] = key.split('/');
+        const found = allLessons.find(l => l.courseId === cId && l.lesson.id === lId);
+        return found ? { ...found, key, dateStr: lessonCompletionDates[key] ?? null } : null;
+      })
+      .filter(Boolean) as (typeof allLessons[0] & { key: string; dateStr: string | null })[];
+  }, [mounted, completedCount, completedLessonKeys, lessonCompletionDates]);
+
   if (!mounted || completedCount === 0) return null;
-
-  // Sort by date descending, then take 5
-  const recentKeys = [...completedLessonKeys]
-    .sort((a, b) => {
-      const da = lessonCompletionDates[a] ?? '0000-00-00';
-      const db = lessonCompletionDates[b] ?? '0000-00-00';
-      return db.localeCompare(da);
-    })
-    .slice(0, 5);
-
-  const recentItems = recentKeys
-    .map(key => {
-      const [cId, lId] = key.split('/');
-      const found = allLessons.find(l => l.courseId === cId && l.lesson.id === lId);
-      return found ? { ...found, key, dateStr: lessonCompletionDates[key] ?? null } : null;
-    })
-    .filter(Boolean) as (typeof allLessons[0] & { key: string; dateStr: string | null })[];
-
   if (recentItems.length === 0) return null;
 
   return (
