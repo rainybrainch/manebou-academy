@@ -15,7 +15,7 @@ function intensityColor(count: number, isToday: boolean): string {
 }
 
 export default function StreakCalendar() {
-  const { dailyLessonCounts, streakDays, mounted } = useProgress();
+  const { dailyLessonCounts, streakDays, bestStreak, mounted } = useProgress();
   if (!mounted) return null;
 
   const today = new Date();
@@ -75,16 +75,31 @@ export default function StreakCalendar() {
         <span className="text-xs font-bold" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)' }}>
           学習カレンダー（90日間）
         </span>
-        <span
-          className="text-[10px] font-bold px-2 py-0.5 rounded-full"
-          style={{
-            background: streakDays >= 3 ? 'rgba(245,200,66,0.15)' : 'rgba(26,26,46,0.06)',
-            color: streakDays >= 3 ? '#D4A017' : 'rgba(26,26,46,0.4)',
-            fontFamily: "'Dela Gothic One', sans-serif",
-          }}
-        >
-          {streakDays >= 3 ? '🔥' : '✨'} {streakDays}日連続
-        </span>
+        <div className="flex items-center gap-1.5">
+          {bestStreak > streakDays && (
+            <span
+              className="text-[9px] font-bold px-1.5 py-0.5 rounded-full"
+              style={{
+                background: 'rgba(155,109,214,0.12)',
+                color: '#9B6DD6',
+                fontFamily: "'Zen Maru Gothic', sans-serif",
+                border: '1px solid rgba(155,109,214,0.2)',
+              }}
+            >
+              最高{bestStreak}日
+            </span>
+          )}
+          <span
+            className="text-[10px] font-bold px-2 py-0.5 rounded-full"
+            style={{
+              background: streakDays >= 3 ? 'rgba(245,200,66,0.15)' : 'rgba(26,26,46,0.06)',
+              color: streakDays >= 3 ? '#D4A017' : 'rgba(26,26,46,0.4)',
+              fontFamily: "'Dela Gothic One', sans-serif",
+            }}
+          >
+            {streakDays >= 3 ? '🔥' : '✨'} {streakDays}日連続
+          </span>
+        </div>
       </div>
 
       <div className="flex gap-0.5">

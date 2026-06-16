@@ -4,7 +4,7 @@ import { useProgress } from '@/hooks/useProgress';
 import { getLevel, getNextLevel } from '@/data/levels';
 
 export default function WelcomeBack() {
-  const { completedCount, streakDays, mounted } = useProgress();
+  const { completedCount, streakDays, dailyLessonCounts, mounted } = useProgress();
 
   if (!mounted || completedCount === 0) return null;
 
@@ -28,6 +28,8 @@ export default function WelcomeBack() {
     streakDays >= 3  ? `${streakDays}日連続中` :
     streakDays >= 2  ? `${streakDays}日連続` :
     null;
+
+  const todayCount = dailyLessonCounts[new Date().toISOString().slice(0, 10)] ?? 0;
 
   const level = getLevel(completedCount);
   const next = getNextLevel(completedCount);
@@ -60,6 +62,7 @@ export default function WelcomeBack() {
             style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
           >
             累計{completedCount}講義完了
+            {todayCount > 0 && <span style={{ color: '#4CAF7D', fontWeight: 700 }}> · 今日{todayCount}講義</span>}
             {streakMsg && ` · ${streakMsg}`}
           </p>
         </div>
