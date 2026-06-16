@@ -23,13 +23,6 @@ export default function MilestoneCard() {
     ? Math.round(((completedCount - prevMilestone) / rangeSize) * 100)
     : 100;
 
-  // Milestone label
-  const nextAch = ACHIEVEMENTS.find(a => {
-    if (!a.progress) return false;
-    const p = a.progress(completedCount, streakDays, bestStreak, completedLessonKeys);
-    return p !== null && p.current < p.total;
-  });
-
   let icon = '🎯';
   let headline = '';
   let sub = '';

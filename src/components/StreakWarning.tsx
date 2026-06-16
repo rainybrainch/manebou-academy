@@ -6,26 +6,16 @@ import { useProgress } from '@/hooks/useProgress';
 import { categories } from '@/data/courses';
 
 export default function StreakWarning() {
-  const { streakDays, completedCount, isCompleted, lastViewedLesson, mounted } = useProgress();
+  const { streakDays, completedCount, dailyLessonCounts, isCompleted, lastViewedLesson, mounted } = useProgress();
   const [show, setShow] = useState(false);
 
   useEffect(() => {
     if (!mounted || streakDays < 2 || completedCount === 0) return;
     const hour = new Date().getHours();
     if (hour < 17) return; // only show after 5pm
-
-    // Check if user completed any lesson today via lessonCompletionDates
-    try {
-      const raw = localStorage.getItem('mb_progress_v1');
-      const store = raw ? JSON.parse(raw) : null;
-      const today = new Date().toISOString().slice(0, 10);
-      const dates: Record<string, string> = store?.lessonCompletionDates ?? {};
-      const studiedToday = Object.values(dates).some(d => d === today);
-      if (!studiedToday) setShow(true);
-    } catch {
-      setShow(true);
-    }
-  }, [mounted, streakDays, completedCount]);
+    const today = new Date().toISOString().slice(0, 10);
+    if (!dailyLessonCounts[today]) setShow(true);
+  }, [mounted, streakDays, completedCount, dailyLessonCounts]);
 
   if (!show) return null;
 

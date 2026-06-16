@@ -1,6 +1,10 @@
-'use client';
-
+import type { Metadata } from 'next';
 import React from 'react';
+
+export const metadata: Metadata = {
+  title: 'アップデート情報 | マネぼうアカデミー',
+  description: 'マネぼうアカデミーの新機能・改善・コンテンツ追加情報をお知らせします。',
+};
 
 const CIRCLED = ['①','②','③','④','⑤','⑥','⑦','⑧','⑨','⑩'];
 
