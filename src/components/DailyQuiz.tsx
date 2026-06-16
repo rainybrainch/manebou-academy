@@ -337,6 +337,7 @@ const SIMPLE_QUIZ: QuizItem[] = [
 
 const REACT_KEY = 'mb_quiz_reactions';
 const TODAY_KEY = 'mb_quiz_today_date';
+const QUIZ_STREAK_KEY = 'mb_quiz_streak';
 
 interface Reactions { knew: number; learned: number; }
 
@@ -347,6 +348,7 @@ export default function DailyQuiz() {
   const [reacted, setReacted] = useState<'knew' | 'learned' | null>(null);
   const [totals, setTotals] = useState<Reactions>({ knew: 0, learned: 0 });
   const [answeredToday, setAnsweredToday] = useState(false);
+  const [quizStreak, setQuizStreak] = useState(0);
 
   useEffect(() => {
     if (!mounted) return;
@@ -355,6 +357,8 @@ export default function DailyQuiz() {
       if (raw) setTotals(JSON.parse(raw) as Reactions);
       const todayStr = new Date().toISOString().slice(0, 10);
       if (localStorage.getItem(TODAY_KEY) === todayStr) setAnsweredToday(true);
+      const streak = parseInt(localStorage.getItem(QUIZ_STREAK_KEY) ?? '0', 10);
+      if (!isNaN(streak) && streak > 0) setQuizStreak(streak);
     } catch {}
   }, [mounted]);
 
@@ -377,8 +381,16 @@ export default function DailyQuiz() {
     try {
       localStorage.setItem(REACT_KEY, JSON.stringify(next));
       const todayStr = new Date().toISOString().slice(0, 10);
+      const yesterday = new Date();
+      yesterday.setDate(yesterday.getDate() - 1);
+      const yesterdayStr = yesterday.toISOString().slice(0, 10);
+      const prevDate = localStorage.getItem(TODAY_KEY);
+      const prevStreak = parseInt(localStorage.getItem(QUIZ_STREAK_KEY) ?? '0', 10) || 0;
+      const newStreak = prevDate === yesterdayStr ? prevStreak + 1 : 1;
+      localStorage.setItem(QUIZ_STREAK_KEY, String(newStreak));
       localStorage.setItem(TODAY_KEY, todayStr);
       setAnsweredToday(true);
+      setQuizStreak(newStreak);
     } catch {}
   }
 
@@ -400,6 +412,14 @@ export default function DailyQuiz() {
         </span>
         {total > 0 ? (
           <div className="ml-auto flex items-center gap-1.5">
+            {quizStreak >= 2 && (
+              <span
+                className="text-[9px] font-bold px-1.5 py-0.5 rounded-full"
+                style={{ background: 'rgba(232,53,74,0.25)', color: '#E8354A', fontFamily: "'Dela Gothic One', sans-serif" }}
+              >
+                🔥{quizStreak}
+              </span>
+            )}
             {answeredToday && (
               <span
                 className="text-[9px] font-bold px-1.5 py-0.5 rounded-full"

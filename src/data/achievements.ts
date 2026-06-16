@@ -355,6 +355,48 @@ export const ACHIEVEMENTS: Achievement[] = [
     progress: (_, streak) => ({ current: Math.min(streak, 21), total: 21 }),
   },
   {
+    id: 'quiz_5',
+    icon: '🧠',
+    title: '一問入魂',
+    desc: 'クイズに5問以上回答した',
+    check: () => {
+      try {
+        const raw = localStorage.getItem('mb_quiz_reactions');
+        const r = raw ? JSON.parse(raw) as { knew: number; learned: number } : { knew: 0, learned: 0 };
+        return (r.knew + r.learned) >= 5;
+      } catch { return false; }
+    },
+    progress: () => {
+      try {
+        const raw = localStorage.getItem('mb_quiz_reactions');
+        const r = raw ? JSON.parse(raw) as { knew: number; learned: number } : { knew: 0, learned: 0 };
+        const total = r.knew + r.learned;
+        return { current: Math.min(total, 5), total: 5 };
+      } catch { return null; }
+    },
+  },
+  {
+    id: 'quiz_20',
+    icon: '🎓',
+    title: 'クイズマスター',
+    desc: 'クイズに20問以上回答した',
+    check: () => {
+      try {
+        const raw = localStorage.getItem('mb_quiz_reactions');
+        const r = raw ? JSON.parse(raw) as { knew: number; learned: number } : { knew: 0, learned: 0 };
+        return (r.knew + r.learned) >= 20;
+      } catch { return false; }
+    },
+    progress: () => {
+      try {
+        const raw = localStorage.getItem('mb_quiz_reactions');
+        const r = raw ? JSON.parse(raw) as { knew: number; learned: number } : { knew: 0, learned: 0 };
+        const total = r.knew + r.learned;
+        return { current: Math.min(total, 20), total: 20 };
+      } catch { return null; }
+    },
+  },
+  {
     id: 'forty_lessons',
     icon: '💎',
     title: '40講義突破',
