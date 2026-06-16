@@ -172,6 +172,11 @@ export default function AllNotes() {
                     <div className="text-[10px] truncate" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
                       {highlight(courseTitle)}
                     </div>
+                    {!isOpen && (
+                      <div className="text-[9px] truncate mt-0.5" style={{ color: 'rgba(26,26,46,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                        {text.slice(0, 40)}{text.length > 40 ? '…' : ''}
+                      </div>
+                    )}
                   </div>
                   <span className="text-xs shrink-0" style={{ color: 'rgba(26,26,46,0.3)' }}>{isOpen ? '▲' : '▼'}</span>
                 </button>
