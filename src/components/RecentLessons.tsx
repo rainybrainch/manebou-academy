@@ -58,7 +58,7 @@ export default function RecentLessons() {
         <div className="flex items-center gap-2">
           <div className="w-1.5 h-4 rounded-full" style={{ background: '#4CAF7D' }} />
           <span className="text-xs font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-            RECENTLY COMPLETED
+            最近の学習
           </span>
         </div>
         <span className="text-[10px] font-bold px-2 py-0.5 rounded-full" style={{ background: 'rgba(76,175,125,0.1)', color: '#4CAF7D', fontFamily: "'Dela Gothic One', sans-serif" }}>

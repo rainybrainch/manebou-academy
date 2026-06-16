@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useProgress } from '@/hooks/useProgress';
 import { Skeleton, SkeletonStyle } from './Skeleton';
@@ -86,9 +87,10 @@ export default function HomeStats() {
   return (
     <div className="grid grid-cols-3 gap-3">
       {stats.map((stat) => (
-        <div
+        <Link
           key={stat.sub}
-          className="bg-white rounded-xl p-3 text-center border-2"
+          href="/progress"
+          className="block bg-white rounded-xl p-3 text-center border-2 transition-all hover:-translate-y-0.5 active:translate-y-0"
           style={{ borderColor: 'var(--mb-dark)', boxShadow: `3px 3px 0 ${stat.color}` }}
         >
           <div className="text-lg mb-1">{stat.icon}</div>
@@ -99,10 +101,10 @@ export default function HomeStats() {
             {stat.value}
           </div>
           <div
-            className="text-[10px] mt-1 font-bold"
+            className="text-[9px] mt-1 font-bold"
             style={{ color: stat.color, fontFamily: "'Zen Maru Gothic', sans-serif" }}
           >
-            {stat.sub}
+            {stat.label}
           </div>
           {stat.extra && (
             <div
@@ -112,7 +114,7 @@ export default function HomeStats() {
               {stat.extra}
             </div>
           )}
-        </div>
+        </Link>
       ))}
     </div>
   );
