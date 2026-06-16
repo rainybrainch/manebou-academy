@@ -141,7 +141,7 @@ export default function BottomNav() {
       >
         {items.map((item) => {
           const isActive = item.href === '/' ? pathname === '/' : pathname.startsWith(item.href);
-          const showStreak = item.href === '/progress' && mounted && streakDays >= 2;
+          const showStreak = item.href === '/progress' && mounted && streakDays >= 1;
           const showNewsBadge = item.href === '/news' && hasNewNews;
           const showCourseNudge = item.href === '/courses' && showStudyNudge;
 

@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useRef } from 'react';
 import Link from 'next/link';
 
 interface GlossaryEntry {
@@ -20,6 +20,17 @@ export default function GlossaryClient({ entries }: Props) {
   const [query, setQuery] = useState('');
   const [expanded, setExpanded] = useState<string | null>(null);
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
+  const [copiedTerm, setCopiedTerm] = useState<string | null>(null);
+  const copyTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  function copyTerm(term: string, definition: string, e: React.MouseEvent) {
+    e.stopPropagation();
+    navigator.clipboard.writeText(`${term}\n${definition}`).then(() => {
+      if (copyTimerRef.current) clearTimeout(copyTimerRef.current);
+      setCopiedTerm(term);
+      copyTimerRef.current = setTimeout(() => setCopiedTerm(null), 1500);
+    }).catch(() => {});
+  }
 
   const categories = useMemo(() => {
     const seen = new Set<string>();
@@ -200,16 +211,29 @@ export default function GlossaryClient({ entries }: Props) {
                           >
                             {entry.definition}
                           </p>
-                          <Link
-                            href={`/courses/${entry.courseId}/lessons/${entry.lessonId}`}
-                            className="inline-flex items-center gap-1 text-[10px] font-bold hover:underline"
-                            style={{ color: 'var(--mb-sky)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
-                          >
-                            <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                            </svg>
-                            {entry.lessonTitle} で学ぶ
-                          </Link>
+                          <div className="flex items-center justify-between">
+                            <Link
+                              href={`/courses/${entry.courseId}/lessons/${entry.lessonId}`}
+                              className="inline-flex items-center gap-1 text-[10px] font-bold hover:underline"
+                              style={{ color: 'var(--mb-sky)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                            >
+                              <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                              </svg>
+                              {entry.lessonTitle} で学ぶ
+                            </Link>
+                            <button
+                              onClick={(e) => copyTerm(entry.term, entry.definition, e)}
+                              className="text-[9px] font-bold px-2 py-1 rounded-lg transition-all"
+                              style={{
+                                background: copiedTerm === entry.term ? 'rgba(76,175,125,0.12)' : 'rgba(26,26,46,0.06)',
+                                color: copiedTerm === entry.term ? '#4CAF7D' : 'rgba(26,26,46,0.4)',
+                                fontFamily: "'Zen Maru Gothic', sans-serif",
+                              }}
+                            >
+                              {copiedTerm === entry.term ? '✓ コピー済' : 'コピー'}
+                            </button>
+                          </div>
                         </div>
                       )}
                     </div>
