@@ -5,7 +5,7 @@ import { useMemo } from 'react';
 import { useProgress } from '@/hooks/useProgress';
 import { ACHIEVEMENTS } from '@/data/achievements';
 
-const LESSON_MILESTONES = [1, 5, 10, 20, 30, 50, 75, 100];
+const LESSON_MILESTONES = [1, 5, 10, 20, 30, 40, 50, 75, 100];
 
 export default function MilestoneCard() {
   const { completedCount, streakDays, bestStreak, completedLessonKeys, mounted } = useProgress();
@@ -56,7 +56,7 @@ export default function MilestoneCard() {
   }
 
   // Mini milestone slots
-  const slots = LESSON_MILESTONES.slice(0, 8).map(m => ({
+  const slots = LESSON_MILESTONES.map(m => ({
     label: m >= 10 ? `${m}` : `${m}`,
     reached: completedCount >= m,
     next: m === nextMilestone,

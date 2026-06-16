@@ -28,7 +28,7 @@ function useCountUp(target: number, duration = 600): number {
 }
 
 export default function HomeStats() {
-  const { completedCount, streakDays, bestStreak, completedLessonKeys, mounted } = useProgress();
+  const { completedCount, streakDays, bestStreak, weeklyCompletedCount, completedLessonKeys, mounted } = useProgress();
 
   const earnedCount = useMemo(
     () => mounted ? ACHIEVEMENTS.filter(a => a.check(completedCount, streakDays, bestStreak, completedLessonKeys)).length : 0,
@@ -54,7 +54,7 @@ export default function HomeStats() {
       value: mounted ? String(animatedLessons) : '0',
       color: '#4CAF7D',
       icon: '📚',
-      extra: null as string | null,
+      extra: mounted && weeklyCompletedCount > 0 ? `今週${weeklyCompletedCount}講義` : null,
     },
     {
       label: '連続学習',
