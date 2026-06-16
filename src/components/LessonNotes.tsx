@@ -13,6 +13,7 @@ export default function LessonNotes({ courseId, lessonId }: Props) {
   const [open, setOpen] = useState(false);
   const [text, setText] = useState('');
   const [saved, setSaved] = useState(false);
+  const [copied, setCopied] = useState(false);
   const timeout = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
@@ -59,7 +60,12 @@ export default function LessonNotes({ courseId, lessonId }: Props) {
               マイメモ
             </span>
             <div className="flex items-center gap-2">
-              {saved && (
+              {copied && (
+                <span className="text-[10px]" style={{ color: 'var(--mb-sky)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                  ✓ コピー済み
+                </span>
+              )}
+              {!copied && saved && (
                 <span className="text-[10px]" style={{ color: '#4CAF7D', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
                   ✓ 保存済み
                 </span>
@@ -68,8 +74,8 @@ export default function LessonNotes({ courseId, lessonId }: Props) {
                 <button
                   onClick={async () => {
                     await navigator.clipboard.writeText(text);
-                    setSaved(true);
-                    setTimeout(() => setSaved(false), 1500);
+                    setCopied(true);
+                    setTimeout(() => setCopied(false), 1500);
                   }}
                   className="text-[10px] font-bold hover:opacity-70 transition-opacity"
                   style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}

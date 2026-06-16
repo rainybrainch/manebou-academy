@@ -150,7 +150,7 @@ export default function LessonSearch({ open, onClose }: Props) {
           )}
           {results.length === 0 ? (
             <div className="px-4 py-8 text-center text-sm" style={{ color: 'rgba(255,255,255,0.35)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-              見つかりません
+              「{query.trim()}」に一致する講義が見つかりません
             </div>
           ) : (
             results.map((r, i) => (
