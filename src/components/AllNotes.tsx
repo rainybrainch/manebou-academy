@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { categories } from '@/data/courses';
 
 interface NoteEntry {
@@ -18,6 +18,17 @@ export default function AllNotes() {
   const [mounted, setMounted] = useState(false);
   const [query, setQuery] = useState('');
   const [courseFilter, setCourseFilter] = useState<string>('all');
+  const [copiedKey, setCopiedKey] = useState<string | null>(null);
+  const copyTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const copyNote = (key: string, text: string, e: React.MouseEvent) => {
+    e.stopPropagation();
+    navigator.clipboard.writeText(text).then(() => {
+      if (copyTimeoutRef.current) clearTimeout(copyTimeoutRef.current);
+      setCopiedKey(key);
+      copyTimeoutRef.current = setTimeout(() => setCopiedKey(null), 1500);
+    }).catch(() => {});
+  };
 
   useEffect(() => {
     const found: NoteEntry[] = [];
@@ -169,13 +180,26 @@ export default function AllNotes() {
                     <p className="text-xs leading-relaxed mt-3 mb-3 whitespace-pre-wrap" style={{ color: 'rgba(26,26,46,0.7)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
                       {highlight(text)}
                     </p>
-                    <Link
-                      href={`/courses/${courseId}/lessons/${lessonId}`}
-                      className="text-[10px] font-bold hover:underline"
-                      style={{ color: 'var(--mb-sky)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
-                    >
-                      講義を見る →
-                    </Link>
+                    <div className="flex items-center justify-between">
+                      <Link
+                        href={`/courses/${courseId}/lessons/${lessonId}`}
+                        className="text-[10px] font-bold hover:underline"
+                        style={{ color: 'var(--mb-sky)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                      >
+                        講義を見る →
+                      </Link>
+                      <button
+                        onClick={(e) => copyNote(key, text, e)}
+                        className="text-[9px] font-bold px-2 py-1 rounded-lg transition-all"
+                        style={{
+                          background: copiedKey === key ? 'rgba(76,175,125,0.12)' : 'rgba(26,26,46,0.06)',
+                          color: copiedKey === key ? '#4CAF7D' : 'rgba(26,26,46,0.4)',
+                          fontFamily: "'Zen Maru Gothic', sans-serif",
+                        }}
+                      >
+                        {copiedKey === key ? '✓ コピー済' : 'コピー'}
+                      </button>
+                    </div>
                   </div>
                 )}
               </div>
