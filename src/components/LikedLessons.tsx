@@ -2,9 +2,11 @@
 
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { categories } from '@/data/courses';
 
 export default function LikedLessons() {
+  const router = useRouter();
   const [liked, setLiked] = useState<{ courseId: string; lessonId: string; courseTitle: string; lessonTitle: string }[]>([]);
   const [mounted, setMounted] = useState(false);
 
@@ -23,6 +25,12 @@ export default function LikedLessons() {
     setMounted(true);
   }, []);
 
+  const handleRandom = () => {
+    if (liked.length === 0) return;
+    const pick = liked[Math.floor(Math.random() * liked.length)];
+    router.push(`/courses/${pick.courseId}/lessons/${pick.lessonId}`);
+  };
+
   const handleUnlike = (courseId: string, lessonId: string, e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
@@ -34,12 +42,23 @@ export default function LikedLessons() {
 
   return (
     <div className="mb-8">
-      <h2 className="text-sm font-bold mb-3 flex items-center gap-2" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)' }}>
-        <span>❤️</span> いいねした講義
-        <span className="text-[10px] font-bold px-2 py-0.5 rounded-full" style={{ background: 'rgba(232,53,74,0.1)', color: '#E8354A' }}>
-          {liked.length}件
-        </span>
-      </h2>
+      <div className="flex items-center justify-between mb-3">
+        <h2 className="text-sm font-bold flex items-center gap-2" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)' }}>
+          <span>❤️</span> いいねした講義
+          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full" style={{ background: 'rgba(232,53,74,0.1)', color: '#E8354A' }}>
+            {liked.length}件
+          </span>
+        </h2>
+        {liked.length >= 2 && (
+          <button
+            onClick={handleRandom}
+            className="text-[9px] font-bold px-2.5 py-1 rounded-lg transition-all hover:opacity-80 active:scale-95"
+            style={{ background: 'rgba(245,200,66,0.1)', color: 'var(--mb-gold)', fontFamily: "'Zen Maru Gothic', sans-serif", border: '1px solid rgba(245,200,66,0.3)' }}
+          >
+            🎲 ランダム
+          </button>
+        )}
+      </div>
       <div className="space-y-2">
         {liked.map(({ courseId, lessonId, courseTitle, lessonTitle }) => (
           <div

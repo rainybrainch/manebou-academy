@@ -140,15 +140,19 @@ export default function WeeklySummary() {
 
       {/* Legend */}
       <div className="flex items-center gap-2">
-        {daysActive === 7 ? (
+        {weekTotal === 0 ? (
+          <p className="text-[10px] flex-1" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+            今週はまだ学習がありません。<span style={{ color: 'var(--mb-sky)', fontWeight: 'bold' }}>今日から始めよう！</span>
+          </p>
+        ) : daysActive === 7 ? (
           <p className="text-[10px] flex-1 font-bold" style={{ color: 'var(--mb-gold)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
             🎉 今週7日間パーフェクト！
           </p>
-        ) : streak > 0 && (
+        ) : streak > 0 ? (
           <p className="text-[10px] flex-1" style={{ color: 'rgba(26,26,46,0.45)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
             今週は連続<span style={{ color: 'var(--mb-sky)', fontWeight: 'bold' }}>{streak}日</span>学習中！
           </p>
-        )}
+        ) : null}
         <div className="flex items-center gap-1.5 ml-auto">
           {[
             { label: '1', bg: 'rgba(91,200,232,0.5)' },
