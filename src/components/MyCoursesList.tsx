@@ -62,15 +62,22 @@ export default function MyCoursesList() {
         {selectedCourses.map(course => {
           const meta = courseMeta[course.id];
           const firstChapter = course.courses[0];
-          const href = firstChapter ? `/courses/${firstChapter.id}` : `/courses`;
           const lessonCount = course.courses.reduce((a, c) => a + c.lessons.length, 0);
 
           const allLessons = course.courses.flatMap(ch =>
-              ch.lessons.filter(l => !l.isComingSoon).map(l => ({ courseId: ch.id, lessonId: l.id }))
-            );
-            const done = mounted ? allLessons.filter(({ courseId, lessonId }) => isCompleted(courseId, lessonId)).length : 0;
-            const pct = lessonCount > 0 ? Math.round((done / lessonCount) * 100) : 0;
-            const accent = meta?.color ?? 'var(--mb-gold)';
+            ch.lessons.filter(l => !l.isComingSoon).map(l => ({ courseId: ch.id, lessonId: l.id }))
+          );
+          const done = mounted ? allLessons.filter(({ courseId, lessonId }) => isCompleted(courseId, lessonId)).length : 0;
+          const pct = lessonCount > 0 ? Math.round((done / lessonCount) * 100) : 0;
+          const accent = meta?.color ?? 'var(--mb-gold)';
+
+          // 「続き」は最初の未完了レッスンへ、全完了なら最初の章へ
+          const nextLesson = mounted && done > 0
+            ? allLessons.find(({ courseId, lessonId }) => !isCompleted(courseId, lessonId))
+            : null;
+          const href = nextLesson
+            ? `/courses/${nextLesson.courseId}/lessons/${nextLesson.lessonId}`
+            : firstChapter ? `/courses/${firstChapter.id}` : '/courses';
 
           return (
             <div
