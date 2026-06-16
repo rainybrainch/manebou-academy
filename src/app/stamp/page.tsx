@@ -3,6 +3,7 @@ import StampClient from './StampClient';
 
 export const metadata: Metadata = {
   title: 'スタンプカード | マネぼうアカデミー',
+  description: 'マネぼうアカデミーのスタンプカード。講義を完了してスタンプを集めよう。',
 };
 
 interface Props {

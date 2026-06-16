@@ -17,6 +17,7 @@ export default function ResetProgressButton() {
     }
     try {
       localStorage.removeItem('mb_progress_v1');
+      localStorage.removeItem('mb_seen_achievements');
     } catch {}
     setDone(true);
     setTimeout(() => window.location.reload(), 800);

@@ -3,8 +3,8 @@ import Link from 'next/link';
 import ResetProgressButton from '@/components/ResetProgressButton';
 
 export const metadata: Metadata = {
-  title: '使用マニュアル | Monebou Academy',
-  description: 'Monebou Academyの使い方ガイド。学習の進め方・いいね・メモ・実績・キーボードショートカットを解説します。',
+  title: '使用マニュアル | マネぼうアカデミー',
+  description: 'マネぼうアカデミーの使い方ガイド。学習の進め方・いいね・メモ・実績・キーボードショートカットを解説します。',
 };
 
 const shortcuts = [

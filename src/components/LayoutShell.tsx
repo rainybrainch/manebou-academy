@@ -351,7 +351,10 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
           <button
             onClick={() => {
               if (confirm('学習データをすべてリセットしますか？\nこの操作は取り消せません。')) {
-                try { localStorage.removeItem('mb_progress_v1'); } catch {}
+                try {
+                  localStorage.removeItem('mb_progress_v1');
+                  localStorage.removeItem('mb_seen_achievements');
+                } catch {}
                 setDrawerOpen(false);
                 window.location.href = '/';
               }
