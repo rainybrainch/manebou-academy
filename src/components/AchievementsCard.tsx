@@ -18,7 +18,7 @@ export default function AchievementsCard() {
       })
       .filter(x => x.pct > 0)
       .sort((a, b) => b.pct - a.pct)
-      .slice(0, 2);
+      .slice(0, 3);
     return { earned, unearnedWithProgress };
   }, [mounted, completedCount, streakDays, bestStreak, completedLessonKeys]);
 
@@ -53,9 +53,12 @@ export default function AchievementsCard() {
                   <span className="text-base shrink-0" style={{ filter: 'grayscale(0.5)' }}>{a.icon}</span>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center justify-between">
+                      <div className="flex-1 min-w-0">
                       <span className="text-[10px] font-bold" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
                         {a.title}
                       </span>
+                      <div className="text-[8px] leading-tight mt-0.5" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>{a.desc}</div>
+                      </div>
                       {p && (
                         <span className="text-[9px] font-bold shrink-0 ml-1" style={{ color: 'var(--mb-gold)', fontFamily: "'Dela Gothic One', sans-serif" }}>
                           {p.current}/{p.total}

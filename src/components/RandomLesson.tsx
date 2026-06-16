@@ -1,15 +1,27 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useProgress } from '@/hooks/useProgress';
 import { categories } from '@/data/courses';
+
+const MODE_KEY = 'mb_random_mode';
 
 export default function RandomLesson() {
   const { isCompleted, completedCount, mounted } = useProgress();
   const router = useRouter();
   const [spinning, setSpinning] = useState(false);
   const [mode, setMode] = useState<'new' | 'review'>('new');
+
+  useEffect(() => {
+    const saved = localStorage.getItem(MODE_KEY);
+    if (saved === 'new' || saved === 'review') setMode(saved);
+  }, []);
+
+  function changeMode(m: 'new' | 'review') {
+    setMode(m);
+    localStorage.setItem(MODE_KEY, m);
+  }
 
   if (!mounted) return null;
 
@@ -61,7 +73,7 @@ export default function RandomLesson() {
           {(['new', 'review'] as const).map(m => (
             <button
               key={m}
-              onClick={() => setMode(m)}
+              onClick={() => changeMode(m)}
               className="flex-1 py-2 text-[10px] font-bold transition-colors"
               style={{
                 fontFamily: "'Zen Maru Gothic', sans-serif",
