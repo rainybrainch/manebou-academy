@@ -1,7 +1,13 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { categories } from '@/data/courses';
 import { topicCategories } from '@/data/structure';
+
+export const metadata: Metadata = {
+  title: 'コース一覧 | Monebou Academy',
+  description: 'お金・投資・経済・ZAiゲームなど全カテゴリのコース一覧。自分のペースで学習を始めよう。',
+};
 import OverallProgressBar from '@/components/OverallProgressBar';
 import TopicProgressPill from '@/components/TopicProgressPill';
 
