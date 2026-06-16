@@ -321,6 +321,7 @@ const SIMPLE_QUIZ: QuizItem[] = [
 ];
 
 const REACT_KEY = 'mb_quiz_reactions';
+const TODAY_KEY = 'mb_quiz_today_date';
 
 interface Reactions { knew: number; learned: number; }
 
@@ -330,12 +331,15 @@ export default function DailyQuiz() {
   const [offset, setOffset] = useState(0);
   const [reacted, setReacted] = useState<'knew' | 'learned' | null>(null);
   const [totals, setTotals] = useState<Reactions>({ knew: 0, learned: 0 });
+  const [answeredToday, setAnsweredToday] = useState(false);
 
   useEffect(() => {
     if (!mounted) return;
     try {
       const raw = localStorage.getItem(REACT_KEY);
       if (raw) setTotals(JSON.parse(raw) as Reactions);
+      const todayStr = new Date().toISOString().slice(0, 10);
+      if (localStorage.getItem(TODAY_KEY) === todayStr) setAnsweredToday(true);
     } catch {}
   }, [mounted]);
 
@@ -355,7 +359,12 @@ export default function DailyQuiz() {
     setReacted(type);
     const next = { ...totals, [type]: totals[type] + 1 };
     setTotals(next);
-    try { localStorage.setItem(REACT_KEY, JSON.stringify(next)); } catch {}
+    try {
+      localStorage.setItem(REACT_KEY, JSON.stringify(next));
+      const todayStr = new Date().toISOString().slice(0, 10);
+      localStorage.setItem(TODAY_KEY, todayStr);
+      setAnsweredToday(true);
+    } catch {}
   }
 
   if (!mounted) return null;
@@ -376,6 +385,14 @@ export default function DailyQuiz() {
         </span>
         {total > 0 ? (
           <div className="ml-auto flex items-center gap-1.5">
+            {answeredToday && (
+              <span
+                className="text-[9px] font-bold px-1.5 py-0.5 rounded-full"
+                style={{ background: 'rgba(76,175,125,0.25)', color: '#4CAF7D', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+              >
+                ✓
+              </span>
+            )}
             <span className="text-[9px] font-bold" style={{ color: 'rgba(255,255,255,0.35)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
               正答率
             </span>
@@ -386,6 +403,13 @@ export default function DailyQuiz() {
               ({total}問)
             </span>
           </div>
+        ) : answeredToday ? (
+          <span
+            className="ml-auto text-[9px] font-bold px-2 py-0.5 rounded-full"
+            style={{ background: 'rgba(76,175,125,0.25)', color: '#4CAF7D', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+          >
+            ✓ 今日完了
+          </span>
         ) : (
           <span
             className="ml-auto text-[9px] font-bold px-2 py-0.5 rounded-full"
