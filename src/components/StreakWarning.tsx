@@ -3,9 +3,10 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { useProgress } from '@/hooks/useProgress';
+import { categories } from '@/data/courses';
 
 export default function StreakWarning() {
-  const { streakDays, completedCount, mounted } = useProgress();
+  const { streakDays, completedCount, isCompleted, lastViewedLesson, mounted } = useProgress();
   const [show, setShow] = useState(false);
 
   useEffect(() => {
@@ -28,6 +29,34 @@ export default function StreakWarning() {
 
   if (!show) return null;
 
+  // Find next lesson to study (prefer last viewed incomplete, else first incomplete)
+  let nextHref = '/courses';
+  if (lastViewedLesson) {
+    const [lvCourseId, lvLessonId] = lastViewedLesson.split('/');
+    for (const cat of categories) {
+      const course = cat.courses.find(c => c.id === lvCourseId);
+      if (course) {
+        const lesson = course.lessons.find(l => l.id === lvLessonId);
+        if (lesson && !lesson.isComingSoon && !isCompleted(lvCourseId, lvLessonId)) {
+          nextHref = `/courses/${lvCourseId}/lessons/${lvLessonId}`;
+          break;
+        }
+      }
+    }
+  }
+  if (nextHref === '/courses') {
+    outer: for (const cat of categories) {
+      for (const course of cat.courses) {
+        for (const lesson of course.lessons) {
+          if (!lesson.isComingSoon && !isCompleted(course.id, lesson.id)) {
+            nextHref = `/courses/${course.id}/lessons/${lesson.id}`;
+            break outer;
+          }
+        }
+      }
+    }
+  }
+
   return (
     <div
       className="px-4 py-3 rounded-xl border-2 flex items-center gap-3"
@@ -48,11 +77,11 @@ export default function StreakWarning() {
         </div>
       </div>
       <Link
-        href="/courses"
+        href={nextHref}
         className="shrink-0 px-3 py-1.5 rounded-lg border-2 text-[11px] font-bold"
         style={{ background: '#E8354A', borderColor: '#E8354A', color: 'white', fontFamily: "'Zen Maru Gothic', sans-serif" }}
       >
-        学ぶ
+        学ぶ →
       </Link>
     </div>
   );

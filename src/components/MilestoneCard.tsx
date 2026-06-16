@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useProgress } from '@/hooks/useProgress';
 import { ACHIEVEMENTS } from '@/data/achievements';
 
@@ -67,8 +68,9 @@ export default function MilestoneCard() {
   }));
 
   return (
-    <div
-      className="rounded-xl border-2 overflow-hidden"
+    <Link
+      href="/progress"
+      className="block rounded-xl border-2 overflow-hidden transition-all hover:-translate-y-0.5 active:translate-y-0"
       style={{
         background: 'white',
         borderColor: 'var(--mb-dark)',
@@ -148,6 +150,6 @@ export default function MilestoneCard() {
           </div>
         ))}
       </div>
-    </div>
+    </Link>
   );
 }
