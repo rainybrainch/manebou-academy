@@ -15,7 +15,7 @@ interface Props {
 }
 
 export default function CoursePageClient({ course, category, courseId }: Props) {
-  const { isCompleted, mounted } = useProgress();
+  const { isCompleted, mounted, lessonCompletionDates } = useProgress();
   const [filter, setFilter] = useState<Filter>('all');
   const [lessonMeta, setLessonMeta] = useState<Record<string, { scroll: number; hasNote: boolean; isLiked: boolean }>>({});
 
@@ -136,24 +136,18 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
 
         {/* Estimated completion */}
         {mounted && completedCount > 0 && completedCount < availableCount && (() => {
-          try {
-            const raw = localStorage.getItem('mb_progress_v1');
-            const store = raw ? JSON.parse(raw) : null;
-            const completionDates: Record<string, string> = store?.lessonCompletionDates ?? {};
-            const activeDays = new Set(Object.values(completionDates)).size;
-            const remaining = availableCount - completedCount;
-            if (activeDays === 0) return null;
-            const daysPerLesson = activeDays / completedCount;
-            const eta = Math.ceil(remaining * daysPerLesson);
-            return (
-              <div className="mb-3 flex items-center gap-2 px-3 py-2 rounded-lg" style={{ background: 'rgba(255,255,255,0.06)' }}>
-                <span className="text-sm">📅</span>
-                <span className="text-[11px]" style={{ color: 'rgba(255,255,255,0.55)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                  このペースなら約<span style={{ color: 'var(--mb-gold)', fontWeight: 'bold' }}>{eta}日</span>で完了できます
-                </span>
-              </div>
-            );
-          } catch { return null; }
+          const activeDays = new Set(Object.values(lessonCompletionDates)).size;
+          const remaining = availableCount - completedCount;
+          if (activeDays === 0) return null;
+          const eta = Math.ceil(remaining * (activeDays / completedCount));
+          return (
+            <div className="mb-3 flex items-center gap-2 px-3 py-2 rounded-lg" style={{ background: 'rgba(255,255,255,0.06)' }}>
+              <span className="text-sm">📅</span>
+              <span className="text-[11px]" style={{ color: 'rgba(255,255,255,0.55)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                このペースなら約<span style={{ color: 'var(--mb-gold)', fontWeight: 'bold' }}>{eta}日</span>で完了できます
+              </span>
+            </div>
+          );
         })()}
 
         {/* Course complete banner */}

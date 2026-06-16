@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { categories } from '@/data/courses';
 import { useModKey } from '@/hooks/useModKey';
@@ -52,18 +52,18 @@ export default function LessonSearch({ open, onClose }: Props) {
     }
   }, [open]);
 
-  // Build recently-completed list from hook (reactive)
-  const recentResults: Result[] = (() => {
+  // Build recently-completed list from hook (memoized — recompute only when completions change)
+  const recentResults = useMemo((): Result[] => {
     if (!mounted) return allLessons.slice(0, 8);
     const sorted = Object.entries(lessonCompletionDates).sort((a, b) => b[1].localeCompare(a[1])).slice(0, 8);
     const results: Result[] = [];
     for (const [key] of sorted) {
-      const [courseId, lessonId] = key.split('/');
-      const found = allLessons.find(r => r.courseId === courseId && r.lessonId === lessonId);
+      const [cId, lId] = key.split('/');
+      const found = allLessons.find(r => r.courseId === cId && r.lessonId === lId);
       if (found) results.push(found);
     }
     return results.length > 0 ? results : allLessons.slice(0, 8);
-  })();
+  }, [mounted, lessonCompletionDates]);
 
   const q = query.trim().toLowerCase();
   const results = q.length < 1
