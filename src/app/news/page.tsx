@@ -663,7 +663,7 @@ const updates = [
     date: '2026-06-05',
     tag: 'LAUNCH',
     tagColor: '#F5C842',
-    title: 'Monebou Academy ベータ版公開',
+    title: 'マネぼうアカデミー ベータ版公開',
     body: 'お金の基本から株式投資まで、全カテゴリのコンテンツを公開しました。ZAiゲームとの連動講義も随時追加予定です。',
   },
 ];

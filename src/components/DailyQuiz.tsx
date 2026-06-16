@@ -426,7 +426,7 @@ export default function DailyQuiz() {
                 className="text-[9px] font-bold px-1.5 py-0.5 rounded-full"
                 style={{ background: 'rgba(232,53,74,0.25)', color: '#E8354A', fontFamily: "'Dela Gothic One', sans-serif" }}
               >
-                🔥{quizStreak}
+                🔥{quizStreak}日
               </span>
             )}
             {answeredToday && (
