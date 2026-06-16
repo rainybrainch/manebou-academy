@@ -42,7 +42,7 @@ export default function LessonSearch({ open, onClose }: Props) {
   const listRef = useRef<HTMLDivElement>(null);
   const router = useRouter();
   const { kShortcut } = useModKey();
-  const { isCompleted, mounted } = useProgress();
+  const { isCompleted, mounted, lessonCompletionDates } = useProgress();
 
   useEffect(() => {
     if (open) {
@@ -52,22 +52,17 @@ export default function LessonSearch({ open, onClose }: Props) {
     }
   }, [open]);
 
-  // Build recently-completed list from localStorage
+  // Build recently-completed list from hook (reactive)
   const recentResults: Result[] = (() => {
     if (!mounted) return allLessons.slice(0, 8);
-    try {
-      const raw = localStorage.getItem('mb_progress_v1');
-      const dates: Record<string, string> = raw ? JSON.parse(raw).lessonCompletionDates ?? {} : {};
-      // Sort by date descending
-      const sorted = Object.entries(dates).sort((a, b) => b[1].localeCompare(a[1])).slice(0, 8);
-      const results: Result[] = [];
-      for (const [key] of sorted) {
-        const [courseId, lessonId] = key.split('/');
-        const found = allLessons.find(r => r.courseId === courseId && r.lessonId === lessonId);
-        if (found) results.push(found);
-      }
-      return results.length > 0 ? results : allLessons.slice(0, 8);
-    } catch { return allLessons.slice(0, 8); }
+    const sorted = Object.entries(lessonCompletionDates).sort((a, b) => b[1].localeCompare(a[1])).slice(0, 8);
+    const results: Result[] = [];
+    for (const [key] of sorted) {
+      const [courseId, lessonId] = key.split('/');
+      const found = allLessons.find(r => r.courseId === courseId && r.lessonId === lessonId);
+      if (found) results.push(found);
+    }
+    return results.length > 0 ? results : allLessons.slice(0, 8);
   })();
 
   const q = query.trim().toLowerCase();

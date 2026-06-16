@@ -15,35 +15,24 @@ function relativeDate(dateStr: string): string {
   return `${Math.floor(diff / 7)}週前`;
 }
 
+const allLessons = categories.flatMap(cat =>
+  cat.courses.flatMap(course =>
+    course.lessons
+      .filter(l => !l.isComingSoon)
+      .map(l => ({ courseId: course.id, courseTitle: course.title, lesson: l }))
+  )
+);
+
 export default function RecentLessons() {
-  const { completedCount, mounted } = useProgress();
+  const { completedLessonKeys, lessonCompletionDates, completedCount, mounted } = useProgress();
 
   if (!mounted || completedCount === 0) return null;
 
-  // Build a flat lookup of all lessons
-  const allLessons = categories.flatMap(cat =>
-    cat.courses.flatMap(course =>
-      course.lessons
-        .filter(l => !l.isComingSoon)
-        .map(l => ({ courseId: course.id, courseTitle: course.title, lesson: l }))
-    )
-  );
-
-  // Get the last 5 completed (sorted by lessonCompletionDates descending, fallback to array order)
-  let completedKeys: string[] = [];
-  let completionDates: Record<string, string> = {};
-  try {
-    const raw = localStorage.getItem('mb_progress_v1');
-    const store = raw ? JSON.parse(raw) : null;
-    completedKeys = store?.completedLessons ?? [];
-    completionDates = store?.lessonCompletionDates ?? {};
-  } catch {}
-
   // Sort by date descending, then take 5
-  const recentKeys = [...completedKeys]
+  const recentKeys = [...completedLessonKeys]
     .sort((a, b) => {
-      const da = completionDates[a] ?? '0000-00-00';
-      const db = completionDates[b] ?? '0000-00-00';
+      const da = lessonCompletionDates[a] ?? '0000-00-00';
+      const db = lessonCompletionDates[b] ?? '0000-00-00';
       return db.localeCompare(da);
     })
     .slice(0, 5);
@@ -52,7 +41,7 @@ export default function RecentLessons() {
     .map(key => {
       const [cId, lId] = key.split('/');
       const found = allLessons.find(l => l.courseId === cId && l.lesson.id === lId);
-      return found ? { ...found, key, dateStr: completionDates[key] ?? null } : null;
+      return found ? { ...found, key, dateStr: lessonCompletionDates[key] ?? null } : null;
     })
     .filter(Boolean) as (typeof allLessons[0] & { key: string; dateStr: string | null })[];
 

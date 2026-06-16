@@ -148,5 +148,5 @@ export function useProgress() {
 
   const completedLessonKeys = store.completedLessons;
 
-  return { isCompleted, completeLesson, uncompleteLesson, viewLesson, completedCount, streakDays, bestStreak, lastViewedLesson, activeDates, weeklyCompletedCount, dailyLessonCounts, completedLessonKeys, mounted };
+  return { isCompleted, completeLesson, uncompleteLesson, viewLesson, completedCount, streakDays, bestStreak, lastViewedLesson, activeDates, weeklyCompletedCount, dailyLessonCounts, lessonCompletionDates, completedLessonKeys, mounted };
 }
