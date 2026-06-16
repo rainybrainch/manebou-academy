@@ -17,6 +17,7 @@ import HeroCtaButton from '@/components/HeroCtaButton';
 import HomeCourseGrid from '@/components/HomeCourseGrid';
 import MyCoursesList from '@/components/MyCoursesList';
 import MoneyQuote from '@/components/MoneyQuote';
+import RandomLesson from '@/components/RandomLesson';
 
 export default function HomePage() {
   const totalLessons = categories.reduce(
@@ -119,6 +120,9 @@ export default function HomePage() {
           </span>
         </div>
         <NextLessonCard />
+        <div className="mt-3">
+          <RandomLesson />
+        </div>
       </div>
 
       {/* ── 今日の目標 ── */}
