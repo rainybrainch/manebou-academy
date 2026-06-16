@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { useProgress } from '@/hooks/useProgress';
 import { categories } from '@/data/courses';
 
@@ -24,8 +24,11 @@ const allLessons = categories.flatMap(cat =>
   )
 );
 
+const INITIAL_COUNT = 5;
+
 export default function RecentLessons() {
   const { completedLessonKeys, lessonCompletionDates, completedCount, mounted } = useProgress();
+  const [showAll, setShowAll] = useState(false);
 
   const recentItems = useMemo(() => {
     if (!mounted || completedCount === 0) return [];
@@ -35,7 +38,6 @@ export default function RecentLessons() {
         const db = lessonCompletionDates[b] ?? '0000-00-00';
         return db.localeCompare(da);
       })
-      .slice(0, 5)
       .map(key => {
         const [cId, lId] = key.split('/');
         const found = allLessons.find(l => l.courseId === cId && l.lesson.id === lId);
@@ -47,16 +49,24 @@ export default function RecentLessons() {
   if (!mounted || completedCount === 0) return null;
   if (recentItems.length === 0) return null;
 
+  const displayItems = showAll ? recentItems : recentItems.slice(0, INITIAL_COUNT);
+  const hasMore = recentItems.length > INITIAL_COUNT;
+
   return (
     <div>
-      <div className="flex items-center gap-2 mb-3">
-        <div className="w-1.5 h-4 rounded-full" style={{ background: '#4CAF7D' }} />
-        <span className="text-xs font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-          RECENTLY COMPLETED
+      <div className="flex items-center justify-between mb-3">
+        <div className="flex items-center gap-2">
+          <div className="w-1.5 h-4 rounded-full" style={{ background: '#4CAF7D' }} />
+          <span className="text-xs font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+            RECENTLY COMPLETED
+          </span>
+        </div>
+        <span className="text-[10px] font-bold px-2 py-0.5 rounded-full" style={{ background: 'rgba(76,175,125,0.1)', color: '#4CAF7D', fontFamily: "'Dela Gothic One', sans-serif" }}>
+          {recentItems.length}件
         </span>
       </div>
       <div className="space-y-2">
-        {recentItems.map(({ courseId, lesson, courseTitle, key, dateStr }) => (
+        {displayItems.map(({ courseId, lesson, courseTitle, key, dateStr }) => (
           <Link
             key={key}
             href={`/courses/${courseId}/lessons/${lesson.id}`}
@@ -101,6 +111,20 @@ export default function RecentLessons() {
           </Link>
         ))}
       </div>
+      {hasMore && (
+        <button
+          onClick={() => setShowAll(v => !v)}
+          className="w-full mt-2 py-2.5 rounded-xl border-2 text-xs font-bold transition-all hover:opacity-80"
+          style={{
+            borderColor: 'rgba(76,175,125,0.2)',
+            color: '#4CAF7D',
+            background: 'rgba(76,175,125,0.05)',
+            fontFamily: "'Zen Maru Gothic', sans-serif",
+          }}
+        >
+          {showAll ? `▲ 折りたたむ` : `▼ もっと見る（残り${recentItems.length - INITIAL_COUNT}件）`}
+        </button>
+      )}
     </div>
   );
 }

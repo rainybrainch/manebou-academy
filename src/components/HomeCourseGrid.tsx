@@ -92,14 +92,16 @@ export default function HomeCourseGrid({ categories }: Props) {
                 {/* 進捗バッジ */}
                 {mounted && done > 0 && (
                   <div
-                    className="absolute top-1 right-1 min-w-[16px] h-4 rounded-full flex items-center justify-center px-1 text-[8px] font-bold"
+                    className="absolute top-1 right-1 rounded-full flex items-center justify-center px-1.5 text-[7px] font-bold"
                     style={{
-                      background: isAllDone ? 'var(--mb-gold)' : tm?.color ?? '#888',
+                      height: '16px',
+                      background: isAllDone ? 'var(--mb-gold)' : 'rgba(0,0,0,0.62)',
                       color: isAllDone ? 'var(--mb-dark)' : 'white',
                       fontFamily: "'Dela Gothic One', sans-serif",
+                      backdropFilter: 'blur(2px)',
                     }}
                   >
-                    {isAllDone ? '✓' : done}
+                    {isAllDone ? '✓' : `${done}/${total}`}
                   </div>
                 )}
               </div>
