@@ -1,24 +1,28 @@
 'use client';
 
+import { useMemo } from 'react';
 import { useProgress } from '@/hooks/useProgress';
 import { ACHIEVEMENTS } from '@/data/achievements';
 
 export default function AchievementsCard() {
   const { completedCount, streakDays, bestStreak, completedLessonKeys, mounted } = useProgress();
+
+  const { earned, unearnedWithProgress } = useMemo(() => {
+    if (!mounted) return { earned: [], unearnedWithProgress: [] };
+    const earned = ACHIEVEMENTS.filter(a => a.check(completedCount, streakDays, bestStreak, completedLessonKeys));
+    const unearnedWithProgress = ACHIEVEMENTS
+      .filter(a => !earned.includes(a))
+      .map(a => {
+        const p = a.progress?.(completedCount, streakDays, bestStreak, completedLessonKeys);
+        return { a, pct: p ? p.current / p.total : 0, p };
+      })
+      .filter(x => x.pct > 0)
+      .sort((a, b) => b.pct - a.pct)
+      .slice(0, 2);
+    return { earned, unearnedWithProgress };
+  }, [mounted, completedCount, streakDays, bestStreak, completedLessonKeys]);
+
   if (!mounted) return null;
-
-  const completedKeys = completedLessonKeys;
-
-  const earned = ACHIEVEMENTS.filter(a => a.check(completedCount, streakDays, bestStreak, completedKeys));
-  const unearnedWithProgress = ACHIEVEMENTS
-    .filter(a => !a.check(completedCount, streakDays, bestStreak, completedKeys))
-    .map(a => {
-      const p = a.progress?.(completedCount, streakDays, bestStreak, completedKeys);
-      return { a, pct: p ? p.current / p.total : 0, p };
-    })
-    .filter(x => x.pct > 0)
-    .sort((a, b) => b.pct - a.pct)
-    .slice(0, 2);
 
   if (earned.length === 0 && unearnedWithProgress.length === 0) return null;
 

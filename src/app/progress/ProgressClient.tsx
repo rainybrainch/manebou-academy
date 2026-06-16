@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { useProgress } from '@/hooks/useProgress';
 import { categories } from '@/data/courses';
 import StreakCalendar from '@/components/StreakCalendar';
@@ -25,9 +25,10 @@ export default function ProgressClient() {
 
   const totalLessons = categories.flatMap(c => c.courses).flatMap(c => c.lessons).filter(l => !l.isComingSoon).length;
   const overallPct = totalLessons > 0 ? Math.round((completedCount / totalLessons) * 100) : 0;
-  const earnedAchievements = mounted
-    ? ACHIEVEMENTS.filter(a => a.check(completedCount, streakDays, bestStreak, completedLessonKeys))
-    : [];
+  const earnedAchievements = useMemo(
+    () => mounted ? ACHIEVEMENTS.filter(a => a.check(completedCount, streakDays, bestStreak, completedLessonKeys)) : [],
+    [mounted, completedCount, streakDays, bestStreak, completedLessonKeys]
+  );
 
   const studyMinutes = mounted
     ? categories.flatMap(c => c.courses).flatMap(course =>
