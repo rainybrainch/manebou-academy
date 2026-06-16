@@ -15,6 +15,7 @@ import ShortcutHelp from '@/components/ShortcutHelp';
 import { useProgress } from '@/hooks/useProgress';
 import { ACHIEVEMENTS } from '@/data/achievements';
 import { useModKey } from '@/hooks/useModKey';
+import { getLevel } from '@/data/levels';
 
 const navItems = [
   {
@@ -89,16 +90,6 @@ const navItems = [
   },
 ];
 
-const LEVEL_ICONS = [
-  { min: 0,   max: 4,   icon: '🌱' },
-  { min: 5,   max: 9,   icon: '📖' },
-  { min: 10,  max: 19,  icon: '💪' },
-  { min: 20,  max: 29,  icon: '⚡' },
-  { min: 30,  max: 49,  icon: '🔥' },
-  { min: 50,  max: 74,  icon: '👑' },
-  { min: 75,  max: 99,  icon: '🏆' },
-  { min: 100, max: Infinity, icon: '💯' },
-];
 
 export default function LayoutShell({ children }: { children: React.ReactNode }) {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -114,9 +105,7 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
   );
   const { kShortcut } = useModKey();
   const avatarIcon = useMemo(
-    () => mounted && completedCount > 0
-      ? (LEVEL_ICONS.find(l => completedCount >= l.min && completedCount <= l.max)?.icon ?? '🌱')
-      : null,
+    () => mounted && completedCount > 0 ? getLevel(completedCount).icon : null,
     [mounted, completedCount],
   );
 
