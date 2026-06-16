@@ -146,7 +146,7 @@ export default function StampClient({ isAdmin }: Props) {
         {/* Expiry */}
         {mounted && expiryDate && (
           <p className="text-sm mb-4 text-center" style={{ color: 'rgba(26,26,46,0.5)' }}>
-            現在の有効期限：{expiryDate.replace(/-/g, '年').replace('-', '月') + '日'}
+            現在の有効期限：{(() => { const [y, m, d] = expiryDate.split('-'); return `${y}年${parseInt(m)}月${parseInt(d)}日`; })()}
           </p>
         )}
 
