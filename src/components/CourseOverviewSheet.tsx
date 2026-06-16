@@ -14,7 +14,7 @@ interface Props {
 export default function CourseOverviewSheet({ category, meta, onClose }: Props) {
   const { isCompleted, mounted } = useProgress();
 
-  const totalLessons = category.courses.reduce((a, c) => a + c.lessons.length, 0);
+  const totalLessons = category.courses.reduce((a, c) => a + c.lessons.filter(l => !l.isComingSoon).length, 0);
   const completedCount = mounted
     ? category.courses.reduce(
         (a, c) => a + c.lessons.filter(l => !l.isComingSoon && isCompleted(c.id, l.id)).length,

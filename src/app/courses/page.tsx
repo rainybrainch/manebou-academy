@@ -33,7 +33,7 @@ const appIconMap: Record<string, string> = {
 
 export default function CoursesPage() {
   const totalCourses = categories.length;
-  const totalLessons = categories.reduce((a, cat) => a + cat.courses.reduce((b, c) => b + c.lessons.length, 0), 0);
+  const totalLessons = categories.reduce((a, cat) => a + cat.courses.reduce((b, c) => b + c.lessons.filter(l => !l.isComingSoon).length, 0), 0);
 
   return (
     <div className="max-w-xl mx-auto px-4 py-6">
@@ -71,7 +71,7 @@ export default function CoursesPage() {
             const iconSrc = appIconMap[tc.id];
             const topicCourses = categories.filter(c => c.topicCategoryId === tc.id);
             const hasContent = topicCourses.length > 0;
-            const lessonCount = topicCourses.reduce((a, c) => a + c.courses.reduce((b, ch) => b + ch.lessons.length, 0), 0);
+            const lessonCount = topicCourses.reduce((a, c) => a + c.courses.reduce((b, ch) => b + ch.lessons.filter(l => !l.isComingSoon).length, 0), 0);
 
             if (!hasContent) return null;
 

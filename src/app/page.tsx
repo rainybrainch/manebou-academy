@@ -17,7 +17,7 @@ import MyCoursesList from '@/components/MyCoursesList';
 
 export default function HomePage() {
   const totalLessons = categories.reduce(
-    (a, cat) => a + cat.courses.reduce((b, c) => b + c.lessons.length, 0), 0
+    (a, cat) => a + cat.courses.reduce((b, c) => b + c.lessons.filter(l => !l.isComingSoon).length, 0), 0
   );
   return (
     <div className="max-w-xl mx-auto px-4 py-6 space-y-7">

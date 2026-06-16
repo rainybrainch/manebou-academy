@@ -347,7 +347,7 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
                     {category.courses.length}章
                   </div>
                   <div className="text-[10px]" style={{ color: 'rgba(255,255,255,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                    {category.courses.reduce((a, c) => a + c.lessons.length, 0)}講義
+                    {category.courses.reduce((a, c) => a + c.lessons.filter(l => !l.isComingSoon).length, 0)}講義
                   </div>
                   <CategoryProgressBar category={category} accentColor={accent} />
                 </div>
@@ -414,7 +414,7 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
                                   className="text-[10px]"
                                   style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
                                 >
-                                  {course.lessons.length}講義
+                                  {course.lessons.filter(l => !l.isComingSoon).length}講義
                                 </span>
                                 {course.lessons.some(l => l.gameTags?.length) && (
                                   <span
