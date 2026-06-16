@@ -5,7 +5,6 @@ import { useRouter } from 'next/navigation';
 import LessonContent from './LessonContent';
 import LessonScrollProgress from './LessonScrollProgress';
 import RelatedLessons from './RelatedLessons';
-import BackToTop from './BackToTop';
 import { useCompletionSound } from '@/hooks/useCompletionSound';
 import { useSwipe } from '@/hooks/useSwipe';
 import RightPanel from './RightPanel';
@@ -195,7 +194,6 @@ export default function LessonShell({
   return (
     <div className="min-h-screen">
       <LessonScrollProgress />
-      <BackToTop />
       <ConfettiBurst key={confettiKey} trigger={showConfetti} />
       {showCourseComplete && (
         <CourseCompleteModal

@@ -571,11 +571,19 @@ export function getLesson(courseId: string, lessonId: string) {
 export function getAdjacentLessons(courseId: string, lessonId: string) {
   const result = getCourse(courseId);
   if (!result) return { prev: null, next: null };
-  const { course } = result;
-  const lessons = course.lessons;
-  const idx = lessons.findIndex(l => l.id === lessonId);
+  const { category } = result;
+
+  // Flatten all lessons across all chapters in the same category
+  const flat: { lesson: (typeof category.courses)[0]['lessons'][0]; chapterTitle: string; courseId: string }[] = [];
+  for (const ch of category.courses) {
+    for (const l of ch.lessons) {
+      flat.push({ lesson: l, chapterTitle: ch.title, courseId: ch.id });
+    }
+  }
+
+  const idx = flat.findIndex(f => f.courseId === courseId && f.lesson.id === lessonId);
   return {
-    prev: idx > 0 ? { lesson: lessons[idx - 1], chapterTitle: course.title } : null,
-    next: idx < lessons.length - 1 ? { lesson: lessons[idx + 1], chapterTitle: course.title } : null,
+    prev: idx > 0 ? { lesson: flat[idx - 1].lesson, chapterTitle: flat[idx - 1].chapterTitle, courseId: flat[idx - 1].courseId } : null,
+    next: idx < flat.length - 1 ? { lesson: flat[idx + 1].lesson, chapterTitle: flat[idx + 1].chapterTitle, courseId: flat[idx + 1].courseId } : null,
   };
 }
