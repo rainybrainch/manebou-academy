@@ -13,10 +13,10 @@ function StampIcon({ filled, date, index }: { filled: boolean; date?: string; in
     return (
       <div className="flex flex-col items-center gap-0.5">
         <div
-          className="w-16 h-16 rounded-xl border-2 border-dashed flex items-center justify-center"
+          className="w-14 h-14 rounded-xl border-2 border-dashed flex items-center justify-center"
           style={{ borderColor: 'var(--mb-gold)', opacity: 0.4 }}
         >
-          <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} style={{ color: 'var(--mb-gold)' }}>
+          <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} style={{ color: 'var(--mb-gold)' }}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 010 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a3 3 0 010-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375z" />
           </svg>
         </div>
@@ -29,10 +29,10 @@ function StampIcon({ filled, date, index }: { filled: boolean; date?: string; in
     return (
       <div className="flex flex-col items-center gap-0.5">
         <div
-          className="w-16 h-16 rounded-xl flex flex-col items-center justify-center gap-0.5"
+          className="w-14 h-14 rounded-xl flex flex-col items-center justify-center gap-0.5"
           style={{ background: 'var(--mb-gold)', boxShadow: '3px 3px 0 var(--mb-gold-dark)' }}
         >
-          <svg className="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth={1.5}>
+          <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth={1.5}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 010 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a3 3 0 010-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375z" />
           </svg>
           <span className="text-[8px] font-bold text-white leading-none">GET!</span>
@@ -46,10 +46,10 @@ function StampIcon({ filled, date, index }: { filled: boolean; date?: string; in
     return (
       <div className="flex flex-col items-center gap-0.5">
         <div
-          className="w-16 h-16 rounded-full border-2 flex items-center justify-center"
+          className="w-14 h-14 rounded-full border-2 flex items-center justify-center"
           style={{ borderColor: 'var(--mb-sky)', background: 'rgba(91,200,232,0.1)' }}
         >
-          <svg className="w-9 h-9" viewBox="0 0 40 40" fill="none">
+          <svg className="w-8 h-8" viewBox="0 0 40 40" fill="none">
             <circle cx="20" cy="20" r="18" stroke="var(--mb-sky)" strokeWidth="2" fill="rgba(91,200,232,0.15)" />
             <text x="20" y="25" textAnchor="middle" fontSize="16" fontFamily="'Zen Maru Gothic'" fill="var(--mb-sky)">✿</text>
           </svg>
@@ -62,7 +62,7 @@ function StampIcon({ filled, date, index }: { filled: boolean; date?: string; in
   return (
     <div className="flex flex-col items-center gap-0.5">
       <div
-        className="w-16 h-16 rounded-full border-2 border-dashed"
+        className="w-14 h-14 rounded-full border-2 border-dashed"
         style={{ borderColor: 'rgba(26,26,46,0.15)', background: 'rgba(26,26,46,0.03)' }}
       />
       <span className="text-[9px] font-bold" style={{ color: 'rgba(26,26,46,0.25)' }}>{index + 1}</span>
@@ -170,11 +170,10 @@ export default function StampClient({ isAdmin }: Props) {
 
         {/* Stamp grid */}
         <div className="rounded-2xl border-2 p-4 mb-6" style={{ borderColor: 'var(--mb-dark)', background: 'white', boxShadow: '4px 4px 0 var(--mb-dark)' }}>
-          <div className="grid grid-cols-4 gap-3 justify-items-center">
+          <div className="grid grid-cols-5 gap-3 justify-items-center">
             {gridSlots.map((slot) => (
               <StampIcon key={slot.index} filled={slot.filled} date={slot.date} index={slot.index} />
             ))}
-            {/* row 3: slots 9-10 centered */}
           </div>
         </div>
 

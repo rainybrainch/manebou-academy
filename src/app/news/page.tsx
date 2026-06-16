@@ -37,6 +37,13 @@ function renderBody(text: string): React.ReactNode {
 const updates = [
   {
     date: '2026-06-16',
+    tag: 'UX',
+    tagColor: '#5BC8E8',
+    title: '今日の一問に「前の問題」ボタン追加・スタンプグリッドを2行均等に修正',
+    body: '①「今日の一問」で答えを表示した後、「←」ボタンが表示されるようになった。押すと前に見た問題に戻れる。MoneyQuote・DailyTipと同じ操作感に揃えた②スタンプカードのグリッドがこれまで「4列×2行＋2個」の崩れたレイアウトだったのを「5列×2行」に変更。10個のスタンプが均等な2行で表示されるようになった',
+  },
+  {
+    date: '2026-06-16',
     tag: 'update',
     tagColor: 'var(--mb-gold)',
     title: 'アプリ全体の日本語表記統一完了',

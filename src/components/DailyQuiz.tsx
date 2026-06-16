@@ -375,6 +375,14 @@ export default function DailyQuiz() {
     setOffset(o => o + 1);
   }
 
+  function prevQuiz() {
+    if (offset === 0) return;
+    setRevealed(false);
+    setReacted(null);
+    setCopied(false);
+    setOffset(o => o - 1);
+  }
+
   function copyQA() {
     navigator.clipboard.writeText(`Q: ${quiz.question}\nA: ${quiz.answer}`).then(() => {
       setCopied(true);
@@ -561,6 +569,21 @@ export default function DailyQuiz() {
             )}
 
             <div className="flex items-center gap-2">
+              {offset > 0 && (
+                <button
+                  onClick={prevQuiz}
+                  className="py-2 px-2 rounded-xl border transition-all hover:opacity-80"
+                  style={{
+                    background: 'transparent',
+                    borderColor: 'rgba(26,26,46,0.15)',
+                    color: 'rgba(26,26,46,0.25)',
+                  }}
+                >
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                  </svg>
+                </button>
+              )}
               <button
                 onClick={copyQA}
                 className="text-[9px] font-bold px-2 py-2 rounded-xl border transition-all"
