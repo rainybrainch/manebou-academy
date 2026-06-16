@@ -6,6 +6,7 @@ import NextLessonCard from '@/components/NextLessonCard';
 import MilestoneCard from '@/components/MilestoneCard';
 import WelcomeBack from '@/components/WelcomeBack';
 import DailyGoalCard from '@/components/DailyGoalCard';
+import DailyTip from '@/components/DailyTip';
 import DailyQuiz from '@/components/DailyQuiz';
 import RecentLessons from '@/components/RecentLessons';
 import StreakWarning from '@/components/StreakWarning';
@@ -121,6 +122,9 @@ export default function HomePage() {
 
       {/* ── 今日の目標 ── */}
       <DailyGoalCard />
+
+      {/* ── 今日のヒント ── */}
+      <DailyTip />
 
       {/* ── 今週の目標 ── */}
       <WeeklyGoalCard />

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { useMemo } from 'react';
 import { useProgress } from '@/hooks/useProgress';
 import { ACHIEVEMENTS } from '@/data/achievements';
 
@@ -10,9 +11,10 @@ export default function MilestoneCard() {
   const { completedCount, streakDays, bestStreak, completedLessonKeys, mounted } = useProgress();
   if (!mounted) return null;
 
-  const earnedCount = ACHIEVEMENTS.filter(a =>
-    a.check(completedCount, streakDays, bestStreak, completedLessonKeys)
-  ).length;
+  const earnedCount = useMemo(
+    () => ACHIEVEMENTS.filter(a => a.check(completedCount, streakDays, bestStreak, completedLessonKeys)).length,
+    [completedCount, streakDays, bestStreak, completedLessonKeys]
+  );
 
   // Find next lecture-count milestone
   const nextMilestone = LESSON_MILESTONES.find(m => m > completedCount);
