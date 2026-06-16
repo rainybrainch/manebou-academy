@@ -32,6 +32,14 @@ export default function WeeklySummary() {
   const maxCount = Math.max(1, ...week.map(d => d.count));
   const weekTotal = weeklyCompletedCount;
 
+  // Last week's total for comparison
+  const lastWeekTotal = Array.from({ length: 7 }, (_, i) => {
+    const d = new Date(today);
+    d.setDate(today.getDate() - dayOfWeek - 7 + i);
+    return dailyLessonCounts[d.toISOString().slice(0, 10)] ?? 0;
+  }).reduce((a, b) => a + b, 0);
+  const weekDiff = weekTotal - lastWeekTotal;
+
   // Current week tail streak
   const streak = week.filter(d => !d.isFuture).reduce((acc, d) => d.active ? acc + 1 : 0, 0);
 
@@ -51,6 +59,18 @@ export default function WeeklySummary() {
               style={{ background: 'rgba(245,200,66,0.15)', color: 'var(--mb-gold)', fontFamily: "'Dela Gothic One', sans-serif" }}
             >
               {weekTotal}講義
+            </span>
+          )}
+          {lastWeekTotal > 0 && (
+            <span
+              className="text-[9px] font-bold px-1.5 py-0.5 rounded-full"
+              style={{
+                background: weekDiff > 0 ? 'rgba(76,175,125,0.12)' : weekDiff < 0 ? 'rgba(232,53,74,0.1)' : 'rgba(26,26,46,0.08)',
+                color: weekDiff > 0 ? '#4CAF7D' : weekDiff < 0 ? '#E8354A' : 'rgba(26,26,46,0.4)',
+                fontFamily: "'Dela Gothic One', sans-serif",
+              }}
+            >
+              {weekDiff > 0 ? `+${weekDiff}` : weekDiff < 0 ? `${weekDiff}` : '±0'} 先週比
             </span>
           )}
           <span style={{ fontFamily: "'Dela Gothic One', sans-serif", fontSize: '14px', color: 'var(--mb-sky)' }}>
