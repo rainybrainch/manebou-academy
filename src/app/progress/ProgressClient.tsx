@@ -68,7 +68,7 @@ export default function ProgressClient() {
       </div>
 
       {/* Stats row */}
-      <div className="grid grid-cols-4 gap-2 mb-8">
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-8">
         {[
           { label: '完了講義', value: mounted ? String(completedCount) : '—', unit: '講義', color: 'var(--mb-gold)' },
           { label: '連続学習', value: mounted ? String(streakDays) : '—', unit: '日', color: 'var(--mb-sky)' },

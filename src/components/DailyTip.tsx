@@ -484,6 +484,15 @@ export default function DailyTip() {
     }, 150);
   }
 
+  function prevTip() {
+    if (offset === 0) return;
+    setFade(true);
+    setTimeout(() => {
+      setOffset(o => o - 1);
+      setFade(false);
+    }, 150);
+  }
+
   function copyTip() {
     navigator.clipboard.writeText(tip.text).then(() => {
       setCopied(true);
@@ -538,6 +547,17 @@ export default function DailyTip() {
         >
           {copied ? '✓ コピー済' : 'コピー'}
         </button>
+        {offset > 0 && (
+          <button
+            onClick={prevTip}
+            className="text-[10px] font-bold flex items-center gap-1 transition-opacity hover:opacity-70"
+            style={{ color: 'rgba(26,26,46,0.25)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+          >
+            <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+        )}
         <button
           onClick={nextTip}
           className="text-[10px] font-bold flex items-center gap-1 transition-opacity hover:opacity-70"
