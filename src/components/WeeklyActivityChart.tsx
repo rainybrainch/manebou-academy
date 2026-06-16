@@ -18,43 +18,45 @@ function intensityColor(count: number, isToday: boolean): string {
 export default function WeeklyActivityChart() {
   const { dailyLessonCounts, mounted } = useProgress();
 
-  const weeks = useMemo(() => {
+  const { weeks, startStr } = useMemo(() => {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
     const todayStr = today.toISOString().slice(0, 10);
+    const todayDow = today.getDay();
 
-    const days: { date: string; label: string; count: number; isToday: boolean }[] = [];
-    for (let i = 27; i >= 0; i--) {
-      const d = new Date(today);
-      d.setDate(today.getDate() - i);
+    // Align to Sunday: start = Sunday 4 weeks ago
+    const start = new Date(today);
+    start.setDate(today.getDate() - todayDow - 21);
+    const startIso = start.toISOString().slice(0, 10);
+
+    const days: { date: string; label: string; count: number; isToday: boolean; isFuture: boolean }[] = [];
+    for (let i = 0; i < 28; i++) {
+      const d = new Date(start);
+      d.setDate(start.getDate() + i);
       const iso = d.toISOString().slice(0, 10);
+      const isFuture = iso > todayStr;
       days.push({
         date: iso,
         label: `${d.getMonth() + 1}/${d.getDate()}`,
-        count: dailyLessonCounts[iso] ?? 0,
+        count: isFuture ? 0 : (dailyLessonCounts[iso] ?? 0),
         isToday: iso === todayStr,
+        isFuture,
       });
     }
     const result: typeof days[] = [];
     for (let w = 0; w < 4; w++) result.push(days.slice(w * 7, w * 7 + 7));
-    return result;
+    return { weeks: result, startStr: startIso };
   }, [dailyLessonCounts]);
 
   const totalActive = useMemo(() => {
-    const cutoff = new Date();
-    cutoff.setDate(cutoff.getDate() - 27);
-    const cutoffStr = cutoff.toISOString().slice(0, 10);
-    return Object.entries(dailyLessonCounts).filter(([d, c]) => d >= cutoffStr && c > 0).length;
-  }, [dailyLessonCounts]);
+    return Object.entries(dailyLessonCounts).filter(([d, c]) => d >= startStr && c > 0).length;
+  }, [dailyLessonCounts, startStr]);
 
   const totalLessonsThisMonth = useMemo(() => {
-    const cutoff = new Date();
-    cutoff.setDate(cutoff.getDate() - 27);
-    const cutoffStr = cutoff.toISOString().slice(0, 10);
     return Object.entries(dailyLessonCounts)
-      .filter(([d]) => d >= cutoffStr)
+      .filter(([d]) => d >= startStr)
       .reduce((a, [, c]) => a + c, 0);
-  }, [dailyLessonCounts]);
+  }, [dailyLessonCounts, startStr]);
 
   if (!mounted) return null;
 
@@ -105,16 +107,16 @@ export default function WeeklyActivityChart() {
             {week.map((day) => (
               <div
                 key={day.date}
-                title={`${day.label}${day.count > 0 ? ` · ${day.count}講義` : ''}`}
+                title={day.isFuture ? undefined : `${day.label}${day.count > 0 ? ` · ${day.count}講義` : ''}`}
                 className="aspect-square rounded-md relative flex items-center justify-center"
                 style={{
-                  background: intensityColor(day.count, day.isToday),
-                  border: day.isToday ? '2px solid var(--mb-dark)' : '1px solid transparent',
-                  boxShadow: day.count > 0 ? '1px 1px 0 rgba(0,0,0,0.1)' : 'none',
+                  background: day.isFuture ? 'rgba(26,26,46,0.03)' : intensityColor(day.count, day.isToday),
+                  border: day.isToday ? '2px solid var(--mb-dark)' : day.isFuture ? '1px dashed rgba(26,26,46,0.1)' : '1px solid transparent',
+                  boxShadow: !day.isFuture && day.count > 0 ? '1px 1px 0 rgba(0,0,0,0.1)' : 'none',
                   transition: 'background 0.2s',
                 }}
               >
-                {day.count >= 2 && (
+                {!day.isFuture && day.count >= 2 && (
                   <span style={{ fontSize: '7px', color: 'white', fontFamily: "'Dela Gothic One', sans-serif", lineHeight: 1 }}>
                     {day.count}
                   </span>
