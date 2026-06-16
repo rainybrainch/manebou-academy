@@ -17,7 +17,7 @@ export default function LessonTOC({ sections, alwaysOpen }: Props) {
     .filter((s): s is Extract<LessonSection, { type: 'heading' }> => s.type === 'heading' && s.level === 2)
     .map(s => ({ slug: makeSlug(s.content), label: s.content }));
 
-  const [open, setOpen] = useState(!!alwaysOpen);
+  const [open, setOpen] = useState(!!alwaysOpen || headings.length <= 3);
   const [activeSlug, setActiveSlug] = useState<string>('');
   const observerRef = useRef<IntersectionObserver | null>(null);
 
