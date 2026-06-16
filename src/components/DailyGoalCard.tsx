@@ -31,7 +31,11 @@ export default function DailyGoalCard() {
         ? `⚡ ${streakDays}日連続！1週間達成！`
         : streakDays >= 3
           ? `🔥 ${streakDays}日連続中！今日も1講義クリアしよう`
-          : '毎日1講義で、確実にうまくなる。';
+          : streakDays === 2
+            ? '🌱 2日連続！あと1日で習慣が始まる。'
+            : streakDays === 1
+              ? '🌱 連続記録スタート！今日も続けよう。'
+              : '毎日1講義で、確実にうまくなる。';
 
   const days = last7Days();
   const todayStr = days[days.length - 1];

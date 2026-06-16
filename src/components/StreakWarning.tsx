@@ -10,7 +10,7 @@ export default function StreakWarning() {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    if (!mounted || streakDays < 2 || completedCount === 0) return;
+    if (!mounted || streakDays < 1 || completedCount === 0) return;
     const hour = new Date().getHours();
     if (hour < 17) return; // only show after 5pm
     const today = new Date().toISOString().slice(0, 10);
