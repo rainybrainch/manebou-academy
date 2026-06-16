@@ -5,6 +5,7 @@ import Image from 'next/image';
 import type { Category } from '@/types';
 import type { TopicCategory } from '@/types';
 import { useMyCourses } from '@/hooks/useMyCourses';
+import { useProgress } from '@/hooks/useProgress';
 import CategoryCardProgress from '@/components/CategoryCardProgress';
 
 const topicMeta: Record<string, { icon: string; color: string; tagline: string }> = {
@@ -31,6 +32,7 @@ interface Props {
 
 export default function CategoryPageClient({ tc, courses }: Props) {
   const { isSelected, toggle, mounted } = useMyCourses();
+  const { isCompleted } = useProgress();
   const tm = topicMeta[tc.id];
   const accent = tm?.color ?? '#5BC8E8';
 
@@ -125,6 +127,18 @@ export default function CategoryPageClient({ tc, courses }: Props) {
           const lessonCount = course.courses.reduce((a, c) => a + c.lessons.length, 0);
           const selected = mounted && isSelected(course.id);
 
+          const allLessons = course.courses.flatMap(ch =>
+            ch.lessons.filter(l => !l.isComingSoon).map(l => ({ courseId: ch.id, lessonId: l.id }))
+          );
+          const doneLessons = mounted ? allLessons.filter(({ courseId, lessonId }) => isCompleted(courseId, lessonId)).length : 0;
+          const nextLesson = mounted && doneLessons > 0
+            ? allLessons.find(({ courseId, lessonId }) => !isCompleted(courseId, lessonId))
+            : null;
+          const startHref = nextLesson
+            ? `/courses/${nextLesson.courseId}/lessons/${nextLesson.lessonId}`
+            : `/courses/${course.courses[0]?.id ?? ''}`;
+          const startLabel = doneLessons > 0 ? '続きから' : '学習を始める';
+
           return (
             <div
               key={course.id}
@@ -217,7 +231,7 @@ export default function CategoryPageClient({ tc, courses }: Props) {
                 {/* アクションボタン */}
                 <div className="flex gap-2">
                   <Link
-                    href={`/courses/${course.courses[0]?.id ?? ''}`}
+                    href={startHref}
                     className="flex-1 flex items-center justify-center gap-1.5 py-2 rounded-lg text-[11px] font-bold border-2 transition-all hover:opacity-80"
                     style={{
                       background: accent,
@@ -229,7 +243,7 @@ export default function CategoryPageClient({ tc, courses }: Props) {
                     <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M8 5v14l11-7z"/>
                     </svg>
-                    学習を始める
+                    {startLabel}
                   </Link>
 
                   <button
