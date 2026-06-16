@@ -20,7 +20,7 @@ import { ACHIEVEMENTS } from '@/data/achievements';
 import { COURSE_META } from '@/data/course-meta';
 
 export default function ProgressClient() {
-  const { isCompleted, completedCount, streakDays, bestStreak, lastViewedLesson, completedLessonKeys, mounted } = useProgress();
+  const { isCompleted, completedCount, streakDays, bestStreak, completedLessonKeys, mounted } = useProgress();
   const [hideNotStarted, setHideNotStarted] = useState(false);
 
   const totalLessons = categories.flatMap(c => c.courses).flatMap(c => c.lessons).filter(l => !l.isComingSoon).length;
@@ -78,7 +78,7 @@ export default function ProgressClient() {
           <div
             key={stat.label}
             className="flex flex-col items-center justify-center py-4 rounded-xl border-2"
-            style={{ background: 'white', borderColor: 'var(--mb-dark)', boxShadow: '3px 3px 0 var(--mb-dark)' }}
+            style={{ background: 'white', borderColor: 'var(--mb-dark)', boxShadow: `3px 3px 0 ${stat.color}` }}
           >
             <span style={{ fontFamily: "'Dela Gothic One', sans-serif", fontSize: '28px', color: stat.color, lineHeight: 1 }}>
               {stat.value}
@@ -203,9 +203,21 @@ export default function ProgressClient() {
                 <span className="text-xs font-bold" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)' }}>
                   {category.title}
                 </span>
-                <span className="text-[11px] font-bold" style={{ fontFamily: "'Dela Gothic One', sans-serif", color: accent }}>
-                  {done}/{lessonPairs.length}
-                </span>
+                <div className="flex items-center gap-2">
+                  <span className="text-[11px] font-bold" style={{ fontFamily: "'Dela Gothic One', sans-serif", color: accent }}>
+                    {done}/{lessonPairs.length}
+                  </span>
+                  {category.topicCategoryId && (
+                    <Link
+                      href={`/categories/${category.topicCategoryId}`}
+                      className="text-[9px] font-bold px-1.5 py-0.5 rounded-full transition-opacity hover:opacity-70"
+                      style={{ background: `${accent}18`, color: accent, fontFamily: "'Zen Maru Gothic', sans-serif", border: `1px solid ${accent}40` }}
+                      onClick={e => e.stopPropagation()}
+                    >
+                      コース →
+                    </Link>
+                  )}
+                </div>
               </div>
               <div className="h-2 rounded-full overflow-hidden" style={{ background: 'rgba(26,26,46,0.08)' }}>
                 <div
