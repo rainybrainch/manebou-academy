@@ -1,7 +1,7 @@
 'use client';
 
 import Link from 'next/link';
-import { useEffect, useMemo, useRef, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { categories } from '@/data/courses';
 
 interface NoteEntry {
@@ -87,7 +87,7 @@ export default function AllNotes() {
       <h2 className="text-sm font-bold mb-3 flex items-center gap-2" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)' }}>
         <span>📝</span> マイメモ一覧
         <span className="text-[10px] font-bold px-2 py-0.5 rounded-full" style={{ background: 'rgba(26,26,46,0.08)', color: 'rgba(26,26,46,0.6)' }}>
-          {filtered.length}/{notes.length}件
+          {(query || courseFilter !== 'all') ? `${filtered.length}/${notes.length}件` : `${notes.length}件`}
         </span>
       </h2>
 
@@ -166,15 +166,20 @@ export default function AllNotes() {
             const q = query.toLowerCase().trim();
             const highlight = (str: string) => {
               if (!q) return str;
-              const idx = str.toLowerCase().indexOf(q);
-              if (idx === -1) return str;
-              return (
-                <>
-                  {str.slice(0, idx)}
-                  <mark style={{ background: 'rgba(245,200,66,0.35)', borderRadius: '2px' }}>{str.slice(idx, idx + q.length)}</mark>
-                  {str.slice(idx + q.length)}
-                </>
-              );
+              const lower = str.toLowerCase();
+              const firstIdx = lower.indexOf(q);
+              if (firstIdx === -1) return str;
+              const parts: React.ReactNode[] = [];
+              let last = 0;
+              let idx = firstIdx;
+              while (idx !== -1) {
+                if (idx > last) parts.push(str.slice(last, idx));
+                parts.push(<mark key={idx} style={{ background: 'rgba(245,200,66,0.35)', borderRadius: '2px' }}>{str.slice(idx, idx + q.length)}</mark>);
+                last = idx + q.length;
+                idx = lower.indexOf(q, last);
+              }
+              if (last < str.length) parts.push(str.slice(last));
+              return <>{parts}</>;
             };
             return (
               <div
