@@ -61,6 +61,13 @@ export default function AllNotes() {
     setMounted(true);
   }, []);
 
+  useEffect(() => {
+    return () => {
+      if (copyTimeoutRef.current) clearTimeout(copyTimeoutRef.current);
+      if (deleteTimeoutRef.current) clearTimeout(deleteTimeoutRef.current);
+    };
+  }, []);
+
   const uniqueCourses = useMemo(() => {
     const seen = new Map<string, string>();
     const countMap: Record<string, number> = {};

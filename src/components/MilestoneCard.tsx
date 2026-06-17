@@ -58,7 +58,7 @@ export default function MilestoneCard() {
 
   // Mini milestone slots
   const slots = LESSON_MILESTONES.map(m => ({
-    label: m >= 10 ? `${m}` : `${m}`,
+    label: `${m}`,
     reached: completedCount >= m,
     next: m === nextMilestone,
   }));
