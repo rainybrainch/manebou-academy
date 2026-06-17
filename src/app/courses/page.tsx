@@ -6,7 +6,7 @@ import { topicCategories } from '@/data/structure';
 
 export const metadata: Metadata = {
   title: 'コース一覧 | マネぼうアカデミー',
-  description: 'お金・投資・経済・ZAiゲームなど全アプリの一覧。自分のペースで学習を始めよう。',
+  description: 'お金・投資・経済・ZAiゲームなど全コースの一覧。自分のペースで学習を始めよう。',
 };
 import OverallProgressBar from '@/components/OverallProgressBar';
 import TopicProgressPill from '@/components/TopicProgressPill';
@@ -48,7 +48,7 @@ export default function CoursesPage() {
           コース一覧
         </h1>
         <p className="text-sm mt-1" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-          {totalCourses}アプリ · {totalLessons}講義
+          {totalCourses}カテゴリ · {totalLessons}講義
         </p>
       </div>
 
@@ -60,7 +60,7 @@ export default function CoursesPage() {
         <div className="flex items-center gap-2 mb-4">
           <div className="w-1.5 h-4 rounded-full" style={{ background: 'var(--mb-gold)' }} />
           <span className="text-xs font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-            アプリを選ぶ
+            カテゴリを選ぶ
           </span>
         </div>
 
