@@ -15,6 +15,8 @@ export default function LessonNotes({ courseId, lessonId }: Props) {
   const [saved, setSaved] = useState(false);
   const [copied, setCopied] = useState(false);
   const timeout = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const savedTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const copiedTimeout = useRef<ReturnType<typeof setTimeout> | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
   function autoResize(el: HTMLTextAreaElement) {
@@ -34,6 +36,14 @@ export default function LessonNotes({ courseId, lessonId }: Props) {
     }
   }, [open]);
 
+  useEffect(() => {
+    return () => {
+      if (timeout.current) clearTimeout(timeout.current);
+      if (savedTimeout.current) clearTimeout(savedTimeout.current);
+      if (copiedTimeout.current) clearTimeout(copiedTimeout.current);
+    };
+  }, []);
+
   function handleChange(val: string) {
     setText(val);
     if (textareaRef.current) autoResize(textareaRef.current);
@@ -41,7 +51,8 @@ export default function LessonNotes({ courseId, lessonId }: Props) {
     timeout.current = setTimeout(() => {
       localStorage.setItem(KEY(courseId, lessonId), val);
       setSaved(true);
-      setTimeout(() => setSaved(false), 1500);
+      if (savedTimeout.current) clearTimeout(savedTimeout.current);
+      savedTimeout.current = setTimeout(() => setSaved(false), 1500);
     }, 600);
   }
 
@@ -89,7 +100,8 @@ export default function LessonNotes({ courseId, lessonId }: Props) {
                   onClick={async () => {
                     await navigator.clipboard.writeText(text);
                     setCopied(true);
-                    setTimeout(() => setCopied(false), 1500);
+                    if (copiedTimeout.current) clearTimeout(copiedTimeout.current);
+                    copiedTimeout.current = setTimeout(() => setCopied(false), 1500);
                   }}
                   className="text-[10px] font-bold hover:opacity-70 transition-opacity"
                   style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}

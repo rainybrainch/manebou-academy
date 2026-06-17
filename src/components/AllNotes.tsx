@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { categories } from '@/data/courses';
+import ExportNotes from './ExportNotes';
 
 interface NoteEntry {
   courseId: string;
@@ -91,12 +92,15 @@ export default function AllNotes() {
 
   return (
     <div className="mb-8">
-      <h2 className="text-sm font-bold mb-3 flex items-center gap-2" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)' }}>
-        <span>📝</span> マイメモ一覧
-        <span className="text-[10px] font-bold px-2 py-0.5 rounded-full" style={{ background: 'rgba(26,26,46,0.08)', color: 'rgba(26,26,46,0.6)' }}>
-          {(query || courseFilter !== 'all') ? `${filtered.length}/${notes.length}件` : `${notes.length}件`}
-        </span>
-      </h2>
+      <div className="flex items-center justify-between mb-3">
+        <h2 className="text-sm font-bold flex items-center gap-2" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)' }}>
+          <span>📝</span> マイメモ一覧
+          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full" style={{ background: 'rgba(26,26,46,0.08)', color: 'rgba(26,26,46,0.6)' }}>
+            {(query || courseFilter !== 'all') ? `${filtered.length}/${notes.length}件` : `${notes.length}件`}
+          </span>
+        </h2>
+        <ExportNotes />
+      </div>
 
       {/* Search + filter row */}
       <div className="flex flex-col gap-2 mb-3">

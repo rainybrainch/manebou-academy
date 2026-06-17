@@ -10,7 +10,6 @@ import MoneyQuote from '@/components/MoneyQuote';
 import LikedLessons from '@/components/LikedLessons';
 import AllNotes from '@/components/AllNotes';
 import WeeklySummary from '@/components/WeeklySummary';
-import ExportNotes from '@/components/ExportNotes';
 import ShareProgress from '@/components/ShareProgress';
 import AchievementsCard from '@/components/AchievementsCard';
 import WeeklyActivityChart from '@/components/WeeklyActivityChart';
@@ -279,10 +278,6 @@ export default function ProgressClient() {
       </div>
 
       {/* All notes */}
-      <div className="flex items-center justify-between mb-2">
-        <span className="text-sm font-bold" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)' }}>メモ一覧</span>
-        <ExportNotes />
-      </div>
       <AllNotes />
 
       {/* Liked lessons */}
