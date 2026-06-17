@@ -38,6 +38,12 @@ const updates = [
   {
     date: '2026-06-17',
     tag: '改善',
+    title: 'データ定義ファイルのデザイントークン統一完了',
+    body: 'course-meta・levels・topic-metaの共有データファイルに残っていた全hex値をCSS変数に置換。コースメタ情報・レベルシステム・カテゴリ色がすべてデザイントークン管理下になりました。',
+  },
+  {
+    date: '2026-06-17',
+    tag: '改善',
     title: 'デザイントークン統一：CategoryPage・ComicSection',
     body: 'カテゴリページのLEVEL_COLORとアクセント色（CategoryPageClient）、漫画セクションのキャラクター色・学習ポイント色（ComicSection）をCSS変数に完全移行しました。',
   },
