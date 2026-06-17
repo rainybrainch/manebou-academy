@@ -191,7 +191,7 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
           onChange={e => setQuery(e.target.value)}
           onKeyDown={e => e.key === 'Escape' && setQuery('')}
           placeholder="コース・講義を検索…"
-          className="w-full pl-9 pr-4 py-2.5 rounded-xl border-2 text-sm outline-none transition-all"
+          className="w-full pl-9 pr-9 py-2.5 rounded-xl border-2 text-sm outline-none transition-all"
           style={{
             borderColor: query ? 'var(--mb-dark)' : 'rgba(26,26,46,0.15)',
             background: 'white',

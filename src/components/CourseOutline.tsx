@@ -25,6 +25,13 @@ export default function CourseOutline({ chapters, currentLessonId, categoryTitle
     }
   }, [isOpen]);
 
+  useEffect(() => {
+    if (!isOpen) return;
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [isOpen, onClose]);
+
   if (!isOpen) return null;
 
   const allLessonsWithChapter = chapters.flatMap(ch =>
