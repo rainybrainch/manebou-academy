@@ -392,7 +392,7 @@ export default function MoneyQuote() {
             className="text-[9px] font-bold px-2 py-1 rounded-lg transition-all"
             style={{
               background: copied ? 'rgba(76,175,125,0.15)' : 'rgba(255,255,255,0.08)',
-              color: copied ? '#4CAF7D' : 'rgba(255,255,255,0.35)',
+              color: copied ? 'var(--mb-green)' : 'rgba(255,255,255,0.35)',
               fontFamily: "'Zen Maru Gothic', sans-serif",
             }}
           >

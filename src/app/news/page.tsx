@@ -38,6 +38,12 @@ const updates = [
   {
     date: '2026-06-17',
     tag: '改善',
+    title: 'デザイントークン統一：MoneyQuote・WelcomeBack',
+    body: 'コピーボタンフィードバック色（MoneyQuote）・今日の講義数テキスト色（WelcomeBack）を var(--mb-green) に統一。コンポーネント全体のデザイントークン移行が完了に近づいています。',
+  },
+  {
+    date: '2026-06-17',
+    tag: '改善',
     title: 'デザイントークン統一：WeeklyActivityChart・LessonContent',
     body: '週次アクティビティグラフの3-4講義セルカラー（#5BC8E8→var(--mb-sky)）と、LessonContent内の残存コピーフィードバック色を統一。デザイントークン移行がほぼ完了しました。',
   },
