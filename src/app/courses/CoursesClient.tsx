@@ -361,7 +361,7 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
                           >
                             {/* Chapter thumbnail (small) */}
                             {course.image ? (
-                              <div className="w-10 h-10 rounded-lg overflow-hidden shrink-0 border border-gray-100 relative">
+                              <div className="w-10 h-10 rounded-lg overflow-hidden shrink-0 border relative" style={{ borderColor: 'rgba(26,26,46,0.08)' }}>
                                 <Image
                                   src={course.image}
                                   alt={course.title}
@@ -468,7 +468,7 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
                                     <Link
                                       key={lesson.id}
                                       href={isComingSoon ? '#' : `/courses/${course.id}/lessons/${lesson.id}`}
-                                      className="flex items-center gap-3 px-4 py-2.5 transition-colors hover:bg-amber-50"
+                                      className="flex items-center gap-3 px-4 py-2.5 transition-colors hover:bg-[rgba(245,200,66,0.06)]"
                                       style={{
                                         borderBottom: lIdx < course.lessons.length - 1 ? `1px solid ${accent}18` : 'none',
                                         background: done ? 'rgba(76,175,125,0.04)' : 'white',
