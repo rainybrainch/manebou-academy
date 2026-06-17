@@ -19,21 +19,22 @@ export default function WeeklyActivityChart() {
   const { dailyLessonCounts, mounted } = useProgress();
 
   const { weeks, startStr } = useMemo(() => {
+    const localStr = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
     const today = new Date();
     today.setHours(0, 0, 0, 0);
-    const todayStr = today.toISOString().slice(0, 10);
+    const todayStr = localStr(today);
     const todayDow = today.getDay();
 
     // Align to Sunday: start = Sunday 4 weeks ago
     const start = new Date(today);
     start.setDate(today.getDate() - todayDow - 21);
-    const startIso = start.toISOString().slice(0, 10);
+    const startIso = localStr(start);
 
     const days: { date: string; label: string; count: number; isToday: boolean; isFuture: boolean }[] = [];
     for (let i = 0; i < 28; i++) {
       const d = new Date(start);
       d.setDate(start.getDate() + i);
-      const iso = d.toISOString().slice(0, 10);
+      const iso = localStr(d);
       const isFuture = iso > todayStr;
       days.push({
         date: iso,

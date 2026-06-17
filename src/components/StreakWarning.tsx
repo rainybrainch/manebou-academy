@@ -13,7 +13,8 @@ export default function StreakWarning() {
     if (!mounted || streakDays < 1 || completedCount === 0) return;
     const hour = new Date().getHours();
     if (hour < 17) return; // only show after 5pm
-    const today = new Date().toISOString().slice(0, 10);
+    const t = new Date();
+    const today = `${t.getFullYear()}-${String(t.getMonth() + 1).padStart(2, '0')}-${String(t.getDate()).padStart(2, '0')}`;
     if (!dailyLessonCounts[today]) setShow(true);
   }, [mounted, streakDays, completedCount, dailyLessonCounts]);
 
