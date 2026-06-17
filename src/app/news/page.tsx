@@ -38,6 +38,12 @@ const updates = [
   {
     date: '2026-06-17',
     tag: '改善',
+    title: '未使用コンポーネント6件を削除・コードサイズ削減',
+    body: '①Sidebar②PageTransition③RevealSection④BadgeToast⑤Skeleton⑥ShareButtonの計6コンポーネントがコード内で一度も使われていないことを確認し削除。バンドルサイズが削減され、コードベースの見通しが改善しました',
+  },
+  {
+    date: '2026-06-17',
+    tag: '改善',
     title: 'トップへ戻るボタンのiOS対応・重複コンポーネント削除',
     body: '①トップへ戻るボタンの下端位置にiOSのセーフエリアインセット（env(safe-area-inset-bottom)）を考慮した計算式を追加。iPhone X以降でホームインジケーターとの重なりを回避するようになった②未使用の重複コンポーネント（BackToTop.tsx）を削除し、コードの整理を行った',
   },
