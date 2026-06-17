@@ -88,9 +88,9 @@ export default function RelatedLessons({ categoryId, courseId, lessonId }: Props
                   {course.title}
                 </div>
               </div>
-              {lesson.duration && (
+              {lesson.duration && lesson.duration !== '—' && (
                 <span className="text-[9px] shrink-0" style={{ color: 'rgba(26,26,46,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                  {lesson.duration}
+                  {`約${lesson.duration.split(':')[0]}分`}
                 </span>
               )}
             </Link>

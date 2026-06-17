@@ -192,8 +192,8 @@ export default function LessonSearch({ open, onClose }: Props) {
                     {r.courseTitle}
                   </div>
                 </div>
-                {r.duration && (
-                  <span className="text-[10px] shrink-0" style={{ color: 'rgba(255,255,255,0.3)' }}>{r.duration}</span>
+                {r.duration && r.duration !== '—' && (
+                  <span className="text-[10px] shrink-0" style={{ color: 'rgba(255,255,255,0.3)' }}>{`約${r.duration.split(':')[0]}分`}</span>
                 )}
               </button>
             ))
