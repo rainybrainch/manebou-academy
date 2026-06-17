@@ -69,7 +69,7 @@ export default function MilestoneCard() {
       style={{
         background: 'white',
         borderColor: 'var(--mb-dark)',
-        boxShadow: '3px 3px 0 var(--mb-green, #4CAF7D)',
+        boxShadow: '3px 3px 0 var(--mb-green)',
       }}
     >
       <div className="flex items-center gap-3 px-4 py-3">

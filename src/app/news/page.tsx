@@ -38,6 +38,12 @@ const updates = [
   {
     date: '2026-06-17',
     tag: '改善',
+    title: 'デザイントークン統一：CoursesClient・MilestoneCard',
+    body: 'コース一覧のカテゴリ・ジャンル・レベル色定義（CoursesClient）とマイルストーンカードのシャドウ（MilestoneCard）をCSS変数に完全移行。デザイントークン統一作業が大詰めです。',
+  },
+  {
+    date: '2026-06-17',
+    tag: '改善',
     title: 'デザイントークン統一：WeeklySummary・CourseCompleteModal',
     body: '週比バッジの増減カラー（WeeklySummary）・コース完了モーダルのカテゴリ色定義（CourseCompleteModal）をCSSカスタムプロパティに移行。コードの保守性と一貫性が向上しました。',
   },
