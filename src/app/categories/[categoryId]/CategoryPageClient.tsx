@@ -74,7 +74,7 @@ export default function CategoryPageClient({ tc, courses }: Props) {
 
         <div className="px-4 pt-3 pb-2 flex items-center justify-between" style={{ background: 'var(--mb-dark)' }}>
           <div>
-            <div className="text-xs" style={{ color: 'rgba(255,255,255,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>アプリ</div>
+            <div className="text-xs" style={{ color: 'rgba(255,255,255,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>カテゴリ</div>
             <div className="text-sm font-bold text-white" style={{ fontFamily: "'Zen Maru Gothic', sans-serif" }}>{tc.title}</div>
           </div>
           <div className="text-right">
