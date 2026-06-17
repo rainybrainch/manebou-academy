@@ -145,6 +145,7 @@ export default function LessonShell({
       if (e.key === 'Escape') {
         if (checkOpen) { setCheckOpen(false); return; }
         if (outlineOpen) { setOutlineOpen(false); return; }
+        if (autoNextCount !== null) { setAutoNextCount(null); return; }
       }
       if (e.key === 'ArrowRight' && next && isCompleted(courseId, lesson.id)) {
         router.push(`/courses/${next.courseId}/lessons/${next.lesson.id}`);
@@ -158,7 +159,7 @@ export default function LessonShell({
     }
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [courseId, lesson.id, next, prev, isCompleted, router, completed, checkOpen, outlineOpen]);
+  }, [courseId, lesson.id, next, prev, isCompleted, router, completed, checkOpen, outlineOpen, autoNextCount]);
 
   function fireConfetti() {
     setConfettiKey(k => k + 1);
@@ -188,6 +189,7 @@ export default function LessonShell({
 
   function handleCompleteAndNext() {
     completeLesson(courseId, lesson.id);
+    clearScrollMemory(courseId, lesson.id);
     playSound();
     try { navigator.vibrate?.([30, 20, 60]); } catch {}
     if (next) {
