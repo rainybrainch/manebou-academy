@@ -142,6 +142,10 @@ export default function LessonShell({
     function onKey(e: KeyboardEvent) {
       const tag = (e.target as HTMLElement).tagName;
       if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+      if (e.key === 'Escape') {
+        if (checkOpen) { setCheckOpen(false); return; }
+        if (outlineOpen) { setOutlineOpen(false); return; }
+      }
       if (e.key === 'ArrowRight' && next && isCompleted(courseId, lesson.id)) {
         router.push(`/courses/${next.courseId}/lessons/${next.lesson.id}`);
       }
@@ -154,7 +158,7 @@ export default function LessonShell({
     }
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [courseId, lesson.id, next, prev, isCompleted, router, completed]);
+  }, [courseId, lesson.id, next, prev, isCompleted, router, completed, checkOpen, outlineOpen]);
 
   function fireConfetti() {
     setConfettiKey(k => k + 1);
