@@ -33,9 +33,9 @@ export default function LessonLike({ courseId, lessonId }: Props) {
       onClick={toggle}
       className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border-2 text-[11px] font-bold transition-all hover:scale-105 active:scale-95"
       style={{
-        borderColor: liked ? '#E8354A' : 'rgba(26,26,46,0.15)',
+        borderColor: liked ? 'var(--mb-red)' : 'rgba(26,26,46,0.15)',
         background: liked ? 'rgba(232,53,74,0.08)' : 'transparent',
-        color: liked ? '#E8354A' : 'rgba(26,26,46,0.4)',
+        color: liked ? 'var(--mb-red)' : 'rgba(26,26,46,0.4)',
         fontFamily: "'Zen Maru Gothic', sans-serif",
       }}
       title={liked ? 'いいね済み' : 'いいね！'}

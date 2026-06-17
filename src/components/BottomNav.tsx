@@ -166,7 +166,7 @@ export default function BottomNav() {
                 {showNewsBadge && (
                   <div
                     className="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 rounded-full border-2"
-                    style={{ background: '#E8354A', borderColor: 'var(--mb-dark)' }}
+                    style={{ background: 'var(--mb-red)', borderColor: 'var(--mb-dark)' }}
                   />
                 )}
                 {showCourseNudge && (
@@ -178,7 +178,7 @@ export default function BottomNav() {
                 {showStreak && (
                   <div
                     className="absolute -top-1 -right-1.5 min-w-[14px] h-[14px] rounded-full flex items-center justify-center text-[8px] font-bold px-0.5"
-                    style={{ background: isActive ? 'var(--mb-gold)' : '#E8354A', color: 'white', fontFamily: "'Dela Gothic One', sans-serif" }}
+                    style={{ background: isActive ? 'var(--mb-gold)' : 'var(--mb-red)', color: 'white', fontFamily: "'Dela Gothic One', sans-serif" }}
                   >
                     {streakDays}
                   </div>
