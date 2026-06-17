@@ -472,7 +472,8 @@ export default function DailyTip() {
   const [copied, setCopied] = useState(false);
 
   const tip = useMemo(() => {
-    const dayIndex = Math.floor(Date.now() / 86400000);
+    const now = new Date();
+    const dayIndex = Math.floor(new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime() / 86400000);
     return TIPS[(dayIndex + offset) % TIPS.length];
   }, [offset]);
 
