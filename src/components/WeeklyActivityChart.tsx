@@ -18,7 +18,7 @@ function intensityColor(count: number, isToday: boolean): string {
 export default function WeeklyActivityChart() {
   const { dailyLessonCounts, mounted } = useProgress();
 
-  const { weeks, startStr } = useMemo(() => {
+  const { weeks, startStr, availableDays } = useMemo(() => {
     const localStr = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
     const today = new Date();
     today.setHours(0, 0, 0, 0);
@@ -46,7 +46,7 @@ export default function WeeklyActivityChart() {
     }
     const result: typeof days[] = [];
     for (let w = 0; w < 4; w++) result.push(days.slice(w * 7, w * 7 + 7));
-    return { weeks: result, startStr: startIso };
+    return { weeks: result, startStr: startIso, availableDays: days.filter(d => !d.isFuture).length };
   }, [dailyLessonCounts]);
 
   const totalActive = useMemo(() => {
@@ -80,7 +80,7 @@ export default function WeeklyActivityChart() {
             className="text-[11px] font-bold px-2 py-0.5 rounded-full"
             style={{ background: 'rgba(91,200,232,0.15)', color: 'var(--mb-sky)', fontFamily: "'Dela Gothic One', sans-serif" }}
           >
-            {totalActive}日 / 28日
+            {totalActive}日 / {availableDays}日
           </span>
         </div>
       </div>

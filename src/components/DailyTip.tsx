@@ -520,7 +520,7 @@ export default function DailyTip() {
         <div className="flex-1 min-w-0">
           <div className="flex items-center justify-between mb-1">
             <div className="text-[9px] font-bold tracking-widest" style={{ color: 'rgba(26,26,46,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-              TODAY&apos;S TIP
+              {offset === 0 ? "TODAY'S TIP" : 'ヒント集'}
             </div>
             {offset > 0 && (
               <span className="text-[9px]" style={{ color: 'rgba(26,26,46,0.25)', fontFamily: "'Dela Gothic One', sans-serif" }}>
