@@ -39,6 +39,13 @@ const updates = [
     date: '2026-06-17',
     tag: 'fix',
     tagColor: '#4CAF7D',
+    title: '最近の学習・関連講義コンポーネントの色をデザイントークンに統一',
+    body: '最近の学習（RecentLessons）のアクセントバー・件数バッジ・完了チェック丸・日付バッジ・もっと見るボタン文字色（計5箇所）と、関連講義（RelatedLessons）の完了チェックアイコン色（計1箇所）のraw hex（#4CAF7D）をvar(--mb-green)に統一した',
+  },
+  {
+    date: '2026-06-17',
+    tag: 'fix',
+    tagColor: '#4CAF7D',
     title: 'リセットボタン・シェアボタンの色をデザイントークンに統一',
     body: 'リセット確認ボタン（赤）・完了メッセージ（緑）・リセット起動ボタンの文字色、シェアボタンのコピー完了フィードバック色がraw hexだった。全てvar(--mb-red)/var(--mb-green)に置き換えた',
   },

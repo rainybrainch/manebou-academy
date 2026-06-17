@@ -64,7 +64,7 @@ export default function RelatedLessons({ categoryId, courseId, lessonId }: Props
                 style={{ background: done ? 'rgba(76,175,125,0.15)' : 'rgba(26,26,46,0.06)' }}
               >
                 {done ? (
-                  <svg className="w-3 h-3" style={{ color: '#4CAF7D' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="w-3 h-3" style={{ color: 'var(--mb-green)' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                   </svg>
                 ) : (

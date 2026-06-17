@@ -56,12 +56,12 @@ export default function RecentLessons() {
     <div>
       <div className="flex items-center justify-between mb-3">
         <div className="flex items-center gap-2">
-          <div className="w-1.5 h-4 rounded-full" style={{ background: '#4CAF7D' }} />
+          <div className="w-1.5 h-4 rounded-full" style={{ background: 'var(--mb-green)' }} />
           <span className="text-xs font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
             最近の学習
           </span>
         </div>
-        <span className="text-[10px] font-bold px-2 py-0.5 rounded-full" style={{ background: 'rgba(76,175,125,0.1)', color: '#4CAF7D', fontFamily: "'Dela Gothic One', sans-serif" }}>
+        <span className="text-[10px] font-bold px-2 py-0.5 rounded-full" style={{ background: 'rgba(76,175,125,0.1)', color: 'var(--mb-green)', fontFamily: "'Dela Gothic One', sans-serif" }}>
           {recentItems.length}件
         </span>
       </div>
@@ -75,7 +75,7 @@ export default function RecentLessons() {
           >
             <div
               className="w-7 h-7 rounded-full flex items-center justify-center shrink-0"
-              style={{ background: '#4CAF7D' }}
+              style={{ background: 'var(--mb-green)' }}
             >
               <svg className="w-3.5 h-3.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
@@ -98,7 +98,7 @@ export default function RecentLessons() {
                       ? 'rgba(76,175,125,0.12)'
                       : 'rgba(26,26,46,0.05)',
                     color: dateStr === new Date().toISOString().slice(0, 10)
-                      ? '#4CAF7D'
+                      ? 'var(--mb-green)'
                       : 'rgba(26,26,46,0.35)',
                     fontFamily: "'Zen Maru Gothic', sans-serif",
                   }}
@@ -117,7 +117,7 @@ export default function RecentLessons() {
           className="w-full mt-2 py-2.5 rounded-xl border-2 text-xs font-bold transition-all hover:opacity-80"
           style={{
             borderColor: 'rgba(76,175,125,0.2)',
-            color: '#4CAF7D',
+            color: 'var(--mb-green)',
             background: 'rgba(76,175,125,0.05)',
             fontFamily: "'Zen Maru Gothic', sans-serif",
           }}
