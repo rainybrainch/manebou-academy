@@ -63,8 +63,12 @@ export default function AllNotes() {
 
   const uniqueCourses = useMemo(() => {
     const seen = new Map<string, string>();
-    notes.forEach(n => seen.set(n.courseId, n.courseTitle));
-    return Array.from(seen.entries());
+    const countMap: Record<string, number> = {};
+    notes.forEach(n => {
+      seen.set(n.courseId, n.courseTitle);
+      countMap[n.courseId] = (countMap[n.courseId] ?? 0) + 1;
+    });
+    return Array.from(seen.entries()).map(([id, title]) => ({ id, title, count: countMap[id] ?? 0 }));
   }, [notes]);
 
   const filtered = useMemo(() => {
@@ -130,11 +134,11 @@ export default function AllNotes() {
             >
               すべて
             </button>
-            {uniqueCourses.map(([id, title]) => (
+            {uniqueCourses.map(({ id, title, count }) => (
               <button type="button"
                 key={id}
                 onClick={() => setCourseFilter(courseFilter === id ? 'all' : id)}
-                className="text-[9px] font-bold px-2.5 py-1 rounded-full border transition-all truncate max-w-[120px]"
+                className="text-[9px] font-bold px-2.5 py-1 rounded-full border transition-all flex items-center gap-1"
                 style={{
                   background: courseFilter === id ? 'var(--mb-dark)' : 'transparent',
                   borderColor: courseFilter === id ? 'var(--mb-dark)' : 'rgba(26,26,46,0.2)',
@@ -142,7 +146,8 @@ export default function AllNotes() {
                   fontFamily: "'Zen Maru Gothic', sans-serif",
                 }}
               >
-                {title}
+                <span className="truncate max-w-[100px]">{title}</span>
+                <span className="text-[8px] opacity-60 shrink-0">({count})</span>
               </button>
             ))}
           </div>

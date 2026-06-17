@@ -377,6 +377,15 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
                   </div>
                   <div className="flex items-center gap-2 mt-0.5">
                     <span className="text-xs" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>{fmtDuration(lesson.duration)}</span>
+                    {done && (() => {
+                      const dateStr = lessonCompletionDates[`${courseId}/${lesson.id}`];
+                      if (!dateStr) return null;
+                      const d = new Date(dateStr + 'T00:00:00');
+                      const today = new Date(); today.setHours(0, 0, 0, 0);
+                      const diff = Math.round((today.getTime() - d.getTime()) / 86400000);
+                      const label = diff === 0 ? '今日' : diff === 1 ? '昨日' : diff <= 6 ? `${diff}日前` : `${d.getMonth() + 1}/${d.getDate()}`;
+                      return <span className="text-[9px]" style={{ color: 'rgba(26,26,46,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>{label}</span>;
+                    })()}
                     {!done && scrollPcts[lesson.id] && (
                       <div className="flex items-center gap-1.5">
                         <div className="w-16 h-1 rounded-full overflow-hidden" style={{ background: 'rgba(91,200,232,0.2)' }}>
