@@ -432,7 +432,7 @@ export default function DailyQuiz() {
             {quizStreak >= 1 && (
               <span
                 className="text-[9px] font-bold px-1.5 py-0.5 rounded-full"
-                style={{ background: 'rgba(232,53,74,0.25)', color: '#E8354A', fontFamily: "'Dela Gothic One', sans-serif" }}
+                style={{ background: 'rgba(232,53,74,0.25)', color: 'var(--mb-red)', fontFamily: "'Dela Gothic One', sans-serif" }}
               >
                 🔥{quizStreak}日
               </span>
@@ -440,7 +440,7 @@ export default function DailyQuiz() {
             {answeredToday && (
               <span
                 className="text-[9px] font-bold px-1.5 py-0.5 rounded-full"
-                style={{ background: 'rgba(76,175,125,0.25)', color: '#4CAF7D', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                style={{ background: 'rgba(76,175,125,0.25)', color: 'var(--mb-green)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
               >
                 ✓
               </span>
@@ -448,7 +448,7 @@ export default function DailyQuiz() {
             <span className="text-[9px] font-bold" style={{ color: 'rgba(255,255,255,0.35)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
               正答率
             </span>
-            <span className="text-[10px] font-bold" style={{ color: knewPct >= 70 ? '#4CAF7D' : knewPct >= 40 ? 'var(--mb-gold)' : '#E8354A', fontFamily: "'Dela Gothic One', sans-serif" }}>
+            <span className="text-[10px] font-bold" style={{ color: knewPct >= 70 ? 'var(--mb-green)' : knewPct >= 40 ? 'var(--mb-gold)' : 'var(--mb-red)', fontFamily: "'Dela Gothic One', sans-serif" }}>
               {knewPct}%
             </span>
             <span className="text-[9px]" style={{ color: 'rgba(255,255,255,0.25)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
@@ -458,7 +458,7 @@ export default function DailyQuiz() {
         ) : answeredToday ? (
           <span
             className="ml-auto text-[9px] font-bold px-2 py-0.5 rounded-full"
-            style={{ background: 'rgba(76,175,125,0.25)', color: '#4CAF7D', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+            style={{ background: 'rgba(76,175,125,0.25)', color: 'var(--mb-green)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
           >
             ✓ 今日完了
           </span>
@@ -530,8 +530,8 @@ export default function DailyQuiz() {
                   className="flex-1 py-2 rounded-xl border-2 text-xs font-bold transition-all hover:-translate-y-0.5"
                   style={{
                     background: 'rgba(76,175,125,0.06)',
-                    borderColor: '#4CAF7D',
-                    color: '#4CAF7D',
+                    borderColor: 'var(--mb-green)',
+                    color: 'var(--mb-green)',
                     fontFamily: "'Zen Maru Gothic', sans-serif",
                     boxShadow: '2px 2px 0 rgba(76,175,125,0.25)',
                   }}
@@ -556,13 +556,13 @@ export default function DailyQuiz() {
               <div
                 className="flex items-center justify-center gap-2 mb-3 py-2 rounded-xl border-2"
                 style={{
-                  borderColor: reacted === 'knew' ? '#4CAF7D' : 'var(--mb-gold)',
+                  borderColor: reacted === 'knew' ? 'var(--mb-green)' : 'var(--mb-gold)',
                   background: reacted === 'knew' ? 'rgba(76,175,125,0.06)' : 'rgba(245,200,66,0.06)',
                   animation: 'fadeIn 0.2s ease',
                 }}
               >
                 <span className="text-sm">{reacted === 'knew' ? '✓' : '💡'}</span>
-                <span className="text-xs font-bold" style={{ color: reacted === 'knew' ? '#4CAF7D' : '#B8920A', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                <span className="text-xs font-bold" style={{ color: reacted === 'knew' ? 'var(--mb-green)' : '#B8920A', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
                   {reacted === 'knew' ? '知ってた！ 素晴らしい' : '初めて知った！ 覚えておこう'}
                 </span>
               </div>
@@ -589,8 +589,8 @@ export default function DailyQuiz() {
                 className="text-[9px] font-bold px-2 py-2 rounded-xl border transition-all"
                 style={{
                   background: copied ? 'rgba(76,175,125,0.08)' : 'transparent',
-                  borderColor: copied ? '#4CAF7D' : 'rgba(26,26,46,0.15)',
-                  color: copied ? '#4CAF7D' : 'rgba(26,26,46,0.35)',
+                  borderColor: copied ? 'var(--mb-green)' : 'rgba(26,26,46,0.15)',
+                  color: copied ? 'var(--mb-green)' : 'rgba(26,26,46,0.35)',
                   fontFamily: "'Zen Maru Gothic', sans-serif",
                 }}
               >

@@ -39,6 +39,13 @@ const updates = [
     date: '2026-06-17',
     tag: 'fix',
     tagColor: '#4CAF7D',
+    title: 'デイリークイズ全体の配色をデザイントークンに統一',
+    body: 'DailyQuizのクイズストリークバッジ（赤）・今日完了バッジ・正答率テキスト色分岐・「知ってた」ボタン・リアクション済み枠・コピー完了（計9箇所）のraw hexをvar(--mb-red)/var(--mb-green)に統一した',
+  },
+  {
+    date: '2026-06-17',
+    tag: 'fix',
+    tagColor: '#4CAF7D',
     title: 'ランダム講義・コース一覧の完了チェック色をデザイントークンに統一',
     body: 'RandomLessonの「復習」モードアクセント色・カードシャドウ・モードタブ色・下線（#4CAF7D×4）をvar(--mb-green)に統一。CoursesClientの講義行完了チェックアイコン色も同様に変更した',
   },
