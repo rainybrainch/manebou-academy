@@ -15,6 +15,12 @@ export default function LessonNotes({ courseId, lessonId }: Props) {
   const [saved, setSaved] = useState(false);
   const [copied, setCopied] = useState(false);
   const timeout = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const textareaRef = useRef<HTMLTextAreaElement>(null);
+
+  function autoResize(el: HTMLTextAreaElement) {
+    el.style.height = 'auto';
+    el.style.height = `${el.scrollHeight}px`;
+  }
 
   useEffect(() => {
     const stored = localStorage.getItem(KEY(courseId, lessonId)) ?? '';
@@ -23,6 +29,7 @@ export default function LessonNotes({ courseId, lessonId }: Props) {
 
   function handleChange(val: string) {
     setText(val);
+    if (textareaRef.current) autoResize(textareaRef.current);
     if (timeout.current) clearTimeout(timeout.current);
     timeout.current = setTimeout(() => {
       localStorage.setItem(KEY(courseId, lessonId), val);
@@ -87,6 +94,7 @@ export default function LessonNotes({ courseId, lessonId }: Props) {
             </div>
           </div>
           <textarea
+            ref={textareaRef}
             value={text}
             onChange={e => handleChange(e.target.value)}
             placeholder="気づいたこと、疑問、感想などを自由に…"
@@ -97,7 +105,9 @@ export default function LessonNotes({ courseId, lessonId }: Props) {
               color: 'var(--mb-dark)',
               fontFamily: "'Zen Maru Gothic', sans-serif",
               fontSize: '13px',
+              overflow: 'hidden',
             }}
+            onFocus={e => autoResize(e.currentTarget)}
           />
           {text.length > 0 && (
             <div

@@ -37,6 +37,13 @@ function renderBody(text: string): React.ReactNode {
 const updates = [
   {
     date: '2026-06-17',
+    tag: 'UX',
+    tagColor: '#5BC8E8',
+    title: 'メモ欄が自動で高さ調整・ニュースバッジ修正',
+    body: '①各講義ページの「メモを取る」欄が、入力量に応じて自動的に高さを伸ばすようになった。以前は固定4行で長いメモを書くとスクロールが必要だった②ナビゲーションバーのニュースバッジが最新の更新を正しく示すよう修正した',
+  },
+  {
+    date: '2026-06-17',
     tag: 'fix',
     tagColor: '#E8354A',
     title: 'FAQとマニュアルの「ダウンロード」誤記を修正',
