@@ -259,7 +259,7 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
                   ? 'rgba(255,255,255,0.1)'
                   : isToday
                     ? 'var(--mb-gold)'
-                    : count >= 3 ? '#4CAF7D' : count === 2 ? 'rgba(76,175,125,0.7)' : 'rgba(76,175,125,0.45)';
+                    : count >= 3 ? 'var(--mb-green)' : count === 2 ? 'rgba(76,175,125,0.7)' : 'rgba(76,175,125,0.45)';
                 return (
                   <div key={dateStr} className="flex flex-col items-center gap-0.5 flex-1">
                     <div
@@ -300,7 +300,7 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
               </div>
               <div className="w-px self-stretch" style={{ background: 'rgba(255,255,255,0.1)' }} />
               <div className="flex flex-col">
-                <span style={{ color: '#4CAF7D', fontFamily: "'Dela Gothic One', sans-serif", fontSize: '20px', lineHeight: 1 }}>
+                <span style={{ color: 'var(--mb-green)', fontFamily: "'Dela Gothic One', sans-serif", fontSize: '20px', lineHeight: 1 }}>
                   {drawerBadgeCount}
                 </span>
                 <span style={{ color: 'rgba(255,255,255,0.35)', fontSize: '9px', letterSpacing: '1px', marginTop: '2px' }}>BADGES</span>
