@@ -1,11 +1,12 @@
 'use client';
 
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { useProgress } from '@/hooks/useProgress';
 import { ACHIEVEMENTS } from '@/data/achievements';
 
 export default function AchievementsCard() {
   const { completedCount, streakDays, bestStreak, completedLessonKeys, mounted } = useProgress();
+  const [showUnearned, setShowUnearned] = useState(false);
 
   const { earned, unearnedWithProgress } = useMemo(() => {
     if (!mounted) return { earned: [], unearnedWithProgress: [] };
@@ -84,7 +85,7 @@ export default function AchievementsCard() {
           const aE = earned.includes(a) ? 1 : 0;
           const bE = earned.includes(b) ? 1 : 0;
           return bE - aE;
-        }).map(a => {
+        }).filter(a => earned.includes(a) || showUnearned).map(a => {
           const isEarned = earned.includes(a);
           return (
             <div
@@ -109,6 +110,22 @@ export default function AchievementsCard() {
           );
         })}
       </div>
+
+      {ACHIEVEMENTS.length - earned.length > 0 && (
+        <button
+          type="button"
+          onClick={() => setShowUnearned(v => !v)}
+          className="mt-3 w-full text-[10px] font-bold py-2 rounded-lg border transition-all"
+          style={{
+            borderColor: 'rgba(26,26,46,0.15)',
+            color: 'rgba(26,26,46,0.4)',
+            background: 'transparent',
+            fontFamily: "'Zen Maru Gothic', sans-serif",
+          }}
+        >
+          {showUnearned ? '未取得を隠す ▲' : `未取得の実績を見る（${ACHIEVEMENTS.length - earned.length}個） ▼`}
+        </button>
+      )}
     </div>
   );
 }

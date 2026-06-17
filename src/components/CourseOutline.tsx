@@ -126,9 +126,10 @@ export default function CourseOutline({ chapters, currentLessonId, categoryTitle
         <div className="flex-1 overflow-y-auto">
           {chapters.map((chapter) => {
             const isCurrentChapter = chapter.id === currentChapterId;
-            const chapterDone = mounted
-              ? chapter.lessons.filter(l => !l.isComingSoon).every(l => isCompleted(chapter.id, l.id))
-              : false;
+            const chapterLessons = chapter.lessons.filter(l => !l.isComingSoon);
+            const chapterTotal = chapterLessons.length;
+            const chapterCompleted = mounted ? chapterLessons.filter(l => isCompleted(chapter.id, l.id)).length : 0;
+            const chapterDone = chapterTotal > 0 && chapterCompleted === chapterTotal;
 
             return (
               <div key={chapter.id}>
@@ -157,9 +158,12 @@ export default function CourseOutline({ chapters, currentLessonId, categoryTitle
                   </span>
                   <span
                     className="ml-auto text-[9px] font-bold shrink-0"
-                    style={{ color: 'rgba(26,26,46,0.3)', fontFamily: "'Dela Gothic One', sans-serif" }}
+                    style={{
+                      color: mounted && chapterCompleted > 0 ? (chapterDone ? 'var(--mb-green)' : 'var(--mb-sky)') : 'rgba(26,26,46,0.3)',
+                      fontFamily: "'Dela Gothic One', sans-serif",
+                    }}
                   >
-                    {chapter.lessons.filter(l => !l.isComingSoon).length}講義
+                    {mounted && chapterCompleted > 0 ? `${chapterCompleted}/${chapterTotal}` : `${chapterTotal}講義`}
                   </span>
                 </div>
 
