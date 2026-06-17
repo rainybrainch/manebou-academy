@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import { useProgress } from '@/hooks/useProgress';
 import { categories } from '@/data/courses';
-import { Skeleton, SkeletonStyle } from './Skeleton';
 import { COURSE_META as categoryMeta } from '@/data/course-meta';
 
 export default function NextLessonCard() {
@@ -73,16 +72,13 @@ export default function NextLessonCard() {
 
   if (!mounted) {
     return (
-      <>
-        <SkeletonStyle />
-        <div className="rounded-xl border-2 overflow-hidden" style={{ borderColor: 'rgba(26,26,46,0.1)' }}>
-          <div className="p-4 space-y-3" style={{ background: 'rgba(26,26,46,0.04)' }}>
-            <Skeleton className="h-3 w-20" />
-            <Skeleton className="h-5 w-3/4" />
-            <Skeleton className="h-2 w-full" />
-          </div>
+      <div className="rounded-xl border-2 overflow-hidden" style={{ borderColor: 'rgba(26,26,46,0.1)' }}>
+        <div className="p-4 space-y-3" style={{ background: 'rgba(26,26,46,0.04)' }}>
+          <div className="h-3 w-20 rounded" style={{ background: 'rgba(26,26,46,0.08)' }} />
+          <div className="h-5 rounded" style={{ width: '75%', background: 'rgba(26,26,46,0.08)' }} />
+          <div className="h-2 w-full rounded" style={{ background: 'rgba(26,26,46,0.08)' }} />
         </div>
-      </>
+      </div>
     );
   }
 

@@ -37,6 +37,12 @@ function renderBody(text: string): React.ReactNode {
 const updates = [
   {
     date: '2026-06-17',
+    tag: '修正',
+    title: 'ビルドエラー修正：削除済みSkeletonコンポーネントの参照を除去',
+    body: '①HomeStats②NextLessonCardの2コンポーネントが削除済みのSkeleton.tsxをimportしていた。ビルドが壊れる致命的なエラー。Skeleton要素をインライン実装に置き換えて解消③コース概要シートのiOS下部パディング修正（pb-6→safe-area対応の動的パディング）',
+  },
+  {
+    date: '2026-06-17',
     tag: 'PERF',
     title: 'ヘッダーロゴをWebPに変換・ファイルサイズ97%削減',
     body: 'ヘッダーに表示されるアカデミーロゴ（academy-icon.png / 256KB）を、36px表示に最適化したWebP（144px・7KB）に変換。全ページの初期ロード時に送信されるロゴ画像が97%軽量化された',

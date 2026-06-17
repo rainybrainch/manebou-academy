@@ -97,7 +97,7 @@ export default function CourseOverviewSheet({ category, meta, onClose }: Props) 
         </div>
 
         {/* Chapter list */}
-        <div className="overflow-y-auto flex-1 px-4 pb-6">
+        <div className="overflow-y-auto flex-1 px-4" style={{ paddingBottom: 'calc(24px + env(safe-area-inset-bottom, 0px))' }}>
           {/* Timeline line */}
           <div className="relative">
             <div

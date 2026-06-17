@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useProgress } from '@/hooks/useProgress';
-import { Skeleton, SkeletonStyle } from './Skeleton';
 import { ACHIEVEMENTS } from '@/data/achievements';
 
 function useCountUp(target: number, duration = 600): number {
@@ -69,18 +68,15 @@ export default function HomeStats() {
 
   if (!mounted) {
     return (
-      <>
-        <SkeletonStyle />
-        <div className="grid grid-cols-3 gap-3">
-          {[1, 2, 3].map(i => (
-            <div key={i} className="rounded-xl border-2 p-3" style={{ borderColor: 'rgba(26,26,46,0.1)' }}>
-              <Skeleton className="w-7 h-7 rounded-full mx-auto mb-2" />
-              <Skeleton className="h-6 w-10 mx-auto mb-1" />
-              <Skeleton className="h-2.5 w-14 mx-auto" />
-            </div>
-          ))}
-        </div>
-      </>
+      <div className="grid grid-cols-3 gap-3">
+        {[1, 2, 3].map(i => (
+          <div key={i} className="rounded-xl border-2 p-3" style={{ borderColor: 'rgba(26,26,46,0.1)' }}>
+            <div className="w-7 h-7 rounded-full mx-auto mb-2" style={{ background: 'rgba(26,26,46,0.08)' }} />
+            <div className="h-6 w-10 mx-auto mb-1 rounded" style={{ background: 'rgba(26,26,46,0.08)' }} />
+            <div className="h-2.5 w-14 mx-auto rounded" style={{ background: 'rgba(26,26,46,0.08)' }} />
+          </div>
+        ))}
+      </div>
     );
   }
 
