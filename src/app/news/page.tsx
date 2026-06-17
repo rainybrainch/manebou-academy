@@ -36,6 +36,13 @@ function renderBody(text: string): React.ReactNode {
 
 const updates = [
   {
+    date: '2026-06-17',
+    tag: 'fix',
+    tagColor: '#E8354A',
+    title: 'FAQとマニュアルの「ダウンロード」誤記を修正',
+    body: 'よくある質問・使用マニュアルの両方で「メモをMarkdownでダウンロードできます」と誤った説明が記載されていた。実際の機能はファイルダウンロードではなくクリップボードへのコピーのため、正確な説明に修正した',
+  },
+  {
     date: '2026-06-16',
     tag: 'fix',
     tagColor: '#4CAF7D',
