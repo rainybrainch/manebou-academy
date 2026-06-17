@@ -37,6 +37,12 @@ function renderBody(text: string): React.ReactNode {
 const updates = [
   {
     date: '2026-06-17',
+    tag: '修正',
+    title: '存在しない画像パスを削除・404リクエストを排除',
+    body: '①ジャンルデータ（座学系/ゲーム系/受験用）が存在しない /images/genres/*.png を参照していたのを削除②受験カテゴリの cat-exam-public.png（存在しない）への参照を削除。該当箇所がすべて絵文字フォールバックに切り替わり、不要な404リクエストを完全に排除した',
+  },
+  {
+    date: '2026-06-17',
     tag: 'PERF',
     title: 'コース一覧の画像をWebPに移行・404参照を修正',
     body: '①コース一覧ページ（/courses）のカテゴリアイコン画像がPNG（約270KB/枚）を参照していたのをWebP（約25KB/枚）に変更。同ページの画像読み込みが約90%削減②ホームのアプリグリッド（HomeCourseGrid）と両方で存在しない「cat-exam.webp」への参照を削除。存在しない画像への404リクエストを解消した',

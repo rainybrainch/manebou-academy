@@ -5,19 +5,16 @@ export const genres: Genre[] = [
     id: 'g-lecture',
     title: '座学系',
     description: 'テキストと図解でじっくり学ぶ。お金・経済・投資・政治の基礎から応用まで。',
-    image: '/images/genres/genre-lecture.png',
   },
   {
     id: 'g-game',
     title: 'ゲーム系',
     description: 'ボードゲームや体験型コンテンツで学ぶ。ZAiなど実践的なゲームと連動。',
-    image: '/images/genres/genre-game.png',
   },
   {
     id: 'g-exam',
     title: '受験用',
     description: '共通テスト「公共」対策。金融リテラシー・経済・政治を受験視点で整理。',
-    image: '/images/genres/genre-exam.png',
   },
 ];
 
@@ -71,7 +68,6 @@ export const topicCategories: TopicCategory[] = [
     id: 'cat-exam-public',
     title: '公共・政治経済',
     description: '共通テスト対策マネぼう！「公共」「政治経済」の頻出テーマを網羅。',
-    image: '/images/categories/cat-exam-public.png',
     genreId: 'g-exam',
   },
 ];
