@@ -135,7 +135,7 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
         <div className="flex items-center gap-2 flex-1">
           <Link href="/" className="hover:opacity-90 transition-opacity flex items-center gap-2 leading-none">
             <Image
-              src="/academy-icon.png"
+              src="/academy-icon.webp"
               alt="マネぼうアカデミー"
               width={36}
               height={36}
