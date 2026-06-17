@@ -764,10 +764,10 @@ export default function LessonContent({
                 style={{ background: 'rgba(91,200,232,0.12)', color: 'var(--mb-sky)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
               >{chapterTitle}</span>
               {lesson.isPremium && (
-                <span className="text-xs bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full font-medium">プレミアム</span>
+                <span className="text-xs px-2 py-0.5 rounded-full font-bold" style={{ background: 'rgba(245,200,66,0.15)', color: 'var(--mb-gold)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>プレミアム</span>
               )}
               {lesson.duration && lesson.duration !== '—' && (
-                <span className="text-xs text-gray-400 flex items-center gap-1">
+                <span className="text-xs flex items-center gap-1" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
                   <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
                   {lesson.duration}
                 </span>
@@ -786,14 +786,14 @@ export default function LessonContent({
 
           {/* Premium badge */}
           {lesson.isPremium && (
-            <div className="mb-3 bg-red-50 border border-red-200 rounded-lg px-4 py-2.5 text-sm text-red-700">
+            <div className="mb-3 rounded-xl border-2 px-4 py-2.5 text-sm" style={{ background: 'rgba(232,53,74,0.06)', borderColor: 'rgba(232,53,74,0.2)', color: 'var(--mb-red)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
               ※ この講座動画はスキルプラスの講義を利用しています
             </div>
           )}
 
           {/* Coming soon */}
           {lesson.isComingSoon && (
-            <div className="mb-3 bg-gray-50 border border-gray-200 rounded-lg px-4 py-2.5 text-sm text-gray-500">
+            <div className="mb-3 rounded-xl border-2 px-4 py-2.5 text-sm" style={{ background: 'rgba(26,26,46,0.04)', borderColor: 'rgba(26,26,46,0.12)', color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
               ⏳ このレッスンは現在準備中です。ZAiゲームのルールブックをもとにコンテンツを作成中です。
             </div>
           )}

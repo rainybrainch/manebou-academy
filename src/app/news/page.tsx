@@ -37,6 +37,13 @@ function renderBody(text: string): React.ReactNode {
 const updates = [
   {
     date: '2026-06-17',
+    tag: 'UX',
+    tagColor: '#5BC8E8',
+    title: '講義ページの配色をデザインシステムに統一',
+    body: '講義ページの「所要時間」表示・「プレミアム」バッジ・「準備中」メッセージ・「プレミアム講義の説明文」が、アプリのデザインシステム外のグレー・赤・アンバー系のTailwindデフォルト色を使っていた。全てアプリ統一の色トークン（mb-dark / mb-red / mb-gold など）に置き換え、画面全体のデザイン一貫性を向上させた',
+  },
+  {
+    date: '2026-06-17',
     tag: 'fix',
     tagColor: '#4CAF7D',
     title: 'コースページの完了予測日数が不正確だった問題を修正',
