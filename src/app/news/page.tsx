@@ -38,6 +38,12 @@ const updates = [
   {
     date: '2026-06-17',
     tag: '改善',
+    title: 'デザイントークン統一：WeeklyActivityChart・LessonContent',
+    body: '週次アクティビティグラフの3-4講義セルカラー（#5BC8E8→var(--mb-sky)）と、LessonContent内の残存コピーフィードバック色を統一。デザイントークン移行がほぼ完了しました。',
+  },
+  {
+    date: '2026-06-17',
+    tag: '改善',
     title: 'デザイントークン統一：StreakCalendar',
     body: '学習カレンダーの3+講義セルカラー・累計学習日数テキスト・intensity関数の戻り値をCSSカスタムプロパティ var(--mb-green) に統一しました。',
   },

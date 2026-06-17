@@ -135,7 +135,7 @@ function CopyButton({ text }: { text: string }) {
     <button
       onClick={copy}
       className="flex items-center gap-1 text-xs transition-opacity hover:opacity-70"
-      style={{ color: copied ? '#4CAF7D' : 'rgba(26,26,46,0.45)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+      style={{ color: copied ? 'var(--mb-green)' : 'rgba(26,26,46,0.45)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
     >
       {copied ? (
         <>

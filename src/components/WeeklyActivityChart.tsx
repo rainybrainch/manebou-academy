@@ -12,7 +12,7 @@ function intensityColor(count: number, isToday: boolean): string {
   if (count === 1) return 'rgba(91,200,232,0.4)';
   if (count === 2) return 'rgba(91,200,232,0.7)';
   if (count >= 5) return 'var(--mb-gold)'; // super_speed!
-  return '#5BC8E8'; // 3-4
+  return 'var(--mb-sky)'; // 3-4
 }
 
 export default function WeeklyActivityChart() {
@@ -134,7 +134,7 @@ export default function WeeklyActivityChart() {
           { label: '0', bg: 'rgba(26,26,46,0.07)' },
           { label: '1', bg: 'rgba(91,200,232,0.4)' },
           { label: '2', bg: 'rgba(91,200,232,0.7)' },
-          { label: '3-4', bg: '#5BC8E8' },
+          { label: '3-4', bg: 'var(--mb-sky)' },
           { label: '5+🌩️', bg: 'var(--mb-gold)' },
         ].map(({ label, bg }) => (
           <div key={label} className="flex items-center gap-1">
