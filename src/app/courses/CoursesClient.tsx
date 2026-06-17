@@ -528,7 +528,7 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
                                           </span>
                                         ) : (
                                           <>
-                                            <span className="text-[9px]" style={{ color: 'rgba(26,26,46,0.3)' }}>{lesson.duration}</span>
+                                            <span className="text-[9px]" style={{ color: 'rgba(26,26,46,0.3)' }}>{lesson.duration && lesson.duration !== '—' ? `約${lesson.duration.split(':')[0]}分` : (lesson.duration ?? '')}</span>
                                             <svg className="w-3 h-3" style={{ color: accent }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                                             </svg>
