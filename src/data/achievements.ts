@@ -129,6 +129,14 @@ export const ACHIEVEMENTS: Achievement[] = [
     },
   },
   {
+    id: 'twenty_five_lessons',
+    icon: '🎗️',
+    title: '25講義突破',
+    desc: '25講義を完了した',
+    check: (c) => c >= 25,
+    progress: (c) => ({ current: Math.min(c, 25), total: 25 }),
+  },
+  {
     id: 'thirty_lessons',
     icon: '🎖️',
     title: '30講義の壁',
@@ -168,6 +176,14 @@ export const ACHIEVEMENTS: Achievement[] = [
     desc: '50講義を完了した',
     check: (c) => c >= 50,
     progress: (c) => ({ current: Math.min(c, 50), total: 50 }),
+  },
+  {
+    id: 'sixty_lessons',
+    icon: '🌊',
+    title: '60講義の波',
+    desc: '60講義を完了した',
+    check: (c) => c >= 60,
+    progress: (c) => ({ current: Math.min(c, 60), total: 60 }),
   },
   {
     id: 'seventy_five_lessons',
@@ -419,6 +435,14 @@ export const ACHIEVEMENTS: Achievement[] = [
     desc: '最高連続記録14日以上',
     check: (_, _s, best) => best >= 14,
     progress: (_, _s, best) => ({ current: Math.min(best, 14), total: 14 }),
+  },
+  {
+    id: 'best_streak_21',
+    icon: '🌌',
+    title: '伝説の3週間',
+    desc: '最高連続記録21日以上',
+    check: (_, _s, best) => best >= 21,
+    progress: (_, _s, best) => ({ current: Math.min(best, 21), total: 21 }),
   },
   {
     id: 'all_categories',
