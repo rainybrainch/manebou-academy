@@ -111,7 +111,7 @@ const FAQ_SECTIONS: FaqSection[] = [
   {
     label: 'NISA・投資',
     icon: '🏦',
-    color: '#E8354A',
+    color: '#9B6DD6',
     items: [
       {
         q: 'NISAとiDeCoはどちらを先に始めるべき？',

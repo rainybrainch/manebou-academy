@@ -428,7 +428,7 @@ export default function DailyQuiz() {
       <div className="flex items-center gap-2 px-4 py-3" style={{ background: 'var(--mb-dark)' }}>
         <span style={{ fontSize: '16px' }}>🧠</span>
         <span className="text-sm font-bold shrink-0 whitespace-nowrap" style={{ color: 'var(--mb-sky)', fontFamily: "'Dela Gothic One', sans-serif" }}>
-          今日の一問
+          {offset === 0 ? '今日の一問' : `${offset}日前の問題`}
         </span>
         {total > 0 ? (
           <div className="ml-auto flex items-center gap-1.5">
