@@ -51,7 +51,7 @@ export default function HomePage() {
               className="inline-block text-[9px] font-bold tracking-[3px] px-2.5 py-1 rounded"
               style={{ background: 'rgba(245,200,66,0.15)', color: 'var(--mb-gold)', border: '1px solid rgba(245,200,66,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
             >
-              MONEBOU ACADEMY
+              MANEBOU ACADEMY
             </div>
             <div className="flex items-center gap-1.5 px-2 py-1 rounded-full" style={{ background: 'rgba(76,175,125,0.15)', border: '1px solid rgba(76,175,125,0.3)' }}>
               <span className="w-1.5 h-1.5 rounded-full inline-block" style={{ background: 'var(--mb-green)', animation: 'pulse 2s infinite' }} />
