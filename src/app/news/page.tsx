@@ -39,6 +39,13 @@ const updates = [
     date: '2026-06-17',
     tag: 'fix',
     tagColor: '#4CAF7D',
+    title: 'ホーム統計・ペース予測バッジの色をデザイントークンに統一',
+    body: 'HomeStatsの実績・講義・ストリーク3カードの色（#5BC8E8/#4CAF7D/#F5C842）をvar(--mb-sky)/var(--mb-green)/var(--mb-gold)に統一。PacePredictionのペースラベル色（#E8354A/#4CAF7D）もvar(--mb-red)/var(--mb-green)に変更した',
+  },
+  {
+    date: '2026-06-17',
+    tag: 'fix',
+    tagColor: '#4CAF7D',
     title: 'ProgressRing・章進捗バッジの100%完了色をデザイントークンに統一',
     body: 'ProgressRingのSVGストローク（100%時）とChapterProgressBadgeのテキスト色が完了時のみraw hex（#4CAF7D）になっていた。var(--mb-green)に統一し、コース一覧・講義ページ全体での完了表示が一貫性を持つようになった',
   },

@@ -130,9 +130,9 @@ export default function PacePrediction({ totalLessons }: Props) {
                   ? 'rgba(76,175,125,0.25)'
                   : 'rgba(91,200,232,0.2)',
               color: prediction.weeklyRate >= 7
-                ? '#E8354A'
+                ? 'var(--mb-red)'
                 : prediction.weeklyRate >= 4
-                  ? '#4CAF7D'
+                  ? 'var(--mb-green)'
                   : 'var(--mb-sky)',
               fontFamily: "'Zen Maru Gothic', sans-serif",
             }}
