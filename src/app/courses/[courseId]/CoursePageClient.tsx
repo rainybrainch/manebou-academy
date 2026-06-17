@@ -136,7 +136,10 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
 
         {/* Estimated completion */}
         {mounted && completedCount > 0 && completedCount < availableCount && (() => {
-          const activeDays = new Set(Object.values(lessonCompletionDates)).size;
+          const courseDates = Object.entries(lessonCompletionDates)
+            .filter(([key]) => key.startsWith(courseId + '/'))
+            .map(([, date]) => date);
+          const activeDays = new Set(courseDates).size;
           const remaining = availableCount - completedCount;
           if (activeDays === 0) return null;
           const eta = Math.ceil(remaining * (activeDays / completedCount));
