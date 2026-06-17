@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useStamps, generateDailyCode, type StampResult } from '@/hooks/useStamps';
 
 const STAMPS_PER_CARD = 10;
@@ -104,6 +104,13 @@ export default function StampClient({ isAdmin }: Props) {
       }, 1800);
     }
   };
+
+  useEffect(() => {
+    if (!showModal) return;
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setShowModal(false); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [showModal]);
 
   // Build card grid: group by STAMPS_PER_CARD
   const currentCardIndex = Math.floor(totalStamps / STAMPS_PER_CARD);
