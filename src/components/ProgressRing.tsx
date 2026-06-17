@@ -17,7 +17,7 @@ export default function ProgressRing({ pct, size = 36, stroke = 3, color = 'var(
       <circle
         cx={size / 2} cy={size / 2} r={r}
         fill="none"
-        stroke={pct === 100 ? '#4CAF7D' : color}
+        stroke={pct === 100 ? 'var(--mb-green)' : color}
         strokeWidth={stroke}
         strokeDasharray={`${dash} ${circ - dash}`}
         strokeLinecap="round"

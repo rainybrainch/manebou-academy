@@ -26,7 +26,7 @@ export default function ChapterProgressBadge({ course, courseId, accentColor }: 
       <span
         className="absolute text-[8px] font-bold"
         style={{
-          color: pct === 100 ? '#4CAF7D' : accentColor,
+          color: pct === 100 ? 'var(--mb-green)' : accentColor,
           fontFamily: "'Dela Gothic One', sans-serif",
         }}
       >

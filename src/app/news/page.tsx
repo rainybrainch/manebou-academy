@@ -39,6 +39,13 @@ const updates = [
     date: '2026-06-17',
     tag: 'fix',
     tagColor: '#4CAF7D',
+    title: 'ProgressRing・章進捗バッジの100%完了色をデザイントークンに統一',
+    body: 'ProgressRingのSVGストローク（100%時）とChapterProgressBadgeのテキスト色が完了時のみraw hex（#4CAF7D）になっていた。var(--mb-green)に統一し、コース一覧・講義ページ全体での完了表示が一貫性を持つようになった',
+  },
+  {
+    date: '2026-06-17',
+    tag: 'fix',
+    tagColor: '#4CAF7D',
     title: 'シェア・Markdownエクスポートボタンの完了フィードバック色をデザイントークンに統一',
     body: '学習成果シェアボタン（ShareProgress）の完了後フィードバック枠・テキスト色、Markdownエクスポートボタン（ExportNotes）のコピー完了フィードバック枠・テキスト色がraw hex（#4CAF7D）だった。var(--mb-green)に統一した',
   },
