@@ -332,8 +332,9 @@ export default function MoneyQuote() {
   const [copied, setCopied] = useState(false);
 
   const quote = useMemo(() => {
-    const idx = Math.floor(Date.now() / (1000 * 60 * 60 * 24)) % QUOTES.length;
-    return QUOTES[(idx + offset) % QUOTES.length];
+    const now = new Date();
+    const dayIndex = Math.floor(new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime() / 86400000);
+    return QUOTES[(dayIndex + offset) % QUOTES.length];
   }, [offset]);
 
   function nextQuote() {

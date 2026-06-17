@@ -3,6 +3,10 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useProgress } from '@/hooks/useProgress';
 
+function localDateStr(d: Date): string {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
 interface QuizItem {
   question: string;
   answer: string;
@@ -346,7 +350,7 @@ export default function DailyQuiz() {
     try {
       const raw = localStorage.getItem(REACT_KEY);
       if (raw) setTotals(JSON.parse(raw) as Reactions);
-      const todayStr = new Date().toISOString().slice(0, 10);
+      const todayStr = localDateStr(new Date());
       if (localStorage.getItem(TODAY_KEY) === todayStr) setAnsweredToday(true);
       const streak = parseInt(localStorage.getItem(QUIZ_STREAK_KEY) ?? '0', 10);
       if (!isNaN(streak) && streak > 0) setQuizStreak(streak);
@@ -354,7 +358,8 @@ export default function DailyQuiz() {
   }, [mounted]);
 
   const quiz = useMemo<QuizItem>(() => {
-    const dayIndex = Math.floor(Date.now() / 86400000);
+    const now = new Date();
+    const dayIndex = Math.floor(new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime() / 86400000);
     return SIMPLE_QUIZ[(dayIndex + offset) % SIMPLE_QUIZ.length];
   }, [offset]);
 
@@ -387,10 +392,10 @@ export default function DailyQuiz() {
     setTotals(next);
     try {
       localStorage.setItem(REACT_KEY, JSON.stringify(next));
-      const todayStr = new Date().toISOString().slice(0, 10);
+      const todayStr = localDateStr(new Date());
       const yesterday = new Date();
       yesterday.setDate(yesterday.getDate() - 1);
-      const yesterdayStr = yesterday.toISOString().slice(0, 10);
+      const yesterdayStr = localDateStr(yesterday);
       const prevDate = localStorage.getItem(TODAY_KEY);
       const prevStreak = parseInt(localStorage.getItem(QUIZ_STREAK_KEY) ?? '0', 10) || 0;
       const newStreak = prevDate === yesterdayStr ? prevStreak + 1 : 1;
