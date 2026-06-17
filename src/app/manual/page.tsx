@@ -147,7 +147,7 @@ export default function ManualPage() {
 
       {/* Keyboard shortcuts */}
       <div
-        className="p-5 rounded-xl border-2"
+        className="mt-6 p-5 rounded-xl border-2"
         style={{ background: 'white', borderColor: 'var(--mb-dark)', boxShadow: '3px 3px 0 var(--mb-sky)' }}
       >
         <h2 className="flex items-center gap-2 text-sm font-bold mb-4" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)' }}>
