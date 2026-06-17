@@ -64,6 +64,9 @@ export default function CourseCompleteModal({ courseTitle, categoryId, nextCours
       className="fixed inset-0 z-[95] flex items-center justify-center px-5"
       style={{ background: 'rgba(10,10,26,0.85)', backdropFilter: 'blur(6px)' }}
       onClick={e => { if (e.target === e.currentTarget) onClose(); }}
+      role="dialog"
+      aria-modal="true"
+      aria-label={`${courseTitle} 完了`}
     >
       <div
         className="w-full max-w-sm rounded-3xl border-2 overflow-hidden text-center"

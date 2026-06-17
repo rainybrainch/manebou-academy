@@ -41,6 +41,9 @@ export default function ShortcutHelp({ open, onClose }: Props) {
       className="fixed inset-0 z-[70] flex items-center justify-center px-4"
       style={{ background: 'rgba(10,10,26,0.75)', backdropFilter: 'blur(4px)' }}
       onClick={e => { if (e.target === e.currentTarget) onClose(); }}
+      role="dialog"
+      aria-modal="true"
+      aria-label="キーボードショートカット"
     >
       <div
         className="w-full max-w-sm rounded-2xl border-2 overflow-hidden"
