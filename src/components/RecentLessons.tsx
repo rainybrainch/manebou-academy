@@ -51,6 +51,8 @@ export default function RecentLessons() {
 
   const displayItems = showAll ? recentItems : recentItems.slice(0, INITIAL_COUNT);
   const hasMore = recentItems.length > INITIAL_COUNT;
+  const _n = new Date();
+  const todayDateStr = `${_n.getFullYear()}-${String(_n.getMonth() + 1).padStart(2, '0')}-${String(_n.getDate()).padStart(2, '0')}`;
 
   return (
     <div>
@@ -94,10 +96,10 @@ export default function RecentLessons() {
                 <span
                   className="text-[9px] font-bold px-1.5 py-0.5 rounded-full"
                   style={{
-                    background: dateStr === new Date().toISOString().slice(0, 10)
+                    background: dateStr === todayDateStr
                       ? 'rgba(76,175,125,0.12)'
                       : 'rgba(26,26,46,0.05)',
-                    color: dateStr === new Date().toISOString().slice(0, 10)
+                    color: dateStr === todayDateStr
                       ? 'var(--mb-green)'
                       : 'rgba(26,26,46,0.35)',
                     fontFamily: "'Zen Maru Gothic', sans-serif",

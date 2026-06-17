@@ -90,7 +90,11 @@ export default function BottomNav() {
     setMenuOpen(false);
   }, [pathname]);
 
-  const todayStudied = mounted && (dailyLessonCounts[new Date().toISOString().slice(0, 10)] ?? 0) > 0;
+  const todayStudied = mounted && (() => {
+    const n = new Date();
+    const k = `${n.getFullYear()}-${String(n.getMonth() + 1).padStart(2, '0')}-${String(n.getDate()).padStart(2, '0')}`;
+    return (dailyLessonCounts[k] ?? 0) > 0;
+  })();
   const showStudyNudge = mounted && completedCount > 0 && !todayStudied;
 
   if (pathname.includes('/lessons/')) return null;

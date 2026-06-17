@@ -82,7 +82,8 @@ export default function StampClient({ isAdmin }: Props) {
   const [justStamped, setJustStamped] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const today = new Date().toISOString().slice(0, 10);
+  const t = new Date();
+  const today = `${t.getFullYear()}-${String(t.getMonth() + 1).padStart(2, '0')}-${String(t.getDate()).padStart(2, '0')}`;
   const todayCode = generateDailyCode(today);
 
   const openModal = () => {

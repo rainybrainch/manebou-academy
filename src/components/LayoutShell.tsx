@@ -250,7 +250,7 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
               {Array.from({ length: 7 }).map((_, i) => {
                 const d = new Date();
                 d.setDate(d.getDate() - (6 - i));
-                const dateStr = d.toISOString().slice(0, 10);
+                const dateStr = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
                 const count = dailyLessonCounts[dateStr] ?? 0;
                 const isToday = i === 6;
                 const bg = count === 0

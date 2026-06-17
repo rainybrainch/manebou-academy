@@ -17,6 +17,10 @@ interface StampStore {
 
 const defaultStore: StampStore = { stamps: [], usedDates: [] };
 
+function localDateStr(d: Date): string {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
 function load(): StampStore {
   if (typeof window === 'undefined') return defaultStore;
   try {
@@ -51,7 +55,7 @@ export function useStamps() {
   }, []);
 
   const addStamp = useCallback((code: string): StampResult => {
-    const today = new Date().toISOString().slice(0, 10);
+    const today = localDateStr(new Date());
     if (code !== generateDailyCode(today)) return 'wrong_code';
 
     const current = load();
@@ -67,14 +71,14 @@ export function useStamps() {
   }, []);
 
   const totalStamps = store.stamps.length;
-  const todayUsed = mounted && store.usedDates.includes(new Date().toISOString().slice(0, 10));
+  const todayUsed = mounted && store.usedDates.includes(localDateStr(new Date()));
 
   const lastStamp = store.stamps.at(-1);
   const expiryDate = lastStamp
     ? (() => {
         const d = new Date(lastStamp.date + 'T00:00:00');
         d.setFullYear(d.getFullYear() + 1);
-        return d.toISOString().slice(0, 10);
+        return localDateStr(d);
       })()
     : null;
 
