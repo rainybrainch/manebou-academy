@@ -22,13 +22,12 @@ const topicMeta: Record<string, { icon: string; color: string; shortName: string
 };
 
 const appIconMap: Record<string, string> = {
-  'cat-money':       '/images/apps/cat-money.png',
-  'cat-investment':  '/images/apps/cat-investment.png',
-  'cat-economics':   '/images/apps/cat-economics.png',
-  'cat-politics':    '/images/apps/cat-politics.png',
-  'cat-zai':         '/images/apps/cat-game.png',
-  'cat-boardgame':   '/images/apps/cat-game.png',
-  'cat-exam-public': '/images/apps/cat-exam.png',
+  'cat-money':       '/images/apps/cat-money.webp',
+  'cat-investment':  '/images/apps/cat-investment.webp',
+  'cat-economics':   '/images/apps/cat-economics.webp',
+  'cat-politics':    '/images/apps/cat-politics.webp',
+  'cat-zai':         '/images/apps/cat-game.webp',
+  'cat-boardgame':   '/images/apps/cat-game.webp',
 };
 
 export default function CoursesPage() {

@@ -15,7 +15,6 @@ const appIconMap: Record<string, string> = {
   'cat-politics':    '/images/apps/cat-politics.webp',
   'cat-zai':         '/images/apps/cat-game.webp',
   'cat-boardgame':   '/images/apps/cat-game.webp',
-  'cat-exam-public': '/images/apps/cat-exam.webp',
 };
 
 interface Props {
