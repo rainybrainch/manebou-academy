@@ -1,4 +1,4 @@
-import type { Category } from '@/types';
+﻿import type { Category } from '@/types';
 
 export const moneyTaxCategory: Category = {
   id: 'money-tax',
@@ -13,7 +13,6 @@ export const moneyTaxCategory: Category = {
     {
       id: 'tax-ch1',
       title: '第1章：税金の種類と仕組み',
-      image: '/images/chapters/tax-ch1.png',
       lessons: [
         {
           id: 'tax-1-1',
@@ -212,7 +211,6 @@ export const moneyTaxCategory: Category = {
     {
       id: 'tax-ch2',
       title: '第2章：給与と税金',
-      image: '/images/chapters/tax-ch2.png',
       lessons: [
         {
           id: 'tax-2-1',
@@ -390,7 +388,6 @@ export const moneyTaxCategory: Category = {
     {
       id: 'tax-ch3',
       title: '第3章：消費税と生活',
-      image: '/images/chapters/tax-ch3.png',
       lessons: [
         {
           id: 'tax-3-1',
@@ -570,7 +567,6 @@ export const moneyTaxCategory: Category = {
     {
       id: 'tax-ch4',
       title: '第4章：節税の基本',
-      image: '/images/chapters/tax-ch4.png',
       lessons: [
         {
           id: 'tax-4-1',

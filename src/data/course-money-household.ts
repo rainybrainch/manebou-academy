@@ -1,4 +1,4 @@
-import type { Category } from '@/types';
+﻿import type { Category } from '@/types';
 
 export const moneyHouseholdCategory: Category = {
   id: 'money-household',
@@ -13,7 +13,6 @@ export const moneyHouseholdCategory: Category = {
     {
       id: 'household-ch1',
       title: '第1章：収入と支出を把握する',
-      image: '/images/chapters/household-ch1.png',
       lessons: [
         {
           id: 'hh-1-1',
@@ -212,7 +211,6 @@ export const moneyHouseholdCategory: Category = {
     {
       id: 'household-ch2',
       title: '第2章：貯蓄の習慣をつくる',
-      image: '/images/chapters/household-ch2.png',
       lessons: [
         {
           id: 'hh-2-1',
@@ -400,7 +398,6 @@ export const moneyHouseholdCategory: Category = {
     {
       id: 'household-ch3',
       title: '第3章：家計改善の実践',
-      image: '/images/chapters/household-ch3.png',
       lessons: [
         {
           id: 'hh-3-1',

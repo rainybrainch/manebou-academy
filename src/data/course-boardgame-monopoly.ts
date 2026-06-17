@@ -1,4 +1,4 @@
-import type { Category } from '@/types';
+﻿import type { Category } from '@/types';
 
 export const boardgameMonopolyCategory: Category = {
   id: 'boardgame-monopoly',
@@ -13,7 +13,6 @@ export const boardgameMonopolyCategory: Category = {
     {
       id: 'mono-ch1',
       title: '第1章：モノポリーのルールと経済のしくみ',
-      image: '/images/chapters/mono-ch1.png',
       lessons: [
         {
           id: 'mono-1-1',
@@ -178,7 +177,6 @@ export const boardgameMonopolyCategory: Category = {
     {
       id: 'mono-ch2',
       title: '第2章：カタンで学ぶ資源と貿易のしくみ',
-      image: '/images/chapters/mono-ch2.png',
       lessons: [
         {
           id: 'mono-2-1',
@@ -290,7 +288,6 @@ export const boardgameMonopolyCategory: Category = {
     {
       id: 'mono-ch3',
       title: '第3章：人生ゲームで学ぶライフプランと保険',
-      image: '/images/chapters/mono-ch3.png',
       lessons: [
         {
           id: 'mono-3-1',

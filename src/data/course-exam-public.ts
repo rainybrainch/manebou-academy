@@ -1,4 +1,4 @@
-import type { Category } from '@/types';
+﻿import type { Category } from '@/types';
 
 export const examPublicCategory: Category = {
   id: 'exam-public',
@@ -13,7 +13,6 @@ export const examPublicCategory: Category = {
     {
       id: 'exam-ch1',
       title: '第1章：基本的人権と日本国憲法',
-      image: '/images/chapters/exam-ch1.png',
       lessons: [
         {
           id: 'ep-1-1',
@@ -198,7 +197,6 @@ export const examPublicCategory: Category = {
     {
       id: 'exam-ch2',
       title: '第2章：市場経済のしくみ',
-      image: '/images/chapters/exam-ch2.png',
       lessons: [
         {
           id: 'ep-2-1',
@@ -373,7 +371,6 @@ export const examPublicCategory: Category = {
     {
       id: 'exam-ch3',
       title: '第3章：国際社会と日本の役割',
-      image: '/images/chapters/exam-ch3.png',
       lessons: [
         {
           id: 'ep-3-1',
@@ -492,7 +489,6 @@ export const examPublicCategory: Category = {
     {
       id: 'exam-ch4',
       title: '第4章：社会保障と財政のしくみ',
-      image: '/images/chapters/exam-ch4.png',
       lessons: [
         {
           id: 'ep-4-1',

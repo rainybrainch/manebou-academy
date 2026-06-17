@@ -1,4 +1,4 @@
-import type { Category } from '@/types';
+﻿import type { Category } from '@/types';
 
 export const moneyLifeplanCategory: Category = {
   id: 'money-lifeplan',
@@ -13,7 +13,6 @@ export const moneyLifeplanCategory: Category = {
     {
       id: 'lifeplan-ch1',
       title: '第1章：人生とお金のタイムライン',
-      image: '/images/chapters/lifeplan-ch1.png',
       lessons: [
         {
           id: 'lp-1-1',
@@ -212,7 +211,6 @@ export const moneyLifeplanCategory: Category = {
     {
       id: 'lifeplan-ch2',
       title: '第2章：結婚・住宅・子育てのお金',
-      image: '/images/chapters/lifeplan-ch2.png',
       lessons: [
         {
           id: 'lp-2-1',
@@ -411,7 +409,6 @@ export const moneyLifeplanCategory: Category = {
     {
       id: 'lifeplan-ch3',
       title: '第3章：老後のお金を準備する',
-      image: '/images/chapters/lifeplan-ch3.png',
       lessons: [
         {
           id: 'lp-3-1',

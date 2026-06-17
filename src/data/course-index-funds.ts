@@ -1,4 +1,4 @@
-import type { Category } from '@/types';
+﻿import type { Category } from '@/types';
 
 export const indexFundsCategory: Category = {
   id: 'index-funds',
@@ -579,7 +579,6 @@ export const indexFundsCategory: Category = {
     {
       id: 'idx-ch5',
       title: '第5章：長期投資の管理術——リバランスと出口戦略',
-      image: '/images/chapters/idx-ch5.png',
       lessons: [
         {
           id: 'idx-5-1',

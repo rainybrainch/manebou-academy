@@ -1,4 +1,4 @@
-import type { Category } from '@/types';
+﻿import type { Category } from '@/types';
 
 export const dividendStocksCategory: Category = {
   id: 'dividend-stocks',
@@ -13,7 +13,6 @@ export const dividendStocksCategory: Category = {
     {
       id: 'div-ch1',
       title: '第1章：配当投資の基本',
-      image: '/images/chapters/div-ch1.png',
       lessons: [
         {
           id: 'div-1-1',
@@ -207,7 +206,6 @@ export const dividendStocksCategory: Category = {
     {
       id: 'div-ch2',
       title: '第2章：配当投資の実践と応用',
-      image: '/images/chapters/div-ch2.png',
       lessons: [
         {
           id: 'div-2-1',

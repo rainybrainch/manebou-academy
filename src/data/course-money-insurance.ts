@@ -1,4 +1,4 @@
-import type { Category } from '@/types';
+﻿import type { Category } from '@/types';
 
 export const moneyInsuranceCategory: Category = {
   id: 'money-insurance',
@@ -13,7 +13,6 @@ export const moneyInsuranceCategory: Category = {
     {
       id: 'insurance-ch1',
       title: '第1章：保険の役割と仕組み',
-      image: '/images/chapters/insurance-ch1.png',
       lessons: [
         {
           id: 'ins-1-1',
@@ -213,7 +212,6 @@ export const moneyInsuranceCategory: Category = {
     {
       id: 'insurance-ch2',
       title: '第2章：生命保険・医療保険',
-      image: '/images/chapters/insurance-ch2.png',
       lessons: [
         {
           id: 'ins-2-1',
@@ -389,7 +387,6 @@ export const moneyInsuranceCategory: Category = {
     {
       id: 'insurance-ch3',
       title: '第3章：損害保険と保険の見直し',
-      image: '/images/chapters/insurance-ch3.png',
       lessons: [
         {
           id: 'ins-3-1',

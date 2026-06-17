@@ -1,4 +1,4 @@
-import type { Category } from '@/types';
+﻿import type { Category } from '@/types';
 
 export const investmentAdvancedCategory: Category = {
   id: 'investment-advanced',
@@ -639,7 +639,6 @@ export const investmentAdvancedCategory: Category = {
     {
       id: 'adv-ch6',
       title: '第6章：オルタナティブ投資——株・債券以外の選択肢',
-      image: '/images/chapters/adv-ch6.png',
       lessons: [
         {
           id: 'adv-6-1',
