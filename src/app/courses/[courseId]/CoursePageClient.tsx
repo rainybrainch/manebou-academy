@@ -8,6 +8,12 @@ import ConfettiBurst from '@/components/ConfettiBurst';
 
 type Filter = 'all' | 'todo' | 'done';
 
+function fmtDuration(d: string | undefined): string {
+  if (!d || d === '—') return d ?? '';
+  const mins = parseInt(d.split(':')[0], 10);
+  return isNaN(mins) ? d : `約${mins}分`;
+}
+
 interface Props {
   course: Course;
   category: Category;
@@ -111,7 +117,9 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
               <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              約{totalMinutes}分
+              {totalMinutes >= 60
+                ? `約${Math.floor(totalMinutes / 60)}時間${totalMinutes % 60 > 0 ? `${totalMinutes % 60}分` : ''}`
+                : `約${totalMinutes}分`}
             </span>
           )}
           {mounted && remainingMinutes > 0 && completedCount < availableCount && (
@@ -119,7 +127,9 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
               <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
-              残り約{remainingMinutes}分
+              {remainingMinutes >= 60
+                ? `残り約${Math.floor(remainingMinutes / 60)}時間${remainingMinutes % 60 > 0 ? `${remainingMinutes % 60}分` : ''}`
+                : `残り約${remainingMinutes}分`}
             </span>
           )}
           {course.lessons.some(l => l.gameTags?.length) && (
@@ -366,7 +376,7 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
                     ) : null}
                   </div>
                   <div className="flex items-center gap-2 mt-0.5">
-                    <span className="text-xs" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>{lesson.duration}</span>
+                    <span className="text-xs" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>{fmtDuration(lesson.duration)}</span>
                     {!done && scrollPcts[lesson.id] && (
                       <div className="flex items-center gap-1.5">
                         <div className="w-16 h-1 rounded-full overflow-hidden" style={{ background: 'rgba(91,200,232,0.2)' }}>
