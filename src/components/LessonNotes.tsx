@@ -73,7 +73,7 @@ export default function LessonNotes({ courseId, lessonId }: Props) {
                 </span>
               )}
               {!copied && saved && (
-                <span className="text-[10px]" style={{ color: '#4CAF7D', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                <span className="text-[10px]" style={{ color: 'var(--mb-green)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
                   ✓ 保存済み
                 </span>
               )}

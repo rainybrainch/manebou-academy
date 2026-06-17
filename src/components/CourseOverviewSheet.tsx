@@ -89,7 +89,7 @@ export default function CourseOverviewSheet({ category, meta, onClose }: Props) 
               {totalLessons}講義
             </div>
             {mounted && completedCount > 0 && (
-              <div style={{ color: '#4CAF7D', fontSize: '9px', fontFamily: "'Zen Maru Gothic', sans-serif", marginTop: '2px' }}>
+              <div style={{ color: 'var(--mb-green)', fontSize: '9px', fontFamily: "'Zen Maru Gothic', sans-serif", marginTop: '2px' }}>
                 {completedCount}/{totalLessons} 完了
               </div>
             )}
@@ -121,15 +121,15 @@ export default function CourseOverviewSheet({ category, meta, onClose }: Props) 
                     onClick={onClose}
                     className="flex items-center gap-3 rounded-xl border-2 bg-white pl-2 pr-4 py-3 transition-all hover:-translate-y-0.5 active:translate-y-0 relative"
                     style={{
-                      borderColor: allDone ? '#4CAF7D' : 'rgba(26,26,46,0.1)',
-                      boxShadow: allDone ? '2px 2px 0 #4CAF7D40' : '2px 2px 0 rgba(26,26,46,0.06)',
+                      borderColor: allDone ? 'var(--mb-green)' : 'rgba(26,26,46,0.1)',
+                      boxShadow: allDone ? '2px 2px 0 rgba(76,175,125,0.25)' : '2px 2px 0 rgba(26,26,46,0.06)',
                     }}
                   >
                     {/* Chapter number circle */}
                     <div
                       className="w-9 h-9 rounded-full flex items-center justify-center text-sm font-bold shrink-0 z-10"
                       style={{
-                        background: allDone ? '#4CAF7D' : 'var(--mb-dark)',
+                        background: allDone ? 'var(--mb-green)' : 'var(--mb-dark)',
                         color: allDone ? 'white' : meta.color,
                         fontFamily: "'Dela Gothic One', sans-serif",
                         fontSize: '13px',
@@ -161,7 +161,7 @@ export default function CourseOverviewSheet({ category, meta, onClose }: Props) 
                         >
                           {lessonCount}講義
                           {mounted && doneCount > 0 && doneCount < lessonCount && (
-                            <span style={{ color: '#4CAF7D' }}> · {doneCount}完了</span>
+                            <span style={{ color: 'var(--mb-green)' }}> · {doneCount}完了</span>
                           )}
                         </span>
                         {hasZai && (

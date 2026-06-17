@@ -39,6 +39,13 @@ const updates = [
     date: '2026-06-17',
     tag: 'fix',
     tagColor: '#4CAF7D',
+    title: 'コース概要シート・講義メモの色をデザイントークンに統一',
+    body: 'CourseOverviewSheetの完了数テキスト・章カード枠色・影色・章番号円背景・○完了テキスト（#4CAF7D×4箇所）をvar(--mb-green)に統一。LessonNotesの「保存済み」確認テキストも同様に変更した',
+  },
+  {
+    date: '2026-06-17',
+    tag: 'fix',
+    tagColor: '#4CAF7D',
     title: 'ヘッダードロワー・日替わりヒントの色をデザイントークンに統一',
     body: 'LayoutShellのヘッダードロワー内「週間学習チャートの3講義以上の濃い緑バー」と「バッジ数表示」（#4CAF7D×2）をvar(--mb-green)に変更。DailyTipのコピー完了フィードバック色も同様に統一した',
   },
