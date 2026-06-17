@@ -8,14 +8,18 @@ const GOAL_KEY = 'mb_study_goal_date';
 
 const totalLessons = categories.flatMap(c => c.courses).flatMap(c => c.lessons).filter(l => !l.isComingSoon).length;
 
+function localDateStr(d: Date): string {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
 function todayStr() {
-  return new Date().toISOString().slice(0, 10);
+  return localDateStr(new Date());
 }
 
 function minGoalDate() {
   const d = new Date();
   d.setDate(d.getDate() + 1);
-  return d.toISOString().slice(0, 10);
+  return localDateStr(d);
 }
 
 function formatGoalDate(dateStr: string): string {

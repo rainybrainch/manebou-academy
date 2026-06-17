@@ -9,12 +9,13 @@ const LESSON_MILESTONES = [1, 5, 10, 15, 20, 30, 40, 50, 75, 100];
 
 export default function MilestoneCard() {
   const { completedCount, streakDays, bestStreak, completedLessonKeys, mounted } = useProgress();
-  if (!mounted) return null;
 
   const earnedCount = useMemo(
     () => ACHIEVEMENTS.filter(a => a.check(completedCount, streakDays, bestStreak, completedLessonKeys)).length,
     [completedCount, streakDays, bestStreak, completedLessonKeys]
   );
+
+  if (!mounted) return null;
 
   // Find next lecture-count milestone
   const nextMilestone = LESSON_MILESTONES.find(m => m > completedCount);
