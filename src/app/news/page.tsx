@@ -39,6 +39,13 @@ const updates = [
     date: '2026-06-17',
     tag: 'fix',
     tagColor: '#4CAF7D',
+    title: '学習目標カード・マイコース一覧の色をデザイントークンに統一',
+    body: '学習目標カード（StudyGoalCard）のペース確認メッセージと全完了テキストのraw hex（#4CAF7D→var(--mb-green)）、マイコース一覧の「完了！」バッジ色も同様に統一した',
+  },
+  {
+    date: '2026-06-17',
+    tag: 'fix',
+    tagColor: '#4CAF7D',
     title: '最近の学習・関連講義コンポーネントの色をデザイントークンに統一',
     body: '最近の学習（RecentLessons）のアクセントバー・件数バッジ・完了チェック丸・日付バッジ・もっと見るボタン文字色（計5箇所）と、関連講義（RelatedLessons）の完了チェックアイコン色（計1箇所）のraw hex（#4CAF7D）をvar(--mb-green)に統一した',
   },

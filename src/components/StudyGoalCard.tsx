@@ -196,10 +196,10 @@ export default function StudyGoalCard() {
               className="flex items-center justify-center gap-1.5 py-1.5"
               style={{ background: 'rgba(76,175,125,0.07)' }}
             >
-              <svg className="w-3 h-3" style={{ color: '#4CAF7D' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <svg className="w-3 h-3" style={{ color: 'var(--mb-green)' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
               </svg>
-              <span className="text-[9px] font-bold" style={{ color: '#4CAF7D', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+              <span className="text-[9px] font-bold" style={{ color: 'var(--mb-green)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
                 このペースで目標に間に合います
               </span>
             </div>
@@ -211,7 +211,7 @@ export default function StudyGoalCard() {
           style={{ background: 'rgba(76,175,125,0.1)' }}
         >
           <span className="text-sm">🎉</span>
-          <span className="text-[11px] font-bold" style={{ color: '#4CAF7D', fontFamily: "'Zen Maru Gothic', sans-serif" }}>全講義完了！目標達成</span>
+          <span className="text-[11px] font-bold" style={{ color: 'var(--mb-green)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>全講義完了！目標達成</span>
         </div>
       )}
     </div>

@@ -86,7 +86,7 @@ export default function MyCoursesList() {
                   <div className="text-[10px] mt-0.5 flex items-center gap-1.5" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
                     {done > 0 ? `${done}/${availableCount}講義完了` : `${course.courses.length}章 · ${availableCount}講義`}
                     {pct === 100 && (
-                      <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-full" style={{ background: 'rgba(76,175,125,0.12)', color: '#4CAF7D', fontFamily: "'Dela Gothic One', sans-serif" }}>
+                      <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-full" style={{ background: 'rgba(76,175,125,0.12)', color: 'var(--mb-green)', fontFamily: "'Dela Gothic One', sans-serif" }}>
                         完了！
                       </span>
                     )}
