@@ -660,7 +660,7 @@ export default function LessonContent({
             style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
             title={chapterTitle}
           >
-            ←{chapterTitle}
+            ← {chapterTitle}
           </Link>
           <span className="hidden sm:block text-[10px]" style={{ color: 'rgba(26,26,46,0.2)' }}>/</span>
           <span
@@ -994,7 +994,7 @@ export default function LessonContent({
               <div className="text-[10px] font-bold tracking-[3px] mb-2" style={{ color: 'rgba(26,26,46,0.35)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
                 次の講義
               </div>
-              <a
+              <Link
                 href={`/courses/${next.courseId}/lessons/${next.lesson.id}`}
                 className="flex flex-col gap-1 p-2.5 rounded-lg transition-all hover:-translate-y-0.5"
                 style={{ background: 'rgba(91,200,232,0.08)', border: '1px solid rgba(91,200,232,0.2)', textDecoration: 'none' }}
@@ -1010,7 +1010,7 @@ export default function LessonContent({
                     {next.lesson.title}
                   </span>
                 </div>
-              </a>
+              </Link>
             </div>
           )}
         </div>
