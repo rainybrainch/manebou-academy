@@ -297,18 +297,22 @@ export default function ProgressClient() {
           <div className="text-xs font-bold mb-3" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-gold)' }}>
             獲得実績 ({earnedAchievements.length}/{ACHIEVEMENTS.length})
           </div>
-          <div className="flex flex-wrap gap-2">
+          <div className="grid grid-cols-2 gap-2">
             {earnedAchievements.map((ach) => (
               <div
                 key={ach.id}
-                className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg border"
-                style={{ background: 'rgba(245,200,66,0.1)', borderColor: 'rgba(245,200,66,0.3)' }}
-                title={ach.title}
+                className="flex items-center gap-2 px-2.5 py-2 rounded-lg border"
+                style={{ background: 'rgba(245,200,66,0.08)', borderColor: 'rgba(245,200,66,0.25)' }}
               >
-                <span className="text-base">{ach.icon}</span>
-                <span className="text-[10px] font-bold" style={{ color: 'var(--mb-gold)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                  {ach.title}
-                </span>
+                <span className="text-xl shrink-0">{ach.icon}</span>
+                <div className="min-w-0">
+                  <div className="text-[10px] font-bold leading-tight truncate" style={{ color: 'var(--mb-gold)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                    {ach.title}
+                  </div>
+                  <div className="text-[9px] leading-tight mt-0.5 truncate" style={{ color: 'rgba(255,255,255,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                    {ach.desc}
+                  </div>
+                </div>
               </div>
             ))}
           </div>
