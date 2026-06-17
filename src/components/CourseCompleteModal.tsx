@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect } from 'react';
 import Link from 'next/link';
 
 interface Props {
@@ -58,6 +59,12 @@ const MESSAGES = [
 export default function CourseCompleteModal({ courseTitle, categoryId, nextCourseId, nextCourseTitle, nextFirstLessonId, onClose }: Props) {
   const color = categoryColors[categoryId] ?? 'var(--mb-gold)';
   const msg = MESSAGES[Math.floor(Math.random() * MESSAGES.length)];
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [onClose]);
 
   return (
     <div

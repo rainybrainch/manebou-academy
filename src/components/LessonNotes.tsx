@@ -27,6 +27,13 @@ export default function LessonNotes({ courseId, lessonId }: Props) {
     setText(stored);
   }, [courseId, lessonId]);
 
+  useEffect(() => {
+    if (open && textareaRef.current) {
+      textareaRef.current.focus();
+      autoResize(textareaRef.current);
+    }
+  }, [open]);
+
   function handleChange(val: string) {
     setText(val);
     if (textareaRef.current) autoResize(textareaRef.current);
