@@ -14,27 +14,27 @@ import { COURSE_META as courseMeta } from '@/data/course-meta';
 
 // カテゴリ（TopicCategory）のアイコン・カラー
 const topicMeta: Record<string, { icon: string; color: string }> = {
-  'cat-money':       { icon: '💴', color: 'var(--mb-sky)' },
-  'cat-investment':  { icon: '📈', color: 'var(--mb-green)' },
-  'cat-economics':   { icon: '🌐', color: 'var(--mb-purple)' },
-  'cat-politics':    { icon: '🏛', color: 'var(--mb-purple)' },
-  'cat-zai':         { icon: '🎲', color: 'var(--mb-gold)' },
-  'cat-boardgame':   { icon: '🎯', color: 'var(--mb-gold)' },
-  'cat-exam-public': { icon: '📝', color: 'var(--mb-red)' },
+  'cat-money':       { icon: '💴', color: '#5BC8E8' },
+  'cat-investment':  { icon: '📈', color: '#4CAF7D' },
+  'cat-economics':   { icon: '🌐', color: '#9B6DD6' },
+  'cat-politics':    { icon: '🏛', color: '#9B6DD6' },
+  'cat-zai':         { icon: '🎲', color: '#F5C842' },
+  'cat-boardgame':   { icon: '🎯', color: '#F5C842' },
+  'cat-exam-public': { icon: '📝', color: '#E8354A' },
 };
 
 // ジャンルのアイコン・カラー
 const genreMeta: Record<string, { icon: string; color: string }> = {
-  'g-lecture': { icon: '📖', color: 'var(--mb-sky)' },
-  'g-game':    { icon: '🎲', color: 'var(--mb-gold)' },
-  'g-exam':    { icon: '📝', color: 'var(--mb-red)' },
+  'g-lecture': { icon: '📖', color: '#5BC8E8' },
+  'g-game':    { icon: '🎲', color: '#F5C842' },
+  'g-exam':    { icon: '📝', color: '#E8354A' },
 };
 
 const LEVEL_COLOR: Record<string, string> = {
-  '入門': 'var(--mb-green)',
-  '基礎': 'var(--mb-sky)',
-  '応用': 'var(--mb-gold)',
-  '上級': 'var(--mb-red)',
+  '入門': '#4CAF7D',
+  '基礎': '#5BC8E8',
+  '応用': '#F5C842',
+  '上級': '#E8354A',
 };
 
 interface Props {

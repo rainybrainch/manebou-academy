@@ -19,7 +19,7 @@ const FAQ_SECTIONS: FaqSection[] = [
   {
     label: 'アプリについて',
     icon: '📱',
-    color: 'var(--mb-sky)',
+    color: '#5BC8E8',
     items: [
       {
         q: 'マネぼうアカデミーは無料ですか？',
@@ -42,7 +42,7 @@ const FAQ_SECTIONS: FaqSection[] = [
   {
     label: '学習・進捗',
     icon: '📊',
-    color: 'var(--mb-green)',
+    color: '#4CAF7D',
     items: [
       {
         q: '学習の進捗はリセットできますか？',
@@ -65,7 +65,7 @@ const FAQ_SECTIONS: FaqSection[] = [
   {
     label: '機能・操作',
     icon: '⚙️',
-    color: 'var(--mb-gold)',
+    color: '#F5C842',
     items: [
       {
         q: 'キーボードショートカットはありますか？',
@@ -84,7 +84,7 @@ const FAQ_SECTIONS: FaqSection[] = [
   {
     label: 'コンテンツ',
     icon: '📚',
-    color: 'var(--mb-red)',
+    color: '#E8354A',
     items: [
       {
         q: '開設されているコースの種類は？どれから始めればいい？',
@@ -103,7 +103,7 @@ const FAQ_SECTIONS: FaqSection[] = [
   {
     label: 'NISA・投資',
     icon: '🏦',
-    color: 'var(--mb-red)',
+    color: '#E8354A',
     items: [
       {
         q: 'NISAとiDeCoはどちらを先に始めるべき？',
@@ -134,7 +134,7 @@ const FAQ_SECTIONS: FaqSection[] = [
   {
     label: 'ライフプラン・節税',
     icon: '🗓️',
-    color: 'var(--mb-green)',
+    color: '#4CAF7D',
     items: [
       {
         q: '20代から資産形成を始めるべき理由は？',

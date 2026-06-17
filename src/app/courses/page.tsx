@@ -12,13 +12,13 @@ import OverallProgressBar from '@/components/OverallProgressBar';
 import TopicProgressPill from '@/components/TopicProgressPill';
 
 const topicMeta: Record<string, { icon: string; color: string; shortName: string; tagline: string }> = {
-  'cat-money':       { icon: '💴', color: 'var(--mb-sky)',    shortName: 'お金',         tagline: 'お金の仕組みを学ぼう' },
-  'cat-investment':  { icon: '📈', color: 'var(--mb-green)',  shortName: '投資',         tagline: '資産を育てる方法を知ろう' },
-  'cat-economics':   { icon: '🌐', color: 'var(--mb-purple)', shortName: '経済',         tagline: '世界の経済の流れを読む' },
-  'cat-politics':    { icon: '🏛',  color: 'var(--mb-purple)', shortName: '政治',         tagline: '社会のルールを知ろう' },
-  'cat-zai':         { icon: '🎲', color: 'var(--mb-gold)',   shortName: 'ZAi',          tagline: 'ゲームで投資を体験しよう' },
-  'cat-boardgame':   { icon: '🎯', color: 'var(--mb-gold)',   shortName: 'ゲーム',       tagline: 'ボードゲームで学ぼう' },
-  'cat-exam-public': { icon: '📝', color: 'var(--mb-red)',    shortName: '受験',         tagline: '共通テスト「公共」対策' },
+  'cat-money':       { icon: '💴', color: '#5BC8E8', shortName: 'お金',         tagline: 'お金の仕組みを学ぼう' },
+  'cat-investment':  { icon: '📈', color: '#4CAF7D', shortName: '投資',         tagline: '資産を育てる方法を知ろう' },
+  'cat-economics':   { icon: '🌐', color: '#9B6DD6', shortName: '経済',         tagline: '世界の経済の流れを読む' },
+  'cat-politics':    { icon: '🏛',  color: '#9B6DD6', shortName: '政治',         tagline: '社会のルールを知ろう' },
+  'cat-zai':         { icon: '🎲', color: '#F5C842', shortName: 'ZAi',          tagline: 'ゲームで投資を体験しよう' },
+  'cat-boardgame':   { icon: '🎯', color: '#F5C842', shortName: 'ゲーム',       tagline: 'ボードゲームで学ぼう' },
+  'cat-exam-public': { icon: '📝', color: '#E8354A', shortName: '受験',         tagline: '共通テスト「公共」対策' },
 };
 
 const appIconMap: Record<string, string> = {

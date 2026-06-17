@@ -10,10 +10,10 @@ import CategoryCardProgress from '@/components/CategoryCardProgress';
 import { TOPIC_META as topicMeta } from '@/data/topic-meta';
 
 const LEVEL_COLOR: Record<string, string> = {
-  '入門': 'var(--mb-green)',
-  '基礎': 'var(--mb-sky)',
-  '応用': 'var(--mb-gold)',
-  '上級': 'var(--mb-red)',
+  '入門': '#4CAF7D',
+  '基礎': '#5BC8E8',
+  '応用': '#F5C842',
+  '上級': '#E8354A',
 };
 
 interface Props {
@@ -25,7 +25,7 @@ export default function CategoryPageClient({ tc, courses }: Props) {
   const { isSelected, toggle, mounted } = useMyCourses();
   const { isCompleted } = useProgress();
   const tm = topicMeta[tc.id];
-  const accent = tm?.color ?? 'var(--mb-sky)';
+  const accent = tm?.color ?? '#5BC8E8';
 
   const totalLessons = courses.reduce((a, c) => a + c.courses.reduce((b, ch) => b + ch.lessons.filter(l => !l.isComingSoon).length, 0), 0);
   const completedLessons = mounted
