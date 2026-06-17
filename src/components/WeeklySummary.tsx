@@ -10,13 +10,14 @@ export default function WeeklySummary() {
 
   const today = new Date();
   today.setHours(0, 0, 0, 0);
-  const todayStr = today.toISOString().slice(0, 10);
+  const localDate = (d: Date) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  const todayStr = localDate(today);
   const dayOfWeek = (today.getDay() + 6) % 7; // 0=Mon … 6=Sun
 
   const week = Array.from({ length: 7 }, (_, i) => {
     const d = new Date(today);
     d.setDate(today.getDate() - dayOfWeek + i);
-    const dateStr = d.toISOString().slice(0, 10);
+    const dateStr = localDate(d);
     const count = dailyLessonCounts[dateStr] ?? 0;
     return {
       label: DAY_LABELS[i],
@@ -36,7 +37,7 @@ export default function WeeklySummary() {
   const lastWeekTotal = Array.from({ length: 7 }, (_, i) => {
     const d = new Date(today);
     d.setDate(today.getDate() - dayOfWeek - 7 + i);
-    return dailyLessonCounts[d.toISOString().slice(0, 10)] ?? 0;
+    return dailyLessonCounts[localDate(d)] ?? 0;
   }).reduce((a, b) => a + b, 0);
   const weekDiff = weekTotal - lastWeekTotal;
 

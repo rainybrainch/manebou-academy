@@ -361,7 +361,7 @@ export default function LessonShell({
                   fontFamily: "'Zen Maru Gothic', sans-serif",
                 }}
               >
-                アプリ一覧へ戻る
+                コース一覧へ戻る
               </button>
             )}
           </>

@@ -40,7 +40,7 @@ export default function CategoryPageClient({ tc, courses }: Props) {
       <div className="flex items-center gap-2 mb-4 text-xs" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
         <Link href="/" className="hover:underline">ホーム</Link>
         <span>›</span>
-        <Link href="/courses" className="hover:underline">アプリ一覧</Link>
+        <Link href="/courses" className="hover:underline">コース</Link>
         <span>›</span>
         <span style={{ color: accent }}>{tc.title}</span>
       </div>
@@ -283,7 +283,7 @@ export default function CategoryPageClient({ tc, courses }: Props) {
         className="mt-6 flex items-center justify-center gap-2 w-full py-3 rounded-xl border-2 text-sm font-bold"
         style={{ borderColor: accent, color: accent, background: `${accent}10`, fontFamily: "'Zen Maru Gothic', sans-serif" }}
       >
-        ← アプリ一覧に戻る
+        ← コース一覧に戻る
       </Link>
     </div>
   );

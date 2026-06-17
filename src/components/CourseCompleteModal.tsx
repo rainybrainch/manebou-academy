@@ -157,7 +157,7 @@ export default function CourseCompleteModal({ courseTitle, categoryId, nextCours
                 boxShadow: `3px 3px 0 rgba(255,255,255,0.12)`,
               }}
             >
-              アプリ一覧へ →
+              コース一覧へ →
             </Link>
           )}
           <button type="button"

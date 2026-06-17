@@ -152,7 +152,7 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
           APPS
         </div>
         <h1 className="text-2xl" style={{ fontFamily: "'Dela Gothic One', sans-serif", color: 'var(--mb-dark)' }}>
-          アプリ一覧
+          コース一覧
         </h1>
         <p className="text-sm mt-1" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
           全{genres.length}ジャンル · {topicCategories.length}カテゴリ · {totalCourses}コース · {totalLessons}講義
