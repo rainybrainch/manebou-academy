@@ -37,6 +37,12 @@ function renderBody(text: string): React.ReactNode {
 const updates = [
   {
     date: '2026-06-17',
+    tag: '改善',
+    title: '「コース」表記を「アプリ」に統一',
+    body: 'ホーム・ナビ・一覧ページの「コース」ラベルをすべて「アプリ」に変更。各アイコンがアプリという認識に合わせ、タップするとコース一覧が開く構造を名称で表現しました。',
+  },
+  {
+    date: '2026-06-17',
     tag: 'SEO',
     title: 'robots.txt・sitemap.xml を追加',
     body: '検索エンジン向けに robots.txt と sitemap.xml を自動生成するよう設定しました。検索インデックスの改善を見込んでいます。',

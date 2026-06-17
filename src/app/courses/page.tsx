@@ -5,8 +5,8 @@ import { categories } from '@/data/courses';
 import { topicCategories } from '@/data/structure';
 
 export const metadata: Metadata = {
-  title: 'コース一覧 | マネぼうアカデミー',
-  description: 'お金・投資・経済・ZAiゲームなど全カテゴリのコース一覧。自分のペースで学習を始めよう。',
+  title: 'アプリ一覧 | マネぼうアカデミー',
+  description: 'お金・投資・経済・ZAiゲームなど全アプリの一覧。自分のペースで学習を始めよう。',
 };
 import OverallProgressBar from '@/components/OverallProgressBar';
 import TopicProgressPill from '@/components/TopicProgressPill';
@@ -42,13 +42,13 @@ export default function CoursesPage() {
           className="inline-block text-[10px] font-bold tracking-[4px] px-3 py-1 rounded mb-3"
           style={{ background: 'var(--mb-dark)', color: 'var(--mb-gold)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
         >
-          COURSES
+          APPS
         </div>
         <h1 className="text-2xl" style={{ fontFamily: "'Dela Gothic One', sans-serif", color: 'var(--mb-dark)' }}>
-          コース一覧
+          アプリ一覧
         </h1>
         <p className="text-sm mt-1" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-          {totalCourses}コース · {totalLessons}講義
+          {totalCourses}アプリ · {totalLessons}講義
         </p>
       </div>
 
@@ -60,7 +60,7 @@ export default function CoursesPage() {
         <div className="flex items-center gap-2 mb-4">
           <div className="w-1.5 h-4 rounded-full" style={{ background: 'var(--mb-gold)' }} />
           <span className="text-xs font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-            カテゴリから選ぶ
+            アプリを選ぶ
           </span>
         </div>
 
