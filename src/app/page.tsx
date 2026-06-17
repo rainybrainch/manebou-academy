@@ -54,8 +54,8 @@ export default function HomePage() {
               MONEBOU ACADEMY
             </div>
             <div className="flex items-center gap-1.5 px-2 py-1 rounded-full" style={{ background: 'rgba(76,175,125,0.15)', border: '1px solid rgba(76,175,125,0.3)' }}>
-              <span className="w-1.5 h-1.5 rounded-full inline-block" style={{ background: '#4CAF7D', animation: 'pulse 2s infinite' }} />
-              <span className="text-[9px] font-bold" style={{ color: '#4CAF7D', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+              <span className="w-1.5 h-1.5 rounded-full inline-block" style={{ background: 'var(--mb-green)', animation: 'pulse 2s infinite' }} />
+              <span className="text-[9px] font-bold" style={{ color: 'var(--mb-green)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
                 {totalLessons}講義 公開中
               </span>
             </div>
@@ -82,7 +82,7 @@ export default function HomePage() {
       <div>
         <div className="flex items-center justify-between mb-3">
           <div className="flex items-center gap-2">
-            <div className="w-1.5 h-4 rounded-full" style={{ background: '#4CAF7D' }} />
+            <div className="w-1.5 h-4 rounded-full" style={{ background: 'var(--mb-green)' }} />
             <h2 className="text-sm font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
               コース
             </h2>

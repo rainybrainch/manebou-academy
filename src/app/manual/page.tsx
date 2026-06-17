@@ -164,7 +164,7 @@ export default function ManualPage() {
         className="mt-6 p-5 rounded-xl border-2"
         style={{ background: 'rgba(232,53,74,0.04)', borderColor: 'rgba(232,53,74,0.25)' }}
       >
-        <h2 className="text-sm font-bold mb-1" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: '#E8354A' }}>
+        <h2 className="text-sm font-bold mb-1" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-red)' }}>
           ⚠️ 危険ゾーン
         </h2>
         <p className="text-xs mb-3" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
