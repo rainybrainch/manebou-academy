@@ -218,9 +218,9 @@ export default function CourseOutline({ chapters, currentLessonId, categoryTitle
 
                       {/* Badges */}
                       <div className="flex items-center gap-1 shrink-0">
-                        {lesson.duration && !lesson.isComingSoon && (
+                        {lesson.duration && lesson.duration !== '—' && !lesson.isComingSoon && (
                           <span className="text-[8px]" style={{ color: 'rgba(26,26,46,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                            {lesson.duration}
+                            {`約${lesson.duration.split(':')[0]}分`}
                           </span>
                         )}
                         {lesson.isComingSoon && (
