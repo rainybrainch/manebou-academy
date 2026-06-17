@@ -11,7 +11,7 @@ function intensityColor(count: number, isToday: boolean): string {
   if (count === 0) return 'rgba(26,26,46,0.07)';
   if (count === 1) return 'rgba(76,175,125,0.4)';
   if (count === 2) return 'rgba(76,175,125,0.7)';
-  return '#4CAF7D';
+  return 'var(--mb-green)';
 }
 
 export default function StreakCalendar() {
@@ -152,7 +152,7 @@ export default function StreakCalendar() {
 
       <div className="flex items-center justify-between mt-2 flex-wrap gap-1">
         <p className="text-[8px]" style={{ color: 'rgba(26,26,46,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-          累計学習日数: <span style={{ color: '#4CAF7D', fontWeight: 'bold' }}>{totalActive}日</span>
+          累計学習日数: <span style={{ color: 'var(--mb-green)', fontWeight: 'bold' }}>{totalActive}日</span>
         </p>
         <div className="flex items-center gap-2">
           <span className="text-[8px]" style={{ color: 'rgba(26,26,46,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>講義数：</span>
@@ -160,7 +160,7 @@ export default function StreakCalendar() {
             { label: '0', bg: 'rgba(26,26,46,0.07)' },
             { label: '1', bg: 'rgba(76,175,125,0.4)' },
             { label: '2', bg: 'rgba(76,175,125,0.7)' },
-            { label: '3+', bg: '#4CAF7D' },
+            { label: '3+', bg: 'var(--mb-green)' },
           ].map(({ label, bg }) => (
             <div key={label} className="flex items-center gap-0.5">
               <div className="w-2.5 h-2.5 rounded-sm" style={{ background: bg }} />

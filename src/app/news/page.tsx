@@ -38,6 +38,12 @@ const updates = [
   {
     date: '2026-06-17',
     tag: '改善',
+    title: 'デザイントークン統一：StreakCalendar',
+    body: '学習カレンダーの3+講義セルカラー・累計学習日数テキスト・intensity関数の戻り値をCSSカスタムプロパティ var(--mb-green) に統一しました。',
+  },
+  {
+    date: '2026-06-17',
+    tag: '改善',
     title: 'デザイントークン統一完了：LessonContent',
     body: '講義コンテンツ画面の全カラーをCSSカスタムプロパティに統一。チェックリスト・解答表示・コピーボタン等14箇所のhex値（#4CAF7D）を var(--mb-green) に置換し、テーマ変更対応を完了しました。',
   },
