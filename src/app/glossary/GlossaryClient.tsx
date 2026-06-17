@@ -34,7 +34,10 @@ export default function GlossaryClient({ entries }: Props) {
 
   const categories = useMemo(() => {
     const seen = new Set<string>();
-    return entries.map(e => e.categoryTitle).filter(c => { if (seen.has(c)) return false; seen.add(c); return true; });
+    const catList = entries.map(e => e.categoryTitle).filter(c => { if (seen.has(c)) return false; seen.add(c); return true; });
+    const countMap: Record<string, number> = {};
+    for (const e of entries) countMap[e.categoryTitle] = (countMap[e.categoryTitle] ?? 0) + 1;
+    return catList.map(c => ({ name: c, count: countMap[c] ?? 0 }));
   }, [entries]);
 
   const filtered = useMemo(() => {
@@ -118,19 +121,20 @@ export default function GlossaryClient({ entries }: Props) {
         >
           すべて
         </button>
-        {categories.map(cat => (
+        {categories.map(({ name, count }) => (
           <button type="button"
-            key={cat}
-            onClick={() => setActiveCategory(activeCategory === cat ? null : cat)}
-            className="px-3 py-1 rounded-full text-[11px] font-bold border-2 transition-all"
+            key={name}
+            onClick={() => setActiveCategory(activeCategory === name ? null : name)}
+            className="px-3 py-1 rounded-full text-[11px] font-bold border-2 transition-all flex items-center gap-1"
             style={{
-              background: activeCategory === cat ? 'var(--mb-dark)' : 'transparent',
-              borderColor: activeCategory === cat ? 'var(--mb-dark)' : 'rgba(26,26,46,0.15)',
-              color: activeCategory === cat ? 'var(--mb-gold)' : 'rgba(26,26,46,0.45)',
+              background: activeCategory === name ? 'var(--mb-dark)' : 'transparent',
+              borderColor: activeCategory === name ? 'var(--mb-dark)' : 'rgba(26,26,46,0.15)',
+              color: activeCategory === name ? 'var(--mb-gold)' : 'rgba(26,26,46,0.45)',
               fontFamily: "'Zen Maru Gothic', sans-serif",
             }}
           >
-            {cat}
+            {name}
+            <span className="text-[9px] opacity-70">({count})</span>
           </button>
         ))}
       </div>

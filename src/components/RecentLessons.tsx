@@ -13,6 +13,7 @@ function relativeDate(dateStr: string): string {
   if (diff === 0) return '今日';
   if (diff === 1) return '昨日';
   if (diff <= 6) return `${diff}日前`;
+  if (diff >= 30) return `${Math.round(diff / 30)}ヶ月前`;
   return `${Math.floor(diff / 7)}週前`;
 }
 
