@@ -19,7 +19,7 @@ export default function ScrollToTop() {
       aria-label="ページトップへ"
       className="fixed z-50 flex items-center justify-center rounded-full border-2 transition-all hover:-translate-y-0.5 active:translate-y-0"
       style={{
-        bottom: '76px',
+        bottom: 'calc(76px + env(safe-area-inset-bottom, 0px))',
         right: '16px',
         width: '40px',
         height: '40px',
