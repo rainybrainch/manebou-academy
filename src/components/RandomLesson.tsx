@@ -56,13 +56,13 @@ export default function RandomLesson() {
   }
 
   const isNew = mode === 'new';
-  const accent = isNew ? 'var(--mb-dark)' : '#4CAF7D';
+  const accent = isNew ? 'var(--mb-dark)' : 'var(--mb-green)';
   const accentBg = isNew ? 'rgba(26,26,46,0.15)' : 'rgba(76,175,125,0.15)';
 
   return (
     <div
       className="rounded-xl border-2 overflow-hidden"
-      style={{ background: 'white', borderColor: 'var(--mb-dark)', boxShadow: `3px 3px 0 ${accentBg === 'rgba(76,175,125,0.15)' ? '#4CAF7D' : 'rgba(26,26,46,0.15)'}` }}
+      style={{ background: 'white', borderColor: 'var(--mb-dark)', boxShadow: `3px 3px 0 ${accentBg === 'rgba(76,175,125,0.15)' ? 'var(--mb-green)' : 'rgba(26,26,46,0.15)'}` }}
     >
       {/* Mode toggle */}
       {completedCount > 0 && (
@@ -77,9 +77,9 @@ export default function RandomLesson() {
               className="flex-1 py-2 text-[10px] font-bold transition-colors"
               style={{
                 fontFamily: "'Zen Maru Gothic', sans-serif",
-                color: mode === m ? (m === 'new' ? 'var(--mb-dark)' : '#4CAF7D') : 'rgba(26,26,46,0.35)',
+                color: mode === m ? (m === 'new' ? 'var(--mb-dark)' : 'var(--mb-green)') : 'rgba(26,26,46,0.35)',
                 background: mode === m ? (m === 'new' ? 'rgba(26,26,46,0.05)' : 'rgba(76,175,125,0.07)') : 'transparent',
-                borderBottom: mode === m ? `2px solid ${m === 'new' ? 'var(--mb-dark)' : '#4CAF7D'}` : '2px solid transparent',
+                borderBottom: mode === m ? `2px solid ${m === 'new' ? 'var(--mb-dark)' : 'var(--mb-green)'}` : '2px solid transparent',
               }}
             >
               {m === 'new' ? '🎲 未完了' : '🔁 復習'}

@@ -477,7 +477,7 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
                                     >
                                       <div className="shrink-0 w-5 flex justify-end">
                                         {done ? (
-                                          <svg className="w-4 h-4" style={{ color: '#4CAF7D' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                          <svg className="w-4 h-4" style={{ color: 'var(--mb-green)' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                                           </svg>
                                         ) : (

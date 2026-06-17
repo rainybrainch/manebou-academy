@@ -39,6 +39,13 @@ const updates = [
     date: '2026-06-17',
     tag: 'fix',
     tagColor: '#4CAF7D',
+    title: 'ランダム講義・コース一覧の完了チェック色をデザイントークンに統一',
+    body: 'RandomLessonの「復習」モードアクセント色・カードシャドウ・モードタブ色・下線（#4CAF7D×4）をvar(--mb-green)に統一。CoursesClientの講義行完了チェックアイコン色も同様に変更した',
+  },
+  {
+    date: '2026-06-17',
+    tag: 'fix',
+    tagColor: '#4CAF7D',
     title: 'コース概要シート・講義メモの色をデザイントークンに統一',
     body: 'CourseOverviewSheetの完了数テキスト・章カード枠色・影色・章番号円背景・○完了テキスト（#4CAF7D×4箇所）をvar(--mb-green)に統一。LessonNotesの「保存済み」確認テキストも同様に変更した',
   },
