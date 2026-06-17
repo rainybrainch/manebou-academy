@@ -8,10 +8,10 @@ interface Props {
 }
 
 const CHARACTER_COLORS: Record<string, { bg: string; label: string }> = {
-  'えんだ':     { bg: '#5BC8E8', label: '#1a1a2e' },
-  'ためぞう':   { bg: '#F5C842', label: '#1a1a2e' },
-  'かうっしー': { bg: '#E8354A', label: '#ffffff' },
-  'おーる局長': { bg: '#4CAF7D', label: '#ffffff' },
+  'えんだ':     { bg: 'var(--mb-sky)',   label: '#1a1a2e' },
+  'ためぞう':   { bg: 'var(--mb-gold)',  label: '#1a1a2e' },
+  'かうっしー': { bg: 'var(--mb-red)',   label: '#ffffff' },
+  'おーる局長': { bg: 'var(--mb-green)', label: '#ffffff' },
 };
 
 const ROLE_ICON: Record<string, string> = {
@@ -113,14 +113,14 @@ export default function ComicSection({ comic }: Props) {
         <div
           className="rounded-2xl border-2 p-4"
           style={{
-            borderColor: '#4CAF7D',
+            borderColor: 'var(--mb-green)',
             background: 'rgba(76,175,125,0.06)',
             boxShadow: '3px 3px 0 rgba(76,175,125,0.3)',
           }}
         >
           <div
             className="flex items-center gap-1.5 mb-3 text-sm font-bold"
-            style={{ color: '#4CAF7D', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+            style={{ color: 'var(--mb-green)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
           >
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -134,7 +134,7 @@ export default function ComicSection({ comic }: Props) {
                 className="flex items-start gap-2 text-sm"
                 style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)' }}
               >
-                <span className="shrink-0 mt-0.5 font-bold" style={{ color: '#4CAF7D' }}>✓</span>
+                <span className="shrink-0 mt-0.5 font-bold" style={{ color: 'var(--mb-green)' }}>✓</span>
                 {item}
               </li>
             ))}
