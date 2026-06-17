@@ -48,8 +48,8 @@ export default function ExportNotes() {
       onClick={exportMarkdown}
       className="flex items-center gap-2 px-4 py-2 rounded-lg border-2 text-xs font-bold transition-all hover:opacity-80"
       style={{
-        borderColor: copied ? '#4CAF7D' : 'rgba(26,26,46,0.2)',
-        color: copied ? '#4CAF7D' : 'rgba(26,26,46,0.6)',
+        borderColor: copied ? 'var(--mb-green)' : 'rgba(26,26,46,0.2)',
+        color: copied ? 'var(--mb-green)' : 'rgba(26,26,46,0.6)',
         background: copied ? 'rgba(76,175,125,0.08)' : 'transparent',
         fontFamily: "'Zen Maru Gothic', sans-serif",
       }}

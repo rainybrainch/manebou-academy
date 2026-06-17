@@ -103,8 +103,8 @@ export default function ShareProgress() {
           className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl border-2 text-sm font-bold transition-all hover:opacity-90 active:scale-95"
           style={{
             background: shared ? 'rgba(76,175,125,0.15)' : 'var(--mb-gold)',
-            borderColor: shared ? '#4CAF7D' : 'var(--mb-gold)',
-            color: shared ? '#4CAF7D' : 'var(--mb-dark)',
+            borderColor: shared ? 'var(--mb-green)' : 'var(--mb-gold)',
+            color: shared ? 'var(--mb-green)' : 'var(--mb-dark)',
             fontFamily: "'Zen Maru Gothic', sans-serif",
           }}
         >

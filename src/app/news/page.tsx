@@ -39,6 +39,13 @@ const updates = [
     date: '2026-06-17',
     tag: 'fix',
     tagColor: '#4CAF7D',
+    title: 'シェア・Markdownエクスポートボタンの完了フィードバック色をデザイントークンに統一',
+    body: '学習成果シェアボタン（ShareProgress）の完了後フィードバック枠・テキスト色、Markdownエクスポートボタン（ExportNotes）のコピー完了フィードバック枠・テキスト色がraw hex（#4CAF7D）だった。var(--mb-green)に統一した',
+  },
+  {
+    date: '2026-06-17',
+    tag: 'fix',
+    tagColor: '#4CAF7D',
     title: '学習目標カード・マイコース一覧の色をデザイントークンに統一',
     body: '学習目標カード（StudyGoalCard）のペース確認メッセージと全完了テキストのraw hex（#4CAF7D→var(--mb-green)）、マイコース一覧の「完了！」バッジ色も同様に統一した',
   },
