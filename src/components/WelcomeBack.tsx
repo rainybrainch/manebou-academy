@@ -31,7 +31,9 @@ export default function WelcomeBack() {
     streakDays >= 1  ? '連続記録スタート！' :
     null;
 
-  const todayCount = dailyLessonCounts[new Date().toISOString().slice(0, 10)] ?? 0;
+  const t = new Date();
+  const todayKey = `${t.getFullYear()}-${String(t.getMonth() + 1).padStart(2, '0')}-${String(t.getDate()).padStart(2, '0')}`;
+  const todayCount = dailyLessonCounts[todayKey] ?? 0;
 
   const level = getLevel(completedCount);
   const next = getNextLevel(completedCount);
