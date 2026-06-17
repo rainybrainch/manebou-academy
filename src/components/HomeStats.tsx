@@ -43,7 +43,7 @@ export default function HomeStats() {
     {
       label: '獲得実績',
       sub: 'ACHIEVEMENTS',
-      value: mounted ? String(animatedBadges) : '0',
+      value: mounted ? `${animatedBadges}/${ACHIEVEMENTS.length}` : `0/${ACHIEVEMENTS.length}`,
       color: 'var(--mb-sky)',
       icon: '🏅',
       extra: null as string | null,

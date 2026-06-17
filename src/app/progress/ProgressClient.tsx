@@ -73,7 +73,7 @@ export default function ProgressClient() {
           { label: '完了講義', value: mounted ? String(completedCount) : '—', unit: '講義', color: 'var(--mb-gold)' },
           { label: '連続学習', value: mounted ? String(streakDays) : '—', unit: '日', color: 'var(--mb-sky)' },
           { label: '最高記録', value: mounted ? String(bestStreak) : '—', unit: '日', color: 'var(--mb-red)' },
-          { label: '実績数', value: mounted ? String(earnedAchievements.length) : '—', unit: '個', color: 'var(--mb-green)' },
+          { label: '実績数', value: mounted ? `${earnedAchievements.length}/${ACHIEVEMENTS.length}` : '—', unit: '', color: 'var(--mb-green)' },
         ].map((stat) => (
           <div
             key={stat.label}
