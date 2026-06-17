@@ -58,9 +58,9 @@ function CheckItemsCard({ items, courseId, lessonId }: { items: string[]; course
   return (
     <div
       className="mt-8 rounded-2xl border-2 overflow-hidden"
-      style={{ borderColor: allDone ? '#4CAF7D' : 'var(--mb-dark)', boxShadow: `4px 4px 0 ${allDone ? '#4CAF7D' : 'var(--mb-gold)'}`, transition: 'border-color 0.3s, box-shadow 0.3s' }}
+      style={{ borderColor: allDone ? 'var(--mb-green)' : 'var(--mb-dark)', boxShadow: `4px 4px 0 ${allDone ? 'var(--mb-green)' : 'var(--mb-gold)'}`, transition: 'border-color 0.3s, box-shadow 0.3s' }}
     >
-      <div className="flex items-center justify-between px-4 py-3" style={{ background: allDone ? '#4CAF7D' : 'var(--mb-dark)', transition: 'background 0.3s' }}>
+      <div className="flex items-center justify-between px-4 py-3" style={{ background: allDone ? 'var(--mb-green)' : 'var(--mb-dark)', transition: 'background 0.3s' }}>
         <div className="flex items-center gap-2">
           <svg className="w-4 h-4 shrink-0" style={{ color: allDone ? 'white' : 'var(--mb-gold)' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -87,8 +87,8 @@ function CheckItemsCard({ items, courseId, lessonId }: { items: string[]; course
               <div
                 className="w-5 h-5 rounded-full flex items-center justify-center shrink-0 mt-0.5 transition-all duration-200"
                 style={{
-                  background: isChecked ? '#4CAF7D' : 'rgba(76,175,125,0.1)',
-                  border: `1.5px solid ${isChecked ? '#4CAF7D' : 'rgba(76,175,125,0.5)'}`,
+                  background: isChecked ? 'var(--mb-green)' : 'rgba(76,175,125,0.1)',
+                  border: `1.5px solid ${isChecked ? 'var(--mb-green)' : 'rgba(76,175,125,0.5)'}`,
                 }}
               >
                 {isChecked ? (
@@ -96,7 +96,7 @@ function CheckItemsCard({ items, courseId, lessonId }: { items: string[]; course
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                 ) : (
-                  <span className="text-[9px] font-bold" style={{ color: '#4CAF7D', fontFamily: "'Dela Gothic One', sans-serif" }}>{i + 1}</span>
+                  <span className="text-[9px] font-bold" style={{ color: 'var(--mb-green)', fontFamily: "'Dela Gothic One', sans-serif" }}>{i + 1}</span>
                 )}
               </div>
               <p
@@ -115,7 +115,7 @@ function CheckItemsCard({ items, courseId, lessonId }: { items: string[]; course
       </div>
       {allDone && (
         <div className="px-4 pb-3 text-center" style={{ background: 'rgba(76,175,125,0.05)' }}>
-          <span className="text-xs" style={{ color: '#4CAF7D', fontFamily: "'Zen Maru Gothic', sans-serif", fontWeight: 700 }}>
+          <span className="text-xs" style={{ color: 'var(--mb-green)', fontFamily: "'Zen Maru Gothic', sans-serif", fontWeight: 700 }}>
             🎉 全項目を理解しました！
           </span>
         </div>
@@ -214,8 +214,8 @@ function CopyAllButton({ text }: { text: string }) {
       className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg border-2 text-[11px] font-bold transition-all hover:-translate-y-px active:translate-y-0"
       style={{
         background: copied ? 'rgba(76,175,125,0.1)' : 'var(--mb-cream, #fffdf5)',
-        borderColor: copied ? '#4CAF7D' : 'rgba(26,26,46,0.2)',
-        color: copied ? '#4CAF7D' : 'rgba(26,26,46,0.5)',
+        borderColor: copied ? 'var(--mb-green)' : 'rgba(26,26,46,0.2)',
+        color: copied ? 'var(--mb-green)' : 'rgba(26,26,46,0.5)',
         fontFamily: "'Zen Maru Gothic', sans-serif",
       }}
       title="講義テキストを全文コピー（漫画・動画を除く）"
@@ -260,7 +260,7 @@ function renderAnswerText(answer: string): React.ReactNode {
       <div className="space-y-2">
         {items.map(({ num, text }) => (
           <div key={num} className="flex items-start gap-2.5 rounded-lg p-3" style={{ background: 'rgba(76,175,125,0.07)', border: '1px solid rgba(76,175,125,0.2)' }}>
-            <span className="text-sm font-bold shrink-0 mt-0.5" style={{ color: '#4CAF7D', fontFamily: "'Dela Gothic One', sans-serif", lineHeight: 1 }}>{num}</span>
+            <span className="text-sm font-bold shrink-0 mt-0.5" style={{ color: 'var(--mb-green)', fontFamily: "'Dela Gothic One', sans-serif", lineHeight: 1 }}>{num}</span>
             <p className="text-sm leading-[1.8] whitespace-pre-wrap flex-1" style={fontStyle}>{text}</p>
           </div>
         ))}
@@ -312,16 +312,16 @@ function PracticeSection({ section }: { section: Extract<LessonSection, { type: 
             className="w-full py-2.5 rounded-xl border-2 text-sm font-bold transition-all hover:opacity-90"
             style={{
               background: showAnswer ? 'rgba(76,175,125,0.1)' : 'var(--mb-dark)',
-              borderColor: showAnswer ? '#4CAF7D' : 'var(--mb-dark)',
-              color: showAnswer ? '#4CAF7D' : 'white',
+              borderColor: showAnswer ? 'var(--mb-green)' : 'var(--mb-dark)',
+              color: showAnswer ? 'var(--mb-green)' : 'white',
               fontFamily: "'Zen Maru Gothic', sans-serif",
             }}
           >
             {showAnswer ? '▲ 解答を閉じる' : '✅ 解答例を見る'}
           </button>
           {showAnswer && (
-            <div className="mt-3 rounded-xl border-2 overflow-hidden" style={{ borderColor: '#4CAF7D' }}>
-              <div className="px-4 py-2 flex items-center gap-2" style={{ background: '#4CAF7D' }}>
+            <div className="mt-3 rounded-xl border-2 overflow-hidden" style={{ borderColor: 'var(--mb-green)' }}>
+              <div className="px-4 py-2 flex items-center gap-2" style={{ background: 'var(--mb-green)' }}>
                 <span className="text-xs font-bold" style={{ color: 'white', fontFamily: "'Zen Maru Gothic', sans-serif" }}>✅ 解答例</span>
               </div>
               <div className="p-4" style={{ background: 'rgba(76,175,125,0.03)' }}>
@@ -534,7 +534,7 @@ function SectionRenderer({ section }: { section: LessonSection }) {
 
     case 'summary':
       return (
-        <div className="my-6 rounded-xl border-2 overflow-hidden" style={{ borderColor: 'var(--mb-dark)', boxShadow: '4px 4px 0 var(--mb-green, #4CAF7D)' }}>
+        <div className="my-6 rounded-xl border-2 overflow-hidden" style={{ borderColor: 'var(--mb-dark)', boxShadow: '4px 4px 0 var(--mb-green)' }}>
           <div className="px-4 py-2.5 flex items-center gap-2" style={{ background: 'var(--mb-dark)' }}>
             <svg className="w-4 h-4" style={{ color: 'var(--mb-gold)' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
@@ -893,7 +893,7 @@ export default function LessonContent({
             {isCompleted && (
               <span
                 className="shrink-0 mt-1 flex items-center gap-1 text-[10px] font-bold px-2 py-1 rounded-full border"
-                style={{ background: 'rgba(76,175,125,0.1)', borderColor: '#4CAF7D', color: '#4CAF7D', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                style={{ background: 'rgba(76,175,125,0.1)', borderColor: 'var(--mb-green)', color: 'var(--mb-green)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
               >
                 <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
@@ -971,7 +971,7 @@ export default function LessonContent({
                   <div key={i} className="flex items-start gap-2">
                     <span
                       className="w-4 h-4 rounded-full shrink-0 flex items-center justify-center text-[8px] font-bold mt-0.5"
-                      style={{ background: 'rgba(76,175,125,0.12)', color: '#4CAF7D', fontFamily: "'Dela Gothic One', sans-serif" }}
+                      style={{ background: 'rgba(76,175,125,0.12)', color: 'var(--mb-green)', fontFamily: "'Dela Gothic One', sans-serif" }}
                     >
                       {i + 1}
                     </span>

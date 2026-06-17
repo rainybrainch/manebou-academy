@@ -37,6 +37,12 @@ function renderBody(text: string): React.ReactNode {
 const updates = [
   {
     date: '2026-06-17',
+    tag: '改善',
+    title: 'デザイントークン統一完了：LessonContent',
+    body: '講義コンテンツ画面の全カラーをCSSカスタムプロパティに統一。チェックリスト・解答表示・コピーボタン等14箇所のhex値（#4CAF7D）を var(--mb-green) に置換し、テーマ変更対応を完了しました。',
+  },
+  {
+    date: '2026-06-17',
     tag: 'fix',
     tagColor: '#4CAF7D',
     title: 'デイリークイズ全体の配色をデザイントークンに統一',
