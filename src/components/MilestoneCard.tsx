@@ -96,7 +96,7 @@ export default function MilestoneCard() {
         {earnedCount > 0 && (
           <div
             className="shrink-0 text-[11px] font-bold px-2 py-1 rounded-lg"
-            style={{ background: 'rgba(76,175,125,0.12)', color: '#4CAF7D', fontFamily: "'Dela Gothic One', sans-serif" }}
+            style={{ background: 'rgba(76,175,125,0.12)', color: 'var(--mb-green)', fontFamily: "'Dela Gothic One', sans-serif" }}
           >
             🏅×{earnedCount}
           </div>
@@ -109,7 +109,7 @@ export default function MilestoneCard() {
           <div className="h-1.5 rounded-full overflow-hidden" style={{ background: 'rgba(26,26,46,0.08)' }}>
             <div
               className="h-full rounded-full transition-all duration-700"
-              style={{ width: `${pct}%`, background: '#4CAF7D' }}
+              style={{ width: `${pct}%`, background: 'var(--mb-green)' }}
             />
           </div>
         </div>
@@ -127,7 +127,7 @@ export default function MilestoneCard() {
               style={{
                 background: reached ? 'rgba(76,175,125,0.12)' : next ? 'rgba(245,200,66,0.08)' : 'rgba(26,26,46,0.04)',
                 borderColor: reached ? 'rgba(76,175,125,0.4)' : next ? 'rgba(245,200,66,0.4)' : 'rgba(26,26,46,0.1)',
-                color: reached ? '#4CAF7D' : next ? '#B8920A' : 'rgba(26,26,46,0.2)',
+                color: reached ? 'var(--mb-green)' : next ? '#B8920A' : 'rgba(26,26,46,0.2)',
                 fontFamily: "'Dela Gothic One', sans-serif",
               }}
             >
@@ -136,7 +136,7 @@ export default function MilestoneCard() {
             <span
               className="text-[7px]"
               style={{
-                color: reached ? '#4CAF7D' : next ? '#B8920A' : 'rgba(26,26,46,0.2)',
+                color: reached ? 'var(--mb-green)' : next ? '#B8920A' : 'rgba(26,26,46,0.2)',
                 fontFamily: "'Dela Gothic One', sans-serif",
               }}
             >

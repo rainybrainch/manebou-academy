@@ -39,6 +39,13 @@ const updates = [
     date: '2026-06-17',
     tag: 'fix',
     tagColor: '#4CAF7D',
+    title: 'マイルストーンカード・全メモのコピー色をデザイントークンに統一',
+    body: 'MilestoneCardの実績バッジ数・プログレスバー・達成スロットチェック色・達成ラベル色（#4CAF7D×4箇所）、AllNotesのコピー完了フィードバック色（#4CAF7D×1箇所）をvar(--mb-green)に統一した',
+  },
+  {
+    date: '2026-06-17',
+    tag: 'fix',
+    tagColor: '#4CAF7D',
     title: 'ホーム統計・ペース予測バッジの色をデザイントークンに統一',
     body: 'HomeStatsの実績・講義・ストリーク3カードの色（#5BC8E8/#4CAF7D/#F5C842）をvar(--mb-sky)/var(--mb-green)/var(--mb-gold)に統一。PacePredictionのペースラベル色（#E8354A/#4CAF7D）もvar(--mb-red)/var(--mb-green)に変更した',
   },

@@ -227,7 +227,7 @@ export default function AllNotes() {
                           className="text-[9px] font-bold px-2 py-1 rounded-lg transition-all"
                           style={{
                             background: copiedKey === key ? 'rgba(76,175,125,0.12)' : 'rgba(26,26,46,0.06)',
-                            color: copiedKey === key ? '#4CAF7D' : 'rgba(26,26,46,0.4)',
+                            color: copiedKey === key ? 'var(--mb-green)' : 'rgba(26,26,46,0.4)',
                             fontFamily: "'Zen Maru Gothic', sans-serif",
                           }}
                         >
