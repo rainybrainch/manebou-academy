@@ -37,6 +37,12 @@ function renderBody(text: string): React.ReactNode {
 const updates = [
   {
     date: '2026-06-17',
+    tag: '修正',
+    title: '実績通知・チェックリストホバー色のiOS対応と統一',
+    body: '①実績解除トーストの表示位置がiOSのセーフエリアで下のナビゲーションと重なることがあった。env(safe-area-inset-bottom)を考慮した計算式で修正②講義ページの学習チェックリストのホバー色（bg-gray-50）をデザインシステムのdark色半透明に統一した',
+  },
+  {
+    date: '2026-06-17',
     tag: '改善',
     title: '未使用コンポーネント6件を削除・コードサイズ削減',
     body: '①Sidebar②PageTransition③RevealSection④BadgeToast⑤Skeleton⑥ShareButtonの計6コンポーネントがコード内で一度も使われていないことを確認し削除。バンドルサイズが削減され、コードベースの見通しが改善しました',

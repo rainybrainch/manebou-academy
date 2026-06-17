@@ -50,13 +50,14 @@ export default function AchievementToast() {
 
   return (
     <div
-      className="fixed bottom-20 right-4 z-[80] flex items-center gap-3 px-4 py-3 rounded-xl border-2"
+      className="fixed right-4 z-[80] flex items-center gap-3 px-4 py-3 rounded-xl border-2"
       style={{
         background: 'var(--mb-dark)',
         borderColor: 'var(--mb-gold)',
         boxShadow: '3px 3px 0 var(--mb-gold)',
         animation: 'slideInRight 0.35s ease',
         maxWidth: '240px',
+        bottom: 'calc(80px + env(safe-area-inset-bottom, 0px))',
       }}
     >
       <span className="text-2xl shrink-0">{visible.icon}</span>
