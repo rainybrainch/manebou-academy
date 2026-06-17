@@ -445,6 +445,68 @@ export const ACHIEVEMENTS: Achievement[] = [
     progress: (_, _s, best) => ({ current: Math.min(best, 21), total: 21 }),
   },
   {
+    id: 'first_stamp',
+    icon: '🎫',
+    title: '初スタンプ',
+    desc: '初めてスタンプを押した',
+    check: () => {
+      try {
+        const raw = localStorage.getItem('mb_stamps_v1');
+        const store = raw ? JSON.parse(raw) : null;
+        return (store?.stamps?.length ?? 0) >= 1;
+      } catch { return false; }
+    },
+    progress: () => {
+      try {
+        const raw = localStorage.getItem('mb_stamps_v1');
+        const store = raw ? JSON.parse(raw) : null;
+        return { current: Math.min(store?.stamps?.length ?? 0, 1), total: 1 };
+      } catch { return null; }
+    },
+  },
+  {
+    id: 'stamp_5',
+    icon: '🎟️',
+    title: 'スタンプ常連',
+    desc: 'スタンプを5回押した',
+    check: () => {
+      try {
+        const raw = localStorage.getItem('mb_stamps_v1');
+        const store = raw ? JSON.parse(raw) : null;
+        return (store?.stamps?.length ?? 0) >= 5;
+      } catch { return false; }
+    },
+    progress: () => {
+      try {
+        const raw = localStorage.getItem('mb_stamps_v1');
+        const store = raw ? JSON.parse(raw) : null;
+        const count = store?.stamps?.length ?? 0;
+        return { current: Math.min(count, 5), total: 5 };
+      } catch { return null; }
+    },
+  },
+  {
+    id: 'stamp_10',
+    icon: '🎪',
+    title: 'スタンプ職人',
+    desc: 'スタンプを10回押した',
+    check: () => {
+      try {
+        const raw = localStorage.getItem('mb_stamps_v1');
+        const store = raw ? JSON.parse(raw) : null;
+        return (store?.stamps?.length ?? 0) >= 10;
+      } catch { return false; }
+    },
+    progress: () => {
+      try {
+        const raw = localStorage.getItem('mb_stamps_v1');
+        const store = raw ? JSON.parse(raw) : null;
+        const count = store?.stamps?.length ?? 0;
+        return { current: Math.min(count, 10), total: 10 };
+      } catch { return null; }
+    },
+  },
+  {
     id: 'all_categories',
     icon: '👑',
     title: '完全制覇',
