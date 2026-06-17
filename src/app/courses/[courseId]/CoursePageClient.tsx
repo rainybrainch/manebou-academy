@@ -319,7 +319,7 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
                 <div
                   className="w-7 h-7 rounded flex items-center justify-center shrink-0"
                   style={{
-                    background: done ? '#4CAF7D' : isNext ? 'var(--mb-gold)' : 'var(--mb-dark)',
+                    background: done ? 'var(--mb-green)' : isNext ? 'var(--mb-gold)' : 'var(--mb-dark)',
                     color: done || isNext ? 'white' : 'var(--mb-gold)',
                   }}
                 >
@@ -384,7 +384,7 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
                 </div>
 
                 {!lesson.isComingSoon && (
-                  <svg className="w-4 h-4 shrink-0" style={{ color: done ? '#4CAF7D' : 'rgba(26,26,46,0.25)' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="w-4 h-4 shrink-0" style={{ color: done ? 'var(--mb-green)' : 'rgba(26,26,46,0.25)' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                   </svg>
                 )}

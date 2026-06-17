@@ -227,7 +227,7 @@ export default function GlossaryClient({ entries }: Props) {
                               className="text-[9px] font-bold px-2 py-1 rounded-lg transition-all"
                               style={{
                                 background: copiedTerm === entry.term ? 'rgba(76,175,125,0.12)' : 'rgba(26,26,46,0.06)',
-                                color: copiedTerm === entry.term ? '#4CAF7D' : 'rgba(26,26,46,0.4)',
+                                color: copiedTerm === entry.term ? 'var(--mb-green)' : 'rgba(26,26,46,0.4)',
                                 fontFamily: "'Zen Maru Gothic', sans-serif",
                               }}
                             >
