@@ -31,7 +31,7 @@ export default function LessonScrollProgress() {
           className="h-full transition-none"
           style={{
             width: `${pct}%`,
-            background: done ? '#4CAF7D' : 'var(--mb-gold)',
+            background: done ? 'var(--mb-green)' : 'var(--mb-gold)',
           }}
         />
       </div>
@@ -42,7 +42,7 @@ export default function LessonScrollProgress() {
         style={{
           fontFamily: "'Dela Gothic One', sans-serif",
           background: done ? 'rgba(76,175,125,0.15)' : 'rgba(26,26,46,0.07)',
-          color: done ? '#4CAF7D' : 'rgba(26,26,46,0.45)',
+          color: done ? 'var(--mb-green)' : 'rgba(26,26,46,0.45)',
           opacity: (show || done) ? 1 : 0,
           transform: (show || done) ? 'scale(1)' : 'scale(0.8)',
           pointerEvents: 'none',

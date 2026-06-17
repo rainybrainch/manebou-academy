@@ -248,7 +248,7 @@ export default function ProgressClient() {
                     >
                       <div
                         className="w-3.5 h-3.5 rounded-full shrink-0 flex items-center justify-center"
-                        style={{ background: allChDone ? '#4CAF7D' : courseDone > 0 ? accent : 'rgba(26,26,46,0.12)' }}
+                        style={{ background: allChDone ? 'var(--mb-green)' : courseDone > 0 ? accent : 'rgba(26,26,46,0.12)' }}
                       >
                         {allChDone && (
                           <svg className="w-2 h-2 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
