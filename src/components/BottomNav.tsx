@@ -108,8 +108,9 @@ export default function BottomNav() {
       {/* メニューポップアップ */}
       {menuOpen && (
         <div
-          className="fixed bottom-14 right-0 z-40 mr-1 mb-1 rounded-xl border-2 overflow-hidden"
+          className="fixed right-0 z-40 mr-1 rounded-xl border-2 overflow-hidden"
           style={{
+            bottom: 'calc(56px + env(safe-area-inset-bottom, 0px) + 4px)',
             background: 'var(--mb-dark)',
             borderColor: 'rgba(245,200,66,0.4)',
             boxShadow: '0 -4px 20px rgba(0,0,0,0.4)',
