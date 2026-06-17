@@ -74,7 +74,9 @@ export default function DailyGoalCard() {
                 ? `🌩️ ${todayCount}講義！超集中学習モード！`
                 : todayCount >= 3
                   ? `🔥 ${todayCount}講義完了！今日は特にすごい！`
-                  : 'よく頑張った！明日もまた来てね。'
+                  : todayCount === 2
+                    ? '🌟 2講義完了！ダブル達成、最高！'
+                    : 'よく頑張った！明日もまた来てね。'
               : msg}
           </div>
         </div>
