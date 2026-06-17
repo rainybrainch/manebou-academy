@@ -282,7 +282,7 @@ export default function LessonShell({
             <div className="flex items-center gap-2 shrink-0">
               <div
                 className="flex items-center gap-1.5 py-2.5 px-3 rounded-xl border-2 text-xs font-bold"
-                style={{ borderColor: '#4CAF7D', background: 'rgba(76,175,125,0.15)', color: '#4CAF7D', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                style={{ borderColor: 'var(--mb-green)', background: 'rgba(76,175,125,0.15)', color: 'var(--mb-green)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
               >
                 <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
@@ -371,8 +371,8 @@ export default function LessonShell({
               onClick={handleComplete}
               className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl border-2 text-sm font-bold transition-all hover:opacity-90 active:scale-95"
               style={{
-                background: justCompleted ? '#4CAF7D' : 'rgba(255,255,255,0.08)',
-                borderColor: justCompleted ? '#4CAF7D' : 'rgba(255,255,255,0.2)',
+                background: justCompleted ? 'var(--mb-green)' : 'rgba(255,255,255,0.08)',
+                borderColor: justCompleted ? 'var(--mb-green)' : 'rgba(255,255,255,0.2)',
                 color: 'white',
                 fontFamily: "'Zen Maru Gothic', sans-serif",
               }}

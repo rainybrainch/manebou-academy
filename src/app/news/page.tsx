@@ -39,6 +39,13 @@ const updates = [
     date: '2026-06-17',
     tag: 'fix',
     tagColor: '#4CAF7D',
+    title: '講義検索・講義シェルの完了色をデザイントークンに統一',
+    body: '講義検索（LessonSearch）の完了アイコン色と「✓ N件完了」テキスト色、講義シェル（LessonShell）の「完了済み」バッジ枠・テキスト色と「完了する」ボタンの完了直後フラッシュ色がraw hex（#4CAF7D）だった。var(--mb-green)に統一した',
+  },
+  {
+    date: '2026-06-17',
+    tag: 'fix',
+    tagColor: '#4CAF7D',
     title: 'マイルストーンカード・全メモのコピー色をデザイントークンに統一',
     body: 'MilestoneCardの実績バッジ数・プログレスバー・達成スロットチェック色・達成ラベル色（#4CAF7D×4箇所）、AllNotesのコピー完了フィードバック色（#4CAF7D×1箇所）をvar(--mb-green)に統一した',
   },

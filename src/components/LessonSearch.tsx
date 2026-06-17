@@ -172,7 +172,7 @@ export default function LessonSearch({ open, onClose }: Props) {
                       className="w-7 h-7 rounded flex items-center justify-center shrink-0 text-[11px] font-bold"
                       style={{
                         background: done ? 'rgba(76,175,125,0.2)' : 'rgba(245,200,66,0.12)',
-                        color: done ? '#4CAF7D' : 'var(--mb-gold)',
+                        color: done ? 'var(--mb-green)' : 'var(--mb-gold)',
                         fontFamily: "'Dela Gothic One', sans-serif",
                       }}
                     >
@@ -207,7 +207,7 @@ export default function LessonSearch({ open, onClose }: Props) {
           {mounted && (() => {
             const doneCount = results.filter(r => isCompleted(r.courseId, r.lessonId)).length;
             return doneCount > 0 ? (
-              <span className="text-[9px] font-bold" style={{ color: '#4CAF7D', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+              <span className="text-[9px] font-bold" style={{ color: 'var(--mb-green)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
                 ✓ {doneCount}件完了
               </span>
             ) : null;
