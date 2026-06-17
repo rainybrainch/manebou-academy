@@ -332,6 +332,7 @@ const SIMPLE_QUIZ: QuizItem[] = [
 const REACT_KEY = 'mb_quiz_reactions';
 const TODAY_KEY = 'mb_quiz_today_date';
 const QUIZ_STREAK_KEY = 'mb_quiz_streak';
+const QUIZ_BEST_STREAK_KEY = 'mb_quiz_best_streak';
 
 interface Reactions { knew: number; learned: number; }
 
@@ -343,6 +344,7 @@ export default function DailyQuiz() {
   const [totals, setTotals] = useState<Reactions>({ knew: 0, learned: 0 });
   const [answeredToday, setAnsweredToday] = useState(false);
   const [quizStreak, setQuizStreak] = useState(0);
+  const [quizBestStreak, setQuizBestStreak] = useState(0);
   const [copied, setCopied] = useState(false);
 
   useEffect(() => {
@@ -354,6 +356,8 @@ export default function DailyQuiz() {
       if (localStorage.getItem(TODAY_KEY) === todayStr) setAnsweredToday(true);
       const streak = parseInt(localStorage.getItem(QUIZ_STREAK_KEY) ?? '0', 10);
       if (!isNaN(streak) && streak > 0) setQuizStreak(streak);
+      const best = parseInt(localStorage.getItem(QUIZ_BEST_STREAK_KEY) ?? '0', 10);
+      if (!isNaN(best) && best > 0) setQuizBestStreak(best);
     } catch {}
   }, [mounted]);
 
@@ -401,8 +405,12 @@ export default function DailyQuiz() {
       const newStreak = prevDate === yesterdayStr ? prevStreak + 1 : 1;
       localStorage.setItem(QUIZ_STREAK_KEY, String(newStreak));
       localStorage.setItem(TODAY_KEY, todayStr);
+      const prevBest = parseInt(localStorage.getItem(QUIZ_BEST_STREAK_KEY) ?? '0', 10) || 0;
+      const newBest = Math.max(prevBest, newStreak);
+      localStorage.setItem(QUIZ_BEST_STREAK_KEY, String(newBest));
       setAnsweredToday(true);
       setQuizStreak(newStreak);
+      setQuizBestStreak(newBest);
     } catch {}
   }
 
@@ -424,6 +432,14 @@ export default function DailyQuiz() {
         </span>
         {total > 0 ? (
           <div className="ml-auto flex items-center gap-1.5">
+            {quizBestStreak > quizStreak && quizBestStreak >= 3 && (
+              <span
+                className="text-[9px] font-bold px-1.5 py-0.5 rounded-full"
+                style={{ background: 'rgba(155,109,214,0.2)', color: '#9B6DD6', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+              >
+                最高{quizBestStreak}日
+              </span>
+            )}
             {quizStreak >= 1 && (
               <span
                 className="text-[9px] font-bold px-1.5 py-0.5 rounded-full"

@@ -400,6 +400,42 @@ export const ACHIEVEMENTS: Achievement[] = [
     },
   },
   {
+    id: 'quiz_streak_3',
+    icon: '🧩',
+    title: 'クイズ3日連続',
+    desc: '3日連続でクイズに回答した',
+    check: () => {
+      try {
+        const best = parseInt(localStorage.getItem('mb_quiz_best_streak') ?? '0', 10);
+        return best >= 3;
+      } catch { return false; }
+    },
+    progress: () => {
+      try {
+        const best = parseInt(localStorage.getItem('mb_quiz_best_streak') ?? '0', 10);
+        return { current: Math.min(best, 3), total: 3 };
+      } catch { return null; }
+    },
+  },
+  {
+    id: 'quiz_streak_7',
+    icon: '🔬',
+    title: 'クイズ1週間連続',
+    desc: '7日連続でクイズに回答した',
+    check: () => {
+      try {
+        const best = parseInt(localStorage.getItem('mb_quiz_best_streak') ?? '0', 10);
+        return best >= 7;
+      } catch { return false; }
+    },
+    progress: () => {
+      try {
+        const best = parseInt(localStorage.getItem('mb_quiz_best_streak') ?? '0', 10);
+        return { current: Math.min(best, 7), total: 7 };
+      } catch { return null; }
+    },
+  },
+  {
     id: 'quiz_20',
     icon: '🎓',
     title: 'クイズマスター',
