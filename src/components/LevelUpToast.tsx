@@ -2,17 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { useProgress } from '@/hooks/useProgress';
-
-const LEVELS = [
-  { threshold: 5,   title: '学習者',      icon: '📖', color: '#5BC8E8' },
-  { threshold: 10,  title: '努力家',      icon: '💪', color: '#4CAF7D' },
-  { threshold: 20,  title: '猛者',        icon: '⚡', color: '#F5C842' },
-  { threshold: 30,  title: '達人',        icon: '🔥', color: '#E8354A' },
-  { threshold: 40,  title: '修羅',        icon: '💎', color: '#9B6DD6' },
-  { threshold: 50,  title: '伝説',        icon: '👑', color: '#F5C842' },
-  { threshold: 75,  title: '超人',        icon: '🏆', color: '#F5C842' },
-  { threshold: 100, title: '100講義の神', icon: '💯', color: '#F5C842' },
-];
+import { LEVELS } from '@/data/levels';
 
 export default function LevelUpToast() {
   const { completedCount, mounted } = useProgress();
@@ -29,7 +19,7 @@ export default function LevelUpToast() {
     const newCount = completedCount;
     prev.current = newCount;
 
-    const triggered = LEVELS.find(l => oldCount < l.threshold && newCount >= l.threshold);
+    const triggered = LEVELS.filter(l => l.min > 0).find(l => oldCount < l.min && newCount >= l.min);
     if (triggered) {
       setToast({ title: triggered.title, icon: triggered.icon, color: triggered.color });
       const t = setTimeout(() => setToast(null), 4000);
