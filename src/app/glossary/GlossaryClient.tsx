@@ -232,7 +232,7 @@ export default function GlossaryClient({ entries }: Props) {
                             className="text-sm leading-relaxed mb-3"
                             style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
                           >
-                            {entry.definition}
+                            {highlight(entry.definition)}
                           </p>
                           <div className="flex items-center justify-between">
                             <Link
@@ -243,7 +243,7 @@ export default function GlossaryClient({ entries }: Props) {
                               <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                               </svg>
-                              {entry.lessonTitle} で学ぶ
+                              {highlight(entry.lessonTitle)} で学ぶ
                             </Link>
                             <button type="button"
                               onClick={(e) => copyTerm(entry.term, entry.definition, e)}
