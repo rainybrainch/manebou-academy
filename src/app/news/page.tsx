@@ -37,6 +37,13 @@ function renderBody(text: string): React.ReactNode {
 const updates = [
   {
     date: '2026-06-17',
+    tag: 'UX',
+    tagColor: '#5BC8E8',
+    title: 'AIプロンプトコピーボタンのデザイン統一',
+    body: '講義内の「AIへの補助プロンプト」セクションに表示されるコピーボタンが、他の画面と異なるグレー系のスタイルを使っていた。アプリ全体のデザインシステムに合わせた色・フォントに統一した',
+  },
+  {
+    date: '2026-06-17',
     tag: 'fix',
     tagColor: '#9B6DD6',
     title: 'レベルアップ通知の定義を内部で統一',

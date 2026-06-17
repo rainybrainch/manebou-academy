@@ -134,14 +134,15 @@ function CopyButton({ text }: { text: string }) {
   return (
     <button
       onClick={copy}
-      className="flex items-center gap-1 text-xs text-gray-500 hover:text-gray-700 transition-colors"
+      className="flex items-center gap-1 text-xs transition-opacity hover:opacity-70"
+      style={{ color: copied ? '#4CAF7D' : 'rgba(26,26,46,0.45)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
     >
       {copied ? (
         <>
-          <svg className="w-3.5 h-3.5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
           </svg>
-          <span className="text-green-500">コピー済み</span>
+          コピー済み
         </>
       ) : (
         <>
