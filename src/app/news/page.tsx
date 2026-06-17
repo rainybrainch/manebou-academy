@@ -37,6 +37,12 @@ function renderBody(text: string): React.ReactNode {
 const updates = [
   {
     date: '2026-06-17',
+    tag: 'PERF',
+    title: 'YouTube動画の遅延読み込みとpreconnect追加',
+    body: '①講義ページのYouTube埋め込みにloading="lazy"を追加。スクロールするまでiframeが読み込まれなくなり初期表示が高速化②全ページのheadにYouTubeドメインへのpreconnect/dns-prefetchを追加。動画再生開始時の接続確立コストが削減される',
+  },
+  {
+    date: '2026-06-17',
     tag: '改善',
     title: 'ボタン属性・講義コンテンツのフェードイン復元',
     body: '①全コンポーネントのbutton要素87件にtype="button"を追加（ブラウザのデフォルトtype="submit"による誤動作防止）②RevealSection削除後に失われていた講義セクションのフェードインアニメーションを、既存のfadeInキーフレームとanimationDelayを使ってインラインで復元した',
