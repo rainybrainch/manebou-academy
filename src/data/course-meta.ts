@@ -17,6 +17,6 @@ export const COURSE_META: Record<string, { icon: string; color: string }> = {
   'crypto-basics':       { icon: '₿',  color: '#F5A623' },
   'economics':           { icon: '🌐', color: '#9B6DD6' },
   'fx-forex':            { icon: '💱', color: '#9B6DD6' },
-  'politics':            { icon: '🏛️', color: '#9B6DD6' },
+  'politics':            { icon: '🏛️', color: '#E8823A' },
   'exam-public':         { icon: '📝', color: '#E8354A' },
 };

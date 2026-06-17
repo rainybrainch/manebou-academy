@@ -17,7 +17,7 @@ const topicMeta: Record<string, { icon: string; color: string }> = {
   'cat-money':       { icon: '💴', color: '#5BC8E8' },
   'cat-investment':  { icon: '📈', color: '#4CAF7D' },
   'cat-economics':   { icon: '🌐', color: '#9B6DD6' },
-  'cat-politics':    { icon: '🏛', color: '#9B6DD6' },
+  'cat-politics':    { icon: '🏛', color: '#E8823A' },
   'cat-zai':         { icon: '🎲', color: '#F5C842' },
   'cat-boardgame':   { icon: '🎯', color: '#F5C842' },
   'cat-exam-public': { icon: '📝', color: '#E8354A' },
