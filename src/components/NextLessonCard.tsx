@@ -155,8 +155,9 @@ export default function NextLessonCard() {
           </div>
 
           {targetLesson?.duration && (
-            <div className="text-[10px] mt-1" style={{ color: 'rgba(255,255,255,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-              {targetLesson.duration}
+            <div className="text-[10px] mt-1 flex items-center gap-1" style={{ color: 'rgba(255,255,255,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+              <svg className="w-2.5 h-2.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+              {`約${targetLesson.duration.split(':')[0]}分`}
             </div>
           )}
         </div>

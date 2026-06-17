@@ -769,7 +769,7 @@ export default function LessonContent({
               {lesson.duration && lesson.duration !== '—' && (
                 <span className="text-xs flex items-center gap-1" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
                   <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
-                  {lesson.duration}
+                  🎬 {`${lesson.duration.split(':')[0]}分`}
                 </span>
               )}
               <span className="text-[11px] flex items-center gap-1" style={{ color: 'rgba(26,26,46,0.35)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
