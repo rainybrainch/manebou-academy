@@ -69,7 +69,7 @@ export default function AchievementToast() {
           {visible.title}
         </div>
       </div>
-      <button
+      <button type="button"
         onClick={() => { setVisible(null); if (timerRef.current) clearTimeout(timerRef.current); }}
         className="shrink-0 text-[10px] ml-1"
         style={{ color: 'rgba(255,255,255,0.3)' }}

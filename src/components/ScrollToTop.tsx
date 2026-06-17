@@ -14,7 +14,7 @@ export default function ScrollToTop() {
   if (!visible) return null;
 
   return (
-    <button
+    <button type="button"
       onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       aria-label="ページトップへ"
       className="fixed z-50 flex items-center justify-center rounded-full border-2 transition-all hover:-translate-y-0.5 active:translate-y-0"

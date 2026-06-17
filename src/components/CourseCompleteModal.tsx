@@ -157,7 +157,7 @@ export default function CourseCompleteModal({ courseTitle, categoryId, nextCours
               コース一覧へ →
             </Link>
           )}
-          <button
+          <button type="button"
             onClick={onClose}
             className="w-full py-2 text-xs"
             style={{ color: 'rgba(255,255,255,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}

@@ -387,7 +387,7 @@ export default function MoneyQuote() {
           — {quote.author}
         </p>
         <div className="flex items-center gap-2 shrink-0">
-          <button
+          <button type="button"
             onClick={copyQuote}
             className="text-[9px] font-bold px-2 py-1 rounded-lg transition-all"
             style={{
@@ -399,7 +399,7 @@ export default function MoneyQuote() {
             {copied ? '✓ コピー済' : 'コピー'}
           </button>
           {offset > 0 && (
-            <button
+            <button type="button"
               onClick={prevQuote}
               className="text-[10px] font-bold flex items-center gap-1 transition-opacity hover:opacity-70"
               style={{ color: 'rgba(255,255,255,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
@@ -409,7 +409,7 @@ export default function MoneyQuote() {
               </svg>
             </button>
           )}
-          <button
+          <button type="button"
             onClick={nextQuote}
             className="text-[10px] font-bold flex items-center gap-1 transition-opacity hover:opacity-70"
             style={{ color: 'rgba(245,200,66,0.6)', fontFamily: "'Zen Maru Gothic', sans-serif" }}

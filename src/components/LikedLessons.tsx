@@ -50,7 +50,7 @@ export default function LikedLessons() {
           </span>
         </h2>
         {liked.length >= 2 && (
-          <button
+          <button type="button"
             onClick={handleRandom}
             className="text-[9px] font-bold px-2.5 py-1 rounded-lg transition-all hover:opacity-80 active:scale-95"
             style={{ background: 'rgba(245,200,66,0.1)', color: 'var(--mb-gold)', fontFamily: "'Zen Maru Gothic', sans-serif", border: '1px solid rgba(245,200,66,0.3)' }}
@@ -80,7 +80,7 @@ export default function LikedLessons() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
               </svg>
             </Link>
-            <button
+            <button type="button"
               onClick={(e) => handleUnlike(courseId, lessonId, e)}
               className="shrink-0 w-7 h-7 flex items-center justify-center rounded-lg text-[11px] transition-all hover:scale-110 active:scale-95"
               style={{ background: 'rgba(232,53,74,0.08)', color: 'var(--mb-red)' }}

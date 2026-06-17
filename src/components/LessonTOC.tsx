@@ -100,7 +100,7 @@ export default function LessonTOC({ sections, alwaysOpen }: Props) {
       className="mb-6 rounded-xl border-2 overflow-hidden"
       style={{ borderColor: open ? 'var(--mb-dark)' : 'rgba(26,26,46,0.15)', transition: 'border-color 0.2s' }}
     >
-      <button
+      <button type="button"
         onClick={() => setOpen(o => !o)}
         className="w-full flex items-center gap-2 px-4 py-2.5 text-left"
         style={{ background: open ? 'var(--mb-dark)' : 'rgba(26,26,46,0.03)' }}

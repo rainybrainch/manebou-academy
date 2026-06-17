@@ -42,7 +42,7 @@ export default function LessonNotes({ courseId, lessonId }: Props) {
 
   return (
     <div className="mt-8 mb-4">
-      <button
+      <button type="button"
         onClick={() => setOpen(o => !o)}
         className="flex items-center gap-2 text-xs font-bold transition-all hover:opacity-70"
         style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
@@ -78,7 +78,7 @@ export default function LessonNotes({ courseId, lessonId }: Props) {
                 </span>
               )}
               {text.trim() && (
-                <button
+                <button type="button"
                   onClick={async () => {
                     await navigator.clipboard.writeText(text);
                     setCopied(true);

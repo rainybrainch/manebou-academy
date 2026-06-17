@@ -82,7 +82,7 @@ export default function CourseOutline({ chapters, currentLessonId, categoryTitle
               </div>
             </div>
           </div>
-          <button
+          <button type="button"
             onClick={onClose}
             className="shrink-0 w-6 h-6 flex items-center justify-center text-white/50 hover:text-white transition-colors text-lg leading-none ml-2"
             aria-label="閉じる"

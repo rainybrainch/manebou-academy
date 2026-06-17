@@ -105,7 +105,7 @@ export default function MyCoursesList() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
                     </svg>
                   </Link>
-                  <button
+                  <button type="button"
                     onClick={() => remove(course.id)}
                     className="w-6 h-6 flex items-center justify-center rounded-full transition-all hover:opacity-60"
                     style={{ color: 'rgba(26,26,46,0.3)' }}

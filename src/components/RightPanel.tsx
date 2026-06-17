@@ -55,7 +55,7 @@ export default function RightPanel({ checkItems, isOpen, onClose }: RightPanelPr
               セルフチェック
             </span>
           </div>
-          <button
+          <button type="button"
             onClick={onClose}
             className="w-6 h-6 flex items-center justify-center rounded text-white/50 hover:text-white transition-colors text-lg leading-none"
             aria-label="閉じる"

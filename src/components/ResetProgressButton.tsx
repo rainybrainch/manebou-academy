@@ -39,14 +39,14 @@ export default function ResetProgressButton() {
             本当にリセットしますか？この操作は取り消せません
           </p>
           <div className="flex gap-2">
-            <button
+            <button type="button"
               onClick={() => setConfirmed(false)}
               className="flex-1 py-2 rounded-lg border-2 text-xs font-bold"
               style={{ borderColor: 'var(--mb-dark)', color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
             >
               キャンセル
             </button>
-            <button
+            <button type="button"
               onClick={handleReset}
               className="flex-1 py-2 rounded-lg border-2 text-xs font-bold"
               style={{ background: 'var(--mb-red)', borderColor: 'var(--mb-red)', color: 'white', fontFamily: "'Zen Maru Gothic', sans-serif" }}
@@ -56,7 +56,7 @@ export default function ResetProgressButton() {
           </div>
         </div>
       ) : (
-        <button
+        <button type="button"
           onClick={handleReset}
           className="w-full py-2.5 rounded-lg border-2 text-xs font-bold transition-all hover:opacity-80"
           style={{

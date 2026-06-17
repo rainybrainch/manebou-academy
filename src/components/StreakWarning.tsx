@@ -46,7 +46,7 @@ export default function StreakWarning() {
       >
         学ぶ →
       </Link>
-      <button
+      <button type="button"
         onClick={() => setShow(false)}
         className="shrink-0 w-6 h-6 flex items-center justify-center rounded-full text-[11px] transition-all hover:opacity-70"
         style={{ color: 'rgba(26,26,46,0.3)', background: 'rgba(26,26,46,0.06)' }}

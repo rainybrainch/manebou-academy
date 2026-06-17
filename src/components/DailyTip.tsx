@@ -536,7 +536,7 @@ export default function DailyTip() {
         </div>
       </div>
       <div className="px-4 pb-2.5 flex items-center justify-between">
-        <button
+        <button type="button"
           onClick={copyTip}
           className="text-[9px] font-bold px-2 py-1 rounded-lg transition-all"
           style={{
@@ -548,7 +548,7 @@ export default function DailyTip() {
           {copied ? '✓ コピー済' : 'コピー'}
         </button>
         {offset > 0 && (
-          <button
+          <button type="button"
             onClick={prevTip}
             className="text-[10px] font-bold flex items-center gap-1 transition-opacity hover:opacity-70"
             style={{ color: 'rgba(26,26,46,0.25)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
@@ -558,7 +558,7 @@ export default function DailyTip() {
             </svg>
           </button>
         )}
-        <button
+        <button type="button"
           onClick={nextTip}
           className="text-[10px] font-bold flex items-center gap-1 transition-opacity hover:opacity-70"
           style={{ color: 'rgba(26,26,46,0.35)', fontFamily: "'Zen Maru Gothic', sans-serif" }}

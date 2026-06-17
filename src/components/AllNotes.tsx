@@ -107,7 +107,7 @@ export default function AllNotes() {
             }}
           />
           {query && (
-            <button
+            <button type="button"
               onClick={() => setQuery('')}
               className="absolute right-2.5 top-1/2 -translate-y-1/2 text-[10px] font-bold"
               style={{ color: 'rgba(26,26,46,0.4)' }}
@@ -118,7 +118,7 @@ export default function AllNotes() {
         </div>
         {uniqueCourses.length > 1 && (
           <div className="flex gap-1.5 flex-wrap">
-            <button
+            <button type="button"
               onClick={() => setCourseFilter('all')}
               className="text-[9px] font-bold px-2.5 py-1 rounded-full border transition-all"
               style={{
@@ -131,7 +131,7 @@ export default function AllNotes() {
               すべて
             </button>
             {uniqueCourses.map(([id, title]) => (
-              <button
+              <button type="button"
                 key={id}
                 onClick={() => setCourseFilter(courseFilter === id ? 'all' : id)}
                 className="text-[9px] font-bold px-2.5 py-1 rounded-full border transition-all truncate max-w-[120px]"
@@ -177,7 +177,7 @@ export default function AllNotes() {
                 className="rounded-xl border-2 overflow-hidden"
                 style={{ borderColor: isOpen ? 'var(--mb-dark)' : 'rgba(26,26,46,0.12)', background: 'white' }}
               >
-                <button
+                <button type="button"
                   onClick={() => setExpanded(isOpen ? null : key)}
                   className="w-full flex items-center gap-3 px-4 py-3 text-left"
                 >
@@ -211,7 +211,7 @@ export default function AllNotes() {
                         講義を見る →
                       </Link>
                       <div className="flex items-center gap-1.5">
-                        <button
+                        <button type="button"
                           onClick={(e) => deleteNote(key, courseId, lessonId, e)}
                           className="text-[9px] font-bold px-2 py-1 rounded-lg transition-all"
                           style={{
@@ -222,7 +222,7 @@ export default function AllNotes() {
                         >
                           {deletingKey === key ? '本当に削除？' : '削除'}
                         </button>
-                        <button
+                        <button type="button"
                           onClick={(e) => copyNote(key, text, e)}
                           className="text-[9px] font-bold px-2 py-1 rounded-lg transition-all"
                           style={{

@@ -197,7 +197,7 @@ function FaqItem({ q, a }: { q: string; a: string }) {
         boxShadow: open ? '3px 3px 0 var(--mb-gold)' : 'none',
       }}
     >
-      <button
+      <button type="button"
         onClick={() => setOpen(o => !o)}
         className="w-full flex items-center justify-between px-4 py-3.5 text-left"
         style={{ background: open ? 'var(--mb-dark)' : 'white' }}

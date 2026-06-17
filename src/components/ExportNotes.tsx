@@ -44,7 +44,7 @@ export default function ExportNotes() {
   }
 
   return (
-    <button
+    <button type="button"
       onClick={exportMarkdown}
       className="flex items-center gap-2 px-4 py-2 rounded-lg border-2 text-xs font-bold transition-all hover:opacity-80"
       style={{

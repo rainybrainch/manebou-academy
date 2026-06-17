@@ -290,7 +290,7 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
           {mounted && (
             <div className="flex gap-1">
               {(['all', 'todo', 'done'] as Filter[]).map(f => (
-                <button
+                <button type="button"
                   key={f}
                   onClick={() => setFilter(f)}
                   className="text-[9px] font-bold px-2 py-0.5 rounded-full border transition-all"

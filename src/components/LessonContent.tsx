@@ -77,7 +77,7 @@ function CheckItemsCard({ items, courseId, lessonId }: { items: string[]; course
         {items.map((item, i) => {
           const isChecked = mounted && checked[i];
           return (
-            <button
+            <button type="button"
               key={i}
               onClick={() => toggle(i)}
               className="w-full flex items-start gap-2.5 text-left transition-all duration-200 rounded-lg px-2 py-1.5 hover:bg-[rgba(26,26,46,0.04)] active:scale-[0.99]"
@@ -130,7 +130,7 @@ function CopyButton({ text }: { text: string }) {
     setTimeout(() => setCopied(false), 2000);
   };
   return (
-    <button
+    <button type="button"
       onClick={copy}
       className="flex items-center gap-1 text-xs transition-opacity hover:opacity-70"
       style={{ color: copied ? 'var(--mb-green)' : 'rgba(26,26,46,0.45)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
@@ -207,7 +207,7 @@ function CopyAllButton({ text }: { text: string }) {
     } catch {}
   };
   return (
-    <button
+    <button type="button"
       onClick={copy}
       className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg border-2 text-[11px] font-bold transition-all hover:-translate-y-px active:translate-y-0"
       style={{
@@ -305,7 +305,7 @@ function PracticeSection({ section }: { section: Extract<LessonSection, { type: 
 
         {/* Answer toggle */}
         <div>
-          <button
+          <button type="button"
             onClick={() => setShowAnswer(!showAnswer)}
             className="w-full py-2.5 rounded-xl border-2 text-sm font-bold transition-all hover:opacity-90"
             style={{
@@ -622,7 +622,7 @@ export default function LessonContent({
         style={{ background: 'white', borderBottom: '2px solid var(--mb-dark)' }}
       >
         {/* 全体フロー button */}
-        <button
+        <button type="button"
           onClick={onToggleOutline}
           className="shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-bold transition-all border-2 hover:-translate-y-px"
           style={{
@@ -722,7 +722,7 @@ export default function LessonContent({
         </div>
 
         {/* Font size toggle */}
-        <button
+        <button type="button"
           onClick={cycleFont}
           className="shrink-0 w-7 h-7 flex items-center justify-center rounded-lg border-2 transition-all hover:-translate-y-px"
           style={{ background: 'var(--mb-cream)', borderColor: 'rgba(26,26,46,0.2)', color: 'var(--mb-dark)' }}
@@ -732,7 +732,7 @@ export default function LessonContent({
         </button>
 
         {/* チェック button */}
-        <button
+        <button type="button"
           onClick={onToggleCheck}
           className="shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-xs font-bold transition-all border-2 hover:-translate-y-px"
           style={{
@@ -908,7 +908,15 @@ export default function LessonContent({
           {/* Content sections (image type extracted to manga space above) */}
           <div>
             {contentSections.map((section, i) => (
-              <SectionRenderer key={i} section={section} />
+              <div
+                key={i}
+                style={{
+                  animation: 'fadeIn 0.3s ease both',
+                  animationDelay: `${Math.min(i * 40, 200)}ms`,
+                }}
+              >
+                <SectionRenderer section={section} />
+              </div>
             ))}
           </div>
 

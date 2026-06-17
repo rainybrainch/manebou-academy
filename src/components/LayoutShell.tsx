@@ -152,7 +152,7 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
         </div>
 
         {/* Search button */}
-        <button
+        <button type="button"
           onClick={() => setSearchOpen(true)}
           aria-label="講義を検索"
           className="hidden sm:flex items-center gap-2 px-3 h-8 rounded-lg border transition-opacity hover:opacity-80 shrink-0"
@@ -165,7 +165,7 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
           <span className="text-[10px]" style={{ fontFamily: "'Zen Maru Gothic', sans-serif" }}>検索</span>
           <span className="text-[9px] px-1.5 py-0.5 rounded" style={{ background: 'rgba(255,255,255,0.08)', fontFamily: 'monospace', color: 'rgba(255,255,255,0.3)' }}>{kShortcut}</span>
         </button>
-        <button
+        <button type="button"
           onClick={() => setSearchOpen(true)}
           aria-label="講義を検索"
           className="flex sm:hidden w-9 h-9 items-center justify-center rounded-full border-2 hover:opacity-80 transition-opacity shrink-0"
@@ -177,7 +177,7 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
         </button>
 
         {/* Menu button — hamburger + avatar pill */}
-        <button
+        <button type="button"
           onClick={() => setDrawerOpen(true)}
           className="flex items-center gap-1.5 px-2.5 h-9 rounded-full border-2 hover:opacity-85 transition-opacity shrink-0"
           style={{ borderColor: 'var(--mb-gold)', background: 'rgba(245,200,66,0.15)' }}
@@ -223,7 +223,7 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
         }}
       >
         {/* Drawer close button */}
-        <button
+        <button type="button"
           onClick={() => setDrawerOpen(false)}
           className="absolute top-4 right-5 text-white text-2xl hover:opacity-70 transition-opacity"
           aria-label="閉じる"
@@ -342,7 +342,7 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
             );
           })}
 
-          <button
+          <button type="button"
             onClick={() => {
               if (confirm('学習データをすべてリセットしますか？\nこの操作は取り消せません。')) {
                 try {

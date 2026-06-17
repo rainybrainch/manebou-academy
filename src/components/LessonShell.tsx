@@ -289,7 +289,7 @@ export default function LessonShell({
                 </svg>
                 完了済み
               </div>
-              <button
+              <button type="button"
                 onClick={() => uncompleteLesson(courseId, lesson.id)}
                 className="flex items-center gap-1 py-2 px-2.5 rounded-xl border text-[10px] font-bold transition-all hover:opacity-80"
                 style={{ borderColor: 'rgba(255,255,255,0.15)', background: 'rgba(255,255,255,0.06)', color: 'rgba(255,255,255,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
@@ -303,7 +303,7 @@ export default function LessonShell({
             </div>
             {next ? (
               <div className="flex-1 flex items-center gap-2">
-                <button
+                <button type="button"
                   onClick={() => { setAutoNextCount(null); router.push(`/courses/${next.courseId}/lessons/${next.lesson.id}`); }}
                   className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl border-2 text-sm font-bold transition-all hover:opacity-90 active:scale-95 relative overflow-hidden"
                   style={{
@@ -340,7 +340,7 @@ export default function LessonShell({
                   </span>
                 </button>
                 {autoNextCount !== null && (
-                  <button
+                  <button type="button"
                     onClick={() => setAutoNextCount(null)}
                     className="shrink-0 w-9 h-9 flex items-center justify-center rounded-xl border-2 text-xs font-bold"
                     style={{ borderColor: 'rgba(255,255,255,0.2)', color: 'rgba(255,255,255,0.5)', background: 'rgba(255,255,255,0.06)' }}
@@ -351,7 +351,7 @@ export default function LessonShell({
                 )}
               </div>
             ) : (
-              <button
+              <button type="button"
                 onClick={() => router.push('/courses')}
                 className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl border-2 text-sm font-bold transition-all hover:opacity-90 active:scale-95"
                 style={{
@@ -367,7 +367,7 @@ export default function LessonShell({
           </>
         ) : (
           <>
-            <button
+            <button type="button"
               onClick={handleComplete}
               className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl border-2 text-sm font-bold transition-all hover:opacity-90 active:scale-95"
               style={{
@@ -396,7 +396,7 @@ export default function LessonShell({
             </button>
 
             {next && (
-              <button
+              <button type="button"
                 onClick={handleCompleteAndNext}
                 className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl border-2 text-sm font-bold transition-all hover:opacity-90 active:scale-95 shrink-0"
                 style={{

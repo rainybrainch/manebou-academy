@@ -112,7 +112,7 @@ export default function RecentLessons() {
         ))}
       </div>
       {hasMore && (
-        <button
+        <button type="button"
           onClick={() => setShowAll(v => !v)}
           className="w-full mt-2 py-2.5 rounded-xl border-2 text-xs font-bold transition-all hover:opacity-80"
           style={{

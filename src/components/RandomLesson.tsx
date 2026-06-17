@@ -71,7 +71,7 @@ export default function RandomLesson() {
           style={{ borderColor: 'rgba(26,26,46,0.08)' }}
         >
           {(['new', 'review'] as const).map(m => (
-            <button
+            <button type="button"
               key={m}
               onClick={() => changeMode(m)}
               className="flex-1 py-2 text-[10px] font-bold transition-colors"
@@ -89,7 +89,7 @@ export default function RandomLesson() {
       )}
 
       {/* Button */}
-      <button
+      <button type="button"
         onClick={go}
         disabled={spinning || pool.length === 0}
         className="w-full flex items-center justify-center gap-2 py-3 text-sm font-bold transition-all hover:-translate-y-0.5 active:scale-95 disabled:opacity-40 disabled:cursor-not-allowed disabled:translate-y-0"

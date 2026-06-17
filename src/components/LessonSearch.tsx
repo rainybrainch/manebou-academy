@@ -132,7 +132,7 @@ export default function LessonSearch({ open, onClose }: Props) {
             className="flex-1 bg-transparent outline-none text-sm"
             style={{ color: 'white', fontFamily: "'Zen Maru Gothic', sans-serif", caretColor: 'var(--mb-gold)' }}
           />
-          <button
+          <button type="button"
             onClick={onClose}
             className="text-xs px-2 py-0.5 rounded border shrink-0"
             style={{ borderColor: 'rgba(255,255,255,0.2)', color: 'rgba(255,255,255,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
@@ -154,7 +154,7 @@ export default function LessonSearch({ open, onClose }: Props) {
             </div>
           ) : (
             results.map((r, i) => (
-              <button
+              <button type="button"
                 key={`${r.courseId}/${r.lessonId}`}
                 onClick={() => navigate(r)}
                 onMouseEnter={() => setActiveIndex(i)}

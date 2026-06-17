@@ -167,7 +167,7 @@ export default function ProgressClient() {
             カテゴリ別進捗
           </h2>
           {mounted && completedCount > 0 && (
-            <button
+            <button type="button"
               onClick={() => setHideNotStarted(h => !h)}
               className="text-[10px] font-bold px-2.5 py-1 rounded-full border transition-all"
               style={{

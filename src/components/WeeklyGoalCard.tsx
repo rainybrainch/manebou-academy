@@ -92,7 +92,7 @@ export default function WeeklyGoalCard() {
                     : `残り${daysLeft}日・あと${Math.max(goal - weeklyCompletedCount, 0)}講義`
           }
         </div>
-        <button
+        <button type="button"
           onClick={cycleGoal}
           className="text-[10px] px-2.5 py-1 rounded-full border font-bold transition-opacity hover:opacity-70"
           style={{

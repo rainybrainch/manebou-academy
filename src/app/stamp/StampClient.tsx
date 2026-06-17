@@ -187,7 +187,7 @@ export default function StampClient({ isAdmin }: Props) {
 
         {/* CTA */}
         {mounted && !todayUsed && (
-          <button
+          <button type="button"
             onClick={openModal}
             className="w-full py-4 rounded-xl font-display text-lg font-bold transition-transform active:scale-95"
             style={{ background: 'var(--mb-sky)', color: 'white', boxShadow: '4px 4px 0 var(--mb-dark)' }}
@@ -251,14 +251,14 @@ export default function StampClient({ isAdmin }: Props) {
                 {result === 'idle' && <div className="mb-3 h-4" />}
 
                 <div className="flex gap-3 mt-2">
-                  <button
+                  <button type="button"
                     onClick={() => setShowModal(false)}
                     className="flex-1 py-3 rounded-xl font-bold text-sm"
                     style={{ background: 'rgba(26,26,46,0.08)', color: 'var(--mb-dark)' }}
                   >
                     キャンセル
                   </button>
-                  <button
+                  <button type="button"
                     onClick={handleAuth}
                     disabled={code.length !== 4}
                     className="flex-1 py-3 rounded-xl font-bold text-sm transition-opacity"

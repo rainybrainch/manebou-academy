@@ -53,7 +53,7 @@ export default function ShortcutHelp({ open, onClose }: Props) {
               キーボードショートカット
             </span>
           </div>
-          <button
+          <button type="button"
             onClick={onClose}
             className="text-xs px-2 py-0.5 rounded border"
             style={{ borderColor: 'rgba(255,255,255,0.2)', color: 'rgba(255,255,255,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}

@@ -258,7 +258,7 @@ export default function CategoryPageClient({ tc, courses }: Props) {
                     {startLabel}
                   </Link>
 
-                  <button
+                  <button type="button"
                     onClick={() => toggle(course.id)}
                     className="flex items-center justify-center gap-1 px-3 py-2 rounded-lg text-[11px] font-bold border-2 transition-all hover:opacity-80"
                     style={{

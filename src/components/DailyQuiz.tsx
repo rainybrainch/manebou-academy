@@ -476,7 +476,7 @@ export default function DailyQuiz() {
 
         {/* Answer reveal */}
         {!revealed ? (
-          <button
+          <button type="button"
             onClick={() => setRevealed(true)}
             className="w-full py-2.5 rounded-xl border-2 text-sm font-bold transition-all hover:-translate-y-0.5 active:translate-y-0"
             style={{
@@ -515,7 +515,7 @@ export default function DailyQuiz() {
             {/* Self-assessment */}
             {!reacted ? (
               <div className="flex gap-2 mb-3">
-                <button
+                <button type="button"
                   onClick={() => react('knew')}
                   className="flex-1 py-2 rounded-xl border-2 text-xs font-bold transition-all hover:-translate-y-0.5"
                   style={{
@@ -528,7 +528,7 @@ export default function DailyQuiz() {
                 >
                   ✓ 知ってた！
                 </button>
-                <button
+                <button type="button"
                   onClick={() => react('learned')}
                   className="flex-1 py-2 rounded-xl border-2 text-xs font-bold transition-all hover:-translate-y-0.5"
                   style={{
@@ -560,7 +560,7 @@ export default function DailyQuiz() {
 
             <div className="flex items-center gap-2">
               {offset > 0 && (
-                <button
+                <button type="button"
                   onClick={prevQuiz}
                   className="py-2 px-2 rounded-xl border transition-all hover:opacity-80"
                   style={{
@@ -574,7 +574,7 @@ export default function DailyQuiz() {
                   </svg>
                 </button>
               )}
-              <button
+              <button type="button"
                 onClick={copyQA}
                 className="text-[9px] font-bold px-2 py-2 rounded-xl border transition-all"
                 style={{
@@ -586,7 +586,7 @@ export default function DailyQuiz() {
               >
                 {copied ? '✓ コピー済' : 'コピー'}
               </button>
-              <button
+              <button type="button"
                 onClick={nextQuiz}
                 className="flex-1 py-2 rounded-xl border text-xs font-bold transition-all hover:opacity-80"
                 style={{

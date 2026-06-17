@@ -100,13 +100,13 @@ export default function GlossaryClient({ entries }: Props) {
           }}
         />
         {query && (
-          <button onClick={() => setQuery('')} className="absolute right-3 top-1/2 -translate-y-1/2 text-xs" style={{ color: 'rgba(26,26,46,0.35)' }}>✕</button>
+          <button type="button" onClick={() => setQuery('')} className="absolute right-3 top-1/2 -translate-y-1/2 text-xs" style={{ color: 'rgba(26,26,46,0.35)' }}>✕</button>
         )}
       </div>
 
       {/* Category filter pills */}
       <div className="flex flex-wrap gap-2 mb-4">
-        <button
+        <button type="button"
           onClick={() => setActiveCategory(null)}
           className="px-3 py-1 rounded-full text-[11px] font-bold border-2 transition-all"
           style={{
@@ -119,7 +119,7 @@ export default function GlossaryClient({ entries }: Props) {
           すべて
         </button>
         {categories.map(cat => (
-          <button
+          <button type="button"
             key={cat}
             onClick={() => setActiveCategory(activeCategory === cat ? null : cat)}
             className="px-3 py-1 rounded-full text-[11px] font-bold border-2 transition-all"
@@ -178,7 +178,7 @@ export default function GlossaryClient({ entries }: Props) {
                         boxShadow: isOpen ? '3px 3px 0 var(--mb-gold)' : 'none',
                       }}
                     >
-                      <button
+                      <button type="button"
                         onClick={() => setExpanded(isOpen ? null : entry.term)}
                         className="w-full flex items-center justify-between px-4 py-3 text-left"
                       >
@@ -222,7 +222,7 @@ export default function GlossaryClient({ entries }: Props) {
                               </svg>
                               {entry.lessonTitle} で学ぶ
                             </Link>
-                            <button
+                            <button type="button"
                               onClick={(e) => copyTerm(entry.term, entry.definition, e)}
                               className="text-[9px] font-bold px-2 py-1 rounded-lg transition-all"
                               style={{

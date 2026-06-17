@@ -37,6 +37,12 @@ function renderBody(text: string): React.ReactNode {
 const updates = [
   {
     date: '2026-06-17',
+    tag: '改善',
+    title: 'ボタン属性・講義コンテンツのフェードイン復元',
+    body: '①全コンポーネントのbutton要素87件にtype="button"を追加（ブラウザのデフォルトtype="submit"による誤動作防止）②RevealSection削除後に失われていた講義セクションのフェードインアニメーションを、既存のfadeInキーフレームとanimationDelayを使ってインラインで復元した',
+  },
+  {
+    date: '2026-06-17',
     tag: '修正',
     title: 'PWAアイコン生成・ホーム画面追加が正常に動作するよう修正',
     body: 'manifest.jsonが参照するPWAアイコン（icon-192.png・icon-512.png）が存在せず、スマートフォンのホーム画面に追加した際にアイコンが表示されなかった。academy-icon.pngから192×192・512×512のPNG画像を生成して追加した',

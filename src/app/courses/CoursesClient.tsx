@@ -180,13 +180,13 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
           }}
         />
         {query && (
-          <button onClick={() => setQuery('')} className="absolute right-3 top-1/2 -translate-y-1/2 text-xs" style={{ color: 'rgba(26,26,46,0.35)' }}>✕</button>
+          <button type="button" onClick={() => setQuery('')} className="absolute right-3 top-1/2 -translate-y-1/2 text-xs" style={{ color: 'rgba(26,26,46,0.35)' }}>✕</button>
         )}
       </div>
 
       {/* Genre tabs */}
       <div className="flex gap-2 flex-wrap mb-3">
-        <button
+        <button type="button"
           onClick={() => selectGenre(null)}
           className="text-[11px] font-bold px-3 py-1.5 rounded-full border-2 transition-all"
           style={{
@@ -203,7 +203,7 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
           const gm = genreMeta[genre.id];
           const active = selectedGenre === genre.id;
           return (
-            <button
+            <button type="button"
               key={genre.id}
               onClick={() => selectGenre(active ? null : genre.id)}
               className="text-[11px] font-bold px-3 py-1.5 rounded-full border-2 transition-all flex items-center gap-1"
@@ -230,7 +230,7 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
           const hasContent = categories.some(c => c.topicCategoryId === tc.id);
           if (!hasContent) return null;
           return (
-            <button
+            <button type="button"
               key={tc.id}
               onClick={() => setSelectedTopic(active ? null : tc.id)}
               className="text-[10px] font-bold px-2.5 py-1 rounded-full border transition-all flex items-center gap-0.5"
@@ -354,7 +354,7 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
                             {chIdx + 1}
                           </div>
 
-                          <button
+                          <button type="button"
                             onClick={() => toggle(key)}
                             className="flex-1 flex items-center gap-3 px-3 py-2.5 rounded-xl border-2 bg-white text-left transition-all hover:-translate-y-0.5 overflow-hidden"
                             style={{ borderColor: 'var(--mb-dark)', boxShadow: `3px 3px 0 ${accent}` }}

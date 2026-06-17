@@ -29,7 +29,7 @@ export default function LessonLike({ courseId, lessonId }: Props) {
   if (!mounted) return null;
 
   return (
-    <button
+    <button type="button"
       onClick={toggle}
       className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border-2 text-[11px] font-bold transition-all hover:scale-105 active:scale-95"
       style={{

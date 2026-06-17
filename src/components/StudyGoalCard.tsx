@@ -68,7 +68,7 @@ export default function StudyGoalCard() {
 
   if (!goalDate && !editing) {
     return (
-      <button
+      <button type="button"
         onClick={() => { setDraft(minGoalDate()); setEditing(true); }}
         className="w-full flex items-center justify-center gap-2 py-3 rounded-xl border-2 text-xs font-bold transition-all hover:-translate-y-0.5 active:scale-95 mb-8"
         style={{
@@ -106,7 +106,7 @@ export default function StudyGoalCard() {
           style={{ borderColor: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)', outline: 'none' }}
         />
         <div className="flex gap-2">
-          <button
+          <button type="button"
             onClick={save}
             disabled={!draft || draft <= todayStr()}
             className="flex-1 py-2 rounded-lg border-2 text-xs font-bold disabled:opacity-40"
@@ -114,7 +114,7 @@ export default function StudyGoalCard() {
           >
             設定する
           </button>
-          <button
+          <button type="button"
             onClick={() => setEditing(false)}
             className="py-2 px-4 rounded-lg border-2 text-xs font-bold"
             style={{ borderColor: 'rgba(26,26,46,0.2)', color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
@@ -149,14 +149,14 @@ export default function StudyGoalCard() {
           </span>
         </div>
         <div className="flex items-center gap-1">
-          <button
+          <button type="button"
             onClick={() => { setDraft(goalDate!); setEditing(true); }}
             className="text-[9px] px-2 py-0.5 rounded-full border"
             style={{ borderColor: 'rgba(26,26,46,0.2)', color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
           >
             変更
           </button>
-          <button
+          <button type="button"
             onClick={clear}
             className="text-[9px] px-2 py-0.5 rounded-full border"
             style={{ borderColor: 'rgba(26,26,46,0.12)', color: 'rgba(26,26,46,0.25)', fontFamily: "'Zen Maru Gothic', sans-serif" }}

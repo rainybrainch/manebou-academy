@@ -18,7 +18,7 @@ export default function FirstVisitGuide() {
       className="rounded-2xl border-2 overflow-hidden"
       style={{ borderColor: 'var(--mb-sky)', boxShadow: '4px 4px 0 var(--mb-sky)' }}
     >
-      <button
+      <button type="button"
         onClick={() => setOpen(o => !o)}
         className="w-full px-4 py-3 flex items-center justify-between"
         style={{ background: 'var(--mb-sky)' }}

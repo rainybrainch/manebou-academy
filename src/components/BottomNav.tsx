@@ -199,7 +199,7 @@ export default function BottomNav() {
         })}
 
         {/* メニューボタン */}
-        <button
+        <button type="button"
           onClick={() => setMenuOpen(v => !v)}
           className="flex-1 relative flex flex-col items-center justify-center gap-0.5 transition-opacity hover:opacity-80"
           style={{ color: menuOpen ? 'var(--mb-gold)' : 'rgba(255,255,255,0.35)' }}
