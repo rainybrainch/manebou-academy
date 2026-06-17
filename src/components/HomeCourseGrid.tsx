@@ -67,6 +67,7 @@ export default function HomeCourseGrid({ categories }: Props) {
                       sizes="(max-width: 640px) 30vw, 120px"
                       className="object-cover"
                       quality={85}
+                      priority={i < 6}
                     />
                   </div>
                 ) : (
