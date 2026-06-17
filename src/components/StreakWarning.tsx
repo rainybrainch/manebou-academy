@@ -32,7 +32,7 @@ export default function StreakWarning() {
     >
       <span className="text-2xl shrink-0">🔥</span>
       <div className="flex-1 min-w-0">
-        <div className="text-xs font-bold" style={{ color: '#E8354A', fontFamily: "'Dela Gothic One', sans-serif" }}>
+        <div className="text-xs font-bold" style={{ color: 'var(--mb-red)', fontFamily: "'Dela Gothic One', sans-serif" }}>
           {streakDays}日連続が終わりそう！
         </div>
         <div className="text-[10px]" style={{ color: 'rgba(26,26,46,0.55)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
@@ -42,7 +42,7 @@ export default function StreakWarning() {
       <Link
         href={nextHref}
         className="shrink-0 px-3 py-1.5 rounded-lg border-2 text-[11px] font-bold"
-        style={{ background: '#E8354A', borderColor: '#E8354A', color: 'white', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+        style={{ background: 'var(--mb-red)', borderColor: 'var(--mb-red)', color: 'white', fontFamily: "'Zen Maru Gothic', sans-serif" }}
       >
         学ぶ →
       </Link>

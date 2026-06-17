@@ -45,7 +45,7 @@ export default function LikedLessons() {
       <div className="flex items-center justify-between mb-3">
         <h2 className="text-sm font-bold flex items-center gap-2" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)' }}>
           <span>❤️</span> いいねした講義
-          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full" style={{ background: 'rgba(232,53,74,0.1)', color: '#E8354A' }}>
+          <span className="text-[10px] font-bold px-2 py-0.5 rounded-full" style={{ background: 'rgba(232,53,74,0.1)', color: 'var(--mb-red)' }}>
             {liked.length}件
           </span>
         </h2>
@@ -83,7 +83,7 @@ export default function LikedLessons() {
             <button
               onClick={(e) => handleUnlike(courseId, lessonId, e)}
               className="shrink-0 w-7 h-7 flex items-center justify-center rounded-lg text-[11px] transition-all hover:scale-110 active:scale-95"
-              style={{ background: 'rgba(232,53,74,0.08)', color: '#E8354A' }}
+              style={{ background: 'rgba(232,53,74,0.08)', color: 'var(--mb-red)' }}
               title="いいねを解除"
             >
               ✕
