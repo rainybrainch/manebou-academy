@@ -149,7 +149,7 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
           className="inline-block text-[10px] font-bold tracking-[4px] px-3 py-1 rounded mb-3"
           style={{ background: 'var(--mb-dark)', color: 'var(--mb-gold)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
         >
-          APPS
+          COURSES
         </div>
         <h1 className="text-2xl" style={{ fontFamily: "'Dela Gothic One', sans-serif", color: 'var(--mb-dark)' }}>
           コース一覧
