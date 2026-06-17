@@ -4,12 +4,10 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Lesson, LessonSection } from '@/types';
-import ShareButton from './ShareButton';
 import { useFontSize } from '@/hooks/useFontSize';
 import LessonNotes from './LessonNotes';
 import LessonLike from './LessonLike';
 import LessonTimer from './LessonTimer';
-import RevealSection from './RevealSection';
 import LessonTOC from './LessonTOC';
 
 interface LessonContentProps {
@@ -780,7 +778,6 @@ export default function LessonContent({
               <LessonTimer />
               <LessonLike courseId={courseId} lessonId={lesson.id} />
               <CopyAllButton text={buildLessonText(lesson, courseTitle, chapterTitle)} />
-              <ShareButton title={lesson.title} text={`${lesson.title} — マネぼうアカデミー`} />
             </div>
           </div>
 
@@ -911,9 +908,7 @@ export default function LessonContent({
           {/* Content sections (image type extracted to manga space above) */}
           <div>
             {contentSections.map((section, i) => (
-              <RevealSection key={i} delay={Math.min(i * 40, 200)}>
-                <SectionRenderer section={section} />
-              </RevealSection>
+              <SectionRenderer key={i} section={section} />
             ))}
           </div>
 

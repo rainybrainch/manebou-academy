@@ -38,6 +38,12 @@ const updates = [
   {
     date: '2026-06-17',
     tag: '修正',
+    title: 'ビルドエラー修正：削除済みコンポーネントの残存import4件を除去',
+    body: '①LayoutShell: BadgeToast・PageTransitionのimportと使用箇所を削除②LessonContent: ShareButton・RevealSectionのimportと使用箇所を削除。これら4件は前サイクルで削除済みのコンポーネントへの参照が残っておりビルドエラーの原因となっていた',
+  },
+  {
+    date: '2026-06-17',
+    tag: '修正',
     title: 'ビルドエラー修正：削除済みSkeletonコンポーネントの参照を除去',
     body: '①HomeStats②NextLessonCardの2コンポーネントが削除済みのSkeleton.tsxをimportしていた。ビルドが壊れる致命的なエラー。Skeleton要素をインライン実装に置き換えて解消③コース概要シートのiOS下部パディング修正（pb-6→safe-area対応の動的パディング）',
   },

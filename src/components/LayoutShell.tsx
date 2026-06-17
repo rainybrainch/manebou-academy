@@ -5,8 +5,6 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import BottomNav from '@/components/BottomNav';
-import BadgeToast from '@/components/BadgeToast';
-import PageTransition from '@/components/PageTransition';
 import ScrollToTop from '@/components/ScrollToTop';
 import LevelUpToast from '@/components/LevelUpToast';
 import AchievementToast from '@/components/AchievementToast';
@@ -374,11 +372,10 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
       </aside>
 
       <main className="pt-14 pb-14">
-        <PageTransition>{children}</PageTransition>
+        {children}
       </main>
 
       <BottomNav />
-      <BadgeToast />
       <LevelUpToast />
       <AchievementToast />
       <ScrollToTop />
