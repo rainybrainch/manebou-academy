@@ -25,7 +25,7 @@ export default function ResetProgressButton() {
 
   if (done) {
     return (
-      <div className="text-center py-3 text-sm" style={{ color: '#4CAF7D', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+      <div className="text-center py-3 text-sm" style={{ color: 'var(--mb-green)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
         ✓ リセット完了
       </div>
     );
@@ -49,7 +49,7 @@ export default function ResetProgressButton() {
             <button
               onClick={handleReset}
               className="flex-1 py-2 rounded-lg border-2 text-xs font-bold"
-              style={{ background: '#E8354A', borderColor: '#E8354A', color: 'white', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+              style={{ background: 'var(--mb-red)', borderColor: 'var(--mb-red)', color: 'white', fontFamily: "'Zen Maru Gothic', sans-serif" }}
             >
               リセットする
             </button>
@@ -61,7 +61,7 @@ export default function ResetProgressButton() {
           className="w-full py-2.5 rounded-lg border-2 text-xs font-bold transition-all hover:opacity-80"
           style={{
             borderColor: 'rgba(232,53,74,0.4)',
-            color: '#E8354A',
+            color: 'var(--mb-red)',
             background: 'rgba(232,53,74,0.06)',
             fontFamily: "'Zen Maru Gothic', sans-serif",
           }}

@@ -30,8 +30,8 @@ export default function ShareButton({ title, text }: Props) {
       onClick={handleShare}
       className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border-2 text-[11px] font-bold transition-all hover:opacity-80 active:scale-95"
       style={{
-        borderColor: copied ? '#4CAF7D' : 'rgba(26,26,46,0.15)',
-        color: copied ? '#4CAF7D' : 'rgba(26,26,46,0.5)',
+        borderColor: copied ? 'var(--mb-green)' : 'rgba(26,26,46,0.15)',
+        color: copied ? 'var(--mb-green)' : 'rgba(26,26,46,0.5)',
         background: copied ? 'rgba(76,175,125,0.08)' : 'transparent',
         fontFamily: "'Zen Maru Gothic', sans-serif",
       }}
