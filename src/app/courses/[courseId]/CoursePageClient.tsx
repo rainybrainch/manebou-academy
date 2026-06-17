@@ -81,7 +81,7 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
       <nav className="text-xs mb-4 flex items-center gap-1.5 flex-wrap" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
         <Link href="/" className="hover:underline">ホーム</Link>
         <span>/</span>
-        <Link href="/courses" className="hover:underline">コース一覧</Link>
+        <Link href="/courses" className="hover:underline">アプリ一覧</Link>
         <span>/</span>
         {category.topicCategoryId ? (
           <Link href={`/categories/${category.topicCategoryId}`} className="hover:underline">{category.title}</Link>
@@ -196,7 +196,7 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
                     className="shrink-0 text-[10px] font-bold px-3 py-1.5 rounded-lg border transition-all hover:opacity-90"
                     style={{ background: 'var(--mb-gold)', borderColor: 'var(--mb-gold)', color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
                   >
-                    コース一覧へ →
+                    アプリ一覧へ →
                   </Link>
                 )}
               </div>

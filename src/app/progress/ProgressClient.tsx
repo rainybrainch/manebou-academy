@@ -340,7 +340,7 @@ export default function ProgressClient() {
               fontFamily: "'Zen Maru Gothic', sans-serif",
             }}
           >
-            コース一覧へ
+            アプリ一覧へ
           </Link>
         </div>
       )}

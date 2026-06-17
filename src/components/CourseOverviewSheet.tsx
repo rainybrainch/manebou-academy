@@ -208,7 +208,7 @@ export default function CourseOverviewSheet({ category, meta, onClose }: Props) 
               fontFamily: "'Zen Maru Gothic', sans-serif",
             }}
           >
-            コース一覧で全て見る →
+            アプリ一覧で全て見る →
           </Link>
         </div>
       </div>

@@ -149,10 +149,10 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
           className="inline-block text-[10px] font-bold tracking-[4px] px-3 py-1 rounded mb-3"
           style={{ background: 'var(--mb-dark)', color: 'var(--mb-gold)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
         >
-          COURSES
+          APPS
         </div>
         <h1 className="text-2xl" style={{ fontFamily: "'Dela Gothic One', sans-serif", color: 'var(--mb-dark)' }}>
-          コース一覧
+          アプリ一覧
         </h1>
         <p className="text-sm mt-1" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
           全{genres.length}ジャンル · {topicCategories.length}カテゴリ · {totalCourses}コース · {totalLessons}講義

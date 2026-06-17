@@ -55,7 +55,7 @@ export default function NotFound() {
             boxShadow: '3px 3px 0 var(--mb-sky)',
           }}
         >
-          コース一覧へ
+          アプリ一覧へ
         </Link>
       </div>
     </div>
