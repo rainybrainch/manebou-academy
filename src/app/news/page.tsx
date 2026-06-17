@@ -37,6 +37,13 @@ function renderBody(text: string): React.ReactNode {
 const updates = [
   {
     date: '2026-06-17',
+    tag: 'fix',
+    tagColor: '#4CAF7D',
+    title: '週間目標カードの色指定をデザイントークンに統一',
+    body: '週間目標達成時の枠色・影・SVGリング・テキストが raw hex（#4CAF7D）で指定されていた。var(--mb-green) に置き換え、デザインシステムとの一貫性を確保した。また目次パネルの講義行に「現在の行か否かで値が変わるふりをしているが両方13pxで同一」のデッドコードがあり除去した',
+  },
+  {
+    date: '2026-06-17',
     tag: 'UX',
     tagColor: '#9B6DD6',
     title: 'コース一覧ページの配色をデザインシステムに統一',

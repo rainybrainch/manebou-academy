@@ -179,7 +179,7 @@ export default function CourseOutline({ chapters, currentLessonId, categoryTitle
                         background: isCurrent ? 'rgba(245,200,66,0.15)' : 'transparent',
                         borderBottom: '1px solid rgba(26,26,46,0.05)',
                         borderLeft: isCurrent ? '3px solid var(--mb-gold)' : '3px solid transparent',
-                        paddingLeft: isCurrent ? '13px' : '13px',
+                        paddingLeft: '13px',
                       }}
                     >
                       {/* Number / check */}

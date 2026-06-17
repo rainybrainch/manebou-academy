@@ -42,8 +42,8 @@ export default function WeeklyGoalCard() {
       className="p-4 rounded-xl border-2 flex items-center gap-4"
       style={{
         background: done ? 'rgba(76,175,125,0.06)' : 'white',
-        borderColor: done ? '#4CAF7D' : 'var(--mb-dark)',
-        boxShadow: done ? '3px 3px 0 #4CAF7D' : '3px 3px 0 rgba(26,26,46,0.15)',
+        borderColor: done ? 'var(--mb-green)' : 'var(--mb-dark)',
+        boxShadow: done ? '3px 3px 0 var(--mb-green)' : '3px 3px 0 rgba(26,26,46,0.15)',
       }}
     >
       {/* SVG progress ring */}
@@ -52,7 +52,7 @@ export default function WeeklyGoalCard() {
           <circle cx="36" cy="36" r={radius} fill="none" stroke="rgba(26,26,46,0.08)" strokeWidth="6" />
           <circle
             cx="36" cy="36" r={radius} fill="none"
-            stroke={done ? '#4CAF7D' : 'var(--mb-gold)'}
+            stroke={done ? 'var(--mb-green)' : 'var(--mb-gold)'}
             strokeWidth="6"
             strokeLinecap="round"
             strokeDasharray={circumference}
@@ -62,7 +62,7 @@ export default function WeeklyGoalCard() {
           />
         </svg>
         <div className="absolute inset-0 flex flex-col items-center justify-center">
-          <span style={{ fontFamily: "'Dela Gothic One', sans-serif", fontSize: 18, color: done ? '#4CAF7D' : 'var(--mb-dark)', lineHeight: 1 }}>
+          <span style={{ fontFamily: "'Dela Gothic One', sans-serif", fontSize: 18, color: done ? 'var(--mb-green)' : 'var(--mb-dark)', lineHeight: 1 }}>
             {weeklyCompletedCount}
           </span>
           <span style={{ fontSize: 9, color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
