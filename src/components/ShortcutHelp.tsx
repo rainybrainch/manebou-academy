@@ -29,10 +29,11 @@ export default function ShortcutHelp({ open, onClose }: Props) {
   const GLOBAL_SHORTCUTS = useGlobalShortcuts();
 
   useEffect(() => {
+    if (!open) return;
     const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') onClose(); };
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
-  }, [onClose]);
+  }, [open, onClose]);
 
   if (!open) return null;
 

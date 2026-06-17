@@ -50,11 +50,6 @@ const items = [
 // メニューに入れるリンク
 const menuLinks = [
   {
-    href: '/progress',
-    label: 'レポート',
-    icon: '📊',
-  },
-  {
     href: '/stamp',
     label: 'スタンプ',
     icon: '⭐',
