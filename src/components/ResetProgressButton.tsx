@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { useProgress } from '@/hooks/useProgress';
+import { clearAllMbData } from '@/lib/clearMbData';
 
 export default function ResetProgressButton() {
   const { completedCount, mounted } = useProgress();
@@ -16,8 +17,7 @@ export default function ResetProgressButton() {
       return;
     }
     try {
-      localStorage.removeItem('mb_progress_v1');
-      localStorage.removeItem('mb_seen_achievements');
+      clearAllMbData();
     } catch {}
     setDone(true);
     setTimeout(() => window.location.reload(), 800);

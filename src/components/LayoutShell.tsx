@@ -16,6 +16,7 @@ import { useProgress } from '@/hooks/useProgress';
 import { ACHIEVEMENTS } from '@/data/achievements';
 import { useModKey } from '@/hooks/useModKey';
 import { getLevel } from '@/data/levels';
+import { clearAllMbData } from '@/lib/clearMbData';
 
 const navItems = [
   {
@@ -347,8 +348,7 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
             onClick={() => {
               if (confirm('学習データをすべてリセットしますか？\nこの操作は取り消せません。')) {
                 try {
-                  localStorage.removeItem('mb_progress_v1');
-                  localStorage.removeItem('mb_seen_achievements');
+                  clearAllMbData();
                 } catch {}
                 setDrawerOpen(false);
                 window.location.href = '/';
