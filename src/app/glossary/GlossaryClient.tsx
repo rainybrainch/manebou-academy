@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useRef } from 'react';
+import React, { useState, useMemo, useRef } from 'react';
 import Link from 'next/link';
 
 interface GlossaryEntry {
@@ -52,6 +52,25 @@ export default function GlossaryClient({ entries }: Props) {
       );
     });
   }, [entries, query, activeCategory]);
+
+  const q = query.trim().toLowerCase();
+  function highlight(str: string) {
+    if (!q) return str;
+    const lower = str.toLowerCase();
+    const firstIdx = lower.indexOf(q);
+    if (firstIdx === -1) return str;
+    const parts: React.ReactNode[] = [];
+    let last = 0;
+    let idx = firstIdx;
+    while (idx !== -1) {
+      if (idx > last) parts.push(str.slice(last, idx));
+      parts.push(<mark key={idx} style={{ background: 'rgba(245,200,66,0.4)', borderRadius: '2px' }}>{str.slice(idx, idx + q.length)}</mark>);
+      last = idx + q.length;
+      idx = lower.indexOf(q, last);
+    }
+    if (last < str.length) parts.push(str.slice(last));
+    return <>{parts}</>;
+  }
 
   // Group by first character
   const grouped = useMemo(() => {
@@ -139,10 +158,10 @@ export default function GlossaryClient({ entries }: Props) {
         ))}
       </div>
 
-      {/* Results count when searching */}
-      {query && (
+      {/* Results count when filtering */}
+      {(query || activeCategory) && (
         <p className="text-xs mb-4" style={{ color: 'rgba(26,26,46,0.45)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-          「{query}」の検索結果：{filtered.length}件
+          {query && `「${query}」`}{query && activeCategory && ' × '}{activeCategory && `${activeCategory}`}の検索結果：{filtered.length}件
         </p>
       )}
 
@@ -190,7 +209,7 @@ export default function GlossaryClient({ entries }: Props) {
                           className="text-sm font-bold"
                           style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
                         >
-                          {entry.term}
+                          {highlight(entry.term)}
                         </span>
                         <svg
                           className="w-4 h-4 shrink-0 ml-2 transition-transform"
