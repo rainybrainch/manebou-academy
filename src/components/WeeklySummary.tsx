@@ -66,7 +66,7 @@ export default function WeeklySummary() {
               className="text-[9px] font-bold px-1.5 py-0.5 rounded-full"
               style={{
                 background: weekDiff > 0 ? 'rgba(76,175,125,0.12)' : weekDiff < 0 ? 'rgba(232,53,74,0.1)' : 'rgba(26,26,46,0.08)',
-                color: weekDiff > 0 ? '#4CAF7D' : weekDiff < 0 ? '#E8354A' : 'rgba(26,26,46,0.4)',
+                color: weekDiff > 0 ? 'var(--mb-green)' : weekDiff < 0 ? 'var(--mb-red)' : 'rgba(26,26,46,0.4)',
                 fontFamily: "'Dela Gothic One', sans-serif",
               }}
             >

@@ -12,11 +12,11 @@ interface Props {
 }
 
 const categoryColors: Record<string, string> = {
-  'money-basics-full': '#5BC8E8',
-  'money-knowledge':   '#9B6DD6',
-  'zai-course':        '#F5C842',
-  'stock-intro':       '#4CAF7D',
-  'nisa-basics':       '#E8354A',
+  'money-basics-full': 'var(--mb-sky)',
+  'money-knowledge':   'var(--mb-purple)',
+  'zai-course':        'var(--mb-gold)',
+  'stock-intro':       'var(--mb-green)',
+  'nisa-basics':       'var(--mb-red)',
 };
 
 const MESSAGES = [

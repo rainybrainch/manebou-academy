@@ -38,6 +38,12 @@ const updates = [
   {
     date: '2026-06-17',
     tag: '改善',
+    title: 'デザイントークン統一：WeeklySummary・CourseCompleteModal',
+    body: '週比バッジの増減カラー（WeeklySummary）・コース完了モーダルのカテゴリ色定義（CourseCompleteModal）をCSSカスタムプロパティに移行。コードの保守性と一貫性が向上しました。',
+  },
+  {
+    date: '2026-06-17',
+    tag: '改善',
     title: 'デザイントークン統一：MoneyQuote・WelcomeBack',
     body: 'コピーボタンフィードバック色（MoneyQuote）・今日の講義数テキスト色（WelcomeBack）を var(--mb-green) に統一。コンポーネント全体のデザイントークン移行が完了に近づいています。',
   },
