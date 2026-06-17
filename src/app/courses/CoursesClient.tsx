@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import type { Category } from '@/types';
@@ -45,17 +45,21 @@ interface Props {
 
 function Highlight({ text, q }: { text: string; q: string }) {
   if (!q) return <>{text}</>;
-  const idx = text.toLowerCase().indexOf(q.toLowerCase());
-  if (idx === -1) return <>{text}</>;
-  return (
-    <>
-      {text.slice(0, idx)}
-      <mark style={{ background: 'rgba(245,200,66,0.4)', color: 'inherit', borderRadius: '2px', padding: '0 1px' }}>
-        {text.slice(idx, idx + q.length)}
-      </mark>
-      {text.slice(idx + q.length)}
-    </>
-  );
+  const lower = text.toLowerCase();
+  const firstIdx = lower.indexOf(q.toLowerCase());
+  if (firstIdx === -1) return <>{text}</>;
+  const ql = q.toLowerCase();
+  const parts: React.ReactNode[] = [];
+  let last = 0;
+  let idx = firstIdx;
+  while (idx !== -1) {
+    if (idx > last) parts.push(text.slice(last, idx));
+    parts.push(<mark key={idx} style={{ background: 'rgba(245,200,66,0.4)', color: 'inherit', borderRadius: '2px', padding: '0 1px' }}>{text.slice(idx, idx + q.length)}</mark>);
+    last = idx + q.length;
+    idx = lower.indexOf(ql, last);
+  }
+  if (last < text.length) parts.push(text.slice(last));
+  return <>{parts}</>;
 }
 
 export default function CoursesClient({ categories, totalCourses, totalLessons }: Props) {

@@ -122,6 +122,7 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
     const onKey = (e: KeyboardEvent) => {
       const tag = (e.target as HTMLElement).tagName;
       if (tag === 'INPUT' || tag === 'TEXTAREA') return;
+      if (e.key === 'Escape') { setDrawerOpen(false); return; }
       if (e.key === '/' || (e.key === 'k' && (e.metaKey || e.ctrlKey))) { e.preventDefault(); setSearchOpen(true); }
       if (e.key === '?') { e.preventDefault(); setHelpOpen(true); }
     };
