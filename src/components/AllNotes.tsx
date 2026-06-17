@@ -19,7 +19,24 @@ export default function AllNotes() {
   const [query, setQuery] = useState('');
   const [courseFilter, setCourseFilter] = useState<string>('all');
   const [copiedKey, setCopiedKey] = useState<string | null>(null);
+  const [deletingKey, setDeletingKey] = useState<string | null>(null);
   const copyTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const deleteTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const deleteNote = (key: string, courseId: string, lessonId: string, e: React.MouseEvent) => {
+    e.stopPropagation();
+    if (deletingKey === key) {
+      if (deleteTimeoutRef.current) clearTimeout(deleteTimeoutRef.current);
+      localStorage.removeItem(`mb_note_${courseId}_${lessonId}`);
+      setNotes(prev => prev.filter(n => !(n.courseId === courseId && n.lessonId === lessonId)));
+      setExpanded(null);
+      setDeletingKey(null);
+    } else {
+      if (deleteTimeoutRef.current) clearTimeout(deleteTimeoutRef.current);
+      setDeletingKey(key);
+      deleteTimeoutRef.current = setTimeout(() => setDeletingKey(dk => dk === key ? null : dk), 2500);
+    }
+  };
 
   const copyNote = (key: string, text: string, e: React.MouseEvent) => {
     e.stopPropagation();
@@ -193,17 +210,30 @@ export default function AllNotes() {
                       >
                         講義を見る →
                       </Link>
-                      <button
-                        onClick={(e) => copyNote(key, text, e)}
-                        className="text-[9px] font-bold px-2 py-1 rounded-lg transition-all"
-                        style={{
-                          background: copiedKey === key ? 'rgba(76,175,125,0.12)' : 'rgba(26,26,46,0.06)',
-                          color: copiedKey === key ? '#4CAF7D' : 'rgba(26,26,46,0.4)',
-                          fontFamily: "'Zen Maru Gothic', sans-serif",
-                        }}
-                      >
-                        {copiedKey === key ? '✓ コピー済' : 'コピー'}
-                      </button>
+                      <div className="flex items-center gap-1.5">
+                        <button
+                          onClick={(e) => deleteNote(key, courseId, lessonId, e)}
+                          className="text-[9px] font-bold px-2 py-1 rounded-lg transition-all"
+                          style={{
+                            background: deletingKey === key ? 'rgba(232,53,74,0.1)' : 'rgba(26,26,46,0.06)',
+                            color: deletingKey === key ? 'var(--mb-red)' : 'rgba(26,26,46,0.3)',
+                            fontFamily: "'Zen Maru Gothic', sans-serif",
+                          }}
+                        >
+                          {deletingKey === key ? '本当に削除？' : '削除'}
+                        </button>
+                        <button
+                          onClick={(e) => copyNote(key, text, e)}
+                          className="text-[9px] font-bold px-2 py-1 rounded-lg transition-all"
+                          style={{
+                            background: copiedKey === key ? 'rgba(76,175,125,0.12)' : 'rgba(26,26,46,0.06)',
+                            color: copiedKey === key ? '#4CAF7D' : 'rgba(26,26,46,0.4)',
+                            fontFamily: "'Zen Maru Gothic', sans-serif",
+                          }}
+                        >
+                          {copiedKey === key ? '✓ コピー済' : 'コピー'}
+                        </button>
+                      </div>
                     </div>
                   </div>
                 )}

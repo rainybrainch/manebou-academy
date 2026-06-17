@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 const steps = [
   { icon: '📖', text: '1講義 3〜10分。スキマ時間でOK' },
-  { icon: '🎲', text: 'ZAiゲームで楽しく実践力を磨く' },
+  { icon: '🧠', text: '今日の一問・名言・ヒントで毎日知識を定着させよう' },
   { icon: '🏆', text: '連続学習で実績をゲット・レベルアップ' },
   { icon: '📊', text: '学習レポートで進捗・いいね・メモを管理' },
 ];
@@ -44,7 +44,7 @@ export default function FirstVisitGuide() {
       {open && (
         <div className="px-4 py-4 bg-white">
           <p className="text-xs mb-3" style={{ color: 'rgba(26,26,46,0.6)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-            マネぼうアカデミーは、ゲームで遊びながらお金の知識が身につくアカデミーです。
+            マネぼうアカデミーは、毎日少しずつ本物のマネーリテラシーが身につくアカデミーです。
           </p>
           <div className="space-y-2 mb-4">
             {steps.map((s, i) => (
