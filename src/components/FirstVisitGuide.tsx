@@ -67,7 +67,7 @@ export default function FirstVisitGuide() {
               boxShadow: '3px 3px 0 var(--mb-sky)',
             }}
           >
-            コースを見てみる →
+            アプリを見てみる →
           </Link>
         </div>
       )}

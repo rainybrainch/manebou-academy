@@ -145,7 +145,7 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
                 マネぼうアカデミー
               </span>
               <span style={{ color: 'rgba(91,200,232,0.5)', fontFamily: "'Dela Gothic One', sans-serif", fontSize: '9px', letterSpacing: '0.06em', lineHeight: 1.1 }}>
-                Monebou Academy
+                MANEBOU ACADEMY
               </span>
             </div>
           </Link>
@@ -238,7 +238,7 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
               マネぼうアカデミー
             </div>
             <div style={{ fontFamily: "'Dela Gothic One', sans-serif", color: 'rgba(91,200,232,0.45)', fontSize: '11px', letterSpacing: '0.05em', marginTop: '2px' }}>
-              Monebou Academy
+              MANEBOU ACADEMY
             </div>
           </div>
           <div style={{ color: 'rgba(255,255,255,0.45)', fontSize: '10px', letterSpacing: '2px', marginTop: '4px' }}>
