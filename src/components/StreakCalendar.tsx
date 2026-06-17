@@ -14,13 +14,16 @@ function intensityColor(count: number, isToday: boolean): string {
   return 'var(--mb-green)';
 }
 
+function localStr(d: Date): string {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
 export default function StreakCalendar() {
   const { dailyLessonCounts, streakDays, bestStreak, mounted } = useProgress();
-  if (!mounted) return null;
 
   const today = new Date();
   today.setHours(0, 0, 0, 0);
-  const todayStr = today.toISOString().slice(0, 10);
+  const todayStr = localStr(today);
 
   // Build 91 days aligned so today is in last column
   const todayDow = today.getDay();
@@ -31,7 +34,7 @@ export default function StreakCalendar() {
     for (let i = totalCells - 1; i >= 0; i--) {
       const d = new Date(today);
       d.setDate(today.getDate() - i);
-      const dateStr = d.toISOString().slice(0, 10);
+      const dateStr = localStr(d);
       const count = dailyLessonCounts[dateStr] ?? 0;
       result.push({
         date: dateStr,
@@ -45,6 +48,8 @@ export default function StreakCalendar() {
     return result;
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [dailyLessonCounts, todayStr, totalCells]);
+
+  if (!mounted) return null;
 
   // Arrange as columns (each column = 1 week)
   const cols: typeof days[] = [];
