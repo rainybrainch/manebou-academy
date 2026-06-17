@@ -38,6 +38,12 @@ const updates = [
   {
     date: '2026-06-17',
     tag: '修正',
+    title: 'PWAアイコン生成・ホーム画面追加が正常に動作するよう修正',
+    body: 'manifest.jsonが参照するPWAアイコン（icon-192.png・icon-512.png）が存在せず、スマートフォンのホーム画面に追加した際にアイコンが表示されなかった。academy-icon.pngから192×192・512×512のPNG画像を生成して追加した',
+  },
+  {
+    date: '2026-06-17',
+    tag: '修正',
     title: 'ビルドエラー修正：削除済みコンポーネントの残存import4件を除去',
     body: '①LayoutShell: BadgeToast・PageTransitionのimportと使用箇所を削除②LessonContent: ShareButton・RevealSectionのimportと使用箇所を削除。これら4件は前サイクルで削除済みのコンポーネントへの参照が残っておりビルドエラーの原因となっていた',
   },
