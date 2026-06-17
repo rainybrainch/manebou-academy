@@ -24,6 +24,8 @@ export function useCompletionSound() {
         osc.start(start);
         osc.stop(start + 0.5);
       });
+      // Close context after playback finishes to free audio hardware
+      setTimeout(() => ctx.close().catch(() => {}), 800);
     } catch {}
   }, []);
 

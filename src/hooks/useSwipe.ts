@@ -11,6 +11,11 @@ interface Options {
 export function useSwipe({ onSwipeLeft, onSwipeRight, threshold = 60 }: Options) {
   const startX = useRef<number | null>(null);
   const startY = useRef<number | null>(null);
+  const onSwipeLeftRef = useRef(onSwipeLeft);
+  const onSwipeRightRef = useRef(onSwipeRight);
+
+  onSwipeLeftRef.current = onSwipeLeft;
+  onSwipeRightRef.current = onSwipeRight;
 
   useEffect(() => {
     function onTouchStart(e: TouchEvent) {
@@ -24,8 +29,8 @@ export function useSwipe({ onSwipeLeft, onSwipeRight, threshold = 60 }: Options)
       // Ignore if mostly vertical (scrolling)
       if (Math.abs(dy) > Math.abs(dx)) return;
       if (Math.abs(dx) < threshold) return;
-      if (dx < 0) onSwipeLeft?.();
-      else onSwipeRight?.();
+      if (dx < 0) onSwipeLeftRef.current?.();
+      else onSwipeRightRef.current?.();
       startX.current = null;
       startY.current = null;
     }
@@ -35,5 +40,5 @@ export function useSwipe({ onSwipeLeft, onSwipeRight, threshold = 60 }: Options)
       window.removeEventListener('touchstart', onTouchStart);
       window.removeEventListener('touchend', onTouchEnd);
     };
-  }, [onSwipeLeft, onSwipeRight, threshold]);
+  }, [threshold]);
 }
