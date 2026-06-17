@@ -4,12 +4,16 @@ import Link from 'next/link';
 import { useProgress } from '@/hooks/useProgress';
 import { nextLessonHref } from '@/lib/nextLessonHref';
 
+function localDateStr(d: Date): string {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
 function last7Days(): string[] {
   const days: string[] = [];
   for (let i = 6; i >= 0; i--) {
     const d = new Date();
     d.setDate(d.getDate() - i);
-    days.push(d.toISOString().slice(0, 10));
+    days.push(localDateStr(d));
   }
   return days;
 }
