@@ -141,6 +141,23 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
     [selectedGenre]
   );
 
+  // トピックカテゴリごとの講義数
+  const topicLessonCounts = useMemo(() => {
+    const map: Record<string, number> = {};
+    categories.forEach(cat => {
+      if (!cat.topicCategoryId) return;
+      const count = cat.courses.reduce((a, c) => a + c.lessons.filter(l => !l.isComingSoon).length, 0);
+      map[cat.topicCategoryId] = (map[cat.topicCategoryId] ?? 0) + count;
+    });
+    return map;
+  }, [categories]);
+
+  // 検索結果の講義数
+  const searchResultLessonCount = useMemo(() => {
+    if (!q) return 0;
+    return filteredCategories.reduce((a, cat) => a + cat.courses.reduce((b, c) => b + c.lessons.filter(l => !l.isComingSoon).length, 0), 0);
+  }, [filteredCategories, q]);
+
   return (
     <div className="max-w-2xl mx-auto px-4 py-6">
       {/* Header */}
@@ -183,6 +200,11 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
           <button type="button" onClick={() => setQuery('')} className="absolute right-3 top-1/2 -translate-y-1/2 text-xs" style={{ color: 'rgba(26,26,46,0.35)' }}>✕</button>
         )}
       </div>
+      {q && filteredCategories.length > 0 && (
+        <p className="text-xs mb-3 -mt-2" style={{ color: 'rgba(26,26,46,0.45)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+          「{query}」の検索結果：{searchResultLessonCount}講義
+        </p>
+      )}
 
       {/* Genre tabs */}
       <div className="flex gap-2 flex-wrap mb-3">
@@ -233,7 +255,7 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
             <button type="button"
               key={tc.id}
               onClick={() => setSelectedTopic(active ? null : tc.id)}
-              className="text-[10px] font-bold px-2.5 py-1 rounded-full border transition-all flex items-center gap-0.5"
+              className="text-[10px] font-bold px-2.5 py-1 rounded-full border transition-all flex items-center gap-1"
               style={{
                 background: active ? `${tm?.color ?? '#ccc'}20` : 'transparent',
                 borderColor: active ? tm?.color ?? '#ccc' : 'rgba(26,26,46,0.12)',
@@ -242,6 +264,7 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
               }}
             >
               {tm?.icon} {tc.title}
+              <span className="text-[8px] opacity-60">({topicLessonCounts[tc.id] ?? 0})</span>
             </button>
           );
         })}
