@@ -52,6 +52,13 @@ export default function StudyGoalCard() {
     if (editing) setTimeout(() => inputRef.current?.focus(), 50);
   }, [editing]);
 
+  useEffect(() => {
+    if (!editing) return;
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setEditing(false); };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [editing]);
+
   if (!mounted || completedCount === 0) return null;
 
   const remaining = Math.max(totalLessons - completedCount, 0);
@@ -106,6 +113,7 @@ export default function StudyGoalCard() {
           value={draft}
           min={minGoalDate()}
           onChange={e => setDraft(e.target.value)}
+          onKeyDown={e => { if (e.key === 'Enter' && draft && draft > todayStr()) save(); }}
           className="w-full rounded-lg border-2 px-3 py-2 text-sm mb-3"
           style={{ borderColor: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif", color: 'var(--mb-dark)', outline: 'none' }}
         />
