@@ -38,6 +38,12 @@ const updates = [
   {
     date: '2026-06-17',
     tag: '改善',
+    title: 'デザイントークン統一：QuestionsClient・courses/page',
+    body: 'よくある質問の各セクション色定義（QuestionsClient）・コース一覧ページのカテゴリ色定義（courses/page）をCSS変数に移行。デザイントークン統一がほぼ完了しました。',
+  },
+  {
+    date: '2026-06-17',
+    tag: '改善',
     title: 'デザイントークン統一：CoursesClient・MilestoneCard',
     body: 'コース一覧のカテゴリ・ジャンル・レベル色定義（CoursesClient）とマイルストーンカードのシャドウ（MilestoneCard）をCSS変数に完全移行。デザイントークン統一作業が大詰めです。',
   },
