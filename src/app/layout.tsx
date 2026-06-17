@@ -18,7 +18,7 @@ const zenMaru = Zen_Maru_Gothic({
 });
 
 export const metadata: Metadata = {
-  title: 'Monebou Academy | マネぼうアカデミー',
+  title: 'マネぼうアカデミー',
   description: 'ゲームで遊んだら、経済がわかった。お金の知識を楽しく学べるオンライン学習プラットフォーム。',
   manifest: '/manifest.json',
   appleWebApp: {
@@ -27,16 +27,16 @@ export const metadata: Metadata = {
     title: 'マネぼう',
   },
   openGraph: {
-    title: 'Monebou Academy | マネぼうアカデミー',
+    title: 'マネぼうアカデミー',
     description: 'ゲームで遊んだら、経済がわかった。お金の基本から資産形成まで楽しく学ぼう。',
     url: 'https://manebou-juku.vercel.app',
-    siteName: 'Monebou Academy',
+    siteName: 'マネぼうアカデミー',
     locale: 'ja_JP',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'Monebou Academy',
+    title: 'マネぼうアカデミー',
     description: 'ゲームで遊んだら、経済がわかった。お金の知識を楽しく学ぼう。',
   },
   other: {
