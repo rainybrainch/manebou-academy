@@ -143,13 +143,14 @@ export default function CategoryPageClient({ tc, courses }: Props) {
             ch.lessons.filter(l => !l.isComingSoon).map(l => ({ courseId: ch.id, lessonId: l.id }))
           );
           const doneLessons = mounted ? allLessons.filter(({ courseId, lessonId }) => isCompleted(courseId, lessonId)).length : 0;
+          const allDone = doneLessons === allLessons.length && allLessons.length > 0;
           const nextLesson = mounted && doneLessons > 0
             ? allLessons.find(({ courseId, lessonId }) => !isCompleted(courseId, lessonId))
             : null;
           const startHref = nextLesson
             ? `/courses/${nextLesson.courseId}/lessons/${nextLesson.lessonId}`
             : `/courses/${course.courses[0]?.id ?? ''}`;
-          const startLabel = doneLessons > 0 ? '続きから' : '学習を始める';
+          const startLabel = mounted && allDone ? '復習する' : doneLessons > 0 ? '続きから' : '学習を始める';
 
           return (
             <div
@@ -234,8 +235,11 @@ export default function CategoryPageClient({ tc, courses }: Props) {
                   {course.description}
                 </p>
                 <div className="flex items-center justify-between mb-3">
-                  <span className="text-[10px]" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                  <span className="text-[10px] flex items-center gap-1.5" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
                     {chapterCount}章 · {lessonCount}講義
+                    {mounted && allDone && (
+                      <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-full" style={{ background: 'rgba(76,175,125,0.12)', color: 'var(--mb-green)', fontFamily: "'Dela Gothic One', sans-serif" }}>完了！</span>
+                    )}
                   </span>
                   <CategoryCardProgress category={course} />
                 </div>
