@@ -38,11 +38,14 @@ export default function CourseOverviewSheet({ category, meta, onClose }: Props) 
       <div
         className="fixed inset-0 z-50 bg-black/60 backdrop-blur-[2px]"
         onClick={onClose}
+        aria-hidden="true"
       />
 
       {/* Sheet */}
       <div
         className="fixed bottom-0 left-0 right-0 z-50 rounded-t-3xl overflow-hidden flex flex-col"
+        role="dialog"
+        aria-modal="true"
         style={{
           background: 'var(--mb-cream)',
           maxHeight: '88vh',

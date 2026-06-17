@@ -210,6 +210,9 @@ export default function StampClient({ isAdmin }: Props) {
           className="fixed inset-0 z-50 flex items-center justify-center px-6"
           style={{ background: 'rgba(26,26,46,0.55)' }}
           onClick={(e) => { if (e.target === e.currentTarget) setShowModal(false); }}
+          role="dialog"
+          aria-modal="true"
+          aria-label="スタンプ入力"
         >
           <div className="w-full max-w-sm rounded-2xl p-6" style={{ background: 'white', boxShadow: '6px 6px 0 var(--mb-dark)' }}>
             {justStamped ? (
