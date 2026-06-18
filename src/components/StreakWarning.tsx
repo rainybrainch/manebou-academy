@@ -44,6 +44,7 @@ export default function StreakWarning() {
         href={nextHref}
         className="shrink-0 px-3 py-1.5 rounded-lg border-2 text-[11px] font-bold"
         style={{ background: 'var(--mb-red)', borderColor: 'var(--mb-red)', color: 'white', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+        aria-label={`${streakDays}日連続を継続するために次の講義を学ぶ`}
       >
         学ぶ →
       </Link>
