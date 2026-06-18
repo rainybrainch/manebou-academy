@@ -48,26 +48,20 @@ export const topicCategories: TopicCategory[] = [
     image: '/images/categories/cat-politics.webp',
     genreId: 'g-lecture',
   },
-  // ── ゲーム系 ────────────────────────────────────────
+  // ── 遊び系 ────────────────────────────────────────
   {
-    id: 'cat-zai',
-    title: 'ZAi',
-    description: 'ZAiボードゲームで投資を体験しよう！ゲームとリアル経済をつなぐ。',
-    image: '/images/categories/cat-zai.webp',
-    genreId: 'g-game',
-  },
-  {
-    id: 'cat-boardgame',
-    title: 'ボードゲーム',
-    description: 'ゲームで遊びながら経済を学ぼう！様々なボードゲームと学習を連動。',
-    image: '/images/categories/cat-boardgame.webp',
+    id: 'cat-play',
+    title: '遊び',
+    description: 'ゲームで遊びながら経済を学ぼう！ZAi・ボードゲーム・様々な体験型コンテンツ。',
+    image: '/images/categories/cat-play.webp',
     genreId: 'g-game',
   },
   // ── 受験用 ──────────────────────────────────────────
   {
     id: 'cat-exam-public',
-    title: '公共・政治経済',
+    title: '受験',
     description: '共通テスト対策マネぼう！「公共」「政治経済」の頻出テーマを網羅。',
+    image: '/images/categories/cat-exam-public.webp',
     genreId: 'g-exam',
   },
 ];
