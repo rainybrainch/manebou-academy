@@ -1,5 +1,6 @@
 'use client';
 
+import { useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { topicCategories } from '@/data/structure';
@@ -25,14 +26,18 @@ export default function HomeCourseGrid({ categories }: Props) {
   const { isCompleted, mounted } = useProgress();
   const allTopics = topicCategories;
 
-  const getTopicProgress = (topicId: string) => {
-    const topicCourses = categories.filter(c => c.topicCategoryId === topicId);
-    const allLessons = topicCourses.flatMap(cat =>
-      cat.courses.flatMap(ch => ch.lessons.filter(l => !l.isComingSoon).map(l => ({ courseId: ch.id, lessonId: l.id })))
-    );
-    const done = allLessons.filter(({ courseId, lessonId }) => isCompleted(courseId, lessonId)).length;
-    return { done, total: allLessons.length };
-  };
+  const topicProgressMap = useMemo(() => {
+    const map: Record<string, { done: number; total: number }> = {};
+    for (const tc of allTopics) {
+      const topicCourses = categories.filter(c => c.topicCategoryId === tc.id);
+      const allLessons = topicCourses.flatMap(cat =>
+        cat.courses.flatMap(ch => ch.lessons.filter(l => !l.isComingSoon).map(l => ({ courseId: ch.id, lessonId: l.id })))
+      );
+      const done = mounted ? allLessons.filter(({ courseId, lessonId }) => isCompleted(courseId, lessonId)).length : 0;
+      map[tc.id] = { done, total: allLessons.length };
+    }
+    return map;
+  }, [categories, isCompleted, mounted, allTopics]);
 
   return (
     <>
@@ -42,7 +47,7 @@ export default function HomeCourseGrid({ categories }: Props) {
           const tm = topicMeta[tc.id];
           const iconSrc = appIconMap[tc.id];
           const hasContent = categories.some(c => c.topicCategoryId === tc.id);
-          const { done, total } = mounted && hasContent ? getTopicProgress(tc.id) : { done: 0, total: 0 };
+          const { done, total } = topicProgressMap[tc.id];
           const isAllDone = done > 0 && done === total;
 
           const inner = (
