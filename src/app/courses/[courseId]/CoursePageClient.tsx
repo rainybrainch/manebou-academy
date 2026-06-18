@@ -3,6 +3,8 @@
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { useProgress } from '@/hooks/useProgress';
+import { categories } from '@/data/courses';
+import CourseOverviewSheet from '@/components/CourseOverviewSheet';
 import type { Course, Category } from '@/types';
 import ConfettiBurst from '@/components/ConfettiBurst';
 
@@ -24,6 +26,7 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
   const { isCompleted, mounted, lessonCompletionDates } = useProgress();
   const [filter, setFilter] = useState<Filter>('all');
   const [lessonMeta, setLessonMeta] = useState<Record<string, { scroll: number; hasNote: boolean; isLiked: boolean }>>({});
+  const [overviewOpen, setOverviewOpen] = useState(false);
 
   useEffect(() => {
     if (!mounted) return;
@@ -143,6 +146,21 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
             {course.description}
           </p>
         )}
+
+        {/* 全体フロー表示ボタン */}
+        <button
+          type="button"
+          onClick={() => setOverviewOpen(true)}
+          className="w-full py-2 px-3 rounded-lg text-sm font-bold border-2 transition-all hover:opacity-80"
+          style={{
+            background: 'rgba(245,200,66,0.2)',
+            borderColor: 'var(--mb-gold)',
+            color: 'var(--mb-gold)',
+            fontFamily: "'Zen Maru Gothic', sans-serif",
+          }}
+        >
+          📖 全体フローを見る
+        </button>
 
         {/* Estimated completion */}
         {mounted && completedCount > 0 && completedCount < availableCount && (() => {
@@ -412,6 +430,15 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
           })}
         </div>
       </div>
+
+      {/* 全体フローモーダル */}
+      {overviewOpen && (
+        <CourseOverviewSheet
+          category={category}
+          meta={{ shadow: 'none', icon: '📖', label: category.title, color: 'var(--mb-gold)' }}
+          onClose={() => setOverviewOpen(false)}
+        />
+      )}
     </div>
   );
 }
