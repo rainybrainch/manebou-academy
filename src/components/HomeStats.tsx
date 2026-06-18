@@ -82,36 +82,41 @@ export default function HomeStats() {
 
   return (
     <div className="grid grid-cols-3 gap-3">
-      {stats.map((stat) => (
-        <Link
-          key={stat.sub}
-          href="/progress"
-          className="block bg-white rounded-xl p-3 text-center border-2 transition-all hover:-translate-y-0.5 active:translate-y-0"
-          style={{ borderColor: 'var(--mb-dark)', boxShadow: `3px 3px 0 ${stat.color}` }}
-        >
-          <div className="text-lg mb-1">{stat.icon}</div>
-          <div
-            className="text-xl font-bold leading-none"
-            style={{ fontFamily: "'Dela Gothic One', sans-serif", color: 'var(--mb-dark)' }}
+      {stats.map((stat) => {
+        // Build aria-label with full stat description
+        const ariaLabel = `${stat.label}。${stat.value}${stat.extra ? `。${stat.extra}` : ''}。詳細は進捗ページへ`;
+        return (
+          <Link
+            key={stat.sub}
+            href="/progress"
+            className="block bg-white rounded-xl p-3 text-center border-2 transition-all hover:-translate-y-0.5 active:translate-y-0"
+            style={{ borderColor: 'var(--mb-dark)', boxShadow: `3px 3px 0 ${stat.color}` }}
+            aria-label={ariaLabel}
           >
-            {stat.value}
-          </div>
-          <div
-            className="text-[9px] mt-1 font-bold"
-            style={{ color: stat.color, fontFamily: "'Zen Maru Gothic', sans-serif" }}
-          >
-            {stat.label}
-          </div>
-          {stat.extra && (
+            <div className="text-lg mb-1" aria-hidden="true">{stat.icon}</div>
             <div
-              className="text-[9px] mt-0.5"
-              style={{ color: 'rgba(26,26,46,0.35)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+              className="text-xl font-bold leading-none"
+              style={{ fontFamily: "'Dela Gothic One', sans-serif", color: 'var(--mb-dark)' }}
             >
-              {stat.extra}
+              {stat.value}
             </div>
-          )}
-        </Link>
-      ))}
+            <div
+              className="text-[9px] mt-1 font-bold"
+              style={{ color: stat.color, fontFamily: "'Zen Maru Gothic', sans-serif" }}
+            >
+              {stat.label}
+            </div>
+            {stat.extra && (
+              <div
+                className="text-[9px] mt-0.5"
+                style={{ color: 'rgba(26,26,46,0.35)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+              >
+                {stat.extra}
+              </div>
+            )}
+          </Link>
+        );
+      })}
     </div>
   );
 }
