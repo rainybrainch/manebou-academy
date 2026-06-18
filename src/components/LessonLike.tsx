@@ -39,8 +39,10 @@ export default function LessonLike({ courseId, lessonId }: Props) {
         fontFamily: "'Zen Maru Gothic', sans-serif",
       }}
       title={liked ? 'いいね済み' : 'いいね！'}
+      aria-label={liked ? `この講義にいいね済み。いいね！をクリックして解除できます` : `この講義にいいね！をする`}
+      aria-pressed={liked}
     >
-      <span style={{ fontSize: '14px', lineHeight: 1 }}>{liked ? '❤️' : '🤍'}</span>
+      <span style={{ fontSize: '14px', lineHeight: 1 }} aria-hidden="true">{liked ? '❤️' : '🤍'}</span>
       {liked ? 'いいね！' : 'いいね'}
     </button>
   );
