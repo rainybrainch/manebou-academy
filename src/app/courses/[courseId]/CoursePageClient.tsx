@@ -22,11 +22,13 @@ interface Props {
   courseId: string;
 }
 
+type ViewTab = 'overview' | 'lessons';
+
 export default function CoursePageClient({ course, category, courseId }: Props) {
   const { isCompleted, mounted, lessonCompletionDates } = useProgress();
   const [filter, setFilter] = useState<Filter>('all');
   const [lessonMeta, setLessonMeta] = useState<Record<string, { scroll: number; hasNote: boolean; isLiked: boolean }>>({});
-  const [overviewOpen, setOverviewOpen] = useState(false);
+  const [tab, setTab] = useState<ViewTab>('overview');
 
   useEffect(() => {
     if (!mounted) return;
@@ -147,20 +149,35 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
           </p>
         )}
 
-        {/* 全体フロー表示ボタン */}
-        <button
-          type="button"
-          onClick={() => setOverviewOpen(true)}
-          className="w-full py-2 px-3 rounded-lg text-sm font-bold border-2 transition-all hover:opacity-80"
-          style={{
-            background: 'rgba(245,200,66,0.2)',
-            borderColor: 'var(--mb-gold)',
-            color: 'var(--mb-gold)',
-            fontFamily: "'Zen Maru Gothic', sans-serif",
-          }}
-        >
-          📖 全体フローを見る
-        </button>
+        {/* Tab selector */}
+        <div className="flex gap-2 mb-4">
+          <button
+            type="button"
+            onClick={() => setTab('overview')}
+            className="flex-1 py-2 px-3 rounded-lg text-sm font-bold border-2 transition-all"
+            style={{
+              background: tab === 'overview' ? 'var(--mb-gold)' : 'rgba(245,200,66,0.1)',
+              borderColor: tab === 'overview' ? 'var(--mb-gold)' : 'rgba(245,200,66,0.3)',
+              color: tab === 'overview' ? 'var(--mb-dark)' : 'var(--mb-gold)',
+              fontFamily: "'Zen Maru Gothic', sans-serif",
+            }}
+          >
+            📖 全体フロー
+          </button>
+          <button
+            type="button"
+            onClick={() => setTab('lessons')}
+            className="flex-1 py-2 px-3 rounded-lg text-sm font-bold border-2 transition-all"
+            style={{
+              background: tab === 'lessons' ? 'var(--mb-gold)' : 'rgba(245,200,66,0.1)',
+              borderColor: tab === 'lessons' ? 'var(--mb-gold)' : 'rgba(245,200,66,0.3)',
+              color: tab === 'lessons' ? 'var(--mb-dark)' : 'var(--mb-gold)',
+              fontFamily: "'Zen Maru Gothic', sans-serif",
+            }}
+          >
+            📝 この章
+          </button>
+        </div>
 
         {/* Estimated completion */}
         {mounted && completedCount > 0 && completedCount < availableCount && (() => {
@@ -298,9 +315,10 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
         )}
       </div>
 
-      {/* Lesson list */}
-      <div
-        className="rounded-xl overflow-hidden border-2"
+      {/* Tab content: lessons */}
+      {tab === 'lessons' && (
+        <div
+          className="rounded-xl overflow-hidden border-2"
         style={{ borderColor: 'var(--mb-dark)', background: 'white', boxShadow: '3px 3px 0 var(--mb-gold)' }}
       >
         <div className="px-4 py-3 border-b-2 flex items-center justify-between" style={{ background: 'rgba(26,26,46,0.04)', borderColor: 'rgba(26,26,46,0.1)' }}>
@@ -431,13 +449,14 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
           })}
         </div>
       </div>
+      )}
 
-      {/* 全体フローモーダル */}
-      {overviewOpen && (
+      {/* Tab content: overview */}
+      {tab === 'overview' && (
         <CourseOverviewSheet
           category={category}
           meta={{ shadow: 'none', icon: '📖', label: category.title, color: 'var(--mb-gold)' }}
-          onClose={() => setOverviewOpen(false)}
+          onClose={() => {}}
         />
       )}
     </div>

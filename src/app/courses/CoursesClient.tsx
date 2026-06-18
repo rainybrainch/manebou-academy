@@ -302,9 +302,12 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
                 className="flex items-center gap-3 rounded-xl border-2 mb-6 overflow-hidden"
                 style={{ background: 'var(--mb-dark)', borderColor: accent, boxShadow: `4px 4px 0 ${accent}` }}
               >
-                {/* Course thumbnail */}
+                {/* Course thumbnail — clickable */}
                 {category.image ? (
-                  <div className="w-20 h-16 shrink-0 relative">
+                  <Link
+                    href={`/courses/${category.courses[0]?.id}`}
+                    className="w-20 h-16 shrink-0 relative hover:opacity-80 transition-opacity"
+                  >
                     <Image
                       src={category.image}
                       alt={category.title}
@@ -313,7 +316,7 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
                       className="object-cover"
                       quality={80}
                     />
-                  </div>
+                  </Link>
                 ) : (
                   <div
                     className="w-14 h-14 shrink-0 flex items-center justify-center text-2xl ml-3 rounded-lg border-2"
