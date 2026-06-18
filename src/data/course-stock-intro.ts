@@ -189,6 +189,20 @@ export const stockIntroCategory: Category = {
                 '株価は「現在の事実」ではなく「未来への期待」で動きます。ZAiゲームのダイスとカードはその予測不可能性を体現しています。短期の価格変動に振り回されず、長期の企業価値に注目することが投資の基本です。',
               nextLesson: '次の講座では、「理論株価」という割安・割高を判断する物差しを学びます。',
             },
+            {
+              type: 'comic',
+              data: {
+                title: '株価はなぜ動くのか',
+                lessonId: 's1-2',
+                image: '/images/comics/stock-intro-1-2.png',
+                panels: [],
+                learning: [
+                  '需要と供給で株価が決まる仕組み',
+                  '投資家心理が市場に反映される',
+                  'ZAiゲームで予測不可能性を体験',
+                ],
+              },
+            },
           ],
         },
       ],
@@ -273,6 +287,20 @@ export const stockIntroCategory: Category = {
                 'ZAiゲームの2色のマーカーは「市場価格」と「内在価値」の乖離を視覚化しています。オレンジ（理論）がブルー（実勢）を上回っているときが割安。この視点を持つだけで、投資判断の質が大きく変わります。',
               nextLesson: '次の講座では、なぜ割安株を買うことが合理的なのかを深掘りします。',
             },
+            {
+              type: 'comic',
+              data: {
+                title: '理論株価 vs 実勢価格（割安の発見）',
+                lessonId: 's2-1',
+                image: '/images/comics/stock-intro-2-1.png',
+                panels: [],
+                learning: [
+                  '理論株価と実勢価格の定義と意味',
+                  '割安・割高を判断する視点',
+                  'ZAiゲームの二重マーカーシステム',
+                ],
+              },
+            },
           ],
         },
         {
@@ -350,6 +378,20 @@ export const stockIntroCategory: Category = {
               content:
                 '割安株を買う合理性は「市場の短期的な誤りを利用する」こと。ただし「いつ正しい価格に戻るか」は誰にもわからない。だから長期的視点と忍耐が必要です。ZAiゲームはこの「待つ力」を鍛えるゲームでもあります。',
               nextLesson: '次の章では、自分のリスク許容度を知ることから始めます。',
+            },
+            {
+              type: 'comic',
+              data: {
+                title: 'なぜ割安株を買うのか',
+                lessonId: 's2-2',
+                image: '/images/comics/stock-intro-2-2.png',
+                panels: [],
+                learning: [
+                  'バリュー投資の3つの前提',
+                  'バリュー投資 vs グロース投資',
+                  '平均回帰性と長期的視点の重要性',
+                ],
+              },
             },
           ],
         },
