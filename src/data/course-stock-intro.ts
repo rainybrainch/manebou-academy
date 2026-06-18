@@ -91,6 +91,20 @@ export const stockIntroCategory: Category = {
                 '株を買うことは「企業の仲間になる」こと。配当という形で利益の分け前をもらいながら、企業が成長すれば株価も上がります。ZAiゲームでは9社の株主になって、この体験を20〜30分で凝縮して味わえます。',
               nextLesson: '次の講座では、株価がなぜ毎日変動するのかを学びます。',
             },
+            {
+              type: 'comic',
+              data: {
+                title: '株式とは「企業の所有権の一部」',
+                lessonId: 's1-1',
+                image: '/images/comics/stock-intro-1-1.png',
+                panels: [],
+                learning: [
+                  '株式とは企業の所有権を表す証券',
+                  '株主は配当・議決権・残余財産請求権を持つ',
+                  'ZAiゲームで株主体験ができる',
+                ],
+              },
+            },
           ],
         },
         {

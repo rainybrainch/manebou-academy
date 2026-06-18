@@ -27,61 +27,13 @@ const items = [
       </svg>
     ),
   },
-  {
-    href: '/progress',
-    label: 'レポート',
-    icon: (active: boolean) => (
-      <svg className="w-5 h-5" fill={active ? 'currentColor' : 'none'} viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-      </svg>
-    ),
-  },
-  {
-    href: '/news',
-    label: 'ニュース',
-    icon: (active: boolean) => (
-      <svg className="w-5 h-5" fill={active ? 'currentColor' : 'none'} viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" />
-      </svg>
-    ),
-  },
 ];
 
-// メニューに入れるリンク
-const menuLinks = [
-  {
-    href: '/stamp',
-    label: 'スタンプ',
-    icon: '⭐',
-  },
-  {
-    href: '/glossary',
-    label: '用語集',
-    icon: '📖',
-  },
-  {
-    href: '/questions',
-    label: 'よくある質問',
-    icon: '❓',
-  },
-  {
-    href: '/manual',
-    label: 'マニュアル',
-    icon: '📋',
-  },
-];
-
-// メインナビに既にあるパスはisMenuPageの対象外にする
-const itemHrefs = items.map(i => i.href);
-const menuOnlyHrefs = menuLinks.map(l => l.href).filter(h => !itemHrefs.includes(h));
 
 export default function BottomNav() {
   const pathname = usePathname();
   const { streakDays, dailyLessonCounts, completedCount, mounted } = useProgress();
   const [hasNewNews, setHasNewNews] = useState(false);
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const isMenuPage = menuOnlyHrefs.includes(pathname);
 
   useEffect(() => {
     const seen = localStorage.getItem(NEWS_SEEN_KEY);
@@ -93,15 +45,7 @@ export default function BottomNav() {
       localStorage.setItem(NEWS_SEEN_KEY, LATEST_NEWS_DATE);
       setHasNewNews(false);
     }
-    setMenuOpen(false);
   }, [pathname]);
-
-  useEffect(() => {
-    if (!menuOpen) return;
-    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setMenuOpen(false); };
-    window.addEventListener('keydown', onKey);
-    return () => window.removeEventListener('keydown', onKey);
-  }, [menuOpen]);
 
   const todayStudied = mounted && (() => {
     const n = new Date();
@@ -113,51 +57,7 @@ export default function BottomNav() {
   if (pathname.includes('/lessons/')) return null;
 
   return (
-    <>
-      {/* メニューオーバーレイ */}
-      {menuOpen && (
-        <div
-          className="fixed inset-0 z-30"
-          onClick={() => setMenuOpen(false)}
-        />
-      )}
-
-      {/* メニューポップアップ */}
-      {menuOpen && (
-        <div
-          className="fixed left-1/2 -translate-x-1/2 z-40 rounded-2xl border-2 overflow-hidden"
-          style={{
-            bottom: 'calc(60px + env(safe-area-inset-bottom, 0px) + 8px)',
-            background: 'var(--mb-dark)',
-            borderColor: 'rgba(245,200,66,0.4)',
-            boxShadow: '0 -4px 32px rgba(0,0,0,0.5)',
-            minWidth: '200px',
-          }}
-        >
-          {menuLinks.map(link => {
-            const isMenuActive = pathname === link.href;
-            return (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="flex items-center gap-3 px-4 py-3 transition-opacity hover:opacity-80"
-                style={{
-                  color: isMenuActive ? 'var(--mb-gold)' : 'rgba(255,255,255,0.85)',
-                  fontFamily: "'Zen Maru Gothic', sans-serif",
-                  fontSize: '13px',
-                  fontWeight: 'bold',
-                  background: isMenuActive ? 'rgba(245,200,66,0.08)' : 'transparent',
-                }}
-              >
-                <span className="text-base">{link.icon}</span>
-                {link.label}
-              </Link>
-            );
-          })}
-        </div>
-      )}
-
-      <nav
+    <nav
         className="fixed bottom-0 left-0 right-0 z-40 flex items-stretch"
         style={{
           background: 'var(--mb-dark)',
@@ -168,8 +68,6 @@ export default function BottomNav() {
       >
         {items.map((item) => {
           const isActive = item.href === '/' ? pathname === '/' : pathname.startsWith(item.href);
-          const showStreak = item.href === '/progress' && mounted && streakDays >= 1;
-          const showNewsBadge = item.href === '/news' && hasNewNews;
           const showCourseNudge = item.href === '/courses' && showStudyNudge;
 
           return (
@@ -181,25 +79,11 @@ export default function BottomNav() {
             >
               <div className="relative">
                 {item.icon(isActive)}
-                {showNewsBadge && (
-                  <div
-                    className="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 rounded-full border-2"
-                    style={{ background: 'var(--mb-red)', borderColor: 'var(--mb-dark)' }}
-                  />
-                )}
                 {showCourseNudge && (
                   <div
                     className="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 rounded-full border-2"
                     style={{ background: 'var(--mb-sky)', borderColor: 'var(--mb-dark)', animation: 'pulse 2s infinite' }}
                   />
-                )}
-                {showStreak && (
-                  <div
-                    className="absolute -top-1 -right-1.5 min-w-[14px] h-[14px] rounded-full flex items-center justify-center text-[8px] font-bold px-0.5"
-                    style={{ background: isActive ? 'var(--mb-gold)' : 'var(--mb-red)', color: 'white', fontFamily: "'Dela Gothic One', sans-serif" }}
-                  >
-                    {streakDays}
-                  </div>
                 )}
               </div>
               <span className="text-[9px] font-bold" style={{ fontFamily: "'Zen Maru Gothic', sans-serif" }}>
@@ -214,28 +98,6 @@ export default function BottomNav() {
             </Link>
           );
         })}
-
-        {/* メニューボタン */}
-        <button type="button"
-          onClick={() => setMenuOpen(v => !v)}
-          className="flex-1 relative flex flex-col items-center justify-center gap-0.5 transition-opacity hover:opacity-80"
-          style={{ color: menuOpen || isMenuPage ? 'var(--mb-gold)' : 'rgba(255,255,255,0.35)' }}
-          aria-label="メニューを開く"
-        >
-          <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-          <span className="text-[9px] font-bold" style={{ fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-            メニュー
-          </span>
-          {(menuOpen || isMenuPage) && (
-            <div
-              className="absolute top-0 left-1/2 -translate-x-1/2 w-8 h-0.5 rounded-full"
-              style={{ background: 'var(--mb-gold)' }}
-            />
-          )}
-        </button>
       </nav>
-    </>
   );
 }

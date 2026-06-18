@@ -9,6 +9,7 @@ import LessonNotes from './LessonNotes';
 import LessonLike from './LessonLike';
 import LessonTimer from './LessonTimer';
 import LessonTOC from './LessonTOC';
+import ComicSection from './lesson/ComicSection';
 
 interface LessonContentProps {
   lesson: Lesson;
@@ -166,6 +167,7 @@ function buildLessonText(lesson: Lesson, courseTitle: string, chapterTitle: stri
   for (const section of lesson.sections) {
     switch (section.type) {
       case 'image': break;
+      case 'comic': break;
       case 'text': lines.push(stripBold(section.content), ''); break;
       case 'heading':
         lines.push(section.level === 2 ? `■ ${section.content}` : `▶ ${section.content}`, ''); break;
@@ -579,6 +581,9 @@ function SectionRenderer({ section }: { section: LessonSection }) {
           )}
         </figure>
       );
+
+    case 'comic':
+      return <ComicSection comic={section.data} />;
 
     default:
       return null;

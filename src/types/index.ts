@@ -37,7 +37,8 @@ export type LessonSection =
   | { type: 'practice'; question: string; auxiliaryPrompt: string; answer: string }
   | { type: 'glossary'; terms: { term: string; definition: string }[] }
   | { type: 'summary'; content: string; nextLesson: string }
-  | { type: 'image'; src: string; alt: string; caption?: string };
+  | { type: 'image'; src: string; alt: string; caption?: string }
+  | { type: 'comic'; data: ComicData };
 
 export interface GameTag {
   source: 'ZAi';
