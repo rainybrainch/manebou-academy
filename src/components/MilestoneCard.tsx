@@ -63,6 +63,19 @@ export default function MilestoneCard() {
     next: m === nextMilestone,
   }));
 
+  // Build aria-label for the milestone card
+  const ariaLabel = completedCount === 0
+    ? '最初の一歩を踏み出そう。1講義完了すると学習記録が始まります。進捗ページへ'
+    : remaining === 1 && nextMilestone
+    ? `あと1講義で${nextMilestone}講義達成。進捗ページへ`
+    : streakDays >= 7
+    ? `${streakDays}日連続学習中${nextMilestone ? `。あと${remaining}講義で次の節目` : '。全マイルストーン制覇'}`
+    : streakDays >= 3
+    ? `${streakDays}日連続${nextMilestone ? `。あと${remaining}講義で${nextMilestone}講義達成` : '。このペースで続けよう'}`
+    : nextMilestone
+    ? `あと${remaining}講義で${nextMilestone}講義達成。現在${completedCount}講義、実績${earnedCount}個獲得。進捗ページへ`
+    : `全マイルストーン制覇。${completedCount}講義完了、実績${earnedCount}個獲得。進捗ページへ`;
+
   return (
     <Link
       href="/progress"
@@ -72,11 +85,13 @@ export default function MilestoneCard() {
         borderColor: 'var(--mb-dark)',
         boxShadow: '3px 3px 0 var(--mb-green)',
       }}
+      aria-label={ariaLabel}
     >
       <div className="flex items-center gap-3 px-4 py-3">
         <div
           className="w-10 h-10 rounded-xl flex items-center justify-center text-2xl shrink-0 border-2"
           style={{ background: 'rgba(76,175,125,0.1)', borderColor: 'rgba(76,175,125,0.3)' }}
+          aria-hidden="true"
         >
           {icon}
         </div>
@@ -98,8 +113,9 @@ export default function MilestoneCard() {
           <div
             className="shrink-0 text-[11px] font-bold px-2 py-1 rounded-lg"
             style={{ background: 'rgba(76,175,125,0.12)', color: 'var(--mb-green)', fontFamily: "'Dela Gothic One', sans-serif" }}
+            aria-label={`${earnedCount}個の実績を獲得`}
           >
-            🏅×{earnedCount}
+            <span aria-hidden="true">🏅</span>×{earnedCount}
           </div>
         )}
       </div>
@@ -107,10 +123,19 @@ export default function MilestoneCard() {
       {/* Mini progress bar */}
       {completedCount > 0 && nextMilestone && (
         <div className="px-4">
-          <div className="h-1.5 rounded-full overflow-hidden" style={{ background: 'rgba(26,26,46,0.08)' }}>
+          <div
+            className="h-1.5 rounded-full overflow-hidden"
+            style={{ background: 'rgba(26,26,46,0.08)' }}
+            role="progressbar"
+            aria-valuenow={pct}
+            aria-valuemin={0}
+            aria-valuemax={100}
+            aria-label={`マイルストーン進捗: ${prevMilestone}から${nextMilestone}へ向けて${pct}%完了`}
+          >
             <div
               className="h-full rounded-full transition-all duration-700"
               style={{ width: `${pct}%`, background: 'var(--mb-green)' }}
+              aria-hidden="true"
             />
           </div>
         </div>
