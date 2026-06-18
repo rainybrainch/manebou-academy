@@ -233,7 +233,7 @@ export default function CourseOverviewSheet({ category, meta, onClose }: Props) 
 
                     {/* Expanded lessons */}
                     {isExpanded && (
-                      <div className="mt-2 space-y-1 ml-4">
+                      <div className="mt-2 space-y-0.5 ml-4 pl-2 border-l-2" style={{ borderColor: `${meta.color}30` }}>
                         {course.lessons
                           .filter(l => !l.isComingSoon)
                           .map((lesson, lIdx) => (
@@ -241,17 +241,17 @@ export default function CourseOverviewSheet({ category, meta, onClose }: Props) 
                               key={lesson.id}
                               href={`/courses/${course.id}/lessons/${lesson.id}`}
                               onClick={onClose}
-                              className="flex items-center gap-2 p-2 rounded-lg hover:bg-gray-100 transition-colors text-left text-[11px]"
+                              className="flex items-start gap-2 p-1 rounded-md hover:bg-gray-100 transition-colors text-left text-xs group"
                               style={{ fontFamily: "'Zen Maru Gothic', sans-serif" }}
                             >
-                              <span style={{ color: 'rgba(26,26,46,0.3)', fontWeight: 'bold', minWidth: '20px' }}>
+                              <span style={{ color: 'rgba(26,26,46,0.3)', fontWeight: 'bold', minWidth: '18px', flexShrink: 0 }}>
                                 {lIdx + 1}.
                               </span>
-                              <span style={{ color: isCompleted(course.id, lesson.id) ? 'rgba(76,175,125,0.6)' : 'var(--mb-dark)' }}>
+                              <span style={{ color: isCompleted(course.id, lesson.id) ? 'rgba(76,175,125,0.6)' : 'var(--mb-dark)', minWidth: 0, flex: 1, wordBreak: 'break-word' }}>
                                 {lesson.title}
                               </span>
                               {isCompleted(course.id, lesson.id) && (
-                                <span style={{ color: 'var(--mb-green)', marginLeft: 'auto' }}>✓</span>
+                                <span style={{ color: 'var(--mb-green)', flexShrink: 0 }}>✓</span>
                               )}
                             </Link>
                           ))}

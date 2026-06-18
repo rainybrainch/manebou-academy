@@ -10,17 +10,18 @@ import CategoryProgressBar from '@/components/CategoryProgressBar';
 import OverallProgressBar from '@/components/OverallProgressBar';
 import { useProgress } from '@/hooks/useProgress';
 import AnimatedCollapse from '@/components/AnimatedCollapse';
+import CourseOverviewSheet from '@/components/CourseOverviewSheet';
 import { COURSE_META as courseMeta } from '@/data/course-meta';
 
 // カテゴリ（TopicCategory）のアイコン・カラー
-const topicMeta: Record<string, { icon: string; color: string }> = {
-  'cat-money':       { icon: '💴', color: '#5BC8E8' },
-  'cat-investment':  { icon: '📈', color: '#4CAF7D' },
-  'cat-economics':   { icon: '🌐', color: '#9B6DD6' },
-  'cat-politics':    { icon: '🏛', color: '#E8823A' },
-  'cat-zai':         { icon: '🎲', color: '#F5C842' },
-  'cat-boardgame':   { icon: '🎯', color: '#F5C842' },
-  'cat-exam-public': { icon: '📝', color: '#E8354A' },
+const topicMeta: Record<string, { icon: string; color: string; label: string; shadow: string }> = {
+  'cat-money':       { icon: '💴', color: '#5BC8E8', label: 'お金', shadow: 'rgba(91,200,232,0.3)' },
+  'cat-investment':  { icon: '📈', color: '#4CAF7D', label: '投資', shadow: 'rgba(76,175,125,0.3)' },
+  'cat-economics':   { icon: '🌐', color: '#9B6DD6', label: '経済', shadow: 'rgba(155,109,214,0.3)' },
+  'cat-politics':    { icon: '🏛', color: '#E8823A', label: '政治', shadow: 'rgba(232,130,58,0.3)' },
+  'cat-zai':         { icon: '🎲', color: '#F5C842', label: 'ZAi', shadow: 'rgba(245,200,66,0.3)' },
+  'cat-boardgame':   { icon: '🎯', color: '#F5C842', label: 'ボードゲーム', shadow: 'rgba(245,200,66,0.3)' },
+  'cat-exam-public': { icon: '📝', color: '#E8354A', label: '受験', shadow: 'rgba(232,53,74,0.3)' },
 };
 
 // ジャンルのアイコン・カラー
@@ -67,6 +68,7 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
   const [query, setQuery] = useState('');
   const [selectedGenre, setSelectedGenre] = useState<string | null>(null);
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
+  const [showOverviewId, setShowOverviewId] = useState<string | null>(null);
   const { isCompleted, lastViewedLesson, mounted } = useProgress();
 
   function toggle(key: string) {
@@ -302,11 +304,11 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
                 className="flex items-center gap-3 rounded-xl border-2 mb-6 overflow-hidden"
                 style={{ background: 'var(--mb-dark)', borderColor: accent, boxShadow: `4px 4px 0 ${accent}` }}
               >
-                {/* Course thumbnail — clickable */}
+                {/* Course thumbnail — clickable → show full flow */}
                 {category.image ? (
-                  <Link
-                    href={`/courses/${category.courses[0]?.id}`}
-                    className="w-20 h-16 shrink-0 relative hover:opacity-80 transition-opacity"
+                  <button
+                    onClick={() => setShowOverviewId(category.id)}
+                    className="w-20 h-16 shrink-0 relative hover:opacity-80 transition-opacity cursor-pointer border-none p-0 bg-transparent"
                   >
                     <Image
                       src={category.image}
@@ -316,7 +318,7 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
                       className="object-cover"
                       quality={80}
                     />
-                  </Link>
+                  </button>
                 ) : (
                   <div
                     className="w-14 h-14 shrink-0 flex items-center justify-center text-2xl ml-3 rounded-lg border-2"
@@ -599,6 +601,15 @@ export default function CoursesClient({ categories, totalCourses, totalLessons }
           );
         })}
       </div>
+
+      {/* CourseOverviewSheet Modal */}
+      {showOverviewId && (
+        <CourseOverviewSheet
+          category={categories.find(c => c.id === showOverviewId)!}
+          meta={topicMeta[showOverviewId] || { icon: '📚', color: '#5BC8E8' }}
+          onClose={() => setShowOverviewId(null)}
+        />
+      )}
     </div>
   );
 }

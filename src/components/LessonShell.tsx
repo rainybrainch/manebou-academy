@@ -279,16 +279,22 @@ export default function LessonShell({
         <button
           type="button"
           onClick={handleComplete}
-          className="fixed bottom-20 right-4 w-14 h-14 rounded-full flex items-center justify-center text-xl font-bold transition-all hover:scale-110 active:scale-95"
+          className="fixed bottom-20 right-4 w-16 h-16 rounded-full flex items-center justify-center text-sm font-bold transition-all hover:scale-110 active:scale-95 animate-pulse"
           style={{
             background: 'var(--mb-gold)',
             color: 'var(--mb-dark)',
-            zIndex: 40,
-            boxShadow: '0 4px 12px rgba(245,200,66,0.4)',
+            zIndex: 45,
+            boxShadow: '0 6px 20px rgba(245,200,66,0.6), 0 0 30px rgba(245,200,66,0.3)',
+            fontFamily: "'Zen Maru Gothic', sans-serif",
+            animationIterationCount: 'infinite',
+            animationDuration: '2s',
           }}
           title="講義を完了にする [C]"
         >
-          ✓
+          <div className="flex flex-col items-center gap-0.5">
+            <span>✓</span>
+            <span className="text-[9px]" style={{ letterSpacing: '-0.5px' }}>完了</span>
+          </div>
         </button>
       )}
 
