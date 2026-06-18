@@ -1,7 +1,7 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useProgress } from '@/hooks/useProgress';
 import { categories } from '@/data/courses';
 
@@ -12,10 +12,17 @@ export default function RandomLesson() {
   const router = useRouter();
   const [spinning, setSpinning] = useState(false);
   const [mode, setMode] = useState<'new' | 'review'>('new');
+  const spinTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     const saved = localStorage.getItem(MODE_KEY);
     if (saved === 'new' || saved === 'review') setMode(saved);
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      if (spinTimeoutRef.current) clearTimeout(spinTimeoutRef.current);
+    };
   }, []);
 
   function changeMode(m: 'new' | 'review') {
@@ -49,7 +56,8 @@ export default function RandomLesson() {
   function go() {
     if (pool.length === 0) return;
     setSpinning(true);
-    setTimeout(() => {
+    if (spinTimeoutRef.current) clearTimeout(spinTimeoutRef.current);
+    spinTimeoutRef.current = setTimeout(() => {
       const pick = pool[Math.floor(Math.random() * pool.length)];
       router.push(`/courses/${pick.courseId}/lessons/${pick.lessonId}`);
     }, 400);
