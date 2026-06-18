@@ -51,7 +51,7 @@ export default function AchievementsCard() {
             {unearnedWithProgress.map(({ a, pct, p }) => (
               <div key={a.id}>
                 <div className="flex items-center gap-2 mb-1">
-                  <span className="text-base shrink-0" style={{ filter: 'grayscale(0.5)' }}>{a.icon}</span>
+                  <span className="text-base shrink-0" style={{ filter: 'grayscale(0.5)' }} aria-hidden="true">{a.icon}</span>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center justify-between">
                       <div className="flex-1 min-w-0">
@@ -68,10 +68,19 @@ export default function AchievementsCard() {
                     </div>
                   </div>
                 </div>
-                <div className="h-1.5 rounded-full overflow-hidden ml-7" style={{ background: 'rgba(26,26,46,0.08)' }}>
+                <div
+                  className="h-1.5 rounded-full overflow-hidden ml-7"
+                  style={{ background: 'rgba(26,26,46,0.08)' }}
+                  role="progressbar"
+                  aria-valuenow={Math.round(pct * 100)}
+                  aria-valuemin={0}
+                  aria-valuemax={100}
+                  aria-label={`${a.title}: ${p ? `${p.current}/${p.total}` : '0%'} 進捗`}
+                >
                   <div
                     className="h-full rounded-full transition-all duration-700"
                     style={{ width: `${Math.round(pct * 100)}%`, background: 'var(--mb-gold)' }}
+                    aria-hidden="true"
                   />
                 </div>
               </div>

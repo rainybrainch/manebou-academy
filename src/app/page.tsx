@@ -64,7 +64,7 @@ export default function HomePage() {
             className="text-2xl leading-tight mb-2"
             style={{ fontFamily: "'Dela Gothic One', sans-serif", color: 'white' }}
           >
-            ゲームで遊んだら、<br />
+            遊んで学んだら、<br />
             <span style={{ color: 'var(--mb-gold)' }}>経済がわかった。</span>
           </h1>
           <p

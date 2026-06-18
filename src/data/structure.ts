@@ -8,7 +8,7 @@ export const genres: Genre[] = [
   },
   {
     id: 'g-game',
-    title: 'ゲーム系',
+    title: '遊び系',
     description: 'ボードゲームや体験型コンテンツで学ぶ。ZAiなど実践的なゲームと連動。',
   },
   {

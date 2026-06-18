@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useProgress } from '@/hooks/useProgress';
 import type { Category } from '@/types';
@@ -13,6 +13,7 @@ interface Props {
 
 export default function CourseOverviewSheet({ category, meta, onClose }: Props) {
   const { isCompleted, mounted } = useProgress();
+  const [selectedCourseId, setSelectedCourseId] = useState<string | null>(null);
 
   const totalLessons = category.courses.reduce((a, c) => a + c.lessons.filter(l => !l.isComingSoon).length, 0);
   const completedCount = mounted
@@ -99,8 +100,39 @@ export default function CourseOverviewSheet({ category, meta, onClose }: Props) 
           </div>
         </div>
 
+        {/* Chapter filter tabs */}
+        <div className="px-4 pb-3 shrink-0 overflow-x-auto scrollbar-hide flex gap-2">
+          <button
+            onClick={() => setSelectedCourseId(null)}
+            className="text-xs font-bold px-3 py-1.5 rounded-full border transition-all whitespace-nowrap shrink-0"
+            style={{
+              borderColor: selectedCourseId === null ? meta.color : 'rgba(26,26,46,0.1)',
+              color: selectedCourseId === null ? meta.color : 'rgba(26,26,46,0.5)',
+              background: selectedCourseId === null ? `${meta.color}12` : 'white',
+              fontFamily: "'Zen Maru Gothic', sans-serif",
+            }}
+          >
+            すべて
+          </button>
+          {category.courses.map((course, idx) => (
+            <button
+              key={course.id}
+              onClick={() => setSelectedCourseId(course.id)}
+              className="text-xs font-bold px-3 py-1.5 rounded-full border transition-all whitespace-nowrap shrink-0"
+              style={{
+                borderColor: selectedCourseId === course.id ? meta.color : 'rgba(26,26,46,0.1)',
+                color: selectedCourseId === course.id ? meta.color : 'rgba(26,26,46,0.5)',
+                background: selectedCourseId === course.id ? `${meta.color}12` : 'white',
+                fontFamily: "'Zen Maru Gothic', sans-serif",
+              }}
+            >
+              第{idx + 1}章
+            </button>
+          ))}
+        </div>
+
         {/* Chapter list */}
-        <div className="overflow-y-auto flex-1 px-4" style={{ paddingBottom: 'calc(24px + env(safe-area-inset-bottom, 0px))' }}>
+        <div className="overflow-y-auto flex-1 px-4 pb-16" style={{ minHeight: 0 }}>
           {/* Timeline line */}
           <div className="relative">
             <div
@@ -108,7 +140,10 @@ export default function CourseOverviewSheet({ category, meta, onClose }: Props) 
               style={{ background: 'rgba(26,26,46,0.08)' }}
             />
             <div className="space-y-3">
-              {category.courses.map((course, idx) => {
+              {category.courses
+                .filter(course => selectedCourseId === null || course.id === selectedCourseId)
+                .map((course) => {
+                const courseIdx = category.courses.findIndex(c => c.id === course.id);
                 const lessonCount = course.lessons.filter(l => !l.isComingSoon).length;
                 const doneCount = mounted
                   ? course.lessons.filter(l => !l.isComingSoon && isCompleted(course.id, l.id)).length
@@ -138,7 +173,7 @@ export default function CourseOverviewSheet({ category, meta, onClose }: Props) 
                         fontSize: '13px',
                       }}
                     >
-                      {allDone ? '✓' : idx + 1}
+                      {allDone ? '✓' : courseIdx + 1}
                     </div>
 
                     {/* Course icon */}
@@ -198,12 +233,14 @@ export default function CourseOverviewSheet({ category, meta, onClose }: Props) 
               })}
             </div>
           </div>
+        </div>
 
-          {/* Footer CTA */}
+        {/* Fixed Footer CTA */}
+        <div className="px-4 py-3 shrink-0 bg-gradient-to-t from-white via-white border-t" style={{ borderColor: 'rgba(26,26,46,0.08)' }}>
           <Link
             href="/courses"
             onClick={onClose}
-            className="mt-4 flex items-center justify-center gap-2 w-full py-3 rounded-xl border-2 text-sm font-bold transition-all hover:-translate-y-0.5"
+            className="flex items-center justify-center gap-2 w-full py-3 rounded-xl border-2 text-sm font-bold transition-all hover:-translate-y-0.5"
             style={{
               borderColor: meta.color,
               color: meta.color,
