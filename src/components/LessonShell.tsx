@@ -295,9 +295,6 @@ export default function LessonShell({
       {/* Related lessons */}
       <RelatedLessons categoryId={categoryId} courseId={courseId} lessonId={lesson.id} />
 
-      {/* Bottom spacing for fixed bar */}
-      <div className="h-16" />
-
       <RightPanel
         checkItems={lesson.checkItems}
         isOpen={checkOpen}
