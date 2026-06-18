@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import type { Category } from '@/types';
@@ -7,6 +8,7 @@ import type { TopicCategory } from '@/types';
 import { useMyCourses } from '@/hooks/useMyCourses';
 import { useProgress } from '@/hooks/useProgress';
 import CategoryCardProgress from '@/components/CategoryCardProgress';
+import CourseOverviewSheet from '@/components/CourseOverviewSheet';
 import { TOPIC_META as topicMeta } from '@/data/topic-meta';
 
 const LEVEL_COLOR: Record<string, string> = {
@@ -26,6 +28,7 @@ export default function CategoryPageClient({ tc, courses }: Props) {
   const { isCompleted } = useProgress();
   const tm = topicMeta[tc.id];
   const accent = tm?.color ?? '#5BC8E8';
+  const [overviewOpen, setOverviewOpen] = useState<string | null>(null);
 
   const totalLessons = courses.reduce((a, c) => a + c.courses.reduce((b, ch) => b + ch.lessons.filter(l => !l.isComingSoon).length, 0), 0);
   const completedLessons = mounted
@@ -235,12 +238,16 @@ export default function CategoryPageClient({ tc, courses }: Props) {
                   {course.description}
                 </p>
                 <div className="flex items-center justify-between mb-3">
-                  <span className="text-[10px] flex items-center gap-1.5" style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                  <button type="button"
+                    onClick={() => setOverviewOpen(course.id)}
+                    className="text-[10px] flex items-center gap-1.5 transition-opacity hover:opacity-70"
+                    style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                  >
                     {chapterCount}章 · {lessonCount}講義
                     {mounted && allDone && (
                       <span className="text-[9px] font-bold px-1.5 py-0.5 rounded-full" style={{ background: 'rgba(76,175,125,0.12)', color: 'var(--mb-green)', fontFamily: "'Dela Gothic One', sans-serif" }}>完了！</span>
                     )}
-                  </span>
+                  </button>
                   <CategoryCardProgress category={course} />
                 </div>
 
@@ -289,6 +296,15 @@ export default function CategoryPageClient({ tc, courses }: Props) {
       >
         ← コース一覧に戻る
       </Link>
+
+      {/* 全体フローモーダル */}
+      {overviewOpen && (
+        <CourseOverviewSheet
+          category={courses.find(c => c.id === overviewOpen)!}
+          meta={tm || { shadow: 'none', icon: '📖', label: tc.title, color: accent }}
+          onClose={() => setOverviewOpen(null)}
+        />
+      )}
     </div>
   );
 }
