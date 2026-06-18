@@ -36,19 +36,21 @@ export default function LessonScrollProgress() {
         />
       </div>
 
-      {/* Percentage badge */}
+      {/* Percentage badge — larger and more visible */}
       <div
-        className="fixed top-2 right-3 z-[69] text-[10px] font-bold px-2 py-0.5 rounded-full transition-all duration-300"
+        className="fixed top-1/2 right-4 z-[69] text-lg font-bold px-3 py-2 rounded-full transition-all duration-300"
         style={{
           fontFamily: "'Dela Gothic One', sans-serif",
-          background: done ? 'rgba(76,175,125,0.15)' : 'rgba(26,26,46,0.07)',
-          color: done ? 'var(--mb-green)' : 'rgba(26,26,46,0.45)',
+          background: done ? 'rgba(76,175,125,0.25)' : 'rgba(26,26,46,0.12)',
+          color: done ? 'var(--mb-green)' : 'var(--mb-dark)',
           opacity: (show || done) ? 1 : 0,
-          transform: (show || done) ? 'scale(1)' : 'scale(0.8)',
+          transform: (show || done) ? 'translateY(-50%) scale(1)' : 'translateY(-50%) scale(0.7)',
           pointerEvents: 'none',
+          border: done ? '2px solid var(--mb-green)' : '2px solid rgba(26,26,46,0.15)',
+          boxShadow: '0 2px 8px rgba(0,0,0,0.15)',
         }}
       >
-        {done ? '読了' : `${Math.round(pct)}%`}
+        {done ? '✓ 読了' : `${Math.round(pct)}%`}
       </div>
     </>
   );
