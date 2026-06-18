@@ -14,6 +14,7 @@ interface Props {
 export default function CourseOverviewSheet({ category, meta, onClose }: Props) {
   const { isCompleted, mounted } = useProgress();
   const [selectedCourseId, setSelectedCourseId] = useState<string | null>(null);
+  const [expandedCourseId, setExpandedCourseId] = useState<string | null>(category.courses[0]?.id ?? null);
 
   const totalLessons = category.courses.reduce((a, c) => a + c.lessons.filter(l => !l.isComingSoon).length, 0);
   const completedCount = mounted
@@ -152,83 +153,111 @@ export default function CourseOverviewSheet({ category, meta, onClose }: Props) 
                 const hasZai = course.lessons.some(l => l.gameTags && l.gameTags.length > 0);
                 const firstLesson = course.lessons.find(l => !l.isComingSoon);
 
+                const isExpanded = expandedCourseId === course.id;
+
                 return (
-                  <Link
-                    key={course.id}
-                    href={`/courses/${course.id}`}
-                    onClick={onClose}
-                    className="flex items-center gap-3 rounded-xl border-2 bg-white pl-2 pr-4 py-3 transition-all hover:-translate-y-0.5 active:translate-y-0 relative"
-                    style={{
-                      borderColor: allDone ? 'var(--mb-green)' : 'rgba(26,26,46,0.1)',
-                      boxShadow: allDone ? '2px 2px 0 rgba(76,175,125,0.25)' : '2px 2px 0 rgba(26,26,46,0.06)',
-                    }}
-                  >
-                    {/* Chapter number circle */}
-                    <div
-                      className="w-9 h-9 rounded-full flex items-center justify-center text-sm font-bold shrink-0 z-10"
+                  <div key={course.id}>
+                    {/* Chapter toggle button */}
+                    <button
+                      onClick={() => setExpandedCourseId(isExpanded ? null : course.id)}
+                      className="flex items-center gap-3 w-full rounded-xl border-2 bg-white pl-2 pr-4 py-3 transition-all hover:-translate-y-0.5 active:translate-y-0 text-left"
                       style={{
-                        background: allDone ? 'var(--mb-green)' : 'var(--mb-dark)',
-                        color: allDone ? 'white' : meta.color,
-                        fontFamily: "'Dela Gothic One', sans-serif",
-                        fontSize: '13px',
+                        borderColor: allDone ? 'var(--mb-green)' : 'rgba(26,26,46,0.1)',
+                        boxShadow: allDone ? '2px 2px 0 rgba(76,175,125,0.25)' : '2px 2px 0 rgba(26,26,46,0.06)',
                       }}
                     >
-                      {allDone ? '✓' : courseIdx + 1}
-                    </div>
-
-                    {/* Course icon */}
-                    <div
-                      className="w-10 h-10 rounded-lg flex items-center justify-center text-lg shrink-0"
-                      style={{ background: `${meta.color}15` }}
-                    >
-                      📖
-                    </div>
-
-                    {/* Info */}
-                    <div className="flex-1 min-w-0">
+                      {/* Chapter number circle */}
                       <div
-                        className="text-xs font-bold leading-snug mb-0.5"
-                        style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                        className="w-9 h-9 rounded-full flex items-center justify-center text-sm font-bold shrink-0 z-10"
+                        style={{
+                          background: allDone ? 'var(--mb-green)' : 'var(--mb-dark)',
+                          color: allDone ? 'white' : meta.color,
+                          fontFamily: "'Dela Gothic One', sans-serif",
+                          fontSize: '13px',
+                        }}
                       >
-                        {course.title}
+                        {allDone ? '✓' : courseIdx + 1}
                       </div>
-                      <div className="flex items-center gap-2 flex-wrap">
-                        <span
-                          className="text-[10px]"
-                          style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
-                        >
-                          {lessonCount}講義
-                          {mounted && doneCount > 0 && doneCount < lessonCount && (
-                            <span style={{ color: 'var(--mb-green)' }}> · {doneCount}完了</span>
-                          )}
-                        </span>
-                        {hasZai && (
-                          <span
-                            className="text-[9px] font-bold px-1.5 py-0.5 rounded-full flex items-center gap-0.5"
-                            style={{ background: 'rgba(245,200,66,0.15)', color: '#B8920A', fontFamily: "'Zen Maru Gothic', sans-serif" }}
-                          >
-                            🎲 ZAi連動
-                          </span>
-                        )}
-                      </div>
-                    </div>
 
-                    {/* Progress or chevron */}
-                    {mounted && doneCount > 0 && doneCount < lessonCount ? (
-                      <div className="shrink-0">
+                      {/* Course icon */}
+                      <div
+                        className="w-10 h-10 rounded-lg flex items-center justify-center text-lg shrink-0"
+                        style={{ background: `${meta.color}15` }}
+                      >
+                        📖
+                      </div>
+
+                      {/* Info */}
+                      <div className="flex-1 min-w-0">
                         <div
-                          className="text-[9px] font-bold px-2 py-0.5 rounded-full"
-                          style={{ background: 'rgba(91,200,232,0.15)', color: 'var(--mb-sky)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                          className="text-xs font-bold leading-snug mb-0.5"
+                          style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
                         >
-                          続きから
+                          {course.title}
+                        </div>
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <span
+                            className="text-[10px]"
+                            style={{ color: 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                          >
+                            {lessonCount}講義
+                            {mounted && doneCount > 0 && doneCount < lessonCount && (
+                              <span style={{ color: 'var(--mb-green)' }}> · {doneCount}完了</span>
+                            )}
+                          </span>
+                          {hasZai && (
+                            <span
+                              className="text-[9px] font-bold px-1.5 py-0.5 rounded-full flex items-center gap-0.5"
+                              style={{ background: 'rgba(245,200,66,0.15)', color: '#B8920A', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                            >
+                              🎲 ZAi連動
+                            </span>
+                          )}
                         </div>
                       </div>
-                    ) : (
-                      <svg className="w-4 h-4 shrink-0" style={{ color: 'rgba(26,26,46,0.25)' }} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+
+                      {/* Chevron */}
+                      <svg
+                        className="w-4 h-4 shrink-0 transition-transform"
+                        style={{
+                          color: 'rgba(26,26,46,0.25)',
+                          transform: isExpanded ? 'rotate(90deg)' : 'rotate(0)',
+                        }}
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
+                    </button>
+
+                    {/* Expanded lessons */}
+                    {isExpanded && (
+                      <div className="mt-2 space-y-1 ml-4">
+                        {course.lessons
+                          .filter(l => !l.isComingSoon)
+                          .map((lesson, lIdx) => (
+                            <Link
+                              key={lesson.id}
+                              href={`/courses/${course.id}/lessons/${lesson.id}`}
+                              onClick={onClose}
+                              className="flex items-center gap-2 p-2 rounded-lg hover:bg-gray-100 transition-colors text-left text-[11px]"
+                              style={{ fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                            >
+                              <span style={{ color: 'rgba(26,26,46,0.3)', fontWeight: 'bold', minWidth: '20px' }}>
+                                {lIdx + 1}.
+                              </span>
+                              <span style={{ color: isCompleted(course.id, lesson.id) ? 'rgba(76,175,125,0.6)' : 'var(--mb-dark)' }}>
+                                {lesson.title}
+                              </span>
+                              {isCompleted(course.id, lesson.id) && (
+                                <span style={{ color: 'var(--mb-green)', marginLeft: 'auto' }}>✓</span>
+                              )}
+                            </Link>
+                          ))}
+                      </div>
                     )}
-                  </Link>
+                  </div>
                 );
               })}
             </div>
