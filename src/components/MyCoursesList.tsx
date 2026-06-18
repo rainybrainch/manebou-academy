@@ -99,9 +99,10 @@ export default function MyCoursesList() {
                     href={href}
                     className="flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-[10px] font-bold transition-all hover:opacity-80"
                     style={{ background: accent, color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                    aria-label={pct === 100 ? `${course.title}を復習する` : done > 0 ? `${course.title}の続きから学ぶ` : `${course.title}を学ぶ`}
                   >
                     {pct === 100 ? '復習' : done > 0 ? '続き' : '学ぶ'}
-                    <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
                     </svg>
                   </Link>
@@ -110,8 +111,9 @@ export default function MyCoursesList() {
                     className="w-6 h-6 flex items-center justify-center rounded-full transition-all hover:opacity-60"
                     style={{ color: 'rgba(26,26,46,0.3)' }}
                     title="マイコースから削除"
+                    aria-label={`${course.title}をマイコースから削除`}
                   >
-                    <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                     </svg>
                   </button>
