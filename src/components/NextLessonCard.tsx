@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { useMemo } from 'react';
 import { useProgress } from '@/hooks/useProgress';
 import { categories } from '@/data/courses';
 import { COURSE_META as categoryMeta } from '@/data/course-meta';
@@ -8,63 +9,68 @@ import { COURSE_META as categoryMeta } from '@/data/course-meta';
 export default function NextLessonCard() {
   const { isCompleted, lastViewedLesson, mounted } = useProgress();
 
-  // Resolve target: prefer "resume" (last viewed if not completed), else first incomplete
-  let targetCourseId = '';
-  let targetCourseTitle = '';
-  let targetLesson = categories[0]?.courses[0]?.lessons[0];
-  let targetCategoryId = categories[0]?.id ?? '';
-  let isResume = false;
+  // Memoize target lesson resolution and progress calculation
+  const { targetCourseId, targetCourseTitle, targetLesson, targetCategoryId, isResume, courseDone, courseTotal } = useMemo(() => {
+    let courseId = '';
+    let courseTitle = '';
+    let lesson = categories[0]?.courses[0]?.lessons[0];
+    let categoryId = categories[0]?.id ?? '';
+    let resume = false;
+    let done = 0;
+    let total = 0;
 
-  if (mounted && lastViewedLesson) {
-    // Try to resume last viewed
-    const [lvCourseId, lvLessonId] = lastViewedLesson.split('/');
-    for (const cat of categories) {
-      const course = cat.courses.find(c => c.id === lvCourseId);
-      if (course) {
-        const lesson = course.lessons.find(l => l.id === lvLessonId);
-        if (lesson && !lesson.isComingSoon && !isCompleted(lvCourseId, lvLessonId)) {
-          targetCourseId = lvCourseId;
-          targetCourseTitle = course.title;
-          targetLesson = lesson;
-          targetCategoryId = cat.id;
-          isResume = true;
-          break;
-        }
-      }
-    }
-  }
-
-  if (!isResume) {
-    // Fall through to first incomplete
-    outer: for (const cat of categories) {
-      for (const course of cat.courses) {
-        for (const lesson of course.lessons) {
-          if (!lesson.isComingSoon && (!mounted || !isCompleted(course.id, lesson.id))) {
-            targetCourseId = course.id;
-            targetCourseTitle = course.title;
-            targetLesson = lesson;
-            targetCategoryId = cat.id;
-            break outer;
+    // Resolve target: prefer "resume" (last viewed if not completed), else first incomplete
+    if (mounted && lastViewedLesson) {
+      // Try to resume last viewed
+      const [lvCourseId, lvLessonId] = lastViewedLesson.split('/');
+      for (const cat of categories) {
+        const course = cat.courses.find(c => c.id === lvCourseId);
+        if (course) {
+          const l = course.lessons.find(l => l.id === lvLessonId);
+          if (l && !l.isComingSoon && !isCompleted(lvCourseId, lvLessonId)) {
+            courseId = lvCourseId;
+            courseTitle = course.title;
+            lesson = l;
+            categoryId = cat.id;
+            resume = true;
+            break;
           }
         }
       }
     }
-  }
 
-  // Course-level progress
-  let courseDone = 0;
-  let courseTotal = 0;
-  if (targetCourseId && mounted) {
-    for (const cat of categories) {
-      const course = cat.courses.find(c => c.id === targetCourseId);
-      if (course) {
-        const available = course.lessons.filter(l => !l.isComingSoon);
-        courseTotal = available.length;
-        courseDone = available.filter(l => isCompleted(targetCourseId, l.id)).length;
-        break;
+    if (!resume) {
+      // Fall through to first incomplete
+      outer: for (const cat of categories) {
+        for (const course of cat.courses) {
+          for (const l of course.lessons) {
+            if (!l.isComingSoon && (!mounted || !isCompleted(course.id, l.id))) {
+              courseId = course.id;
+              courseTitle = course.title;
+              lesson = l;
+              categoryId = cat.id;
+              break outer;
+            }
+          }
+        }
       }
     }
-  }
+
+    // Calculate course-level progress
+    if (courseId && mounted) {
+      for (const cat of categories) {
+        const course = cat.courses.find(c => c.id === courseId);
+        if (course) {
+          const available = course.lessons.filter(l => !l.isComingSoon);
+          total = available.length;
+          done = available.filter(l => isCompleted(courseId, l.id)).length;
+          break;
+        }
+      }
+    }
+
+    return { targetCourseId: courseId, targetCourseTitle: courseTitle, targetLesson: lesson, targetCategoryId: categoryId, isResume: resume, courseDone: done, courseTotal: total };
+  }, [mounted, lastViewedLesson, isCompleted]);
 
   const meta = categoryMeta[targetCategoryId];
   const href = targetLesson ? `/courses/${targetCourseId}/lessons/${targetLesson.id}` : '/courses';
