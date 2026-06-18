@@ -47,13 +47,16 @@ export default function RecentLessons() {
       .filter(Boolean) as (typeof allLessons[0] & { key: string; dateStr: string | null })[];
   }, [mounted, completedCount, completedLessonKeys, lessonCompletionDates]);
 
+  const todayDateStr = useMemo(() => {
+    const n = new Date();
+    return `${n.getFullYear()}-${String(n.getMonth() + 1).padStart(2, '0')}-${String(n.getDate()).padStart(2, '0')}`;
+  }, []);
+
   if (!mounted || completedCount === 0) return null;
   if (recentItems.length === 0) return null;
 
   const displayItems = showAll ? recentItems : recentItems.slice(0, INITIAL_COUNT);
   const hasMore = recentItems.length > INITIAL_COUNT;
-  const _n = new Date();
-  const todayDateStr = `${_n.getFullYear()}-${String(_n.getMonth() + 1).padStart(2, '0')}-${String(_n.getDate()).padStart(2, '0')}`;
 
   return (
     <div>
