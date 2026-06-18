@@ -1,12 +1,13 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { categories } from '@/data/courses';
 
 export default function ExportNotes() {
   const [count, setCount] = useState(0);
   const [copied, setCopied] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const copiedTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     let n = 0;
@@ -19,6 +20,12 @@ export default function ExportNotes() {
     );
     setCount(n);
     setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      if (copiedTimeoutRef.current) clearTimeout(copiedTimeoutRef.current);
+    };
   }, []);
 
   if (!mounted || count === 0) return null;
@@ -40,7 +47,8 @@ export default function ExportNotes() {
     });
     await navigator.clipboard.writeText(lines.join('\n'));
     setCopied(true);
-    setTimeout(() => setCopied(false), 2500);
+    if (copiedTimeoutRef.current) clearTimeout(copiedTimeoutRef.current);
+    copiedTimeoutRef.current = setTimeout(() => setCopied(false), 2500);
   }
 
   return (
