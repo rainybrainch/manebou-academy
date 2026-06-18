@@ -361,13 +361,14 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
                 </div>
 
                 <div className="flex-1 min-w-0">
-                  <div className="flex items-center gap-2 flex-wrap">
+                  <div className="flex items-start gap-1.5 flex-wrap">
                     <span
-                      className="text-sm font-medium truncate"
+                      className="text-sm font-medium flex-1 min-w-0"
                       style={{
                         color: lesson.isComingSoon ? 'rgba(26,26,46,0.3)' : done ? 'rgba(26,26,46,0.5)' : 'var(--mb-dark)',
                         fontFamily: "'Zen Maru Gothic', sans-serif",
                         textDecoration: done ? 'line-through' : 'none',
+                        wordBreak: 'break-word',
                       }}
                     >
                       {lesson.title}
