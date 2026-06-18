@@ -17,7 +17,7 @@ import { dividendStocksCategory } from './course-dividend-stocks';
 import { cryptoBasicsCategory } from './course-crypto-basics';
 import { furusatoTaxCategory } from './course-furusato-tax';
 import { freelanceMoneyCategory } from './course-freelance-money';
-import { fxForexCategory } from './course-fx-forex';
+import { fxForexCategory } from './course-fx
 
 const nisaBasicsCategory: Category = {
   id: 'nisa-basics',

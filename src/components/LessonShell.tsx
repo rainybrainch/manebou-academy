@@ -274,13 +274,14 @@ export default function LessonShell({
         lessonTotal={lessonTotal}
       />
 
-      {/* Completion bar — fixed at bottom */}
+      {/* Completion bar — fixed above bottom nav */}
       <div
-        className="fixed bottom-0 left-0 right-0 z-50 px-4 pt-3 flex items-center gap-3"
+        className="fixed left-0 right-0 z-40 px-4 pt-3 flex items-center gap-3"
         style={{
+          bottom: '60px',
           background: 'var(--mb-dark)',
           borderTop: '2px solid var(--mb-gold)',
-          paddingBottom: 'max(12px, env(safe-area-inset-bottom))',
+          paddingBottom: '12px',
         }}
       >
         {completed ? (

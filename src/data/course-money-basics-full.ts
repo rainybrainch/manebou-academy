@@ -3,7 +3,7 @@
 export const moneyBasicsFullCategory: Category = {
   id: 'money-basics-full',
   title: 'お金の基本コース',
-  description: 'お金って何？から資産形成まで。子供から大人まで一緒に学べる総合コース。全7章・37講義。',
+  description: 'お金って何？から資産形成まで。子供から大人まで一緒に学べる総合コース。全7章・39講義。',
   level: '入門',
   topicCategoryId: 'cat-money',
   image: '/images/courses/money-basics.webp',
