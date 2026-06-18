@@ -5,6 +5,7 @@ import { useRouter } from 'next/navigation';
 import LessonContent from './LessonContent';
 import LessonScrollProgress from './LessonScrollProgress';
 import RelatedLessons from './RelatedLessons';
+import LessonCheckItems from './LessonCheckItems';
 import { useCompletionSound } from '@/hooks/useCompletionSound';
 import { useSwipe } from '@/hooks/useSwipe';
 import RightPanel from './RightPanel';
@@ -95,6 +96,7 @@ export default function LessonShell({
   const [completionQuote, setCompletionQuote] = useState('');
   const [autoNextCount, setAutoNextCount] = useState<number | null>(null);
   const [showCourseComplete, setShowCourseComplete] = useState(false);
+  const [allPointsChecked, setAllPointsChecked] = useState(false);
   const { isCompleted, completeLesson, uncompleteLesson, viewLesson, mounted } = useProgress();
   const playSound = useCompletionSound();
   const router = useRouter();

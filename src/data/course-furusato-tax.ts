@@ -6,6 +6,7 @@ export const furusatoTaxCategory: Category = {
   description: '税金を払いながら返礼品ももらえる制度。仕組みから手続きまで、損しないために知っておきたいこと全部。',
   level: '入門',
   topicCategoryId: 'cat-money',
+  image: '/images/courses/furusato-tax.webp',
   courses: [
     {
       id: 'furu-ch1',

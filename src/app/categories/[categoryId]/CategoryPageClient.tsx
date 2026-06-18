@@ -166,38 +166,40 @@ export default function CategoryPageClient({ tc, courses }: Props) {
             >
               {/* コース画像 16:9 */}
               {course.image ? (
-                <div className="relative w-full" style={{ aspectRatio: '16/9' }}>
-                  <Image
-                    src={course.image}
-                    alt={course.title}
-                    fill
-                    sizes="(max-width: 640px) 100vw, 576px"
-                    className="object-cover"
-                    quality={80}
-                  />
-                  <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, transparent 50%, rgba(26,26,46,0.65))' }} />
-                  {course.level && (
-                    <div
-                      className="absolute top-2 left-2 text-[9px] font-bold px-2 py-0.5 rounded-full"
-                      style={{ background: LEVEL_COLOR[course.level] ?? accent, color: 'white', fontFamily: "'Zen Maru Gothic', sans-serif" }}
-                    >
-                      {course.level}
+                <Link href={startHref}>
+                  <div className="relative w-full cursor-pointer hover:opacity-90 transition-opacity" style={{ aspectRatio: '16/9' }}>
+                    <Image
+                      src={course.image}
+                      alt={course.title}
+                      fill
+                      sizes="(max-width: 640px) 100vw, 576px"
+                      className="object-cover"
+                      quality={80}
+                    />
+                    <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, transparent 50%, rgba(26,26,46,0.65))' }} />
+                    {course.level && (
+                      <div
+                        className="absolute top-2 left-2 text-[9px] font-bold px-2 py-0.5 rounded-full"
+                        style={{ background: LEVEL_COLOR[course.level] ?? accent, color: 'white', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                      >
+                        {course.level}
+                      </div>
+                    )}
+                    {selected && (
+                      <div
+                        className="absolute top-2 right-2 text-[9px] font-bold px-2 py-0.5 rounded-full flex items-center gap-1"
+                        style={{ background: accent, color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
+                      >
+                        ⭐ 学習中
+                      </div>
+                    )}
+                    <div className="absolute bottom-2 left-3 right-3">
+                      <span className="text-sm font-bold text-white" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", textShadow: '0 1px 3px rgba(0,0,0,0.5)' }}>
+                        {course.title}
+                      </span>
                     </div>
-                  )}
-                  {selected && (
-                    <div
-                      className="absolute top-2 right-2 text-[9px] font-bold px-2 py-0.5 rounded-full flex items-center gap-1"
-                      style={{ background: accent, color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
-                    >
-                      ⭐ 学習中
-                    </div>
-                  )}
-                  <div className="absolute bottom-2 left-3 right-3">
-                    <span className="text-sm font-bold text-white" style={{ fontFamily: "'Zen Maru Gothic', sans-serif", textShadow: '0 1px 3px rgba(0,0,0,0.5)' }}>
-                      {course.title}
-                    </span>
                   </div>
-                </div>
+                </Link>
               ) : (
                 <div
                   className="w-full flex items-center justify-center relative"

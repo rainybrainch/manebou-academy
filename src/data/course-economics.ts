@@ -6,6 +6,7 @@ export const economicsCategory: Category = {
   description: 'GDPから為替・金融政策まで。ニュースで見る「経済」の言葉が全部わかるようになるコース。',
   level: '基礎',
   topicCategoryId: 'cat-economics',
+  image: '/images/courses/economics.webp',
   courses: [
     // ─────────────────────────────────────────
     // 第1章：GDPと経済成長

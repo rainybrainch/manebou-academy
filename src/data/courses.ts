@@ -19,6 +19,23 @@ import { furusatoTaxCategory } from './course-furusato-tax';
 import { freelanceMoneyCategory } from './course-freelance-money';
 import { fxForexCategory } from './course-fx-forex';
 import { zaiLinkedCategory } from './course-zai-linked';
+import { optionsTradingCategory } from './course-options-trading';
+import { etfStockSelectionCategory } from './course-etf-stock-selection';
+import { taxOptimizationCategory } from './course-tax-optimization';
+import { investmentRiskManagementCategory } from './course-investment-risk-management';
+import { roboAdvisorCategory } from './course-robo-advisor';
+import { reitRealEstateCategory } from './course-reit-real-estate';
+import { macroEconomicsCategory } from './course-macro-economics';
+import { microEconomicsCategory } from './course-micro-economics';
+import { financialSystemCategory } from './course-financial-system';
+import { internationalTradeCategory } from './course-international-trade';
+import { industryStructureCategory } from './course-industry-structure';
+import { economicCrisesCategory } from './course-economic-crises';
+import { developmentEconomicsCategory, behavioralEconomicsCategory } from './course-development-economics';
+import { japaneseElectionsCategory } from './course-japanese-elections';
+import { governmentSystemsCategory } from './course-government-systems';
+import { partyPoliticsCategory, internationalPoliticsCategory, constitutionLawCategory } from './course-party-politics';
+import { localGovernmentCategory, populismAuthoritarianismCategory, politicsEconomicsCategory, digitalPoliticsCategory } from './course-political-topics';
 
 const nisaBasicsCategory: Category = {
   id: 'nisa-basics',
@@ -551,6 +568,29 @@ export const categories: Category[] = [
   freelanceMoneyCategory,
   fxForexCategory,
   zaiLinkedCategory,
+  optionsTradingCategory,
+  etfStockSelectionCategory,
+  taxOptimizationCategory,
+  investmentRiskManagementCategory,
+  roboAdvisorCategory,
+  reitRealEstateCategory,
+  macroEconomicsCategory,
+  microEconomicsCategory,
+  financialSystemCategory,
+  internationalTradeCategory,
+  industryStructureCategory,
+  economicCrisesCategory,
+  developmentEconomicsCategory,
+  behavioralEconomicsCategory,
+  japaneseElectionsCategory,
+  governmentSystemsCategory,
+  partyPoliticsCategory,
+  internationalPoliticsCategory,
+  constitutionLawCategory,
+  localGovernmentCategory,
+  populismAuthoritarianismCategory,
+  politicsEconomicsCategory,
+  digitalPoliticsCategory,
 ];
 
 export function getCourse(courseId: string) {

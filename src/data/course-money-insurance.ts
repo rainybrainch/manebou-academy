@@ -6,6 +6,7 @@ export const moneyInsuranceCategory: Category = {
   description: '民間保険（生命・医療・損害）の仕組みと選び方。本当に必要な保険だけを賢く選ぶ目を養います。',
   level: '基礎',
   topicCategoryId: 'cat-money',
+  image: '/images/courses/money-insurance.webp',
   courses: [
     // ─────────────────────────────────────────
     // 第1章：保険の役割と仕組み

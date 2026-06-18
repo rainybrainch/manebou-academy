@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 import { useProgress } from '@/hooks/useProgress';
+import { useScrollProgress } from '@/hooks/useScrollProgress';
 
 const LATEST_NEWS_DATE = '2026-06-18';
 const NEWS_SEEN_KEY = 'mb_news_seen';
@@ -51,6 +52,7 @@ const items = [
 export default function BottomNav() {
   const pathname = usePathname();
   const { streakDays, dailyLessonCounts, completedCount, mounted } = useProgress();
+  const scrollPct = useScrollProgress();
   const [hasNewNews, setHasNewNews] = useState(false);
 
   useEffect(() => {
@@ -72,8 +74,43 @@ export default function BottomNav() {
   })();
   const showStudyNudge = mounted && completedCount > 0 && !todayStudied;
   const showStreak = mounted && streakDays >= 1;
+  const isLessonPage = pathname.includes('/lessons/');
 
-  if (pathname.includes('/lessons/')) return null;
+  if (isLessonPage) {
+    const isDone = scrollPct >= 100;
+    return (
+      <nav
+        className="fixed bottom-4 left-1/2 -translate-x-1/2 z-40 flex items-center gap-2 px-3 py-2 rounded-full"
+        style={{
+          background: 'var(--mb-dark)',
+          border: '2px solid var(--mb-gold)',
+          boxShadow: '0 4px 12px rgba(26,26,46,0.3)',
+        }}
+      >
+        <Link
+          href="/"
+          className="flex items-center justify-center w-8 h-8 rounded-full transition-opacity hover:opacity-80"
+          style={{ color: 'rgba(255,255,255,0.6)' }}
+          title="戻る"
+        >
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+          </svg>
+        </Link>
+
+        <div
+          className="text-xs font-bold px-2.5 py-1 rounded-full flex items-center gap-1"
+          style={{
+            background: isDone ? 'rgba(76,175,125,0.15)' : 'rgba(245,200,66,0.1)',
+            color: isDone ? 'var(--mb-green)' : 'var(--mb-gold)',
+            fontFamily: "'Dela Gothic One', sans-serif",
+          }}
+        >
+          {isDone ? '✓' : `${Math.round(scrollPct)}%`}
+        </div>
+      </nav>
+    );
+  }
 
   return (
     <nav

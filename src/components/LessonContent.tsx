@@ -726,16 +726,6 @@ export default function LessonContent({
           )}
         </div>
 
-        {/* Font size toggle */}
-        <button type="button"
-          onClick={cycleFont}
-          className="shrink-0 w-7 h-7 flex items-center justify-center rounded-lg border-2 transition-all hover:-translate-y-px"
-          style={{ background: 'var(--mb-cream)', borderColor: 'rgba(26,26,46,0.2)', color: 'var(--mb-dark)' }}
-          title="文字サイズ変更"
-        >
-          <span style={{ fontFamily: "'Dela Gothic One', sans-serif", fontSize: labelSize, lineHeight: 1 }}>A</span>
-        </button>
-
         {/* チェック button */}
         <button type="button"
           onClick={onToggleCheck}
