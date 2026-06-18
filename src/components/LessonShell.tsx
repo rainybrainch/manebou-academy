@@ -274,154 +274,23 @@ export default function LessonShell({
         lessonTotal={lessonTotal}
       />
 
-      {/* Completion bar — fixed above bottom nav */}
-      <div
-        className="fixed left-0 right-0 z-40 px-4 pt-3 flex items-center gap-3"
-        style={{
-          bottom: '60px',
-          background: 'var(--mb-dark)',
-          borderTop: '2px solid var(--mb-gold)',
-          paddingBottom: '12px',
-        }}
-      >
-        {completed ? (
-          <>
-            <div className="flex items-center gap-2 shrink-0">
-              <div
-                className="flex items-center gap-1.5 py-2.5 px-3 rounded-xl border-2 text-xs font-bold"
-                style={{ borderColor: 'var(--mb-green)', background: 'rgba(76,175,125,0.15)', color: 'var(--mb-green)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
-              >
-                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
-                </svg>
-                完了済み
-              </div>
-              <button type="button"
-                onClick={() => uncompleteLesson(courseId, lesson.id)}
-                className="flex items-center gap-1 py-2 px-2.5 rounded-xl border text-[10px] font-bold transition-all hover:opacity-80"
-                style={{ borderColor: 'rgba(255,255,255,0.15)', background: 'rgba(255,255,255,0.06)', color: 'rgba(255,255,255,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
-                title="完了を取り消す"
-              >
-                <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" />
-                </svg>
-                取り消し
-              </button>
-            </div>
-            {next ? (
-              <div className="flex-1 flex items-center gap-2">
-                <button type="button"
-                  onClick={() => { setAutoNextCount(null); router.push(`/courses/${next.courseId}/lessons/${next.lesson.id}`); }}
-                  className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl border-2 text-sm font-bold transition-all hover:opacity-90 active:scale-95 relative overflow-hidden"
-                  style={{
-                    background: 'var(--mb-gold)',
-                    borderColor: 'var(--mb-gold)',
-                    color: 'var(--mb-dark)',
-                    fontFamily: "'Zen Maru Gothic', sans-serif",
-                  }}
-                >
-                  {autoNextCount !== null && (
-                    <div
-                      className="absolute inset-0 rounded-xl"
-                      style={{
-                        background: 'rgba(26,26,46,0.12)',
-                        width: `${(autoNextCount / 5) * 100}%`,
-                        transition: 'width 1s linear',
-                      }}
-                    />
-                  )}
-                  <span className="relative z-10 flex flex-col items-center gap-0.5">
-                    <span className="flex items-center gap-2">
-                      次の講義へ
-                      {autoNextCount !== null && autoNextCount > 0 && (
-                        <span className="text-[11px] font-bold opacity-70">{autoNextCount}</span>
-                      )}
-                      <kbd className="hidden sm:inline text-[10px] opacity-40 font-mono">[→]</kbd>
-                      <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
-                      </svg>
-                    </span>
-                    {next.chapterTitle !== chapterTitle && (
-                      <span className="text-[9px] font-normal opacity-60">次の章: {next.chapterTitle}</span>
-                    )}
-                  </span>
-                </button>
-                {autoNextCount !== null && (
-                  <button type="button"
-                    onClick={() => setAutoNextCount(null)}
-                    className="shrink-0 w-9 h-9 flex items-center justify-center rounded-xl border-2 text-xs font-bold"
-                    style={{ borderColor: 'rgba(255,255,255,0.2)', color: 'rgba(255,255,255,0.5)', background: 'rgba(255,255,255,0.06)' }}
-                    title="自動移動をキャンセル"
-                  >
-                    ✕
-                  </button>
-                )}
-              </div>
-            ) : (
-              <button type="button"
-                onClick={() => router.push('/courses')}
-                className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl border-2 text-sm font-bold transition-all hover:opacity-90 active:scale-95"
-                style={{
-                  background: 'rgba(255,255,255,0.08)',
-                  borderColor: 'rgba(255,255,255,0.2)',
-                  color: 'white',
-                  fontFamily: "'Zen Maru Gothic', sans-serif",
-                }}
-              >
-                コース一覧へ戻る
-              </button>
-            )}
-          </>
-        ) : (
-          <>
-            <button type="button"
-              onClick={handleComplete}
-              className="flex-1 flex items-center justify-center gap-2 py-2.5 rounded-xl border-2 text-sm font-bold transition-all hover:opacity-90 active:scale-95"
-              style={{
-                background: justCompleted ? 'var(--mb-green)' : 'rgba(255,255,255,0.08)',
-                borderColor: justCompleted ? 'var(--mb-green)' : 'rgba(255,255,255,0.2)',
-                color: 'white',
-                fontFamily: "'Zen Maru Gothic', sans-serif",
-              }}
-            >
-              {justCompleted ? (
-                <>
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
-                  </svg>
-                  完了！
-                </>
-              ) : (
-                <>
-                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  講義を完了にする
-                  <kbd className="hidden sm:inline text-[10px] opacity-40 ml-1 font-mono">[C]</kbd>
-                </>
-              )}
-            </button>
-
-            {next && (
-              <button type="button"
-                onClick={handleCompleteAndNext}
-                className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl border-2 text-sm font-bold transition-all hover:opacity-90 active:scale-95 shrink-0"
-                style={{
-                  background: 'var(--mb-gold)',
-                  borderColor: 'var(--mb-gold)',
-                  color: 'var(--mb-dark)',
-                  fontFamily: "'Zen Maru Gothic', sans-serif",
-                }}
-              >
-                完了して次へ
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M9 5l7 7-7 7" />
-                </svg>
-              </button>
-            )}
-          </>
-        )}
-      </div>
+      {/* Floating Action Button — 右下の丸いボタン */}
+      {!completed && (
+        <button
+          type="button"
+          onClick={handleComplete}
+          className="fixed bottom-20 right-4 w-14 h-14 rounded-full flex items-center justify-center text-xl font-bold transition-all hover:scale-110 active:scale-95"
+          style={{
+            background: 'var(--mb-gold)',
+            color: 'var(--mb-dark)',
+            zIndex: 40,
+            boxShadow: '0 4px 12px rgba(245,200,66,0.4)',
+          }}
+          title="講義を完了にする [C]"
+        >
+          ✓
+        </button>
+      )}
 
       {/* Related lessons */}
       <RelatedLessons categoryId={categoryId} courseId={courseId} lessonId={lesson.id} />
