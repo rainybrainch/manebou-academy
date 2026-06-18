@@ -107,8 +107,9 @@ export default function AchievementsCard() {
                 opacity: isEarned ? 1 : 0.45,
                 filter: isEarned ? 'none' : 'grayscale(1)',
               }}
+              aria-label={isEarned ? `${a.title}: 獲得済み。${a.desc}` : `${a.title}: 未獲得。${a.desc}`}
             >
-              <span className="text-2xl mb-1">{a.icon}</span>
+              <span className="text-2xl mb-1" aria-hidden="true">{a.icon}</span>
               <span className="text-[10px] font-bold leading-tight" style={{ color: isEarned ? 'var(--mb-dark)' : 'rgba(26,26,46,0.4)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
                 {a.title}
               </span>
@@ -131,6 +132,7 @@ export default function AchievementsCard() {
             background: 'transparent',
             fontFamily: "'Zen Maru Gothic', sans-serif",
           }}
+          aria-label={showUnearned ? `未取得の実績を隠す` : `未取得の実績を見る（${ACHIEVEMENTS.length - earned.length}個）`}
         >
           {showUnearned ? '未取得を隠す ▲' : `未取得の実績を見る（${ACHIEVEMENTS.length - earned.length}個） ▼`}
         </button>
