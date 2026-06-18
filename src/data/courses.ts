@@ -613,9 +613,37 @@ export function getLesson(courseId: string, lessonId: string) {
 export function getAdjacentLessons(courseId: string, lessonId: string) {
   const result = getCourse(courseId);
   if (!result) return { prev: null, next: null };
-  const { category } = result;
+  const { category, course } = result;
 
-  // Flatten all lessons across all chapters in the same category
+  // Get current lesson
+  const currentLesson = course.lessons.find(l => l.id === lessonId);
+  if (!currentLesson) return { prev: null, next: null };
+
+  // If this is a ZAi-linked lesson, prioritize navigation within zai-linked-hub
+  if (currentLesson.gameTags && currentLesson.gameTags.length > 0) {
+    const zaiLinkedCategory = categories.find(c => c.id === 'zai-linked-hub');
+    if (zaiLinkedCategory) {
+      // Flatten all lessons in all chapters of zai-linked-hub
+      const zaiFlat: { lesson: (typeof zaiLinkedCategory.courses)[0]['lessons'][0]; chapterTitle: string; courseId: string }[] = [];
+      for (const chapter of zaiLinkedCategory.courses) {
+        for (const lesson of chapter.lessons) {
+          zaiFlat.push({ lesson, chapterTitle: chapter.title, courseId: chapter.id });
+        }
+      }
+
+      // Find current lesson's index in zai-linked-hub
+      const zaiIdx = zaiFlat.findIndex(f => f.lesson.id === lessonId);
+      if (zaiIdx >= 0) {
+        // Return prev/next within zai-linked-hub
+        return {
+          prev: zaiIdx > 0 ? { lesson: zaiFlat[zaiIdx - 1].lesson, chapterTitle: zaiFlat[zaiIdx - 1].chapterTitle, courseId: zaiFlat[zaiIdx - 1].courseId } : null,
+          next: zaiIdx < zaiFlat.length - 1 ? { lesson: zaiFlat[zaiIdx + 1].lesson, chapterTitle: zaiFlat[zaiIdx + 1].chapterTitle, courseId: zaiFlat[zaiIdx + 1].courseId } : null,
+        };
+      }
+    }
+  }
+
+  // Standard navigation within the same category
   const flat: { lesson: (typeof category.courses)[0]['lessons'][0]; chapterTitle: string; courseId: string }[] = [];
   for (const ch of category.courses) {
     for (const l of ch.lessons) {
