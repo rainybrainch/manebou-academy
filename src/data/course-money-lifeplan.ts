@@ -25,6 +25,13 @@ export const moneyLifeplanCategory: Category = {
             '20代〜老後まで各年代のお金の特徴を説明できる',
             '人生のお金の「収入の山」と「支出の山」の時期を理解した',
           ],
+          gameTags: [
+            {
+              source: 'ZAi',
+              mechanic: '1億円を目指す長期投資',
+              description: 'ZAiゲームで9銘柄に分散投資して1億円達成を目指す。人生全体で「複利の力」を使った資産形成を実験できます。',
+            },
+          ],
           sections: [
             {
               type: 'info-box',

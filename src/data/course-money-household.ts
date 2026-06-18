@@ -223,6 +223,13 @@ export const moneyHouseholdCategory: Category = {
             '先取り貯蓄の仕組みと効果を説明できる',
             '自動振替の設定方法を理解した',
           ],
+          gameTags: [
+            {
+              source: 'ZAi',
+              mechanic: '手取りの30%を投資に回す',
+              description: 'ZAiゲームで手取り月給の30%を9銘柄に分散投資。先取り貯蓄の効果を実際に体感できます。',
+            },
+          ],
           sections: [
             {
               type: 'info-box',
