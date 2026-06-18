@@ -301,7 +301,7 @@ export default function CategoryPageClient({ tc, courses }: Props) {
       {overviewOpen && (
         <CourseOverviewSheet
           category={courses.find(c => c.id === overviewOpen)!}
-          meta={tm || { shadow: 'none', icon: '📖', label: tc.title, color: accent }}
+          meta={{ shadow: 'none', icon: tm?.icon || '📖', label: tc.title, color: accent }}
           onClose={() => setOverviewOpen(null)}
         />
       )}
