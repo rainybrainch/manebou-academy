@@ -21,7 +21,15 @@ export default function ChapterProgressBadge({ course, courseId, accentColor }: 
   const pct = Math.round((done / available.length) * 100);
 
   return (
-    <div className="relative shrink-0 flex items-center justify-center" style={{ width: 36, height: 36 }}>
+    <div
+      className="relative shrink-0 flex items-center justify-center"
+      style={{ width: 36, height: 36 }}
+      role="progressbar"
+      aria-valuenow={pct}
+      aria-valuemin={0}
+      aria-valuemax={100}
+      aria-label={pct === 100 ? `${course.title}: 完了` : `${course.title}: ${pct}%`}
+    >
       <ProgressRing pct={pct} size={36} stroke={3} color={accentColor} />
       <span
         className="absolute text-[8px] font-bold"
@@ -29,6 +37,7 @@ export default function ChapterProgressBadge({ course, courseId, accentColor }: 
           color: pct === 100 ? 'var(--mb-green)' : accentColor,
           fontFamily: "'Dela Gothic One', sans-serif",
         }}
+        aria-hidden="true"
       >
         {pct === 100 ? '✓' : `${pct}`}
       </span>

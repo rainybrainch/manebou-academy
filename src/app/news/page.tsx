@@ -37,6 +37,12 @@ function renderBody(text: string): React.ReactNode {
 const updates = [
   {
     date: '2026-06-18',
+    tag: 'アクセシビリティ',
+    title: 'コース進捗バッジのスクリーンリーダー対応改善',
+    body: 'チャプター進捗を円形で表示する進捗バッジ（ChapterProgressBadge）に、ARIA属性（role="progressbar"、aria-valuenow、aria-label）を追加しました。スクリーンリーダーユーザーが「○○コース: 75%」のように進捗状況を正確に理解できるようになります。',
+  },
+  {
+    date: '2026-06-18',
     tag: 'パフォーマンス',
     title: 'ホーム画面のカテゴリグリッド表示最適化',
     body: 'ホーム画面のカテゴリアイコングリッドで、各カテゴリの進捗計算を`useMemo`でメモ化しました。これにより、categories や isCompleted が変わらない限り、不要な計算が発生しなくなり、ホーム画面の再レンダリング時のパフォーマンスが向上します。',
