@@ -78,22 +78,13 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* ── カテゴリグリッド ── */}
+      {/* ── アプリグリッド ── */}
       <div>
-        <div className="flex items-center justify-between mb-3">
-          <div className="flex items-center gap-2">
-            <div className="w-1.5 h-4 rounded-full" style={{ background: 'var(--mb-green)' }} />
-            <h2 className="text-sm font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-              カテゴリ
-            </h2>
-          </div>
-          <Link
-            href="/courses"
-            className="text-xs font-bold hover:underline"
-            style={{ color: 'var(--mb-sky)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
-          >
-            すべて見る →
-          </Link>
+        <div className="flex items-center gap-2 mb-3">
+          <div className="w-1.5 h-4 rounded-full" style={{ background: 'var(--mb-green)' }} />
+          <h2 className="text-sm font-bold tracking-[2px]" style={{ color: 'rgba(26,26,46,0.5)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+            アプリ
+          </h2>
         </div>
 
         <HomeCourseGrid categories={categories} />
