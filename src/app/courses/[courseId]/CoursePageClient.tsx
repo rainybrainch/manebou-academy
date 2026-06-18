@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { useProgress } from '@/hooks/useProgress';
 import { categories } from '@/data/courses';
+import { TOPIC_META } from '@/data/topic-meta';
 import CourseOverviewSheet from '@/components/CourseOverviewSheet';
 import type { Course, Category } from '@/types';
 import ConfettiBurst from '@/components/ConfettiBurst';
@@ -29,6 +30,8 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
   const [filter, setFilter] = useState<Filter>('all');
   const [lessonMeta, setLessonMeta] = useState<Record<string, { scroll: number; hasNote: boolean; isLiked: boolean }>>({});
   const [tab, setTab] = useState<ViewTab>('overview');
+  const categoryMeta = category.topicCategoryId ? TOPIC_META[category.topicCategoryId] : null;
+  const categoryColor = categoryMeta?.color ?? 'var(--mb-dark)';
 
   useEffect(() => {
     if (!mounted) return;
@@ -319,7 +322,7 @@ export default function CoursePageClient({ course, category, courseId }: Props) 
       {tab === 'lessons' && (
         <div
           className="rounded-xl overflow-hidden border-2"
-        style={{ borderColor: 'var(--mb-dark)', background: 'white', boxShadow: '3px 3px 0 var(--mb-gold)' }}
+        style={{ borderColor: categoryColor, background: 'white', boxShadow: `3px 3px 0 ${categoryColor}` }}
       >
         <div className="px-4 py-3 border-b-2 flex items-center justify-between" style={{ background: 'rgba(26,26,46,0.04)', borderColor: 'rgba(26,26,46,0.1)' }}>
           <h2 className="text-sm font-bold" style={{ color: 'var(--mb-dark)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>講義一覧</h2>
