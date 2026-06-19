@@ -25,6 +25,7 @@ export const freelanceMoneyCategory: Category = {
           ],
           sections: [
             { type: 'info-box', content: '副業収入は「20万円超で確定申告が必要」という話を聞いたことがある人は多いはず。でも実は20万円以下でも申告が必要なケースがあります。正確に理解しましょう。' },
+            { type: 'comic', data: { title: '副業収入の税金——20万円の壁と確定申告', lessonId: 'free-1-1', image: '/images/courses/freelance/free-1-comic.webp', panels: [], learning: ['副業所得20万円超で確定申告が必要', '住民税申告は20万円以下でも必要な場合がある', '経費を引いた「所得」で判定することが重要'] } },
             { type: 'heading', level: 2, content: '20万円ルールの正体' },
             { type: 'text', content: '給与所得者（会社員）が副業収入を得た場合、年間合計が20万円を超えると「所得税の確定申告」が必要です。ただし「所得税の確定申告が不要」なだけで、住民税の申告（市区町村へ）は20万円以下でも必要な場合があります。20万円以下でも「住民税の申告」を忘れて追徴課税になるケースがあるため注意が必要です。' },
             {
@@ -69,6 +70,7 @@ export const freelanceMoneyCategory: Category = {
           ],
           sections: [
             { type: 'info-box', content: '経費を正しく計上することで課税所得を減らせます。「何でも経費にしてOK」ではなく、業務に必要な支出であることが条件です。' },
+            { type: 'comic', data: { title: '副業の経費——何が引けて何が引けないか', lessonId: 'free-1-2', image: '/images/courses/freelance/free-2-comic.webp', panels: [], learning: ['経費の条件は「業務関連性」', 'プライベートと仕事が混在する支出は按分で計上', '領収書・レシートは5年保管が原則'] } },
             { type: 'heading', level: 2, content: '経費の基本ルール' },
             { type: 'text', content: '経費として認められるのは「副業（仕事）のために必要な支出」です。キーワードは「業務関連性」。同じ出費でも、仕事のための支出ならOK、プライベートならNG。判断基準は「その支出がなければ仕事ができなかったか」です。' },
             {
@@ -115,6 +117,7 @@ export const freelanceMoneyCategory: Category = {
           ],
           sections: [
             { type: 'info-box', content: '個人事業主（フリーランス）になったら必ず知っておきたい「青色申告」。手間が増えますが最大65万円の特別控除で節税効果は絶大です。' },
+            { type: 'comic', data: { title: '青色申告 vs 白色申告——65万円控除の選び方', lessonId: 'free-1-3', image: '/images/courses/freelance/free-3-comic.webp', panels: [], learning: ['青色申告は最大65万円の特別控除が受けられる', '開業届と承認申請書の期限管理が重要', '会計ソフトを使えば複式簿記も簡単'] } },
             { type: 'heading', level: 2, content: '白色申告と青色申告の違い' },
             {
               type: 'highlight-box',
@@ -175,6 +178,7 @@ export const freelanceMoneyCategory: Category = {
           ],
           sections: [
             { type: 'info-box', content: '会社員からフリーランスになると保険料が劇的に変わります。会社員時代は会社が半額負担していた社会保険料を全額自己負担することになるため、事前の試算が重要です。' },
+            { type: 'comic', data: { title: '国民健康保険と社会保険——フリーランスが払う保険料', lessonId: 'free-2-1', image: '/images/courses/freelance/free-4-comic.webp', panels: [], learning: ['フリーランスは社会保険料を全額自己負担', '国民健康保険料は全額控除で節税になる', 'iDeCoは月6.8万円上限で最強の節税ツール'] } },
             { type: 'heading', level: 2, content: '会社員 vs フリーランスの保険料' },
             {
               type: 'highlight-box',
@@ -220,6 +224,7 @@ export const freelanceMoneyCategory: Category = {
           ],
           sections: [
             { type: 'info-box', content: '2023年10月から始まったインボイス制度はフリーランス・個人事業主に大きな影響を与えています。「課税事業者になるかどうか」の判断が必要です。' },
+            { type: 'comic', data: { title: '消費税のしくみ——インボイス制度と課税事業者', lessonId: 'free-2-2', image: '/images/courses/freelance/free-5-comic.webp', panels: [], learning: ['BtoB取引が多い場合、インボイス登録はほぼ必須', '2割特例で消費税納税負担を大幅軽減できる', 'インボイス登録で取引が失われるリスクを回避'] } },
             { type: 'heading', level: 2, content: 'インボイス制度とは' },
             { type: 'text', content: 'インボイス（適格請求書）制度は、消費税の仕入税額控除を受けるために「登録番号入りの請求書」が必要になる制度です。取引先（発注者）がインボイスを必要とする場合、登録していない事業者（免税事業者）への発注を避けるか、値引き交渉が起きる可能性があります。' },
             {
@@ -276,6 +281,7 @@ export const freelanceMoneyCategory: Category = {
           ],
           sections: [
             { type: 'info-box', content: 'フリーランスの最大リスクは「収入の不安定さ」。税金・保険料の支払い時に資金不足にならないよう、収入管理の仕組みを整えましょう。' },
+            { type: 'comic', data: { title: 'フリーランスの収入を安定させる——受注管理と資金繰り', lessonId: 'free-2-3', image: '/images/courses/freelance/free-6-comic.webp', panels: [], learning: ['売上の30%を税金・保険料用に別口座で確保', '複数クライアント・複数収入源で分散', '生活防衛費は6ヶ月分の確保が目安'] } },
             { type: 'heading', level: 2, content: '収入バッファーを作る' },
             { type: 'text', content: 'フリーランスは「入ってきたお金をすぐ使わない」が鉄則です。売上の30%は税金・保険料用に別口座で管理するのが基本。例：月売上50万円なら15万円を「税金用口座」へ移動→残り35万円を生活費・経費に使う。確定申告後に余れば事業への再投資や貯蓄に回せます。' },
             {
