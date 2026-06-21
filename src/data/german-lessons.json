@@ -6232,6 +6232,225 @@
           "content": "あなたが大規模製造企業のサステナビリティ責任者とします。スコープ1・2・3のカーボンフットプリント分析を実施し、2030年・2050年の削減目標を設定します。サプライチェーン脱炭素化、再生可能エネルギー導入、従業員教育、グリーンファイナンス活用を含めた包括的な気候対応計画を立案してください。"
         }
       ]
+    },
+    {
+      "id": "de-028",
+      "level": 5,
+      "title": "製造・エンジニアリングキャリア：Industry 4.0・デジタル製造・品質管理",
+      "titleDe": "Fertigungs- und Ingenieurkarriere: Industrie 4.0, digitale Fertigung und Qualitätskontrolle",
+      "objectives": [
+        "ドイツの製造業とエンジニアリングセクターのキャリアを理解する",
+        "Industry 4.0とスマートマニュファクチャリングに関する専門用語を習得する",
+        "デジタル化、ロボティクス、AIの製造への応用を理解する",
+        "品質管理、プロジェクト管理、リーダーシップスキルを習得する"
+      ],
+      "content": {
+        "introduction": "ドイツの製造業は「Industry 4.0」の概念で世界をリードし、デジタル化、自動化、データ駆動型経営を推進しています。このレッスンでは、エンジニアのキャリアパス、スマートファクトリー、IoT・AI・ロボティクスの応用、品質・リスク管理に関する高度なドイツ語を学びます。",
+        "sections": [
+          {
+            "title": "製造・エンジニアリングセクターのキャリア体系",
+            "phrases": [
+              {
+                "german": "Das deutsche Ingenieurwesen umfasst Maschinenbau, Elektrotechnik, Verfahrenstechnik, Bauwesen, und Softwareentwicklung, mit starken Traditionen in Qualität und Innovation.",
+                "romaji": "Das deutsche Ingenieurwesen umfasst Maschinenbau, Elektrotechnik, Verfahrenstechnik, Bauwesen",
+                "japanese": "ドイツのエンジニアリングは機械工学、電気工学、プロセス工学、建築工学、ソフトウェア開発を含み、品質とイノベーションの強い伝統を持ちます。",
+                "usage": "ドイツエンジニアリングの分野を説明するとき"
+              },
+              {
+                "german": "Ingenieure benötigen ein Diplom oder Bachelor in Ingenieurwissenschaften (3-4 Jahre), gefolgt von praktischer Erfahrung, Zertifizierungen (PE, PMP), und kontinuierliche Weiterbildung.",
+                "romaji": "Ingenieure benötigen ein Diplom oder Bachelor in Ingenieurwissenschaften (3-4 Jahre)",
+                "japanese": "エンジニアは工学部の卒業資格（3～4年）、実務経験、認定資格（PE、PMP）、継続的なスキルアップが必要です。",
+                "usage": "エンジニアのキャリア要件を説明するとき"
+              },
+              {
+                "german": "Karrierewege führen von Nachwuchsingenieur über Projektleiter zu Bereichsleiter oder Geschäftsführer, mit Spezialisierungen in verschiedenen technologischen Domänen.",
+                "romaji": "Karrierewege führen von Nachwuchsingenieur über Projektleiter zu Bereichsleiter oder Geschäftsführer",
+                "japanese": "キャリアパスは若手エンジニアからプロジェクトリーダー、部門長、経営幹部に至り、様々な技術領域に特化できます。",
+                "usage": "エンジニアのキャリアパスを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "Industry 4.0 とスマートマニュファクチャリング",
+            "phrases": [
+              {
+                "german": "Industrie 4.0 bezeichnet die Digitalisierung der Produktion durch Vernetzung von Maschinen, Sensoren, und Systemen via Internet of Things (IoT), um datengesteuerte, effiziente Produktion zu ermöglichen.",
+                "romaji": "Industrie 4.0 bezeichnet die Digitalisierung der Produktion durch Vernetzung von Maschinen, Sensoren",
+                "japanese": "Industry 4.0は機械、センサー、システムをIoTで接続し、データ駆動型の効率的な生産を実現する製造業のデジタル化を指します。",
+                "usage": "Industry 4.0 の概念を説明するとき"
+              },
+              {
+                "german": "Schlüsseltechnologien wie robotische Prozessautomation, additive Fertigung (3D-Druck), und künstliche Intelligenz optimieren Produktionsprozesse, reduzieren Abfall, und verbessern die Produktqualität.",
+                "romaji": "Schlüsseltechnologien wie robotische Prozessautomation, additive Fertigung (3D-Druck)",
+                "japanese": "ロボットプロセス自動化、3D印刷、人工知能などの重要技術は生産プロセスを最適化し、廃棄物を減らし、製品品質を向上させます。",
+                "usage": "スマートマニュファクチャリングの技術を説明するとき"
+              },
+              {
+                "german": "Echtzeitdatenanalyse ermöglicht Predictive Maintenance, wobei Maschinen automatisch Wartungsbedarf signalisieren, Ausfallzeiten minimiert werden, und die Gesamtanlageneffektivität (OEE) maximiert wird.",
+                "romaji": "Echtzeitdatenanalyse ermöglicht Predictive Maintenance, wobei Maschinen automatisch",
+                "japanese": "リアルタイムデータ分析により予測保全が実現され、機械が自動的にメンテナンス必要性を示し、ダウンタイムが最小化され、総合機械効率（OEE）が最大化されます。",
+                "usage": "予測保全と効率化を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "品質管理とプロジェクト管理",
+            "phrases": [
+              {
+                "german": "Qualitätsmanagementsysteme (QMS) wie ISO 9001, Six Sigma, und Lean Manufacturing gewährleisten konsistente Produktqualität, Kosteneinsparungen, und kontinuierliche Verbesserung.",
+                "romaji": "Qualitätsmanagementsysteme (QMS) wie ISO 9001, Six Sigma, und Lean Manufacturing",
+                "japanese": "ISO 9001、Six Sigma、リーン製造などの品質管理システムは一貫した製品品質、コスト削減、継続的改善を保証します。",
+                "usage": "品質管理の方法論を説明するとき"
+              },
+              {
+                "german": "Projektmanagement-Methoden wie Agile, Waterfall, und Hybrid-Ansätze werden verwendet, um komplexe Fertigungsprojekte fristgerecht, budgetgerecht, und mit hoher Qualität zu liefern.",
+                "romaji": "Projektmanagement-Methoden wie Agile, Waterfall, und Hybrid-Ansätze",
+                "japanese": "アジャイル、ウォーターフォール、ハイブリッドアプローチなどのプロジェクト管理手法は複雑な製造プロジェクトを期限・予算・品質を満たして実行します。",
+                "usage": "プロジェクト管理の手法を説明するとき"
+              },
+              {
+                "german": "Risikomanagement in der Fertigungsindustrie identifiziert potenzielle Ausfallpunkte, entwickelt Notfallpläne, und implementiert Sicherheitsprotokollen für Mensch, Umwelt, und Vermögenswerte.",
+                "romaji": "Risikomanagement in der Fertigungsindustrie identifiziert potenzielle Ausfallpunkte",
+                "japanese": "製造業のリスク管理は潜在的な故障ポイントを特定し、対応計画を開発し、人・環境・資産のための安全プロトコルを実装します。",
+                "usage": "リスク管理と安全プロトコルを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "デジタル化、グローバルサプライチェーン、と持続可能性",
+            "phrases": [
+              {
+                "german": "Die Digitalisierung der Lieferkette mit Blockchain, RFID-Verfolgung, und Supply Chain Visibility ermöglicht Echtzeit-Transparenz, Vertrauenswürdigkeit, und schnelle Problemlösung.",
+                "romaji": "Die Digitalisierung der Lieferkette mit Blockchain, RFID-Verfolgung",
+                "japanese": "ブロックチェーン、RFID追跡、サプライチェーン可視化によるサプライチェーンのデジタル化はリアルタイム透明性、信頼性、迅速な問題解決を実現します。",
+                "usage": "デジタルサプライチェーンを説明するとき"
+              },
+              {
+                "german": "Nachhaltige Fertigungspraktiken wie Energieeffizienz, Abfallminimierung, und Kreislaufwirtschaft sind nicht nur ökologisch notwendig, sondern auch wirtschaftlich vorteilhaft.",
+                "romaji": "Nachhaltige Fertigungspraktiken wie Energieeffizienz, Abfallminimierung",
+                "japanese": "エネルギー効率、廃棄物最小化、循環経済などの持続可能な製造慣行は生態学的に必要でありながら経済的にも有利です。",
+                "usage": "持続可能な製造を説明するとき"
+              },
+              {
+                "german": "Globale Zulieferketten erfordern interkulturelle Kommunikation, Verhandlungen in mehreren Sprachen, und Verständnis für verschiedene regulatorische Anforderungen in unterschiedlichen Märkten.",
+                "romaji": "Globale Zulieferketten erfordern interkulturelle Kommunikation, Verhandlungen in mehreren Sprachen",
+                "japanese": "グローバルサプライチェーンは異文化間コミュニケーション、多言語交渉、異なる市場の規制要件の理解が必要です。",
+                "usage": "グローバル供給チェーンの複雑さを説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-028-q1",
+          "type": "fill-blank",
+          "question": "「ドイツのエンジニアリングは機械工学、電気工学、プロセス工学を含みます」をドイツ語で言ってください。",
+          "answer": "Das deutsche Ingenieurwesen umfasst Maschinenbau, Elektrotechnik, und Verfahrenstechnik."
+        },
+        {
+          "id": "de-028-q2",
+          "type": "multiple-choice",
+          "question": "エンジニアに必要な教育は？",
+          "options": [
+            "工学部卒業（3～4年）+ 実務経験 + 認定資格",
+            "高卒で十分",
+            "ビジネス教育のみ",
+            "学位なしで可能"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-028-q3",
+          "type": "fill-blank",
+          "question": "「Industry 4.0はIoTを通じた製造業のデジタル化です」をドイツ語で言ってください。",
+          "answer": "Industrie 4.0 ist die Digitalisierung der Produktion durch Internet of Things."
+        },
+        {
+          "id": "de-028-q4",
+          "type": "multiple-choice",
+          "question": "Industry 4.0 の重要技術は？",
+          "options": [
+            "ロボット自動化、3D印刷、AI",
+            "従来の機械のみ",
+            "手作業の製造",
+            "デジタル化なし"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-028-q5",
+          "type": "fill-blank",
+          "question": "「ISO 9001とSix Sigmaは品質管理システムです」をドイツ語で言ってください。",
+          "answer": "ISO 9001 und Six Sigma sind Qualitätsmanagementsysteme."
+        },
+        {
+          "id": "de-028-q6",
+          "type": "matching",
+          "question": "製造の概念と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"concept": "OEE", "explanation": "総合機械効率"},
+            {"concept": "Predictive Maintenance", "explanation": "予測保全"},
+            {"concept": "Lean Manufacturing", "explanation": "リーン製造"}
+          ]
+        },
+        {
+          "id": "de-028-q7",
+          "type": "fill-blank",
+          "question": "「予測保全は機械のダウンタイムを最小化します」をドイツ語で言ってください。",
+          "answer": "Predictive Maintenance minimiert Ausfallzeiten von Maschinen."
+        },
+        {
+          "id": "de-028-q8",
+          "type": "multiple-choice",
+          "question": "持続可能な製造の特徴は？",
+          "options": [
+            "エネルギー効率、廃棄物最小化、循環経済",
+            "最大限の廃棄物",
+            "資源の過剰使用",
+            "環境対策なし"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツの製造・エンジニアリングキャリア：Industry 4.0・スマートファクトリー・品質管理",
+          "duration": "31分",
+          "description": "Industry 4.0 の実装戦略。IoT・AI・ロボティクスの統合。独Siemens・Bosch・Daimler の事例。デジタルサプライチェーン。持続可能な製造。"
+        },
+        {
+          "type": "grammar",
+          "title": "製造・エンジニアリング用語とプロジェクト管理表現",
+          "content": "製造複合名詞：Maschinenbau（機械工学）、Automatisierung（自動化）、Produktqualität（製品品質）、OEE（総合機械効率）。技術用語：IoT、Blockchain、RFID。管理表現：optimieren（最適化する）、überwachen（監視する）、implementieren（実装する）。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツの製造業と Industry 4.0 の位置づけ",
+          "content": "ドイツ Mittelstand（中堅企業）の強さ：機械製造、自動車部品、電機機器。Industry 4.0 の起源：ドイツ政府の研究戦略。世界的リーダーシップ：自動化・IoT技術。スキル育成：職業訓練と大学の協業。"
+        },
+        {
+          "type": "note",
+          "title": "品質管理と効率化の手法",
+          "content": "ISO 9001：国際標準品質管理。Six Sigma：統計的品質改善。リーン製造：無駄排除。Total Productive Maintenance（TPM）：予防的メンテナンス。Agile・Scrum：プロジェクト管理。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツと韓国の製造業比較",
+          "content": "ドイツ：品質と精密さ重視、中堅企業の強み、Industry 4.0 リーダー。韓国：大企業グループ中心、速い成長、半導体・自動車での競争力。両国とも国際的な製造サプライチェーンの中核。"
+        },
+        {
+          "type": "note",
+          "title": "デジタルサプライチェーンと持続可能性",
+          "content": "ブロックチェーン：サプライチェーン透明性と信頼性。RFID・IoT：在庫追跡と最適化。予測分析：需要予測と在庫管理。カーボンニュートラル製造：エネルギー効率と循環経済。"
+        },
+        {
+          "type": "practice",
+          "title": "スマートファクトリーの設計と実装計画",
+          "content": "あなたが製造企業の Production Director とします。現在の工場をIndustry 4.0仕様にアップグレードする包括的な計画を策定します。IoT センサー導入、機械の自動化、データ分析プラットフォーム、予測保全システムの実装タイムラインと投資計画、人的資源の再配置、品質指標の設定、ROI分析を含めて詳細に述べてください。"
+        }
+      ]
     }
   ]
 }
