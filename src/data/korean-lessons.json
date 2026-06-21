@@ -840,87 +840,166 @@
       "title": "中級 - 病院・医療",
       "titleKo": "중급 - 병원",
       "objectives": [
-        "医者と患者の会話ができる",
-        "症状を正確に説明できる",
-        "処方箋や医療用語が理解できる"
+        "医者と患者の会話を完璧にできる",
+        "症状を詳細に説明できる",
+        "処方箋や医療用語を正確に理解する",
+        "医療保険と支払いについて対応できる"
       ],
       "content": {
-        "introduction": "韓国で病気やけがをした際に必要な表現です。医療施設での会話と医療用語を学びます。",
+        "introduction": "韓国で病気やけがをした際に必要な表現です。医療施設での会話と医療用語を学びます。韓国の医療システムは質が高く、外国人でも利用しやすいですが、正確なコミュニケーションが重要です。",
         "sections": [
           {
-            "title": "病院での基本会話",
+            "title": "病院への予約・受付",
+            "phrases": [
+              {
+                "korean": "병원에 가고 싶어요.",
+                "romaji": "Byeongwon-e ga-go sip-eo-yo.",
+                "japanese": "病院に行きたいです。",
+                "usage": "病院受診の意思表示"
+              },
+              {
+                "korean": "진료 예약을 하고 싶습니다.",
+                "romaji": "Jinryo yeyak-eul ha-go sip-seubnida.",
+                "japanese": "診療予約をしたいです。",
+                "usage": "電話での予約リクエスト"
+              },
+              {
+                "korean": "내일 진료 가능한가요?",
+                "romaji": "Naeil jinryo ga-neung-han-ga-yo?",
+                "japanese": "明日診療できますか？",
+                "usage": "診察予約の可否確認"
+              },
+              {
+                "korean": "처음 방문합니다.",
+                "romaji": "Cheoeun bangmun-hamnida.",
+                "japanese": "初めて来ました。",
+                "usage": "受付での自己紹介"
+              },
+              {
+                "korean": "건강보험이 있습니다.",
+                "romaji": "Geongang-boheum-i it-seubnida.",
+                "japanese": "健康保険があります。",
+                "usage": "保険の有無確認"
+              }
+            ]
+          },
+          {
+            "title": "症状説明（詳細版）",
             "phrases": [
               {
                 "korean": "어디가 아파요?",
                 "romaji": "Eodi-ga a-pa-yo?",
                 "japanese": "どこが痛いですか？",
-                "usage": "症状を尋ねる"
+                "usage": "医者の質問"
               },
               {
-                "korean": "머리가 아파요.",
-                "romaji": "Meori-ga a-pa-yo.",
-                "japanese": "頭が痛いです。",
-                "usage": "症状を伝える"
+                "korean": "머리가 심하게 아파요.",
+                "romaji": "Meori-ga simha-ge a-pa-yo.",
+                "japanese": "頭がひどく痛いです。",
+                "usage": "症状の程度説明"
               },
               {
-                "korean": "감기 같아요.",
-                "romaji": "Gamgi gat-a-yo.",
-                "japanese": "風邪のようです。",
-                "usage": "症状の自己診断"
+                "korean": "어제부터 열이 나요.",
+                "romaji": "Eo-je-bu-teo yeol-i na-yo.",
+                "japanese": "昨日から熱が出ています。",
+                "usage": "症状の発症時期"
               },
               {
-                "korean": "약을 처방해 주세요.",
-                "romaji": "Yak-eul cheobang-hae ju-se-yo.",
-                "japanese": "薬を処方してください。",
-                "usage": "処方箋をリクエスト"
+                "korean": "감기 같은데 낫지 않아요.",
+                "romaji": "Gamgi gat-eun-de nat-ji an-a-yo.",
+                "japanese": "風邪みたいですが治りません。",
+                "usage": "症状の継続性"
               },
               {
-                "korean": "병원비가 얼마예요?",
-                "romaji": "Byeongwon-bi-ga eol-ma-ye-yo?",
-                "japanese": "診療費はいくらですか？",
-                "usage": "診察料を確認"
+                "korean": "약에 알레르기가 있어요.",
+                "romaji": "Yag-e allergi-ga it-eo-yo.",
+                "japanese": "薬のアレルギーがあります。",
+                "usage": "医学的な重要情報"
+              },
+              {
+                "korean": "이전에 이 병에 걸린 적 있어요?",
+                "romaji": "Ijeon-e i byeong-e geol-rin jeok it-eo-yo?",
+                "japanese": "以前この病気にかかったことはありますか？",
+                "usage": "医者の履歴確認"
               }
             ]
           },
           {
-            "title": "症状表現",
+            "title": "症状表現（拡張版）",
             "items": [
-              {"korean": "열이 있어요", "japanese": "熱があります"},
-              {"korean": "기침해요", "japanese": "咳をします"},
-              {"korean": "콧물이 나와요", "japanese": "鼻水が出ます"},
-              {"korean": "목이 아파요", "japanese": "喉が痛いです"},
-              {"korean": "배가 아파요", "japanese": "お腹が痛いです"},
-              {"korean": "어지러워요", "japanese": "めまいがします"},
-              {"korean": "피곤해요", "japanese": "疲れています"},
-              {"korean": "설사해요", "japanese": "下痢をしています"}
+              {"korean": "열이 있어요", "japanese": "熱があります", "type": "일반증상"},
+              {"korean": "기침해요", "japanese": "咳をします", "type": "호흡기"},
+              {"korean": "콧물이 나와요", "japanese": "鼻水が出ます", "type": "호흡기"},
+              {"korean": "목이 아파요", "japanese": "喉が痛いです", "type": "호흡기"},
+              {"korean": "배가 아파요", "japanese": "お腹が痛いです", "type": "소화기"},
+              {"korean": "어지러워요", "japanese": "めまいがします", "type": "신경"},
+              {"korean": "피곤해요", "japanese": "疲れています", "type": "일반"},
+              {"korean": "설사해요", "japanese": "下痢をしています", "type": "소화기"},
+              {"korean": "구역질이 나요", "japanese": "吐き気がします", "type": "소화기"},
+              {"korean": "손이 떨려요", "japanese": "手が震えます", "type": "신경"}
             ]
           },
           {
-            "title": "医療用語",
+            "title": "医療用語と処方",
             "phrases": [
               {
-                "korean": "처방전",
-                "romaji": "Cheobang-jeon",
-                "japanese": "処方箋",
-                "usage": "医療用語"
+                "korean": "처방전을 주세요.",
+                "romaji": "Cheobang-jeon-eul ju-se-yo.",
+                "japanese": "処方箋をください。",
+                "usage": "処方箋リクエスト"
               },
               {
-                "korean": "약사",
-                "romaji": "Yaksa",
-                "japanese": "薬剤師",
-                "usage": "医療職"
+                "korean": "약을 며칠 동안 먹어야 돼요?",
+                "romaji": "Yak-eul myeochil dong-an meog-eo-ya doe-yo?",
+                "japanese": "薬を何日間服用すればいいですか？",
+                "usage": "薬の使用期間確認"
               },
               {
-                "korean": "진료",
-                "romaji": "Jinryo",
-                "japanese": "診療",
-                "usage": "医療サービス"
+                "korean": "식사 전에 먹어야 해요?",
+                "romaji": "Siksang jeon-e meog-eo-ya hae-yo?",
+                "japanese": "食事前に服用しますか？",
+                "usage": "服用タイミング確認"
               },
               {
-                "korean": "예약",
-                "romaji": "Yeyak",
-                "japanese": "予約",
-                "usage": "医療予約"
+                "korean": "주사가 필요한가요?",
+                "romaji": "Jusa-ga pil-yo-han-ga-yo?",
+                "japanese": "注射は必要ですか？",
+                "usage": "追加治療確認"
+              },
+              {
+                "korean": "혈액검사를 해야 해요?",
+                "romaji": "Hyeolaeg-geomsa-reul hae-ya hae-yo?",
+                "japanese": "血液検査は必要ですか？",
+                "usage": "検査の必要性確認"
+              }
+            ]
+          },
+          {
+            "title": "支払い・保険",
+            "phrases": [
+              {
+                "korean": "진료비가 얼마예요?",
+                "romaji": "Jinryo-bi-ga eol-ma-ye-yo?",
+                "japanese": "診療費はいくらですか？",
+                "usage": "費用確認"
+              },
+              {
+                "korean": "보험으로 낼 수 있어요?",
+                "romaji": "Boheum-eu-ro nel su it-eo-yo?",
+                "japanese": "保険で払えますか？",
+                "usage": "保険支払い確認"
+              },
+              {
+                "korean": "신용카드로 계산해도 되나요?",
+                "romaji": "Sinyong-kadeu-ro gyesan-hae-do doe-na-yo?",
+                "japanese": "クレジットカードで計算してもいいですか？",
+                "usage": "支払い方法確認"
+              },
+              {
+                "korean": "영수증을 주세요.",
+                "romaji": "Yeongsu-jeung-eul ju-se-yo.",
+                "japanese": "領収書をください。",
+                "usage": "領収書リクエスト"
               }
             ]
           }
@@ -932,9 +1011,52 @@
           "type": "fill-blank",
           "question": "「頭が痛いです」を韓国語で言ってください。",
           "answer": "머리가 아파요."
+        },
+        {
+          "id": "ko-011-q2",
+          "type": "fill-blank",
+          "question": "「診療予約をしたいです」を韓国語で言ってください。",
+          "hint": "「진료 예약을」で始まります",
+          "answer": "진료 예약을 하고 싶습니다."
+        },
+        {
+          "id": "ko-011-q3",
+          "type": "multiple-choice",
+          "question": "「약에 알레르기가 있어요」という文の意味として正しいのはどれですか？",
+          "options": [
+            "薬のアレルギーがあります",
+            "この薬は好きではありません",
+            "薬が効きません",
+            "薬が必要です"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-011-q4",
+          "type": "fill-blank",
+          "question": "「食事前に服用しますか？」を韓国語で言ってください。",
+          "hint": "「식사」で始まります",
+          "answer": "식사 전에 먹어야 해요?"
         }
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国病院実践会話",
+          "url": "#",
+          "duration": "14分"
+        },
+        {
+          "type": "grammar",
+          "title": "～아/어야 돼요 の使い方",
+          "content": "「～しなければいけない」という必要性を表す表現。医療場面では頻出。～아야 돼요 / ～어야 돼요 の形は文末の母音によって決まる。"
+        },
+        {
+          "type": "note",
+          "title": "韓国の医療システム",
+          "content": "韓国は国民健康保険制度が整備されており、外国人も加入できる場合がある。診察料は比較的安いが、薬代は別計算。処方箋は薬局で薬と交換する方式。"
+        }
+      ]
     },
     {
       "id": "ko-012",
