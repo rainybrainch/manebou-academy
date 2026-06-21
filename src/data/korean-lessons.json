@@ -5326,6 +5326,220 @@
           "content": "友人と多様性とインクルージョンについて議論してみてください。職場、学校、社会での現在の課題、改善方法、個人として何ができるかを話し合います。異なる視点を尊重しながら、建設的な対話を通じて相互理解を深めてください。"
         }
       ]
+    },
+    {
+      "id": "ko-032",
+      "level": 4,
+      "title": "起業家精神・イノベーション・ビジネス創造",
+      "titleKo": "기업가 정신, 혁신, 그리고 사업 창조",
+      "objectives": [
+        "起業家精神の本質と特性を習得する",
+        "イノベーションプロセスと創造的問題解決を理解する",
+        "ビジネスモデルと資金調達について議論できる",
+        "スケーリングと持続可能な成長戦略を学ぶ"
+      ],
+      "content": {
+        "introduction": "起業家精神とイノベーションは経済発展と社会進歩の原動力です。このレッスンでは、起業家の心理、イノベーションプロセス、ビジネスモデル、資金調達、成長戦略など、ビジネス創造に関する実践的な韓国語を学びます。韓国はサムスン、LG、現代自動車などの大企業に加えて、BTS、WebtoonなどのスタートアップとKモダン産業で知られています。",
+        "sections": [
+          {
+            "title": "起業家精神の本質",
+            "phrases": [
+              {
+                "korean": "기업가 정신은 위험을 감수하고, 새로운 아이디어를 추구하며, 가치를 창조하려는 의지입니다.",
+                "romaji": "gieobga jeongsin eun wiheom-eul gamsu hago, saeroun aidia-reul chuguhalmyeo, gazchi-reul changjo ha-ryeoneun uiji imnida",
+                "japanese": "起業家精神とはリスクを取り、新しいアイデアを追求し、価値を創造する意欲です。",
+                "usage": "起業家精神の定義と本質を説明するとき。起業者の特性"
+              },
+              {
+                "korean": "기업가는 문제 해결자로서, 도전을 기회로 보고 창의적으로 행동합니다.",
+                "romaji": "gieobga neun munje haegyeolzeo roseo, docharen-eul gihwero bogo chang-ui-jeoguero haengdonghamnida",
+                "japanese": "起業家は問題解決者であり、課題をチャンスと見て創造的に行動します。",
+                "usage": "起業家の思考様式と行動パターンを説明するとき。問題解決"
+              },
+              {
+                "korean": "인내심, 열정, 그리고 학습 의욕은 기업가의 성공에 필수적입니다.",
+                "romaji": "innaesim, yeoljeong, geurigo hagseup uiyogeun gieobga ui seong-gong-e pilsujeogimnida",
+                "japanese": "忍耐力、情熱、学習意欲は起業家の成功に決定的です。",
+                "usage": "起業家に必要な個人的資質を説明するとき。成功の要因"
+              }
+            ]
+          },
+          {
+            "title": "イノベーションプロセス",
+            "phrases": [
+              {
+                "korean": "혁신은 문제의 체계적 파악, 아이디어 창출, 그리고 반복적 개발을 통해 태어납니다.",
+                "romaji": "hyeoksim eun munje ui chegyejeoug paak, aidia changchul, geurigo baenbok-jeoug gaebareul tonghae taena namnida",
+                "japanese": "イノベーションは問題の体系的特定、アイデア創出、反復的開発を通じて生まれます。",
+                "usage": "イノベーションプロセスの段階を説明するとき。創造的開発"
+              },
+              {
+                "korean": "디자인 사고와 애자일 방법론은 빠른 프로토타입 개발과 실패로부터의 학습을 가능하게 합니다.",
+                "romaji": "dijain sahgo-wa aejail bangbeopron eun ppareun peurototeip gaebalgwa silpae-roboteo ui hagseub-eul ganeunghage hamnida",
+                "japanese": "デザイン思考とアジャイル手法は迅速なプロトタイピングと失敗からの学習を可能にします。",
+                "usage": "現代的イノベーション手法を説明するとき。学習プロセス"
+              },
+              {
+                "korean": "고객, 파트너, 그리고 이해관계자와의 협력은 혁신 프로세스를 가속화하고 성공 확률을 높입니다.",
+                "romaji": "gogaeg, pauteu-neo, geurigo ihaegwangyeja-wa hyeolyeog eun hyeoksim peurosese-reul gasokkhwa hago seong-gong hwakryul-eul nop himnida",
+                "japanese": "顧客、パートナー、ステークホルダーとの協業はイノベーションを加速し成功確率を高めます。",
+                "usage": "共創的イノベーションアプローチを説明するとき。多元的協業"
+              }
+            ]
+          },
+          {
+            "title": "ビジネスモデルと資金調達",
+            "phrases": [
+              {
+                "korean": "지속 가능한 사업 모델은 기업이 어떻게 가치를 창조하고, 제공하며, 획득하는지를 정의합니다.",
+                "romaji": "jisog ganeunghahnn sa-eob model eun gieob-i eotteohge gazchi-reul changjo hago, jegoong hamyeo, hwakdok hasneun ji reul jeongui hamnida",
+                "japanese": "持続可能なビジネスモデルは、企業がいかに価値を創造、提供、獲得するかを定義します。",
+                "usage": "ビジネスモデルの構成要素を説明するとき。価値創造"
+              },
+              {
+                "korean": "부트스트래핑, 엔젤 투자자, 벤처 캐피탈, 크라우드펀딩 등 다양한 자금원이 기업 발전의 다양한 단계를 지원합니다.",
+                "romaji": "buteu seutraeoping, enjel tujauja, benteo kaepital, keuraudo peondding deung dayanghhan jayungwon-i gieob baljeon ui dayanghhan dangyereul jiwon hamnida",
+                "japanese": "ブートストラップ、エンジェル投資家、ベンチャーキャピタル、クラウドファンディングなど、多様な資金源が企業のさまざまな段階をサポートします。",
+                "usage": "資金調達の選択肢と各段階を説明するとき。成長資金"
+              },
+              {
+                "korean": "사업 계획, 시장 조사, 그리고 재무 모델링은 투자자 유치에 필수적입니다.",
+                "romaji": "sa-eob gyehoaek, sijang josa, geurigo jaebu modelring eun tujauja yuchi-e pilsujeogimnida",
+                "japanese": "事業計画、市場調査、財務モデルは投資家獲得に不可欠です。",
+                "usage": "投資家ピッチの準備要素を説明するとき。資金調達準備"
+              }
+            ]
+          },
+          {
+            "title": "スケーリングと成長戦略",
+            "phrases": [
+              {
+                "korean": "확장성이란 기업이 성공으로 커질 때, 비례하여 더 많은 자원을 필요로 하지 않고도 더 효율적이 되는 것을 의미합니다.",
+                "romaji": "hwakjang-seong-i ran gieob-i seong-gong-euro keojil ttae, biryehanyeo deo man-eun jayuwon-eul piryoro haji anhgodo deo hyoyul-jeoguiga doeneun geoseul uimihabnida",
+                "japanese": "スケーラビリティとは、企業が成功に伴い、より多くのリソースを必要とせずに効率的になることです。",
+                "usage": "成長の効率性と拡張可能性を説明するとき。成長戦略"
+              },
+              {
+                "korean": "국제 확장, 제품 다양화, 그리고 전략적 협력은 더 빠른 성장을 가능하게 합니다.",
+                "romaji": "gukje hwakjang, jepum dayanghwa, geurigo jeonryagjeoug hyeolyeog eun deo ppareun seong-gong-eul ganeunghage hamnida",
+                "japanese": "国際展開、製品多様化、戦略的パートナーシップはより速い成長を可能にします。",
+                "usage": "企業拡大の戦術を説明するとき。成長オプション"
+              },
+              {
+                "korean": "지속 가능한 성장 계획은 직원 문화, 고객 관계, 그리고 장기적 수익성을 고려합니다.",
+                "romaji": "jisog ganeunghahnn seong-gong gyehoaek eun jigwon munhwa, gogaeg gwangyae, geurigo janggi-jeoug suyig-seong-eul goryeo hamnida",
+                "japanese": "持続可能な成長計画は、従業員文化、顧客関係、長期的収益性を考慮します。",
+                "usage": "責任ある成長と企業継続性を説明するとき。持続可能性"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-032-q1",
+          "type": "fill-blank",
+          "question": "「起業家精神とはリスクを取り新しいアイデアを追求し価値を創造する意欲です」を韓国語で言ってください。",
+          "answer": "기업가 정신은 위험을 감수하고, 새로운 아이디어를 추구하며, 가치를 창조하려는 의지입니다."
+        },
+        {
+          "id": "ko-032-q2",
+          "type": "multiple-choice",
+          "question": "起業家の主な特性は何ですか？",
+          "options": [
+            "課題をチャンスと見て創造的に行動する",
+            "リスクを避けることを重視する",
+            "既存の方法に従う",
+            "変化に抵抗する"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-032-q3",
+          "type": "fill-blank",
+          "question": "「イノベーションは問題の体系的特定とアイデア創出を通じて生まれます」を韓国語で言ってください。",
+          "answer": "혁신은 문제의 체계적 파악과 아이디어 창출을 통해 태어납니다."
+        },
+        {
+          "id": "ko-032-q4",
+          "type": "multiple-choice",
+          "question": "ビジネスモデルの主な役割は？",
+          "options": [
+            "企業がいかに価値を創造、提供、獲得するかを定義する",
+            "単に商品を売ること",
+            "価格を決めるだけ",
+            "マーケティングのみ"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-032-q5",
+          "type": "fill-blank",
+          "question": "「スケーラビリティは成長に伴い効率的になることです」を韓国語で言ってください。",
+          "answer": "확장성은 기업이 성공으로 커질 때 더 효율적이 되는 것을 의미합니다."
+        },
+        {
+          "id": "ko-032-q6",
+          "type": "matching",
+          "question": "起業のステージと説明を正しく組み合わせてください。",
+          "pairs": [
+            {"stage": "부트스트래핑", "description": "初期資金調達"},
+            {"stage": "벤처 캐피탈", "description": "成長段階投資"},
+            {"stage": "확장", "description": "拡大段階"}
+          ]
+        },
+        {
+          "id": "ko-032-q7",
+          "type": "fill-blank",
+          "question": "「事業計画と市場調査は投資家獲得に不可欠です」を韓国語で言ってください。",
+          "answer": "사업 계획과 시장 조사는 투자자 유치에 필수적입니다."
+        },
+        {
+          "id": "ko-032-q8",
+          "type": "multiple-choice",
+          "question": "持続可能な成長に必要なのは？",
+          "options": [
+            "従業員文化、顧客関係、長期的収益性を考慮する",
+            "短期的利益のみ",
+            "従業員の福祉を無視する",
+            "顧客満足度を無視する"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国のスタートアップエコシステムとK-イノベーション",
+          "duration": "21分",
+          "description": "韓国のスタートアップ産業、ソウルのテック企業、K-pop/Webtoon起業、資金調達とユニコーン企業、グローバルな韓国イノベーション"
+        },
+        {
+          "type": "grammar",
+          "title": "起業と成長に関する業界用語と表現",
+          "content": "前置詞による段階表現（～부터）。可能性を表す表現（～을 가능하게 하다）。条件付き成功表現（～일 때）。複合名詞（사업모델，성장전략）"
+        },
+        {
+          "type": "note",
+          "title": "韓国の起業エコシステムの特徴",
+          "content": "サムスン、LG、現代などの大企業と共存するスタートアップシーン。ソウル、インチョンなどのテックハブ。政府の創業支援基金と벤처육성정책。若い世代の起業への高い関心。K-popとWebtoonの国際的成功。"
+        },
+        {
+          "type": "note",
+          "title": "イノベーション文化と高速成長",
+          "content": "한국형 창업（K-Style Startup）의 특징. 빠른 시장 진입과 반복적 개선. 디지털 트랜스포메이션의 선도. 글로벌 성공사례들（BTS, WebtoonThey, Kakao, Naver）."
+        },
+        {
+          "type": "note",
+          "title": "資金調達パイプラインと投資家生態系",
+          "content": "정부지원금과 벤처캐피탈의 협력. 크라우드펀딩과 새로운 자금 모델. 대기업 벤처펀드의 역할. 국제 투자자들의 한국 스타트업에 대한 관심 증대."
+        },
+        {
+          "type": "practice",
+          "title": "ビジネスプランの作成と投資家ピッチ",
+          "content": "友人とビジネスアイデアについて議論し、簡単なビジネスプランを作成してみてください。問題認識、解決案、ビジネスモデル、資金需要、成長戦略を含めます。その後、相手に投資家になってもらい、あなたのプランを韓国語でプレゼンテーションして、フィードバックを受けてください。"
+        }
+      ]
     }
   ]
 }
