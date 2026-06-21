@@ -1064,21 +1064,28 @@
       "title": "中級 - 電話・オンライン会話",
       "titleKo": "중급 - 전화 회화",
       "objectives": [
-        "電話での基本的なやり取りができる",
-        "メッセージやチャットで意思疎通できる",
-        "敬語と平語を適切に使い分けられる"
+        "電話での自然で完全なやり取りができる",
+        "メッセージやチャットで敬語を正確に使える",
+        "敬語と平語を文脈に応じて適切に使い分けられる",
+        "緊急時や複雑な状況での電話対応ができる"
       ],
       "content": {
-        "introduction": "電話やオンラインでのコミュニケーションは日常的に必要です。敬語を中心とした丁寧な表現を学びます。",
+        "introduction": "電話やオンラインでのコミュニケーションは日常的に必要です。敬語を中心とした丁寧な表現を学びます。韓国では電話文化が重要で、ビジネスや日常生活で頻繁に電話が使用されます。",
         "sections": [
           {
-            "title": "電話の基本",
+            "title": "電話の基本（開始から終了）",
             "phrases": [
               {
                 "korean": "여보세요.",
                 "romaji": "Yeoboseyo.",
                 "japanese": "もしもし。",
-                "usage": "電話での挨拶"
+                "usage": "電話での挨拶（受け手が言う）"
+              },
+              {
+                "korean": "안녕하세요. 김철수입니다.",
+                "romaji": "Annyeonghaseyo. Kim Chul-su-imnida.",
+                "japanese": "こんにちは。金チョルスです。",
+                "usage": "電話での自己紹介（かけ手が言う）"
               },
               {
                 "korean": "누구세요?",
@@ -1088,26 +1095,44 @@
               },
               {
                 "korean": "저는 김철수입니다.",
-                "romaji": "Jeoneun Kim Chul-su-ibnida.",
-                "japanese": "私は金チョルス です。",
-                "usage": "自己紹介"
+                "romaji": "Jeoneun Kim Chul-su-imnida.",
+                "japanese": "私は金チョルスです。",
+                "usage": "自己紹介（より正式）"
+              },
+              {
+                "korean": "박 과장님 계세요?",
+                "romaji": "Bak gwajang-nim gye-se-yo?",
+                "japanese": "パク課長はいらっしゃいますか？",
+                "usage": "特定の人を呼び出す"
               },
               {
                 "korean": "잠깐만 기다려주세요.",
                 "romaji": "Jamkkan-man gida-ryeo-ju-se-yo.",
                 "japanese": "ちょっと待ってください。",
-                "usage": "相手を待たせる"
+                "usage": "相手を待たせる（保留）"
+              },
+              {
+                "korean": "지금 통화 중이세요. 나중에 전화 드리겠습니다.",
+                "romaji": "Jigeum tongwa jung-i-se-yo. Najung-e jeonhwa deu-ri-get-seubnida.",
+                "japanese": "今、通話中です。後ほどお電話さします。",
+                "usage": "通話中の対応"
               },
               {
                 "korean": "전화 받을 수 없어요. 나중에 다시 걸 게요.",
                 "romaji": "Jeonhwa bad-eul su eop-seo-yo. Najung-e dasi geol ge-yo.",
                 "japanese": "電話に出られません。後でかけ直します。",
                 "usage": "電話を受けられない場合"
+              },
+              {
+                "korean": "통화 감사했습니다. 안녕히 가세요.",
+                "romaji": "Tongwa gamsahae-seubnida. Annyeonhi ga-se-yo.",
+                "japanese": "通話ありがとうございました。さようなら。",
+                "usage": "通話終了の挨拶"
               }
             ]
           },
           {
-            "title": "メッセージ会話",
+            "title": "メッセージ・チャット会話",
             "phrases": [
               {
                 "korean": "문자 보내도 되나요?",
@@ -1132,35 +1157,82 @@
                 "romaji": "Dapjang gida-ril-ge-yo.",
                 "japanese": "返信お待ちしています。",
                 "usage": "返信待つ"
+              },
+              {
+                "korean": "빨리 답장 부탁드립니다.",
+                "romaji": "Ppalli dapjang butakdeurimnida.",
+                "japanese": "早めのご返信をお願いいたします。",
+                "usage": "返信を急かす（敬語）"
+              },
+              {
+                "korean": "지금 바빠요. 나중에 연락 드릴게요.",
+                "romaji": "Jigeum bappa-yo. Najung-e yeollak deu-ril-ge-yo.",
+                "japanese": "今忙しいです。後で連絡します。",
+                "usage": "後での連絡を約束"
               }
             ]
           },
           {
-            "title": "敬語表現",
+            "title": "敬語と平語の使い分け",
             "phrases": [
               {
                 "korean": "안녕하세요.",
                 "romaji": "Annyeonghaseyo.",
-                "japanese": "こんにちは（敬語）",
-                "usage": "挨拶（フォーマル）"
+                "japanese": "こんにちは（敬語・最敬語）",
+                "usage": "初対面・目上の人"
+              },
+              {
+                "korean": "안녕하십니까?",
+                "romaji": "Annyeonghashimnikka?",
+                "japanese": "こんにちは（敬語・質問形・最敬語）",
+                "usage": "最も丁寧な挨拶"
               },
               {
                 "korean": "안녕해.",
                 "romaji": "Annyeonghae.",
-                "japanese": "やあ（タメ口）",
-                "usage": "挨拶（カジュアル）"
+                "japanese": "やあ（タメ口・同年代・友人用）",
+                "usage": "親友・同年代"
               },
               {
                 "korean": "감사합니다.",
                 "romaji": "Gamsahamnida.",
-                "japanese": "ありがとうございます（敬語）",
-                "usage": "感謝（フォーマル）"
+                "japanese": "ありがとうございます（敬語・最敬語）",
+                "usage": "感謝（フォーマル・ビジネス）"
+              },
+              {
+                "korean": "고마워요.",
+                "romaji": "Gomawo-yo.",
+                "japanese": "ありがとうございます（敬語・やや丁寧）",
+                "usage": "感謝（やや丁寧）"
               },
               {
                 "korean": "고마워.",
                 "romaji": "Gomawo.",
                 "japanese": "ありがとう（タメ口）",
                 "usage": "感謝（カジュアル）"
+              }
+            ]
+          },
+          {
+            "title": "ビジネス電話表現",
+            "phrases": [
+              {
+                "korean": "회의 일정을 확인하고 싶습니다.",
+                "romaji": "Hoeuui iljeong-eul hwag-in-ha-go sip-seubnida.",
+                "japanese": "会議の日程を確認したいです。",
+                "usage": "ビジネス目的の電話"
+              },
+              {
+                "korean": "내일 오후 3시에 통화 가능하신가요?",
+                "romaji": "Naeil ohu 3si-e tongwa ga-neung-ha-sin-ga-yo?",
+                "japanese": "明日午後3時に通話可能ですか？",
+                "usage": "時間設定の相談"
+              },
+              {
+                "korean": "말씀해 주셨던 사항 다시 한번 확인해 주시겠어요?",
+                "romaji": "Malsseum-hae ju-syeot-deon sahaang dasi hanbeon hwag-in-hae ju-si-get-seo-yo?",
+                "japanese": "お話しいただいた件について、もう一度確認していただけますか？",
+                "usage": "確認をリクエスト"
               }
             ]
           }
@@ -1172,9 +1244,52 @@
           "type": "fill-blank",
           "question": "「電話での挨拶『もしもし』」を韓国語で言ってください。",
           "answer": "여보세요."
+        },
+        {
+          "id": "ko-012-q2",
+          "type": "fill-blank",
+          "question": "「後でかけ直します」を韓国語で言ってください。",
+          "hint": "「나중에」で始まります",
+          "answer": "나중에 다시 걸 게요."
+        },
+        {
+          "id": "ko-012-q3",
+          "type": "multiple-choice",
+          "question": "「감사합니다」と「고마워」の違いとして正しいのはどれですか？",
+          "options": [
+            "감사합니다は敬語・ビジネス用、고마워はタメ口・友人用",
+            "감사합니다は友人用、고마워は敬語用",
+            "違いがない",
+            "감사합니다は口語、고마워は文語"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-012-q4",
+          "type": "fill-blank",
+          "question": "「カカオトークのID教えてくれますか？」を韓国語で言ってください。",
+          "hint": "「카톡」で始まります",
+          "answer": "카톡 아이디 알려 줄래요?"
         }
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国電話・チャット実践ガイド",
+          "url": "#",
+          "duration": "13分"
+        },
+        {
+          "type": "grammar",
+          "title": "敬語レベルの詳細理解",
+          "content": "韓国語の敬語は複雑で、～세요（敬語）、～습니다（最敬語）、～해요（やや丁寧）など複数レベルがある。文脈と相手によって使い分ける必要がある。"
+        },
+        {
+          "type": "note",
+          "title": "韓国の電話・メッセージ文化",
+          "content": "韓国ではカカオトークが最も一般的なメッセージングアプリ。ビジネスでもカジュアルでもよく使われる。電話は比較的丁寧な対話が期待され、メッセージより敬語が重視されることが多い。"
+        }
+      ]
     },
     {
       "id": "ko-013",
