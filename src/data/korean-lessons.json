@@ -8153,6 +8153,225 @@
           "content": "あなたが B2B SaaS 企業のマーケティングマネージャーとします。新製品ローンチのための総合的なデジタルマーケティングキャンペーンを企画します。ターゲットオーディエンス分析、ペルソナ開発、カスタマージャーニーマッピング、マルチチャネル戦略（SEO、SEM、Social Media、Email、Content）の設計を含めます。具体的な KPI 設定、予算配分、タイムライン、各チャネルの成功メトリクスと測定方法を詳細に述べてください。"
         }
       ]
+    },
+    {
+      "id": "ko-045",
+      "level": 5,
+      "title": "観光・ホスピタリティ：ホテル管理・旅行企画・顧客サービス",
+      "titleKo": "관광 및 숙박업: 호텔 관리, 여행 계획, 고객 서비스",
+      "objectives": [
+        "ホテル業界の運営管理と顧客サービスの基本を理解する",
+        "旅行企画、観光商品、顧客体験設計に関する専門用語を習得する",
+        "マルチカルチュラルな顧客対応とコミュニケーションスキルを習得する",
+        "観光業のデジタル化とオンライン予約システムを理解する"
+      ],
+      "content": {
+        "introduction": "観光とホスピタリティは韓国と日本の両国で重要な産業です。韓国は先進的なホテル業界と K-tourism で知られています。このレッスンでは、ホテル経営、旅行企画、顧客サービス、観光マーケティング、多言語顧客対応に関する高度な韓国語を学びます。",
+        "sections": [
+          {
+            "title": "ホテル業界と宿泊施設管理",
+            "phrases": [
+              {
+                "korean": "호텔 경영은 운영 절차, 직원 관리, 손님 접촉, 예약 시스템, 재무 관리, 품질 보증을 포함하여 최적의 손님 경험을 창출합니다.",
+                "romaji": "Hotel gyeongnyeong-eun un-yeong jeol cha, jigwon gwanri, son nim jeob chok, yeyag siseutem, jaemu gwanri, pum-jil bojeung-eul pohamhayeo choesog-ui son nim gyeongheom-eul changchul hamnida",
+                "japanese": "ホテル経営は、運営プロセス、人事管理、ゲストコンタクト、予約システム、財務管理、品質保証を含み、最適な宿泊体験を創造します。",
+                "usage": "ホテル経営の主要機能を説明するとき"
+              },
+              {
+                "korean": "숙박시설의 분류는 예산 호텔, 중급 호텔에서 럭셔리 리조트까지 다양하며, 편의시설, 서비스 수준, 목표 고객층에 따라 다릅니다.",
+                "romaji": "Sugbag siseoulgui buneyo-neun yeysan hotel, jung-geup hotel-e-seo rok-syeo-ri rijoreuteo kka-ji da-yang hayeo-imyeo, pyeon-ui siseogl, seobiseu sujon, mokpyo goggaeg chung-e tara da-reup nida",
+                "japanese": "宿泊施設の分類は、バジェットホテル、ミッドレンジホテル、ラグジュアリーリゾートまで及び、設備、サービスレベル、ターゲット層に依存します。",
+                "usage": "ホテルカテゴリーを説明するとき"
+              },
+              {
+                "korean": "손님 만족도와 고객 서비스는 호텔 산업의 핵심입니다: 직원 교육, 불만 대응, 개인화, 그리고 로열티 프로그램이 중요합니다.",
+                "romaji": "Son nim manjogtdo-wa goggaeg seobiseu-neun hotel saniob-ui haekshim imnida: jigwon gyoyuk, bulman dae-eobng, gaein hwahwae, geurigo loyal ti peuro geureaem-i jungyohabnida",
+                "japanese": "ゲスト満足度と顧客サービスはホテル業界の中心：従業員トレーニング、苦情対応、パーソナライゼーション、ロイヤルティプログラムが重要です。",
+                "usage": "顧客サービス戦略を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "旅行企画と観光商品設計",
+            "phrases": [
+              {
+                "korean": "여행 계획은 목적지 선택, 경로 계획, 숙박 예약, 활동, 식사, 교통 물류를 포함하여 잊을 수 없는 경험을 창출합니다.",
+                "romaji": "Yeohaeng gyae hoeg-eun mokjeog ji seontaeg, gyeongro gyae hoeg, sugbag yeyag, hwal-dong, sik-sa, gyotong mul-ryu-reul pohamhayeo ij-eul su eobsneun gyeongheom-eul changchul hamnida",
+                "japanese": "旅行企画は、目的地選択、ルート計画、宿泊予約、アクティビティ、食事、輸送ロジスティクスを含み、忘れられない体験を創造します。",
+                "usage": "旅行企画プロセスを説明するとき"
+              },
+              {
+                "korean": "관광 패키지(올인클루시브 여행, 모험 투어, 문화 여행, 웰니스 리트릿)는 다양한 목표 고객층의 필요를 충족하고 차별화된 가격 모델을 제공해야 합니다.",
+                "romaji": "Gwangwang paekiji (ol-in keul ryu sib yeohaeng, moheom too-a, munhwa yeohaeng, wel-niseu riteu-rit)-neun da-yang-han mokpyo goggaeg chung-ui pil-yo-reul chung-man hago chal dal hwahwae-doen gagyeok model-eul jegong hae ya hamnida",
+                "japanese": "観光パッケージ（オールインクルーシブ旅行、アドベンチャーツアー、文化旅行、ウェルネスリトリート）はさまざまなターゲット層のニーズを満たし、差別化された価格モデルを提供する必要があります。",
+                "usage": "観光商品の種類を説明するとき"
+              },
+              {
+                "korean": "지속 가능한 관광 관행은 현지 공동체를 촉진하고, 환경을 보호하며, 문화를 존중하고, 목적지를 위한 장기적 경제적 이점을 창출합니다.",
+                "romaji": "Jisog ga-neung gwangwang gwanhaeng-eun hyunji gong dong che-reul chogji nhago, hwangyeong-eul bohohagi hayeo-imyeo, munhwa-reul jonsunghago, mokjeog ji-reul wihan jang gi jeoug gyeongje jeoug i-jeom-eul changchul hamnida",
+                "japanese": "持続可能な観光慣行は地域コミュニティを促進し、環境を保護し、文化を尊重し、目的地に長期的な経済的利益を創造します。",
+                "usage": "サステイナブルツーリズムを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "デジタルツーリズムとオンライン予約システム",
+            "phrases": [
+              {
+                "korean": "온라인 예약 플랫폼(Booking.com, Airbnb, Expedia)은 여행 예약에 혁신을 가져왔으며 직접 비교, 리뷰, 모바일 예약, 개인화된 추천을 가능하게 합니다.",
+                "romaji": "Online yeyag platpom (Booking.com, Airbnb, Expedia)-eun yeohaeng yeyag-e hyeok-shin-eul gajyeo wasseumbmyeo jigjeob bi-gyo, rivyu, mobile yeyag, gaein hwahwae-doen chu-cheon-eul ga-neung hage hamnida",
+                "japanese": "オンライン予約プラットフォーム（Booking.com、Airbnb、Expedia）は旅行予約を革命化し、直接比較、レビュー、モバイル予約、パーソナライズされた推奨を実現します。",
+                "usage": "オンライン予約システムの影響を説明するとき"
+              },
+              {
+                "korean": "관광 산업의 고객 경험(CX)은 예약 전 단계, 예약, 도착 전 통신, 현장 경험, 숙박 후 피드백을 포함하여 전반적인 만족도를 향상시킵니다.",
+                "romaji": "Gwangwang saniob-ui goggaeg gyeongheom (CX)-eun yeyag jeon dan gyae, yeyag, do-chaeg jeon tongshin, hyunjang gyeongheom, sugbag hoo pi-deu baeg-eul pohamhayeo jeonban jeoug man-jogtdo-reul hyang-sang sikip nida",
+                "japanese": "観光における顧客体験（CX）は、予約前段階、予約、到着前通信、現地体験、滞在後フィードバックを含み、全体的な満足度を向上させます。",
+                "usage": "顧客体験の全体的なフローを説明するとき"
+              },
+              {
+                "korean": "관광 산업의 디지털 마케팅은 소셜 미디어, 인플루언서 파트너십, 가상 투어, 사용자 생성 콘텐츠, SEO를 활용하여 목적지와 호텔을 홍보합니다.",
+                "romaji": "Gwangwang saniob-ui dijital maketing-eun sosyeol midiae, inpeul weonseo parteu neosip, gasang too-a, sayongja saengseong content, SEO-reul hwalhyong hayeo mokjeog ji-wa hotel-eul hongbo hamnida",
+                "japanese": "観光のデジタルマーケティングはソーシャルメディア、インフルエンサーパートナーシップ、バーチャルツアー、ユーザー生成コンテンツ、SEOを活用して、目的地とホテルを宣伝します。",
+                "usage": "観光マーケティング戦略を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "多言語顧客対応と文化的感受性",
+            "phrases": [
+              {
+                "korean": "다국어 고객 지원은 국제 관광에 필수적입니다: 고객 언어로의 통신, 문화적 민감성, 현지 관습에 대한 이해가 손님 만족도를 향상시킵니다.",
+                "romaji": "Dagugeo goggaeg jiwon-eun gugje gwangwang-e pil-sudo jeoug imnida: goggaeg eon-eo ro-ui tongshin, munhwa jeoug minsam seong, hyunji gwanseub-e dae-han ihaee-ga son nim man-jogtdo-reul hyang-sang sikip nida",
+                "japanese": "多言語顧客対応は国際観光に不可欠：顧客言語での通信、文化的感受性、現地慣習の理解がゲスト満足度を向上させます。",
+                "usage": "多言語対応の重要性を説明するとき"
+              },
+              {
+                "korean": "기대에 있어서의 문화적 차이(휴식 시간, 식사, 거리, 프라이버시, 인사)는 다양한 국적과 문화에 맞춘 서비스 프로토콜을 필요로 합니다.",
+                "romaji": "Gidae-e isseoseo-ui munhwa jeoug chai (huisig sigan, sik-sa, geori, peurai ba-syi, inca)-neun da-yang-han gugjeog-gwa munhwa-e majchun seobiseu peuro to-kol-eul pil-yo ro hamnida",
+                "japanese": "期待における文化的違い（休息時間、食事、距離、プライバシー、挨拶）は、異なる国籍と文化に適応したサービスプロトコルを要求します。",
+                "usage": "文化的配慮の必要性を説明するとき"
+              },
+              {
+                "korean": "호스피탈리티 직원을 위한 교차 문화 교육은 이해, 관용, 적응성, 문제 해결 능력을 촉진하여 국제 손님에게 효과적으로 서비스하도록 합니다.",
+                "romaji": "Hoseu pi tal ri ti jigwon-eul wihan gyyo cha munhwa gyoyuk-eun ihaee, gwanyong, jeog-eobseong, mun-je haeseol neung ryeok-eul chogji nhayeo gugje son nim-e ge hyoe-gwa jeoug ro seobiseu ha-do-tog hamnida",
+                "japanese": "ホスピタリティ従業員向けの異文化トレーニングは、理解、寛容さ、適応性、問題解決能力を促進し、国際ゲストに効果的に対応します。",
+                "usage": "従業員トレーニングの重要性を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-045-q1",
+          "type": "fill-blank",
+          "question": "「ホテル経営は運営、人事、ゲストコンタクト、予約、財務を含みます」を韓国語で言ってください。",
+          "answer": "호텔 경영은 운영 절차, 직원 관리, 손님 접촉, 예약 시스템, 재무 관리를 포함합니다."
+        },
+        {
+          "id": "ko-045-q2",
+          "type": "multiple-choice",
+          "question": "ホテル分類の例は？",
+          "options": [
+            "バジェットホテル、ミッドレンジ、ラグジュアリーリゾート",
+            "運営のみ",
+            "予約のみ",
+            "食事だけ"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-045-q3",
+          "type": "fill-blank",
+          "question": "「旅行企画は目的地選択、ルート、宿泊、活動を含みます」を韓国語で言ってください。",
+          "answer": "여행 계획은 목적지 선택, 경로 계획, 숙박 예약, 활동을 포함합니다."
+        },
+        {
+          "id": "ko-045-q4",
+          "type": "multiple-choice",
+          "question": "観光パッケージの例は？",
+          "options": [
+            "オールインクルーシブ、アドベンチャー、文化、ウェルネス",
+            "移動のみ",
+            "食事だけ",
+            "宿泊のみ"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-045-q5",
+          "type": "fill-blank",
+          "question": "「オンライン予約プラットフォームは旅行予約を革新し、比較とレビューを可能にしました」を韓国語で言ってください。",
+          "answer": "온라인 예약 플랫폼은 여행 예약에 혁신을 가져왔으며 직접 비교와 리뷰를 가능하게 합니다."
+        },
+        {
+          "id": "ko-045-q6",
+          "type": "matching",
+          "question": "観光のライフステージとその説明を正しく組み合わせてください。",
+          "pairs": [
+            {"stage": "예약 전", "description": "情報収集・検討"},
+            {"stage": "예약 중", "description": "確認・決済"},
+            {"stage": "숙박 중", "description": "体験・サービス"}
+          ]
+        },
+        {
+          "id": "ko-045-q7",
+          "type": "fill-blank",
+          "question": "「多言語対応は国際観光で不可欠です」を韓国語で言ってください。",
+          "answer": "다국어 고객 지원은 국제 관광에 필수적입니다."
+        },
+        {
+          "id": "ko-045-q8",
+          "type": "multiple-choice",
+          "question": "異文化トレーニングの目的は？",
+          "options": [
+            "理解、寛容さ、適応性、問題解決能力を促進",
+            "言語習得のみ",
+            "文化の変更",
+            "一方的な対応"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "観光・ホスピタリティ：ホテル管理・旅行企画・顧客サービス・デジタル化",
+          "duration": "34分",
+          "description": "ホテル業界の運営。宿泊施設の分類。顧客サービスと満足度。旅行企画プロセス。観光パッケージ開発。オンライン予約システム。顧客体験設計。多言語対応。デジタルマーケティング。"
+        },
+        {
+          "type": "grammar",
+          "title": "ホスピタリティ・観光用語とサービスコミュニケーション表現",
+          "content": "ホテル用語：Front Desk（フロントデスク）、Concierge（コンシェルジュ）、Housekeeping（ハウスキーピング）、Room Service（ルームサービス）。旅行用語：Itinerary（旅程）、Destination（目的地）、Accommodation（宿泊）、Tour Operator（ツアーオペレーター）。サービス表現：Check-in、Check-out、Book、Reserve、Confirm Booking、Upgrade（アップグレード）。"
+        },
+        {
+          "type": "note",
+          "title": "韓国の観光とホスピタリティ業界",
+          "content": "韓国：Seoul、Busan、Jeju Island などの主要観光地。K-tourism、K-culture（K-pop、K-beauty）。MICE（ミーティング・インセンティブ・カンファレンス・エキシビション）産業。高度に発達したホテル業界。"
+        },
+        {
+          "type": "note",
+          "title": "オンライン予約システムと旅行プラットフォーム",
+          "content": "Booking.com、Airbnb、Expedia、Trivago などのプラットフォーム。Property Management System（PMS）。Channel Manager。Reviews and Ratings システム。Dynamic Pricing。Loyalty Programs（マイレージプログラム）。"
+        },
+        {
+          "type": "note",
+          "title": "顧客体験（CX）設計と満足度測定",
+          "content": "Customer Journey Mapping。NPS（Net Promoter Score）。CSAT（Customer Satisfaction）。Journey Stages：Awareness → Consideration → Booking → Stay → Post-Stay。Touchpoint Optimization。Personalization Strategies。"
+        },
+        {
+          "type": "note",
+          "title": "サステイナブルツーリズム",
+          "content": "Green Hospitality：エネルギー効率、廃棄物削減。Community Impact：地域経済への貢献、文化保護。環境保全：生物多様性、天然資源管理。Certification Programs：Green Key、EarthCheck。"
+        },
+        {
+          "type": "practice",
+          "title": "統合的なホテルマーケティング・オペレーション戦略の立案",
+          "content": "あなたが韓国のソウルにある 5 つ星ホテル経営者とします。年間収益と稼働率向上のための統合戦略を立案します。オンライン予約プラットフォーム最適化、SEO・SEM 戦略、ソーシャルメディアマーケティング、ゲストレビュー管理、季節別価格設定、ロイヤルティプログラム設計、多言語カスタマーサービス、スタッフトレーニング計画を含めます。具体的な KPI、マーケティング予算配分、実装タイムライン、期待される成果を詳細に述べてください。"
+        }
+      ]
     }
   ]
 }
