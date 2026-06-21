@@ -4898,6 +4898,220 @@
           "content": "友人とあなたの健康と fitness goals について議論してみてください。現在のライフスタイル、改善すべき領域、実現可能な目標、段階的実装戦略を話し合います。自分たちの価値観、制約条件、サポートシステムを考慮した個人化されたアプローチを開発してください。"
         }
       ]
+    },
+    {
+      "id": "ko-030",
+      "level": 4,
+      "title": "高度な交渉・プレゼンテーション・リーダーシップ",
+      "titleKo": "협상, 프레젠테이션, 그리고 리더십",
+      "objectives": [
+        "高度な交渉戦略と説得技法を習得する",
+        "効果的なプレゼンテーションスキルを開発する",
+        "リーダーシップと影響力について理解する",
+        "チームビルディングと組織開発のための言語を学ぶ"
+      ],
+      "content": {
+        "introduction": "ビジネスにおいて、効果的なコミュニケーション、交渉、リーダーシップスキルは成功の鍵です。このレッスンでは、複雑な交渉、説得的なプレゼンテーション、リーダーシップ、チームマネジメントなど、高度なビジネスコミュニケーションについて学びます。韓国企業文化では、関係構築、敬意、そしてチームのコンセンサスが重視されています。",
+        "sections": [
+          {
+            "title": "高度な交渉スキル",
+            "phrases": [
+              {
+                "korean": "성공적인 협상은 철저한 준비, 명확한 의사소통, 그리고 상호 이해를 필요로 합니다.",
+                "romaji": "seong-gongjeogin hyeopsang eun cheoljeohahn junbi, myeonghwakhan uisasotong, geurigo sanghho iheareul piryoro hamnida",
+                "japanese": "成功した交渉は十分な準備、明確なコミュニケーション、相互理解を必要とします。",
+                "usage": "交渉の基本原則と必須要素を説明するとき。交渉準備"
+              },
+              {
+                "korean": "BATNA（협상이 성립하지 않을 때 최선의 대안）는 협상 입장을 강화하는 전략입니다.",
+                "romaji": "BATNA （hyeopsang-i seong-niph hanaji aneul ttae choeseoneui daean） neun hyeopsang ibchang-eul ganghwahaneun jeonryagimnida",
+                "japanese": "BATNA（交渉成立時の最良な代替案）は交渉立場を強化する戦略です。",
+                "usage": "交渉の準備段階で代替案を検討するとき。戦略的準備"
+              },
+              {
+                "korean": "경청과 공감은 상대방을 이해하고 윈-윈 솔루션에 도달하는 열쇠입니다.",
+                "romaji": "gyeongcheong-gwa gongam eun sangdaebang-eul ihaehago WIN-WIN soluseyon-e dodalhasneun yeolswe imnida",
+                "japanese": "積極的傾聴と共感は相手の理解とウィンウィンソリューション実現の鍵です。",
+                "usage": "相互理解に基づく交渉アプローチを説明するとき。共感的交渉"
+              }
+            ]
+          },
+          {
+            "title": "効果的なプレゼンテーション",
+            "phrases": [
+              {
+                "korean": "강력한 오프닝, 명확한 구조, 그리고 설득력 있는 결론이 프레젠테이션을 효과적으로 만듭니다.",
+                "romaji": "gangryo-kahnn opeuning, myeonghwakhan gujo, geurigo seolturyeok inneun gyeollon-i peurejentesyeon-eul hyokgwajeoguero mandeumnida",
+                "japanese": "強力な冒頭、明確な構造、説得的な結論がプレゼンテーションを効果的にします。",
+                "usage": "プレゼンテーションの基本構成を説明するとき。構成の重要性"
+              },
+              {
+                "korean": "시각자료, 데이터 시각화, 그리고 스토리텔링은 이해와 청중의 참여를 높입니다.",
+                "romaji": "sigage jaryo, deiteo siga-khwa, geurigo seutoreitelleong eun ihe-wa cheong-un ui chammyeo-reul nonhimnida",
+                "japanese": "視覚資料、データビジュアライゼーション、ストーリーテリングは理解とエンゲージメントを高めます。",
+                "usage": "効果的なプレゼンテーション資料の活用を説明するとき。視覚的強化"
+              },
+              {
+                "korean": "비언어적 소통, 목소리 톤, 그리고 바디 랭귀지는 프레젠테이션의 효과를 크게 형성합니다.",
+                "romaji": "bieonorajeoug sotong, mog-sori ton, geurigo badi raenggwie-ji neun peurejentesyeon ui hyokgwagagul keuge hyeongseonghamnida",
+                "japanese": "非言語コミュニケーション、声調、ボディランゲージはプレゼンテーションの効果を大きく形作ります。",
+                "usage": "プレゼンテーション時の身体表現の重要性を説明するとき。非言語表現"
+              }
+            ]
+          },
+          {
+            "title": "リーダーシップと影響力",
+            "phrases": [
+              {
+                "korean": "효과적인 리더십은 명확한 비전, 영감을 주는 소통, 그리고 신뢰를 구축하는 능력을 필요로 합니다.",
+                "romaji": "hyokgwajeogin lidersyip eun myeonghwakhan bijeol, yeonggamul junun sotong, geurigo sinruy-reul gujukhaneun neungryeog-eul piryoro hamnida",
+                "japanese": "効果的なリーダーシップは明確なビジョン、感動的なコミュニケーション、信頼構築能力を必要とします。",
+                "usage": "リーダーシップの基本的な資質を説明するとき。指導性"
+              },
+              {
+                "korean": "감정 지능, 진정성, 그리고 책임감은 현대적이고 변혁적인 리더십 스타일의 기초입니다.",
+                "romaji": "gamjeong jineung, jinjeongseong, geurigo chaegim-gam eun hyeondaejeoguigo byeonhyeogjeogin lidersyip seutaireui gicho imnida",
+                "japanese": "感情知能、真正性、責任はモダンな変革的リーダーシップの基盤です。",
+                "usage": "21世紀のリーダーシップ特性を説明するとき。変革的リーダーシップ"
+              },
+              {
+                "korean": "영향력은 신뢰성, 전문성, 그리고 다른 사람을 역량 있게 만드는 능력을 통해 구축됩니다.",
+                "romaji": "yeonghyang-ryeog eun shinrueseong, jeonmunseong, geurigo dareun saram-eul yeogyam isge mandeunun neungryeog-eul tonghae gujuk doe mnida",
+                "japanese": "影響力は信頼性、専門知識、他者を力づける能力を通じて構築されます。",
+                "usage": "影響力の構成要素を説明するとき。影響力構築"
+              }
+            ]
+          },
+          {
+            "title": "チームビルディングと組織開発",
+            "phrases": [
+              {
+                "korean": "효과적인 팀은 명확한 역할, 공유 목표, 그리고 상호 지원의 문화를 통해 형성됩니다.",
+                "romaji": "hyokgwajeogin tim eun myeonghwakhan yeoghal, gong-u mokpyo, geurigo sanghho jiwen ui munhwareul tonghae hyeongseonghaebnida",
+                "japanese": "効果的なチームは明確な役割、共有目標、相互サポートの文化によって形成されます。",
+                "usage": "チーム構成の成功要因を説明するとき。チームダイナミクス"
+              },
+              {
+                "korean": "다양성과 포용성은 혁신, 창의성, 그리고 조직의 행복감을 촉진합니다.",
+                "romaji": "dayangseonggwa poyongseoung eun hyeogsim, chang-uiseong, geurigo jogjigeui haengbokgamul chogjeinhamnida",
+                "japanese": "多様性とインクルージョンはイノベーション、創造性、組織的幸福を促進します。",
+                "usage": "ダイバーシティ経営とインクルーシブ文化を説明するとき。組織多様性"
+              },
+              {
+                "korean": "지속적인 학습과 개발은 변화하는 비즈니스 환경에 적응하는 열쇠입니다.",
+                "romaji": "jisokjeogin hagseup-gwa gaebaljeu byeonhwahaneun bijeuniseu hwangyeong-e jeogeonghaneun yeolswe imnida",
+                "japanese": "継続的学習と開発は変化するビジネス環境への適応の鍵です。",
+                "usage": "組織学習と開発を説明するとき。適応能力"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-030-q1",
+          "type": "fill-blank",
+          "question": "「成功した交渉は十分な準備と相互理解を必要とします」を韓国語で言ってください。",
+          "answer": "성공적인 협상은 철저한 준비와 상호 이해를 필요로 합니다."
+        },
+        {
+          "id": "ko-030-q2",
+          "type": "multiple-choice",
+          "question": "BATNA の役割は何ですか？",
+          "options": [
+            "交渉立場を強化する",
+            "相手に屈服する",
+            "交渉を避ける",
+            "最低の結果を受け入れる"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-030-q3",
+          "type": "fill-blank",
+          "question": "「積極的傾聴と共感はウィンウィンソリューション実現の鍵です」を韓国語で言ってください。",
+          "answer": "경청과 공감은 윈-윈 솔루션에 도달하는 열쇠입니다."
+        },
+        {
+          "id": "ko-030-q4",
+          "type": "multiple-choice",
+          "question": "プレゼンテーションを効果的にするために必要なのは？",
+          "options": [
+            "強力な冒頭、明確な構造、説得的な結論",
+            "長い話",
+            "複雑な用語",
+            "視覚資料なし"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-030-q5",
+          "type": "fill-blank",
+          "question": "「効果的なリーダーシップは明確なビジョンと信頼構築能力を必要とします」を韓国語で言ってください。",
+          "answer": "효과적인 리더십은 명확한 비전과 신뢰를 구축하는 능력을 필요로 합니다."
+        },
+        {
+          "id": "ko-030-q6",
+          "type": "matching",
+          "question": "リーダーシップの要素と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"element": "비전", "description": "明確な方向性"},
+            {"element": "신뢰", "description": "信頼"},
+            {"element": "영향력", "description": "影響力"}
+          ]
+        },
+        {
+          "id": "ko-030-q7",
+          "type": "fill-blank",
+          "question": "「多様性とインクルージョンはイノベーションを促進します」を韓国語で言ってください。",
+          "answer": "다양성과 포용성은 혁신을 촉진합니다."
+        },
+        {
+          "id": "ko-030-q8",
+          "type": "multiple-choice",
+          "question": "効果的なチーム形成に必要なのは？",
+          "options": [
+            "明確な役割、共有目標、相互サポート文化",
+            "個人主義的競争",
+            "権威的支配",
+            "コミュニケーション不足"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国のビジネス交渉文化とコミュニケーション",
+          "duration": "22分",
+          "description": "関係構築重視の交渉、チームコンセンサス、韓国企業のリーダーシップとマネジメントスタイル"
+        },
+        {
+          "type": "grammar",
+          "title": "上級ビジネス言語：説得と影響力の表現",
+          "content": "仮定・提案表現（～라면，～다면）。接続詞による論理的構造（그러므로，따라서，그러나）。間接話法と報告表現。強調の表現方法"
+        },
+        {
+          "type": "note",
+          "title": "韓国企業文化と交渉スタイル",
+          "content": "韓国では関係構築（信頼）が交渉の出発点。上下関係と敬意が重要。チーム中心の意思決定（コンセンサス重視）。感情的つながりと論理の両立。"
+        },
+        {
+          "type": "note",
+          "title": "プレゼンテーション効果の心理学",
+          "content": "Primacy effect（最初の印象）とRecency effect（最後の記憶）。Cognitive load（認知負荷）の管理。ストーリーテリング構造による記憶定着。視覚資料と言語の相乗効果。"
+        },
+        {
+          "type": "note",
+          "title": "韓国式リーダーシップの特徴",
+          "content": "ビジョン提示型リーダーシップ。チーム共創と個人責任のバランス。加族圧力と個人の葛藤を調整する力。コネクティビティと相互扶助の価値観。"
+        },
+        {
+          "type": "practice",
+          "title": "交渉・プレゼン・リーダーシップシミュレーション",
+          "content": "友人と複雑な交渉シナリオをロールプレイしてみてください。一人が顧客・パートナー、もう一人が営業・マネージャーの役を担当。関係構築を優先しながら、相互利益を探ってください。その後、相互のフィードバックを通じてコミュニケーションスキルを磨きます。"
+        }
+      ]
     }
   ]
 }
