@@ -1923,6 +1923,252 @@
           "content": "友人と「営業と購買部長」の役割を複数回交代して、プレゼン準備 → ミーティング開始 → 提案説明 → 質疑応答 → 価格交渉 → 契約締結 → 支払い条件合意 という完全な商談流れを実践してみてください。"
         }
       ]
+    },
+    {
+      "id": "de-008",
+      "level": 5,
+      "title": "ボーナス - ドイツ文化・歴史深掘り",
+      "titleDe": "Bonus - Deutsche Kultur und Geschichte",
+      "objectives": [
+        "ドイツの歴史的背景と現代文化の関連性を理解する",
+        "哲学・音楽・文学などのドイツの文化的貢献を学ぶ",
+        "地域差（プロイセン、バイエルン、ベルリン）を理解する",
+        "現代ドイツ社会と歴史の継承について議論できる"
+      ],
+      "content": {
+        "introduction": "ドイツは西洋文明に多大な貢献をした国です。宗教改革、啓蒙思想、古典音楽、哲学、科学技術など、ヨーロッパの精神的中心地として機能してきました。このボーナスレッスンでは、言語学習の先にあるドイツ文化と歴史の深い理解を目指します。",
+        "sections": [
+          {
+            "title": "ドイツの宗教改革と歴史的転換点",
+            "phrases": [
+              {
+                "german": "Martin Luther hat die Reformation eingeleitet.",
+                "romaji": "Martin Luther hat die Reformation eingeleitet.",
+                "japanese": "マルティン・ルターは宗教改革を開始しました。",
+                "usage": "歴史的大事件の説明"
+              },
+              {
+                "german": "Das Heilige Römische Reich prägte Europas Struktur.",
+                "romaji": "Das Heilige Römische Reich prägte Europas Struktur.",
+                "japanese": "神聖ローマ帝国がヨーロッパの構造を形成しました。",
+                "usage": "帝国の役割説明"
+              },
+              {
+                "german": "Der Dreißigjährige Krieg veränderte Deutschland fundamental.",
+                "romaji": "Der Dreißigjährige Krieg veränderte Deutschland fundamental.",
+                "japanese": "三十年戦争がドイツを根本的に変えました。",
+                "usage": "戦争の影響説明"
+              },
+              {
+                "german": "Preußen wurde zu einer europäischen Großmacht.",
+                "romaji": "Preußen wurde zu einer europäischen Großmacht.",
+                "japanese": "プロイセンがヨーロッパの大国になりました。",
+                "usage": "国家権力の発展"
+              }
+            ]
+          },
+          {
+            "title": "ドイツの哲学・思想の伝統",
+            "phrases": [
+              {
+                "german": "Kant hat die Aufklärung philosophisch begründet.",
+                "romaji": "Kant hat die Aufklärung philosophisch begründet.",
+                "japanese": "カントが啓蒙思想を哲学的に根拠づけました。",
+                "usage": "哲学的貢献"
+              },
+              {
+                "german": "Hegel entwickelte die Dialektik.",
+                "romaji": "Hegel entwickelte die Dialektik.",
+                "japanese": "ヘーゲルが弁証法を展開しました。",
+                "usage": "思想体系"
+              },
+              {
+                "german": "Marx kritisierte die kapitalistische Gesellschaft.",
+                "romaji": "Marx kritisierte die kapitalistische Gesellschaft.",
+                "japanese": "マルクスが資本主義社会を批判しました。",
+                "usage": "思想的影響"
+              },
+              {
+                "german": "Nietzsche hinterfragte die traditionalen Werte.",
+                "romaji": "Nietzsche hinterfragte die traditionalen Werte.",
+                "japanese": "ニーチェが伝統的価値観に疑問を投げかけました。",
+                "usage": "価値観の批判"
+              }
+            ]
+          },
+          {
+            "title": "ドイツの音楽・芸術的遺産",
+            "phrases": [
+              {
+                "german": "Bach, Beethoven und Mozart prägen die klassische Musik.",
+                "romaji": "Bach, Beethoven und Mozart prägen die klassische Musik.",
+                "japanese": "バッハ、ベートーベン、モーツァルトが古典音楽を形成しました。",
+                "usage": "音楽の伝統"
+              },
+              {
+                "german": "Goethe und Schiller sind die Höhepunkte der deutschen Literatur.",
+                "romaji": "Goethe und Schiller sind die Höhepunkte der deutschen Literatur.",
+                "japanese": "ゲーテとシラーはドイツ文学の最高峰です。",
+                "usage": "文学的重要性"
+              },
+              {
+                "german": "Die Deutsche Romantik hat Europa inspiriert.",
+                "romaji": "Die Deutsche Romantik hat Europa inspiriert.",
+                "japanese": "ドイツロマン派がヨーロッパを鼓舞しました。",
+                "usage": "芸術運動"
+              },
+              {
+                "german": "Wagner revolutionierte die Opernmusik.",
+                "romaji": "Wagner revolutionierte die Opernmusik.",
+                "japanese": "ワーグナーがオペラ音楽に革命をもたらしました。",
+                "usage": "音楽革新"
+              }
+            ]
+          },
+          {
+            "title": "現代ドイツと歴史の継承",
+            "phrases": [
+              {
+                "german": "Das Deutsch-Deutsche Denkmal erinnert an die Teilung.",
+                "romaji": "Das Deutsch-Deutsche Denkmal erinnert an die Teilung.",
+                "japanese": "ドイツ分断記念碑が分割を思い出させます。",
+                "usage": "歴史的記憶"
+              },
+              {
+                "german": "Berlins Mauerfragmente sind Symbole der Einheit.",
+                "romaji": "Berlins Mauerfragmente sind Symbole der Einheit.",
+                "japanese": "ベルリンの壁の断片が統一の象徴です。",
+                "usage": "統一への歩み"
+              },
+              {
+                "german": "Deutschland arbeitet kontinuierlich an seiner Vergangenheit.",
+                "romaji": "Deutschland arbeitet kontinuierlich an seiner Vergangenheit.",
+                "japanese": "ドイツは継続的に過去と向き合っています。",
+                "usage": "歴史的責任"
+              },
+              {
+                "german": "Vergangenheit bewältigung ist zentral für die Identität.",
+                "romaji": "Vergangenheit bewältigung ist zentral für die Identität.",
+                "japanese": "過去の処理がアイデンティティの中心です。",
+                "usage": "文化的アイデンティティ"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-008-q1",
+          "type": "fill-blank",
+          "question": "「マルティン・ルターが宗教改革を開始しました」をドイツ語で言ってください。",
+          "answer": "Martin Luther hat die Reformation eingeleitet."
+        },
+        {
+          "id": "de-008-q2",
+          "type": "fill-blank",
+          "question": "「カントが啓蒙思想を哲学的に根拠づけました」をドイツ語で言ってください。",
+          "answer": "Kant hat die Aufklärung philosophisch begründet."
+        },
+        {
+          "id": "de-008-q3",
+          "type": "multiple-choice",
+          "question": "ドイツの哲学が世界に与えた影響について、正しいのはどれですか？",
+          "options": [
+            "実践的な哲学のみ発展した",
+            "弁証法、批判哲学など多様な思想体系が生まれた",
+            "哲学的貢献はほぼない",
+            "自然科学の分野のみ発展した"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "de-008-q4",
+          "type": "fill-blank",
+          "question": "「ベートーベンが古典音楽の最高峰です」をドイツ語で言ってください。",
+          "hint": "「Beethoven」で始まります",
+          "answer": "Beethoven ist der Höhepunkt der klassischen Musik."
+        },
+        {
+          "id": "de-008-q5",
+          "type": "multiple-choice",
+          "question": "ドイツロマン派について、正しい説明はどれですか？",
+          "options": [
+            "ただの愛情表現の文学運動",
+            "ヨーロッパの精神生活に大きな影響を与えた芸術運動",
+            "政治的運動でしかない",
+            "音楽のみの運動"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "de-008-q6",
+          "type": "matching",
+          "question": "以下のドイツの思想家と彼らの主要な貢献を組み合わせてください。",
+          "pairs": [
+            {"german": "Kant", "contribution": "啓蒙思想の哲学的基礎"},
+            {"german": "Hegel", "contribution": "弁証法"},
+            {"german": "Marx", "contribution": "歴史唯物論"},
+            {"german": "Nietzsche", "contribution": "道徳的相対主義"}
+          ]
+        },
+        {
+          "id": "de-008-q7",
+          "type": "fill-blank",
+          "question": "「ドイツは継続的に過去と向き合っています」をドイツ語で言ってください。",
+          "hint": "「Deutschland」で始まります",
+          "answer": "Deutschland arbeitet kontinuierlich an seiner Vergangenheit."
+        },
+        {
+          "id": "de-008-q8",
+          "type": "multiple-choice",
+          "question": "現代ドイツが歴史と向き合う理由として、最も重要なのはどれですか？",
+          "options": [
+            "単なる観光資源にするため",
+            "国民のアイデンティティ形成と民主的社会の構築のため",
+            "国際社会への謝罪のためだけ",
+            "過去を忘れるため"
+          ],
+          "answer": 1
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツ文化・歴史概論 完全版",
+          "duration": "20分",
+          "description": "宗教改革からオイロッパの知的中心地までの発展、現代社会における歴史的継承"
+        },
+        {
+          "type": "grammar",
+          "title": "歴史叙述の言語表現",
+          "content": "完了形「hat...eingeleitet」（開始した）、過去形の受動態「wurde geprägt」（形成された）など。歴史を述べる際の言語体系。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツの宗教改革と歴史的影響",
+          "content": "1517年のマルティン・ルターの95箇条提題がキリスト教分裂の契機に。このとき創造された「ドイツ語」の聖書翻訳は現代ドイツ語の基礎となった。"
+        },
+        {
+          "type": "note",
+          "title": "哲学・思想の黄金時代",
+          "content": "18-19世紀、ドイツはカント、ヘーゲル、マルクス、ニーチェなど世界に影響を与える思想家を輩出。この時期の思想が現代のすべての社会科学の基礎。"
+        },
+        {
+          "type": "note",
+          "title": "音楽・文学における世界的貢献",
+          "content": "バッハから始まる古典音楽の伝統、ゲーテ・シラーなどの文学、ワーグナーのオペラ革新。ドイツは1000年以上、ヨーロッパの知的・芸術的中心地。"
+        },
+        {
+          "type": "note",
+          "title": "戦争・分裂と現代的継承",
+          "content": "三十年戦争、両世界大戦、東西分裂、ホロコーストなど負の歴史も多数。現代ドイツは批判的に歴史と向き合い、民主的価値観の推進者として機能。Vergangenheit Bewältigung（過去の克服）が国家的課題。"
+        },
+        {
+          "type": "practice",
+          "title": "ドイツ思想史ディスカッション",
+          "content": "友人と「歴史家と学生」または「異なる哲学的立場の思想家」の役割を分担して、ドイツ思想の発展、異文化への影響、現代的意義などについて深く議論してみてください。"
+        }
+      ]
     }
   ]
 }
