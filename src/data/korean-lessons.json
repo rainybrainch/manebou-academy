@@ -6620,6 +6620,225 @@
           "content": "あなたが韓国企業の法務部長として、別国の企業との合弁投資契約交渉に臨むシナリオ。相手国の法律環境、自社の事業展開計画、リスク許容度を考慮して交渉戦略を立案します。出資比率、経営の意思決定、利益配分、紛争解決メカニズムについて、どのような条項を提案するかを詳細に述べてください。"
         }
       ]
+    },
+    {
+      "id": "ko-038",
+      "level": 5,
+      "title": "金融キャリアと投資戦略：銀行業務・資産管理・金融規制",
+      "titleKo": "금융 경력과 투자 전략: 은행업무, 자산관리, 금융규제",
+      "objectives": [
+        "韓国と国際的な金融システムの構造を理解する",
+        "銀行家・投資分析官のキャリアパスと職務要件を習得する",
+        "投資戦略、ポートフォリオ管理、リスク分析の基本を理解する",
+        "金融規制、コンプライアンス、ESG投資の重要性を習得する"
+      ],
+      "content": {
+        "introduction": "韓国の金融セクターは急速に成長し、アジア・太平洋地域での重要な役割を果たしています。このレッスンでは、韓国の金融機関（한국은행、大手銀行グループなど）、銀行家と投資専門家のキャリアパス、投資戦略、金融規制（금융감독청）、ESG投資、およびフィンテックの革新に関する高度な韓国語を学びます。",
+        "sections": [
+          {
+            "title": "韓国の金融システムと職業体系",
+            "phrases": [
+              {
+                "korean": "한국의 금융 시스템은 한국은행(중앙은행), 대형 상업은행, 투자은행, 보험회사, 그리고 금융투자회사 등으로 구성되며, 빠르게 성장하는 시장을 특징으로 합니다.",
+                "romaji": "Hangug-ui geumyung siseutem-eun hangug-eun-haengg (joong-angn-eun-haengg), daehyung sangob-eun-haengg, tuja-eun-haengg, boheom-hoesa, geurigo geumyung tuja hoesa deung-euro guseonghae isseumyeo",
+                "japanese": "韓国の金融システムは、韓国銀行（中央銀行）、大型商業銀行、投資銀行、保険会社、金融投資会社などで構成され、急速に成長する市場を特徴とします。",
+                "usage": "韓国の金融システムの構造を説明するとき"
+              },
+              {
+                "korean": "은행원은 경영학, 경제학, 또는 금융학의 학위와 함께, 국제금융분석사(CFA)나 한국증권분석사(KCS) 같은 전문 자격증을 갖추어야 합니다.",
+                "romaji": "Eun-haengwon-eun gyeongnyunghak, gyeongje-hagak, tteoneun geumyunghak-ui hagwi-wa hamkke, guggjae geumyung bunseoggsa (CFA)na Hangug jeugg-gwon bunseoggsa (KCS) kkateun jeonmun jagyeokjeung-eul gatchwo-ya hamnida",
+                "japanese": "銀行員は経営学、経済学、または金融学の学位と、国際金融分析官（CFA）や韓国証券分析官（KCS）などの専門資格を備える必要があります。",
+                "usage": "銀行家のキャリア要件を説明するとき"
+              },
+              {
+                "korean": "금융업계의 경력 경로는 신입행원에서 출발하여 상품담당, 신용분석사, 포트폴리오 매니저, 투자은행가, 위험관리자, 준법감시인 등의 직책으로 발전합니다.",
+                "romaji": "Geumyung-eobgye-ui gyeongnyeol gyeongro-neun sinip-haengwon-eseo chulbal-hayeo sangpum-damndang, sinyong bunseoggsa, poteupollio maenija, tuja-eun-haenggga, wihom gwanriga, junbeob gamssi-in deung-ui jikcheak-euro baljeon hamnida",
+                "japanese": "金融業界のキャリアパスは新入行員から始まり、商品責任者、信用分析官、ポートフォリオマネージャー、投資銀行家、リスク管理者、コンプライアンス責任者などの職位に発展します。",
+                "usage": "金融業界のキャリアパスを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "投資戦略とポートフォリオ管理",
+            "phrases": [
+              {
+                "korean": "성공적인 투자 전략은 명확한 투자 목표, 위험 허용도, 분산 투자, 그리고 시장 상황에 따른 정기적인 점검과 조정을 필요로 합니다.",
+                "romaji": "Seonggong-jeogin tuja jeonryak-eun myeongwhak-hahnn tuja mokpyo, wihom hoyong-do, bunssan tuja, geurigo sigang sang-hwang-e ttareun jeonggi-jeogin jeomcheong-gwa jojeong-eul piryoro hamnida",
+                "japanese": "成功する投資戦略は明確な投資目標、リスク許容度、分散投資、市場状況に応じた定期的な確認と調整が必要です。",
+                "usage": "投資戦略の基本原則を説明するとき"
+              },
+              {
+                "korean": "포트폴리오 매니저는 주식, 채권, 원자재, 부동산을 분석하여 최적의 자산 배분을 이루고, 수익을 극대화하면서 위험을 최소화합니다.",
+                "romaji": "Poteupollio maenija-neun juusik, chaegwon, weonjjae, budongsan-eul bunseoghayeo choesog-ui jasan baebuneul i-reugo, suigyeog-eul geugdaehwa hamyeonseo wihom-eul chosowhahwa hamnida",
+                "japanese": "ポートフォリオマネージャーは株式、債券、商品、不動産を分析して最適な資産配分を実現し、収益を最大化しながらリスクを最小化します。",
+                "usage": "ポートフォリオ管理の実務を説明するとき"
+              },
+              {
+                "korean": "VaR(위험가치), 스트레스 테스트, 몬테카를로 시뮬레이션 등의 정량적 분석 방법은 금융 위험을 평가하고 의사결정에 필수적인 도구입니다.",
+                "romaji": "VaR (wihom gachi), seuteureseu teseuteu, montekalro simulle-isyeon deung-ui jeongnyangjeog bunseogg bangbeop-eun geumyung wihom-eul pyeongga-hago uisagyeoljeongg-e pilyul-jeogin dogu imnida",
+                "japanese": "VaR（リスク価値）、ストレステスト、モンテカルロシミュレーションなどの定量的分析手法は金融リスク評価と意思決定に不可欠なツールです。",
+                "usage": "金融リスク分析の手法を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "金融規制とコンプライアンス",
+            "phrases": [
+              {
+                "korean": "한국의 금융감독청(FSC)와 금융감시원(FSS)은 은행, 증권, 보험 등 금융기관을 감시하며, 높은 수준의 자본금, 유동성, 고객보호 기준을 유지합니다.",
+                "romaji": "Hangug-ui geumyung gamsog-cheong (FSC)-wa geumyung gamssi-won (FSS)-eun eun-haengg, jeugg-gwon, boheom deung geumyung gigan-eul gamsshi hamyeo, noppeun sujoong-ui jaben-geum, yudongseongg, goggaeg boho gijun-eul yuji hamnida",
+                "japanese": "韓国の金融監督庁（FSC）と金融監視院（FSS）は銀行、証券、保険など金融機関を監視し、高度な資本金、流動性、顧客保護基準を維持します。",
+                "usage": "韓国の金融規制を説明するとき"
+              },
+              {
+                "korean": "국제적 금융규제 기준인 바젤 III는 은행들이 자본 요구사항을 충족하고, 유동성 위험을 관리하며, 엄격한 컴플라이언스 기준을 준수하도록 요구합니다.",
+                "romaji": "Guggjae-jeogin geumyung gyuje gijun-in bajel III-neun eun-haengg deul-i jaben yogu-sahangg-eul chungmok-hago, yudongseongg wihom-eul gwanri hamyeo, eomgyerok keompulai-yeon-seu gijun-eul junsuhag-dorok yogu hamnida",
+                "japanese": "国際的金融規制基準であるバーゼルIIIは銀行が資本要件を満たし、流動性リスクを管理し、厳格なコンプライアンス基準を遵守することを要求します。",
+                "usage": "国際的な銀行規制を説明するとき"
+              },
+              {
+                "korean": "자금세탁 방지(AML), 고객확인(KYC), 그리고 실사(Due Diligence)는 불법 자금 이동, 테러 자금 조달, 사기 행위를 방지하기 위한 핵심 컴플라이언스 요구사항입니다.",
+                "romaji": "Jageum setakh bangji (AML), goggaeg hwaggin (KYC), geurigo silsa (Due Diligence)-neun bullib jageum idong, tero jageum johdal, sagi haengwi-reul bangjiahgi wihan haekshim keompulai-yeon-seu yogu-sahangg-imnida",
+                "japanese": "マネーロンダリング防止（AML）、顧客確認（KYC）、実地調査（デューディリジェンス）は不法資金移動、テロ資金調達、詐欺行為を防ぐための核心的コンプライアンス要件です。",
+                "usage": "金融コンプライアンスの主要要素を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "ESG投資とサステナブルファイナンス",
+            "phrases": [
+              {
+                "korean": "ESG 투자(환경, 사회, 기업지배구조)는 지속 가능성을 고려하여 투자 의사결정에 통합하고, 장기적 가치 창출과 위험 감소를 달성합니다.",
+                "romaji": "ESG tuja (hwangyeong, sahwee, gieob jibae gujo)-neun jisok ganeung-seong-eul golyeo hayeo tuja uisagyeoljeongg-e tonghap-hago, janggijeog gachi changsul-gwa wihom gamsso-reul dalhae hamnida",
+                "japanese": "ESG投資（環境・社会・企業統治）はサステナビリティを考慮して投資判断に統合し、長期的価値創造とリスク低減を達成します。",
+                "usage": "ESG投資の概念を説明するとき"
+              },
+              {
+                "korean": "녹색채권(Green Bonds)은 재생 에너지, 에너지 효율성, 기후변화 대응 등의 환경 프로젝트에 자금을 제공하며, 지속 가능한 개발 자금 조달에서 중요한 역할을 합니다.",
+                "romaji": "Noksaeg chaegwon (Green Bonds)-eun jaesaeng eneoji, eneoji hyoeul-seong, gihu byeonhwa daeo deung-ui hwangyeong peurojekteu-e jageum-eul jegong hamyeo, jisok ganeung-hahnn gaebael jageum johdal-e-seo jungyohahnn yeol-hal-eul hamnida",
+                "japanese": "グリーンボンド（緑色債）は再生エネルギー、エネルギー効率、気候変動対応などの環境プロジェクトに資金を提供し、持続可能な開発資金調達で重要な役割を果たします。",
+                "usage": "持続可能な金融商品を説明するとき"
+              },
+              {
+                "korean": "순환경제로의 전환과 탈탄소화 경제는 녹색 인프라에 막대한 투자를 요구하며, 금융 전문가들에게 새로운 기회와 도전을 제공합니다.",
+                "romaji": "Sunhwan gyeongje-ro ui jeonhwan-gwa taltan-sosohwa gyeongje-neun noksaeg inpeura-e magdaehan tuja-reul yogu hamyeo, geumyung jeonmun-ga deul-egehae saeroun gihoewa dochalen-eul jegong hamnida",
+                "japanese": "循環経済への転換と脱炭素化経済はグリーンインフラへの膨大な投資を要求し、金融専門家に新しい機会と課題を提供します。",
+                "usage": "持続可能な経済への移行を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-038-q1",
+          "type": "fill-blank",
+          "question": "「韓国の金融システムは韓国銀行と大型商業銀行で構成されています」を韓国語で言ってください。",
+          "answer": "한국의 금융 시스템은 한국은행과 대형 상업은행으로 구성되어 있습니다."
+        },
+        {
+          "id": "ko-038-q2",
+          "type": "multiple-choice",
+          "question": "銀行員に必要な資格は？",
+          "options": [
+            "経営学・経済学の学位 + CFA・KCS認定資格",
+            "高校卒業で十分",
+            "実務経験のみで可能",
+            "資格なしで可能"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-038-q3",
+          "type": "fill-blank",
+          "question": "「成功する投資戦略は明確な目標とリスク許容度を必要とします」を韓国語で言ってください。",
+          "answer": "성공적인 투자 전략은 명확한 투자 목표와 위험 허용도를 필요로 합니다."
+        },
+        {
+          "id": "ko-038-q4",
+          "type": "multiple-choice",
+          "question": "ポートフォリオ管理の主な目的は？",
+          "options": [
+            "収益を最大化しリスクを最小化する",
+            "すべての資金を1つの銘柄に投資する",
+            "市場動向のみに従う",
+            "分析なしで投資判断する"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-038-q5",
+          "type": "fill-blank",
+          "question": "「金融監督庁（FSC）はコンプライアンス基準を監視します」を韓国語で言ってください。",
+          "answer": "금융감독청(FSC)은 컴플라이언스 기준을 감시합니다."
+        },
+        {
+          "id": "ko-038-q6",
+          "type": "matching",
+          "question": "金融規制用語と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"term": "AML", "description": "マネーロンダリング防止"},
+            {"term": "KYC", "description": "顧客確認"},
+            {"term": "Basel III", "description": "銀行資本規制"}
+          ]
+        },
+        {
+          "id": "ko-038-q7",
+          "type": "fill-blank",
+          "question": "「ESG投資は環境・社会・企業統治を考慮します」を韓国語で言ってください。",
+          "answer": "ESG 투자는 환경, 사회, 기업지배구조를 고려합니다."
+        },
+        {
+          "id": "ko-038-q8",
+          "type": "multiple-choice",
+          "question": "グリーンボンドの主な目的は？",
+          "options": [
+            "環境プロジェクト（再生エネルギー、気候変動対策）への資金提供",
+            "企業営利事業の支援のみ",
+            "軍事費用への融資",
+            "投機目的の取引"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国の金融システムと投資キャリア：銀行業務・ポートフォリオ管理・ESG投資",
+          "duration": "27分",
+          "description": "韓国銀行と大型銀行グループの役割。銀行家と投資分析官のキャリアパス。投資戦略とリスク分析。FSC・FSS規制体制。ESG投資とグリーンボンド。フィンテック革新。"
+        },
+        {
+          "type": "grammar",
+          "title": "金融用語と投資・銀行業用語",
+          "content": "金融複合名詞：금융 시스템（金融システム）、포트폴리오 관리（ポートフォリオ管理）、위험 평가（リスク評価）、자산 배분（資産配分）。投資用語：수익률（収益率）、변동성（ボラティリティ）、분산 투자（分散投資）。規制用語：컴플라이언스（コンプライアンス）、지불능력（支払能力）、유동성（流動性）。"
+        },
+        {
+          "type": "note",
+          "title": "韓国の主要な金融機関と市場",
+          "content": "韓国銀行（한국은행）：中央銀行、通貨政策実施。IBK企銀（기업은행）、国民銀行（국민은행）、新韓銀行（신한은행）、KB国民銀行：大型商業銀行。韓国総合取引所（한국거래소）：株式・先物市場。"
+        },
+        {
+          "type": "note",
+          "title": "金融規制と国際基準",
+          "content": "バーゼルI・II・III：国際銀行規制。FSC（금융감독청）・FSS（금융감시원）：銀行・証券・保険監督。AML/KYC：反マネーロンダリング国際基準。G20資金安定理事会（FSB）の勧告。"
+        },
+        {
+          "type": "note",
+          "title": "ESG投資とフィンテックの動向",
+          "content": "グリーンボンド発行増加：環境プロジェクト融資。フィンテック企業の台頭：モバイル決済、ブロックチェーン。デジタル資産管理：AIロボアドバイザー。キャッシュレス社会への進行。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツと韓国の金融市場の比較",
+          "content": "ドイツ：EU統合、ユーロ圏、長期安定性重視、フランクフルト金融中心地。韓国：高成長市場、技術革新、迅速な取引、アジア・太平洋地域への影響力。両国とも国際規制に準拠。"
+        },
+        {
+          "type": "practice",
+          "title": "投資ポートフォリオの構築と実装計画",
+          "content": "あなたが資産管理会社の投資ポートフォリオマネージャーとします。中期（5年）と長期（10年）の投資目標、リスク許容度、市場環境を考慮して、株式・債券・不動産・ESG投資の最適な配分を設計します。定期的なリバランス戦略、モニタリング指標、規制遵守とコンプライアンス実装計画を詳細に述べてください。"
+        }
+      ]
     }
   ]
 }
