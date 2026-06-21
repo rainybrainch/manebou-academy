@@ -3209,6 +3209,197 @@
           "content": "友人と「テクノロジー企業の CEO と社会学者」または「異なる世代の韓国人」の役割を分担して、AI時代の労働、環境問題、文化の国際化などについて深く議論してみてください。"
         }
       ]
+    },
+    {
+      "id": "ko-022",
+      "level": 4,
+      "title": "特別編 - ドイツと韓国の文化対比",
+      "titleKo": "특별판 - 독일과 한국의 문화 비교",
+      "objectives": [
+        "ドイツと韓国の社会構造と価値観の違いを理解する",
+        "異文化コミュニケーションスキルを習得する",
+        "グローバルな視点から両国の役割を理解する",
+        "文化的相違について敬意を持って議論できる能力を習得する"
+      ],
+      "content": {
+        "introduction": "독일과 한국은 지리적으로는 멀지만, 둘 다 현대 유럽과 아시아에서 중요한 역할을 하고 있습니다. 이 특별 강의에서는 두 국가의 문화적 차이와 공통점을 비교하여 글로벌 관점에서 문화 이해를 깊게 합니다.",
+        "sections": [
+          {
+            "title": "경영문화와 기업가치관의 차이",
+            "phrases": [
+              {
+                "korean": "독일 기업은 품질과 효율성을 강조합니다.",
+                "romaji": "Dokil gieop-eun pumsil-gwa hyoeul-seong-eul gang-jo-hamnida.",
+                "japanese": "ドイツ企業は品質と効率性を強調します。",
+                "usage": "企業文化の特徴"
+              },
+              {
+                "korean": "한국의 기업문화는 더 위계적이고 가족 중심입니다.",
+                "romaji": "Hanguk-ui gieop-munhwa-neun deo wige-jeok-i-go gajok joong-sim-imnida.",
+                "japanese": "韓国の企業文化はより階層的で家族志向です。",
+                "usage": "文化的相違"
+              },
+              {
+                "korean": "독일이 장기적 안정성을 추구하는 동안, 한국은 빠른 혁신에 집중합니다.",
+                "romaji": "Dokil-i janggi-jeok ansjeong-seong-eul chu-gu-ha-neun dong-an, Hanguk-eun ppa-reun hyeokmyeong-e jip-joong-hamnida.",
+                "japanese": "ドイツが長期的安定を目指す一方、韓国は急速なイノベーションに注力しています。",
+                "usage": "戦略的相違"
+              }
+            ]
+          },
+          {
+            "title": "社会的価値観と人生観の比較",
+            "phrases": [
+              {
+                "korean": "독일에서는 일과 삶의 균형이 오랫동안 초점이었습니다.",
+                "romaji": "Dokil-e-seo-neun il-gwa salm-ui gyunhyung-i oraetdong-an chochip-i-eot-seubnida.",
+                "japanese": "ドイツでは仕事と生活のバランスが長年の焦点です。",
+                "usage": "社会的優先事項"
+              },
+              {
+                "korean": "한국은 이제 과로 문화를 극복하기 시작했습니다.",
+                "romaji": "Hanguk-eun ije gwaro munhwa-reul geuk-bok-ha-gi sija-ghaet-seubnida.",
+                "japanese": "韓国は今、ワーカホリズムを克服し始めています。",
+                "usage": "社会的変化"
+              },
+              {
+                "korean": "개인주의는 독일에서 더 강하고, 조화 유지는 한국에서 강조됩니다.",
+                "romaji": "Gae-in-ju-ui-neun Dokil-e-seo deo ganghago, joha-wa yuji-neun Hanguk-e-seo gang-jo-doe-mnida.",
+                "japanese": "個人主義はドイツでより強く、調和維持は韓国で強調されます。",
+                "usage": "文化的価値観"
+              }
+            ]
+          },
+          {
+            "title": "教育システムと人材育成の違い",
+            "phrases": [
+              {
+                "korean": "독일 학교는 비판적 사고와 질문을 장려합니다.",
+                "romaji": "Dokil hakkyo-neun bipan-jeok sagoh-wa jilmun-eul jang-ryeo-hamnida.",
+                "japanese": "ドイツの学校は批判的思考と質問を促進します。",
+                "usage": "教育哲学"
+              },
+              {
+                "korean": "한국 학교는 더 높은 경쟁 압력을 가지고 있고 시험 점수에 초점을 맞춥니다.",
+                "romaji": "Hanguk hakkyo-neun deo nopheun gyeongjaeng-ap-ryeok-eul gajigo itgo sihum jeomsu-e chochip-eul matchubnida.",
+                "japanese": "韓国の学校はより高い競争圧力を持ち、試験成績に焦点を当てています。",
+                "usage": "教育システムの特徴"
+              },
+              {
+                "korean": "두 나라 모두 기술 교육에 강하게 투자합니다.",
+                "romaji": "Du nara modu gisul gyoyuk-e ganghage tu-ja-hamnida.",
+                "japanese": "両国は技術教育に大きく投資しています。",
+                "usage": "共通点"
+              }
+            ]
+          },
+          {
+            "title": "グローバルな役割と国際関係",
+            "phrases": [
+              {
+                "korean": "독일은 유럽의 안정의 중심입니다.",
+                "romaji": "Dokil-eun yureop-ui ansjeong-ui joong-sim-imnida.",
+                "japanese": "ドイツはヨーロッパの安定の中心です。",
+                "usage": "国際的役割"
+              },
+              {
+                "korean": "한국은 아시아의 기술과 문화의 중심입니다.",
+                "romaji": "Hanguk-eun Asia-ui gisul-gwa munhwa-ui joong-sim-imnida.",
+                "japanese": "韓国はアジアの技術と文化の中心です。",
+                "usage": "地域的重要性"
+              },
+              {
+                "korean": "두 나라 모두 글로벌 공급망에서 중요한 역할을 합니다.",
+                "romaji": "Du nara modu geullobal gong-geup-manag-e-seo jung-yo-han yeok-hal-eul hamnida.",
+                "japanese": "両国はグローバルサプライチェーンで重要な役割を果たします。",
+                "usage": "経済的相互依存"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-022-q1",
+          "type": "fill-blank",
+          "question": "「독일 기업은 품질과 효율성을 강조합니다」（ドイツ企業は品質と効率性を強調します）",
+          "answer": "독일 기업은 품질과 효율성을 강조합니다."
+        },
+        {
+          "id": "ko-022-q2",
+          "type": "multiple-choice",
+          "question": "韓国の企業文化の特徴として正しいのはどれですか？",
+          "options": [
+            "完全に個人主義的",
+            "より階層的で家族志向",
+            "短期的利益のみ重視",
+            "技術投資がない"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "ko-022-q3",
+          "type": "fill-blank",
+          "question": "「개인주의는 독일에서 더 강하고, 조화 유지는 한국에서 강조됩니다」（個人主義はドイツでより強く、調和維持は韓国で強調されます）",
+          "answer": "개인주의는 독일에서 더 강하고, 조화 유지는 한국에서 강조됩니다."
+        },
+        {
+          "id": "ko-022-q4",
+          "type": "multiple-choice",
+          "question": "教育における両国の最大の相違点は何ですか？",
+          "options": [
+            "ドイツが競争圧力が高く、韓国が低い",
+            "ドイツが批判的思考を促進し、韓国が試験成績重視",
+            "両国が全く同じシステム",
+            "韓国が個人主義的教育をしている"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "ko-022-q5",
+          "type": "fill-blank",
+          "question": "「독일은 유럽의 안정의 중심입니다」（ドイツはヨーロッパの安定の中心です）",
+          "answer": "독일은 유럽의 안정의 중심입니다."
+        },
+        {
+          "id": "ko-022-q6",
+          "type": "matching",
+          "question": "ドイツと韓国のグローバルな役割を正しく組み合わせてください。",
+          "pairs": [
+            {"country": "독일", "role": "유럽의 안정과 경제의 중심"},
+            {"country": "한국", "role": "아시아의 기술과 문화의 중심"},
+            {"country": "두 나라", "role": "글로벌 공급망의 중요 플레이어"}
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "독일과 한국: 문화 비교와 상호 이해",
+          "duration": "18분",
+          "description": "경영문화, 교육 시스템, 사회적 가치관의 비교를 통한 다문화 이해"
+        },
+        {
+          "type": "grammar",
+          "title": "비교 표현과 문화적 차이의 언어화",
+          "content": "「～하는 동안」（～の一方）、「～에 비해」（～と比べて）등의 비교 표현. 문화적 차이를 존중하며 표현하기 위한 표현들."
+        },
+        {
+          "type": "note",
+          "title": "독일과 한국의 공통점과 차이점",
+          "content": "공통점: 기술 대국, 민주주의, 글로벌 기업. 차이점: 경영 문화（효율성 vs 급속 혁신）, 사회적 가치관（개인주의 vs 조화）, 역사적 경험. 그러나 두 나라 모두 현대화에 대한 강한 의지를 가지고 있습니다."
+        },
+        {
+          "type": "note",
+          "title": "다문화 소통의 팁",
+          "content": "차이를 인식하면서도 판단을 피하기. \"부적절\"이 아니라 \"다르다\"고 이해하기. 공통의 목표나 가치를 찾아 협력하기. 글로벌 시대의 필수 스킬."
+        },
+        {
+          "type": "practice",
+          "title": "문화 비교 토론",
+          "content": "친구와 \"독일 가치관의 대변인과 한국 가치관의 대변인\"의 역할을 나누어, 경영, 교육, 사회적 가치관, 국제적 역할 등에 대해 토론하고 상호 이해를 심화시켜 보세요."
+        }
+      ]
     }
   ]
 }
