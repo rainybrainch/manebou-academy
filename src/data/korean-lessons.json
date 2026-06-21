@@ -407,12 +407,13 @@
       "title": "交通・移動",
       "titleKo": "교통 - 이동",
       "objectives": [
-        "タクシー・バスの乗降表現を習得する",
-        "目的地への道を尋ねられる",
-        "乗車券の購入ができる"
+        "タクシー・バス・地下鉄の利用表現を完璧に習得する",
+        "目的地までのルート確認ができる",
+        "乗車券購入と料金支払いが正確にできる",
+        "交通機関の乗り換え表現を理解する"
       ],
       "content": {
-        "introduction": "韓国での移動に必要な会話表現を学びます。タクシーやバス、地下鉄などの交通機関を利用する際に役立ちます。",
+        "introduction": "韓国での移動に必要な会話表現を学びます。タクシーやバス、地下鉄などの交通機関を利用する際に役立ちます。韓国の交通システムは安全で効率的ですが、目的地確認などで敬語による正確な表現が必要です。",
         "sections": [
           {
             "title": "タクシー利用",
@@ -421,19 +422,25 @@
                 "korean": "택시를 불러주세요.",
                 "romaji": "Taeksi-reul bul-leo-ju-se-yo.",
                 "japanese": "タクシーを呼んでください。",
-                "usage": "タクシー配車"
+                "usage": "タクシー配車。ホテルスタッフなど誰かにお願いする時の表現"
               },
               {
                 "korean": "미터기를 켜주세요.",
                 "romaji": "Mi-teo-gi-reul kyeo-ju-se-yo.",
                 "japanese": "メーターをつけてください。",
-                "usage": "メーター使用をリクエスト"
+                "usage": "メーター使用をリクエスト。韓国ではほぼ全てのタクシーにメーターがある"
               },
               {
                 "korean": "명동으로 가주세요.",
                 "romaji": "Myeongdong-eu-ro ga-ju-se-yo.",
                 "japanese": "明洞に行ってください。",
-                "usage": "目的地を指定"
+                "usage": "目的地を指定。～으로/으로 は「〜へ」という意味"
+              },
+              {
+                "korean": "주소를 알려주세요.",
+                "romaji": "Jusoreu al-lyeo-ju-se-yo.",
+                "japanese": "住所を教えてください。",
+                "usage": "運転手に住所や目的地を明確に伝える"
               },
               {
                 "korean": "여기서 세워주세요.",
@@ -445,7 +452,13 @@
                 "korean": "얼마예요?",
                 "romaji": "Eol-ma-ye-yo?",
                 "japanese": "いくらですか？",
-                "usage": "料金を確認"
+                "usage": "料金を確認。ただしメーター使用の場合は通常は計測済み"
+              },
+              {
+                "korean": "영수증 주세요.",
+                "romaji": "Yeongsu-jeung ju-se-yo.",
+                "japanese": "領収書をください。",
+                "usage": "領収書をリクエスト"
               }
             ]
           },
@@ -456,7 +469,13 @@
                 "korean": "버스 정류장이 어디에요?",
                 "romaji": "Beoseu jeongryuusang-i eodi-e-yo?",
                 "japanese": "バス停はどこですか？",
-                "usage": "バス停を探す"
+                "usage": "バス停を探す際の標準表現"
+              },
+              {
+                "korean": "명동역으로 가는 버스가 있어요?",
+                "romaji": "Myeongdong-yeog-eu-ro ga-neun beoseuga it-eo-yo?",
+                "japanese": "明洞駅に行くバスはありますか？",
+                "usage": "特定の目的地へのバスの有無確認"
               },
               {
                 "korean": "몇 번 버스를 타야 돼요?",
@@ -475,6 +494,12 @@
                 "romaji": "Wangbok pyo du jang ju-se-yo.",
                 "japanese": "往復切符を2枚ください。",
                 "usage": "往復切符購入"
+              },
+              {
+                "korean": "하차 벨을 어디서 눌러야 돼요?",
+                "romaji": "Hacha bel-eul eodi-seo nul-leo-ya doe-yo?",
+                "japanese": "降車ボタンはどこで押せばいいですか？",
+                "usage": "降車準備の確認"
               }
             ]
           },
@@ -485,20 +510,43 @@
                 "korean": "지하철역이 어디에요?",
                 "romaji": "Jihacheol-yeog-i eodi-e-yo?",
                 "japanese": "地下鉄駅はどこですか？",
-                "usage": "駅を探す"
+                "usage": "駅を探す時の標準表現"
               },
               {
                 "korean": "명동역으로 어떻게 가요?",
                 "romaji": "Myeongdong-yeog-eu-ro eotteoke ga-yo?",
                 "japanese": "明洞駅へはどう行きますか？",
-                "usage": "経路を尋ねる"
+                "usage": "経路を尋ねる一般的な表現"
+              },
+              {
+                "korean": "몇 호선을 탈까요?",
+                "romaji": "Myeot hoseon-eul tal-kka-yo?",
+                "japanese": "何号線に乗ればいいですか？",
+                "usage": "地下鉄の路線番号確認"
               },
               {
                 "korean": "카드로 충전하고 싶습니다.",
                 "romaji": "Kadeu-ro chung-jeon-ha-go sip-seubnida.",
                 "japanese": "カードをチャージしたいです。",
-                "usage": "カード購入・チャージ"
+                "usage": "乗車カード（T-money card）のチャージ"
+              },
+              {
+                "korean": "일회용 승차권 주세요.",
+                "romaji": "Ilhoe-yong seungcha-gwon ju-se-yo.",
+                "japanese": "1回用の乗車券をください。",
+                "usage": "使い捨てチケット購入"
               }
+            ]
+          },
+          {
+            "title": "交通機関別の特性",
+            "items": [
+              {"korean": "택시", "japanese": "タクシー", "특성": "高いが便利。メーター制"},
+              {"korean": "버스", "japanese": "バス", "특성": "安い。都市内移動に便利"},
+              {"korean": "지하철", "japanese": "地下鉄", "특성": "最も安く、正確。定時性が高い"},
+              {"korean": "기차", "japanese": "列車", "특성": "長距離移動用。予約推奨"},
+              {"korean": "고속버스", "japanese": "高速バス", "특성": "都市間の長距離移動"},
+              {"korean": "KTX", "japanese": "KTX（新幹線）", "특성": "韓国の最高速列車"}
             ]
           }
         ]
@@ -509,9 +557,52 @@
           "type": "fill-blank",
           "question": "「ここで止めてください」を韓国語で言ってください。",
           "answer": "여기서 세워주세요."
+        },
+        {
+          "id": "ko-009-q2",
+          "type": "fill-blank",
+          "question": "「何番のバスに乗ればいいですか？」を韓国語で言ってください。",
+          "hint": "「몇 번」で始まります",
+          "answer": "몇 번 버스를 타야 돼요?"
+        },
+        {
+          "id": "ko-009-q3",
+          "type": "multiple-choice",
+          "question": "「명동역으로 어떻게 가요?」という文の意味として正しいのはどれですか？",
+          "options": [
+            "明洞駅へはどう行きますか？",
+            "明洞駅にいますか？",
+            "明洞駅を見ていますか？",
+            "明洞駅で何をしていますか？"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-009-q4",
+          "type": "fill-blank",
+          "question": "「1回用の乗車券をください」を韓国語で言ってください。",
+          "hint": "「일회용」で始まります",
+          "answer": "일회용 승차권 주세요."
         }
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国の交通機関利用実践",
+          "url": "#",
+          "duration": "11分"
+        },
+        {
+          "type": "grammar",
+          "title": "「～으로/으로」と「～에」の使い分け",
+          "content": "～으로は「～へ（方向）」。～에は「～で（位置）」。交通機関の目的地は～으로を使用します。"
+        },
+        {
+          "type": "note",
+          "title": "韓国の交通カード",
+          "content": "T-money card や Cashbee などのカードが便利。ほぼ全ての交通機関で使用可能。コンビニでチャージ可能。"
+        }
+      ]
     },
     {
       "id": "ko-010",
