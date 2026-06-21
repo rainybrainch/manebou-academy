@@ -114,16 +114,26 @@ export const englishAcademyCategory: Category = {
           title: 'イントネーション（音の高さ）',
           duration: '6:00',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
-            ' 疑問文のイントネーションが理解できる',
+            '疑問文のイントネーションが理解できる',
             '強調のイントネーション使い分けられる',
             'より自然な発音ができる',
+            '感情がイントネーションで伝わることが理解できる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: '同じ単語でも、音の高さを変えると意味が変わることがあります。イントネーションをマスターしましょう。',
+              content: '同じ単語でも、音の高さを変えると意味が変わることがあります。イントネーションはネイティブのような自然な英語を話すカギです。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'イントネーションの3つの基本パターン',
+            },
+            {
+              type: 'text',
+              content: '**1. 上昇イントネーション（↗️）**\n- 疑問文：You like coffee?\n- 不確実さ：I think it\'s around here?\n- 文末が上がる = 質問や不確実さを表現\n\n**2. 下降イントネーション（↘️）**\n- 肯定文：That\'s great.\n- 確定情報：The meeting is at 3 PM.\n- 文末が下がる = 確実さや終了を表現\n\n**3. 平坦イントネーション（→）**\n- リスト：I need apples, oranges, and bananas.\n- 中立：He said he would come.\n- 平坦 = 中立的な情報を表現',
             },
           ],
         },
