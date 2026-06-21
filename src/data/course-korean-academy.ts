@@ -17,16 +17,18 @@ export const koreanAcademyCategory: Category = {
           title: 'Lesson 7: 食べ物の注文と感想',
           duration: '8:00',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
             '食べ物の名前が言える',
             'レストランで注文できる',
             '味の感想が表現できる',
+            '辛さレベルを指定できる',
+            '食べ物アレルギーを伝えられる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: '韓国料理は世界的に人気。レストランでの会話と食べ物の名前を学びます。',
+              content: '韓国料理は世界的に人気。レストランでの会話と食べ物の名前を学びます。辛い料理が多いので、辛さレベルの指定方法は必須スキル。',
             },
             {
               type: 'heading',
@@ -35,7 +37,12 @@ export const koreanAcademyCategory: Category = {
             },
             {
               type: 'text',
-              content: '**基本的な食べ物**\n- 밥 (pap) - ご飯\n- 국 (guk) - スープ\n- 반찬 (banchan) - おかず\n- 떡 (tteok) - もち\n- 면 (myeon) - 麺\n\n**レストランでの表現**\n- "뭘 드시겠어요?" - 何にしますか？\n- "비빔밥 한 그릇 주세요" - ビビンバ一杯ください\n- "맛있어요!" - 美味しいです！',
+              content: '**基本的な食べ物**\n- 밥 (pap) - ご飯\n- 국 (guk) - スープ\n- 반찬 (banchan) - おかず\n- 떡 (tteok) - もち\n- 면 (myeon) - 麺\n\n**代表的な韓国料理**\n- 비빔밥 (bibimbap) - ビビンバ\n- 불고기 (bulgogi) - 韓国焼肉\n- 김치 (kimchi) - キムチ\n- 떡볶이 (tteokbokki) - 辛いもち\n- 삼겹살 (samgyeopsal) - 豚の三枚肉\n\n**レストランでの表現**\n- "뭘 드시겠어요?" - 何にしますか？\n- "비빔밥 한 그릇 주세요" - ビビンバ一杯ください\n- "맛있어요!" - 美味しいです！\n- "덜 맵게 해주세요" - 辛くしてください\n- "더 맵게 해주세요" - もっと辛くしてください',
+            },
+            {
+              type: 'highlight-box',
+              title: '辛さレベルの指定方法',
+              content: '- 안 맵게 (an maep-ke) - 辛くなく\n- 약간 맵게 (yakkan maep-ke) - ちょっと辛く\n- 보통 맵게 (botong maep-ke) - 普通に辛く\n- 많이 맵게 (mani maep-ke) - 辛く',
             },
           ],
         },
@@ -44,16 +51,26 @@ export const koreanAcademyCategory: Category = {
           title: 'Lesson 8: 季節と天気の会話',
           duration: '7:30',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
             '季節が言える',
             '天気について話せる',
             '天気予報が理解できる',
+            '季節による服装の会話ができる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: '韓国の四季は日本と似ています。季節と天気の語彙を習得します。',
+              content: '韓国の四季は日本と似ています。季節と天気の語彙を習得します。また、韓国ドラマで頻出の季節感のある会話も学びます。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: '季節と天気の基本表現',
+            },
+            {
+              type: 'text',
+              content: '**季節**\n- 봄 (bom) - 春\n- 여름 (yeoreum) - 夏\n- 가을 (gaeul) - 秋\n- 겨울 (gyeowul) - 冬\n\n**天気**\n- 맑다 (malkda) - 晴れている\n- 흐리다 (huirida) - 曇っている\n- 비가 온다 (biga onda) - 雨が降る\n- 눈이 온다 (nuni onda) - 雪が降る\n- 바람이 불다 (barami bulda) - 風が吹く\n\n**天気の会話**\n- "날씨가 어때요?" - 天気どうですか？\n- "날씨가 좋아요" - 天気がいいです\n- "오늘 춥네요" - 今日は寒いですね\n- "우산을 가져가세요" - 傘を持って行ってください',
             },
           ],
         },
@@ -62,16 +79,26 @@ export const koreanAcademyCategory: Category = {
           title: 'Lesson 9: 感情と気分の表現',
           duration: '6:45',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
             '感情が表現できる',
             '気分について説明できる',
             '相手の気分を尋ねられる',
+            'ドラマで頻出の感情表現が分かる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: 'ドラマで頻出の感情表現を学びます。より自然な会話に。',
+              content: 'ドラマで頻出の感情表現を学びます。より自然な会話と、キャラの心理表現が理解できるようになります。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: '感情と気分の表現',
+            },
+            {
+              type: 'text',
+              content: '**肯定的な感情**\n- 기쁘다 (gippeuda) - 嬉しい\n- 행복하다 (haengbokhada) - 幸せだ\n- 신나다 (sinnada) - 楽しい、ワクワクしている\n- 반갑다 (bangapda) - 嬉しい（会えて）\n\n**否定的な感情**\n- 슬프다 (seulpeuda) - 悲しい\n- 화나다 (hwanada) - 怒っている\n- 속상하다 (soksanghada) - 落ち込んでいる\n- 외롭다 (oeropda) - 寂しい\n\n**ドラマで頻出**\n- "괜찮아요" (gwaenchanhayo) - 大丈夫です\n- "미안해요" (mianhayo) - ごめんなさい\n- "사랑해요" (saranghayo) - 愛しています\n- "헤어져야 해요" (heeojyeoya haeyo) - 別れなければいけません',
             },
           ],
         },
