@@ -716,6 +716,31 @@
             {"male": "Arzt", "female": "Ärztin"},
             {"male": "Ingenieur", "female": "Ingenieurin"}
           ]
+        },
+        {
+          "id": "de-003-q10",
+          "type": "fill-blank",
+          "question": "「私は結婚しています」をドイツ語で言ってください。",
+          "answer": "Ich bin verheiratet."
+        },
+        {
+          "id": "de-003-q11",
+          "type": "multiple-choice",
+          "question": "「Wir haben zwei Kinder」という文の意味として正しいのはどれですか？",
+          "options": [
+            "私たちは2人の子どもがいます",
+            "彼らは2人の子どもです",
+            "2人の子どもが私たちを持っています",
+            "私たちは2人の子どもを持ってきました"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-003-q12",
+          "type": "fill-blank",
+          "question": "「私は官公庁で働いています」をドイツ語で言ってください。",
+          "hint": "「Ich arbeite」で始まります",
+          "answer": "Ich arbeite bei der Regierung."
         }
       ],
       "resources": [
@@ -727,18 +752,24 @@
         {
           "type": "grammar",
           "title": "haben の活用表",
-          "content": "ich habe / du hast / er, sie, es hat / wir haben / ihr habt / sie (您) haben。現在形の活用は比較的規則的です。"
+          "content": "ich habe / du hast / er, sie, es hat / wir haben / ihr habt / sie (敬語) haben。現在形の活用は比較的規則的です。過去形でも頻出する重要な動詞。"
+        },
+        {
+          "type": "grammar",
+          "title": "sein 動詞と職業表現",
+          "content": "職業を述べるときは sein 動詞を使います。「Ich bin Lehrer」は「I am a teacher」です。ドイツ語では冠詞（ein/eine）を使わないことが多い。「Ich bin Journalist」のような形。"
         },
         {
           "type": "video",
           "title": "家族紹介と職業の会話",
           "url": "#",
-          "duration": "12分"
+          "duration": "14分",
+          "description": "家族構成の説明、職業紹介、男性形・女性形の使い分けを含む実践会話"
         },
         {
           "type": "note",
           "title": "ドイツ語の男性形・女性形",
-          "content": "職業に -in をつけることで女性形になります。例：Lehrer (男性) → Lehrerin (女性)。多くの職業名がこのパターンに従いますが、一部例外もあります。ドイツ語では言語の性（gender）が文法上重要です。"
+          "content": "職業に -in をつけることで女性形になります。例：Lehrer (男性) → Lehrerin (女性)。多くの職業名がこのパターンに従いますが、一部例外もあります。ドイツ語では言語の性（gender）が文法上重要です。また多くの職業で性による違いが文化的意義を持ちます。"
         },
         {
           "type": "note",
@@ -746,9 +777,14 @@
           "content": "ドイツでは親しい間柄でも敬語を使うことが一般的です。同僚や上司との会話では「Sie」を使い、「du」は家族や親友に限定されます。職場での自己紹介では、まず敬語（Mein Name ist...）から始めるのが礼儀です。"
         },
         {
+          "type": "note",
+          "title": "主要なドイツの職業",
+          "content": "Lehrer（教師）、Arzt（医者）、Ingenieur（エンジニア）、Journalist（ジャーナリスト）、Architekt（建築家）、Anwalt（弁護士）など。ドイツは製造業やエンジニアリングで有名で、これらの職業への敬意が高い。"
+        },
+        {
           "type": "practice",
-          "title": "家族の説明練習",
-          "content": "自分の家族構成を3〜4文で説明する練習をしてみてください。「Ich habe einen Bruder und eine Schwester. Mein Vater ist Ingenieur und meine Mutter ist Lehrerin.」のような文を作ってみましょう。"
+          "title": "家族と職業の説明練習",
+          "content": "自分の家族構成と職業を3〜5文で説明する練習をしてみてください。「Ich habe einen Bruder und eine Schwester. Mein Vater ist Ingenieur und meine Mutter ist Lehrerin. Ich bin Student.」のような文を作ってみましょう。"
         }
       ]
     },
