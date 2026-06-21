@@ -4256,6 +4256,220 @@
           "content": "友人と売り手と買い手の役を分担し、商品売買契約の交渉をしてみてください。価格、支払条件、納期、品質保証、紛争解決条項などについて交渉します。法的用語を使いながら、双方にとって受け入れられる条件を探ってください。"
         }
       ]
+    },
+    {
+      "id": "ko-027",
+      "level": 4,
+      "title": "テクノロジー・デジタル変革・AI",
+      "titleKo": "기술, 디지털 변환, 그리고 인공지능",
+      "objectives": [
+        "テクノロジー関連の現代的語彙を習得する",
+        "デジタル変革と企業のIT戦略を理解できる",
+        "AI・機械学習・データサイエンスの基本概念を学ぶ",
+        "サイバーセキュリティと情報保護について理解する"
+      ],
+      "content": {
+        "introduction": "デジタル変革は現代のビジネスと社会の中心です。このレッスンでは、AI、クラウドコンピューティング、ビッグデータ、サイバーセキュリティなど、テクノロジー分野の実践的な韓国語を学びます。韓国は半導体・IT産業の世界的リーダーであり、デジタル生活の先進国です。",
+        "sections": [
+          {
+            "title": "デジタル変革と企業戦略",
+            "phrases": [
+              {
+                "korean": "디지털 변환은 기존 비즈니스 프로세스를 기술로 개선하는 것을 의미합니다.",
+                "romaji": "dijital byeonhwaneun gijon bijeuniseu peuroseseureul gisullo gaeseonhaneun geoseul uimihabnida",
+                "japanese": "デジタル変革とは、既存のビジネスプロセスをテクノロジーで改善することを意味します。",
+                "usage": "デジタル変革の本質を説明するとき。現代的ビジネス課題"
+              },
+              {
+                "korean": "자동화와 데이터 분석은 더 빠른 의사결정과 높은 효율성을 가능하게 합니다.",
+                "romaji": "jadongwagwa deiteo bunseokeun deo ppareun uisagyeoljeonggwa nop-eun hyoeryulseong-eul ganeunghage hamnida",
+                "japanese": "自動化とデータ分析により、より迅速な意思決定と高い効率が可能になります。",
+                "usage": "テクノロジー導入の実際的利益を説明するとき。効率性と意思決定"
+              },
+              {
+                "korean": "스마트 팩토리는 기계, 사람, 데이터를 지능형 네트워크로 연결합니다.",
+                "romaji": "seumateup paekto-ri neun gimyae, saram, deiteo reul jinneunghyeong neteuwokeuro yeongyeolhamnida",
+                "japanese": "スマートファクトリーは機械、人間、データをインテリジェントなネットワークで統合します。",
+                "usage": "韓国の先進的製造業戦略を説明するとき。スマートマニュファクチャリング"
+              }
+            ]
+          },
+          {
+            "title": "AI・機械学習・データサイエンス",
+            "phrases": [
+              {
+                "korean": "인공지능（AI）은 컴퓨터가 인간의 작업을 배우고 수행하는 것을 가능하게 합니다.",
+                "romaji": "ingongjinneung （AI）eun keompyuteo-ga ingan-ui jageob-eul bae-ugo suhang-haneun geoseul ganeunghage hamnida",
+                "japanese": "人工知能（AI）により、コンピュータが人間のタスクを学習して実行することが可能になります。",
+                "usage": "AI技術の本質と能力を説明するとき。認知能力の拡張"
+              },
+              {
+                "korean": "기계학습 알고리즘은 대규모 데이터를 처리하여 자동으로 개선됩니다.",
+                "romaji": "gimyaehagseup algorideum eun dae-gyumo deiteo reul cheorihayeo jadong-euro gaeseondeop nida",
+                "japanese": "機械学習アルゴリズムは大量のデータ処理を通じて自己改善します。",
+                "usage": "機械学習の動作原理を説明するとき。継続的改善"
+              },
+              {
+                "korean": "데이터 분석과 비즈니스 인텔리전스는 기업이 더 나은 전략적 결정을 내리도록 도와줍니다.",
+                "romaji": "deiteo bunseoggwa bijeuniseu intelrijenseu neun gieob-i deo nae-eun jeonryagjeoug gyeoljeongeul naeri-dorok dowajubmnida",
+                "japanese": "データ分析とビジネスインテリジェンスは企業がより良い戦略的決定を下すのに役立ちます。",
+                "usage": "データドリブン経営の重要性を説明するとき。意思決定支援"
+              }
+            ]
+          },
+          {
+            "title": "クラウド・インフラストラクチャ・アーキテクチャ",
+            "phrases": [
+              {
+                "korean": "클라우드 컴퓨팅은 비싼 로컬 서버 없이 어디서나 애플리케이션과 데이터에 접근할 수 있게 합니다.",
+                "romaji": "keullaudio keompyuting eun bisssan rokol seobeo eob-i eodiseo-na aepeurikeisyongwa deiteo-e jeobgeunhal su isge hamnida",
+                "japanese": "クラウドコンピューティングにより、高価なローカルサーバーなしでどこからでもアプリケーションとデータにアクセスできます。",
+                "usage": "クラウドの利点と基本機能を説明するとき。インフラコスト削減"
+              },
+              {
+                "korean": "API（프로그래밍 인터페이스）는 서로 다른 소프트웨어 시스템의 연동을 가능하게 합니다.",
+                "romaji": "API （peurogeurim-ing inteope-iseu） neun seoro dareun sopeutuweo siseutem-ui yeon-dong-eul ganeunghage hamnida",
+                "japanese": "API（プログラミングインターフェース）は異なるソフトウェアシステムの統合を可能にします。",
+                "usage": "システム間連携とソフトウェアアーキテクチャを説明するとき。相互運用性"
+              },
+              {
+                "korean": "마이크로서비스와 컨테이너화 아키텍처는 유연하고 확장 가능한 시스템을 가능하게 합니다.",
+                "romaji": "maikeuro-seobi-seu-wa keuntei-neo-hwa akitektcheo neun yuyeonhago hwakjang ganeunghahnn sisteom-eul ganeunghage hamnida",
+                "japanese": "マイクロサービスとコンテナ化アーキテクチャは、柔軟でスケーラブルなシステムを可能にします。",
+                "usage": "最新的なソフトウェアアーキテクチャパターンを説明するとき。システム拡張性"
+              }
+            ]
+          },
+          {
+            "title": "サイバーセキュリティと情報保護",
+            "phrases": [
+              {
+                "korean": "사이버 보안은 악의적인 공격과 데이터 도용으로부터 디지털 시스템을 보호합니다.",
+                "romaji": "saibeog boam eun ag-ui-jeog-in gong-gyeggwa deiteo doyong-euroboteo dijital siseutem-eul bohohabnida",
+                "japanese": "サイバーセキュリティは悪意のある攻撃とデータ盗難からデジタルシステムを保護します。",
+                "usage": "情報セキュリティの重要性と脅威を説明するとき。リスク管理"
+              },
+              {
+                "korean": "암호화와 다중 인증은 중요한 보안 조치입니다.",
+                "romaji": "amhohwa wa dajung injeung eun jungyohahnn boam jochiae imnida",
+                "japanese": "暗号化と多要素認証は重要なセキュリティ対策です。",
+                "usage": "具体的なセキュリティ対策を説明するとき。防御メカニズム"
+              },
+              {
+                "korean": "데이터 보호와 규정 준수는 디지털 세계에서의 법적, 윤리적 책임입니다.",
+                "romaji": "deiteo boho-wa gyujeong junsueun dijital sewon-eseo-ui beobjeog, yulli-jeog chaegim-imnida",
+                "japanese": "データ保護とコンプライアンスはデジタル世界における法的および倫理的責務です。",
+                "usage": "GDPR等の規制とデータ保護の倫理的側面を説明するとき。法的枠組み"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-027-q1",
+          "type": "fill-blank",
+          "question": "「デジタル変革とはビジネスプロセスをテクノロジーで改善することです」を韓国語で言ってください。",
+          "answer": "디지털 변환은 비즈니스 프로세스를 기술로 개선하는 것입니다."
+        },
+        {
+          "id": "ko-027-q2",
+          "type": "multiple-choice",
+          "question": "スマートファクトリーの主な特徴は何ですか？",
+          "options": [
+            "機械、人間、データをインテリジェントなネットワークで統合",
+            "従来の製造方法を継続",
+            "テクノロジー導入を避ける",
+            "人間労働のみに依存"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-027-q3",
+          "type": "fill-blank",
+          "question": "「自動化とデータ分析により効率性が向上します」を韓国語で言ってください。",
+          "answer": "자동화와 데이터 분석은 높은 효율성을 가능하게 합니다."
+        },
+        {
+          "id": "ko-027-q4",
+          "type": "multiple-choice",
+          "question": "人工知能（AI）の主な能力は何ですか？",
+          "options": [
+            "人間のタスクを学習して実行する",
+            "人間の思考を完全に置き換える",
+            "感情を持つ",
+            "自己意識を獲得する"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-027-q5",
+          "type": "fill-blank",
+          "question": "「クラウドコンピューティングはどこからでもアクセスを可能にします」を韓国語で言ってください。",
+          "answer": "클라우드 컴퓨팅은 어디서나 애플리케이션과 데이터에 접근할 수 있게 합니다."
+        },
+        {
+          "id": "ko-027-q6",
+          "type": "matching",
+          "question": "テクノロジー用語と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"term": "API", "explanation": "プログラミングインターフェース"},
+            {"term": "마이크로서비스", "explanation": "小規模なサービスの集合"},
+            {"term": "암호화", "explanation": "暗号化"}
+          ]
+        },
+        {
+          "id": "ko-027-q7",
+          "type": "fill-blank",
+          "question": "「サイバーセキュリティは悪意のある攻撃からシステムを保護します」を韓国語で言ってください。",
+          "answer": "사이버 보안은 악의적인 공격으로부터 디지털 시스템을 보호합니다."
+        },
+        {
+          "id": "ko-027-q8",
+          "type": "multiple-choice",
+          "question": "機械学習の特徴は何ですか？",
+          "options": [
+            "大量のデータ処理を通じて自己改善する",
+            "静的で変わらない",
+            "人間の指示を完全に必要としない",
+            "常に正確である"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国のIT産業とデジタル変革",
+          "duration": "20分",
+          "description": "半導体・スマートフォン産業、AI研究開発、5G技術、デジタルトランスフォーメーション戦略"
+        },
+        {
+          "type": "grammar",
+          "title": "テクノロジー用語と複合名詞の構造",
+          "content": "技術用語の複合名詞（사이버보안、데이터분석、APIs）。能力表現「～을 가능하게 하다」の使用。受動態での技術説明。英語からの韓国語化語"
+        },
+        {
+          "type": "note",
+          "title": "韓国のデジタル化戦略とアジアのポジション",
+          "content": "韓国は世界トップのIT産業国。半導体（삼성、SK하이닉스）、スマートフォン（삼성）、ゲーム産業が強い。5G・AI技術での先進性。政府のデジタル政府化（Digital Government）戦略。"
+        },
+        {
+          "type": "note",
+          "title": "AI・機械学習・ビッグデータの実装",
+          "content": "機械学習の3つのアプローチ：教師あり学習、教師なし学習、強化学習。ビッグデータの3V（Volume、Velocity、Variety）。AIの倫理と透明性（설명가능한 AI）の重要性。"
+        },
+        {
+          "type": "note",
+          "title": "クラウドとマイクロアーキテクチャの進化",
+          "content": "IaaS、PaaS、SaaSの3つのクラウドサービスモデル。マイクロサービスとモノリシックアーキテクチャの比較。Kubernetes、Docker等のコンテナオーケストレーション。DevOpsの文化と実践。"
+        },
+        {
+          "type": "practice",
+          "title": "デジタル変革プロジェクトの提案と議論",
+          "content": "友人と企業のデジタル変革プロジェクトについて議論してみてください。現在のビジネスプロセス、AI導入の利点と課題、セキュリティ対策、段階的実装戦略などについて。実装困難な領域と解決策を一緒に考察してください。"
+        }
+      ]
     }
   ]
 }
