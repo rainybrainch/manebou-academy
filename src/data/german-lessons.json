@@ -2169,6 +2169,197 @@
           "content": "友人と「歴史家と学生」または「異なる哲学的立場の思想家」の役割を分担して、ドイツ思想の発展、異文化への影響、現代的意義などについて深く議論してみてください。"
         }
       ]
+    },
+    {
+      "id": "de-009",
+      "level": 5,
+      "title": "特別編 - ドイツと韓国の文化対比",
+      "titleDe": "Spezial - Kulturvergleich Deutschland und Südkorea",
+      "objectives": [
+        "ドイツと韓国の社会構造と価値観の違いを理解する",
+        "異文化コミュニケーションスキルを習得する",
+        "グローバルな視点から両国の役割を理解する",
+        "文化的相違について敬意を持って議論できる能力を習得する"
+      ],
+      "content": {
+        "introduction": "ドイツと韓国は、地理的には遠く、歴史的背景も異なりますが、どちらも現代のヨーロッパ・アジアにおいて重要な役割を果たしています。このスペシャルレッスンでは、両国の文化的相違と共通点を比較し、グローバルな視点で異文化理解を深めます。",
+        "sections": [
+          {
+            "title": "経営文化と企業価値観の違い",
+            "phrases": [
+              {
+                "german": "Deutsche Unternehmen betonen Qualität und Effizienz.",
+                "romaji": "Deutsche Unternehmen betonen Qualität und Effizienz.",
+                "japanese": "ドイツ企業は品質と効率性を強調します。",
+                "usage": "企業文化の特徴"
+              },
+              {
+                "german": "Koreanische Unternehmenskultur ist hierarchischer und familienorientiert.",
+                "romaji": "Koreanische Unternehmenskultur ist hierarchischer und familienorientiert.",
+                "japanese": "韓国の企業文化はより階層的で家族志向です。",
+                "usage": "文化的相違"
+              },
+              {
+                "german": "Während Deutschland langfristige Stabilität anstrebt, Südkorea auf schnelle Innovationen setzt.",
+                "romaji": "Während Deutschland langfristige Stabilität anstrebt, Südkorea auf schnelle Innovationen setzt.",
+                "japanese": "ドイツが長期的安定を目指す一方、韓国は急速なイノベーションに注力しています。",
+                "usage": "戦略的相違"
+              }
+            ]
+          },
+          {
+            "title": "社会的価値観と人生観の比較",
+            "phrases": [
+              {
+                "german": "In Deutschland ist die Work-Life-Balance seit langem ein Fokus.",
+                "romaji": "In Deutschland ist die Work-Life-Balance seit langem ein Fokus.",
+                "japanese": "ドイツでは仕事と生活のバランスが長年の焦点です。",
+                "usage": "社会的優先事項"
+              },
+              {
+                "german": "Südkorea beginnt jetzt, Workaholismus zu überwinden.",
+                "romaji": "Südkorea beginnt jetzt, Workaholismus zu überwinden.",
+                "japanese": "韓国は今、ワーカホリズムを克服し始めています。",
+                "usage": "社会的変化"
+              },
+              {
+                "german": "Individualismus ist stärker in Deutschland, während Harmoniewahrung in Korea betont wird.",
+                "romaji": "Individualismus ist stärker in Deutschland, während Harmoniewahrung in Korea betont wird.",
+                "japanese": "個人主義はドイツでより強く、調和維持は韓国で強調されます。",
+                "usage": "文化的価値観"
+              }
+            ]
+          },
+          {
+            "title": "教育システムと人材育成の違い",
+            "phrases": [
+              {
+                "german": "Deutsche Schulen fördern kritisches Denken und Fragen.",
+                "romaji": "Deutsche Schulen fördern kritisches Denken und Fragen.",
+                "japanese": "ドイツの学校は批判的思考と質問を促進します。",
+                "usage": "教育哲学"
+              },
+              {
+                "german": "Koreanische Schulen haben einen höheren Wettbewerbsdruck und fokussieren auf Prüfungsergebnisse.",
+                "romaji": "Koreanische Schulen haben einen höheren Wettbewerbsdruck und fokussieren auf Prüfungsergebnisse.",
+                "japanese": "韓国の学校はより高い競争圧力を持ち、試験成績に焦点を当てています。",
+                "usage": "教育システムの特徴"
+              },
+              {
+                "german": "Beide Länder investieren stark in technische Ausbildung.",
+                "romaji": "Beide Länder investieren stark in technische Ausbildung.",
+                "japanese": "両国は技術教育に大きく投資しています。",
+                "usage": "共通点"
+              }
+            ]
+          },
+          {
+            "title": "グローバルな役割と国際関係",
+            "phrases": [
+              {
+                "german": "Deutschland ist ein Anker der europäischen Stabilität.",
+                "romaji": "Deutschland ist ein Anker der europäischen Stabilität.",
+                "japanese": "ドイツはヨーロッパの安定の錨です。",
+                "usage": "国際的役割"
+              },
+              {
+                "german": "Südkorea ist ein Zentrum der asiatischen Technologie und Kultur.",
+                "romaji": "Südkorea ist ein Zentrum der asiatischen Technologie und Kultur.",
+                "japanese": "韓国はアジアの技術と文化の中心です。",
+                "usage": "地域的重要性"
+              },
+              {
+                "german": "Beide Länder spielen wichtige Rollen in den globalen Lieferketten.",
+                "romaji": "Beide Länder spielen wichtige Rollen in den globalen Lieferketten.",
+                "japanese": "両国はグローバルサプライチェーンで重要な役割を果たします。",
+                "usage": "経済的相互依存"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-009-q1",
+          "type": "fill-blank",
+          "question": "「ドイツ企業は品質と効率性を強調します」をドイツ語で言ってください。",
+          "answer": "Deutsche Unternehmen betonen Qualität und Effizienz."
+        },
+        {
+          "id": "de-009-q2",
+          "type": "multiple-choice",
+          "question": "ドイツの企業文化の特徴として正しいのはどれですか？",
+          "options": [
+            "短期的な利益重視",
+            "品質と長期的安定性重視",
+            "家族企業型のみ",
+            "競争意識が極めて低い"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "de-009-q3",
+          "type": "fill-blank",
+          "question": "「個人主義はドイツでより強く、調和維持は韓国で強調されます」をドイツ語で言ってください。",
+          "answer": "Individualismus ist stärker in Deutschland, während Harmoniewahrung in Korea betont wird."
+        },
+        {
+          "id": "de-009-q4",
+          "type": "multiple-choice",
+          "question": "教育システムにおけるドイツと韓国の主な違いは何ですか？",
+          "options": [
+            "ドイツが競争圧力が高く、韓国が低い",
+            "ドイツが批判的思考を促進し、韓国が試験成績重視",
+            "両国とも変わらない",
+            "韓国が個人主義的である"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "de-009-q5",
+          "type": "fill-blank",
+          "question": "「ドイツはヨーロッパの安定の錨です」をドイツ語で言ってください。",
+          "answer": "Deutschland ist ein Anker der europäischen Stabilität."
+        },
+        {
+          "id": "de-009-q6",
+          "type": "matching",
+          "question": "ドイツと韓国の役割を正しく組み合わせてください。",
+          "pairs": [
+            {"country": "Deutschland", "role": "ヨーロッパの安定と経済の中心"},
+            {"country": "Südkorea", "role": "アジアの技術と文化の中心"},
+            {"country": "Beide Länder", "role": "グローバルサプライチェーンの重要プレイヤー"}
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツと韓国：文化対比と相互理解",
+          "duration": "18分",
+          "description": "経営文化、教育システム、社会的価値観の比較を通じた異文化理解"
+        },
+        {
+          "type": "grammar",
+          "title": "比較表現と文化的相違の言語化",
+          "content": "「während/anstatt」（～の一方、代わりに）、「im Vergleich zu」（～と比べて）などの比較表現。文化的相違を敬意を持って述べるための表現。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツと韓国の共通点と相違点",
+          "content": "共通点：技術大国、民主主義、グローバル企業。相違点：経営文化（効率性vs急速革新）、社会的価値観（個人主義vs調和）、歴史的経験。しかし両国とも現代化への強い意志を持つ。"
+        },
+        {
+          "type": "note",
+          "title": "異文化コミュニケーションのコツ",
+          "content": "相違を認識しつつも、判断を避けること。「不適切」ではなく「異なる」と理解すること。共通の目標や価値観を見つけて協働すること。グローバル時代の必須スキル。"
+        },
+        {
+          "type": "practice",
+          "title": "文化対比ディベート",
+          "content": "友人と「ドイツの価値観の代弁者と韓国の価値観の代弁者」の役割を分担して、経営、教育、社会的価値観、国際的役割などについて議論し、相互理解を深めてみてください。"
+        }
+      ]
     }
   ]
 }
