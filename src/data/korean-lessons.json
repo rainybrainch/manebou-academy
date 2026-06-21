@@ -612,54 +612,73 @@
       "objectives": [
         "衣類や商品について詳しく質問できる",
         "サイズや色について正確に伝えられる",
-        "値引き交渉ができる"
+        "値引き交渉を効果的にできる",
+        "試着・返品・交換プロセスを完璧に理解する"
       ],
       "content": {
-        "introduction": "韓国での買い物や市場での交渉は文化体験の一つです。商品選びと値引き交渉の表現を学びます。",
+        "introduction": "韓国での買い物や市場での交渉は文化体験の一つです。商品選びから値引き交渉、返品・交換までの完全なプロセスを学びます。韓国の商人は値引き交渉を期待することも多く、適切な表現が重要です。",
         "sections": [
           {
-            "title": "商品選び",
+            "title": "商品選びと詳細確認",
             "phrases": [
               {
                 "korean": "다른 사이즈 있나요?",
                 "romaji": "Dareun saijeu it-na-yo?",
                 "japanese": "別のサイズはありますか？",
-                "usage": "サイズの確認"
+                "usage": "サイズの確認・変更リクエスト"
               },
               {
                 "korean": "이 색상은 어떤가요?",
                 "romaji": "I saegsang-eun eotteun-ga-yo?",
                 "japanese": "この色はいかがですか？",
-                "usage": "色についての意見"
+                "usage": "色についての意見・比較"
               },
               {
                 "korean": "소재가 무엇이에요?",
                 "romaji": "Sojae-ga mueot-i-e-yo?",
                 "japanese": "素材は何ですか？",
-                "usage": "素材を質問"
+                "usage": "素材を質問（アレルギー対応など）"
               },
               {
                 "korean": "품질이 좋은가요?",
                 "romaji": "Pum-jil-i joh-eun-ga-yo?",
                 "japanese": "品質はいいですか？",
                 "usage": "品質確認"
+              },
+              {
+                "korean": "얼마나 오래갈까요?",
+                "romaji": "Eol-ma-na o-lae-gal-kka-yo?",
+                "japanese": "どのくらい長く持ちますか？",
+                "usage": "耐久性確認"
+              },
+              {
+                "korean": "세탁은 어떻게 해야 돼요?",
+                "romaji": "Setag-eun eotteoke hae-ya doe-yo?",
+                "japanese": "洗濯はどのようにすればいいですか？",
+                "usage": "お手入れ方法確認"
               }
             ]
           },
           {
-            "title": "値引き交渉",
+            "title": "価格と値引き交渉",
             "phrases": [
+              {
+                "korean": "가격이 얼마예요?",
+                "romaji": "Gagyeok-i eol-ma-ye-yo?",
+                "japanese": "価格はいくらですか？",
+                "usage": "価格確認（基本）"
+              },
               {
                 "korean": "할인해 주실래요?",
                 "romaji": "Hal-in-hae ju-sil-lae-yo?",
                 "japanese": "割引してくれませんか？",
-                "usage": "割引をリクエスト"
+                "usage": "割引をリクエスト（丁寧）"
               },
               {
-                "korean": "얼마까지 깎아줄 수 있나요?",
-                "romaji": "Eol-ma-kka-ji kka-a-jul su it-na-yo?",
-                "japanese": "どこまで値引きできますか？",
-                "usage": "値引き幅を確認"
+                "korean": "좀 더 깎아주실래요?",
+                "romaji": "Jom deo kka-a-ju-sil-lae-yo?",
+                "japanese": "もう少し下げてくれませんか？",
+                "usage": "さらなる値引き交渉"
               },
               {
                 "korean": "여러 개 사면 싸져요?",
@@ -668,15 +687,15 @@
                 "usage": "まとめ買い割引"
               },
               {
-                "korean": "최대 얼마까지 내릴 수 있어요?",
-                "romaji": "Choe-dae eol-ma-kka-ji nae-ril su it-eo-yo?",
-                "japanese": "最大いくら下げられますか？",
-                "usage": "最大値引き確認"
+                "korean": "이 가격이 최종 가격인가요?",
+                "romaji": "I gagyeok-i choe-jong gagyeok-in-ga-yo?",
+                "japanese": "この価格が最終価格ですか？",
+                "usage": "最終価格確認"
               }
             ]
           },
           {
-            "title": "試着・返品",
+            "title": "試着・フィッティング",
             "phrases": [
               {
                 "korean": "한번 입어봐도 되나요?",
@@ -691,6 +710,29 @@
                 "usage": "試着室の場所確認"
               },
               {
+                "korean": "크기가 어떤가요?",
+                "romaji": "Keuki-ga eotteun-ga-yo?",
+                "japanese": "サイズ感はどうですか？",
+                "usage": "フィッティング感想"
+              },
+              {
+                "korean": "이게 잘 어울려요.",
+                "romaji": "I-ge jal eo-ul-lyeo-yo.",
+                "japanese": "これはあなたによく似合っています。",
+                "usage": "店員の褒め言葉"
+              },
+              {
+                "korean": "다른 사이즈를 입어보고 싶어요.",
+                "romaji": "Dareun saijeu-reul ib-eo-bo-go sip-eo-yo.",
+                "japanese": "別のサイズを試着したいです。",
+                "usage": "サイズ変更リクエスト"
+              }
+            ]
+          },
+          {
+            "title": "返品・交換・支払い",
+            "phrases": [
+              {
                 "korean": "환불 가능한가요?",
                 "romaji": "Hwan-bul ga-neung-han-ga-yo?",
                 "japanese": "返品・返金はできますか？",
@@ -701,7 +743,40 @@
                 "romaji": "Hwan-bul gi-gan-i eol-ma-na doe-yo?",
                 "japanese": "返品期間はどのくらいですか？",
                 "usage": "返品期間確認"
+              },
+              {
+                "korean": "교환도 가능한가요?",
+                "romaji": "Gyohwan-do ga-neung-han-ga-yo?",
+                "japanese": "交換もできますか？",
+                "usage": "交換ポリシー確認"
+              },
+              {
+                "korean": "영수증이 필요해요?",
+                "romaji": "Yeongsu-jeung-i pil-yo-hae-yo?",
+                "japanese": "領収書が必要ですか？",
+                "usage": "返品時の領収書必要性確認"
+              },
+              {
+                "korean": "신용카드로 계산해도 되나요?",
+                "romaji": "Sinyong-kadeu-ro gyesan-hae-do doe-na-yo?",
+                "japanese": "クレジットカードで計算してもいいですか？",
+                "usage": "支払い方法確認"
               }
+            ]
+          },
+          {
+            "title": "ショッピング関連語彙",
+            "items": [
+              {"korean": "사이즈", "japanese": "サイズ", "type": "의류"},
+              {"korean": "색상", "japanese": "色", "type": "의류"},
+              {"korean": "소재", "japanese": "素材", "type": "의류"},
+              {"korean": "가격", "japanese": "価格", "type": "쇼핑"},
+              {"korean": "할인", "japanese": "割引", "type": "쇼핑"},
+              {"korean": "품질", "japanese": "品質", "type": "쇼핑"},
+              {"korean": "환불", "japanese": "返金", "type": "거래"},
+              {"korean": "교환", "japanese": "交換", "type": "거래"},
+              {"korean": "영수증", "japanese": "領収書", "type": "거래"},
+              {"korean": "신용카드", "japanese": "クレジットカード", "type": "결제"}
             ]
           }
         ]
@@ -712,9 +787,52 @@
           "type": "fill-blank",
           "question": "「割引してくれませんか？」を韓国語で言ってください。",
           "answer": "할인해 주실래요?"
+        },
+        {
+          "id": "ko-010-q2",
+          "type": "fill-blank",
+          "question": "「試着室はどこですか？」を韓国語で言ってください。",
+          "hint": "「탈의실이」で始まります",
+          "answer": "탈의실이 어디에요?"
+        },
+        {
+          "id": "ko-010-q3",
+          "type": "multiple-choice",
+          "question": "「여러 개 사면 싸져요?」という文の意味として正しいのはどれですか？",
+          "options": [
+            "複数個買うと安くなりますか？",
+            "このセットは安いですか？",
+            "買うなら安くなりますか？",
+            "いくつ買えばいいですか？"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-010-q4",
+          "type": "fill-blank",
+          "question": "「返品期間はどのくらいですか？」を韓国語で言ってください。",
+          "hint": "「환불」で始まります",
+          "answer": "환불 기간이 얼마나 돼요?"
         }
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国でのショッピング実践会話",
+          "url": "#",
+          "duration": "13分"
+        },
+        {
+          "type": "grammar",
+          "title": "敬語による丁寧な値引きリクエスト",
+          "content": "「할인해 주실래요?」と「좀 더 깎아주실래요?」は共に敬意を示しながら値引きをリクエストする表現。～래요 は意思や提案の丁寧な表現。"
+        },
+        {
+          "type": "note",
+          "title": "韓国の買い物文化",
+          "content": "韓国の商人は値引き交渉を期待することがあります。特に複数品購入時やまとめ買い時は交渉の余地がある。しかし百貨店では固定価格が一般的。"
+        }
+      ]
     },
     {
       "id": "ko-011",
