@@ -5112,6 +5112,220 @@
           "content": "友人と複雑な交渉シナリオをロールプレイしてみてください。一人が顧客・パートナー、もう一人が営業・マネージャーの役を担当。関係構築を優先しながら、相互利益を探ってください。その後、相互のフィードバックを通じてコミュニケーションスキルを磨きます。"
         }
       ]
+    },
+    {
+      "id": "ko-031",
+      "level": 4,
+      "title": "多様性・インクルージョン・社会責任",
+      "titleKo": "다양성, 포용성, 그리고 사회 책임",
+      "objectives": [
+        "多様性とインクルージョンの概念を習得する",
+        "ジェンダー平等と社会正義について議論できる",
+        "障害者の包含と権利について理解する",
+        "企業と個人の社会的責任を実践する"
+      ],
+      "content": {
+        "introduction": "多様性とインクルージョンは現代社会の基本的価値です。このレッスンでは、ジェンダー平等、文化的多様性、障害と包含性、社会的責任など、社会正義と持続可能な発展に関する韓国語を学びます。韓国は急速に変化する社会で、世代間の価値観の相違、ジェンダー平等への認識向上、障害者権利への関心が高まっています。",
+        "sections": [
+          {
+            "title": "多様性と包含性の基礎",
+            "phrases": [
+              {
+                "korean": "다양성은 서로 다른 배경, 관점, 능력을 가진 사람들을 조직과 사회에 환영하는 것을 의미합니다.",
+                "romaji": "dayangseongeun seoro dareun baegyeong, gwanjeom, neungryeog-eul gajin salamdeul-eul jojigwa sahwee hwanyeonghasneun geoseul uimihabnida",
+                "japanese": "多様性とは、異なる背景、視点、能力を持つ人々を組織や社会に迎え入れることです。",
+                "usage": "多様性の定義と価値を説明するとき。包含の価値"
+              },
+              {
+                "korean": "포용성은 단지 다양성을 가지는 것이 아니라, 모든 사람을 실제로 포함시키고 역량을 강화하는 것입니다.",
+                "romaji": "poyongseongeun danji dayangseongeul gajiineun geosi anirae, modeun saram-eul siljero pohamsikigo yeogryeom-eul ganghwahaneun geosinimnida",
+                "japanese": "インクルージョンとは、単に多様性を持つだけでなく、すべての人々を実際に包含し力づけることです。",
+                "usage": "多様性とインクルージョンの違いを説明するとき。実践的包含"
+              },
+              {
+                "korean": "차별과 편견은 가능성을 억압하고 사회에 해를 끼칩니다.",
+                "romaji": "chabyeolgwa pyeongyeon-eun ganeungseongeul eokap-hago sahwe-e hae-reul kkichihmnida",
+                "japanese": "差別と偏見は可能性を抑圧し、社会に害をもたらします。",
+                "usage": "差別撤廃の社会的必要性を説明するとき。社会正義"
+              }
+            ]
+          },
+          {
+            "title": "ジェンダー平等と女性のエンパワメント",
+            "phrases": [
+              {
+                "korean": "지도 직책에서의 성별 동등성과 동등한 임금은 기본적 인권입니다.",
+                "romaji": "jido jikchaegeseo-ui seongbyeol dongdeungseonggwa dongdeung-han imgeum eun gibonjeog ingyeon imnida",
+                "japanese": "指導的立場でのジェンダー同等性と同等賃金は基本的人権です。",
+                "usage": "ジェンダー平等と経済正義を説明するとき。平等原則"
+              },
+              {
+                "korean": "여성에 대한 성폭력과 괴롭힘은 구조적 문제로서 적극적으로 퇴치되어야 합니다.",
+                "romaji": "yeoseonge daehan seong-bangryeog-gwa goerophim eun gujojeog munje ro-seo jeog-geuk-jeoguero tuechidae-eoya hamnida",
+                "japanese": "セクシャルハラスメントと女性への暴力は構造的問題であり、積極的に対抗される必要があります。",
+                "usage": "ジェンダーベースの暴力と構造的差別を説明するとき。安全と尊厳"
+              },
+              {
+                "korean": "여성과 여아는 교육, 경제, 의사결정에 제한 없이 접근할 수 있어야 합니다.",
+                "romaji": "yeoseonggwa yeoa neun gyoyuk, gyeongje, uisagyeoljeonge jegeneun eob-i jeobgeunhal su isseo-ya hamnida",
+                "japanese": "女性と少女は教育、経済、意思決定への無制限アクセスを持つべきです。",
+                "usage": "女性のエンパワメントと機会平等を説明するとき。能力開発"
+              }
+            ]
+          },
+          {
+            "title": "障害と包含性",
+            "phrases": [
+              {
+                "korean": "장애인은 다른 모든 사람과 동일한 권리와 존엄성을 가집니다.",
+                "romaji": "jangae-in eun dareun modeun saram-gwa dongilhan gwonrigwa jon-eom-seong-eul gajipnida",
+                "japanese": "障害者は他のすべての人と同じ権利と尊厳を持っています。",
+                "usage": "障害者の権利と基本的人権を説明するとき。平等と尊厳"
+              },
+              {
+                "korean": "무장애 인프라와 포용적 교육은 진정한 참여를 위해 필수적입니다.",
+                "romaji": "mu-jangae inpeurajigwa poyong-jeog gyoyugeun jinjeong-han chamyeo-reul wihae piryosujeogimnida",
+                "japanese": "バリアフリーなインフラと包含的教育は真の参加に必要です。",
+                "usage": "アクセシビリティと包含的な社会環境を説明するとき。アクセス"
+              },
+              {
+                "korean": "장애인의 다양한 사고와 경험은 조직과 사회를 풍요롭게 합니다.",
+                "romaji": "jangae-in ui dayanghhan sahgo-wa gyeongheom eun jojigwa sahwee-reul pungyoro-upge hamnida",
+                "japanese": "障害を持つ人々の多様な思考と経験は組織と社会を豊かにします。",
+                "usage": "多様性の価値と障害者の貢献を説明するとき。包括的価値"
+              }
+            ]
+          },
+          {
+            "title": "企業と個人の社会的責任",
+            "phrases": [
+              {
+                "korean": "기업은 윤리적으로 행동하고, 인권을 존중하며, 긍정적인 사회적 영향을 만들 책임이 있습니다.",
+                "romaji": "gieob eun yunerijeoguero haengdonghago, ingyeon-eul jon-jung hamyeo, geungjeong-jeogin sahwejeoug yeonghyang-eul mandeul chaegim-i isseumnida",
+                "japanese": "企業は倫理的に行動し、人権を尊重し、肯定的な社会的影響を創出する責任があります。",
+                "usage": "企業の社会的責任（CSR）と倫理を説明するとき。企業倫理"
+              },
+              {
+                "korean": "개인은 의식 있는 소비 행동, 자원봉사, 그리고 활동주의를 통해 사회 변화를 만들 수 있습니다.",
+                "romaji": "gae-in eun uisig inneun sobui haengdongg, jayeon-bongsah, geurigo hwaldong-juuijireul tonghae sahwee byeonhwareul mandeul su isseumnida",
+                "japanese": "個人は自覚的な消費行動、ボランティア活動、活動主義を通じて社会変化をもたらすことができます。",
+                "usage": "個人の社会的行動と市民参加を説明するとき。市民力"
+              },
+              {
+                "korean": "지속가능성과 사회 정의는 서로 연결되어 있으며, 살 만한 미래를 위해 필수적입니다.",
+                "romaji": "jisokganeungseonggwa sahwee jeong-ui neun seoro yeongyeol-doe-eyo isseumyeo, sal manhan mirae-reul wihae piryosujeogimnida",
+                "japanese": "サステナビリティと社会正義は相互に関連しており、生きるに値する将来に必要です。",
+                "usage": "サステナビリティと社会正義の統合を説明するとき。統合的ビジョン"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-031-q1",
+          "type": "fill-blank",
+          "question": "「多様性とは異なる背景を持つ人々を組織に迎え入れることです」を韓国語で言ってください。",
+          "answer": "다양성은 서로 다른 배경을 가진 사람들을 조직에 환영하는 것을 의미합니다."
+        },
+        {
+          "id": "ko-031-q2",
+          "type": "multiple-choice",
+          "question": "インクルージョンの定義として正しいのはどれですか？",
+          "options": [
+            "多様性を持つだけでなく、すべての人を実際に包含し力づけること",
+            "異なる人々を雇用するだけ",
+            "表面的な多様性",
+            "少数派を無視すること"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-031-q3",
+          "type": "fill-blank",
+          "question": "「ジェンダー平等と同等賃金は基本的人権です」を韓国語で言ってください。",
+          "answer": "성별 동등성과 동등한 임금은 기본적 인권입니다."
+        },
+        {
+          "id": "ko-031-q4",
+          "type": "multiple-choice",
+          "question": "障害者の包含に必要なのは？",
+          "options": [
+            "バリアフリーなインフラと包含的教育",
+            "障害者の隔離",
+            "特別扱い",
+            "低い期待値"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-031-q5",
+          "type": "fill-blank",
+          "question": "「企業は倫理的に行動し人権を尊重する責任があります」を韓国語で言ってください。",
+          "answer": "기업은 윤리적으로 행동하고 인권을 존중할 책임이 있습니다."
+        },
+        {
+          "id": "ko-031-q6",
+          "type": "matching",
+          "question": "社会責任の領域と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"area": "성별 동등성", "description": "ジェンダー平等"},
+            {"area": "장애인의 권리", "description": "障害者の権利"},
+            {"area": "지속가능성", "description": "持続可能性"}
+          ]
+        },
+        {
+          "id": "ko-031-q7",
+          "type": "fill-blank",
+          "question": "「個人は自覚的な消費行動と活動主義を通じて社会変化をもたらすことができます」を韓国語で言ってください。",
+          "answer": "개인은 의식 있는 소비 행동과 활동주의를 통해 사회 변화를 만들 수 있습니다."
+        },
+        {
+          "id": "ko-031-q8",
+          "type": "multiple-choice",
+          "question": "差別とインクルージョンの関係は？",
+          "options": [
+            "差別を廃止することがインクルージョンの前提",
+            "差別とインクルージョンは両立可能",
+            "差別は社会にとって有益",
+            "インクルージョンは差別を強化する"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国の多様性とインクルージョン社会への転換",
+          "duration": "20分",
+          "description": "ジェンダー平等と女性参画、世代間価値観、障害者の権利、企業の社会的責任、社会正義運動"
+        },
+        {
+          "type": "grammar",
+          "title": "社会正義を表現するための言語",
+          "content": "権利と義務を表す表現（～할 권리가 있다，～할 책임이 있다）。受動態による構造的問題の表現。命令法と呼びかけ（～해야 한다）。複合文での因果関係"
+        },
+        {
+          "type": "note",
+          "title": "韓国のダイバーシティと社会統合",
+          "content": "急速な高齢化と性別不均衡。ジェンダー平等指数の向上への取り組み。多文化家族の増加。障害者雇用と接近性の改善。社会正義運動の活発化。"
+        },
+        {
+          "type": "note",
+          "title": "多様性の経済的・社会的価値",
+          "content": "多様性のあるチームは創造性とイノベーションが高い。包含的企業は離職率が低い。社会正義は経済成長と両立。不平等は社会全体の生産性を低下させる。"
+        },
+        {
+          "type": "note",
+          "title": "韓国社会におけるインクルージョンの課題と機会",
+          "content": "世代間の価値観ギャップと変化。新興企業によるダイバーシティ先進性。デジタル社会でのアクセシビリティ。女性リーダーシップの拡大。社会正義とビジネス価値の統合。"
+        },
+        {
+          "type": "practice",
+          "title": "社会課題についてのディスカッション",
+          "content": "友人と多様性とインクルージョンについて議論してみてください。職場、学校、社会での現在の課題、改善方法、個人として何ができるかを話し合います。異なる視点を尊重しながら、建設的な対話を通じて相互理解を深めてください。"
+        }
+      ]
     }
   ]
 }
