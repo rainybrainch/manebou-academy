@@ -12,71 +12,375 @@
       "objectives": [
         "基本的なドイツ語の挨拶を習得する",
         "簡単な自己紹介ができる",
-        "人称代名詞を理解する"
+        "人称代名詞を理解する",
+        "フォーマルとカジュアルな表現を区別できる"
       ],
       "content": {
-        "introduction": "ドイツ語を学ぶ第一歩は、基本的な挨拶と自己紹介です。このレッスンでは、日常会話で最も使われる表現を学びます。",
+        "introduction": "ドイツ語を学ぶ第一歩は、基本的な挨拶と自己紹介です。このレッスンでは、日常会話で最も使われる表現と、フォーマルな環境での使い分けを学びます。ドイツ語は敬語が発達しており、相手によって表現を変える必要があります。",
         "sections": [
           {
-            "title": "挨拶の基本",
+            "title": "時間帯別の挨拶",
             "phrases": [
-              {"german": "Guten Morgen", "romaji": "Guten Morgen", "japanese": "おはようございます", "usage": "朝の挨拶（フォーマル）"},
-              {"german": "Guten Tag", "romaji": "Guten Tag", "japanese": "こんにちは", "usage": "昼間の挨拶（フォーマル）"},
-              {"german": "Guten Abend", "romaji": "Guten Abend", "japanese": "こんばんは", "usage": "夜の挨拶（フォーマル）"},
-              {"german": "Hallo", "romaji": "Hallo", "japanese": "やあ", "usage": "カジュアルな挨拶"},
-              {"german": "Wie geht es dir?", "romaji": "Vee gayt es deer?", "japanese": "お元気ですか？（親友用）", "usage": "カジュアルな質問"}
+              {
+                "german": "Guten Morgen",
+                "romaji": "GOO-ten MOR-gen",
+                "japanese": "おはようございます",
+                "usage": "朝5時～12時の挨拶。フォーマルな場面に最適"
+              },
+              {
+                "german": "Guten Tag",
+                "romaji": "GOO-ten TAHG",
+                "japanese": "こんにちは",
+                "usage": "昼12時～夜18時の挨拶。最も標準的で広く使える表現"
+              },
+              {
+                "german": "Guten Abend",
+                "romaji": "GOO-ten AH-bent",
+                "japanese": "こんばんは",
+                "usage": "夜18時以降の挨拶。レストランやパーティで使用"
+              },
+              {
+                "german": "Gute Nacht",
+                "romaji": "GOO-te NAHKT",
+                "japanese": "おやすみなさい",
+                "usage": "就寝時の別れの挨拶。夜間の別れに使う"
+              },
+              {
+                "german": "Hallo / Hallo, wie geht's?",
+                "romaji": "HAH-lo / HAH-lo VEE gates",
+                "japanese": "やあ / やあ、元気？",
+                "usage": "カジュアルな挨拶。友人や親しい人との会話で使用"
+              }
             ]
           },
           {
-            "title": "自己紹介",
+            "title": "自己紹介の基本",
             "phrases": [
-              {"german": "Ich heiße...", "romaji": "Ikh hay-say...", "japanese": "私の名前は...です", "usage": "自己紹介で使用"},
-              {"german": "Ich bin Lehrer/in.", "romaji": "Ikh bin ley-rer/in", "japanese": "私は教師です", "usage": "職業を伝える"}
+              {
+                "german": "Ich heiße Maria.",
+                "romaji": "ikh HYE-se MAH-ree-ah",
+                "japanese": "私の名前はマリアです",
+                "usage": "最も基本的な自己紹介。heiße = be called（~と呼ばれる）"
+              },
+              {
+                "german": "Mein Name ist Peter.",
+                "romaji": "MYNE NAH-me ist PAY-ter",
+                "japanese": "私の名前はペーターです",
+                "usage": "より正式な自己紹介。ビジネスシーンに適切"
+              },
+              {
+                "german": "Ich bin 25 Jahre alt.",
+                "romaji": "ikh bin FÜN-foonf YAH-re ahlt",
+                "japanese": "私は25歳です",
+                "usage": "年齢を伝える際の標準的な表現"
+              },
+              {
+                "german": "Ich komme aus Japan.",
+                "romaji": "ikh KOM-me ous YAH-pahn",
+                "japanese": "私は日本から来ました",
+                "usage": "出身地や来た場所を伝える"
+              },
+              {
+                "german": "Ich bin Student/Studentin.",
+                "romaji": "ikh bin SHTU-dent / SHTU-den-tin",
+                "japanese": "私は学生です",
+                "usage": "職業や身分を説明する。-in は女性形"
+              }
             ]
           },
           {
-            "title": "人称代名詞",
+            "title": "人称代名詞と動詞の活用",
             "pronouns": [
-              {"german": "ich", "romaji": "ikh", "meaning": "私（主語）"},
-              {"german": "du", "romaji": "doo", "meaning": "あなた（親友用・主語）"},
-              {"german": "Sie", "romaji": "zee", "meaning": "あなた（敬語・主語）"},
-              {"german": "er", "romaji": "air", "meaning": "彼（主語）"},
-              {"german": "sie", "romaji": "zee", "meaning": "彼女（主語）"},
-              {"german": "wir", "romaji": "veer", "meaning": "私たち（主語）"}
+              {
+                "german": "ich",
+                "romaji": "ikh",
+                "meaning": "私",
+                "example": "Ich bin Student. = I am a student."
+              },
+              {
+                "german": "du",
+                "romaji": "doo",
+                "meaning": "あなた（親友・同年代用）",
+                "example": "Du bist freundlich. = You are friendly."
+              },
+              {
+                "german": "Sie",
+                "romaji": "zee",
+                "meaning": "あなた（敬語・目上の人用）",
+                "example": "Sie sind Lehrer. = You are a teacher."
+              },
+              {
+                "german": "er / sie / es",
+                "romaji": "air / zee / es",
+                "meaning": "彼／彼女／それ",
+                "example": "Er ist groß. = He is tall."
+              },
+              {
+                "german": "wir",
+                "romaji": "veer",
+                "meaning": "私たち",
+                "example": "Wir sind Freunde. = We are friends."
+              },
+              {
+                "german": "ihr",
+                "romaji": "eer",
+                "meaning": "あなたたち（親友グループ用）",
+                "example": "Ihr seid intelligent. = You (plural) are intelligent."
+              },
+              {
+                "german": "Sie",
+                "romaji": "zee",
+                "meaning": "あなたたち（敬語・複数用）",
+                "example": "Sie sind willkommen. = You (plural) are welcome."
+              },
+              {
+                "german": "sie",
+                "romaji": "zee",
+                "meaning": "彼ら／彼女たち",
+                "example": "Sie sind nett. = They are nice."
+              }
+            ]
+          },
+          {
+            "title": "sein動詞の活用",
+            "items": [
+              {"german": "ich bin", "japanese": "私は...です"},
+              {"german": "du bist", "japanese": "あなたは...です（親友用）"},
+              {"german": "Sie sind", "japanese": "あなたは...です（敬語）"},
+              {"german": "er/sie/es ist", "japanese": "彼/彼女/それは...です"},
+              {"german": "wir sind", "japanese": "私たちは...です"},
+              {"german": "ihr seid", "japanese": "あなたたちは...です（親友用）"},
+              {"german": "Sie sind", "japanese": "あなたたちは...です（敬語）"},
+              {"german": "sie sind", "japanese": "彼らは...です"}
             ]
           }
         ]
       },
       "practiceQuestions": [
-        {"id": "de-001-q1", "type": "fill-blank", "question": "「こんにちは」をドイツ語で言ってください。", "hint": "「Guten」で始まります", "answer": "Guten Tag"},
-        {"id": "de-001-q2", "type": "multiple-choice", "question": "「Ich heiße」の意味として正しいのはどれですか？", "options": ["私の名前は", "私は", "私です", "私を"], "answer": 0}
+        {
+          "id": "de-001-q1",
+          "type": "fill-blank",
+          "question": "昼間にドイツ人に会ったときの挨拶「こんにちは」を言ってください。",
+          "hint": "「Guten」で始まり、昼間用です",
+          "answer": "Guten Tag"
+        },
+        {
+          "id": "de-001-q2",
+          "type": "multiple-choice",
+          "question": "「Ich heiße」という表現の意味として正しいのはどれですか？",
+          "options": [
+            "私の名前は...です",
+            "私は...です（職業など）",
+            "私は...を持っています",
+            "私は...が好きです"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-001-q3",
+          "type": "multiple-choice",
+          "question": "敬語で「あなたは誰ですか？」と尋ねる場合、どの人称代名詞を使いますか？",
+          "options": [
+            "du",
+            "ihr",
+            "Sie",
+            "er"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "de-001-q4",
+          "type": "fill-blank",
+          "question": "自分が日本から来たことを伝えるドイツ語を言ってください。",
+          "hint": "「Ich komme aus」で始まります",
+          "answer": "Ich komme aus Japan."
+        }
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "video",
+          "title": "発音講座：基本挨拶と自己紹介",
+          "url": "#",
+          "duration": "8分"
+        },
+        {
+          "type": "grammar",
+          "title": "sein動詞の完全活用表",
+          "content": "現在形: bin, bist, ist, sind, seid, sind（3人称単数と3人称複数で異なる）"
+        },
+        {
+          "type": "note",
+          "title": "ドイツ語の敬語について",
+          "content": "ドイツ語では相手との関係によって表現を変えます。Sie（敬語）は常に大文字で始まります。"
+        }
+      ]
     },
     {
       "id": "de-002",
       "level": 1,
       "title": "数字と日付",
       "titleDe": "Zahlen und Daten",
-      "objectives": ["0～100の数字を習得する", "曜日と月を言える", "日付を表現できる"],
+      "objectives": [
+        "0～100の数字を完璧に習得する",
+        "曜日と月をスムーズに言える",
+        "日付を正確に表現できる",
+        "複合数字の構造を理解する"
+      ],
       "content": {
-        "introduction": "ドイツ語の基本となる数字と日付の表現を学びます。",
+        "introduction": "ドイツ語の数字は日常生活で頻繁に使用されます。ショッピング、時間、電話番号、年号など、多くの場面で数字が必要です。このレッスンでは0～100の数字、曜日、月、日付の表現を体系的に学びます。",
         "sections": [
           {
-            "title": "数字（0～20）",
+            "title": "基本数字（0～20）",
             "items": [
-              {"number": 0, "german": "null", "pronunciation": "nool"},
-              {"number": 1, "german": "eins", "pronunciation": "ayns"},
-              {"number": 5, "german": "fünf", "pronunciation": "foonf"},
-              {"number": 10, "german": "zehn", "pronunciation": "tsan"}
+              {"number": 0, "german": "null", "pronunciation": "NOOL", "memo": "ゼロという意味"},
+              {"number": 1, "german": "eins", "pronunciation": "AYNS", "memo": "「一つ」の意味"},
+              {"number": 2, "german": "zwei", "pronunciation": "TSVAY", "memo": "「二」の意味"},
+              {"number": 3, "german": "drei", "pronunciation": "DRAY", "memo": "「三」の意味"},
+              {"number": 4, "german": "vier", "pronunciation": "FEER", "memo": "「四」の意味"},
+              {"number": 5, "german": "fünf", "pronunciation": "FOONF", "memo": "「五」の意味"},
+              {"number": 6, "german": "sechs", "pronunciation": "ZEKS", "memo": "「六」の意味"},
+              {"number": 7, "german": "sieben", "pronunciation": "ZEE-ben", "memo": "「七」の意味"},
+              {"number": 8, "german": "acht", "pronunciation": "AHKT", "memo": "「八」の意味"},
+              {"number": 9, "german": "neun", "pronunciation": "NOYN", "memo": "「九」の意味"},
+              {"number": 10, "german": "zehn", "pronunciation": "TSAN", "memo": "「十」の意味"},
+              {"number": 11, "german": "elf", "pronunciation": "ELF", "memo": "11は特殊な形"},
+              {"number": 12, "german": "zwölf", "pronunciation": "TSVERLF", "memo": "12も特殊な形（ウムラウト付き）"},
+              {"number": 13, "german": "dreizehn", "pronunciation": "DRAY-tsan", "memo": "13以降は10の形 + 3"},
+              {"number": 15, "german": "fünfzehn", "pronunciation": "FOONF-tsan", "memo": "15 = 5 + 10"},
+              {"number": 20, "german": "zwanzig", "pronunciation": "TSVAHN-tsikh", "memo": "20は新しい単語"}
+            ]
+          },
+          {
+            "title": "十の位の数字（20～100）",
+            "items": [
+              {"number": 20, "german": "zwanzig", "pronunciation": "TSVAHN-tsikh"},
+              {"number": 30, "german": "dreißig", "pronunciation": "DRY-sikh"},
+              {"number": 40, "german": "vierzig", "pronunciation": "FEER-tsikh"},
+              {"number": 50, "german": "fünfzig", "pronunciation": "FOONF-tsikh"},
+              {"number": 60, "german": "sechzig", "pronunciation": "ZEKS-tsikh"},
+              {"number": 70, "german": "siebzig", "pronunciation": "ZEEP-tsikh"},
+              {"number": 80, "german": "achtzig", "pronunciation": "AHKT-tsikh"},
+              {"number": 90, "german": "neunzig", "pronunciation": "NOYN-tsikh"},
+              {"number": 100, "german": "einhundert", "pronunciation": "AYN-hun-dert"}
+            ]
+          },
+          {
+            "title": "複合数字の作り方",
+            "phrases": [
+              {
+                "german": "einundzwanzig (21)",
+                "romaji": "AYN-unt-TSVAHN-tsikh",
+                "japanese": "21（一と二十）",
+                "usage": "ドイツ語は下の位から言う"
+              },
+              {
+                "german": "fünfundvierzig (45)",
+                "romaji": "FOONF-unt-FEER-tsikh",
+                "japanese": "45（五と四十）",
+                "usage": "常に「単位 + und + 十の位」の順"
+              },
+              {
+                "german": "neunundachtzig (89)",
+                "romaji": "NOYN-unt-AHKT-tsikh",
+                "japanese": "89（九と八十）",
+                "usage": "この順序は重要なルール"
+              }
+            ]
+          },
+          {
+            "title": "曜日（Wochentage）",
+            "days": [
+              {"german": "Montag", "japanese": "月曜日", "abbreviation": "Mo."},
+              {"german": "Dienstag", "japanese": "火曜日", "abbreviation": "Di."},
+              {"german": "Mittwoch", "japanese": "水曜日", "abbreviation": "Mi."},
+              {"german": "Donnerstag", "japanese": "木曜日", "abbreviation": "Do."},
+              {"german": "Freitag", "japanese": "金曜日", "abbreviation": "Fr."},
+              {"german": "Samstag/Sonnabend", "japanese": "土曜日", "abbreviation": "Sa."},
+              {"german": "Sonntag", "japanese": "日曜日", "abbreviation": "So."}
+            ]
+          },
+          {
+            "title": "月（Monate）",
+            "items": [
+              {"number": 1, "german": "Januar", "japanese": "1月"},
+              {"number": 2, "german": "Februar", "japanese": "2月"},
+              {"number": 3, "german": "März", "japanese": "3月（ウムラウト付き）"},
+              {"number": 4, "german": "April", "japanese": "4月"},
+              {"number": 5, "german": "Mai", "japanese": "5月"},
+              {"number": 6, "german": "Juni", "japanese": "6月"},
+              {"number": 7, "german": "Juli", "japanese": "7月"},
+              {"number": 8, "german": "August", "japanese": "8月"},
+              {"number": 9, "german": "September", "japanese": "9月"},
+              {"number": 10, "german": "Oktober", "japanese": "10月"},
+              {"number": 11, "german": "November", "japanese": "11月"},
+              {"number": 12, "german": "Dezember", "japanese": "12月"}
+            ]
+          },
+          {
+            "title": "日付の表現",
+            "phrases": [
+              {
+                "german": "Der 3. März 2024",
+                "romaji": "DAIR DRAY. MÄRTS TSVAY-tousent FEER-unt-tsvahn-tsikh",
+                "japanese": "2024年3月3日",
+                "usage": "正式な日付表現。序数と月を組み合わせる"
+              },
+              {
+                "german": "Heute ist Montag, den 15. Januar.",
+                "romaji": "HOY-te ist MON-tag DEN FOONF-tsan YAH-nu-ar",
+                "japanese": "今日は1月15日（月曜日）です",
+                "usage": "会話での日付表現"
+              }
             ]
           }
         ]
       },
       "practiceQuestions": [
-        {"id": "de-002-q1", "type": "fill-blank", "question": "「5」をドイツ語で言ってください。", "answer": "fünf"}
+        {
+          "id": "de-002-q1",
+          "type": "fill-blank",
+          "question": "「5」をドイツ語で言ってください。",
+          "answer": "fünf"
+        },
+        {
+          "id": "de-002-q2",
+          "type": "fill-blank",
+          "question": "「47」をドイツ語で言ってください。（複合数字）",
+          "hint": "下の位から言います",
+          "answer": "siebenundvierzig"
+        },
+        {
+          "id": "de-002-q3",
+          "type": "multiple-choice",
+          "question": "「Montag」は何曜日ですか？",
+          "options": ["日曜日", "月曜日", "火曜日", "水曜日"],
+          "answer": 1
+        },
+        {
+          "id": "de-002-q4",
+          "type": "fill-blank",
+          "question": "「3月」をドイツ語で言ってください。",
+          "hint": "ウムラウト（ä）が含まれます",
+          "answer": "März"
+        }
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "grammar",
+          "title": "複合数字の規則",
+          "content": "ドイツ語では英語と異なり、下の位を先に言います。例：23 = 'dreiundzwanzig'（3と20）"
+        },
+        {
+          "type": "note",
+          "title": "11と12の特殊性",
+          "content": "11（elf）と12（zwölf）は独特の形です。13以降は通常のパターンに従い始めます。"
+        },
+        {
+          "type": "practice",
+          "title": "数字練習",
+          "content": "友人と数字をランダムに呼び合う練習をしてみてください。"
+        }
+      ]
     }
   ]
 }
