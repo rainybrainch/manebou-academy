@@ -1004,6 +1004,224 @@
           "content": "ドイツではチップ（Trinkgeld）は義務的ではなく、サービスに満足した場合に5-10%を目安に渡します。"
         }
       ]
+    },
+    {
+      "id": "de-006",
+      "level": 3,
+      "title": "中級 - 交通と方向案内",
+      "titleDe": "Mittelstufe - Verkehr und Wegbeschreibung",
+      "objectives": [
+        "公共交通機関を完璧に利用できる",
+        "道を尋ねたり、案内したりできる",
+        "移動手段を比較・選択できる",
+        "目的地への行き方を複雑に説明できる"
+      ],
+      "content": {
+        "introduction": "ドイツは公共交通網が発達しており、車がなくても移動が容易です。このレッスンでは、列車、バス、地下鉄などの利用方法と、道案内の複雑な表現を習得します。ドイツ人は詳細な方向指示を好むため、正確な表現が重要です。",
+        "sections": [
+          {
+            "title": "駅と切符購入",
+            "phrases": [
+              {
+                "german": "Wo ist der Bahnhof?",
+                "romaji": "vo ist der BAHN-hof?",
+                "japanese": "駅はどこですか？",
+                "usage": "駅の位置確認"
+              },
+              {
+                "german": "Ich möchte nach Berlin fahren.",
+                "romaji": "ikh MERKH-tuh nahkh ber-LIN FAH-ren",
+                "japanese": "私はベルリンに行きたいです。",
+                "usage": "目的地指定"
+              },
+              {
+                "german": "Eine Fahrkarte nach München bitte.",
+                "romaji": "AY-nuh FAHR-kar-tuh nahkh MÜN-khen BIT-uh",
+                "japanese": "ミュンヘン行きの乗車券をください。",
+                "usage": "切符購入"
+              },
+              {
+                "german": "Hin- und Rückfahrt oder einfach?",
+                "romaji": "hin oont RÜCK-fahrt OH-der AYN-fakh?",
+                "japanese": "往復ですか、それとも片道ですか？",
+                "usage": "切符販売者の質問"
+              },
+              {
+                "german": "Zweiter Klasse bitte.",
+                "romaji": "TSVAY-ter KLAS-uh BIT-uh",
+                "japanese": "2等車でお願いします。",
+                "usage": "座席等級指定"
+              }
+            ]
+          },
+          {
+            "title": "乗車と経路確認",
+            "phrases": [
+              {
+                "german": "Welcher Bahnsteig für Berlin?",
+                "romaji": "VEL-kher BAHN-shtyg für ber-LIN?",
+                "japanese": "ベルリン行きはどのプラットフォームですか？",
+                "usage": "プラットフォーム確認"
+              },
+              {
+                "german": "Der Zug fährt von Gleis 5 ab.",
+                "romaji": "der tsoog fairt fon glys fünf AHP",
+                "japanese": "列車は線路5から出発します。",
+                "usage": "駅員の案内"
+              },
+              {
+                "german": "Muss ich umsteigen?",
+                "romaji": "mus ikh UM-shty-gen?",
+                "japanese": "乗り換える必要がありますか？",
+                "usage": "乗り換え確認"
+              },
+              {
+                "german": "Wo muss ich aussteigen?",
+                "romaji": "vo mus ikh OUS-shty-gen?",
+                "japanese": "どこで降りればいいですか？",
+                "usage": "降車駅確認"
+              },
+              {
+                "german": "Wie lange dauert die Fahrt?",
+                "romaji": "vee LAHNG-uh DAUER-ert dee fahrt?",
+                "japanese": "乗車時間はどのくらいですか？",
+                "usage": "所要時間確認"
+              }
+            ]
+          },
+          {
+            "title": "道案内と方向",
+            "phrases": [
+              {
+                "german": "Wie komme ich zum Schloss?",
+                "romaji": "vee KOM-uh ikh tsum shloss?",
+                "japanese": "城へはどう行きますか？",
+                "usage": "方向指示を求める"
+              },
+              {
+                "german": "Gehen Sie geradeaus.",
+                "romaji": "GAY-en zee guh-RAH-duh-ous",
+                "japanese": "まっすぐ進んでください。",
+                "usage": "方向指示（直進）"
+              },
+              {
+                "german": "Biegen Sie nach links ab.",
+                "romaji": "BEE-gen zee nahkh links AHP",
+                "japanese": "左に曲がってください。",
+                "usage": "方向指示（左折）"
+              },
+              {
+                "german": "Nehmen Sie die zweite Straße rechts.",
+                "romaji": "NAY-men zee dee TSVAY-tuh SHRAH-suh rekhts",
+                "japanese": "右の2番目の通りを取ってください。",
+                "usage": "詳細な方向指示"
+              },
+              {
+                "german": "Das ist etwa 500 Meter von hier.",
+                "romaji": "dahs ist ET-vah FÜNF-hun-dert MAY-ter fon heer",
+                "japanese": "ここから約500メートルです。",
+                "usage": "距離説明"
+              }
+            ]
+          },
+          {
+            "title": "交通手段の比較",
+            "phrases": [
+              {
+                "german": "Welche Option ist schneller?",
+                "romaji": "VEL-khuh OP-tsee-ohn ist SHNELLER?",
+                "japanese": "どの選択肢が速いですか？",
+                "usage": "手段の比較"
+              },
+              {
+                "german": "Der Zug ist billiger als das Auto.",
+                "romaji": "der tsoog ist BIL-lee-ger als dahs OW-to",
+                "japanese": "列車は車より安いです。",
+                "usage": "コスト比較"
+              },
+              {
+                "german": "Mit dem Bus dauert es länger.",
+                "romaji": "mit dem bus DAUER-ert es LEHNG-er",
+                "japanese": "バスでは時間がかかります。",
+                "usage": "時間比較"
+              },
+              {
+                "german": "Ich nehme lieber den Zug.",
+                "romaji": "ikh NAY-muh LEE-ber den tsoog",
+                "japanese": "私はむしろ列車を取ります。",
+                "usage": "選好表明"
+              }
+            ]
+          },
+          {
+            "title": "交通関連語彙",
+            "items": [
+              {"german": "Bahnhof", "japanese": "駅"},
+              {"german": "Zug", "japanese": "列車"},
+              {"german": "Bus", "japanese": "バス"},
+              {"german": "U-Bahn", "japanese": "地下鉄"},
+              {"german": "S-Bahn", "japanese": "近距離列車"},
+              {"german": "Straße", "japanese": "通り"},
+              {"german": "Platz", "japanese": "広場"},
+              {"german": "Brücke", "japanese": "橋"},
+              {"german": "Fahrkarte", "japanese": "乗車券"},
+              {"german": "Gleis", "japanese": "線路・プラットフォーム"}
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-006-q1",
+          "type": "fill-blank",
+          "question": "「駅はどこですか？」をドイツ語で言ってください。",
+          "answer": "Wo ist der Bahnhof?"
+        },
+        {
+          "id": "de-006-q2",
+          "type": "fill-blank",
+          "question": "「ベルリン行きはどのプラットフォームですか？」をドイツ語で言ってください。",
+          "hint": "「Welcher Bahnsteig」で始まります",
+          "answer": "Welcher Bahnsteig für Berlin?"
+        },
+        {
+          "id": "de-006-q3",
+          "type": "multiple-choice",
+          "question": "「Muss ich umsteigen?」という文の意味として正しいのはどれですか？",
+          "options": [
+            "乗り換える必要がありますか？",
+            "どこで乗ればいいですか？",
+            "列車は速いですか？",
+            "切符はいくらですか？"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-006-q4",
+          "type": "fill-blank",
+          "question": "「まっすぐ進んでください」をドイツ語で言ってください。",
+          "hint": "「Gehen Sie」で始まります",
+          "answer": "Gehen Sie geradeaus."
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツ交通機関実践ガイド",
+          "url": "#",
+          "duration": "11分"
+        },
+        {
+          "type": "grammar",
+          "title": "命令形（Imperativ）",
+          "content": "方向指示では敬語命令形を使用します。Gehen Sie～, Biegen Sie～ など。これは敬意を示しつつ指示する表現。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツ鉄道システム",
+          "content": "ドイツ国鉄（DB）は時間に正確で有名。DBのアプリやウェブサイトで切符購入・乗車変更が可能。BahnCard（定期乗車券）があると割引がある。"
+        }
+      ]
     }
   ]
 }
