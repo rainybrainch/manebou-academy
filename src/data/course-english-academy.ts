@@ -195,13 +195,14 @@ export const englishAcademyCategory: Category = {
           title: 'Hello から始める挨拶と自己紹介',
           duration: '8:15',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
             '基本的な挨拶ができる',
             '簡単な自己紹介ができる',
             '相手の名前を聞ける',
             '時間帯による挨拶の使い分けができる',
             'フォーマル vs カジュアルの区別ができる',
+            '自然な会話ができるようになる',
           ],
           sections: [
             {
