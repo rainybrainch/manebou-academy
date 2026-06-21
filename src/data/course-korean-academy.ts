@@ -18,6 +18,7 @@ export const koreanAcademyCategory: Category = {
           duration: '8:00',
           videoId: '',
           isPremium: true,
+          checkItemsRecommendation: true,
           checkItems: [
             '食べ物の名前が言える',
             'レストランで注文できる',
@@ -61,6 +62,7 @@ export const koreanAcademyCategory: Category = {
           duration: '7:30',
           videoId: '',
           isPremium: true,
+          discussionTopics: ['季節の変わり目での服装の話', '旅行計画の季節相談'],
           checkItems: [
             '季節が言える',
             '天気について話せる',
