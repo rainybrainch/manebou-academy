@@ -381,6 +381,195 @@
           "content": "友人と数字をランダムに呼び合う練習をしてみてください。"
         }
       ]
+    },
+    {
+      "id": "de-003",
+      "level": 2,
+      "title": "日常会話 - 家族と職業",
+      "titleDe": "Alltag - Familie und Beruf",
+      "objectives": [
+        "家族構成について説明できる",
+        "職業や仕事について話題にできる",
+        "所有物の表現ができる",
+        "possess動詞 haben の活用をマスターする"
+      ],
+      "content": {
+        "introduction": "家族と職業は日常会話の基本的な話題です。ドイツ人との自然な会話では、家族構成や仕事について尋ねられることが多くあります。このレッスンでは、家族関係を表現し、職業について語る能力を養います。また、所有物について語るために必要な haben 動詞の活用も学びます。",
+        "sections": [
+          {
+            "title": "家族関係の表現",
+            "phrases": [
+              {
+                "german": "Das ist meine Mutter.",
+                "romaji": "dahs ist MAY-ne MOO-ter",
+                "japanese": "これは私の母です。",
+                "usage": "家族紹介の基本形"
+              },
+              {
+                "german": "Ich habe einen Bruder und eine Schwester.",
+                "romaji": "ikh HAH-be AY-nen BROO-der oont AY-ne SHVES-ter",
+                "japanese": "私は兄弟と妹がいます。",
+                "usage": "家族構成説明（haben 動詞使用）"
+              },
+              {
+                "german": "Mein Vater ist Lehrer.",
+                "romaji": "mayn FAH-ter ist LAY-rer",
+                "japanese": "私の父は教師です。",
+                "usage": "家族の職業紹介"
+              },
+              {
+                "german": "Meine Familie ist sehr groß.",
+                "romaji": "MAY-ne fah-MEE-lyuh ist ZAY-er GROSSH",
+                "japanese": "我が家族はとても大きいです。",
+                "usage": "家族の規模説明"
+              },
+              {
+                "german": "Ich bin verheiratet.",
+                "romaji": "ikh bin fer-HAY-ra-tet",
+                "japanese": "私は結婚しています。",
+                "usage": "結婚状況の説明"
+              },
+              {
+                "german": "Wir haben zwei Kinder.",
+                "romaji": "veer HAH-ben TSVAY KIN-der",
+                "japanese": "私たちは2人の子どもがいます。",
+                "usage": "子どもの人数説明"
+              }
+            ]
+          },
+          {
+            "title": "職業と仕事",
+            "phrases": [
+              {
+                "german": "Was ist dein Beruf?",
+                "romaji": "vahs ist dayn be-ROOF?",
+                "japanese": "あなたの職業は何ですか？（親友用）",
+                "usage": "職業を尋ねるカジュアルな表現"
+              },
+              {
+                "german": "Was ist Ihr Beruf?",
+                "romaji": "vahs ist eer be-ROOF?",
+                "japanese": "あなたの職業は何ですか？（敬語）",
+                "usage": "職業を尋ねる敬語"
+              },
+              {
+                "german": "Ich bin Arzt.",
+                "romaji": "ikh bin AHRTS",
+                "japanese": "私は医者です。",
+                "usage": "職業を述べる（男性形）"
+              },
+              {
+                "german": "Ich bin Ärztin.",
+                "romaji": "ikh bin AHRT-stin",
+                "japanese": "私は医者です。（女性形）",
+                "usage": "職業を述べる（女性形）"
+              },
+              {
+                "german": "Ich arbeite in einem Büro.",
+                "romaji": "ikh AHR-bay-te in AY-nem BÜ-ro",
+                "japanese": "私はオフィスで働いています。",
+                "usage": "職場環境の説明"
+              },
+              {
+                "german": "Meine Arbeit ist interessant.",
+                "romaji": "MAY-ne AHR-bayt ist in-ter-ES-ant",
+                "japanese": "私の仕事は興味深いです。",
+                "usage": "仕事についての感想"
+              }
+            ]
+          },
+          {
+            "title": "haben 動詞の活用",
+            "pronouns": [
+              {"german": "ich habe", "romaji": "ikh HAH-be", "meaning": "I have"},
+              {"german": "du hast", "romaji": "doo HAHST", "meaning": "you have (familiar)"},
+              {"german": "Sie haben", "romaji": "zee HAH-ben", "meaning": "you have (formal)"},
+              {"german": "er/sie/es hat", "romaji": "air/zee/es HAHT", "meaning": "he/she/it has"},
+              {"german": "wir haben", "romaji": "veer HAH-ben", "meaning": "we have"},
+              {"german": "ihr habt", "romaji": "eer HAPT", "meaning": "you have (plural familiar)"},
+              {"german": "Sie haben", "romaji": "zee HAH-ben", "meaning": "you have (plural formal)"},
+              {"german": "sie haben", "romaji": "zee HAH-ben", "meaning": "they have"}
+            ]
+          },
+          {
+            "title": "所有物の表現",
+            "items": [
+              {"german": "Ich habe ein Auto", "japanese": "私は車を持っています"},
+              {"german": "Ich habe ein Haus", "japanese": "私は家を持っています"},
+              {"german": "Ich habe einen Computer", "japanese": "私はコンピュータを持っています"},
+              {"german": "Ich habe ein Haustier", "japanese": "私はペットを持っています"},
+              {"german": "Ich habe Geld", "japanese": "私はお金を持っています"},
+              {"german": "Ich habe Zeit", "japanese": "私は時間を持っています"},
+              {"german": "Ich habe Angst", "japanese": "私は怖いです（恐怖を持っています）"},
+              {"german": "Ich habe Hunger", "japanese": "私はお腹が空いています（空腹を持っています）"}
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-003-q1",
+          "type": "fill-blank",
+          "question": "「私は兄弟と妹がいます」をドイツ語で言ってください。",
+          "hint": "「Ich habe」で始まります",
+          "answer": "Ich habe einen Bruder und eine Schwester."
+        },
+        {
+          "id": "de-003-q2",
+          "type": "fill-blank",
+          "question": "「私は医者です（男性）」をドイツ語で言ってください。",
+          "answer": "Ich bin Arzt."
+        },
+        {
+          "id": "de-003-q3",
+          "type": "multiple-choice",
+          "question": "「Mein Vater ist Lehrer」という文の意味として正しいのはどれですか？",
+          "options": [
+            "私の父は教師です",
+            "私の兄は教師です",
+            "私は父と教師です",
+            "父は私の教師です"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-003-q4",
+          "type": "fill-blank",
+          "question": "「あなたの職業は何ですか？（敬語）」をドイツ語で言ってください。",
+          "hint": "「Was ist」で始まります",
+          "answer": "Was ist Ihr Beruf?"
+        },
+        {
+          "id": "de-003-q5",
+          "type": "multiple-choice",
+          "question": "have の意味で「Ich habe Hunger」という表現の意味として正しいのはどれですか？",
+          "options": [
+            "私はお腹が空いています",
+            "私は空腹を持っています",
+            "私は饑餓を持っています",
+            "1と2は同じ意味"
+          ],
+          "answer": 3
+        }
+      ],
+      "resources": [
+        {
+          "type": "grammar",
+          "title": "haben 動詞の重要性",
+          "content": "haben は「持つ」という基本的な意味の他、多くの慣用表現で使用されます。「Hunger haben（お腹が空いている）」「Angst haben（怖い）」など。"
+        },
+        {
+          "type": "video",
+          "title": "家族紹介と職業の会話",
+          "url": "#",
+          "duration": "9分"
+        },
+        {
+          "type": "note",
+          "title": "ドイツ語の男性形・女性形",
+          "content": "職業に -in をつけることで女性形になります。例：Lehrer (男性) → Lehrerin (女性)。ドイツ語では言語の性（gender）が重要です。"
+        }
+      ]
     }
   ]
 }
