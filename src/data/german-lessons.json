@@ -6670,6 +6670,225 @@
           "content": "あなたが新しいビジネスアイデアの起業家とします。ビジネスモデルを設計し、ターゲット市場を定義し、競争分析を行い、3年財務予測を作成します。VCに向けた5分間のピッチを準備し、以下を含めます：問題定義、革新的ソリューション、市場規模、チーム背景、資金調達ニーズ、成功指標。"
         }
       ]
+    },
+    {
+      "id": "de-030",
+      "level": 5,
+      "title": "IT・ソフトウェア開発：プログラミング・クラウドコンピューティング・サイバーセキュリティ",
+      "titleDe": "IT und Softwareentwicklung: Programmierung, Cloud Computing, Cybersicherheit",
+      "objectives": [
+        "ソフトウェア開発ライフサイクルと開発方法論を理解する",
+        "クラウドコンピューティング、マイクロサービス、DevOpsに関する専門用語を習得する",
+        "サイバーセキュリティとデータ保護の重要性を理解する",
+        "IT業界でのキャリアパスとスキル開発を計画する能力を習得する"
+      ],
+      "content": {
+        "introduction": "IT産業はドイツと韓国の両国の経済成長の中核です。デジタルトランスフォーメーション、クラウドマイグレーション、AI統合は企業の競争力を左右します。このレッスンでは、ソフトウェア開発方法論、クラウドアーキテクチャ、サイバーセキュリティ、DevOps、アジャイル開発に関する高度なドイツ語を学びます。",
+        "sections": [
+          {
+            "title": "ソフトウェア開発ライフサイクル（SDLC）と開発方法論",
+            "phrases": [
+              {
+                "german": "Der Software Development Lifecycle (SDLC) umfasst Anforderungsanalyse, Design, Implementierung, Testen, Bereitstellung, und Wartung, um qualitativ hochwertige Software zu liefern.",
+                "romaji": "Der Software Development Lifecycle umfasst Anforderungsanalyse, Design, Implementierung, Testen",
+                "japanese": "ソフトウェア開発ライフサイクル（SDLC）は要件分析、設計、実装、テスト、デプロイメント、保守を含み、高品質なソフトウェアを提供します。",
+                "usage": "ソフトウェア開発プロセスを説明するとき"
+              },
+              {
+                "german": "Agile Entwicklung (Scrum, Kanban) betont iterative Entwicklung, kontinuierliches Feedback, adaptive Planung, und enge Zusammenarbeit zwischen Entwicklung und Geschäft.",
+                "romaji": "Agile Entwicklung betont iterative Entwicklung, kontinuierliches Feedback, adaptive Planung",
+                "japanese": "アジャイル開発（Scrum、Kanban）は反復的開発、継続的フィードバック、適応計画、開発とビジネス間の密接な協力を強調します。",
+                "usage": "アジャイル開発方法論を説明するとき"
+              },
+              {
+                "german": "DevOps ist eine Kultur und Praxis, die Entwicklung und IT-Betrieb integriert, um schnellere Softwarebereitstellung, höhere Zuverlässigkeit, und kontinuierliche Verbesserung zu erreichen.",
+                "romaji": "DevOps ist eine Kultur und Praxis, die Entwicklung und IT-Betrieb integriert",
+                "japanese": "DevOpsは開発とIT運用を統合し、より迅速なソフトウェアデプロイメント、高い信頼性、継続的改善を実現する文化と実践です。",
+                "usage": "DevOpsの概念を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "クラウドコンピューティングとマイクロサービスアーキテクチャ",
+            "phrases": [
+              {
+                "german": "Cloud Computing bietet On-Demand-Ressourcen (IaaS, PaaS, SaaS) mit Skalierbarkeit, Kosteneffizienz, und globaler Verfügbarkeit über AWS, Azure, Google Cloud, oder lokale private Clouds.",
+                "romaji": "Cloud Computing bietet On-Demand-Ressourcen (IaaS, PaaS, SaaS) mit Skalierbarkeit, Kosteneffizienz",
+                "japanese": "クラウドコンピューティングはIaaS、PaaS、SaaSなどのオンデマンドリソースを提供し、スケーラビリティ、コスト効率性、グローバル可用性をAWS、Azure、Google Cloud、プライベートクラウドで実現します。",
+                "usage": "クラウドコンピューティングの利点を説明するとき"
+              },
+              {
+                "german": "Microservices-Architektur zerlegt große Anwendungen in kleine, unabhängige Services, die separat skaliert, bereitgestellt, und gewartet werden, was Flexibilität und Geschwindigkeit erhöht.",
+                "romaji": "Microservices-Architektur zerlegt große Anwendungen in kleine, unabhängige Services",
+                "japanese": "マイクロサービスアーキテクチャは大型アプリケーションを小型で独立したサービスに分割し、それぞれ個別にスケーリング、デプロイメント、保守でき、柔軟性と速度を向上させます。",
+                "usage": "マイクロサービスの利点を説明するとき"
+              },
+              {
+                "german": "Container (Docker, Kubernetes) ermöglichen portable, skalierbare Anwendungsbereitstellung mit isolierten Umgebungen, einfacher Orchestrierung, und konsistenten Deployments über verschiedene Infrastrukturen hinweg.",
+                "romaji": "Container (Docker, Kubernetes) ermöglichen portable, skalierbare Anwendungsbereitstellung",
+                "japanese": "コンテナ（Docker、Kubernetes）は分離された環境での移植可能でスケーラブルなアプリケーション配置、簡単なオーケストレーション、インフラ全体での一貫したデプロイメントを実現します。",
+                "usage": "コンテナ技術の利点を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "サイバーセキュリティとデータ保護",
+            "phrases": [
+              {
+                "german": "Cybersicherheit umfasst Maßnahmen gegen Bedrohungen wie Malware, Phishing, SQL-Injection, DDoS-Attacken, und Datenverletzungen durch sichere Codierung, Encryption, Authentifizierung, und kontinuierliches Monitoring.",
+                "romaji": "Cybersicherheit umfasst Maßnahmen gegen Bedrohungen wie Malware, Phishing, SQL-Injection",
+                "japanese": "サイバーセキュリティはマルウェア、フィッシング、SQLインジェクション、DDoS攻撃、データ漏洩に対する対策を含み、安全なコーディング、暗号化、認証、継続的監視により実現します。",
+                "usage": "サイバーセキュリティ対策を説明するとき"
+              },
+              {
+                "german": "Datenschutz und Compliance (GDPR, CCPA) erfordern Maßnahmen zur Sicherung persönlicher Daten, Transparenz in der Datenverarbeitung, Benutzerrechte, und regelmäßige Sicherheitsaudits.",
+                "romaji": "Datenschutz und Compliance (GDPR, CCPA) erfordern Maßnahmen zur Sicherung persönlicher Daten",
+                "japanese": "データ保護と法令遵守（GDPR、CCPA）は個人データの保護、データ処理の透明性、ユーザー権利、定期的セキュリティ監査を要求します。",
+                "usage": "データ保護規制について説明するとき"
+              },
+              {
+                "german": "Zero Trust Security ist ein Modell, das keine impliziten Vertrauensstufen gewährt, sondern alle Zugriffe überprüft, um Insider-Threats und Externe-Attacken zu verhindern.",
+                "romaji": "Zero Trust Security ist ein Modell, das keine impliziten Vertrauensstufen gewährt",
+                "japanese": "ゼロトラスト・セキュリティは暗黙的な信頼レベルを持たず、すべてのアクセスを検証し、内部脅威と外部攻撃を防止するモデルです。",
+                "usage": "最新のセキュリティアプローチを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "IT業界でのキャリアと継続的スキル開発",
+            "phrases": [
+              {
+                "german": "IT-Karrierepfade umfassen Rollen wie Software Engineer, DevOps Engineer, Cloud Architect, Security Engineer, Data Engineer, und AI/ML Engineer mit unterschiedlichen Spezialisierungen und Verantwortungen.",
+                "romaji": "IT-Karrierepfade umfassen Rollen wie Software Engineer, DevOps Engineer, Cloud Architect",
+                "japanese": "ITキャリアパスはソフトウェアエンジニア、DevOpsエンジニア、クラウドアーキテクト、セキュリティエンジニア、データエンジニア、AI/MLエンジニアなどの異なる専門化と責任を含みます。",
+                "usage": "IT業界のキャリアオプションを説明するとき"
+              },
+              {
+                "german": "Kontinuierliches Lernen ist essentiell in IT: Zertifikationen (AWS Certified Solutions Architect, Kubernetes Certified Application Developer), Online-Kurse, Konferenzen, und Open-Source-Community-Engagement.",
+                "romaji": "Kontinuierliches Lernen ist essentiell in IT: Zertifikationen (AWS Certified Solutions Architect)",
+                "japanese": "継続的学習はIT業界で不可欠：認定資格（AWS認定ソリューションアーキテクト、Kubernetes認定アプリケーション開発者）、オンラインコース、カンファレンス、オープンソースコミュニティへの参加。",
+                "usage": "スキル開発の重要性を強調するとき"
+              },
+              {
+                "german": "Remote Work und globale Verteilung ermöglichen IT-Profis, für internationale Unternehmen zu arbeiten, Talente aus verschiedenen Regionen zu nutzen, und Work-Life-Balance zu verbessern.",
+                "romaji": "Remote Work und globale Verteilung ermöglichen IT-Profis, für internationale Unternehmen zu arbeiten",
+                "japanese": "リモートワークとグローバル分散は、IT専門家が国際企業で働き、異なる地域の才能を活用し、ワークライフバランスを改善することを可能にします。",
+                "usage": "IT業界の働き方の多様性を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-030-q1",
+          "type": "fill-blank",
+          "question": "「ソフトウェア開発ライフサイクルは要件分析から保守まで含みます」をドイツ語で言ってください。",
+          "answer": "Der Software Development Lifecycle umfasst Anforderungsanalyse, Design, Implementierung, Testen, Bereitstellung, und Wartung."
+        },
+        {
+          "id": "de-030-q2",
+          "type": "multiple-choice",
+          "question": "アジャイル開発の特徴は？",
+          "options": [
+            "反復的開発、継続的フィードバック、適応計画、開発とビジネスの協力",
+            "計画が固定され、変更不可",
+            "テストなし",
+            "単一個人による開発"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-030-q3",
+          "type": "fill-blank",
+          "question": "「DevOpsは開発とIT運用を統合し、迅速なデプロイメントを実現します」をドイツ語で言ってください。",
+          "answer": "DevOps ist eine Kultur und Praxis, die Entwicklung und IT-Betrieb integriert, um schnellere Softwarebereitstellung zu erreichen."
+        },
+        {
+          "id": "de-030-q4",
+          "type": "multiple-choice",
+          "question": "クラウドコンピューティングが提供するサービスモデルは？",
+          "options": [
+            "IaaS、PaaS、SaaS",
+            "ハードウェアのみ",
+            "オンプレミスのみ",
+            "ネットワーク接続なし"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-030-q5",
+          "type": "fill-blank",
+          "question": "「マイクロサービスは大型アプリケーションを小さなサービスに分割します」をドイツ語で言ってください。",
+          "answer": "Microservices-Architektur zerlegt große Anwendungen in kleine, unabhängige Services."
+        },
+        {
+          "id": "de-030-q6",
+          "type": "matching",
+          "question": "IT技術とその説明を正しく組み合わせてください。",
+          "pairs": [
+            {"tech": "Docker", "description": "コンテナ化技術"},
+            {"tech": "Kubernetes", "description": "オーケストレーション"},
+            {"tech": "GDPR", "description": "データ保護規制"}
+          ]
+        },
+        {
+          "id": "de-030-q7",
+          "type": "fill-blank",
+          "question": "「サイバーセキュリティは暗号化と認証により脅威から守ります」をドイツ語で言ってください。",
+          "answer": "Cybersicherheit umfasst Maßnahmen durch sichere Codierung, Encryption, Authentifizierung, und kontinuierliches Monitoring."
+        },
+        {
+          "id": "de-030-q8",
+          "type": "multiple-choice",
+          "question": "ITキャリアパスの例は？",
+          "options": [
+            "ソフトウェアエンジニア、DevOpsエンジニア、クラウドアーキテクト、セキュリティエンジニア",
+            "営業のみ",
+            "マネジメント一択",
+            "技術不要"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "IT・ソフトウェア開発：クラウド・DevOps・セキュリティ・キャリア",
+          "duration": "32分",
+          "description": "SDLCとアジャイル開発。クラウドマイグレーション戦略。Dockerとコンテナ化。Kubernetesのスケーリング。サイバーセキュリティベストプラクティス。GDPR対応。ITキャリアパス。"
+        },
+        {
+          "type": "grammar",
+          "title": "IT・ソフトウェア開発用語とテクニカルコミュニケーション表現",
+          "content": "開発複合語：Software Development Lifecycle（SDLC）、Application Programming Interface（API）、User Experience（UX）。アジャイル用語：Sprint、Backlog、Standup、Retrospective。クラウド用語：Infrastructure as a Service（IaaS）、Platform as a Service（PaaS）、Software as a Service（SaaS）、Container。セキュリティ用語：Encryption、Authentication、Authorization、Zero Trust。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツのIT産業とデジタルトランスフォーメーション",
+          "content": "Germany's Industry 4.0戦略。ベルリンのスタートアップシーン。SAP、Siemens、Deutsche Telecommunicationなどの大型IT企業。ドイツのデジタル化推進："Digitalisierung" 戦略。データ保護重視とGDPR発祥。"
+        },
+        {
+          "type": "note",
+          "title": "クラウドコンピューティングアーキテクチャ設計",
+          "content": "AWS：EC2、S3、Lambda、RDS。Azure：VMs、App Service、Azure SQL。Google Cloud：Compute Engine、Cloud Storage、BigQuery。アーキテクチャパターン：モノリシック → マイクロサービス → サーバーレス。スケーラビリティ、冗長性、ディザスタリカバリ。"
+        },
+        {
+          "type": "note",
+          "title": "DevOpsとCI/CDパイプライン",
+          "content": "Continuous Integration（CI）：自動ビルド・テスト。Continuous Deployment（CD）：自動デプロイメント。ツール：Jenkins、GitLab CI、GitHub Actions。Infrastructure as Code（IaC）：Terraform、Ansible。Monitoring：Prometheus、ELK Stack。"
+        },
+        {
+          "type": "note",
+          "title": "サイバーセキュリティとコンプライアンス",
+          "content": "OWASP Top 10：一般的なセキュリティ脆弱性。NIST Cybersecurity Framework。ペネトレーションテスト。SOC（Security Operations Center）。事故対応計画（Incident Response）。ユーザートレーニング。"
+        },
+        {
+          "type": "practice",
+          "title": "クラウドベースのマイクロサービスアーキテクチャ設計とセキュリティ統合",
+          "content": "あなたが大規模e-commerceプラットフォームのアーキテクトとします。スケーラブルなマイクロサービスアーキテクチャを設計します：ユーザー管理、商品カタログ、注文処理、支払い処理、配送追跡。各サービスにCloudコンテナ化、API設計、データベース設計を含めます。DevOpsパイプライン、CI/CD、セキュリティ統合（認証、暗号化、監査ログ）、パフォーマンスモニタリング、ディザスタリカバリー計画も策定します。"
+        }
+      ]
     }
   ]
 }
