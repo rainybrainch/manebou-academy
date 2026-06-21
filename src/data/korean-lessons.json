@@ -5968,6 +5968,220 @@
           "content": "友人と共に、あなたたちが形成したいコミュニティのビジョンについて議論してみてください。共通の目標、学習の焦点、相互支援の方法を定めます。グローバルネットワークとの関係、知識共有の仕組み、包含的な文化をどのように構築するかを考察してください。"
         }
       ]
+    },
+    {
+      "id": "ko-035",
+      "level": 5,
+      "title": "デジタル経済と韓国のテック産業：グローバルリーダーシップ",
+      "titleKo": "디지털 경제와 한국 기술 산업: 글로벌 리더십",
+      "objectives": [
+        "韓国のデジタル経済戦略と技術産業の発展を理解する",
+        "テクノロジー、ベンチャー、スタートアップに関する専門用語を習得する",
+        "グローバルなテック企業とエコシステムについて議論できる",
+        "デジタル転換とイノベーション戦略を分析する能力を身につける"
+      ],
+      "content": {
+        "introduction": "韓国はサムスン、LG、SKハイニックスなどの世界的なテック企業を輩出し、デジタル経済のグローバルリーダーになりました。このレッスンでは、韓国の技術産業の戦略、ベンチャーエコシステム、5G・AI・ブロックチェーンなどの先端技術、そしてグローバル市場での競争力について、高度な韓国語で学びます。",
+        "sections": [
+          {
+            "title": "韓国のテック産業とグローバルリーダーシップ",
+            "phrases": [
+              {
+                "korean": "한국은 삼성, LG, SK하이닉스 등의 글로벌 기술 기업을 통해 반도체, 디스플레이, 전자제품 분야에서 세계적 리더십을 확립했습니다.",
+                "romaji": "Hanguk-eun Samsungg, LG, SK hayiniksu deung-ui geulglobal gisul gieob-eul tonghae banhdoche, dispeullei, jeonjajaepoom bunyae-seo segyejeoug rideosip-eul hwakseolhaessnida",
+                "japanese": "韓国はサムスン、LG、SKハイニックスなどのグローバル技術企業を通じて、半導体、ディスプレイ、電子機器分野で世界的リーダーシップを確立しました。",
+                "usage": "韓国のテック産業の位置づけを説明するとき"
+              },
+              {
+                "korean": "한국의 디지털 인프라 투자와 높은 인터넷 보급률은 세계 최고 수준의 모바일 생태계와 전자상거래 환경을 조성했습니다.",
+                "romaji": "Hangug-ui dijital infura tuja-wa noppeun internet bogeopryo-neun segyejae choego sujoong-ui mobail saengtaigye wa jeonsangangmun hwangyeong-eul joseonghhaessnida",
+                "japanese": "韓国のデジタルインフラへの投資と高いインターネット普及率は、世界トップレベルのモバイルエコシステムとeコマース環境を創出しました。",
+                "usage": "韓国のデジタル環境の優位性を説明するとき"
+              },
+              {
+                "korean": "정부의 스마트 코리아 전략, 산업 4.0 추진, 그리고 AI, 빅데이터 투자는 한국을 4차 산업혁명의 주도국으로 위치시켰습니다.",
+                "romaji": "Jeongbu-ui seumateu Korea jeonryak, sanob 4.0 chujin, geurigo AI, big data tuja neun Hangug-eul 4cha saniob hyeongmyeong-ui judogug-euro wichi sikyeossnida",
+                "japanese": "政府のスマート・コリア戦略、Industry 4.0の推進、AI・ビッグデータへの投資は韓国を第4次産業革命のリーダー国として位置づけました。",
+                "usage": "韓国の戦略的産業政策を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "ベンチャーエコシステムとスタートアップ文化",
+            "phrases": [
+              {
+                "korean": "서울의 강남역, 를 중심으로 한 스타트업 허브는 창업가들이 아이디어를 혁신적인 사업으로 전환하는 역동적인 생태계를 형성하고 있습니다.",
+                "romaji": "Seoul-ui Gangnamnyeok, Gangnamdistrit-eul jungsim-euro-han seutateu-eob heob-eun chang-eobga-deul-i aidia-reul hyeoksim-jeoug saobs-euro jeonhwan-haneun yeogdong-jeoug saengtaigye-reul hyeongseonghago issnida",
+                "japanese": "ソウルの江南駅周辺を中心とするスタートアップハブは、起業家がアイデアを革新的なビジネスに転換する動的なエコシステムを形成しています。",
+                "usage": "韓国のベンチャー文化を説明するとき"
+              },
+              {
+                "korean": "한국의 스타트업들은 핀테크, 온라인 교육, 소셜 커머스, 게임, 동영상 스트리밍 등의 분야에서 전 세계적 영향력을 행사하고 있습니다.",
+                "romaji": "Hangug-ui seutateu-eob deul-eun pinteuk, onrain gyoyuk, sosyal keomeos, geim, dongyeongsang seuting-ing deung-ui bunyae-seo jeon segyejeoug yeonghabyeok-eul haengsahago issnida",
+                "japanese": "韓国のスタートアップはフィンテック、オンライン教育、ソーシャルコマース、ゲーム、動画ストリーミングなどの分野で世界的な影響力を行使しています。",
+                "usage": "韓国のスタートアップの活躍を説明するとき"
+              },
+              {
+                "korean": "정부의 창업 펀드, 엔젤 투자자, 그리고 대기업과의 협업은 초기 단계의 스타트업들에게 자금, 기술, 시장 접근성을 제공합니다.",
+                "romaji": "Jeongbu-ui chang-eob peondeu, enjeltu ja, geurigo daegieob-gwa-ui hyeob-eob-eun choogi dangyae-ui seutateu-eob deul-egehae jageum, gisul, sigang jeobgeun-seong-eul jegonghamnida",
+                "japanese": "政府の起業ファンド、エンジェル投資家、大企業とのコラボレーションは初期段階のスタートアップに資金、技術、市場アクセスを提供します。",
+                "usage": "ベンチャー資金調達の仕組みを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "先端技術：5G、AI、ブロックチェーン",
+            "phrases": [
+              {
+                "korean": "한국은 5G 네트워크 상용화에서 세계 최초로 성공하여, 초고속 통신, IoT, 자율주행 등의 혁신적인 응용 분야를 선도하고 있습니다.",
+                "romaji": "Hangug-eun 5G neteuweok sangybonghwa-eseo segyejae choecho-ro seonggonghayeo, chogosok tongsin, IoT, jayuldhjuhaengg deung-ui hyeoksim-jeoug eungnyong bunyae-reul seondo hago issnida",
+                "japanese": "韓国は5Gネットワークの商用化で世界初の成功を達成し、超高速通信、IoT、自動運転などの革新的な応用分野をリードしています。",
+                "usage": "韓国の5G技術のリーダーシップを説明するとき"
+              },
+              {
+                "korean": "인공지능(AI) 기술의 개발과 적용에서 한국은 자연어 처리, 음성 인식, 기계 학습, 그리고 예측 분석을 통해 산업 전반에 혁신을 가져오고 있습니다.",
+                "romaji": "Ingong jinae (AI) gisul-ui gaebalgwa jeog-yong-eseo Hangug-eun jayeonra cheoril, eum-seong inseig, gimye hagseub, geurigo yeyeog bunseogeul tonghae saniob jeonban-e hyeoksim-eul gajyeo ogo issnida",
+                "japanese": "人工知能（AI）技術の開発と応用において韓国は自然言語処理、音声認識、機械学習、予測分析を通じて産業全般にイノベーションをもたらしています。",
+                "usage": "AI技術の産業応用を説明するとき"
+              },
+              {
+                "korean": "블록체인 기술은 암호화폐, 스마트 계약, 공급망 추적, 그리고 디지털 신원 관리에 응용되어, 금융과 산업의 투명성과 보안을 강화하고 있습니다.",
+                "romaji": "Beulrok-chein gisul-eun amhowhwa-pye, seumateu gyeyak, gonggeupmang chujjek, geurigo dijital sinwon gwanri-e eungnyong-doyeo, geumyung-gwa saniob-ui tuthyeongseongg-gwa boseong-eul ganghwaago issnida",
+                "japanese": "ブロックチェーン技術は暗号資産、スマートコントラクト、サプライチェーンの追跡、デジタルアイデンティティ管理に応用され、金融と産業の透明性とセキュリティを強化しています。",
+                "usage": "ブロックチェーンの応用を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "グローバル市場での競争力と持続可能性",
+            "phrases": [
+              {
+                "korean": "한국의 기술 기업들은 혁신적인 제품, 높은 품질, 그리고 효율적인 공급망 관리를 통해 글로벌 시장에서 경쟁력을 유지하고 있습니다.",
+                "romaji": "Hangug-ui gisul gieob deul-eun hyeoksim-jeoug jepum, noppeun pumjil, geurigo hyoeoryul-jeoug gonggeupmang gwanri-reul tonghae geulglobal sigang-eseo gyeongchnaenryeog-eul yuji hago issnida",
+                "japanese": "韓国の技術企業は革新的な製品、高い品質、効率的なサプライチェーン管理を通じてグローバル市場で競争力を維持しています。",
+                "usage": "韓国企業の国際競争力を説明するとき"
+              },
+              {
+                "korean": "지속 가능한 기술 개발, 탄소 중립 목표, 그리고 기업의 사회적 책임(CSR)은 한국 기술 산업의 장기적 성장과 글로벌 신뢰성을 확보하고 있습니다.",
+                "romaji": "Jisok ganeung-hahnn gisul gaebalgwa, tansso jungnib mokpyo, geurigo gieob-ui sahwejeoug chaegim (CSR)-eun Hangug gisul saniob-ui janggijeog seong-gong-gwa geulglobal sinryuoseongg-eul hwakbohago issnida",
+                "japanese": "持続可能な技術開発、カーボンニュートラル目標、企業の社会的責任（CSR）は韓国の技術産業の長期的成長とグローバルな信頼性を確保しています。",
+                "usage": "持続可能性と競争力の関係を説明するとき"
+              },
+              {
+                "korean": "국제적인 표준 설정, 오픈 이노베이션 협력, 그리고 글로벌 인재 영입은 한국을 미래 기술 리더십의 중심으로 위치시키고 있습니다.",
+                "romaji": "Gugjae-jeogin pyojun seoljeong, opeu inobei-syeon hyeob-eob, geurigo geulglobal ingjai yeongip-eun Hangug-eul mirae gisul rideosip-ui jungsim-euro wichi sikyogo issnida",
+                "japanese": "国際的な標準設定、オープンイノベーション協業、グローバルな人材採用は韓国を未来の技術リーダーシップの中心に位置づけています。",
+                "usage": "韓国の国際的な技術戦略を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-035-q1",
+          "type": "fill-blank",
+          "question": "「韓国はサムスン、LGなどのグローバルテック企業を通じて世界的リーダーシップを確立しました」を韓国語で言ってください。",
+          "answer": "한국은 삼성, LG 등의 글로벌 기술 기업을 통해 세계적 리더십을 확립했습니다."
+        },
+        {
+          "id": "ko-035-q2",
+          "type": "multiple-choice",
+          "question": "韓国がテック産業でリーダーになった主な要因は？",
+          "options": [
+            "デジタルインフラ投資と高いインターネット普及率",
+            "石油資源の豊富さ",
+            "農業中心の経済構造",
+            "低い労働コスト"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-035-q3",
+          "type": "fill-blank",
+          "question": "「ソウルの江南駅周辺はスタートアップハブです」を韓国語で言ってください。",
+          "answer": "서울의 강남역 주변이 스타트업 허브입니다."
+        },
+        {
+          "id": "ko-035-q4",
+          "type": "multiple-choice",
+          "question": "韓国のスタートアップが活躍している分野は？",
+          "options": [
+            "フィンテック、オンライン教育、ゲーム、動画ストリーミング",
+            "採掘業と農業",
+            "造船業のみ",
+            "化学工業"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-035-q5",
+          "type": "fill-blank",
+          "question": "「韓国は5Gネットワークの商用化で世界初に成功しました」を韓国語で言ってください。",
+          "answer": "한국은 5G 네트워크 상용화에서 세계 최초로 성공했습니다."
+        },
+        {
+          "id": "ko-035-q6",
+          "type": "matching",
+          "question": "先端技術と応用分野を正しく組み合わせてください。",
+          "pairs": [
+            {"technology": "5G", "application": "超高速通信・IoT・自動運転"},
+            {"technology": "AI", "application": "自然言語処理・音声認識"},
+            {"technology": "블록체인", "application": "暗号資産・スマートコントラクト"}
+          ]
+        },
+        {
+          "id": "ko-035-q7",
+          "type": "fill-blank",
+          "question": "「政府の起業ファンドとエンジェル投資家がスタートアップを支援します」を韓国語で言ってください。",
+          "answer": "정부의 창업 펀드와 엔젤 투자자가 스타트업을 지원합니다."
+        },
+        {
+          "id": "ko-035-q8",
+          "type": "multiple-choice",
+          "question": "韓国の技術産業の長期的競争力を支える要因は？",
+          "options": [
+            "持続可能な技術開発とCSR",
+            "短期利益の最大化",
+            "独占的な市場支配",
+            "国際標準への非準拠"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国のデジタル経済戦略：5G・AI・ブロックチェーンのリーダーシップ",
+          "duration": "26分",
+          "description": "サムスンとLGの世界的展開。スマート・コリア戦略。5Gの商用化と応用。AI産業への投資。ブロックチェーン技術とフィンテックの発展。"
+        },
+        {
+          "type": "grammar",
+          "title": "テクノロジーとビジネス用語の高度な表現",
+          "content": "複合名詞：반도체（半導体）、디스플레이（ディスプレイ）、디지털（デジタル）。技術用語：인공지능（AI）、5G 네트워크（5Gネットワーク）、블록체인（ブロックチェーン）。ビジネス表現：혁신（イノベーション）、경쟁력（競争力）、지속 가능（持続可能）。"
+        },
+        {
+          "type": "note",
+          "title": "韓国の主要なテック企業とその戦略",
+          "content": "サムスン電子：ディスプレイ・半導体・家電。LG：ディスプレイ・家電・化学。SKハイニックス：半導体メモリー。カカオ：ポータル・メッセンジャー・コマース。ネイバー：検索・WEB・コマース。"
+        },
+        {
+          "type": "note",
+          "title": "ベンチャー生態系の構成要素",
+          "content": "スタートアップ：新興企業と革新的な事業。エンジェル投資家：初期段階への個人投資。ベンチャーキャピタル：機関投資家による資金調達。インキュベーター：ビジネス開発支援。大企業との提携：技術移転と市場進出支援。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツと韓国のテック産業戦略の比較",
+          "content": "ドイツ：再生可能エネルギーとグリーンテクノロジー。韓国：デジタルトランスフォーメーションと先端半導体。ドイツ：中堅企業中心（Mittelstand）。韓国：大企業グループ中心（Chaebol）とスタートアップ。"
+        },
+        {
+          "type": "practice",
+          "title": "テック産業のビジョンと戦略の提案",
+          "content": "あなたのスタートアップのビジネスプランを考えてください。問題設定、革新的なソリューション、目標市場、必要な資金・技術・パートナー。韓国のエコシステムの事例を参考にしながら、グローバル展開の戦略を立案します。5年・10年のビジョンと、持続可能性を含めた経営計画を提示してください。"
+        }
+      ]
     }
   ]
 }
