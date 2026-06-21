@@ -4714,6 +4714,220 @@
           "content": "友人と5年および10年のキャリアビジョンについて議論してみてください。強み、弱み、機会、脅威（SWOT分析）を検討します。具体的な目標、マイルストーン、開発計画を立てます。ネットワーキング戦略と個人ブランディング計画を含めてください。"
         }
       ]
+    },
+    {
+      "id": "de-021",
+      "level": 5,
+      "title": "継続学習・コミュニティ形成・グローバルネットワーク",
+      "titleDe": "Lebenslanges Lernen, Gemeinschaftsbildung und globales Netzwerk",
+      "objectives": [
+        "継続学習とスキル開発の文化を習得する",
+        "コミュニティ形成と相互支援の重要性を理解する",
+        "グローバルネットワークと協業について学ぶ",
+        "生涯学習と自己実現のビジョンを構築する"
+      ],
+      "content": {
+        "introduction": "生涯学習とコミュニティは個人と社会の継続的成長の基盤です。このレッスンでは、学習文化、知識共有、コミュニティ形成、グローバル協業、生涯学習のビジョンに関する統合的なドイツ語を学びます。ドイツではlebenslanges Lernen（生涯学習）が社会的価値となっており、継続的な自己開発と知識共有が推奨されています。",
+        "sections": [
+          {
+            "title": "継続学習とスキル開発",
+            "phrases": [
+              {
+                "german": "Lebenslanges Lernen ist nicht nur eine individuelle Notwendigkeit, sondern eine gesellschaftliche Verantwortung in der Wissensgesellschaft.",
+                "romaji": "LAY-bens-LAHNG-es LAIR-nen ist nikht noor AY-ne in-dee-VID-oo-EL-le noh-VEN-dig-kite, ZOHN-dern AY-ne geh-ZEL-shahf-tli-che fer-AHN-tvort-oong in der VEES-sens-geh-ZEL-shahft",
+                "japanese": "生涯学習は個人の必要性であるだけでなく、知識社会における社会的責任です。",
+                "usage": "学習文化の本質と社会的価値を説明するとき。知識社会"
+              },
+              {
+                "german": "Neue Fähigkeiten, adaptive Technologien und Unternehmergeist sind Schlüssel zur Relevanz in einer sich ständig verändernden Welt.",
+                "romaji": "NOY-e FAH-hig-kay-ten, ah-DAHP-tee-ve tek-noh-LOH-gee-en unt oon-ter-NAY-mer-giste zint SHLÜ-sel tsoor reh-leh-VANTS in AY-ner zikh SHTENT-ig fer-EN-der-n-den VELT",
+                "japanese": "新しいスキル、適応的テクノロジー、起業家精神は変化する世界での関連性の鍵です。",
+                "usage": "現代の学習課題と適応の必要性を説明するとき。変化への対応"
+              },
+              {
+                "german": "Formale Bildung, informelles Lernen und selbstgestaltete Entwicklung sind alle essentiell für ganzheitliche Kompetenzentwicklung.",
+                "romaji": "for-MAH-le bil-DOONG, in-for-MEL-les LAIR-nen unt ZELBST-geh-SHTAHL-tete ent-VICK-loong zint AHL-le es-SEN-tsee-el foo-er GAHN-tsite-likh KOM-peh-TENTS-ent-VICK-loong",
+                "japanese": "形式教育、非形式学習、自己主導的開発はすべて総合的コンピテンス開発に不可欠です。",
+                "usage": "学習の多元的アプローチを説明するとき。総合的成長"
+              }
+            ]
+          },
+          {
+            "title": "コミュニティ形成と相互支援",
+            "phrases": [
+              {
+                "german": "Starke Gemeinschaften entstehen durch gemeinsame Ziele, gegenseitige Unterstützung und transparente Kommunikation.",
+                "romaji": "SHTAHR-ke geh-MINE-shaf-ten ent-SHTAY-en doorsh geh-MY-nzah-me TSEE-le, GAY-gen-ZY-ti-ge oon-ter-SHTOO-tsoong unt trans-pah-REN-te kom-moo-nee-KAH-tsee-ohn",
+                "japanese": "強力なコミュニティは共通の目標、相互支援、透明なコミュニケーションを通じて形成されます。",
+                "usage": "コミュニティ構築の基本原則を説明するとき。協同体"
+              },
+              {
+                "german": "Mentoring, Peer-Learning und Knowledge Sharing beschleunigen individuelles Wachstum und kollektive Intelligenz.",
+                "romaji": "mentoring, peer-learning unt knowledge sharing beh-SHLOY-ni-gen in-dee-VID-oo-EL-les VAHKS-toom unt kol-LEK-tee-ve in-tel-lee-HENTS",
+                "japanese": "メンタリング、ピア学習、知識共有は個人の成長と集団的知性を加速します。",
+                "usage": "コミュニティ学習の力を説明するとき。集団知性"
+              },
+              {
+                "german": "Inklusive Gemeinschaften, die Vielfalt schätzen und unterschiedliche Stimmen erheben, fördern Innovation und persönliches Wachstum.",
+                "romaji": "in-kloo-ZEE-ve geh-MINE-shaf-ten, dee feel-FAHL-t SHET-tsen unt oon-ter-SHEE-tli-che SHTIM-men ehr-HAY-ben, FOR-dern in-oh-VAH-tsee-ohn unt per-ZÖN-li-ches VAHKS-toom",
+                "japanese": "多様性を大切にし異なる声を上げるインクルーシブなコミュニティはイノベーションと個人の成長を促進します。",
+                "usage": "包含的コミュニティの価値を説明するとき。多様性"
+              }
+            ]
+          },
+          {
+            "title": "グローバルネットワークと協業",
+            "phrases": [
+              {
+                "german": "Globale Netzwerke verbinden Menschen über Grenzen hinweg und ermöglichen Zusammenarbeit an den wichtigsten Herausforderungen der Menschheit.",
+                "romaji": "GLOH-bah-le NETS-verk-ke fer-BIN-den MENCH-en OO-ber GREN-tsen HIN-vek unt ehr-MÖ-glik-en too-ZAH-men-ahr-BITE ahn den VIKH-ti-gen he-ROUWS-fah-de-roong-en der MENCH-hite",
+                "japanese": "グローバルネットワークは境界を越えて人々を結び、人類の重要な課題での協業を可能にします。",
+                "usage": "国際協業の可能性を説明するとき。グローバル課題"
+              },
+              {
+                "german": "Kulturelle Vielfalt in globalen Netzwerken erzeugt innovative Lösungen und tiefere gegenseitige Verständnis.",
+                "romaji": "KOOL-too-REL-le feel-FAHL-t in GLOH-bah-len NETS-verk-ken ehr-TSOYGT in-oh-VAH-tee-ve LÖ-zoong-en unt TEE-fer-re GAY-gen-ZY-ti-ges fer-SHTENT-nis",
+                "japanese": "グローバルネットワークにおける文化的多様性は革新的ソリューションとより深い相互理解を生み出します。",
+                "usage": "多文化協業の価値を説明するとき。イノベーション"
+              },
+              {
+                "german": "Digitale Plattformen, Open-Source-Bewegungen und globale Forschungsnetzwerke ermöglichen beispiellose Zusammenarbeit und Wissensaustausch.",
+                "romaji": "dih-gih-TAH-le PLAH-tfor-men, open-source-be-VAY-goong-en unt GLOH-bah-le for-SHOONGS-NETS-verk-ke ehr-MÖ-glik-en by-SHPEEL-lo-se too-ZAH-men-ahr-BITE unt VEES-sens-OUS-TAUSCH",
+                "japanese": "デジタルプラットフォーム、オープンソース運動、グローバル研究ネットワークは前例のない協業と知識交換を可能にします。",
+                "usage": "デジタル時代の協業ツールを説明するとき。テクノロジー"
+              }
+            ]
+          },
+          {
+            "title": "生涯学習とライフロング成長",
+            "phrases": [
+              {
+                "german": "Ein erfülltes Leben entsteht durch kontinuierliches Lernen, Selbstbewusstsein und den Mut, sich selbst herauszufordern.",
+                "romaji": "ine ehr-FOOL-tes LAY-ben ent-SHTAYT doorsh kon-ti-NOO-eer-li-shes LAIR-nen, ZELBST-beh-VOOST-zine unt dayn MOOT, zikh ZELBST hehr-OUS-tsoo-for-dern",
+                "japanese": "充実した人生は継続的学習、自己認識、自分に挑戦する勇気を通じて生まれます。",
+                "usage": "人生の意味と自己実現を説明するとき。全人的成長"
+              },
+              {
+                "german": "Lebensphasen bringen neue Herausforderungen, aber auch neue Gelegenheiten zum Wachstum, zur Anpassung und zur Neuerfindung.",
+                "romaji": "LAY-bens-FAH-zen BRING-en NOY-e he-ROUWS-fah-de-roong-en, AH-ber OW-kh NOY-e geh-LAY-gen-HAY-ten tsum VAHKS-toom, tsoor AHN-pahss-oong unt tsoor NOY-ehr-FIN-doong",
+                "japanese": "人生の段階は新しい課題をもたらしますが、同時に成長、適応、再発明の新しい機会ももたらします。",
+                "usage": "人生段階ごとの成長機会を説明するとき。ライフステージ"
+              },
+              {
+                "german": "Vision, Resilienz, Neugier und Leidenschaft sind die Treiber eines erfüllten Lebens der kontinuierlichen Entwicklung und des Beitrags zur Gesellschaft.",
+                "romaji": "VIZ-ee-ohn, reh-zi-lee-ENTS, NOY-geer unt LYE-den-shahft zint dee TRY-ber AY-nes ehr-FOOL-ten LAY-bens der kon-ti-NOO-eer-li-shen ent-VICK-loong unt des BY-trahgs tsoor geh-ZEL-shahft",
+                "japanese": "ビジョン、レジリエンス、好奇心、情熱は継続的成長と社会への貢献の人生の推進力です。",
+                "usage": "人生の目的と社会的責任を統合する説明。統合的人生ビジョン"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-021-q1",
+          "type": "fill-blank",
+          "question": "「生涯学習は個人の必要性であるだけでなく社会的責任です」をドイツ語で言ってください。",
+          "answer": "Lebenslanges Lernen ist nicht nur eine individuelle Notwendigkeit, sondern eine gesellschaftliche Verantwortung."
+        },
+        {
+          "id": "de-021-q2",
+          "type": "multiple-choice",
+          "question": "コンピテンス開発に必要なのは？",
+          "options": [
+            "形式教育、非形式学習、自己主導的開発のすべて",
+            "学校教育のみ",
+            "自己学習だけ",
+            "正規教育は不要"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-021-q3",
+          "type": "fill-blank",
+          "question": "「強力なコミュニティは共通の目標と相互支援を通じて形成されます」をドイツ語で言ってください。",
+          "answer": "Starke Gemeinschaften entstehen durch gemeinsame Ziele und gegenseitige Unterstützung."
+        },
+        {
+          "id": "de-021-q4",
+          "type": "multiple-choice",
+          "question": "コミュニティ学習の効果は？",
+          "options": [
+            "個人の成長と集団的知性の加速",
+            "個人競争のみ",
+            "孤立と分断",
+            "他者への依存"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-021-q5",
+          "type": "fill-blank",
+          "question": "「グローバルネットワークは協業と知識交換を可能にします」をドイツ語で言ってください。",
+          "answer": "Globale Netzwerke ermöglichen Zusammenarbeit und Wissensaustausch."
+        },
+        {
+          "id": "de-021-q6",
+          "type": "matching",
+          "question": "学習アプローチと説明を正しく組み合わせてください。",
+          "pairs": [
+            {"approach": "Mentoring", "description": "指導による学習"},
+            {"approach": "Peer-Learning", "description": "同僚との協働学習"},
+            {"approach": "Selbstlernen", "description": "自己主導学習"}
+          ]
+        },
+        {
+          "id": "de-021-q7",
+          "type": "fill-blank",
+          "question": "「充実した人生は継続的学習と自己挑戦を通じて生まれます」をドイツ語で言ってください。",
+          "answer": "Ein erfülltes Leben entsteht durch kontinuierliches Lernen und den Mut, sich selbst herauszufordern."
+        },
+        {
+          "id": "de-021-q8",
+          "type": "multiple-choice",
+          "question": "ライフロング成長の推進力は？",
+          "options": [
+            "ビジョン、レジリエンス、好奇心、情熱",
+            "経済的報酬のみ",
+            "外部からの指示のみ",
+            "社会的地位"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツの生涯学習文化とグローバルコミュニティ形成",
+          "duration": "23分",
+          "description": "lebenslanges Lernen の文化、オープンソースと知識共有、グローバルコラボレーション、コミュニティ主導のイノベーション、人生100年時代の学習戦略"
+        },
+        {
+          "type": "grammar",
+          "title": "継続学習と成長に関する重要表現",
+          "content": "継続性を表す表現（kontinuierlich, lebenslang）。可能性と機会（ermöglichen, Gelegenheit）。コミュニティと協力（Gemeinschaft, Zusammenarbeit）。複合名詞（Lebenslanges Lernen, Wissensaustausch）"
+        },
+        {
+          "type": "note",
+          "title": "ドイツの知識社会と学習文化",
+          "content": "Wissensgesellschaft（知識社会）での学習の重要性。職業訓練と継続教育の伝統。個人の自己開発への投資。オープンイノベーションと知識共有。"
+        },
+        {
+          "type": "note",
+          "title": "コミュニティ形成とネットワークダイナミクス",
+          "content": "信頼と透明性に基づくコミュニティ。ピア学習と集団知性。多様性がもたらすイノベーション。デジタル時代のバーチャルコミュニティ。"
+        },
+        {
+          "type": "note",
+          "title": "生涯学習と人生設計",
+          "content": "人生段階ごとの学習ニーズ。新しい挑戦への適応能力。キャリア転換と再発明。自己実現と社会貢献の統合。"
+        },
+        {
+          "type": "practice",
+          "title": "学習コミュニティの構想と実装",
+          "content": "友人と共に、あなたたちが形成したいコミュニティのビジョンについて議論してみてください。共通の目標、学習の焦点、相互支援の方法を定めます。グローバルネットワークとの関係、知識共有の仕組み、包含的な文化をどのように構築するかを考察してください。"
+        }
+      ]
     }
   ]
 }
