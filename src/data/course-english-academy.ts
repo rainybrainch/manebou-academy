@@ -345,7 +345,7 @@ export const englishAcademyCategory: Category = {
             {
               type: 'highlight-box',
               title: '実践会話：道を聞く',
-              content: '**A (迷った人)：**"Excuse me, I\'m looking for the museum. Do you know where it is?"\n**B (地元の人)：**"Yes, of course! Go straight ahead for two blocks, then turn left. You can\'t miss it."\n**A：**"Turn left after two blocks?"\n**B：**"Right. And it\'s on your left side. You\'ll see a big sign."\n**A：**"Thank you so much!"\n**B：**"You\'re welcome!"',
+              content: '**A (迷った人)：**"Excuse me, I\'m looking for the museum. Do you know where it is?"\n**B (地元の人)：**"Yes, of course! Go straight ahead for two blocks, then turn left. You can\'t miss it."\n**A：**"Turn left after two blocks?"\n**B：**"Right. And it\'s on your left side. You\'ll see a big sign."\n**A：**"Thank you so much!"\n**B：**"You\'re welcome!"\n\n**別バージョン：タクシー運転手に道を案内**\n**A (乗客)：**"Can you take me to the airport?"\n**B (タクシー運転手)：**"Sure! It\'s about 20 minutes from here."\n**A：**"Do you know the best route?"\n**B：**"Yes, I\'ll take the highway. Much faster."\n**A：**"Great, thanks!"',
             },
           ],
         },
@@ -588,16 +588,31 @@ export const englishAcademyCategory: Category = {
           title: '政治・経済ニュースの用語集',
           duration: '8:00',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
             '経済用語が理解できる',
             '政治用語が理解できる',
             'ニュース記事が読めるようになる',
+            '複雑なニュースを要約できる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: '政治・経済ニュースには特有の単語と表現があります。必ずマスターしましょう。',
+              content: '政治・経済ニュースには特有の単語と表現があります。必ずマスターしましょう。グローバルなビジネスパーソンには必須知識。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: '政治・経済ニュースの主要用語',
+            },
+            {
+              type: 'text',
+              content: '**経済用語**\n- GDP (Gross Domestic Product) - 国内総生産\n- inflation - インフレーション（物価上昇）\n- unemployment rate - 失業率\n- stock market - 株式市場\n- bull market / bear market - 強気相場 / 弱気相場\n- recession - 景気後退\n- budget - 予算\n- deficit - 赤字\n- tariff - 関税\n\n**政治用語**\n- election - 選挙\n- campaign - 選挙キャンペーン\n- parliament / congress - 議会\n- legislation - 法律制定\n- veto - 拒否権\n- treaty - 条約\n- amendment - 修正\n- referendum - 国民投票\n- coalition - 連立\n\n**報道表現**\n- According to sources... - 情報筋によると...\n- Officials claim... - 当局は主張している...\n- Breaking news - 速報\n- Statement - 声明\n- Spokesperson - スポークスパーソン',
+            },
+            {
+              type: 'highlight-box',
+              title: 'ニュース記事の典型的な構成',
+              content: '**リード（導入）**\n- 最も重要な情報を最初に提示\n- "Five people were injured in a car accident on Main Street this morning."\n\n**背景説明**\n- なぜこのニュースが重要なのか\n- "This is the third accident at this intersection this year."\n\n**詳細情報**\n- より詳しい情報\n- "Police are investigating the cause of the accident."\n\n**コメント**\n- 関係者の意見\n- "Local residents demand traffic light installation."',
             },
           ],
         },
