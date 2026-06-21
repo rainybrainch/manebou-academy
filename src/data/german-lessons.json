@@ -7765,6 +7765,230 @@
           "content": "あなたがドイツの中規模有機農場経営者とします。今後5年の精密農業デジタル化戦略を立案します。土壌・気象・植物監視システム導入、IoTセンサー配置、データ分析プラットフォーム、ドローン活用、ロボット導入計画、ブロックチェーン・トレーサビリティシステム構築、オンライン直販プラットフォーム、CSA会員管理システムを含めます。投資額、ROI、実装タイムライン、期待される効果を詳細に述べてください。"
         }
       ]
+    },
+    {
+      "id": "de-035",
+      "level": 5,
+      "title": "運輸・ロジスティクス：サプライチェーン・物流管理・デジタル化",
+      "titleDe": "Transport und Logistik: Lieferkette, Logistikmanagement, Digitalisierung",
+      "objectives": [
+        "サプライチェーン全体のプロセスと課題を理解する",
+        "物流管理、在庫管理、輸送最適化に関する専門用語を習得する",
+        "デジタル物流、IoT、AI活用に関する知識を習得する",
+        "持続可能な物流とグリーンロジスティクスを理解する"
+      ],
+      "content": {
+        "introduction": "運輸とロジスティクスはグローバルトレードの神経系です。ドイツは欧州の物流ハブであり、高度な物流システムで知られています。このレッスンでは、サプライチェーン管理、物流最適化、デジタル物流、持続可能な輸送に関する高度なドイツ語を学びます。",
+        "sections": [
+          {
+            "title": "サプライチェーン管理と物流ネットワーク",
+            "phrases": [
+              {
+                "german": "Die Lieferkette umfasst Beschaffung, Produktion, Lagerung, Transport, und Vertrieb, wobei jede Phase optimiert werden muss, um Kosten zu reduzieren und Kundenzufriedenheit zu erhöhen.",
+                "romaji": "Die Lieferkette umfasst Beschaffung, Produktion, Lagerung, Transport, und Vertrieb",
+                "japanese": "サプライチェーンは調達、生産、保管、輸送、配分を含みます。各段階を最適化してコスト削減と顧客満足度向上を実現します。",
+                "usage": "サプライチェーンの全体像を説明するとき"
+              },
+              {
+                "german": "Logistik-Netzwerke (Verteilzentren, Lagerhäuser, Transportrouten) müssen strategisch geplant werden, um Durchlaufzeiten zu minimieren und Service-Level zu maximieren.",
+                "romaji": "Logistik-Netzwerke (Verteilzentren, Lagerhäuser, Transportrouten) müssen strategisch geplant",
+                "japanese": "ロジスティクスネットワーク（配送センター、倉庫、輸送ルート）は戦略的に計画され、リードタイムを最小化し、サービスレベルを最大化します。",
+                "usage": "物流ネットワークの計画を説明するとき"
+              },
+              {
+                "german": "Just-in-Time (JIT) und Lean Logistics reduzieren Lagerbestände, verbessern Cashflow, und erhöhen die Effizienz durch präzise Timing von Materialflüssen.",
+                "romaji": "Just-in-Time (JIT) und Lean Logistics reduzieren Lagerbestände",
+                "japanese": "ジャストインタイム（JIT）とリーンロジスティクスは在庫を削減し、キャッシュフローを改善し、材料フローの正確なタイミングで効率を向上させます。",
+                "usage": "ジャストインタイムの概念を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "在庫管理と輸送最適化",
+            "phrases": [
+              {
+                "german": "Bestandsverwaltung (ABC-Analyse, Sicherheitsbestände, Nachbestellpunkte) balanciert Verfügbarkeit, Lagerkosten, und Kapitalbindung.",
+                "romaji": "Bestandsverwaltung (ABC-Analyse, Sicherheitsbestände, Nachbestellpunkte) balanciert Verfügbarkeit",
+                "japanese": "在庫管理（ABC分析、安全在庫、再注文点）は可用性、保管コスト、資本拘束のバランスを取ります。",
+                "usage": "在庫管理手法を説明するとき"
+              },
+              {
+                "german": "Transportoptimierung nutzt Algorithmen zur Routenplanung, Ladungskonsolidierung, Modeenwahl (Bahn, LKW, Schiff, Flugzeug), um Zeit und Kosten zu minimieren.",
+                "romaji": "Transportoptimierung nutzt Algorithmen zur Routenplanung, Ladungskonsolidierung",
+                "japanese": "輸送最適化はアルゴリズムを使用してルート計画、積載統合、輸送モード選択（鉄道、トラック、船舶、航空）で時間とコストを最小化します。",
+                "usage": "輸送最適化戦略を説明するとき"
+              },
+              {
+                "german": "Last-Mile-Delivery ist die teuerste Phase der Lieferkette; neue Modelle (Micro-Hubs, Crowd Delivery, Drohnen) reduzieren Kosten und verbessern Umweltfreundlichkeit.",
+                "romaji": "Last-Mile-Delivery ist die teuerste Phase der Lieferkette",
+                "japanese": "ラストマイルデリバリーはサプライチェーンで最も費用がかかる段階です。新しいモデル（マイクロハブ、群衆配送、ドローン）がコスト削減と環境性能を向上させます。",
+                "usage": "ラストマイルデリバリーの課題を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "デジタル物流とテクノロジー",
+            "phrases": [
+              {
+                "german": "Digitale Logistik integriert ERP-Systeme, WMS (Warehouse Management Systems), TMS (Transportation Management Systems), um Transparenz und Kontrolle über Lieferketten zu ermöglichen.",
+                "romaji": "Digitale Logistik integriert ERP-Systeme, WMS (Warehouse Management Systems)",
+                "japanese": "デジタル物流はERPシステム、WMS（倉庫管理システム）、TMS（輸送管理システム）を統合し、サプライチェーンの透明性と制御を実現します。",
+                "usage": "デジタル物流システムを説明するとき"
+              },
+              {
+                "german": "IoT-Sensoren (GPS-Tracking, Temperaturüberwachung, RFID) ermöglichen Echtzeit-Sichtbarkeit von Sendungen, Früherkennung von Problemen, und proaktive Anpassungen.",
+                "romaji": "IoT-Sensoren (GPS-Tracking, Temperaturüberwachung, RFID) ermöglichen Echtzeit-Sichtbarkeit",
+                "japanese": "IoTセンサー（GPS追跡、温度監視、RFID）は配送のリアルタイム可視性、問題の早期検出、事前対応を可能にします。",
+                "usage": "IoT技術の物流応用を説明するとき"
+              },
+              {
+                "german": "Künstliche Intelligenz und Machine Learning optimieren Nachfrageprognosen, Bestandsplanung, Routenplanung, und predictive Maintenance von Fahrzeugen.",
+                "romaji": "Künstliche Intelligenz und Machine Learning optimieren Nachfrageprognosen",
+                "japanese": "人工知能と機械学習は需要予測、在庫計画、ルート計画、車両の予防保全を最適化します。",
+                "usage": "AI在庫の物流活用を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "持続可能な物流とグリーンロジスティクス",
+            "phrases": [
+              {
+                "german": "Grüne Logistik reduziert CO2-Emissionen durch Fahrzeugauswahl (Elektro-LKW, Hybrid), Routenoptimierung, Verkehrsverlagerung auf Schiene, und alternative Energieträger.",
+                "romaji": "Grüne Logistik reduziert CO2-Emissionen durch Fahrzeugauswahl",
+                "japanese": "グリーンロジスティクスはCO2排出量を削減します。車両選択（電気トラック、ハイブリッド）、ルート最適化、鉄道へのシフト、代替エネルギーを使用します。",
+                "usage": "グリーンロジスティクスの実践を説明するとき"
+              },
+              {
+                "german": "Kreislauflogistik (Reverse Logistics, Rückgabeverwaltung) ermöglicht Wiederverwendung, Reparatur, Recycling von Produkten, reduziert Abfall, und schafft neue Geschäftschancen.",
+                "romaji": "Kreislauflogistik (Reverse Logistics, Rückgabeverwaltung) ermöglicht Wiederverwendung",
+                "japanese": "循環ロジスティクス（リバースロジスティクス、返品管理）は製品の再利用、修理、リサイクルを可能にし、廃棄物削減と新しいビジネス機会を創造します。",
+                "usage": "循環ロジスティクスを説明するとき"
+              },
+              {
+                "german": "Supply Chain Transparency und ESG-Reporting ermöglichen Stakeholder-Kontrolle, Nachhaltigkeit Verification, und Zulieferer-Compliance mit sozialen und umweltbezogenen Standards.",
+                "romaji": "Supply Chain Transparency und ESG-Reporting ermöglichen Stakeholder-Kontrolle",
+                "japanese": "サプライチェーン透明性とESG報告はステークホルダー管理、持続可能性検証、サプライヤーの社会・環境基準遵守を実現します。",
+                "usage": "サプライチェーン透明性を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-035-q1",
+          "type": "fill-blank",
+          "question": "「サプライチェーンは調達から配分までの全プロセスを含みます」をドイツ語で言ってください。",
+          "answer": "Die Lieferkette umfasst Beschaffung, Produktion, Lagerung, Transport, und Vertrieb."
+        },
+        {
+          "id": "de-035-q2",
+          "type": "multiple-choice",
+          "question": "ロジスティクスネットワークの要素は？",
+          "options": [
+            "配送センター、倉庫、輸送ルート",
+            "生産施設のみ",
+            "販売店だけ",
+            "オフィス"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-035-q3",
+          "type": "fill-blank",
+          "question": "「ジャストインタイムは在庫を削減します」をドイツ語で言ってください。",
+          "answer": "Just-in-Time (JIT) reduziert Lagerbestände und verbessert Cashflow."
+        },
+        {
+          "id": "de-035-q4",
+          "type": "multiple-choice",
+          "question": "輸送モード選択の例は？",
+          "options": [
+            "鉄道、トラック、船舶、航空",
+            "トラックのみ",
+            "船舶だけ",
+            "航空のみ"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-035-q5",
+          "type": "fill-blank",
+          "question": "「デジタル物流はシステムを統合します」をドイツ語で言ってください。",
+          "answer": "Digitale Logistik integriert ERP-Systeme, WMS, und TMS."
+        },
+        {
+          "id": "de-035-q6",
+          "type": "matching",
+          "question": "物流システムとその機能を正しく組み合わせてください。",
+          "pairs": [
+            {"system": "WMS", "description": "倉庫管理"},
+            {"system": "TMS", "description": "輸送管理"},
+            {"system": "ERP", "description": "統合資源計画"}
+          ]
+        },
+        {
+          "id": "de-035-q7",
+          "type": "fill-blank",
+          "question": "「グリーンロジスティクスはCO2排出量を削減します」をドイツ語で言ってください。",
+          "answer": "Grüne Logistik reduziert CO2-Emissionen durch alternative Fahrzeuge und Routenoptimierung."
+        },
+        {
+          "id": "de-035-q8",
+          "type": "multiple-choice",
+          "question": "循環ロジスティクスの目的は？",
+          "options": [
+            "再利用、修理、リサイクル、廃棄物削減",
+            "新規購入のみ",
+            "廃棄促進",
+            "資源浪費"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "運輸・ロジスティクス：サプライチェーン・物流管理・デジタル化・持続可能性",
+          "duration": "37分",
+          "description": "サプライチェーン管理。物流ネットワーク設計。JIT・リーンロジスティクス。在庫管理。輸送最適化。ラストマイルデリバリー。WMS・TMS・ERP。IoT・GPS追跡。AI予測。グリーンロジスティクス。リバースロジスティクス。"
+        },
+        {
+          "type": "grammar",
+          "title": "運輸・ロジスティクス用語と経営表現",
+          "content": "物流用語：Supply Chain（サプライチェーン）、Logistics Network（ロジスティクスネットワーク）、Inventory（在庫）、Warehouse（倉庫）、Distribution Center（配送センター）。システム用語：WMS（倉庫管理）、TMS（輸送管理）、ERP（統合資源計画）、Tracking（追跡）。戦略用語：Just-in-Time（ジャストインタイム）、Lean Logistics（リーンロジスティクス）、Last-Mile Delivery（ラストマイル）。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツのロジスティクス産業",
+          "content": "ドイツ：欧州の物流ハブ。Rhine-Ruhr region、Frankfurt などの物流センター。DHL、DB Schenker などの大型物流企業。高度な自動化・ロボット化。Mittelstand による specialist logistics providers。"
+        },
+        {
+          "type": "note",
+          "title": "物流管理システムと技術",
+          "content": "WMS（Warehouse Management System）：在庫最適化、ピッキング効率。TMS（Transportation Management System）：ルート計画、配送追跡。ERP（Enterprise Resource Planning）：統合データ管理。IoT sensors：GPS、温度、湿度監視。RFID・バーコード：自動認識。"
+        },
+        {
+          "type": "note",
+          "title": "ジャストインタイムとリーン原則",
+          "content": "JIT：必要な時に必要な量を配送。メリット：在庫削減、キャッシュフロー改善。課題：スケジュール厳守、サプライヤーの信頼性。Kanban システム：視覚的管理。Pull-based demand planning。"
+        },
+        {
+          "type": "note",
+          "title": "輸送最適化とラストマイル課題",
+          "content": "Route Optimization Algorithms：複数停止点での最短経路。Load Consolidation：複数小荷物の統合。Mode Selection：コスト・環境考慮。Last-Mile：配送コスト30-40%。Micro-hubs、Crowd delivery、Drone delivery の新展開。"
+        },
+        {
+          "type": "note",
+          "title": "グリーン・持続可能な物流",
+          "content": "Electrification：電気トラック・自動車。Modal Shift：道路→鉄道・船舶。Intermodal Transport：複数輸送モード組合。Reverse Logistics：リサイクル・返品管理。Packaging Optimization：廃棄物削減。Carbon Tracking & Reporting：GHG排出量管理。"
+        },
+        {
+          "type": "practice",
+          "title": "グローバルサプライチェーンの最適化戦略立案",
+          "content": "あなたが大手製造企業のサプライチェーン責任者とします。複数拠点（ドイツ、アジア、米国）のグローバルサプライチェーン最適化戦略を立案します。ネットワーク設計、在庫政策、JIT導入、デジタル物流システム（WMS・TMS・ERP）、IoT・AI活用、ラストマイル戦略、グリーンロジスティクス、リバースロジスティクス、ESG報告を含めます。コスト削減目標、リード短縮、環境負荷削減の具体的指標を詳細に述べてください。"
+        }
+      ]
     }
   ]
 }
