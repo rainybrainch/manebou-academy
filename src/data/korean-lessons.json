@@ -1046,6 +1046,340 @@
         }
       ],
       "resources": []
+    },
+    {
+      "id": "ko-016",
+      "level": 3,
+      "title": "中級 - スポーツ・趣味",
+      "titleKo": "중급 - 스포츠와 취미",
+      "objectives": [
+        "スポーツについて話題にできる",
+        "趣味について深く説明できる",
+        "観戦や参加について対話できる"
+      ],
+      "content": {
+        "introduction": "韓国のスポーツ文化と趣味について学びます。スポーツ用語と表現を習得することで、韓国人とのカジュアルな会話が広がります。",
+        "sections": [
+          {
+            "title": "スポーツ全般",
+            "phrases": [
+              {
+                "korean": "어떤 스포츠를 좋아해요?",
+                "romaji": "Eotteun seupocheul-reul joh-a-hae-yo?",
+                "japanese": "どのスポーツが好きですか？",
+                "usage": "スポーツ嗜好確認"
+              },
+              {
+                "korean": "축구를 하고 싶어요.",
+                "romaji": "Chukgu-reul ha-go sip-eo-yo.",
+                "japanese": "サッカーがしたいです。",
+                "usage": "スポーツ希望"
+              },
+              {
+                "korean": "야구 경기를 봤어요.",
+                "romaji": "Yagu gyeonggi-reul bwat-seo-yo.",
+                "japanese": "野球の試合を見ました。",
+                "usage": "観戦経験"
+              },
+              {
+                "korean": "한국 팀이 우승했어요.",
+                "romaji": "Hanguk tim-i useung-haet-seo-yo.",
+                "japanese": "韓国チームが優勝しました。",
+                "usage": "スポーツ成績"
+              },
+              {
+                "korean": "응원해요!",
+                "romaji": "Eung-won-hae-yo!",
+                "japanese": "応援しています！",
+                "usage": "応援表現"
+              }
+            ]
+          },
+          {
+            "title": "趣味・活動",
+            "phrases": [
+              {
+                "korean": "사진 찍는 것을 좋아해요.",
+                "romaji": "Sajin jjik-neun geot-eul joh-a-hae-yo.",
+                "japanese": "写真を撮ることが好きです。",
+                "usage": "趣味説明"
+              },
+              {
+                "korean": "독서가 취미예요.",
+                "romaji": "Doksseo-ga chwimi-ye-yo.",
+                "japanese": "読書が趣味です。",
+                "usage": "趣味の言及"
+              },
+              {
+                "korean": "음악을 연주할 수 있어요.",
+                "romaji": "Eumsik-eul yeonyuhal su it-eo-yo.",
+                "japanese": "音楽を演奏できます。",
+                "usage": "スキル表現"
+              },
+              {
+                "korean": "주말에 등산을 해요.",
+                "romaji": "Jumal-e deungsan-eul hae-yo.",
+                "japanese": "週末はハイキングをします。",
+                "usage": "活動予定"
+              },
+              {
+                "korean": "요리하는 것을 즐겨요.",
+                "romaji": "Yorihaneun geot-eul jeulgyeo-yo.",
+                "japanese": "料理することを楽しんでいます。",
+                "usage": "趣味関心"
+              }
+            ]
+          },
+          {
+            "title": "試合・イベント観戦",
+            "items": [
+              {"korean": "경기장", "japanese": "スタジアム"},
+              {"korean": "선수", "japanese": "選手"},
+              {"korean": "심판", "japanese": "審判"},
+              {"korean": "골", "japanese": "ゴール"},
+              {"korean": "점수", "japanese": "スコア"},
+              {"korean": "우승", "japanese": "優勝"},
+              {"korean": "관중", "japanese": "観客"},
+              {"korean": "응원", "japanese": "応援"}
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-016-q1",
+          "type": "fill-blank",
+          "question": "「どのスポーツが好きですか？」を韓国語で言ってください。",
+          "answer": "어떤 스포츠를 좋아해요?"
+        }
+      ],
+      "resources": []
+    },
+    {
+      "id": "ko-017",
+      "level": 3,
+      "title": "中級 - 天気・季節",
+      "titleKo": "중급 - 날씨와 계절",
+      "objectives": [
+        "天気について正確に説明できる",
+        "季節による変化を表現できる",
+        "気象用語を習得する"
+      ],
+      "content": {
+        "introduction": "天気と季節は日常会話の頻出話題です。韓国の四季と気象表現を学びます。",
+        "sections": [
+          {
+            "title": "天気表現",
+            "phrases": [
+              {
+                "korean": "오늘 날씨가 어떻게 돼요?",
+                "romaji": "Oneul nalssi-ga eotteoke doe-yo?",
+                "japanese": "今日の天気はどうですか？",
+                "usage": "天気確認"
+              },
+              {
+                "korean": "맑은 날씨네요.",
+                "romaji": "Malkeun nalssi-ne-yo.",
+                "japanese": "晴れていますね。",
+                "usage": "天気描写"
+              },
+              {
+                "korean": "비가 오고 있어요.",
+                "romaji": "Bi-ga o-go it-eo-yo.",
+                "japanese": "雨が降っています。",
+                "usage": "現在の天気"
+              },
+              {
+                "korean": "눈이 많이 내렸어요.",
+                "romaji": "Nuni man-i nae-ryeot-seo-yo.",
+                "japanese": "雪がたくさん降りました。",
+                "usage": "天気経験"
+              },
+              {
+                "korean": "바람이 많이 불어요.",
+                "romaji": "Baram-i man-i bul-eo-yo.",
+                "japanese": "風がたくさん吹いています。",
+                "usage": "風について"
+              }
+            ]
+          },
+          {
+            "title": "季節",
+            "phrases": [
+              {
+                "korean": "봄에는 벚꽃이 아름다워요.",
+                "romaji": "Bom-e-neun beotkkot-i areumdawo-yo.",
+                "japanese": "春は桜が美しいです。",
+                "usage": "春の特徴"
+              },
+              {
+                "korean": "여름은 너무 덥다고 생각해요.",
+                "romaji": "Yeoreum-eun neomu deop-da-go saenggak-hae-yo.",
+                "japanese": "夏はとても暑いと思います。",
+                "usage": "夏の特徴"
+              },
+              {
+                "korean": "가을은 단풍이 예뻐요.",
+                "romaji": "Gaeul-eun danpung-i yeppeo-yo.",
+                "japanese": "秋は紅葉が美しいです。",
+                "usage": "秋の特徴"
+              },
+              {
+                "korean": "겨울은 춥지만 좋아요.",
+                "romaji": "Gyeowul-eun chupji-man joh-a-yo.",
+                "japanese": "冬は寒いですが、好きです。",
+                "usage": "冬の特徴"
+              }
+            ]
+          },
+          {
+            "title": "気象現象",
+            "items": [
+              {"korean": "맑음", "japanese": "晴れ"},
+              {"korean": "흐림", "japanese": "曇り"},
+              {"korean": "비", "japanese": "雨"},
+              {"korean": "눈", "japanese": "雪"},
+              {"korean": "천둥", "japanese": "雷"},
+              {"korean": "바람", "japanese": "風"},
+              {"korean": "안개", "japanese": "霧"},
+              {"korean": "우박", "japanese": "ひょう"}
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-017-q1",
+          "type": "fill-blank",
+          "question": "「今日の天気はどうですか？」を韓国語で言ってください。",
+          "answer": "오늘 날씨가 어떻게 돼요?"
+        }
+      ],
+      "resources": []
+    },
+    {
+      "id": "ko-018",
+      "level": 3,
+      "title": "中級 - 感情・気分表現",
+      "titleKo": "중급 - 감정 표현",
+      "objectives": [
+        "複雑な感情を表現できる",
+        "状態や気分を正確に伝えられる",
+        "感情的なニュアンスを理解できる"
+      ],
+      "content": {
+        "introduction": "感情表現は人間関係を深める重要な要素です。韓国語の豊かな感情表現を習得します。",
+        "sections": [
+          {
+            "title": "基本的な感情",
+            "phrases": [
+              {
+                "korean": "행복해요.",
+                "romaji": "Haengbok-hae-yo.",
+                "japanese": "幸せです。",
+                "usage": "喜び表現"
+              },
+              {
+                "korean": "슬퍼요.",
+                "romaji": "Seul-peo-yo.",
+                "japanese": "悲しいです。",
+                "usage": "悲しみ表現"
+              },
+              {
+                "korean": "화나요.",
+                "romaji": "Hwa-na-yo.",
+                "japanese": "怒っています。",
+                "usage": "怒り表現"
+              },
+              {
+                "korean": "두려워요.",
+                "romaji": "Du-ryeo-wo-yo.",
+                "japanese": "怖いです。",
+                "usage": "恐怖表現"
+              },
+              {
+                "korean": "놀랐어요.",
+                "romaji": "Nol-lat-seo-yo.",
+                "japanese": "驚きました。",
+                "usage": "驚き表現"
+              }
+            ]
+          },
+          {
+            "title": "複雑な感情",
+            "phrases": [
+              {
+                "korean": "복잡한 심정이에요.",
+                "romaji": "Bokjap-han simjeong-i-e-yo.",
+                "japanese": "複雑な心情です。",
+                "usage": "複雑な感情"
+              },
+              {
+                "korean": "혼란스러워요.",
+                "romaji": "Honran-seu-reo-wo-yo.",
+                "japanese": "混乱しています。",
+                "usage": "混乱"
+              },
+              {
+                "korean": "안도감이 들어요.",
+                "romaji": "Ando-gam-i deul-eo-yo.",
+                "japanese": "安堵感を感じます。",
+                "usage": "安心感"
+              },
+              {
+                "korean": "답답해요.",
+                "romaji": "Dap-dap-hae-yo.",
+                "japanese": "もどかしいです。",
+                "usage": "もどかしさ"
+              },
+              {
+                "korean": "설레요.",
+                "romaji": "Seol-lae-yo.",
+                "japanese": "ときめきます。",
+                "usage": "ときめき"
+              }
+            ]
+          },
+          {
+            "title": "状態・気分",
+            "phrases": [
+              {
+                "korean": "피곤해요.",
+                "romaji": "Pi-gon-hae-yo.",
+                "japanese": "疲れています。",
+                "usage": "疲労状態"
+              },
+              {
+                "korean": "기분이 안 좋아요.",
+                "romaji": "Gibun-i an joh-a-yo.",
+                "japanese": "気分が悪いです。",
+                "usage": "気分の悪さ"
+              },
+              {
+                "korean": "기분이 좋아요.",
+                "romaji": "Gibun-i joh-a-yo.",
+                "japanese": "気分がいいです。",
+                "usage": "気分の良さ"
+              },
+              {
+                "korean": "마음이 편해요.",
+                "romaji": "Maeum-i pyeon-hae-yo.",
+                "japanese": "心が楽です。",
+                "usage": "心の平穏さ"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-018-q1",
+          "type": "fill-blank",
+          "question": "「幸せです」を韓国語で言ってください。",
+          "answer": "행복해요."
+        }
+      ],
+      "resources": []
     }
   ]
 }
