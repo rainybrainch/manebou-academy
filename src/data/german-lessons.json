@@ -4072,6 +4072,220 @@
           "content": "友人と複雑な交渉シナリオをロールプレイしてみてください。一人が顧客・パートナー、もう一人が営業・マネージャーの役を担当。BATNA を適用し、共感的に聴きながら、ウィンウィンソリューションを探ってください。その後、相互のフィードバックを通じてコミュニケーションスキルを磨きます。"
         }
       ]
+    },
+    {
+      "id": "de-018",
+      "level": 4,
+      "title": "多様性・インクルージョン・社会責任",
+      "titleDe": "Vielfalt, Inklusion und gesellschaftliche Verantwortung",
+      "objectives": [
+        "多様性とインクルージョンの概念を習得する",
+        "ジェンダー平等と社会正義について議論できる",
+        "障害者の包含と権利について理解する",
+        "企業と個人の社会的責任を実践する"
+      ],
+      "content": {
+        "introduction": "多様性とインクルージョンは現代社会の基本的価値です。このレッスンでは、ジェンダー平等、文化的多様性、障害と包含性、社会的責任など、社会正義と持続可能な発展に関するドイツ語を学びます。ドイツはEUの多文化社会として、多様性と包含性を国家戦略の中心に置いています。",
+        "sections": [
+          {
+            "title": "多様性と包含性の基礎",
+            "phrases": [
+              {
+                "german": "Vielfalt bedeutet, Menschen mit unterschiedlichen Hintergründen, Perspektiven und Fähigkeiten in einer Organisation oder Gesellschaft willkommen zu heißen.",
+                "romaji": "FEEL-fahl-t beh-DOY-tet, MENCH-en mit oon-ter-SHEE-tli-hen HIN-ter-grünt-en, per-SPEK-tee-ven unt FAH-hig-kay-ten in AY-ner or-gah-nee-ZAH-tsee-ohn oh-der geh-ZEL-shahft VILL-kom-en tsoo HY-sen",
+                "japanese": "多様性とは、異なる背景、視点、能力を持つ人々を組織や社会に迎え入れることです。",
+                "usage": "多様性の定義と価値を説明するとき。包含の価値"
+              },
+              {
+                "german": "Inklusion bedeutet nicht nur Vielfalt zu haben, sondern alle Menschen wirklich einzubeziehen und zu befähigen.",
+                "romaji": "in-kloo-zee-OHN beh-DOY-tet nikht noor FEEL-fahl-t tsoo HAH-ben, ZON-dern AHL-le MENCH-en VEERK-likh INE-tsoo-beh-TSEE-en unt tsoo beh-FAH-hi-gen",
+                "japanese": "インクルージョンとは、単に多様性を持つだけでなく、すべての人々を実際に包含し力づけることです。",
+                "usage": "多様性とインクルージョンの違いを説明するとき。実践的包含"
+              },
+              {
+                "german": "Diskriminierung und Vorurteile unterdrücken Potenzial und schaden der Gesellschaft.",
+                "romaji": "dis-kri-mee-NEE-roong unt FOR-oor-TAY-le oon-ter-DROO-ken poh-TEN-tsee-ahl unt SHAH-den der geh-ZEL-shahft",
+                "japanese": "差別と偏見は可能性を抑圧し、社会に害をもたらします。",
+                "usage": "差別撤廃の社会的必要性を説明するとき。社会正義"
+              }
+            ]
+          },
+          {
+            "title": "ジェンダー平等と女性のエンパワメント",
+            "phrases": [
+              {
+                "german": "Geschlechterparität in Führungspositionen und Lohngleichheit sind grundlegende Menschenrechte.",
+                "romaji": "geh-SHLEKH-ter-pah-ri-TAT in FOO-roongs-poh-ZEE-tsee-oh-nen unt LOHN-GLISH-hite zint GROON-de-lehnd-e MENCH-en-REKHTE",
+                "japanese": "指導的立場でのジェンダー同等性と同等賃金は基本的人権です。",
+                "usage": "ジェンダー平等と経済正義を説明するとき。平等原則"
+              },
+              {
+                "german": "Sexuelle Belästigung und Gewalt gegen Frauen sind strukturelle Probleme, die aktiv bekämpft werden müssen.",
+                "romaji": "ZEKS-oo-EL-le beh-LES-ti-goong unt geh-VAHLT GAY-gen FROW-en zint SHTOOK-too-REL-le PROH-bleh-me, dee AHK-teef beh-KEM-pft VER-den MOO-sen",
+                "japanese": "セクシャルハラスメントと女性への暴力は構造的問題であり、積極的に対抗される必要があります。",
+                "usage": "ジェンダーベースの暴力と構造的差別を説明するとき。安全と尊厳"
+              },
+              {
+                "german": "Frauen und Mädchen sollten uneingeschränkten Zugang zu Bildung, Wirtschaft und Entscheidungsfindung haben.",
+                "romaji": "FROW-en unt MET-chen ZOL-ten oon-INE-geh-SHNRÄNKT TSOO-grif tsoo BIL-doong, VIRTS-chahft unt ent-SHLY-doongs-FIN-doong HAH-ben",
+                "japanese": "女性と少女は教育、経済、意思決定への無制限アクセスを持つべきです。",
+                "usage": "女性のエンパワメントと機会平等を説明するとき。能力開発"
+              }
+            ]
+          },
+          {
+            "title": "障害と包含性",
+            "phrases": [
+              {
+                "german": "Behinderte Menschen haben die gleichen Rechte und Würde wie alle anderen.",
+                "romaji": "beh-HIN-der-te MENCH-en HAH-ben dee GLIGH-shen REKHTE unt VÜR-dee vee AHL-le AHN-der-en",
+                "japanese": "障害者は他のすべての人と同じ権利と尊厳を持っています。",
+                "usage": "障害者の権利と基本的人権を説明するとき。平等と尊厳"
+              },
+              {
+                "german": "Barrierefreie Infrastruktur und inklusive Bildung sind notwendig für echte Teilhabe.",
+                "romaji": "bah-ree-AY-ren-FRAY-e in-frah-STOOK-too-er unt in-kloo-ZEE-ve BIL-doong zint NOH-ven-dig foo-er EKH-te TAIL-hah-be",
+                "japanese": "バリアフリーなインフラと包含的教育は真の参加に必要です。",
+                "usage": "アクセシビリティと包含的な社会環境を説明するとき。アクセス"
+              },
+              {
+                "german": "Diversity of thought und Erfahrungen von Menschen mit Behinderungen bereichern Organisationen und Gesellschaften.",
+                "romaji": "diversity of thought unt ehr-FAHR-oong-en fon MENCH-en mit beh-HIN-der-oong-en beh-RAY-kher-n or-gah-nee-ZAH-tsee-oh-nen unt geh-ZEL-shahf-ten",
+                "japanese": "障害を持つ人々の多様な思考と経験は組織と社会を豊かにします。",
+                "usage": "多様性の価値と障害者の貢献を説明するとき。包括的価値"
+              }
+            ]
+          },
+          {
+            "title": "企業と個人の社会的責任",
+            "phrases": [
+              {
+                "german": "Unternehmen haben die Verantwortung, ethisch zu handeln, menschenrechte zu respektieren und positive gesellschaftliche Auswirkungen zu schaffen.",
+                "romaji": "oon-ter-NAY-men HAH-ben dee fer-AHN-tvort-oong, EH-tish tsoo HAHN-deln, MENCH-en-REKHTE tsoo res-PEK-teer-en unt POH-zi-tee-ve geh-ZEL-shahf-tli-she OUS-VIR-koong-en tsoo SHAHF-en",
+                "japanese": "企業は倫理的に行動し、人権を尊重し、肯定的な社会的影響を創出する責任があります。",
+                "usage": "企業の社会的責任（CSR）と倫理を説明するとき。企業倫理"
+              },
+              {
+                "german": "Individuen können durch bewusstes Konsumverhalten, ehrenamtliche Arbeit und Aktivismus gesellschaftliche Veränderung bewirken.",
+                "romaji": "in-dee-VID-oo-EL-en KÖN-nen doorsh beh-VOOST-tes KON-zoom-fer-HAHL-ten, AY-ren-ahmt-li-he AHR-bite unt ahk-ti-VIZ-mus geh-ZEL-shahf-tli-he fer-EHN-der-oong beh-VEERK-en",
+                "japanese": "個人は自覚的な消費行動、ボランティア活動、活動主義を通じて社会変化をもたらすことができます。",
+                "usage": "個人の社会的行動と市民参加を説明するとき。市民力"
+              },
+              {
+                "german": "Nachhaltigkeit und soziale Gerechtigkeit sind miteinander verbunden und notwendig für eine lebenswerte Zukunft.",
+                "romaji": "NAHKH-hahl-ti-keit unt ZOH-tsee-AH-le geh-REKH-tig-kite zint mit-AY-nahn-der fer-BOON-den unt NOH-ven-dig foo-er AY-ne LEH-bens-VER-te TSOO-koonft",
+                "japanese": "サステナビリティと社会正義は相互に関連しており、生きるに値する将来に必要です。",
+                "usage": "サステナビリティと社会正義の統合を説明するとき。統合的ビジョン"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-018-q1",
+          "type": "fill-blank",
+          "question": "「多様性とは異なる背景を持つ人々を組織に迎え入れることです」をドイツ語で言ってください。",
+          "answer": "Vielfalt bedeutet, Menschen mit unterschiedlichen Hintergründen willkommen zu heißen."
+        },
+        {
+          "id": "de-018-q2",
+          "type": "multiple-choice",
+          "question": "インクルージョンの定義として正しいのはどれですか？",
+          "options": [
+            "多様性を持つだけでなく、すべての人を実際に包含し力づけること",
+            "異なる人々を雇用するだけ",
+            "表面的な多様性",
+            "少数派を無視すること"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-018-q3",
+          "type": "fill-blank",
+          "question": "「ジェンダー平等と同等賃金は基本的人権です」をドイツ語で言ってください。",
+          "answer": "Geschlechterparität und Lohngleichheit sind grundlegende Menschenrechte."
+        },
+        {
+          "id": "de-018-q4",
+          "type": "multiple-choice",
+          "question": "障害者の包含に必要なのは？",
+          "options": [
+            "バリアフリーなインフラと包含的教育",
+            "障害者の隔離",
+            "特別扱い",
+            "低い期待値"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-018-q5",
+          "type": "fill-blank",
+          "question": "「企業は倫理的に行動し人権を尊重する責任があります」をドイツ語で言ってください。",
+          "answer": "Unternehmen haben die Verantwortung, ethisch zu handeln und Menschenrechte zu respektieren."
+        },
+        {
+          "id": "de-018-q6",
+          "type": "matching",
+          "question": "社会責任の領域と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"area": "Geschlechterparität", "description": "ジェンダー平等"},
+            {"area": "Behindertenrechte", "description": "障害者の権利"},
+            {"area": "Nachhaltigkeit", "description": "持続可能性"}
+          ]
+        },
+        {
+          "id": "de-018-q7",
+          "type": "fill-blank",
+          "question": "「個人は自覚的な消費行動と活動主義を通じて社会変化をもたらすことができます」をドイツ語で言ってください。",
+          "answer": "Individuen können durch bewusstes Konsumverhalten und Aktivismus gesellschaftliche Veränderung bewirken."
+        },
+        {
+          "id": "de-018-q8",
+          "type": "multiple-choice",
+          "question": "差別とインクルージョンの関係は？",
+          "options": [
+            "差別を廃止することがインクルージョンの前提",
+            "差別とインクルージョンは両立可能",
+            "差別は社会にとって有益",
+            "インクルージョンは差別を強化する"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツの多様性とインクルージョン政策",
+          "duration": "20分",
+          "description": "ジェンダー平等、移民政策、障害者の権利、企業のダイバーシティ経営、社会的責任"
+        },
+        {
+          "type": "grammar",
+          "title": "社会正義を表現するための言語",
+          "content": "権利と義務を表す表現（haben...das Recht、die Verpflichtung）。受動態による構造的問題の表現。命令法による呼びかけと行動促進。複合文での因果関係"
+        },
+        {
+          "type": "note",
+          "title": "ドイツのダイバーシティと社会統合",
+          "content": "EU加盟国として多文化社会。移民のための言語教育と統合政策。女性参画法（Frauenquote）による経営層のジェンダーバランス。障害者雇用法。"
+        },
+        {
+          "type": "note",
+          "title": "多様性の経済的・社会的価値",
+          "content": "多様性のあるチームは創造性とイノベーションが高い。包含的企業は離職率が低い。社会正義は経済成長と両立。不平等は社会全体の生産性を低下させる。"
+        },
+        {
+          "type": "note",
+          "title": "インクルージョンの実装戦略",
+          "content": "採用・昇進プロセスのバイアス排除。無意識の偏見に対する研修。アクセシビリティ基準の遵守。メンタリングと支援システム。多様性が当たり前の職場文化。"
+        },
+        {
+          "type": "practice",
+          "title": "社会課題についてのディスカッション",
+          "content": "友人と多様性とインクルージョンについて議論してみてください。職場、学校、社会での現在の課題、改善方法、個人として何ができるかを話し合います。異なる視点を尊重しながら、建設的な対話を通じて相互理解を深めてください。"
+        }
+      ]
     }
   ]
 }
