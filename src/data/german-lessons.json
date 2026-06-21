@@ -2360,6 +2360,220 @@
           "content": "友人と「ドイツの価値観の代弁者と韓国の価値観の代弁者」の役割を分担して、経営、教育、社会的価値観、国際的役割などについて議論し、相互理解を深めてみてください。"
         }
       ]
+    },
+    {
+      "id": "de-010",
+      "level": 4,
+      "title": "医療と健康 - 症状説明と診察",
+      "titleDe": "Gesundheit und Medizin - Symptome und Arztgespräch",
+      "objectives": [
+        "医療関連の基本的な語彙を習得する",
+        "症状を正確にドイツ語で説明できる",
+        "医師との診察での会話ができる",
+        "健康維持と予防医学に関する表現を理解する"
+      ],
+      "content": {
+        "introduction": "医療は日常生活の重要な側面です。このレッスンでは、症状説明から医師との相談、予防医学まで、ドイツの医療システムで使われる実践的なドイツ語を学びます。ドイツは高度な医療システムを持つ国であり、医師との正確なコミュニケーションが重要です。",
+        "sections": [
+          {
+            "title": "症状と体調表現",
+            "phrases": [
+              {
+                "german": "Ich habe Kopfschmerzen.",
+                "romaji": "ikh HAH-be KOHPF-shmerts-en",
+                "japanese": "頭が痛いです。",
+                "usage": "頭痛を訴えるとき。医師や薬剤師に症状を伝える最初の一言"
+              },
+              {
+                "german": "Mir ist schlecht und ich habe Fieber.",
+                "romaji": "meer ist SHLEKHT unt ikh HAH-be FEE-ber",
+                "japanese": "気分が悪くて、熱があります。",
+                "usage": "吐き気と発熱を同時に説明するとき。風邪や感染症の症状"
+              },
+              {
+                "german": "Ich fühle mich schwach und müde.",
+                "romaji": "ikh FOO-le mikh SHVAHK unt MOO-de",
+                "japanese": "弱くて疲れています。",
+                "usage": "全身の倦怠感を表現するとき。疲労や慢性疾患の症状"
+              }
+            ]
+          },
+          {
+            "title": "医療施設と診察の流れ",
+            "phrases": [
+              {
+                "german": "Ich möchte einen Termin beim Arzt machen.",
+                "romaji": "ikh MÖKh-te AY-nen TAIR-min baym AHRTST mah-hen",
+                "japanese": "医者の予約を取りたいのですが。",
+                "usage": "医者の診察予約を申し込むとき。ドイツでは通常予約が必要"
+              },
+              {
+                "german": "Was sind die Sprechstunden?",
+                "romaji": "vahs zint dee SHPREH-shtoont-en",
+                "japanese": "診察時間は何時ですか？",
+                "usage": "医療施設や薬局の営業時間を尋ねるとき"
+              },
+              {
+                "german": "Ich bin zum ersten Mal hier.",
+                "romaji": "ikh bin tsum FAIR-sten mahl heer",
+                "japanese": "初めてです。",
+                "usage": "新しい医者や医療施設を訪れるとき、初診であることを伝える"
+              }
+            ]
+          },
+          {
+            "title": "治療と処方",
+            "phrases": [
+              {
+                "german": "Welche Medikamente sollte ich nehmen?",
+                "romaji": "VEL-he meh-dee-kah-MEN-te ZOHL-te ikh NAY-men",
+                "japanese": "どの薬を飲むべきですか？",
+                "usage": "医師から処方された薬について確認するとき"
+              },
+              {
+                "german": "Wie oft und wie lange sollte ich dies nehmen?",
+                "romaji": "vee oft unt vee LAHNG-e ZOHL-te ikh dees NAY-men",
+                "japanese": "どのくらいの頻度で、どのくらいの期間服用すべきですか？",
+                "usage": "薬の服用方法と期間を確認するとき"
+              },
+              {
+                "german": "Gibt es Nebenwirkungen?",
+                "romaji": "gipt es NAY-ben-veer-koong-en",
+                "japanese": "副作用はありますか？",
+                "usage": "処方された薬の副作用について医師に質問するとき"
+              }
+            ]
+          },
+          {
+            "title": "健康維持と予防医学",
+            "phrases": [
+              {
+                "german": "Wie kann ich meine Gesundheit verbessern?",
+                "romaji": "vee kahn ikh MY-ne geh-ZOONT-hite fer-BESS-ern",
+                "japanese": "どうすれば健康を改善できますか？",
+                "usage": "予防的な健康管理について医師に相談するとき"
+              },
+              {
+                "german": "Wie wichtig ist regelmäßige Bewegung?",
+                "romaji": "vee VIKH-tig ist RAY-gel-meh-sig-e be-VAY-goong",
+                "japanese": "定期的な運動はどの程度重要ですか？",
+                "usage": "健康維持における運動の重要性を質問するとき"
+              },
+              {
+                "german": "Was für eine Diät würde mir helfen?",
+                "romaji": "vahs foo-er AY-ne dee-AYT VOO-rde meer HEL-fen",
+                "japanese": "どのような食事が役に立つでしょうか？",
+                "usage": "栄養管理や食事療法について医師に相談するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-010-q1",
+          "type": "fill-blank",
+          "question": "「私は咳と咽頭痛があります」をドイツ語で言ってください。",
+          "answer": "Ich habe Husten und Halsschmerzen."
+        },
+        {
+          "id": "de-010-q2",
+          "type": "multiple-choice",
+          "question": "「Mir ist schlecht」という表現の意味は何ですか？",
+          "options": [
+            "気分が悪い、吐き気がある",
+            "気分が良い",
+            "退屈している",
+            "疲れている"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-010-q3",
+          "type": "fill-blank",
+          "question": "「医者の予約を取りたいのですが」をドイツ語で言ってください。",
+          "answer": "Ich möchte einen Termin beim Arzt machen."
+        },
+        {
+          "id": "de-010-q4",
+          "type": "multiple-choice",
+          "question": "医師に薬の服用方法を質問する最も適切な表現は？",
+          "options": [
+            "Wie oft und wie lange sollte ich dies nehmen?",
+            "Warum bin ich krank?",
+            "Wie viel kostet dies?",
+            "Wann ist das Wetter schön?"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-010-q5",
+          "type": "fill-blank",
+          "question": "「副作用はありますか？」をドイツ語で言ってください。",
+          "answer": "Gibt es Nebenwirkungen?"
+        },
+        {
+          "id": "de-010-q6",
+          "type": "matching",
+          "question": "症状とその表現を正しく組み合わせてください。",
+          "pairs": [
+            {"symptom": "Fieber", "expression": "発熱"},
+            {"symptom": "Husten", "expression": "咳"},
+            {"symptom": "Schmerz", "expression": "痛み"}
+          ]
+        },
+        {
+          "id": "de-010-q7",
+          "type": "fill-blank",
+          "question": "「定期的な運動はどの程度重要ですか？」をドイツ語で言ってください。",
+          "answer": "Wie wichtig ist regelmäßige Bewegung?"
+        },
+        {
+          "id": "de-010-q8",
+          "type": "multiple-choice",
+          "question": "「Ich bin zum ersten Mal hier」という表現の適切な文脈は？",
+          "options": [
+            "新しい医者や医療施設を初めて訪れるとき",
+            "昨日も来たけどもう一度来るとき",
+            "定期的に通っている医者のところに行くとき",
+            "医者の待合室で友達に会ったとき"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツの医療システムと患者とのコミュニケーション",
+          "duration": "15分",
+          "description": "ドイツの医療制度、医師との相談方法、予約システムについての実践ガイド"
+        },
+        {
+          "type": "grammar",
+          "title": "健康と医療に関する重要な語彙と文法",
+          "content": "症状を表現する構文「Ich habe + 症状」。医師への敬意を示す「möchte」の使用。「Wie oft」と「wie lange」を使った質問形式。関係詞での医療情報の詳細説明"
+        },
+        {
+          "type": "note",
+          "title": "ドイツの医療システムの特徴",
+          "content": "ドイツは高度な医療制度を持つ国です。患者は医師に質問する権利があり、情報開示が重視されます。処方箋は薬局で換金でき、ドイツの薬局（Apotheke）は街中に多数あります。健康保険は義務的で、労働者と雇用主が負担を分け合います。"
+        },
+        {
+          "type": "note",
+          "title": "医療用語の語族関係",
+          "content": "多くの医療用語はラテン語やギリシア語起源。例：Symptom（症状）、Diagnose（診断）、Medikament（薬）。これらを認識することで理解が深まり、新しい医療用語の学習が容易になります。"
+        },
+        {
+          "type": "note",
+          "title": "患者権と責任のドイツ的理解",
+          "content": "ドイツでは患者は「informed patient」（情報を得た患者）であることが期待されます。医師に質問し、治療について納得した上で進めることが重視されます。一方、医療専門家の指示に従うことも同様に重要です。"
+        },
+        {
+          "type": "practice",
+          "title": "医者との診察シミュレーション",
+          "content": "友人と医者と患者の役を分担し、症状説明、診察質問、処方薬について説明、会計など一連の医療相談プロセスをロールプレイしてみてください。相手の理解度を確認しながら進めることがポイント。"
+        }
+      ]
     }
   ]
 }
