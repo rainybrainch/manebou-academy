@@ -570,6 +570,224 @@
           "content": "職業に -in をつけることで女性形になります。例：Lehrer (男性) → Lehrerin (女性)。ドイツ語では言語の性（gender）が重要です。"
         }
       ]
+    },
+    {
+      "id": "de-004",
+      "level": 2,
+      "title": "買い物と価格交渉",
+      "titleDe": "Einkaufen und Preisverhandlung",
+      "objectives": [
+        "商品名と色・サイズを正確に尋ねられる",
+        "価格について交渉できる",
+        "支払い方法を確認できる",
+        "返品・交換の手続きを理解する"
+      ],
+      "content": {
+        "introduction": "ドイツでのショッピングは文化体験の一つです。ドイツの店舗では品質が高く、スタッフの対応も丁寧です。このレッスンでは、商品選びから支払いまでの完全な買い物会話と、必要に応じた価格交渉の技術を習得します。",
+        "sections": [
+          {
+            "title": "商品探しと質問",
+            "phrases": [
+              {
+                "german": "Wo finde ich einen Pullover?",
+                "romaji": "vo FIND-uh ikh AY-nen PUL-o-ver?",
+                "japanese": "セーターはどこにありますか？",
+                "usage": "商品の場所を尋ねる"
+              },
+              {
+                "german": "Haben Sie das in Größe M?",
+                "romaji": "HAH-ben zee dahs in GRER-se M?",
+                "japanese": "これはサイズMでありますか？",
+                "usage": "特定のサイズの有無確認"
+              },
+              {
+                "german": "Ich möchte ein anderes Modell sehen.",
+                "romaji": "ikh MERKH-tuh ayn AHN-der-es MO-del ZAY-en",
+                "japanese": "別のモデルを見たいです。",
+                "usage": "他の商品の提案をリクエスト"
+              },
+              {
+                "german": "Haben Sie das in einer anderen Farbe?",
+                "romaji": "HAH-ben zee dahs in AY-ner AHN-der-en FAR-buh?",
+                "japanese": "別の色でありますか？",
+                "usage": "色違いの有無確認"
+              },
+              {
+                "german": "Wie viel kostet das?",
+                "romaji": "vee feel KOS-tet dahs?",
+                "japanese": "これはいくらですか？",
+                "usage": "価格確認"
+              },
+              {
+                "german": "Das ist zu teuer für mich.",
+                "romaji": "dahs ist tsoo TOY-er für mikh",
+                "japanese": "これは私には高すぎます。",
+                "usage": "価格に対する意見表明"
+              }
+            ]
+          },
+          {
+            "title": "商品説明と品質確認",
+            "phrases": [
+              {
+                "german": "Woraus besteht dieses Material?",
+                "romaji": "VOR-ous buh-SHTAT dieses mah-tay-REEL?",
+                "japanese": "この材料は何でできていますか？",
+                "usage": "素材確認"
+              },
+              {
+                "german": "Ist das hochwertig?",
+                "romaji": "ist dahs HOKH-ver-tikh?",
+                "japanese": "これは高品質ですか？",
+                "usage": "品質確認"
+              },
+              {
+                "german": "Wie lange hält dieses Produkt?",
+                "romaji": "vee LAHNG-uh HALT dieses PRO-dukt?",
+                "japanese": "この商品はどのくらい持ちますか？",
+                "usage": "耐久性確認"
+              },
+              {
+                "german": "Garantie auf dieses Produkt?",
+                "romaji": "gah-RAHN-tee auf dieses PRO-dukt?",
+                "japanese": "この商品に保証はありますか？",
+                "usage": "保証確認"
+              }
+            ]
+          },
+          {
+            "title": "価格交渉と割引",
+            "phrases": [
+              {
+                "german": "Können Sie mir einen Rabatt geben?",
+                "romaji": "KER-nen zee meer AY-nen RAH-baht GAY-ben?",
+                "japanese": "割引をしていただけますか？",
+                "usage": "割引リクエスト（敬語）"
+              },
+              {
+                "german": "Gibt es Mengenrabatt?",
+                "romaji": "gibt es MENG-en-RAH-baht?",
+                "japanese": "まとめ買い割引はありますか？",
+                "usage": "大量購入時の割引確認"
+              },
+              {
+                "german": "Ist das der beste Preis?",
+                "romaji": "ist dahs der BEST-uh PRYSE?",
+                "japanese": "これが最良の価格ですか？",
+                "usage": "最低価格確認"
+              },
+              {
+                "german": "Der Preis ist noch zu hoch.",
+                "romaji": "der PRYSE ist nokh tsoo HOKH",
+                "japanese": "価格はまだ高すぎます。",
+                "usage": "さらなる値引き交渉"
+              }
+            ]
+          },
+          {
+            "title": "支払いと返品",
+            "phrases": [
+              {
+                "german": "Welche Zahlungsmittel akzeptieren Sie?",
+                "romaji": "VEL-khuh TSAHL-oongs-mittel AHK-zep-TEER-en zee?",
+                "japanese": "どの支払い方法をお受けされていますか？",
+                "usage": "支払い方法確認"
+              },
+              {
+                "german": "Ich möchte mit Kreditkarte zahlen.",
+                "romaji": "ikh MERKH-tuh mit KRAY-dit-kahr-tuh TSAHL-en",
+                "japanese": "クレジットカードで支払いたいです。",
+                "usage": "支払い方法の指定"
+              },
+              {
+                "german": "Kann ich das zurückgeben?",
+                "romaji": "kahn ikh dahs TSOO-rück-GAY-ben?",
+                "japanese": "これを返品できますか？",
+                "usage": "返品可否確認"
+              },
+              {
+                "german": "Welche Bedingungen für Rückgabe?",
+                "romaji": "VEL-khuh buh-DING-oong-en für RÜCK-gah-buh?",
+                "japanese": "返品の条件は何ですか？",
+                "usage": "返品条件確認"
+              },
+              {
+                "korean": "Kann ich das tauschen?",
+                "romaji": "kahn ikh dahs TOWSH-en?",
+                "japanese": "これを交換できますか？",
+                "usage": "交換リクエスト"
+              }
+            ]
+          },
+          {
+            "title": "ショッピング関連語彙",
+            "items": [
+              {"german": "Größe (M, L, XL)", "japanese": "サイズ"},
+              {"german": "Farbe", "japanese": "色"},
+              {"german": "Material", "japanese": "素材"},
+              {"german": "Qualität", "japanese": "品質"},
+              {"german": "Preis", "japanese": "価格"},
+              {"german": "Rabatt", "japanese": "割引"},
+              {"german": "Garantie", "japanese": "保証"},
+              {"german": "Rückgabe", "japanese": "返品"},
+              {"german": "Umtausch", "japanese": "交換"},
+              {"german": "Quittung", "japanese": "領収書"}
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-004-q1",
+          "type": "fill-blank",
+          "question": "「これはいくらですか？」をドイツ語で言ってください。",
+          "answer": "Wie viel kostet das?"
+        },
+        {
+          "id": "de-004-q2",
+          "type": "fill-blank",
+          "question": "「セーターはどこにありますか？」をドイツ語で言ってください。",
+          "hint": "「Wo finde ich」で始まります",
+          "answer": "Wo finde ich einen Pullover?"
+        },
+        {
+          "id": "de-004-q3",
+          "type": "multiple-choice",
+          "question": "「割引をしていただけますか？」という敬語表現として正しいのはどれですか？",
+          "options": [
+            "Können Sie mir einen Rabatt geben?",
+            "Geben Sie mir einen Rabatt.",
+            "Rabatt für mich?",
+            "Ich will einen Rabatt."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-004-q4",
+          "type": "fill-blank",
+          "question": "「これを返品できますか？」をドイツ語で言ってください。",
+          "hint": "「Kann ich」で始まります",
+          "answer": "Kann ich das zurückgeben?"
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツでのショッピング実践会話",
+          "url": "#",
+          "duration": "10分"
+        },
+        {
+          "type": "grammar",
+          "title": "Können + 動詞の使い方",
+          "content": "「Können Sie～?」は「～できますか？」という敬語表現。買い物では非常によく使用される構文。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツのショッピング文化",
+          "content": "ドイツの店舗は品質重視。価格交渉はあまり一般的ではありません。セール（Ausverkauf）期間が年2回あります。"
+        }
+      ]
     }
   ]
 }
