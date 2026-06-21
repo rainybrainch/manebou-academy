@@ -118,20 +118,27 @@ export const koreanAcademyCategory: Category = {
             'パッチムが正しく発音できる',
             'パッチムの規則が理解できる',
             '単語の発音が正確になる',
+            '激音・濃音との違いが理解できる',
+            '単語末の子音が正確に聞き取れる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: 'ハングルの「パッチム」は日本語にない概念。ここで完全にマスターします。',
+              content: 'ハングルの「パッチム」は日本語にない概念。文字の下に付く子音で、発音を大きく変えます。ここで完全にマスターすれば、韓国語の聞き取り・発音精度が飛躍的に向上します。',
             },
             {
               type: 'heading',
               level: 2,
-              content: 'パッチムの19種類',
+              content: 'パッチムの19種類と発音規則',
             },
             {
               type: 'text',
-              content: '**一重パッチム（単一子音）**\n- ㄱ, ㄴ, ㄷ, ㄹ, ㅁ, ㅂ, ㅅ, ㅇ\n- 각 (gak) - 各\n- 손 (son) - 手\n\n**二重パッチム（複合子音）**\n- ㄲ, ㄳ, ㄴ, ㄵ, ㄶ, ㄺ, ㄻ, ㄼ, ㄽ, ㄾ, ㄿ, ㅀ, ㅁ, ㅄ\n- 값 (gap) - 値段\n- 닭 (dak) - 鶏',
+              content: '**一重パッチム（単一子音）- 8種**\n- ㄱ (gak) - 각 (gak) / 박 (bak)\n- ㄴ (nan) - 손 (son) / 본 (bon)\n- ㄷ (dat) - 밭 (bat) / 있다 (itda)\n- ㄹ (ral) - 달 (dal) / 물 (mul)\n- ㅁ (mem) - 감 (gam) / 섬 (seom)\n- ㅂ (bep) - 밥 (bap) / 입 (ip)\n- ㅅ (sot) - 밭 (bat) / 있다 (itda)\n- ㅇ (ng) - 방 (bang) / 생각 (saenggak)\n\n**二重パッチム（複合子音）- 11種**\n- ㄲ (ssak) - 깎다 (kkaknda)\n- ㄳ (gaks) - 값 (gap-s)\n- ㄴ (nan) - 손가락 (songarak)\n- ㄵ (nj) - 앉다 (antta)\n- ㄶ (nh) - 많다 (manhta)\n- ㄺ (lgak) - 닭 (dak)\n- ㄻ (lgm) - 삶 (sam)\n- ㄼ (lbap) - 밝다 (balda)\n- ㄽ (lbs) - 닭 (dak)\n- ㄾ (lbh) - 맑다 (malkda)\n- ㅄ (bgs) - 값 (gap)',
+            },
+            {
+              type: 'highlight-box',
+              title: 'パッチムの発音変化ルール',
+              content: '**ルール1：パッチム + 母音で始まる音節**\n- パッチムは次の音節の頭に移動\n- 값이 (gap-i) → 가비 (gabi)\n\n**ルール2：パッチム + 子音で始まる音節**\n- パッチムと子音が合わさって新しい音に\n- 밥 먹다 (bap meokda) → 밥먹다 (bam-meokda)\n\n**ルール3：文末でのパッチム**\n- 音が変わらずそのまま（止音）\n- 밥 (bap) - 停止音で発音',
             },
           ],
         },
@@ -145,20 +152,26 @@ export const koreanAcademyCategory: Category = {
             '敬語の基本形が分かる',
             'タメ口と敬語を区別できる',
             '状況に応じた敬語が使える',
+            'ドラマでのキャラごとの言葉遣いが理解できる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: '韓国語の敬語は複雑です。ドラマで頻出の3つのレベルを学びます。',
+              content: '韓国語の敬語は複雑ですが、ドラマを見ると実装場面がすぐに分かります。敬語レベルによってキャラの関係性や態度が変わるため、リスニング理解に重要です。',
             },
             {
               type: 'heading',
               level: 2,
-              content: '韓国語の敬語レベル',
+              content: '韓国語の敬語レベル5段階',
             },
             {
               type: 'text',
-              content: '**ー요/ー습니다 (敬語)**\n- 먹어요 (meok-eo-yo) - 食べます（敬語）\n- 하십니까? (ha-sim-ni-kka?) - されますか？（最敬語）\n\n**ー어/ー아 (タメ口）**\n- 먹어 (meok-eo) - 食べる\n- 뭐해? (mwo-hae?) - 何してるの？\n\n**ー네 (半敬語）**\n- 좋네요! (joh-ne-yo!) - いいですね！',
+              content: '**Level 1: -해라체 (하라체) - 命令体（最粗）**\n- 먹어라 (meokeoura) - 食べろ\n- 가! (ga!) - 行け！\n- 用途：目上が目下を怒る、兵隊の指令\n\n**Level 2: -어/아체 (타메ぐち) - タメ口**\n- 먹어 (meok-eo) - 食べる\n- 뭐해? (mwo-hae?) - 何してるの？\n- 用途：友人、同級生、兄弟姉妹\n\n**Level 3: -요 (존댓말-요) - 敬語**\n- 먹어요 (meok-eo-yo) - 食べます\n- 어떻게 지내요? (eotteohge jinaeyo?) - お元気ですか？\n- 用途：初対面、目上の人、ビジネス\n\n**Level 4: -습니다 (존댓말-습니다) - 最敬語**\n- 먹습니다 (meokseumnida) - 食べます（正式）\n- 하십니까? (ha-sim-ni-kka?) - されますか？（最敬語）\n- 用途：フォーマルなスピーチ、ニュース、公式文書\n\n**ボーナス: -네/ㄴ데 (半敬語)**\n- 좋네요! (joh-ne-yo!) - いいですね！\n- 자네가 맞네 (jane-ga matne) - 君が正しいんだな',
+            },
+            {
+              type: 'highlight-box',
+              title: 'ドラマで学ぶ敬語',
+              content: '**シーン1：上司が部下に**\n- "일을 잘 했어요" - 仕事をよくしましたね（褒める・敬語）\n\n**シーン2：友人同士**\n- "어제 뭐 했어?" - 昨日何してた？（タメ口）\n\n**シーン3：恋人同士の喧嘩**\n- "헤어져야 해요" - 別れなきゃいけません（敬語だけど決意を示す）\n- "...대로 할래" - ...通りにする（強い意志）',
             },
           ],
         },
@@ -172,11 +185,26 @@ export const koreanAcademyCategory: Category = {
             '過去形が作れる',
             '未来形が作れる',
             '時制による意味の違いが理解できる',
+            'ドラマの時系列が追える',
           ],
           sections: [
             {
               type: 'info-box',
-              content: '時制をマスターすると、ドラマのセリフがもっと理解しやすくなります。',
+              content: '時制をマスターすると、ドラマのセリフがもっと理解しやすくなります。過去フラッシュバック、現在、未来予測の3つが韓国ドラマの鉄則。時制で時間軸を読み取る能力が大切です。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: '韓国語の時制システム',
+            },
+            {
+              type: 'text',
+              content: '**過去形 -았/었**\n- 먹었어요 (meok-eoss-eo-yo) - 食べました\n- 갔어 (gass-eo) - 行ったよ（タメ口）\n- 했던 일 (haedeon il) - 以前やったこと\n\n**現在形 -어/아요**\n- 먹어요 (meok-eo-yo) - 食べます\n- 지금 뭐 하고 있어? (jigeum mwo hago iss-eo?) - 今何してる？\n\n**未来形 -을/ㄹ 거야 または -을/ㄹ 거예요**\n- 먹을 거야 (meok-eul geoya) - 食べるつもりだ（タメ口）\n- 내일 갈 거예요 (naeil gal geo-yeyo) - 明日行きます（敬語・確定未来）\n- 아마 비가 올 거야 (ama biga ol geoya) - 多分雨が降るだろう（推測未来）\n\n**回想時制 -던**\n- 어렸을 때 (eoryeoss-eul ttae) - 子どもの頃（思い出の時）\n- 하던 일 (hadeon il) - していた仕事（昔の習慣）\n\n**完了形 -아/어 버렸어**\n- 다 먹어 버렸어! (da meok-eo beoryeoss-eo!) - 全部食べちゃった！（後悔・驚き）',
+            },
+            {
+              type: 'highlight-box',
+              title: 'ドラマで学ぶ時制',
+              content: '**回想シーン**\n- "그때 난..." (geuttae nan...) - あの時私は...\n- "하던 그 일..." (hadeon geu il...) - していたあの仕事...\n\n**現在・重要な決定**\n- "헤어져야 해" (heeojyeoya hae) - 別れなきゃいけない\n- "사랑해" (saranghae) - 愛してる\n\n**未来への不安**\n- "어떻게 될 거야?" (eotteohke doel geoya?) - どうなっちゃうんだろう？\n- "만날 수 없을까?" (mannal su eobs-eulkka?) - 会えなくなっちゃうのかな？',
             },
           ],
         },
@@ -196,20 +224,21 @@ export const koreanAcademyCategory: Category = {
             'K-POPアイドルのインタビューが理解できる',
             '若者言葉が分かる',
             'リスニング速度が上がる',
+            'アイドル特有の敬語が理解できる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: '最新のK-POPアイドルのインタビューから、生きた韓国語を学びます。',
+              content: '最新のK-POPアイドルのインタビューから、生きた韓国語と業界スラングを学びます。Instagramやファン向けメッセージも理解できるようになります。',
             },
             {
               type: 'heading',
               level: 2,
-              content: 'K-POP業界用語',
+              content: 'K-POP業界用語と若者言葉',
             },
             {
               type: 'text',
-              content: '- 데뷔 (debut) - デビュー\n- 뮤직비디오 (music video) - MV\n- 앨범 (album) - アルバム\n- 콘서트 (concert) - コンサート\n- 팬클럽 (fan club) - ファンクラブ',
+              content: '**業界用語**\n- 데뷔 (debut) - デビュー\n- 뮤직비디오 (music video) - MV\n- 앨범 (album) - アルバム\n- 콘서트 (concert) - コンサート\n- 팬클럽 (fan club) - ファンクラブ\n- 차트 (chart) - チャート\n- 스타일링 (styling) - スタイリング\n\n**若者言葉・SNS用語**\n- 뭔가 (mwunga) - なんか（フィラー）\n- 솔직히 (soljikhи) - 正直に言うと\n- 저도 (jeodo) - 私も（謙虚な表現）\n- 감사합니다 (gamsahamnida) - ありがとうございます（アイドル標準敬語）\n- 응원해 주셔서 (eung-won-hae jusyeoseo) - 応援ありがとう（ファンへの感謝）\n\n**アイドル特有表現**\n- "열심히 하겠습니다" (yeolsimhi hagesseumnida) - 精一杯頑張ります（宣言）\n- "팬 여러분들" (paen yeoreobun-deul) - ファンの皆さん（敬語・感謝）\n- "앞으로도 응원 부탁드립니다" (apeuro do eung-won butakhdeureumnida) - 今後も応援よろしくお願いします',
             },
           ],
         },
@@ -223,11 +252,12 @@ export const koreanAcademyCategory: Category = {
             'ドラマの恋愛表現が分かる',
             '告白のセリフが理解できる',
             'ロマンティックな表現が使える',
+            '感情の起伏を声トーンで読み取れる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: '韓国ドラマの醍醐味・恋愛シーン。感動的なセリフを学びます。',
+              content: '韓国ドラマの醍醐味・恋愛シーン。感動的なセリフと、その心理背景を学びます。同じセリフでも、敬語と タメ口では意味が全く違うことも重要。',
             },
             {
               type: 'heading',
@@ -236,7 +266,12 @@ export const koreanAcademyCategory: Category = {
             },
             {
               type: 'text',
-              content: '- 사랑해요 (saranghae-yo) - 愛しています\n- 미안해요 (mianhae-yo) - ごめんなさい\n- 기다릴게요 (gidaril-ge-yo) - 待っています\n- 같이 있고 싶어요 (gachi-issgo-sip-eo-yo) - 一緒にいたいです',
+              content: '**告白表現**\n- 사랑해요 (saranghae-yo) - 愛しています（敬語・初告白に最適）\n- 사랑해 (saranghae) - 愛してる（タメ口・深い関係で使う）\n- 난 너를 사랑해 (nan neoreul saranghae) - 僕は君を愛している（直接的）\n\n**謝罪と和解**\n- 미안해요 (mianhae-yo) - ごめんなさい\n- 미안해 (mianhae) - ごめん（より親密）\n- 다시 만나도 될까? (dasi mannado doelkka?) - また会える？（別れた相手へ）\n\n**約束と願い**\n- 기다릴게요 (gidaril-ge-yo) - 待っています（敬語）\n- 기다릴게 (gidaril-ge) - 待ってるよ（タメ口）\n- 같이 있고 싶어요 (gachi-issgo-sip-eo-yo) - 一緒にいたいです\n- 절대 떠나지 마 (jeoldae tteonaji ma) - 絶対離れないで（切実）\n\n**別れのセリフ**\n- 헤어져야 해요 (heeojyeoya hae-yo) - 別れなきゃいけません（決意）\n- 미안해... 난 가야 해 (mianhae... nan gaya hae) - ごめん... 僕は行かなきゃいけない',
+            },
+            {
+              type: 'highlight-box',
+              title: 'シーン別：心理背景を読む',
+              content: '**雨のシーン：涙が止まらない告白**\n- "난 너... 너 없이는 살 수 없어..." - 僕は君なしでは生きられない...（極限の心情）\n\n**夜の屋上：決意のセリフ**\n- "이제부터 나 옆에만 있어" - これからは僕のそばにいてね（強い願い）\n\n**別れのシーン：涙で言葉が出ない**\n- (沈黙 + 涙) が最も強いロマンス表現',
             },
           ],
         },
@@ -250,11 +285,27 @@ export const koreanAcademyCategory: Category = {
             '短い会話が翻訳できる',
             'ドラマのセリフを日本語化できる',
             '理解が深まる',
+            'ニュアンスの違いが分かる',
+            'ドラマを字幕なしで理解できるようになる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: '毎日1分、ドラマのシーンを翻訳。実践的な韓国語スキルが定着します。',
+              content: '毎日1分、ドラマのシーンを翻訳。字幕なしでドラマが楽しめるようになります。短いセリフだからこそ、敬語・タメ口・スラングの微妙なニュアンスが学べる。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: '1分問題集のサイクル',
+            },
+            {
+              type: 'text',
+              content: '**Step 1: ドラマシーンを見る（15秒）**\n- 字幕ありで、シーンと感情を理解\n- キャラクターの表情から心情を推測\n\n**Step 2: 字幕なしで聞き取り（20秒）**\n- 何度か聞き返してOK\n- 単語を聞き取ろうとするのではなく、全体のリズムを感じる\n\n**Step 3: 翻訳に挑戦（15秒）**\n- 字幕や辞書を使わずに意訳する\n- 完璧な翻訳ではなく、「どういう気持ちで言ってるのか」が重要\n\n**Step 4: 解答例と比較（10秒）**\n- 提供された翻訳を確認\n- 敬語選択・タメ口・スラングがなぜそう訳されたか理解\n\n**Step 5: AI フィードバック（5秒）**\n- 発音の正確さ\n- より自然な敬語表現の提案\n- 文化的背景の説明',
+            },
+            {
+              type: 'highlight-box',
+              title: '例題：ドラマシーン翻訳',
+              content: '**【原文】**\nA: "너 왜 이래?"\nB: "난 모르겠어..."\n\n**【意訳案】**\nA: "お前どうしたんだよ？"（タメ口・親友同士）\nB: "わかんない..." （切実感）\n\n**【解説】**\n- "너 왜 이래?" は友人同士のタメ口\n- 「お前」という日本語は敵意ではなく、親密さの表現\n- "난 모르겠어" は「わかんない」ではなく「どうしたらいいかわかんない」という絶望感',
             },
           ],
         },
