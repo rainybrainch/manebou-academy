@@ -7496,6 +7496,225 @@
           "content": "あなたが大型製造企業の生産担当責任者とします。現在の工場をIndustry 4.0水準にアップグレードする包括的計画を策定します。IoTセンサー導入、機械自動化、データ分析プラットフォーム、予測保全システムの実装タイムライン、投資計画、人員再配置、品質指標設定、ROI分析を含めて詳細に述べてください。"
         }
       ]
+    },
+    {
+      "id": "ko-042",
+      "level": 5,
+      "title": "起業・イノベーション管理：ビジネスモデル・スタートアップ戦略・リスク投資",
+      "titleKo": "기업가정신 및 혁신 관리: 비즈니스 모델, 스타트업 전략, 위험자본",
+      "objectives": [
+        "起業家精神とイノベーション管理の基本を理解する",
+        "ビジネスモデル設計と市場戦略に関する専門用語を習得する",
+        "スタートアップのライフサイクルとファンディング戦略を理解する",
+        "失敗から学び、スケーラブルなビジネスを構築するスキルを習得する"
+      ],
+      "content": {
+        "introduction": "韓国の起業家精神とイノベーションは経済成長の原動力です。ソウルのスタートアップシーンから家族経営の中堅企業まで、韓国は急速な事業成長と国際展開の文化を育んでいます。このレッスンでは、ビジネスモデル設計、起業プロセス、資金調達戦略、スケーリング、グローバル展開に関する高度な韓国語を学びます。",
+        "sections": [
+          {
+            "title": "起業家精神とイノベーション文化",
+            "phrases": [
+              {
+                "korean": "기업가정신은 시장 기회의 식별, 혁신적 솔루션의 개발, 위험 부담, 그리고 고객을 위한 가치 창출을 의미합니다.",
+                "romaji": "Gieobga jeongsin-eun sigang gihoee-ui sikbyeol, hyeoksim-jeoug solution-ui gaebargat, wihom budam, geurigo goggaeg-eul wihan gachi changchul-eul uimihamnida",
+                "japanese": "起業家精神は市場機会の特定、革新的ソリューション開発、リスク負担、顧客価値創造を意味します。",
+                "usage": "起業家精神の本質を説明するとき"
+              },
+              {
+                "korean": "성공한 창업자는 기술 전문성과 비즈니스 감각, 끈기, 적응력, 그리고 멘토와 투자자의 강한 네트워크를 결합합니다.",
+                "romaji": "Seonggong-hahnn chang-eobja-neun gisul jeonmun seong-gwa biziuneseu gamsang, kkeun-gi, jeog-eobryeok, geurigo mentowa tuja ja-ui gangyeol neteuweokeu-reul gyeolhap hamnida",
+                "japanese": "成功した起業家は技術専門知識とビジネスセンス、粘り強さ、適応力、メンターと投資家の強いネットワークを統合します。",
+                "usage": "起業家の資質を説明するとき"
+              },
+              {
+                "korean": "한국의 스타트업 생태계는 테크 허브(서울, 부산), 벤처캐피탈 펀드, 비즈니스 인큐베이터, 액셀러레이터로 창업자를 지원합니다.",
+                "romaji": "Hangug-ui seutateu-eob saengtae gye-neun tek heobeu (Seoul, Busan), bentyeo kyepital peondeu, biziuneseu inkyubeita, aegsel releita ro chang-eobja-reul jiwon hamnida",
+                "japanese": "韓国のスタートアップエコシステムはテックハブ（ソウル、釜山）、ベンチャーキャピタル、ビジネスインキュベーター、アクセレーターで起業家を支援します。",
+                "usage": "韓国のスタートアップシーンを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "ビジネスモデルと市場戦略",
+            "phrases": [
+              {
+                "korean": "비즈니스 모델은 기업이 어떻게 가치를 창출하고, 전달하고, 포착하는지를 정의합니다. 예: 구독 모델, 플랫폼 모델, 프리미엄, B2B, B2C, P2P.",
+                "romaji": "Biziuneseu model-eun gieob-i eotteohge gachi-reul changchul hago, jeondal hago, pojak haneun ji-reul jeongui hamnida",
+                "japanese": "ビジネスモデルは企業が価値を創造・提供・獲得する方法を定義します。例：サブスクリプション、プラットフォーム、フリーミアム、B2B、B2C、P2P。",
+                "usage": "ビジネスモデルの種類を説明するとき"
+              },
+              {
+                "korean": "시장 검증과 고객 발견은 중요합니다: 창업자는 잠재적 고객과 대화하고, 가설을 테스트하고, 제품이 실제 시장이 있는지 빠르게 학습해야 합니다.",
+                "romaji": "Sigang geomjeung-gwa goggaeg balbgyeon-eun jungyohabnida: chang-eobja-neun jamjae-jeoug goggaeg-gwa daehwah hago, gahsol-eul teseutu hago",
+                "japanese": "市場検証と顧客発見は重要：起業家は潜在顧客と対話し、仮説をテストし、製品が実際の市場を持つか素早く学ぶ必要があります。",
+                "usage": "市場検証プロセスを説明するとき"
+              },
+              {
+                "korean": "시장 진출 전략은 가격 책정, 유통 채널, 마케팅 믹스, 고객 획득 비용(CAC)을 포함하여 지속 가능하고 수익성 있게 성장합니다.",
+                "romaji": "Sigang jinchul jeonryak-eun gagyeok chaeg jeong, yutung chanel, marketing mix, goggaeg howagjug bigyong-eul pohamhayeo jisok ganeung-hago suigyeogseong isge seong-gong hamnida",
+                "japanese": "市場投入戦略は価格設定、流通チャネル、マーケティングミックス、顧客獲得費用を含み、持続可能で収益性高く成長します。",
+                "usage": "市場投入戦略を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "スタートアップのライフサイクルと資金調達",
+            "phrases": [
+              {
+                "korean": "스타트업 단계: 시드(구상 단계), 시리즈 A/B/C(성장 단계), 후기 단계(성숙), 유동성 이벤트(IPO 또는 인수)는 서로 다른 자금 조달 요구사항을 가집니다.",
+                "romaji": "Seutateu-eob dangyae: seed (gusang dangyae), siri-jeu A/B/C (seong-gong dangyae), hugi dangyae (seong-sug), yudong seong i-beonteu-neun seoro dareun jageum johdal yogu-sahangg-eul gajip nida",
+                "japanese": "スタートアップの段階：シード（構想段階）、Series A/B/C（成長段階）、後期段階（成熟）、流動性イベント（IPOまたは買収）は異なる資金要件を持ちます。",
+                "usage": "スタートアップのライフサイクルを説明するとき"
+              },
+              {
+                "korean": "자금 조달 소스: 자기 자본, 천사 투자, 벤처 캐피탈, 크라우드펀딩, 그리고 부채 자금은 각각 다른 조건과 기대를 가집니다.",
+                "romaji": "Jageum johdal soseu: jagi jaben, cheonsa tuja, bentyeo kyepital, keuuraoudeu pendding, geurigo buche jageum-eun gaggag dareun jogeon-gwa gidae-reul gajip nida",
+                "japanese": "資金源：ブートストラッピング、エンジェル投資、ベンチャーキャピタル、クラウドファンディング、負債資金は異なる条件と期待を持ちます。",
+                "usage": "資金調達オプションを説明するとき"
+              },
+              {
+                "korean": "투자자의 실사(실사) 프로세스는 비즈니스 모델, 시장 규모, 팀 적격, 재무 예측, 그리고 경쟁 위치를 심사하여 투자 위험을 평가합니다.",
+                "romaji": "Tuja ja-ui sil-sa proseseu-neun biziuneseu model, sigang gyumo, tim jeog gyeog, jaemu yeyeok, geurigo gyeongchnaeng wisang-eul simsahayeo tuja wihom-eul pyeongga hamnida",
+                "japanese": "投資家のデューディリジェンスプロセスはビジネスモデル、市場規模、チーム適性、財務予測、競争力を精査し投資リスクを評価します。",
+                "usage": "投資家の審査プロセスを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "スケーリング、国際展開、失敗から学ぶ",
+            "phrases": [
+              {
+                "korean": "확장성은 최소한의 추가 비용으로 비즈니스를 성장시키는 것을 의미하며, 자동화, 기술 사용, 그리고 조직 최적화를 통해 실현됩니다.",
+                "romaji": "Hwaksang seong-eun chosohan-ui chu-ga bigyong-euro biziuneseu-reul seong-gong sikineun geot-eul uimihag-imyeo, jadongwhahwa, gisul sayong, geurigo jojig choesog-hwahwa-reul tonghae silhyeon doebnida",
+                "japanese": "スケーラビリティは最小限の追加コストでビジネスを成長させることを意味し、自動化、技術活用、組織最適化を通じて実現します。",
+                "usage": "スケーリングの重要性を説明するとき"
+              },
+              {
+                "korean": "국제 진출은 문화적 민감성, 현지 시장 이해, 규제 준수, 지역화, 그리고 새로운 시장에서의 전략적 파트너십을 요구합니다.",
+                "romaji": "Guggjae jinchul-eun munhwajeog minsam seong, hyunji sigang ihaee, gyuje junsuh, jiyokhwa, geurigo saeroun sigang-e-seo-ui jeonryagjeoug parteu neosip-eul yogu hamnida",
+                "japanese": "国際展開は文化的配慮、現地市場理解、規制遵守、ローカライゼーション、新市場での戦略的パートナーシップを要求します。",
+                "usage": "国際展開の課題を説明するとき"
+              },
+              {
+                "korean": "실패는 기업가정신의 일부입니다: 실패에서 배우기, 빠른 반복, 필요시 피벗, 그리고 심리적 회복력은 성공의 핵심입니다.",
+                "romaji": "Silpae-neun gieobga jeongsin-ui ilbu imnida: silpae-e-seo baeu-gi, ppareun ban-bog, pilyosi pivot, geurigo simni-jeoug hoebogyeok-eun seong-gong-ui haekshim imnida",
+                "japanese": "失敗は起業家精神の一部：失敗から学び、素早く反復、必要に応じてピボット、精神的レジリエンスが成功の鍵です。",
+                "usage": "失敗と学習を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-042-q1",
+          "type": "fill-blank",
+          "question": "「起業家精神は市場機会と価値創造を意味します」を韓国語で言ってください。",
+          "answer": "기업가정신은 시장 기회의 식별과 가치 창출을 의미합니다."
+        },
+        {
+          "id": "ko-042-q2",
+          "type": "multiple-choice",
+          "question": "起業家に必要な資質は？",
+          "options": [
+            "技術知識、ビジネスセンス、粘り強さ、ネットワーク",
+            "お金だけ",
+            "技術のみ",
+            "学位がすべて"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-042-q3",
+          "type": "fill-blank",
+          "question": "「ビジネスモデルは価値を創造・提供・獲得する方法を定義します」を韓国語で言ってください。",
+          "answer": "비즈니스 모델은 가치를 창출하고, 전달하고, 포착하는 방법을 정의합니다."
+        },
+        {
+          "id": "ko-042-q4",
+          "type": "multiple-choice",
+          "question": "ビジネスモデルの例は？",
+          "options": [
+            "サブスクリプション、プラットフォーム、フリーミアム、B2B、B2C",
+            "製造のみ",
+            "小売のみ",
+            "サービスなし"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-042-q5",
+          "type": "fill-blank",
+          "question": "「市場検証は顧客発見と仮説テストです」を韓国語で言ってください。",
+          "answer": "시장 검증은 고객 발견과 가설 테스트입니다."
+        },
+        {
+          "id": "ko-042-q6",
+          "type": "matching",
+          "question": "スタートアップの段階と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"stage": "시드", "description": "構想段階"},
+            {"stage": "시리즈 A/B/C", "description": "成長段階"},
+            {"stage": "후기", "description": "成熟段階"}
+          ]
+        },
+        {
+          "id": "ko-042-q7",
+          "type": "fill-blank",
+          "question": "「ベンチャーキャピタルはリスク投資で高成長を期待します」を韓国語で言ってください。",
+          "answer": "벤처 캐피탈은 위험 자본으로 높은 성장을 기대합니다."
+        },
+        {
+          "id": "ko-042-q8",
+          "type": "multiple-choice",
+          "question": "スケーラビリティの意味は？",
+          "options": [
+            "追加コストを最小化して事業を成長させる能力",
+            "大規模な初期投資が必要",
+            "成長できないビジネス",
+            "技術不要"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国の起業・イノベーション管理：スタートアップ戦略・資金調達・スケーリング",
+          "duration": "31分",
+          "description": "ソウルのスタートアップシーン。ビジネスモデルキャンバス。市場検証とピボット。VCファンディングプロセス。韓国から世界へのスケーリング戦略。"
+        },
+        {
+          "type": "grammar",
+          "title": "起業・イノベーション用語と戦略コミュニケーション表現",
+          "content": "起業複合名詞：비즈니스 모델（ビジネスモデル）、스타트업（スタートアップ）、창업자（起業家）、피치（ピッチ）、실사（デューディリジェンス）。戦略表現：검증하다（検証する）、피벗하다（ピボットする）、확장하다（スケーリングする）。ファイナンス用語：자금 조달 라운드（資金調達ラウンド）、지분율（株保有比率）。"
+        },
+        {
+          "type": "note",
+          "title": "韓国のスタートアップエコシステムの構造",
+          "content": "Tech Hubs：Seoul、Gangnam、Busan での集中。組織：Korea Startup Forum（韓国スタートアップフォーラム）。資金源：Korea Small Business and Startup Agency、民間 VC、コーポレートベンチャー。メンターシップ：シリアルアントレプレナー、大企業の R&D。"
+        },
+        {
+          "type": "note",
+          "title": "ビジネスモデル設計と市場戦略",
+          "content": "Business Model Canvas：9要素フレームワーク（顧客セグメント、価値提案など）。Lean Startup 方法論：Build-Measure-Learn サイクル。MVP（最小実行可能製品）：初期市場検証。A/B テストと仮説駆動開発。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツと韓国のスタートアップ文化比較",
+          "content": "ドイツ：高い市場基準、規制順守、長期価値構築。韓国：急速成長、技術革新重視、グローバル展開志向。両国とも国際的なスタートアップ投資を重視。"
+        },
+        {
+          "type": "note",
+          "title": "資金調達とデューディリジェンス",
+          "content": "シード段階：家族・友人・エンジェル。Series A：初期 VC。Series B/C：成長期ファンド。IPO・買収：出口戦略。投資家評価：チーム、市場規模、ビジネスモデル、財務予測。"
+        },
+        {
+          "type": "practice",
+          "title": "スタートアップビジネスプランの策定と投資ピッチ",
+          "content": "あなたが新しいビジネスアイデアの起業家とします。ビジネスモデルを設計し、ターゲット市場を定義し、競争分析を実施し、3年財務予測を作成します。VCに向けた5分間のピッチを準備し、以下を含めます：問題定義、革新的ソリューション、市場規模、チーム背景、資金調達ニーズ、成功指標。"
+        }
+      ]
     }
   ]
 }
