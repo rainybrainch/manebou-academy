@@ -7934,6 +7934,225 @@
           "content": "あなたが大規模e-commerceプラットフォームのアーキテクトとします。スケーラブルなマイクロサービスアーキテクチャを設計します：ユーザー管理、商品カタログ、注文処理、支払い処理、配送追跡。各サービスにCloudコンテナ化、API設計、データベース設計を含めます。DevOpsパイプライン、CI/CD、セキュリティ統合（認証、暗号化、監査ログ）、パフォーマンスモニタリング、ディザスタリカバリー計画も策定します。"
         }
       ]
+    },
+    {
+      "id": "ko-044",
+      "level": 5,
+      "title": "マーケティング・デジタルマーケティング：ブランディング・顧客戦略・データ分析",
+      "titleKo": "마케팅 및 디지털 마케팅: 브랜딩, 고객 전략, 데이터 분석",
+      "objectives": [
+        "マーケティング戦略と顧客セグメンテーションの基本を理解する",
+        "デジタルマーケティング、SEO、ソーシャルメディア、コンテンツマーケティングに関する専門用語を習得する",
+        "顧客行動分析とデータドリブン意思決定を理解する",
+        "ブランディング、CRM、マーケティングオートメーション戦略を習得する"
+      ],
+      "content": {
+        "introduction": "マーケティングは韓国と日本の両国で急速に進化しています。デジタルトランスフォーメーション、AI活用、顧客データ分析は企業の成長戦略の中核です。このレッスンでは、マーケティング戦略、デジタルマーケティング戦術、顧客分析、ブランディング、マーケティングテクノロジーに関する高度な韓国語を学びます。",
+        "sections": [
+          {
+            "title": "マーケティング戦略と顧客セグメンテーション",
+            "phrases": [
+              {
+                "korean": "마케팅 전략은 목표 고객, 가치 제안, 포지셔닝, 가격 책정, 배포 채널을 정의하여 고객 확보와 보유를 달성합니다.",
+                "romaji": "Maketing jeonryak-eun mokpyo goggaeg, gachi jegong, pojisyeonning, gagyeok chaeg jeong, baepo chanel-eul jeongui hayeo goggaeg hwakbo-wa boyu-reul dal-seonghag hamnida",
+                "japanese": "マーケティング戦略は、ターゲットオーディエンス、価値提案、ポジショニング、価格設定、流通チャネルを定義し、顧客獲得と保持を実現します。",
+                "usage": "マーケティング戦略の構成要素を説明するとき"
+              },
+              {
+                "korean": "고객 세분화는 인구통계, 심리적 특성, 행동, 필요에 기반하여 시장을 분할하고 목표 지향적 마케팅 캠페인을 실행합니다.",
+                "romaji": "Goggaeg sebun hwa-neun inko tonggyae, simni jeoug teugseonj, haeng-dong, pil-yo-e gi-ban hayeo sigang-eul bunal hago mokpyo jiyang jeoug maketing kaempel-ein-eul sil-haeng hamnida",
+                "japanese": "顧客セグメンテーションは、人口統計、心理的特性、行動、ニーズに基づいて市場を分割し、ターゲット指向のマーケティングキャンペーンを実行します。",
+                "usage": "顧客セグメンテーション手法を説明するとき"
+              },
+              {
+                "korean": "고객 여정 매핑은 인식에서 접촉, 구매 결정, 충성도까지의 완전한 고객 경로를 시각화하여 최적화 기회를 식별합니다.",
+                "romaji": "Goggaeg yeojeong maeping-eun insik-e-seo jeobchok, gumai gyeoljeonj, chung-seong-do kka-ji-ui wanjon-hann goggaeg gyeongro-reul siakwhahwae hayeo choesog hwahwa gi-hoe-reul sikbyeol hamnida",
+                "japanese": "カスタマージャーニーマッピングは、認識からコンタクト、購買決定、ロイヤルティまでの完全な顧客パスを可視化し、最適化の可能性を特定します。",
+                "usage": "カスタマージャーニーの重要性を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "デジタルマーケティングと顧客獲得チャネル",
+            "phrases": [
+              {
+                "korean": "디지털 마케팅은 SEO(검색엔진 최적화), SEM(검색엔진 마케팅), 소셜미디어 마케팅, 이메일 마케팅, 콘텐츠 마케팅, 인플루언서 마케팅을 포함합니다.",
+                "romaji": "Dijital maketing-eun SEO (geomseok engine choesog hwahwa), SEM (geomseok engine maketing), sosyeol midiae maketing, imeil maketing, content maketing, inpeul-weonseo maketing-eul pohamhamnida",
+                "japanese": "デジタルマーケティングはSEO（検索エンジン最適化）、SEM（検索エンジンマーケティング）、ソーシャルメディアマーケティング、メールマーケティング、コンテンツマーケティング、インフルエンサーマーケティングを含みます。",
+                "usage": "デジタルマーケティング戦術を説明するとき"
+              },
+              {
+                "korean": "SEO와 키워드 리서치는 기술적 최적화, 콘텐츠 품질, 백링크 프로필, 사용자 경험을 통해 검색엔진에서의 유기적 가시성을 향상시킵니다.",
+                "romaji": "SEO-wa kiweo-deu risyochu-neun gisul jeoug choesog hwahwa, content pum-jil, baek-lingkeu profil, sayongja gyeongheom-eul tonghae geomseok engine-e-seo-ui yuyogi jeoug gasi seong-eul hyang-sang sikip nida",
+                "japanese": "SEOとキーワード調査は、技術的最適化、コンテンツ品質、バックリンクプロファイル、ユーザーエクスペリエンスを通じて検索エンジンでの有機的可視性を向上させます。",
+                "usage": "SEOの重要性を説明するとき"
+              },
+              {
+                "korean": "소셜미디어 마케팅은 페이스북, 인스타그램, 링크드인, 틱톡 같은 플랫폼을 활용하여 참여를 촉진하고 커뮤니티를 구축하며 고객 경험을 개인화합니다.",
+                "romaji": "Sosyeol midiae maketing-eun peiseubok, inseutageuream, lingkeu deu-in, tik tok gateun platpom-eul hwalhyong hayeo cham-yeo-reul chogji nhago keomyu niti-reul guji khago goggaeg gyeongheom-eul gaein hwahwae hamnida",
+                "japanese": "ソーシャルメディアマーケティングはFacebook、Instagram、LinkedIn、TikTokなどのプラットフォームを活用し、エンゲージメントを促進し、コミュニティを構築し、顧客体験をパーソナライズします。",
+                "usage": "ソーシャルメディア戦略を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "顧客データ分析とマーケティングテクノロジー",
+            "phrases": [
+              {
+                "korean": "데이터 기반 마케팅은 고객 데이터, 분석, 인공지능을 활용하여 고객 행동을 예측하고, 캠페인을 최적화하며, ROI를 최대화합니다.",
+                "romaji": "Deiteo gi-ban maketing-eun goggaeg deiteo, bunseokg, in-gong jigenung-eul hwalhyong hayeo goggaeg haeng-dong-eul yeyeok hago, kaempel-ein-eul choesog hwahwae hayeo-imyeo, ROI-reul choe dae hwahwae hamnida",
+                "japanese": "データドリブンマーケティングは顧客データ、分析、人工知能を活用して、顧客行動を予測し、キャンペーンを最適化し、ROIを最大化します。",
+                "usage": "データ分析の重要性を説明するとき"
+              },
+              {
+                "korean": "마케팅 자동화 플랫폼(HubSpot, Marketo, Salesforce)은 이메일 캠페인, 리드 스코어링, 나처링, 개인화를 대규모로 자동화합니다.",
+                "romaji": "Maketing jadongwhahwa platpom (HubSpot, Marketo, Salesforce)-eun imeil kaempel-ein, rid seu ko-a-ring, nacheo ring, gaein hwahwae-reul dae gyumo ro jadongwhahwae hamnida",
+                "japanese": "マーケティングオートメーションプラットフォーム（HubSpot、Marketo、Salesforce）はメールキャンペーン、リードスコアリング、ナーチャリング、パーソナライゼーションを大規模に自動化します。",
+                "usage": "マーケティングオートメーション技術を説明するとき"
+              },
+              {
+                "korean": "고객관계관리(CRM) 시스템은 고객 상호작용, 판매 사이클, 서비스 활동을 중앙화하여 360도 고객 이해를 가능하게 합니다.",
+                "romaji": "Goggaeg gwankye gwanri (CRM) siseutem-eun goggaeg sang-ho jag-yong, panjae saiseukeul, seobiseu hwal-dong-eul jung-anghwae hayeo 360do goggaeg ihaee-reul ga-neung hage hamnida",
+                "japanese": "顧客関係管理（CRM）システムは顧客インタラクション、販売サイクル、サービス活動を一元化し、360度の顧客理解を実現します。",
+                "usage": "CRMシステムの役割を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "ブランディング、コンテンツ戦略、パフォーマンス測定",
+            "phrases": [
+              {
+                "korean": "브랜딩은 브랜드의 정체성, 가치, 개성, 메시지를 정의하여 감정적 연결과 경쟁에서의 차별화를 창출합니다.",
+                "romaji": "Beuraending-eun beuraendeu-ui jeongche seong, gachi, gaeseonj, mesiji-reul jeongui hayeo gamjeonj jeoug yeon-kyeol-gwa gyeongchnaeng-e-seo-ui chal dal hwahwae-reul changchul hamnida",
+                "japanese": "ブランディングはブランドのアイデンティティ、価値、パーソナリティ、メッセージを定義し、感情的な結びつきと競争での差別化を創造します。",
+                "usage": "ブランディング戦略を説明するとき"
+              },
+              {
+                "korean": "콘텐츠 마케팅 전략은 가치 있고, 관련 있고, 일관된 콘텐츠를 개발하여 목표 고객을 끌어들이고, 유지하며, 업계에서 권위를 확립합니다.",
+                "romaji": "Content maketing jeonryak-eun gachi isgo, gwanryeon isgo, il-gwan-doen content-eul gaebargat hayeo mokpyo goggaeg-eul kkeul-eo deul-igo, yuji hayeo-imyeo, eob-gyae-e-seo gwonwe-reul hwaklib hamnida",
+                "japanese": "コンテンツマーケティング戦略は価値があり、関連性があり、一貫したコンテンツを開発し、ターゲットオーディエンスを引き付け、保持し、業界での権威を確立します。",
+                "usage": "コンテンツ戦略の重要性を強調するとき"
+              },
+              {
+                "korean": "핵심성과지표(KPI)인 전환율, 고객획득비용(CAC), 고객생애가치(LTV), ROI 등은 마케팅 효율성을 측정하고 전략적 결정을 안내합니다.",
+                "romaji": "Haekshim seonggwa jigyo (KPI)-in jeonwhansul, goggaeg hwakgutseong bigyong (CAC), goggaeg saengthae gachi (LTV), ROI deung-eun maketing hyoeul seong-eul cheuksyeong hago jeonryagjeoug gyeoljeonj-eul angnaee hamnida",
+                "japanese": "主要業績評価指標（KPI）のようなコンバージョン率、顧客獲得費用（CAC）、顧客生涯価値（LTV）、ROIはマーケティング効率を測定し、戦略的決定を導きます。",
+                "usage": "マーケティングの成果測定を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-044-q1",
+          "type": "fill-blank",
+          "question": "「マーケティング戦略はターゲット、価値提案、ポジショニング、価格、流通を定義します」を韓国語で言ってください。",
+          "answer": "마케팅 전략은 목표 고객, 가치 제안, 포지셔닝, 가격 책정, 배포 채널을 정의합니다."
+        },
+        {
+          "id": "ko-044-q2",
+          "type": "multiple-choice",
+          "question": "顧客セグメンテーションの基準は？",
+          "options": [
+            "人口統計、心理的特性、行動、ニーズ",
+            "年齢のみ",
+            "収入だけ",
+            "地域のみ"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-044-q3",
+          "type": "fill-blank",
+          "question": "「デジタルマーケティングはSEO、SEM、ソーシャルメディア、メール、コンテンツを含みます」を韓国語で言ってください。",
+          "answer": "디지털 마케팅은 SEO, SEM, 소셜미디어 마케팅, 이메일 마케팅, 콘텐츠 마케팅을 포함합니다."
+        },
+        {
+          "id": "ko-044-q4",
+          "type": "multiple-choice",
+          "question": "SEOの目的は？",
+          "options": [
+            "検索エンジンでの有機的可視性向上",
+            "有料広告のみ",
+            "テレビCMのみ",
+            "印刷メディア"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-044-q5",
+          "type": "fill-blank",
+          "question": "「データドリブンマーケティングは顧客行動を予測し、キャンペーンを最適化します」を韓国語で言ってください。",
+          "answer": "데이터 기반 마케팅은 고객 행동을 예측하고, 캠페인을 최적화합니다."
+        },
+        {
+          "id": "ko-044-q6",
+          "type": "matching",
+          "question": "マーケティング技術とその機能を正しく組み合わせてください。",
+          "pairs": [
+            {"tech": "CRM", "description": "顧客関係管理"},
+            {"tech": "Marketing Automation", "description": "キャンペーン自動化"},
+            {"tech": "Analytics", "description": "データ分析"}
+          ]
+        },
+        {
+          "id": "ko-044-q7",
+          "type": "fill-blank",
+          "question": "「ブランディングはアイデンティティ、価値、パーソナリティを定義します」を韓国語で言ってください。",
+          "answer": "브랜딩은 브랜드의 정체성, 가치, 개성, 메시지를 정의합니다."
+        },
+        {
+          "id": "ko-044-q8",
+          "type": "multiple-choice",
+          "question": "マーケティング効果測定の主要KPIは？",
+          "options": [
+            "コンバージョン率、CAC、LTV、ROI",
+            "クリック数のみ",
+            "ビュー数だけ",
+            "フォロワー数"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "マーケティング・デジタルマーケティング：戦略・SEO・ソーシャルメディア・データ分析",
+          "duration": "33分",
+          "description": "マーケティング戦略と4P。顧客セグメンテーション。カスタマージャーニー。SEO・キーワード戦略。ソーシャルメディアマーケティング。データ分析とAI。マーケティングオートメーション。KPI測定。"
+        },
+        {
+          "type": "grammar",
+          "title": "マーケティング用語とマーケティングコミュニケーション表現",
+          "content": "マーケティング複合語：Marketing Strategy（マーケティング戦略）、Target Audience（ターゲットオーディエンス）、Value Proposition（価値提案）、Customer Acquisition（顧客獲得）。デジタル用語：Search Engine Optimization（SEO）、Search Engine Marketing（SEM）、Social Media Marketing（ソーシャルメディアマーケティング）、Content Marketing（コンテンツマーケティング）。分析用語：Key Performance Indicator（KPI）、Conversion Rate（コンバージョン率）、Customer Lifetime Value（顧客生涯価値）。"
+        },
+        {
+          "type": "note",
+          "title": "韓国のマーケティング文化とデジタル戦略",
+          "content": "韓国：高速デジタル化、ソーシャルコマースの活発性。Kakao、Naver のテック企業マーケティング。K-pop、K-beauty のグローバルマーケティング。Seoul のマーケティングハブ。モバイルファースト文化。"
+        },
+        {
+          "type": "note",
+          "title": "デジタルマーケティング戦術と媒体",
+          "content": "Google Ads、Facebook Ads、LinkedIn Ads での有料広告。Organic Social Media：Instagram、TikTok、YouTube。Email Marketing Automation：Mailchimp、ConvertKit。Content Distribution：Blogging、Podcasting、Webinars。Affiliate Marketing、Referral Programs。"
+        },
+        {
+          "type": "note",
+          "title": "データ分析とマーケティング測定",
+          "content": "Google Analytics、GA4、Adobe Analytics。UTM パラメータトラッキング。A/B テスト、多変量テスト。Attribution Modeling：First-click、Last-click、Multi-touch。Customer Funnel Analysis：Awareness→Consideration→Decision→Retention。"
+        },
+        {
+          "type": "note",
+          "title": "ブランディングとコンテンツ戦略",
+          "content": "Brand Positioning Map。Brand Messaging Framework。Content Pillars、Topic Clusters。Editorial Calendar。SEO Content Strategy。Storytelling と Emotional Connection。Visual Branding と Design Systems。"
+        },
+        {
+          "type": "practice",
+          "title": "総合的なデジタルマーケティングキャンペーン企画と実行",
+          "content": "あなたが B2B SaaS 企業のマーケティングマネージャーとします。新製品ローンチのための総合的なデジタルマーケティングキャンペーンを企画します。ターゲットオーディエンス分析、ペルソナ開発、カスタマージャーニーマッピング、マルチチャネル戦略（SEO、SEM、Social Media、Email、Content）の設計を含めます。具体的な KPI 設定、予算配分、タイムライン、各チャネルの成功メトリクスと測定方法を詳細に述べてください。"
+        }
+      ]
     }
   ]
 }
