@@ -3614,6 +3614,220 @@
           "content": "友人と医者と患者の役を分担し、症状説明、診察質問、処方薬について説明、会計など一連の医療相談プロセスをロールプレイしてみてください。韓国語の敬語を意識しながら進めることがポイント。"
         }
       ]
+    },
+    {
+      "id": "ko-024",
+      "level": 4,
+      "title": "メディア・ニュース・ジャーナリズム",
+      "titleKo": "미디어, 뉴스, 그리고 저널리즘",
+      "objectives": [
+        "ニュース・メディア関連の語彙を習得する",
+        "新聞記事やニュース報道を理解できる",
+        "ジャーナリズムの基本概念と倫理を学ぶ",
+        "メディアクリティシズムを身につける"
+      ],
+      "content": {
+        "introduction": "現代社会においてメディアリテラシーは必須スキルです。このレッスンでは、韓国のニュース環境、ジャーナリズムの伝統、メディアの信頼性評価、ニュース記事の読み方など、実践的な韓国語でのメディア理解を学びます。韓国は報道の自由が活発で、多様なメディア環境を持つアジアの主要国です。",
+        "sections": [
+          {
+            "title": "メディアタイプと情報源",
+            "phrases": [
+              {
+                "korean": "신문을 읽고 뉴스를 보는 것이 중요합니다.",
+                "romaji": "sinmuneul ilgo nyusureul boneun geosi jungyohamnida",
+                "japanese": "新聞を読み、ニュースを見ることが重要です。",
+                "usage": "ニュースの情報源の多様性を説明するとき。複数のメディアから情報を得ることの重要性"
+              },
+              {
+                "korean": "온라인 뉴스는 빠르고 최신입니다.",
+                "romaji": "onrain nyusneun ppareugeo choesinmnida",
+                "japanese": "オンラインニュースは迅速で最新です。",
+                "usage": "デジタルメディアの利点を説明するとき。インターネット時代のニュース流通"
+              },
+              {
+                "korean": "소셜 미디어는 정보를 빠르게 전파하지만, 신뢰도가 낮습니다.",
+                "romaji": "soseol midieaneun jeongboereul ppareuge jeonpahajiman, sinryoedoga nawseumnida",
+                "japanese": "ソーシャルメディアは情報をより速く拡散しますが、信頼性は低いです。",
+                "usage": "SNSとメディアの関係、情報の信頼性について議論するとき"
+              }
+            ]
+          },
+          {
+            "title": "ニュース記事の構造と読解",
+            "phrases": [
+              {
+                "korean": "이 기사는 현재의 주제를 다루고 다양한 관점을 제공합니다.",
+                "romaji": "i giasaneun hyeonjaeui jujereul dareugeo dayanghhan gwanjeomeul jegonghamnida",
+                "japanese": "その記事は現在の話題を扱い、様々な視点を提供しています。",
+                "usage": "ニュース記事の内容構成を説明するとき。多角的報道の重要性"
+              },
+              {
+                "korean": "헤드라인은 매력적이지만, 때때로 과장입니다.",
+                "romaji": "hedeuraini maeryeokjeogijiман, ttaettaero gwajang imnida",
+                "japanese": "見出しは印象的ですが、時には誇張です。",
+                "usage": "ニュース記事の見出しと本文の相違について検討するとき"
+              },
+              {
+                "korean": "출처 표시와 팩트 체크는 신뢰할 수 있는 저널리즘에 중요합니다.",
+                "romaji": "chulcheo pyosigwa paektu chekneun sinryoehhal su isneun jeolnallijeume jungyohamnida",
+                "japanese": "出典記載とファクトチェックは信頼できるジャーナリズムにとって重要です。",
+                "usage": "ジャーナリズムの倫理と信頼性について説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "ジャーナリストと報道の自由",
+            "phrases": [
+              {
+                "korean": "기자들은 독립적이고 객관적으로 중요한 사건을 보도합니다.",
+                "romaji": "giajadeureun doklibjeokigo gaekgwanjeogseuro jungyohan sageon'eul bododohamnida",
+                "japanese": "ジャーナリストは独立して客観的に重要な出来事について報道します。",
+                "usage": "ジャーナリズムの役割と専門性を説明するとき。報道の自由の重要性"
+              },
+              {
+                "korean": "언론의 자유는 민주주의 국가의 기본적 인권입니다.",
+                "romaji": "eolronui jayureun minjujuui gukgaui gibonjeok ingyeonimnida",
+                "japanese": "報道の自由は民主主義国家の基本的人権です。",
+                "usage": "民主主義と報道の自由の関係を議論するとき"
+              },
+              {
+                "korean": "편집 독립성은 정치적 압력과 조작으로부터 보호합니다.",
+                "romaji": "pyeonjip doklibseong jeongchijik apryeokgwa jojakeuRobuteo bohohabnida",
+                "japanese": "編集上の独立性は政治的圧力と操作から守ります。",
+                "usage": "メディアの独立性とそれを脅かす要素について説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "メディアクリティシズムとメディアリテラシー",
+            "phrases": [
+              {
+                "korean": "비판적으로 생각하고 출처의 신뢰도를 확인해야 합니다.",
+                "romaji": "bipanjeogseuro saenggakhago chulcheoui sinryoedoreul hwakinhae-ya hamnida",
+                "japanese": "批判的に考え、情報源の信頼性を確認するべきです。",
+                "usage": "メディアリテラシー、ファクトチェックの実践方法を説明するとき"
+              },
+              {
+                "korean": "가짜 뉴스와 거짓 정보는 사회의 도전 과제입니다.",
+                "romaji": "gajja nyusewa geojis jeongoeneun sahwoeui docheon gwajeimnida",
+                "japanese": "フェイクニュースと偽情報は社会にとって課題です。",
+                "usage": "現代的なメディアの課題、情報汚染について議論するとき"
+              },
+              {
+                "korean": "미디어 다양성은 다양한 목소리와 관점을 촉진합니다.",
+                "romaji": "mideia dayangseongeun dayanghhan moksorireul gwaljeomeul chokjinhamnida",
+                "japanese": "メディアの多様性は異なる声と視点を促進します。",
+                "usage": "メディアの多様性と民主的社会の関係を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-024-q1",
+          "type": "fill-blank",
+          "question": "「新聞を読み、ニュースを見ることが重要です」を韓国語で言ってください。",
+          "answer": "신문을 읽고 뉴스를 보는 것이 중요합니다."
+        },
+        {
+          "id": "ko-024-q2",
+          "type": "multiple-choice",
+          "question": "オンラインニュースの主な特徴は何ですか？",
+          "options": [
+            "迅速で最新の情報を提供する",
+            "印刷に時間がかかる",
+            "情報源が限られている",
+            "ソーシャルメディアより信頼性が低い"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-024-q3",
+          "type": "fill-blank",
+          "question": "「報道の自由は民主主義国家の基本的人権です」を韓国語で言ってください。",
+          "answer": "언론의 자유는 민주주의 국가의 기본적 인권입니다."
+        },
+        {
+          "id": "ko-024-q4",
+          "type": "multiple-choice",
+          "question": "ジャーナリストの報道に求められる主な原則は？",
+          "options": [
+            "独立性と客観性",
+            "政治的偏見の表現",
+            "個人的な意見の優先",
+            "最速での情報発表"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-024-q5",
+          "type": "fill-blank",
+          "question": "「批判的に考え、情報源の信頼性を確認するべきです」を韓国語で言ってください。",
+          "answer": "비판적으로 생각하고 출처의 신뢰도를 확인해야 합니다."
+        },
+        {
+          "id": "ko-024-q6",
+          "type": "matching",
+          "question": "メディアの概念と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"concept": "언론의 자유", "explanation": "報道の自由"},
+            {"concept": "팩트 체크", "explanation": "事実確認"},
+            {"concept": "가짜 뉴스", "explanation": "フェイクニュース"}
+          ]
+        },
+        {
+          "id": "ko-024-q7",
+          "type": "fill-blank",
+          "question": "「ソーシャルメディアは情報をより速く拡散しますが、信頼性は低いです」を韓国語で言ってください。",
+          "answer": "소셜 미디어는 정보를 빠르게 전파하지만, 신뢰도가 낮습니다."
+        },
+        {
+          "id": "ko-024-q8",
+          "type": "multiple-choice",
+          "question": "メディアシステムの多様性が重要な理由は？",
+          "options": [
+            "異なる声と視点を促進するため",
+            "報道速度を加速させるため",
+            "メディア企業の利益を増やすため",
+            "政治的支配を確立するため"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国のメディアシステムとジャーナリズムの伝統",
+          "duration": "17分",
+          "description": "KBS、MBC、SBS による放送ネットワーク。朝鮮日報、中央日報、東亜日報などの全国紙。デジタルメディアプラットフォーム"
+        },
+        {
+          "type": "grammar",
+          "title": "ニュース記事に頻出する文法と表現",
+          "content": "受動態（～는 보도된다）の使用頻度。接続詞「～면서도」（～にもかかわらず）による対比表現。「～에 따르면」（～によると）による引用表現。複合文での情報統合"
+        },
+        {
+          "type": "note",
+          "title": "韓国ジャーナリズムの特徴と歴史",
+          "content": "韓国は急速に発展したメディアシステムを持つ国。KBS、MBC、SBSなどの大型放送局と、朝鮮日報、中央日報などの有力紙。ネットユーザーが情報発信に参加する一方で、情報の信頼性が課題。民主化以降の報道の自由の実践"
+        },
+        {
+          "type": "note",
+          "title": "メディアリテラシーの実践ルール",
+          "content": "複数の情報源から情報を確認する（cross-checking）。著者と出版社の背景を知る。グラフやデータの出典を確認する。個人的なバイアスを認識する。ネットメディアの編集方針を理解する。"
+        },
+        {
+          "type": "note",
+          "title": "デジタル時代のメディアの課題と機会",
+          "content": "フェイクニュースと偽情報の急速な拡散。プラットフォーム企業による情報フィルタリング。従来メディアのデジタル転換。ニュースサブスクリプションモデルの普及。ソーシャルメディア時代のジャーナリズムの役割"
+        },
+        {
+          "type": "practice",
+          "title": "ニュース記事のクリティカルリーディング",
+          "content": "韓国のニュースサイト（ポータル「네이버」「다음」など）から実際の記事を選んで読んでみてください。見出し、記事構成、引用元、コメント欄を確認します。その後、友人と記事について議論し、異なる解釈や視点を共有してください。"
+        }
+      ]
     }
   ]
 }
