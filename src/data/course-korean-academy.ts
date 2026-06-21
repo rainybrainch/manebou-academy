@@ -44,6 +44,15 @@ export const koreanAcademyCategory: Category = {
               title: '辛さレベルの指定方法',
               content: '- 안 맵게 (an maep-ke) - 辛くなく\n- 약간 맵게 (yakkan maep-ke) - ちょっと辛く\n- 보통 맵게 (botong maep-ke) - 普通に辛く\n- 많이 맵게 (mani maep-ke) - 辛く',
             },
+            {
+              type: 'heading',
+              level: 2,
+              content: '実践例：レストラン会話',
+            },
+            {
+              type: 'text',
+              content: '**店員：**"어서오세요! 몇 분이세요?"\n**あなた：**"두 명이에요."\n\n**店員：**"뭘 드시겠어요?"\n**あなた：**"비빔밥이랑 불고기 부탁해요. 덜 맵게 해주세요."\n\n**店員：**"음료는 어떻게 하실래요?"\n**あなた：**"콜라 두 잔 주세요."\n\n**店員：**"알겠습니다. 잠깐만요."\n\n--- 食事後 ---\n\n**あなた：**"정말 맛있었어요! 계산해주세요."\n**店員：**"감사합니다. 35,000원이에요."',
+            },
           ],
         },
         {
@@ -72,6 +81,15 @@ export const koreanAcademyCategory: Category = {
               type: 'text',
               content: '**季節**\n- 봄 (bom) - 春\n- 여름 (yeoreum) - 夏\n- 가을 (gaeul) - 秋\n- 겨울 (gyeowul) - 冬\n\n**天気**\n- 맑다 (malkda) - 晴れている\n- 흐리다 (huirida) - 曇っている\n- 비가 온다 (biga onda) - 雨が降る\n- 눈이 온다 (nuni onda) - 雪が降る\n- 바람이 불다 (barami bulda) - 風が吹く\n\n**天気の会話**\n- "날씨가 어때요?" - 天気どうですか？\n- "날씨가 좋아요" - 天気がいいです\n- "오늘 춥네요" - 今日は寒いですね\n- "우산을 가져가세요" - 傘を持って行ってください',
             },
+            {
+              type: 'heading',
+              level: 2,
+              content: '実践例：天気についての会話',
+            },
+            {
+              type: 'text',
+              content: '**A：**"날씨가 정말 좋네요!"\n**B：**"맞아요. 가을이라 날씨가 최고야."\n\n**A：**"내일도 맑을까요?"\n**B：**"내일은 흐릴 거 같아. 우산 챙겨."\n\n**A：**"겨울이 언제 시작해요?"\n**B：**"12월부터지. 눈도 많이 올 거야."\n\n**A：**"정말? 스키 타러 가고 싶어!"\n**B：**"좋은 생각이야! 같이 가자!"',
+            },
           ],
         },
         {
@@ -99,6 +117,15 @@ export const koreanAcademyCategory: Category = {
             {
               type: 'text',
               content: '**肯定的な感情**\n- 기쁘다 (gippeuda) - 嬉しい\n- 행복하다 (haengbokhada) - 幸せだ\n- 신나다 (sinnada) - 楽しい、ワクワクしている\n- 반갑다 (bangapda) - 嬉しい（会えて）\n\n**否定的な感情**\n- 슬프다 (seulpeuda) - 悲しい\n- 화나다 (hwanada) - 怒っている\n- 속상하다 (soksanghada) - 落ち込んでいる\n- 외롭다 (oeropda) - 寂しい\n\n**ドラマで頻出**\n- "괜찮아요" (gwaenchanhayo) - 大丈夫です\n- "미안해요" (mianhayo) - ごめんなさい\n- "사랑해요" (saranghayo) - 愛しています\n- "헤어져야 해요" (heeojyeoya haeyo) - 別れなければいけません',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: '実践例：感情表現の会話',
+            },
+            {
+              type: 'text',
+              content: '**嬉しい場面**\n**A：**"드디어 만났어!"\n**B：**"정말! 너무 반가워. 오랜만이야!"\n**A：**"나도 너무 행복해!"\n\n**悲しい場面**\n**A：**"뭐야? 왜 그렇게 슬픈 표정이야?"\n**B：**"...나 지금 정말 외로워. 혼자라고 생각해."\n**A：**"괜찮아. 내가 옆에 있어."\n\n**怒った場面**\n**A：**"넌 나한테 뭐 했어?!"\n**B：**"미안해... 정말 미안해. 화내지 마..."\n**A：**"화났지! 어떻게 날 이렇게 속상하게 할 수 있어!"',
             },
           ],
         },
