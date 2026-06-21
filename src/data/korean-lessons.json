@@ -4684,6 +4684,220 @@
           "content": "韓国の芸術作品（絵画、彫刻、文学作品、映画等）を選んで、その作品について友人と議論してみてください。作品の背景、美的特徴、文化的意味、個人的な解釈を共有します。複数の視点から作品を理解し、芸術的対話を実践してください。"
         }
       ]
+    },
+    {
+      "id": "ko-029",
+      "level": 4,
+      "title": "スポーツ・ウェルネス・ライフスタイル",
+      "titleKo": "스포츠, 웰니스, 그리고 건강한 라이프스타일",
+      "objectives": [
+        "スポーツと身体活動に関する語彙を習得する",
+        "フィットネスとトレーニングについて議論できる",
+        "ウェルネスと精神衛生の関係を理解する",
+        "持続可能な健康的ライフスタイルを構築する"
+      ],
+      "content": {
+        "introduction": "スポーツとウェルネスは現代社会の中心的課題です。このレッスンでは、様々なスポーツ、フィットネストレーニング、ウェルネス実践、精神衛生、持続可能な健康ライフスタイルについて、実践的な韓国語を学びます。韓国はテコンドーとe-スポーツで国際的に知られ、健康とフィットネス産業が急速に成長しています。",
+        "sections": [
+          {
+            "title": "スポーツと運動の種類",
+            "phrases": [
+              {
+                "korean": "스포츠와 운동은 신체적, 정신적 건강에 필수적입니다.",
+                "romaji": "seupocheusugwa undongeun sinsoche-jeog, jeongsinjeog geonganghae pilsujeogimnida",
+                "japanese": "スポーツと運動は身体的、精神的健康に不可欠です。",
+                "usage": "スポーツの多面的な価値を説明するとき。健康と幸福"
+              },
+              {
+                "korean": "축구, 테니스, 수영, 달리기, 요가 등 많은 스포츠가 있습니다.",
+                "romaji": "chuggu, teniseu, suyeong, dalligi, yoga deung maneun seupocheuseu-ga isseumnida",
+                "japanese": "サッカー、テニス、水泳、ランニング、ヨガなど多くのスポーツがあります。",
+                "usage": "異なるスポーツの種類と多様性を列挙するとき"
+              },
+              {
+                "korean": "규칙적인 신체 활동은 만성 질환의 위험을 감소시킵니다.",
+                "romaji": "gyuchik-jeokin sinsthe hwaldong eun manseong jilhwan ui wiheom eul gamsosikkimnida",
+                "japanese": "定期的な身体活動は慢性疾患のリスクを低減します。",
+                "usage": "運動と疾病予防の科学的関係を説明するとき。予防医学"
+              }
+            ]
+          },
+          {
+            "title": "フィットネスとトレーニング",
+            "phrases": [
+              {
+                "korean": "피트니스 훈련은 근력, 지구력, 유연성 운동을 포함합니다.",
+                "romaji": "piteuneseu hunryeon eun geunryeog, jigoryeog, yuyeonseong undongeul pohanhamnida",
+                "japanese": "フィットネストレーニングは、強度、耐久性、柔軟性の運動を含みます。",
+                "usage": "トレーニングの全体的なアプローチを説明するとき。総合的フィットネス"
+              },
+              {
+                "korean": "맞춤형 운동 계획은 개인의 목표와 피트니스 수준을 고려합니다.",
+                "romaji": "matchumhyeong undongg gyehoaek eun gae-in ui mokpyo-wa piteuneseu sujun eul goryeo hamnida",
+                "japanese": "個別化されたトレーニング計画は個人の目標とフィットネスレベルを考慮します。",
+                "usage": "効果的なトレーニング設計の原則を説明するとき。個別化"
+              },
+              {
+                "korean": "회복과 휴식은 훈련 그 자체만큼 중요합니다.",
+                "romaji": "hoebok-gwa hyusig eun hunryeon geu jachae-mankeum jungyohamnida",
+                "japanese": "回復と休息はトレーニング自体と同じくらい重要です。",
+                "usage": "オーバートレーニング防止と回復の重要性を説明するとき。バランス"
+              }
+            ]
+          },
+          {
+            "title": "ウェルネスと精神衛生",
+            "phrases": [
+              {
+                "korean": "웰니스는 신체적, 정신적, 감정적, 사회적 안녕을 의미합니다.",
+                "romaji": "welniseu neun sinsthe-jeog, jeongsinjeog, gamjeongjeoug, sahoejeoug annyeong eul uimihabnida",
+                "japanese": "ウェルネスとは身体的、精神的、感情的、社会的安寧を意味します。",
+                "usage": "ウェルネスの多面的な本質を説明するとき。全人的健康"
+              },
+              {
+                "korean": "명상, 마음챙김, 스트레스 관리는 정신 건강을 증진합니다.",
+                "romaji": "myeongsang, maeum-chaenggim, seuteureseu gwanri neun jeongsin geongangeul jeungjin hamnida",
+                "japanese": "瞑想、マインドフルネス、ストレスマネジメントは精神的健康を促進します。",
+                "usage": "精神衛生の実践的方法を説明するとき。心理的レジリエンス"
+              },
+              {
+                "korean": "사회적 관계와 커뮤니티는 행복감의 필수 요소입니다.",
+                "romaji": "sahoejeoug gwangyesgwa keomyunitei neun haengbokgam ui pilsu yosoeul imnida",
+                "japanese": "社会的関係とコミュニティは幸福感の本質的な要素です。",
+                "usage": "人間関係と精神衛生の関連性を説明するとき。社会的ウェルネス"
+              }
+            ]
+          },
+          {
+            "title": "持続可能な健康ライフスタイル",
+            "phrases": [
+              {
+                "korean": "지속가능한 건강 루틴은 현실적인 목표와 지속적인 적응이 필요합니다.",
+                "romaji": "jisokganeunghahnn geongang lutin eun hyeonsiljeog-in mokpyo-wa jissogejeog-in jeog-eob-i piryohamnida",
+                "japanese": "持続可能な健康ルーチンは現実的な目標と継続的な適応が必要です。",
+                "usage": "長期的な健康習慣形成を説明するとき。行動変化"
+              },
+              {
+                "korean": "영양, 운동, 수면, 정신적 안녕은 건강의 네 기둥입니다.",
+                "romaji": "yeongyanggg, undongg, sumeol, jeongsinjeog annyeong eun geongang ui ne gidung imnida",
+                "japanese": "栄養、運動、睡眠、精神的幸福は健康の4つの柱です。",
+                "usage": "包括的な健康アプローチを説明するとき。統合的理解"
+              },
+              {
+                "korean": "질병 예방은 질병 치료보다 비용 효율적이고 효과적입니다.",
+                "romaji": "jilbyeong yeyeob eun jilbyeong chyoryo-boda biyong hyoyul-jeok-i-go hyokgwa-jeogimnida",
+                "japanese": "予防は疾患の治療よりも費用対効果が高く効果的です。",
+                "usage": "予防的健康管理の経済的価値を説明するとき。公衆衛生"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-029-q1",
+          "type": "fill-blank",
+          "question": "「スポーツと運動は身体的、精神的健康に不可欠です」を韓国語で言ってください。",
+          "answer": "스포츠와 운동은 신체적, 정신적 건강에 필수적입니다."
+        },
+        {
+          "id": "ko-029-q2",
+          "type": "multiple-choice",
+          "question": "ウェルネスの定義として正しいのはどれですか？",
+          "options": [
+            "身体的、精神的、感情的、社会的安寧",
+            "単に体の運動",
+            "医学的治療のみ",
+            "娯楽とエンターテインメント"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-029-q3",
+          "type": "fill-blank",
+          "question": "「定期的な身体活動は慢性疾患のリスクを低減します」を韓国語で言ってください。",
+          "answer": "규칙적인 신체 활동은 만성 질환의 위험을 감소시킵니다."
+        },
+        {
+          "id": "ko-029-q4",
+          "type": "multiple-choice",
+          "question": "フィットネストレーニングに含まれるのは？",
+          "options": [
+            "強度、耐久性、柔軟性の運動",
+            "娯楽活動のみ",
+            "瞑想だけ",
+            "無計画な運動"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-029-q5",
+          "type": "fill-blank",
+          "question": "「回復と休息はトレーニング自体と同じくらい重要です」を韓国語で言ってください。",
+          "answer": "회복과 휴식은 훈련 그 자체만큼 중요합니다."
+        },
+        {
+          "id": "ko-029-q6",
+          "type": "matching",
+          "question": "健康の要素と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"element": "영양", "description": "栄養"},
+            {"element": "운동", "description": "運動"},
+            {"element": "수면", "description": "睡眠"}
+          ]
+        },
+        {
+          "id": "ko-029-q7",
+          "type": "fill-blank",
+          "question": "「瞑想とマインドフルネスは精神的健康を促進します」を韓国語で言ってください。",
+          "answer": "명상과 마음챙김은 정신 건강을 증진합니다."
+        },
+        {
+          "id": "ko-029-q8",
+          "type": "multiple-choice",
+          "question": "予防の経済的価値は？",
+          "options": [
+            "疾患の治療よりも費用対効果が高く効果的",
+            "治療より高コスト",
+            "経済的価値がない",
+            "無視できる"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国の健康文化とスポーツ産業",
+          "duration": "19分",
+          "description": "テコンドー・e-スポーツ文化、フィットネス・ジム産業、予防医学、K-beauty と健康生活"
+        },
+        {
+          "type": "grammar",
+          "title": "健康・スポーツ用語と説明表現",
+          "content": "能力・可能性を表す「할 수 있다」「가능하다」。義務・推奨を表す「~해야 한다」「~해야 합니다」。健康用語の複合名詞（피트니스훈련、스트레스관리）。数値と統計の表現"
+        },
+        {
+          "type": "note",
+          "title": "韓国の健康文化とアクティブライフスタイル",
+          "content": "韓国はアジアで最も健康志向が高い国の一つ。テコンドーは国家スポーツ。e-スポーツは競技として認識。フィットネス産業と美容産業の連携。予防医学と웰니스（ウェルネス）への注目度が高い。"
+        },
+        {
+          "type": "note",
+          "title": "ウェルネスの多面的定義と実装",
+          "content": "身体的ウェルネス：運動・栄養・睡眠。精神的ウェルネス：ストレス管理・瞑想。感情的ウェルネス：レジリエンス・自己認識。社会的ウェルネス：関係・コミュニティ。"
+        },
+        {
+          "type": "note",
+          "title": "トレーニング科学と効果的フィットネス",
+          "content": "FITT原則（Frequency・Intensity・Time・Type）。過負荷原則と段階的進行。回復の生理学（ホルモン、筋肉修復）。過度トレーニング症候群の予防。"
+        },
+        {
+          "type": "practice",
+          "title": "個人健康計画の作成と議論",
+          "content": "友人とあなたの健康と fitness goals について議論してみてください。現在のライフスタイル、改善すべき領域、実現可能な目標、段階的実装戦略を話し合います。自分たちの価値観、制約条件、サポートシステムを考慮した個人化されたアプローチを開発してください。"
+        }
+      ]
     }
   ]
 }
