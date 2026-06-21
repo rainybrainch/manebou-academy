@@ -884,6 +884,43 @@
           "question": "「これを返品できますか？」をドイツ語で言ってください。",
           "hint": "「Kann ich」で始まります",
           "answer": "Kann ich das zurückgeben?"
+        },
+        {
+          "id": "de-004-q5",
+          "type": "fill-blank",
+          "question": "「別の色でありますか？」をドイツ語で言ってください。",
+          "hint": "「Haben Sie」で始まります",
+          "answer": "Haben Sie das in einer anderen Farbe?"
+        },
+        {
+          "id": "de-004-q6",
+          "type": "multiple-choice",
+          "question": "「Das ist hochwertig」という表現の意味として正しいのはどれですか？",
+          "options": [
+            "これは安いです",
+            "これは高品質です",
+            "これは新しいです",
+            "これは人気です"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "de-004-q7",
+          "type": "fill-blank",
+          "question": "「これは私には高すぎます」をドイツ語で言ってください。",
+          "hint": "「Das ist」で始まります",
+          "answer": "Das ist zu teuer für mich."
+        },
+        {
+          "id": "de-004-q8",
+          "type": "matching",
+          "question": "以下のショッピング用語を正しく組み合わせてください。",
+          "pairs": [
+            {"german": "Größe", "meaning": "サイズ"},
+            {"german": "Material", "meaning": "素材"},
+            {"german": "Rabatt", "meaning": "割引"},
+            {"german": "Garantie", "meaning": "保証"}
+          ]
         }
       ],
       "resources": [
@@ -891,17 +928,32 @@
           "type": "video",
           "title": "ドイツでのショッピング実践会話",
           "url": "#",
-          "duration": "10分"
+          "duration": "12分"
         },
         {
           "type": "grammar",
           "title": "Können + 動詞の使い方",
-          "content": "「Können Sie～?」は「～できますか？」という敬語表現。買い物では非常によく使用される構文。"
+          "content": "「Können Sie～?」は「～できますか？」という敬語表現。買い物では非常によく使用される構文。完全な例：Können Sie mir einen kleineren Pullover geben? = より小さいセーターをいただけますか？"
+        },
+        {
+          "type": "grammar",
+          "title": "比較級（高い・安い）の表現",
+          "content": "「teuer（高い）→ teurer（より高い）」「billig（安い）→ billiger（より安い）」。最上級は「am teuersten（最も高い）」「am billigsten（最も安い）」。"
         },
         {
           "type": "note",
           "title": "ドイツのショッピング文化",
-          "content": "ドイツの店舗は品質重視。価格交渉はあまり一般的ではありません。セール（Ausverkauf）期間が年2回あります。"
+          "content": "ドイツの店舗は品質重視。価格交渉はあまり一般的ではありません。セール（Ausverkauf）期間が年2回（冬・夏）あります。返品期間は通常14日以内で、購入証明書（Quittung）が必要です。"
+        },
+        {
+          "type": "note",
+          "title": "支払い方法の変化",
+          "content": "現金（Bargeld）の使用は減少し、クレジットカード（Kreditkarte）やEC-Card（デビットカード）が一般的。小額決済では「kontaktlos」（非接触型）が一般的です。"
+        },
+        {
+          "type": "practice",
+          "title": "ショッピング会話ロールプレイ",
+          "content": "友人と「店員と顧客」の役割分担でショッピング会話を練習してみてください。価格確認 → サイズ選び → 割引交渉 → 支払い という流れを実践してみましょう。"
         }
       ]
     },
@@ -1100,6 +1152,42 @@
           "type": "fill-blank",
           "question": "「私はベジタリアンです」をドイツ語で言ってください。",
           "answer": "Ich bin Vegetarier."
+        },
+        {
+          "id": "de-005-q5",
+          "type": "fill-blank",
+          "question": "「このステーキはどのくらい焼きますか？」をドイツ語で言ってください。",
+          "hint": "「Wie」で始まります",
+          "answer": "Wie mögen Sie Ihr Steak?"
+        },
+        {
+          "id": "de-005-q6",
+          "type": "multiple-choice",
+          "question": "レストランで敬語を使うべき場面はどれですか？",
+          "options": [
+            "家族との食事時",
+            "友人とのカジュアルな食事",
+            "レストランで店員と会話する時",
+            "全ての場面"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "de-005-q7",
+          "type": "fill-blank",
+          "question": "「私はアレルギーがあります」をドイツ語で言ってください。",
+          "hint": "「Ich habe」で始まります",
+          "answer": "Ich habe eine Allergie."
+        },
+        {
+          "id": "de-005-q8",
+          "type": "matching",
+          "question": "以下のドイツ料理を正しく組み合わせてください。",
+          "pairs": [
+            {"german": "Schnitzel", "meaning": "肉のカツ"},
+            {"german": "Bratwurst", "meaning": "ソーセージ"},
+            {"german": "Spätzle", "meaning": "ドイツ風パスタ"}
+          ]
         }
       ],
       "resources": [
