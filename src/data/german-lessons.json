@@ -7546,6 +7546,225 @@
           "content": "あなたがドイツのエネルギー企業のプロジェクトマネージャーとします。大規模な再生可能エネルギープロジェクト（太陽光農場 + 風力発電所）の企画を立案します。サイトの選定・環境評価、技術仕様（容量・効率）、スマートグリッド統合、エネルギー貯蔵システム設計、資金調達戦略、規制対応、地域コミュニティとの連携、環境への影響評価、10年財務予測、ESG報告を含めます。"
         }
       ]
+    },
+    {
+      "id": "de-034",
+      "level": 5,
+      "title": "農業・食料産業：精密農業・スマート農業・食品サプライチェーン",
+      "titleDe": "Landwirtschaft und Lebensmittelindustrie: Präzisionslandwirtschaft, Smart Farming, Lebensmittel-Lieferkette",
+      "objectives": [
+        "現代農業の技術革新と持続可能性を理解する",
+        "精密農業、スマート農業、IoT活用に関する専門用語を習得する",
+        "食品サプライチェーン、トレーサビリティ、品質管理を理解する",
+        "有機農業、地域農業、デジタル農業の新しいビジネスモデルを習得する"
+      ],
+      "content": {
+        "introduction": "農業産業は食糧安全保障と持続可能性の鍵です。ドイツの有機農業文化と精密農業技術、韓国のスマート農業は、農業デジタル化の最前線にあります。このレッスンでは、精密農業技術、農業IoT、食品トレーサビリティ、持続可能な農業慣行に関する高度なドイツ語を学びます。",
+        "sections": [
+          {
+            "title": "現代農業と精密農業技術",
+            "phrases": [
+              {
+                "german": "Präzisionslandwirtschaft nutzt Technologie (GPS, Sensoren, Drohnen, Datenanalyse) zur Optimierung von Ressourcennutzung, Ertragsmaximierung, und Kostenreduktion.",
+                "romaji": "Präzisionslandwirtschaft nutzt Technologie (GPS, Sensoren, Drohnen, Datenanalyse) zur Optimierung",
+                "japanese": "精密農業は技術（GPS、センサー、ドローン、データ分析）を使用して、資源利用の最適化、収量最大化、コスト削減を実現します。",
+                "usage": "精密農業の概念を説明するとき"
+              },
+              {
+                "german": "Bodensensoren, Pflanzenüberwachung, Wetterdaten, und Ertragsmaps ermöglichen Echtzeit-Entscheidungen, um Düngemittel, Wasser, und Pestizide gezielt einzusetzen.",
+                "romaji": "Bodensensoren, Pflanzenüberwachung, Wetterdaten, und Ertragsmaps ermöglichen Echtzeit-Entscheidungen",
+                "japanese": "土壌センサー、植物監視、気象データ、収量マップはリアルタイム意思決定を可能にし、肥料、水、農薬を的確に配置します。",
+                "usage": "データ駆動型農業を説明するとき"
+              },
+              {
+                "german": "Vertikale Landwirtschaft und Urban Farming reduzieren Transportkosten, Ressourcenverbrauch, und ermöglichen lokale Nahrungsmittelproduktion in städtischen Gebieten.",
+                "romaji": "Vertikale Landwirtschaft und Urban Farming reduzieren Transportkosten, Ressourcenverbrauch",
+                "japanese": "垂直農業と都市農業は輸送コストと資源消費を削減し、都市部での地域食料生産を可能にします。",
+                "usage": "新しい農業形式を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "スマート農業とIoT活用",
+            "phrases": [
+              {
+                "german": "Smart Farming integriert IoT-Geräte, Automatisierung, Künstliche Intelligenz, um Anbau, Ernte, Lagerung vollständig zu automatisieren und Effizienz zu maximieren.",
+                "romaji": "Smart Farming integriert IoT-Geräte, Automatisierung, Künstliche Intelligenz",
+                "japanese": "スマート農業はIoTデバイス、自動化、人工知能を統合して、栽培、収穫、保管を完全に自動化し、効率を最大化します。",
+                "usage": "スマート農業システムを説明するとき"
+              },
+              {
+                "german": "Robotik in der Landwirtschaft (automatische Ernte, autonome Traktoren, Unkrautbekämpfung) ersetzt manuelle Arbeit, reduziert Kosten, und erhöht die Produktivität.",
+                "romaji": "Robotik in der Landwirtschaft (automatische Ernte, autonome Traktoren, Unkrautbekämpfung)",
+                "japanese": "農業用ロボット（自動収穫、自動運転トラクター、雑草駆除）は手作業を置き換え、コストを削減し、生産性を向上させます。",
+                "usage": "農業ロボットの役割を説明するとき"
+              },
+              {
+                "german": "Blockchain-Technologie in der Landwirtschaft ermöglicht vollständiges Tracking von Anbau bis Verkauf, Transparenz in Lieferketten, und Authentizitätsnachweis.",
+                "romaji": "Blockchain-Technologie in der Landwirtschaft ermöglicht vollständiges Tracking",
+                "japanese": "農業におけるブロックチェーン技術は、栽培から販売までの完全なトラッキング、サプライチェーンの透明性、真正性の証明を実現します。",
+                "usage": "ブロックチェーン技術の農業応用を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "食品サプライチェーンとトレーサビリティ",
+            "phrases": [
+              {
+                "german": "Lebensmittel-Lieferketten vom Erzeuger zum Verbraucher erfordern Qualitätskontrolle, Lagermanagement, Logistik, Temperaturüberwachung, und Nachverfolgung.",
+                "romaji": "Lebensmittel-Lieferketten vom Erzeuger zum Verbraucher erfordern Qualitätskontrolle",
+                "japanese": "生産者から消費者への食品サプライチェーンは、品質管理、在庫管理、ロジスティクス、温度監視、トレーサビリティを必要とします。",
+                "usage": "食品サプライチェーンの要素を説明するとき"
+              },
+              {
+                "german": "Traceability-Systeme (Barcode, RFID, QR-Code) ermöglichen Verbrauchern, Herkunft, Anbaumethoden, Zertifikationen von Produkten zu überprüfen.",
+                "romaji": "Traceability-Systeme (Barcode, RFID, QR-Code) ermöglichen Verbrauchern",
+                "japanese": "トレーサビリティシステム（バーコード、RFID、QRコード）は消費者に製品の起源、栽培方法、認証を確認することを可能にします。",
+                "usage": "トレーサビリティシステムを説明するとき"
+              },
+              {
+                "german": "Food Safety Standards (HACCP, ISO 22000) und Zertifikationen sichern Produktqualität, Hygiene, und Verbraucherschutz in globalen Märkten.",
+                "romaji": "Food Safety Standards (HACCP, ISO 22000) und Zertifikationen sichern Produktqualität",
+                "japanese": "食品安全基準（HACCP、ISO 22000）と認証はグローバル市場における製品品質、衛生、消費者保護を保証します。",
+                "usage": "食品安全基準を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "持続可能な農業と新しいビジネスモデル",
+            "phrases": [
+              {
+                "german": "Biologische Landwirtschaft verzichtet auf synthetische Düngemittel, fördert Bodengesundheit, Biodiversität, und bietet Premium-Preise für umweltbewusste Verbraucher.",
+                "romaji": "Biologische Landwirtschaft verzichtet auf synthetische Düngemittel",
+                "japanese": "有機農業は合成肥料を控え、土壌健全性と生物多様性を促進し、環境意識のある消費者に対してプレミアム価格を提供します。",
+                "usage": "有機農業の特徴を説明するとき"
+              },
+              {
+                "german": "Urban Gardening, Community-Supported Agriculture (CSA), Farm-to-Table-Konzepte verbinden Produzenten und Verbraucher direkt, reduzieren Transportwege, fördern Lokalität.",
+                "romaji": "Urban Gardening, Community-Supported Agriculture (CSA), Farm-to-Table-Konzepte",
+                "japanese": "都市農業、コミュニティ支援農業（CSA）、ファームトゥテーブルコンセプトは生産者と消費者を直結し、輸送距離を削減し、地域性を促進します。",
+                "usage": "新しい農業ビジネスモデルを説明するとき"
+              },
+              {
+                "german": "Kreislaufwirtschaft in der Landwirtschaft nutzt Abfallprodukte, Kompost, Biogasanlagen zur Energie- und Düngemittelproduktion, um Nachhaltigkeit zu maximieren.",
+                "romaji": "Kreislaufwirtschaft in der Landwirtschaft nutzt Abfallprodukte, Kompost",
+                "japanese": "農業における循環経済は、廃棄物、堆肥、バイオガス施設を活用してエネルギーと肥料を生成し、サステイナビリティを最大化します。",
+                "usage": "循環農業経済を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-034-q1",
+          "type": "fill-blank",
+          "question": "「精密農業は技術を使用して資源利用を最適化します」をドイツ語で言ってください。",
+          "answer": "Präzisionslandwirtschaft nutzt Technologie zur Optimierung von Ressourcennutzung und Ertragsmaximierung."
+        },
+        {
+          "id": "de-034-q2",
+          "type": "multiple-choice",
+          "question": "精密農業で使用される技術は？",
+          "options": [
+            "GPS、センサー、ドローン、データ分析",
+            "手作業のみ",
+            "技術なし",
+            "昔ながらの方法"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-034-q3",
+          "type": "fill-blank",
+          "question": "「スマート農業はIoTと自動化を統合します」をドイツ語で言ってください。",
+          "answer": "Smart Farming integriert IoT-Geräte, Automatisierung, Künstliche Intelligenz."
+        },
+        {
+          "id": "de-034-q4",
+          "type": "multiple-choice",
+          "question": "農業ロボットの例は？",
+          "options": [
+            "自動収穫、自動運転トラクター、雑草駆除",
+            "人間のみ",
+            "動物のみ",
+            "機械なし"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-034-q5",
+          "type": "fill-blank",
+          "question": "「トレーサビリティシステムは製品の起源を確認できます」をドイツ語で言ってください。",
+          "answer": "Traceability-Systeme ermöglichen Verbrauchern, Herkunft und Anbaumethoden zu überprüfen."
+        },
+        {
+          "id": "de-034-q6",
+          "type": "matching",
+          "question": "トレーサビリティ技術とその説明を正しく組み合わせてください。",
+          "pairs": [
+            {"tech": "Barcode", "description": "一次元コード"},
+            {"tech": "RFID", "description": "無線識別"},
+            {"tech": "QR-Code", "description": "二次元コード"}
+          ]
+        },
+        {
+          "id": "de-034-q7",
+          "type": "fill-blank",
+          "question": "「有機農業は合成肥料を控えます」をドイツ語で言ってください。",
+          "answer": "Biologische Landwirtschaft verzichtet auf synthetische Düngemittel und fördert Bodengesundheit."
+        },
+        {
+          "id": "de-034-q8",
+          "type": "multiple-choice",
+          "question": "新しい農業ビジネスモデルの例は？",
+          "options": [
+            "都市農業、CSA、ファームトゥテーブル",
+            "大規模工業農業のみ",
+            "化学肥料農業",
+            "従来型のみ"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "農業・食料産業：精密農業・スマート農業・トレーサビリティ・持続可能性",
+          "duration": "36分",
+          "description": "精密農業技術。土壌・植物・気象データ。スマート農業とロボット。垂直農業・都市農業。ブロックチェーン・トレーサビリティ。食品安全基準。有機農業。CSA・ファームトゥテーブル。循環農業経済。"
+        },
+        {
+          "type": "grammar",
+          "title": "農業・食品産業用語と持続可能性表現",
+          "content": "農業用語：Precision Agriculture（精密農業）、Smart Farming（スマート農業）、Crop Yield（収量）、Soil Health（土壌健全性）。技術用語：GPS、Sensor（センサー）、Drone（ドローン）、IoT（モノのインターネット）、Robotics（ロボット工学）。食品用語：Supply Chain（サプライチェーン）、Traceability（トレーサビリティ）、Food Safety（食品安全）、Organic Farming（有機農業）。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツの農業と有機農業文化",
+          "content": "ドイツ：有機農業の高い比率（8-10%）。Bio-Siegel（ドイツ有機認定）。バイオダイナミック農業。農業協同組合制度。Regional Food Movement。小規模・中規模農家が多い。"
+        },
+        {
+          "type": "note",
+          "title": "精密農業技術と実装",
+          "content": "衛星・ドローン画像：NDVI（植生指数）、作物監視。土壌センサー：水分、栄養、温度。気象ステーション：降水、風、湿度。Yield Mapping：GPS対応コンバイン。Data Management：農業用 CRM（Ag-CRM）。"
+        },
+        {
+          "type": "note",
+          "title": "食品サプライチェーンと安全基準",
+          "content": "リスク分析・重要管理点（HACCP）。ISO 22000：食品安全管理。トレーサビリティ：バーコード・RFID・QRコード。温度管理：冷蔵・冷凍ロジスティクス。品質検査：微生物検査、農薬検査、栄養分析。"
+        },
+        {
+          "type": "note",
+          "title": "新しい農業ビジネスモデル",
+          "content": "Urban Farming：屋上農園、コンテナ農業。CSA（Community Supported Agriculture）：会員制農業。Farm-to-Table：直販レストラン。Agritourism：農業体験・観光。Online Marketplaces：農産物直売プラットフォーム。"
+        },
+        {
+          "type": "practice",
+          "title": "中規模有機農場の精密農業・デジタル化戦略の立案",
+          "content": "あなたがドイツの中規模有機農場経営者とします。今後5年の精密農業デジタル化戦略を立案します。土壌・気象・植物監視システム導入、IoTセンサー配置、データ分析プラットフォーム、ドローン活用、ロボット導入計画、ブロックチェーン・トレーサビリティシステム構築、オンライン直販プラットフォーム、CSA会員管理システムを含めます。投資額、ROI、実装タイムライン、期待される効果を詳細に述べてください。"
+        }
+      ]
     }
   ]
 }
