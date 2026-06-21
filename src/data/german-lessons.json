@@ -1,0 +1,82 @@
+{
+  "language": "german",
+  "name": "ドイツ語",
+  "icon": "/images/genres/genre-german.png",
+  "description": "標準ドイツ語の講義コース。初級から中上級まで段階的に学習できます。",
+  "lessons": [
+    {
+      "id": "de-001",
+      "level": 1,
+      "title": "基本表現 - 挨拶と自己紹介",
+      "titleDe": "Grundausdrücke - Grüße und Selbstvorstellung",
+      "objectives": [
+        "基本的なドイツ語の挨拶を習得する",
+        "簡単な自己紹介ができる",
+        "人称代名詞を理解する"
+      ],
+      "content": {
+        "introduction": "ドイツ語を学ぶ第一歩は、基本的な挨拶と自己紹介です。このレッスンでは、日常会話で最も使われる表現を学びます。",
+        "sections": [
+          {
+            "title": "挨拶の基本",
+            "phrases": [
+              {"german": "Guten Morgen", "romaji": "Guten Morgen", "japanese": "おはようございます", "usage": "朝の挨拶（フォーマル）"},
+              {"german": "Guten Tag", "romaji": "Guten Tag", "japanese": "こんにちは", "usage": "昼間の挨拶（フォーマル）"},
+              {"german": "Guten Abend", "romaji": "Guten Abend", "japanese": "こんばんは", "usage": "夜の挨拶（フォーマル）"},
+              {"german": "Hallo", "romaji": "Hallo", "japanese": "やあ", "usage": "カジュアルな挨拶"},
+              {"german": "Wie geht es dir?", "romaji": "Vee gayt es deer?", "japanese": "お元気ですか？（親友用）", "usage": "カジュアルな質問"}
+            ]
+          },
+          {
+            "title": "自己紹介",
+            "phrases": [
+              {"german": "Ich heiße...", "romaji": "Ikh hay-say...", "japanese": "私の名前は...です", "usage": "自己紹介で使用"},
+              {"german": "Ich bin Lehrer/in.", "romaji": "Ikh bin ley-rer/in", "japanese": "私は教師です", "usage": "職業を伝える"}
+            ]
+          },
+          {
+            "title": "人称代名詞",
+            "pronouns": [
+              {"german": "ich", "romaji": "ikh", "meaning": "私（主語）"},
+              {"german": "du", "romaji": "doo", "meaning": "あなた（親友用・主語）"},
+              {"german": "Sie", "romaji": "zee", "meaning": "あなた（敬語・主語）"},
+              {"german": "er", "romaji": "air", "meaning": "彼（主語）"},
+              {"german": "sie", "romaji": "zee", "meaning": "彼女（主語）"},
+              {"german": "wir", "romaji": "veer", "meaning": "私たち（主語）"}
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {"id": "de-001-q1", "type": "fill-blank", "question": "「こんにちは」をドイツ語で言ってください。", "hint": "「Guten」で始まります", "answer": "Guten Tag"},
+        {"id": "de-001-q2", "type": "multiple-choice", "question": "「Ich heiße」の意味として正しいのはどれですか？", "options": ["私の名前は", "私は", "私です", "私を"], "answer": 0}
+      ],
+      "resources": []
+    },
+    {
+      "id": "de-002",
+      "level": 1,
+      "title": "数字と日付",
+      "titleDe": "Zahlen und Daten",
+      "objectives": ["0～100の数字を習得する", "曜日と月を言える", "日付を表現できる"],
+      "content": {
+        "introduction": "ドイツ語の基本となる数字と日付の表現を学びます。",
+        "sections": [
+          {
+            "title": "数字（0～20）",
+            "items": [
+              {"number": 0, "german": "null", "pronunciation": "nool"},
+              {"number": 1, "german": "eins", "pronunciation": "ayns"},
+              {"number": 5, "german": "fünf", "pronunciation": "foonf"},
+              {"number": 10, "german": "zehn", "pronunciation": "tsan"}
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {"id": "de-002-q1", "type": "fill-blank", "question": "「5」をドイツ語で言ってください。", "answer": "fünf"}
+      ],
+      "resources": []
+    }
+  ]
+}
