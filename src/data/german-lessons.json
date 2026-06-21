@@ -3216,6 +3216,220 @@
           "content": "友人と売り手と買い手の役を分担し、商品売買契約の交渉をしてみてください。価格、支払条件、納期、品質保証、紛争解決条項などについて交渉します。法的用語を使いながら、双方にとって受け入れられる条件を探ってください。"
         }
       ]
+    },
+    {
+      "id": "de-014",
+      "level": 4,
+      "title": "テクノロジー・デジタル変革・AI",
+      "titleDe": "Technologie, Digitale Transformation und Künstliche Intelligenz",
+      "objectives": [
+        "テクノロジー関連の現代的語彙を習得する",
+        "デジタル変革と企業のIT戦略を理解できる",
+        "AI・機械学習・データサイエンスの基本概念を学ぶ",
+        "サイバーセキュリティと情報保護について理解する"
+      ],
+      "content": {
+        "introduction": "デジタル変革は現代のビジネスと社会の中心です。このレッスンでは、AI、クラウドコンピューティング、ビッグデータ、サイバーセキュリティなど、テクノロジー分野の実践的なドイツ語を学びます。ドイツはインダストリー4.0と呼ばれるデジタル製造の先駆者です。",
+        "sections": [
+          {
+            "title": "デジタル変革と企業戦略",
+            "phrases": [
+              {
+                "german": "Digitale Transformation bedeutet, bestehende Geschäftsprozesse durch Technologie zu verbessern.",
+                "romaji": "dih-gih-TAH-le trans-for-mah-TSEE-ohn beh-DOY-tet, beh-SHTAY-ende geh-SHEF-ts-proh-TSES-se doorsh tek-noh-LOH-gee tsoo fer-BESS-ern",
+                "japanese": "デジタル変革とは、既存のビジネスプロセスをテクノロジーで改善することを意味します。",
+                "usage": "デジタル変革の本質を説明するとき。現代的ビジネス課題"
+              },
+              {
+                "german": "Automatisierung und Datenanalyse ermöglichen schnellere Entscheidungen und höhere Effizienz.",
+                "romaji": "ow-toh-mah-tih-ZEE-roong unt DAH-ten-ahn-AHL-ee-se ehr-MÖ-glik-en SHNELL-ehr-re ent-SHLY-doong-en unt HÖ-her-re eh-fee-TSEE-ents",
+                "japanese": "自動化とデータ分析により、より迅速な意思決定と高い効率が可能になります。",
+                "usage": "テクノロジー導入の実際的利益を説明するとき。効率性と意思決定"
+              },
+              {
+                "german": "Industrie 4.0 verbindet Maschinen, Menschen und Daten in einem intelligenten Netzwerk.",
+                "romaji": "in-DOOS-tree FEER-punkt-nool fer-BIN-det mah-SHEE-nen, MEN-shen unt DAH-ten in AY-nem in-tel-lee-HEN-ten NETS-verk",
+                "japanese": "インダストリー4.0は機械、人間、データをインテリジェントなネットワークで統合します。",
+                "usage": "ドイツの先進的製造業戦略を説明するとき。スマートマニュファクチャリング"
+              }
+            ]
+          },
+          {
+            "title": "AI・機械学習・データサイエンス",
+            "phrases": [
+              {
+                "german": "Künstliche Intelligenz (KI) ermöglicht es Computern, menschliche Aufgaben zu lernen und zu erfüllen.",
+                "romaji": "KOONST-li-che in-tel-lee-HENTS (KAY-ee) ehr-MÖ-glik-en es com-POO-tern, MENCH-li-che OWF-gah-ben tsoo LAIR-nen unt tsoo ehr-FOOL-en",
+                "japanese": "人工知能（AI）により、コンピュータが人間のタスクを学習して実行することが可能になります。",
+                "usage": "AI技術の本質と能力を説明するとき。認知能力の拡張"
+              },
+              {
+                "german": "Machine Learning Algorithmen verbessern sich selbst durch das Verarbeiten von großen Datenmengen.",
+                "romaji": "machine learning AHL-goh-RITH-men fer-BESS-ern zikh ZEL-bst doorsh dahs fer-AHR-by-ten fon GROUWS-en DAH-ten-MEN-gen",
+                "japanese": "機械学習アルゴリズムは大量のデータ処理を通じて自己改善します。",
+                "usage": "機械学習の動作原理を説明するとき。継続的改善"
+              },
+              {
+                "german": "Datenanalyse und Business Intelligence helfen Unternehmen, bessere strategische Entscheidungen zu treffen.",
+                "romaji": "DAH-ten-ahn-AHL-ee-se unt business intelligence HEL-fen OON-ter-neh-men, BESS-er-re SHTRAHR-teh-gi-she ent-SHLY-doong-en tsoo TREF-en",
+                "japanese": "データ分析とビジネスインテリジェンスは企業がより良い戦略的決定を下すのに役立ちます。",
+                "usage": "データドリブン経営の重要性を説明するとき。意思決定支援"
+              }
+            ]
+          },
+          {
+            "title": "クラウド・インフラストラクチャ・アーキテクチャ",
+            "phrases": [
+              {
+                "german": "Cloud Computing ermöglicht den Zugriff auf Anwendungen und Daten von überall, ohne teure lokale Server.",
+                "romaji": "cloud computing ehr-MÖ-glik-en den TSOO-grif owf ahn-VEN-doong-en unt DAH-ten fon OO-ber-AHL, oh-ne TOY-er-re LOH-kah-le ZER-ver",
+                "japanese": "クラウドコンピューティングにより、高価なローカルサーバーなしでどこからでもアプリケーションとデータにアクセスできます。",
+                "usage": "クラウドの利点と基本機能を説明するとき。インフラコスト削減"
+              },
+              {
+                "german": "APIs (Programmierschnittstellen) ermöglichen die Integration verschiedener Softwaresysteme.",
+                "romaji": "AHPE-AYZ (programm-SHIR-shtnit-stel-len) ehr-MÖ-glik-en dee in-teh-GRAH-tsee-ohn fer-SHEE-de-ner SOFT-vehr-zis-TAY-me",
+                "japanese": "API（プログラミングインターフェース）は異なるソフトウェアシステムの統合を可能にします。",
+                "usage": "システム間連携とソフトウェアアーキテクチャを説明するとき。相互運用性"
+              },
+              {
+                "german": "Microservices und containerisierte Architekturen ermöglichen flexible und skalierbare Systeme.",
+                "romaji": "micro-services unt con-tain-er-ih-ZEHR-te ark-hee-tek-TOO-ren ehr-MÖ-glik-en FLEKS-i-bel unt skah-LEER-bah-re SIS-tay-me",
+                "japanese": "マイクロサービスとコンテナ化アーキテクチャは、柔軟でスケーラブルなシステムを可能にします。",
+                "usage": "最新的なソフトウェアアーキテクチャパターンを説明するとき。システム拡張性"
+              }
+            ]
+          },
+          {
+            "title": "サイバーセキュリティと情報保護",
+            "phrases": [
+              {
+                "german": "Cybersicherheit schützt digitale Systeme vor böswilligen Angriffen und Datendiebstahl.",
+                "romaji": "cyber-ZIKHER-hite SHOO-tst dih-gih-TAH-le SIS-tay-me for BÖS-vil-li-gen AHN-grif-en unt DAH-ten-DEEP-shtahl",
+                "japanese": "サイバーセキュリティは悪意のある攻撃とデータ盗難からデジタルシステムを保護します。",
+                "usage": "情報セキュリティの重要性と脅威を説明するとき。リスク管理"
+              },
+              {
+                "german": "Verschlüsselung und Mehrfaktor-Authentifizierung sind wichtige Schutzmaßnahmen.",
+                "romaji": "fer-SHLÜ-sel-oong unt MEHR-fahk-tor ow-ten-tee-fee-TSEEH-roong zint VIKH-ti-ge SHOOTZ-mahss-nah-men",
+                "japanese": "暗号化と多要素認証は重要なセキュリティ対策です。",
+                "usage": "具体的なセキュリティ対策を説明するとき。防御メカニズム"
+              },
+              {
+                "german": "Datenschutz und Compliance sind juristische und ethische Verpflichtungen in der digitalen Welt.",
+                "romaji": "DAH-ten-shootz unt com-pliah-ENTS zint yoo-REES-ti-she unt et-HI-she fer-PFLIKH-toong-en in der dih-gih-TAH-len VELT",
+                "japanese": "データ保護とコンプライアンスはデジタル世界における法的および倫理的責務です。",
+                "usage": "GDPR等の規制とデータ保護の倫理的側面を説明するとき。法的枠組み"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-014-q1",
+          "type": "fill-blank",
+          "question": "「デジタル変革とはビジネスプロセスをテクノロジーで改善することです」をドイツ語で言ってください。",
+          "answer": "Digitale Transformation bedeutet, Geschäftsprozesse durch Technologie zu verbessern."
+        },
+        {
+          "id": "de-014-q2",
+          "type": "multiple-choice",
+          "question": "インダストリー4.0の主な特徴は何ですか？",
+          "options": [
+            "機械、人間、データをインテリジェントなネットワークで統合",
+            "従来の製造方法を継続",
+            "テクノロジー導入を避ける",
+            "人間労働のみに依存"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-014-q3",
+          "type": "fill-blank",
+          "question": "「自動化とデータ分析により効率性が向上します」をドイツ語で言ってください。",
+          "answer": "Automatisierung und Datenanalyse ermöglichen höhere Effizienz."
+        },
+        {
+          "id": "de-014-q4",
+          "type": "multiple-choice",
+          "question": "人工知能（AI）の主な能力は何ですか？",
+          "options": [
+            "人間のタスクを学習して実行する",
+            "人間の思考を完全に置き換える",
+            "感情を持つ",
+            "自己意識を獲得する"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-014-q5",
+          "type": "fill-blank",
+          "question": "「クラウドコンピューティングはどこからでもアクセスを可能にします」をドイツ語で言ってください。",
+          "answer": "Cloud Computing ermöglicht den Zugriff von überall."
+        },
+        {
+          "id": "de-014-q6",
+          "type": "matching",
+          "question": "テクノロジー用語と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"term": "API", "explanation": "プログラミングインターフェース"},
+            {"term": "Microservices", "explanation": "小規模なサービスの集合"},
+            {"term": "Verschlüsselung", "explanation": "暗号化"}
+          ]
+        },
+        {
+          "id": "de-014-q7",
+          "type": "fill-blank",
+          "question": "「サイバーセキュリティは悪意のある攻撃からシステムを保護します」をドイツ語で言ってください。",
+          "answer": "Cybersicherheit schützt digitale Systeme vor böswilligen Angriffen."
+        },
+        {
+          "id": "de-014-q8",
+          "type": "multiple-choice",
+          "question": "機械学習の特徴は何ですか？",
+          "options": [
+            "大量のデータ処理を通じて自己改善する",
+            "静的で変わらない",
+            "人間の指示を完全に必要としない",
+            "常に正確である"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツのインダストリー4.0と製造業デジタル化",
+          "duration": "20分",
+          "description": "IoT・AI・ビッグデータによるスマートファクトリー、ドイツの産業競争力、デジタル変革戦略"
+        },
+        {
+          "type": "grammar",
+          "title": "テクノロジー用語と複合名詞の構造",
+          "content": "技術用語の複合名詞（Cybersicherheit、Datenanalyse、APIs）。能力表現「ermöglichen」「erlauben」の使用。受動態での技術説明。英語からのドイツ語化語"
+        },
+        {
+          "type": "note",
+          "title": "ドイツのデジタル化戦略とヨーロッパのポジション",
+          "content": "インダストリー4.0はドイツの国家戦略。2018年の改訂で人的側面（労働力スキル）を強調。GDPR発祥地としてのデータ保護リーダーシップ。EUのデジタル市場規制（DMA・DSA）。"
+        },
+        {
+          "type": "note",
+          "title": "AI・機械学習・ビッグデータの実装",
+          "content": "機械学習の3つのアプローチ：教師あり学習、教師なし学習、強化学習。ビッグデータの3V（Volume、Velocity、Variety）。AIの倫理と透明性（Explainable AI）の重要性。"
+        },
+        {
+          "type": "note",
+          "title": "クラウドとマイクロアーキテクチャの進化",
+          "content": "IaaS、PaaS、SaaSの3つのクラウドサービスモデル。マイクロサービスとモノリシックアーキテクチャの比較。Kubernetes、Docker等のコンテナオーケストレーション。DevOpsの文化と実践。"
+        },
+        {
+          "type": "practice",
+          "title": "デジタル変革プロジェクトの提案と議論",
+          "content": "友人と企業のデジタル変革プロジェクトについて議論してみてください。現在のビジネスプロセス、AI導入の利点と課題、セキュリティ対策、段階的実装戦略などについて。実装困難な領域と解決策を一緒に考察してください。"
+        }
+      ]
     }
   ]
 }
