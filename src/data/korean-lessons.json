@@ -4470,6 +4470,220 @@
           "content": "友人と企業のデジタル変革プロジェクトについて議論してみてください。現在のビジネスプロセス、AI導入の利点と課題、セキュリティ対策、段階的実装戦略などについて。実装困難な領域と解決策を一緒に考察してください。"
         }
       ]
+    },
+    {
+      "id": "ko-028",
+      "level": 4,
+      "title": "芸術・文学・文化表現",
+      "titleKo": "예술, 문학, 그리고 문화적 표현",
+      "objectives": [
+        "芸術と文学に関する語彙と概念を習得する",
+        "美的判断と批評的思考を発展させる",
+        "異なる文化的表現様式を理解できる",
+        "創造的プロセスと文化遺産について学ぶ"
+      ],
+      "content": {
+        "introduction": "芸術と文学は文化の心臓です。このレッスンでは、視覚芸術、文学、音楽、映画、舞台など、韓国の豊かな文化遺産と現代的表現について、実践的な韓国語を学びます。韓国は儒教文化と現代芸術の融合、K-popと映画（Oscar受賞作品）で国際的に認識されている創造的国家です。",
+        "sections": [
+          {
+            "title": "視覚芸術と文学",
+            "phrases": [
+              {
+                "korean": "회화, 조각, 사진은 시각 미술의 다양한 형태입니다.",
+                "romaji": "hoehwa, jogage, sajin eun sigag misul ui dayanghhan hyungtae imnida",
+                "japanese": "絵画、彫刻、写真は視覚芸術の異なる形態です。",
+                "usage": "芸術の異なるメディアと表現方法を説明するとき。美的理解"
+              },
+              {
+                "korean": "문학은 언어와 서술 구조를 통해 인간의 경험을 탐구합니다.",
+                "romaji": "munhak eun eoneogywa seosuol gujooreul tonghae ingan ui gyeongheomeul tamguhamnida",
+                "japanese": "文学は言語と叙述構造を通じて人間の経験を探求します。",
+                "usage": "文学の本質と役割を説明するとき。人間理解"
+              },
+              {
+                "korean": "미술 비평은 미학적 기준과 역사적 맥락에 따라 작품을 평가합니다.",
+                "romaji": "misul bipyeong eun mihagjeoug gijunggwa yeoksajeoug maekrageul ddara jakpum eul pyeonggahamnida",
+                "japanese": "美術批評は美的基準と歴史的文脈に基づいて作品を評価します。",
+                "usage": "芸術作品の解釈と批評的理解を説明するとき。美学的判断"
+              }
+            ]
+          },
+          {
+            "title": "音楽・舞台芸術",
+            "phrases": [
+              {
+                "korean": "음악은 감정과 문화를 연결하는 보편적 언어입니다.",
+                "romaji": "eumag eun gamjeonggwa munhwareul yeongyeolhaneun boemeonjeoug eoneogimnida",
+                "japanese": "音楽は感情と文化を橋渡しする普遍的な言語です。",
+                "usage": "音楽の普遍性と力を説明するとき。文化的統一性"
+              },
+              {
+                "korean": "연극과 춤은 신체 움직임과 인간의 갈등을 표현합니다.",
+                "romaji": "yeonggeuk-gwa chum eun sinche umjigim-gwa ingan ui galdeung eul pyohyeon hamnida",
+                "japanese": "演劇と舞踊は身体の動きと人間の葛藤を表現します。",
+                "usage": "舞台表現とダンスの意味を説明するとき。身体表現"
+              },
+              {
+                "korean": "한국 전통 음악과 현대 K-pop은 세계 음악 문화에 영향을 미칩니다.",
+                "romaji": "hangug jeontong eumag-gwa hyeondae K-pop eun segyae eumag munhware yeonghyang-eul michihmnida",
+                "japanese": "韓国の伝統音楽と現代K-popは世界の音楽文化に影響を与えます。",
+                "usage": "韓国の音楽的影響力と遺産を説明するとき。文化外交"
+              }
+            ]
+          },
+          {
+            "title": "映画・デジタルメディア",
+            "phrases": [
+              {
+                "korean": "영화는 이야기를 시각적으로 전달하고 문화적 관점을 반영하는 매체입니다.",
+                "romaji": "yeonghwaneun iyagireul sigakjeoguero jeondalhago munhwajeog gwanjeom eul bannyeong haneun maechegimnida",
+                "japanese": "映画は物語を視覚的に語り、文化的視点を反映するメディアです。",
+                "usage": "映画の表現力と文化的重要性を説明するとき。映像文化"
+              },
+              {
+                "korean": "디지털 예술과 새로운 미디어는 창작 표현의 가능성을 확장합니다.",
+                "romaji": "dijital yesul-gwa saeroun midieaneun changzag pyohyeon ui ganeung-seong eul hwakzang hamnida",
+                "japanese": "デジタルアートと新しいメディアは創造的表現の可能性を拡張します。",
+                "usage": "現代的創造表現の多様性を説明するとき。メディア進化"
+              },
+              {
+                "korean": "한국 영화는 국제 영화제에서 인정받고 있으며 세계 문화에 영향을 미칩니다.",
+                "romaji": "hangug yeonghwaneun gukje yeonghwaje eseo injeong-badgo isseumyeo segyae munhware yeonghyang-eul michihmnida",
+                "japanese": "韓国映画は国際映画祭で認められ、世界文化に影響を与えています。",
+                "usage": "韓国映画の国際的成功と文化的影響を説明するとき。文化産業"
+              }
+            ]
+          },
+          {
+            "title": "文化遺産・創造性・表現の自由",
+            "phrases": [
+              {
+                "korean": "문화유산과 박물관은 사회의 기억을 보존합니다.",
+                "romaji": "munhwayusan-gwa bagnmul-gwan eun sahwoeui gieok-eul boseonhamnida",
+                "japanese": "文化遺産と美術館は社会の記憶を保存します。",
+                "usage": "文化遺産と集団的記憶の関係を説明するとき。歴史的継続性"
+              },
+              {
+                "korean": "예술적 창의성은 자유와 개인적 관점의 표현입니다.",
+                "romaji": "yesulsjeog chang-uiseong eun jayugwa gae-injeoug gwanjeom ui pyohyeon imnida",
+                "japanese": "芸術的創造性は自由と個人的視点の表現です。",
+                "usage": "創造性と自由、個人表現を説明するとき。芸術と民主主義"
+              },
+              {
+                "korean": "문화 간 예술 교류는 다양한 문화 간의 이해와 대화를 촉진합니다.",
+                "romaji": "munhwa gan yesul gyo-ryu neun dayanghhan munhwa gan ui ihe-wa daehwareul chogjeenhamnida",
+                "japanese": "文化間の芸術交流はさまざまな文化間の理解と対話を促進します。",
+                "usage": "グローバルな芸術交流と相互理解を説明するとき。文化的橋渡し"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-028-q1",
+          "type": "fill-blank",
+          "question": "「絵画、彫刻、写真は視覚芸術の異なる形態です」を韓国語で言ってください。",
+          "answer": "회화, 조각, 사진은 시각 미술의 다양한 형태입니다."
+        },
+        {
+          "id": "ko-028-q2",
+          "type": "multiple-choice",
+          "question": "文学の主な役割は何ですか？",
+          "options": [
+            "言語と叙述構造を通じて人間の経験を探求する",
+            "単に娯楽を提供する",
+            "社会を支配する",
+            "政治的プロパガンダを広める"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-028-q3",
+          "type": "fill-blank",
+          "question": "「音楽は感情と文化を橋渡しする言語です」を韓国語で言ってください。",
+          "answer": "음악은 감정과 문화를 연결하는 보편적 언어입니다."
+        },
+        {
+          "id": "ko-028-q4",
+          "type": "multiple-choice",
+          "question": "韓国の音楽文化の特徴は？",
+          "options": [
+            "伝統音楽と現代K-popの両者が世界に影響を与えている",
+            "西洋音楽のみ",
+            "音楽文化がない",
+            "音楽は重要でない"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-028-q5",
+          "type": "fill-blank",
+          "question": "「映画は物語を視覚的に語るメディアです」を韓国語で言ってください。",
+          "answer": "영화는 이야기를 시각적으로 전달하는 매체입니다."
+        },
+        {
+          "id": "ko-028-q6",
+          "type": "matching",
+          "question": "芸術表現と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"art": "회화", "description": "絵画"},
+            {"art": "연극", "description": "演劇"},
+            {"art": "영화", "description": "映画"}
+          ]
+        },
+        {
+          "id": "ko-028-q7",
+          "type": "fill-blank",
+          "question": "「芸術的創造性は自由と個人的視点の表現です」を韓国語で言ってください。",
+          "answer": "예술적 창의성은 자유와 개인적 관점의 표현입니다."
+        },
+        {
+          "id": "ko-028-q8",
+          "type": "multiple-choice",
+          "question": "文化的記念碑と美術館の役割は？",
+          "options": [
+            "社会の記憶を保存する",
+            "政治的権力を示す",
+            "経済的利益のみ",
+            "娯楽施設であるだけ"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国の芸術・文学・K-pop文化",
+          "duration": "21分",
+          "description": "李光洙等の古典文学、伝統音楽とK-pop、韓国映画とOscar受賞、K-beauty美学、世界での文化的影響"
+        },
+        {
+          "type": "grammar",
+          "title": "芸術批評と表現のための言語",
+          "content": "美的判断を表す形容詞（미학적，우아한，표현력있는）。芸術作品の説明に使われる動詞（나타내다，반영하다，표현하다）。複合名詞（미술비평，문화유산）"
+        },
+        {
+          "type": "note",
+          "title": "韓国文化遺産と儒教的美学",
+          "content": "韓国は儒教の精神と現代創造性の融合。古典文学と現代小説。韓国建築の美学。K-popと韓流文化現象。文化産業による経済・外交への貢献。"
+        },
+        {
+          "type": "note",
+          "title": "視覚芸術と伝統工芸",
+          "content": "韓国の陶磁器と工芸の伝統。書道と絵画の融合。現代美術とインスタレーション。世界的に認識される韓国デザイン。"
+        },
+        {
+          "type": "note",
+          "title": "韓国映画と文化外交",
+          "content": "アジア映画ルネサンスでの韓国映画の役割。Oscar受賞作品（Parasite等）による国際認識。韓国ドラマ（K-drama）のグローバルな影響。Netflix等のストリーミングプラットフォームでの成功。"
+        },
+        {
+          "type": "practice",
+          "title": "芸術作品の批評と解釈",
+          "content": "韓国の芸術作品（絵画、彫刻、文学作品、映画等）を選んで、その作品について友人と議論してみてください。作品の背景、美的特徴、文化的意味、個人的な解釈を共有します。複数の視点から作品を理解し、芸術的対話を実践してください。"
+        }
+      ]
     }
   ]
 }
