@@ -2228,6 +2228,210 @@
           "content": "友人と「店員と顧客」の役割を分担して、商品説明 → 価格確認 → 割引交渉 → 支払い の流れで実践してみてください。韓国市場での会話を想定して練習しましょう。"
         }
       ]
+    },
+    {
+      "id": "ko-020",
+      "level": 3,
+      "title": "文化施設訪問と歴史",
+      "titleKo": "문화 시설 방문과 역사",
+      "objectives": [
+        "博物館・寺院などの文化施設での会話ができる",
+        "韓国文化と歴史について議論できる",
+        "チケット購入と案内サービスの表現を習得する",
+        "文化的な背景知識を習得する"
+      ],
+      "content": {
+        "introduction": "韓国は豊かな文化遺産を持っています。景福宮、仏国寺、国立中央博物館など、訪れるべき文化施設が多くあります。このレッスンでは、これらの施設でのコミュニケーションと、韓国の文化・歴史について学習します。",
+        "sections": [
+          {
+            "title": "文化施設入場",
+            "phrases": [
+              {
+                "korean": "입장권을 주세요.",
+                "romaji": "Ipjang-gwon-eul ju-se-yo.",
+                "japanese": "入場券をください。",
+                "usage": "チケット購入"
+              },
+              {
+                "korean": "학생 할인이 있어요?",
+                "romaji": "Haksaeng hal-in-i iss-eo-yo?",
+                "japanese": "学生割引はありますか？",
+                "usage": "割引確認"
+              },
+              {
+                "korean": "어른 일곱 명, 어린이 셋입니다.",
+                "romaji": "Eorun ilgop myeong, eoreun-i set-imnida.",
+                "japanese": "大人7名、子ども3名です。",
+                "usage": "人数確認"
+              },
+              {
+                "korean": "사진 촬영이 가능해요?",
+                "romaji": "Sajin chwal-yeong-i ganeung-hae-yo?",
+                "japanese": "写真撮影は可能ですか？",
+                "usage": "撮影許可確認"
+              },
+              {
+                "korean": "가이드 투어는 있어요?",
+                "romaji": "Gaideu tu-eo-neun iss-eo-yo?",
+                "japanese": "ガイドツアーはありますか？",
+                "usage": "ガイドサービス確認"
+              }
+            ]
+          },
+          {
+            "title": "歴史と文化的背景",
+            "phrases": [
+              {
+                "korean": "이 건물은 언제 지어졌어요?",
+                "romaji": "I geon-mul-eun eon-je ji-eo-jyeo-sseo-yo?",
+                "japanese": "この建物はいつ建設されましたか？",
+                "usage": "建造時期質問"
+              },
+              {
+                "korean": "삼국시대는 한국 역사에서 중요해요.",
+                "romaji": "Samguk sidae-neun Hanguk yeoksa-e-seo jungyo-hae-yo.",
+                "japanese": "三国時代は韓国史において重要です。",
+                "usage": "歴史的背景説明"
+              },
+              {
+                "korean": "조선시대는 가장 길었던 왕조입니다.",
+                "romaji": "Joseon sidae-neun gajang gil-eossdeon wangjo-imnida.",
+                "japanese": "朝鮮時代は最も長かった王朝です。",
+                "usage": "王朝情報"
+              },
+              {
+                "korean": "이것은 불교 예술의 걸작입니다.",
+                "romaji": "Igeot-eun bulkyo yesul-ui geolchak-imnida.",
+                "japanese": "これは仏教美術の傑作です。",
+                "usage": "作品評価"
+              }
+            ]
+          },
+          {
+            "title": "施設案内と展示",
+            "phrases": [
+              {
+                "korean": "화장실은 어디에 있어요?",
+                "romaji": "Hwajang-sil-eun eodi-e iss-eo-yo?",
+                "japanese": "トイレはどこにありますか？",
+                "usage": "施設案内"
+              },
+              {
+                "korean": "음식점은 있어요?",
+                "romaji": "Eumsik-jeom-eun iss-eo-yo?",
+                "japanese": "レストランはありますか？",
+                "usage": "食事施設確認"
+              },
+              {
+                "korean": "이 전시회는 언제까지 있어요?",
+                "romaji": "I jeonsi-hoe-neun eon-je-kkaji iss-eo-yo?",
+                "japanese": "この展示会はいつまでですか？",
+                "usage": "展示期間確認"
+              },
+              {
+                "korean": "이 작품의 의미는 무엇이에요?",
+                "romaji": "I jgakpum-ui uimi-neun mueos-i-e-yo?",
+                "japanese": "この作品の意味は何ですか？",
+                "usage": "作品説明要求"
+              }
+            ]
+          },
+          {
+            "title": "文化用語",
+            "items": [
+              {"korean": "박물관", "japanese": "博物館"},
+              {"korean": "미술관", "japanese": "美術館"},
+              {"korean": "문화유산", "japanese": "文化遺産"},
+              {"korean": "궁궐", "japanese": "宮殿"},
+              {"korean": "절", "japanese": "寺院"},
+              {"korean": "공예", "japanese": "工芸"},
+              {"korean": "회화", "japanese": "絵画"},
+              {"korean": "조각", "japanese": "彫刻"},
+              {"korean": "유물", "japanese": "遺物"},
+              {"korean": "전시", "japanese": "展示"}
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-020-q1",
+          "type": "fill-blank",
+          "question": "「入場券をください」を韓国語で言ってください。",
+          "answer": "입장권을 주세요."
+        },
+        {
+          "id": "ko-020-q2",
+          "type": "fill-blank",
+          "question": "「学生割引はありますか？」を韓国語で言ってください。",
+          "answer": "학생 할인이 있어요?"
+        },
+        {
+          "id": "ko-020-q3",
+          "type": "fill-blank",
+          "question": "「写真撮影は可能ですか？」を韓国語で言ってください。",
+          "hint": "「사진」で始まります",
+          "answer": "사진 촬영이 가능해요?"
+        },
+        {
+          "id": "ko-020-q4",
+          "type": "multiple-choice",
+          "question": "「이것은 불교 예술의 걸작입니다」という表現の意味として正しいのはどれですか？",
+          "options": [
+            "これは新しい仏教美術です",
+            "これは仏教美術の傑作です",
+            "これは仏教の宗教施設です",
+            "これは仏教の歴史です"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "ko-020-q5",
+          "type": "fill-blank",
+          "question": "「この建物はいつ建設されましたか？」を韓国語で言ってください。",
+          "hint": "「이 건물은」で始まります",
+          "answer": "이 건물은 언제 지어졌어요?"
+        },
+        {
+          "id": "ko-020-q6",
+          "type": "matching",
+          "question": "以下の文化用語を正しく組み合わせてください。",
+          "pairs": [
+            {"korean": "박물관", "meaning": "博物館"},
+            {"korean": "절", "meaning": "寺院"},
+            {"korean": "회화", "meaning": "絵画"},
+            {"korean": "조각", "meaning": "彫刻"}
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国の文化施設実践ガイド",
+          "duration": "14分",
+          "description": "景福宮・仏国寺・国立中央博物館での実際の会話例と文化背景解説"
+        },
+        {
+          "type": "grammar",
+          "title": "過去形と文化表現",
+          "content": "歴史的背景を述べる際には過去形が頻繁に使用されます。「～했어요」「～았어요」の使い分けが重要です。"
+        },
+        {
+          "type": "note",
+          "title": "韓国の主要文化遺産",
+          "content": "景福宮（ユネスコ）、仏国寺（世界遺産）、石窟庵（世界遺産）など多くの施設がユネスコ世界遺産に登録されています。三国時代（高句麗・百済・新羅）は韓国史の重要な時期です。"
+        },
+        {
+          "type": "note",
+          "title": "韓国伝統文化の多様性",
+          "content": "陶芸（高麗青磁）、書道、武芸（テコンドー）など多くの伝統文化があります。韓国の美術館や博物館でこれらの作品を観賞できます。"
+        },
+        {
+          "type": "practice",
+          "title": "文化施設訪問ロールプレイ",
+          "content": "友人と「ガイドと観光客」の役割を分担して、チケット購入 → 施設説明 → 作品解説 の流れで実践してみてください。文化背景や歴史について質問・回答する会話を練習しましょう。"
+        }
+      ]
     }
   ]
 }
