@@ -190,12 +190,13 @@
       "title": "日常会話 - レストラン",
       "titleKo": "일상 회화 - 레스토랑",
       "objectives": [
-        "レストランでの基本会話ができる",
-        "メニューについて質問できる",
-        "注文や支払いについて対応できる"
+        "レストランでの基本会話を自然にできる",
+        "メニュー内容を詳しく質問・理解できる",
+        "注文から支払いまでのプロセスを完璧に対応できる",
+        "食文化や料理用語の知識を深める"
       ],
       "content": {
-        "introduction": "韓国のレストランでの会話は旅行や日常生活で頻繁に必要です。食事に関する語彙と会話表現を学びます。",
+        "introduction": "韓国のレストランでの会話は旅行や日常生活で頻繁に必要です。食事に関する語彙と会話表現を学びます。韓国文化では食事時の礼儀が重要であり、店員との対話も敬意を示すものが期待されます。",
         "sections": [
           {
             "title": "レストラン入店・席選び",
@@ -204,25 +205,31 @@
                 "korean": "몇 명이세요?",
                 "romaji": "Myeot myeong-i-se-yo?",
                 "japanese": "何名ですか？",
-                "usage": "人数を尋ねる"
+                "usage": "ホスト/ホステスが客に尋ねる標準的な質問"
               },
               {
                 "korean": "2명입니다.",
                 "romaji": "I myeong-im-ni-da.",
                 "japanese": "2名です。",
-                "usage": "人数を答える"
+                "usage": "正式な敬語での回答"
               },
               {
                 "korean": "창가 자리 있나요?",
                 "romaji": "Changga jari it-na-yo?",
                 "japanese": "窓際の席はありますか？",
-                "usage": "席をリクエスト"
+                "usage": "座席位置のリクエスト"
               },
               {
                 "korean": "예약이 있습니다.",
                 "romaji": "Yeyak-i it-seubnida.",
                 "japanese": "予約があります。",
-                "usage": "予約の確認"
+                "usage": "予約の確認・提示"
+              },
+              {
+                "korean": "조용한 곳으로 부탁드려도 되나요?",
+                "romaji": "Joyong-han gos-eu-ro butakdeuryeo-do doe-na-yo?",
+                "japanese": "静かな場所でお願いできますか？",
+                "usage": "特別なリクエスト（丁寧な表現）"
               }
             ]
           },
@@ -233,36 +240,54 @@
                 "korean": "메뉴를 주세요.",
                 "romaji": "Menuyu-reul ju-se-yo.",
                 "japanese": "メニューをください。",
-                "usage": "メニューをリクエスト"
+                "usage": "基本的なリクエスト"
               },
               {
                 "korean": "이것이 뭐예요?",
                 "romaji": "I-geot-i mwo-ye-yo?",
                 "japanese": "これは何ですか？",
-                "usage": "料理について質問"
+                "usage": "料理内容を質問"
+              },
+              {
+                "korean": "주 재료가 무엇인가요?",
+                "romaji": "Ju jaelyo-ga mueot-in-ga-yo?",
+                "japanese": "主な材料は何ですか？",
+                "usage": "詳細な成分確認（アレルギー対応）"
               },
               {
                 "korean": "맵지 않은 음식 있나요?",
                 "romaji": "Maep-ji an-eun eumsik it-na-yo?",
                 "japanese": "辛くない食べ物はありますか？",
-                "usage": "辛さについて確認"
+                "usage": "辛さレベル確認"
               },
               {
                 "korean": "이것으로 주세요.",
                 "romaji": "I-geot-eu-ro ju-se-yo.",
                 "japanese": "これをください。",
-                "usage": "注文する"
+                "usage": "注文確定"
+              },
+              {
+                "korean": "같은 것 두 개 주세요.",
+                "romaji": "Gat-eun geot du gae ju-se-yo.",
+                "japanese": "同じものを2つください。",
+                "usage": "複数注文"
               },
               {
                 "korean": "물을 한 잔 주세요.",
                 "romaji": "Mul-eul han jan ju-se-yo.",
                 "japanese": "水を1杯ください。",
-                "usage": "飲み物をリクエスト"
+                "usage": "飲み物リクエスト"
+              },
+              {
+                "korean": "비자 물도 있나요?",
+                "romaji": "Bija mul-do it-na-yo?",
+                "japanese": "炭酸水もありますか？",
+                "usage": "飲み物オプション確認"
               }
             ]
           },
           {
-            "title": "支払い・会計",
+            "title": "支払い・会計・別れ",
             "phrases": [
               {
                 "korean": "계산서를 주세요.",
@@ -271,23 +296,54 @@
                 "usage": "会計をリクエスト"
               },
               {
+                "korean": "총 얼마예요?",
+                "romaji": "Chong eol-ma-ye-yo?",
+                "japanese": "合計いくらですか？",
+                "usage": "金額確認"
+              },
+              {
                 "korean": "신용카드 가능한가요?",
                 "romaji": "Sinyong-kadeu ga-neung-han-ga-yo?",
                 "japanese": "クレジットカードは使えますか？",
-                "usage": "支払方法を尋ねる"
+                "usage": "支払方法確認"
+              },
+              {
+                "korean": "영수증 주세요.",
+                "romaji": "Yeongsu-jeung ju-se-yo.",
+                "japanese": "領収書をください。",
+                "usage": "領収書請求"
               },
               {
                 "korean": "맛있게 드세요.",
                 "romaji": "Mas-it-ge deu-se-yo.",
                 "japanese": "おいしくお召し上がりください。",
-                "usage": "店員の言葉"
+                "usage": "食事前の店員の言葉"
               },
               {
                 "korean": "맛있었습니다.",
                 "romaji": "Mas-it-eot-seubnida.",
                 "japanese": "おいしかったです。",
-                "usage": "料理への感謝"
+                "usage": "食事後の感謝表現（正式）"
+              },
+              {
+                "korean": "아주 맛있었어요. 감사합니다!",
+                "romaji": "Aju mas-it-eot-eo-yo. Gamsa-hamnida!",
+                "japanese": "とてもおいしかったです。ありがとうございます。",
+                "usage": "心からの感謝（カジュアル+敬語）"
               }
+            ]
+          },
+          {
+            "title": "韓国料理の代表的なメニュー",
+            "items": [
+              {"korean": "비빔밥", "japanese": "ビビンバ（混ぜご飯）", "type": "쌀밥 요리"},
+              {"korean": "불고기", "japanese": "プルコギ（焼肉）", "type": "고기 요리"},
+              {"korean": "김치찌개", "japanese": "キムチチゲ（キムチ鍋）", "type": "찌개"},
+              {"korean": "된장찌개", "japanese": "テンジャンチゲ（味噌鍋）", "type": "찌개"},
+              {"korean": "떡볶이", "japanese": "トッポッキ（唐辛子餅炒め）", "type": "간식"},
+              {"korean": "스시", "japanese": "寿司", "type": "일본 요리"},
+              {"korean": "갈비", "japanese": "カルビ（カルビ焼肉）", "type": "고기 요리"},
+              {"korean": "삼계탕", "japanese": "サムゲタン（参鶏湯）", "type": "수프"}
             ]
           }
         ]
@@ -310,9 +366,40 @@
             "おいしいところはどこですか"
           ],
           "answer": 0
+        },
+        {
+          "id": "ko-008-q3",
+          "type": "fill-blank",
+          "question": "「辛くない食べ物はありますか？」を韓国語で言ってください。",
+          "hint": "「맵지」で始まります",
+          "answer": "맵지 않은 음식 있나요?"
+        },
+        {
+          "id": "ko-008-q4",
+          "type": "fill-blank",
+          "question": "「お会計をお願いします」を韓国語で言ってください。",
+          "hint": "「계산서를」で始まります",
+          "answer": "계산서를 주세요."
         }
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国レストラン実践会話",
+          "url": "#",
+          "duration": "12分"
+        },
+        {
+          "type": "grammar",
+          "title": "「~세요」と「~아/어요」の使い分け",
+          "content": "レストランでは相手に敬意を示すため、~세요（より敬意）や~습니다（最敬語）を使うことが適切。カジュアルな~아/어요も理解する必要がある。"
+        },
+        {
+          "type": "note",
+          "title": "韓国のレストラン文化",
+          "content": "韓国では食事時におかずがテーブルに複数出されることが多い。また、目上の人の前では食事を始めない文化がある。"
+        }
+      ]
     },
     {
       "id": "ko-009",
