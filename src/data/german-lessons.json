@@ -3430,6 +3430,220 @@
           "content": "友人と企業のデジタル変革プロジェクトについて議論してみてください。現在のビジネスプロセス、AI導入の利点と課題、セキュリティ対策、段階的実装戦略などについて。実装困難な領域と解決策を一緒に考察してください。"
         }
       ]
+    },
+    {
+      "id": "de-015",
+      "level": 4,
+      "title": "芸術・文学・文化表現",
+      "titleDe": "Kunst, Literatur und kulturelle Ausdrucksformen",
+      "objectives": [
+        "芸術と文学に関する語彙と概念を習得する",
+        "美的判断と批評的思考を発展させる",
+        "異なる文化的表現様式を理解できる",
+        "創造的プロセスと文化遺産について学ぶ"
+      ],
+      "content": {
+        "introduction": "芸術と文学は文化の心臓です。このレッスンでは、視覚芸術、文学、音楽、映画、舞台など、ドイツの豊かな文化遺産と現代的表現について、実践的なドイツ語を学びます。ドイツはゲーテ、シラー、トマス・マンなどの文学巨匠、バッハ、モーツァルト、ベートーヴェンなどの音楽の巨人を輩出した国です。",
+        "sections": [
+          {
+            "title": "視覚芸術と文学",
+            "phrases": [
+              {
+                "german": "Malerei, Skulptur und Fotografie sind verschiedene Formen der visuellen Kunst.",
+                "romaji": "mah-LAH-ray, SKOOL-ptoor unt foh-toh-grah-FEE zint fer-SHEE-de-ne FOR-men der VIZ-oo-EL-en KOONST",
+                "japanese": "絵画、彫刻、写真は視覚芸術の異なる形態です。",
+                "usage": "芸術の異なるメディアと表現方法を説明するとき。美的理解"
+              },
+              {
+                "german": "Literatur erforscht menschliche Erfahrungen durch Sprache und erzählerische Strukturen.",
+                "romaji": "lit-eh-rah-TOOR ehr-FOR-sht mench-li-che ehr-FAHR-oong-en doorsh SHPRAH-he unt ehr-TSAY-ler-i-she SHTOOK-too-ren",
+                "japanese": "文学は言語と叙述構造を通じて人間の経験を探求します。",
+                "usage": "文学の本質と役割を説明するとき。人間理解"
+              },
+              {
+                "german": "Kunstkritik bewertet Werke anhand von ästhetischen Kriterien und historischem Kontext.",
+                "romaji": "KOONST-kree-teek beh-VER-tet VERK-ke AHN-hahnt fon es-THET-i-shen KRI-tair-ee-en unt his-TOR-i-shem KON-tekst",
+                "japanese": "美術批評は美的基準と歴史的文脈に基づいて作品を評価します。",
+                "usage": "芸術作品の解釈と批評的理解を説明するとき。美学的判断"
+              }
+            ]
+          },
+          {
+            "title": "音楽・舞台芸術",
+            "phrases": [
+              {
+                "german": "Musik ist eine universelle Sprache, die Emotionen und Kulturen überbrückt.",
+                "romaji": "MOO-zeek ist AY-ne oo-nee-ver-SEL-le SHPRAH-he, dee eh-MOH-tsee-oh-nen unt KOOL-too-ren OO-ber-broo-ket",
+                "japanese": "音楽は感情と文化を橋渡しする普遍的な言語です。",
+                "usage": "音楽の普遍性と力を説明するとき。文化的統一性"
+              },
+              {
+                "german": "Theater und Tanz drücken körperliche Bewegung und menschliche Konflikte aus.",
+                "romaji": "tay-AH-ter unt TAHNTS DROO-ken KÖR-per-li-he beh-VAY-goong unt MENCH-li-he KON-flik-te ous",
+                "japanese": "演劇と舞踊は身体の動きと人間の葛藤を表現します。",
+                "usage": "舞台表現とダンスの意味を説明するとき。身体表現"
+              },
+              {
+                "german": "Klassische Musik von Bach bis Beethoven prägt die europäische Kulturgeschichte.",
+                "romaji": "KLAH-si-she MOO-zeek fon BAHKH bis bay-TOH-fen PRÄGT dee oy-roh-PAH-i-she KOOL-too-geh-SHIKH-te",
+                "japanese": "バッハからベートーヴェンまでの古典音楽はヨーロッパの文化史を形作ります。",
+                "usage": "ドイツの音楽的遺産と影響を説明するとき。文化遺産"
+              }
+            ]
+          },
+          {
+            "title": "映画・デジタルメディア",
+            "phrases": [
+              {
+                "german": "Film ist ein Medium, das Geschichten visuell erzählt und kulturelle Perspektiven reflektiert.",
+                "romaji": "film ist ine meh-DEE-oom, dahs geh-SHIKH-ten VIZ-oo-EL ehr-TSAYLT unt KOOL-too-REL-le per-SPEK-tee-ven reh-FLEK-teert",
+                "japanese": "映画は物語を視覚的に語り、文化的視点を反映するメディアです。",
+                "usage": "映画の表現力と文化的重要性を説明するとき。映像文化"
+              },
+              {
+                "german": "Digitale Kunst und neue Medien erweitern die Möglichkeiten kreativer Ausdrücke.",
+                "romaji": "dih-gih-TAH-le KOONST unt NOY-e meh-DEE-en ehr-VY-tern dee möglichkeiten KRAY-ah-tee-ver OUS-droo-ke",
+                "japanese": "デジタルアートと新しいメディアは創造的表現の可能性を拡張します。",
+                "usage": "現代的創造表現の多様性を説明するとき。メディア進化"
+              },
+              {
+                "german": "Kulturelle Strömungen in Film und Streaming formen das globale Verständnis von Gesellschaft.",
+                "romaji": "KOOL-too-REL-le SHTRÖ-moong-en in film unt streaming FOR-men dahs GLOH-bah-le fer-SHTENT-nis fon geh-ZEL-shahft",
+                "japanese": "映画とストリーミングの文化的流れは社会の グローバルな理解を形成します。",
+                "usage": "メディアと社会認識の関係を説明するとき。文化的影響"
+              }
+            ]
+          },
+          {
+            "title": "文化遺産・創造性・表現の自由",
+            "phrases": [
+              {
+                "german": "Kulturelle Denkmäler und Museen bewahren das Gedächtnis einer Gesellschaft.",
+                "romaji": "KOOL-too-REL-le DENK-mah-ler unt moo-ZAY-en beh-VAHREN dahs geh-DENK-nis AY-ner geh-ZEL-shahft",
+                "japanese": "文化的記念碑と美術館は社会の記憶を保存します。",
+                "usage": "文化遺産と集団的記憶の関係を説明するとき。歴史的継続性"
+              },
+              {
+                "german": "Künstlerische Kreativität ist ein Ausdruck von Freiheit und individueller Perspektive.",
+                "romaji": "KOONST-ler-i-she kray-ah-TEE-tät ist ine OUS-drook fon FRAY-hite unt in-dee-VID-oo-EL-ler per-SPEK-tee-ve",
+                "japanese": "芸術的創造性は自由と個人的視点の表現です。",
+                "usage": "創造性と自由、個人表現を説明するとき。芸術と民主主義"
+              },
+              {
+                "german": "Interkulturelle Kunstbegegnungen fördern Verständnis und Dialog zwischen verschiedenen Kulturen.",
+                "romaji": "in-ter-KOOL-too-REL-le KOONST-beh-GAY-goong-en FOR-dern fer-SHTENT-nis unt dih-AH-log TSVEE-shen fer-SHEE-de-nen KOOL-too-ren",
+                "japanese": "文化間の芸術的出会いはさまざまな文化間の理解と対話を促進します。",
+                "usage": "グローバルな芸術交流と相互理解を説明するとき。文化的橋渡し"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-015-q1",
+          "type": "fill-blank",
+          "question": "「絵画、彫刻、写真は視覚芸術の異なる形態です」をドイツ語で言ってください。",
+          "answer": "Malerei, Skulptur und Fotografie sind verschiedene Formen der visuellen Kunst."
+        },
+        {
+          "id": "de-015-q2",
+          "type": "multiple-choice",
+          "question": "文学の主な役割は何ですか？",
+          "options": [
+            "言語と叙述構造を通じて人間の経験を探求する",
+            "単に娯楽を提供する",
+            "社会を支配する",
+            "政治的プロパガンダを広める"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-015-q3",
+          "type": "fill-blank",
+          "question": "「音楽は感情と文化を橋渡しする言語です」をドイツ語で言ってください。",
+          "answer": "Musik ist eine universelle Sprache, die Emotionen und Kulturen überbrückt."
+        },
+        {
+          "id": "de-015-q4",
+          "type": "multiple-choice",
+          "question": "ドイツの音楽遺産の特徴は？",
+          "options": [
+            "バッハからベートーヴェンまでの古典音楽が文化史を形作った",
+            "現代ポップミュージックのみ",
+            "音楽文化がない",
+            "音楽は重要でない"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-015-q5",
+          "type": "fill-blank",
+          "question": "「映画は物語を視覚的に語るメディアです」をドイツ語で言ってください。",
+          "answer": "Film ist ein Medium, das Geschichten visuell erzählt."
+        },
+        {
+          "id": "de-015-q6",
+          "type": "matching",
+          "question": "芸術表現と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"art": "Malerei", "description": "絵画"},
+            {"art": "Theater", "description": "演劇"},
+            {"art": "Film", "description": "映画"}
+          ]
+        },
+        {
+          "id": "de-015-q7",
+          "type": "fill-blank",
+          "question": "「芸術的創造性は自由と個人的視点の表現です」をドイツ語で言ってください。",
+          "answer": "Künstlerische Kreativität ist ein Ausdruck von Freiheit und individueller Perspektive."
+        },
+        {
+          "id": "de-015-q8",
+          "type": "multiple-choice",
+          "question": "文化的記念碑と美術館の役割は？",
+          "options": [
+            "社会の記憶を保存する",
+            "政治的権力を示す",
+            "経済的利益のみ",
+            "娯楽施設であるだけ"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツの芸術・文学・音楽遺産",
+          "duration": "21分",
+          "description": "ゲーテ・シラー等の文学、バッハ・ベートーヴェン等の音楽、ドイツ表現主義、ミース・ファン・デル・ローエ等の建築"
+        },
+        {
+          "type": "grammar",
+          "title": "芸術批評と表現のための言語",
+          "content": "美的判断を表す形容詞（aesthetisch, elegant, ausdrucksvoll）。芸術作品の説明に使われる動詞（ausstrahlen、widerspiegeln、verkörpern）。複合名詞（Kunstkritik、Kulturdenkmäler）"
+        },
+        {
+          "type": "note",
+          "title": "ドイツ文化遺産と啓蒙の伝統",
+          "content": "ドイツは古典主義と理想主義の中心地。ワイマール共和国期の芸術革新（バウハウス）。戦後のドイツ文化復興。ドイツ表現主義と新即物主義。音楽がドイツ文化認識の中心。"
+        },
+        {
+          "type": "note",
+          "title": "視覚芸術とメディア進化",
+          "content": "ルネサンスから現代アートへの進化。ダダイズムとシュルレアリズムの影響。映画芸術の発展とドイツ表現主義映画。デジタルアートと新しい表現可能性。"
+        },
+        {
+          "type": "note",
+          "title": "演劇・舞踊・身体表現",
+          "content": "ドイツ演劇の伝統：ブレヒト、シャイボ等。現代演劇と実験的表現。バレエとコンテンポラリーダンス。身体言語の普遍性と文化固有性。"
+        },
+        {
+          "type": "practice",
+          "title": "芸術作品の批評と解釈",
+          "content": "ドイツの芸術作品（絵画、彫刻、文学作品等）を選んで、その作品について友人と議論してみてください。作品の背景、美的特徴、文化的意味、個人的な解釈を共有します。複数の視点から作品を理解し、芸術的対話を実践してください。"
+        }
+      ]
     }
   ]
 }
