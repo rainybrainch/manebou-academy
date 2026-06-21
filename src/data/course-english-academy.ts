@@ -466,16 +466,32 @@ export const englishAcademyCategory: Category = {
           title: 'CNN・Fox News の違いと使い分け',
           duration: '7:15',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
             'ニュース放送各社の特徴が分かる',
             '視点の違いを理解できる',
             '情報収集の方法が分かる',
+            '放送局の政治的立場が理解できる',
+            'バイアスを認識できる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: 'アメリカのニュース番組は放送局によって表現やトーンが異なります。比較学習で表現の幅を広げましょう。',
+              content: 'アメリカのニュース番組は放送局によって表現やトーンが異なります。比較学習で表現の幅を広げ、メディアリテラシーも身につけましょう。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: '主要ニュース放送局の特徴',
+            },
+            {
+              type: 'text',
+              content: '**CNN (Cable News Network)**\n- 政治的立場：中立（やや左寄り）\n- 特徴：24時間ニュース、国際的視点\n- 言語レベル：中〜上級\n- 人気番組：Anderson Cooper 360°\n\n**Fox News**\n- 政治的立場：保守的（右寄り）\n- 特徴：アメリカ国内ニュース重視、論評的\n- 言語レベル：初〜中級\n- 人気番組：Hannity\n\n**NBC News / MSNBC**\n- 政治的立場：リベラル（左寄り）\n- 特徴：調査報道に力を入れる\n- 言語レベル：中級\n- 人気番組：Meet the Press',
+            },
+            {
+              type: 'highlight-box',
+              title: 'プレミアム：バイアスを理解する',
+              content: 'ニュースを学習教材として使う際は、複数の放送局を比較することが重要です。同じ事件でもCNNとFox Newsで異なる視点から報道されます。これは「複数視点から情報を集める」というスキルを養います。',
             },
           ],
         },
