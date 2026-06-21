@@ -2971,6 +2971,244 @@
           "content": "友人と「公式ガイドと複数の観光客」または「博物館職員と来館者」の役割を複数回交代して、チケット購入 → 施設案内 → 作品解説 → 歴史背景説明 → 質疑応答 という完全な観光シナリオを実践してみてください。"
         }
       ]
+    },
+    {
+      "id": "ko-021",
+      "level": 4,
+      "title": "ボーナス - 現代社会・技術トレンド",
+      "titleKo": "보너스 - 현대 사회와 기술 트렌드",
+      "objectives": [
+        "技術革新に関する現代的な韓国語表現を習得する",
+        "AI、デジタル化、スタートアップカルチャーについて議論できる",
+        "社会問題と政策について韓国語で議論できる",
+        "未来志向の話題に対応できる表現を習得する"
+      ],
+      "content": {
+        "introduction": "韓国は世界有数のテクノロジー先進国です。Samsung、LG、Naverなどの企業が世界をリード、AI開発、5G技術、スタートアップエコシステムで最前線に立っています。このボーナスレッスンでは、現代韓国社会の急速な変化と技術トレンドについて、韓国語で深く理解します。",
+        "sections": [
+          {
+            "title": "デジタル化と技術革新",
+            "phrases": [
+              {
+                "korean": "한국은 세계 최고의 초고속 인터넷 속도를 자랑합니다.",
+                "romaji": "Hanguk-eun segyae choe-go-ui chogo-sok inteoneot sokdo-reul ja-rang-hamnida.",
+                "japanese": "韓国は世界最高のインターネット速度を誇ります。",
+                "usage": "技術的優位性"
+              },
+              {
+                "korean": "AI 기술이 한국 산업을 주도하고 있어요.",
+                "romaji": "AI gisul-i Hanguk sanup-eul judo-ha-go it-eo-yo.",
+                "japanese": "AI技術が韓国産業を主導しています。",
+                "usage": "産業リーダーシップ"
+              },
+              {
+                "korean": "스타트업 생태계가 급속도로 성장하고 있습니다.",
+                "romaji": "Seutaoteup saengtae-gye-ga geupsotkdo-ro seonggang-ha-go it-seubnida.",
+                "japanese": "スタートアップエコシステムが急速に成長しています。",
+                "usage": "経済動向"
+              },
+              {
+                "korean": "5G 기술은 미래 통신의 핵심입니다.",
+                "romaji": "5G gisul-eun mirae tongsin-ui haeksim-imnida.",
+                "japanese": "5G技術は未来通信の中核です。",
+                "usage": "未来技術"
+              }
+            ]
+          },
+          {
+            "title": "社会変化と生活スタイル",
+            "phrases": [
+              {
+                "korean": "온라인 쇼핑이 생활의 일부가 되었어요.",
+                "romaji": "Onrain shopping-i saengwal-ui ilbu-ga doe-eot-seo-yo.",
+                "japanese": "オンラインショッピングが生活の一部になりました。",
+                "usage": "社会的変化"
+              },
+              {
+                "korean": "사회적 기업이 사회 문제를 해결하고 있습니다.",
+                "romaji": "Sahoejok gieop-i sahoe munje-reul haegyeol-ha-go it-seubnida.",
+                "japanese": "ソーシャルエンタープライズが社会問題を解決しています。",
+                "usage": "社会的責任"
+              },
+              {
+                "korean": "젊은 세대는 일과 삶의 균형을 추구합니다.",
+                "romaji": "Jeopeun se-dae-neun il-gwa salm-ui gyunhyung-eul chu-gu-hamnida.",
+                "japanese": "若い世代は仕事と生活のバランスを追求しています。",
+                "usage": "価値観の変化"
+              },
+              {
+                "korean": "환경 보호는 이제 필수 과제입니다.",
+                "romaji": "Hwangyeong boho-neun ije pil-su gwaje-imnida.",
+                "japanese": "環境保護は今や必須課題です。",
+                "usage": "社会的優先事項"
+              }
+            ]
+          },
+          {
+            "title": "韓国の国際的影響力",
+            "phrases": [
+              {
+                "korean": "한류 문화가 세계를 휩쓸고 있어요.",
+                "romaji": "Hallyu munhwa-ga segyae-reul hwip-sseul-go it-eo-yo.",
+                "japanese": "韓流文化が世界を席巻しています。",
+                "usage": "文化的影響"
+              },
+              {
+                "korean": "K-드라마와 K-음악이 글로벌 현상입니다.",
+                "romaji": "K-derama-wa K-eumsik-i geulloba-l hyeongsang-imnida.",
+                "japanese": "Kドラマと K音楽がグローバル現象です。",
+                "usage": "文化現象"
+              },
+              {
+                "korean": "한국 기업들이 세계 시장을 주도하고 있습니다.",
+                "romaji": "Hanguk gieop-deul-i segyae sigjang-eul judo-ha-go it-seubnida.",
+                "japanese": "韓国企業が世界市場を主導しています。",
+                "usage": "経済的影響"
+              },
+              {
+                "korean": "한국의 교육과 혁신 정신이 세계적으로 인정받았습니다.",
+                "romaji": "Hanguk-ui gyoyuk-gwa hyeokmyeong jeongsin-i segyejok-eu-ro in-jeong-bat-at-seubnida.",
+                "japanese": "韓国の教育と革新精神が世界的に認められました。",
+                "usage": "国家的成就"
+              }
+            ]
+          },
+          {
+            "title": "未来への展望と課題",
+            "phrases": [
+              {
+                "korean": "인공지능이 미래 사회를 변화시킬 것입니다.",
+                "romaji": "In-gong-jinen-i mirae sahoe-reul byeonhwa-si-kil geos-imnida.",
+                "japanese": "人工知能が未来社会を変えるでしょう。",
+                "usage": "未来予測"
+              },
+              {
+                "korean": "로봇 기술이 노동력을 대체하고 있어요.",
+                "romaji": "Robot gisul-i nodong-ryeok-eul daeche-ha-go it-eo-yo.",
+                "japanese": "ロボット技術が労働力を代替しています。",
+                "usage": "技術的変化"
+              },
+              {
+                "korean": "지속 가능성이 기업의 핵심 가치가 되었습니다.",
+                "romaji": "Jisok ganeung-seong-i gieop-ui haeksim gach-i-ga doe-eot-seubnida.",
+                "japanese": "サステナビリティが企業の中核価値になりました。",
+                "usage": "価値観転換"
+              },
+              {
+                "korean": "다양성과 포용성이 사회의 미래를 결정합니다.",
+                "romaji": "Dayangseong-gwa poyong-seong-i sahoe-ui mirae-reul gyeol-jeong-hamnida.",
+                "japanese": "ダイバーシティとインクルージョンが社会の未来を決定します。",
+                "usage": "社会的価値"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-021-q1",
+          "type": "fill-blank",
+          "question": "「韓国は世界最高のインターネット速度を誇ります」を韓国語で言ってください。",
+          "answer": "한국은 세계 최고의 초고속 인터넷 속도를 자랑합니다."
+        },
+        {
+          "id": "ko-021-q2",
+          "type": "fill-blank",
+          "question": "「AI技術が韓国産業を主導しています」を韓国語で言ってください。",
+          "answer": "AI 기술이 한국 산업을 주도하고 있어요."
+        },
+        {
+          "id": "ko-021-q3",
+          "type": "multiple-choice",
+          "question": "韓国のスタートアップエコシステムについて、正しい説明はどれですか？",
+          "options": [
+            "成長していない",
+            "急速に成長している",
+            "政府支援がない",
+            "国際的認認識がない"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "ko-021-q4",
+          "type": "fill-blank",
+          "question": "「韓流文化が世界を席巻しています」を韓国語で言ってください。",
+          "answer": "한류 문화가 세계를 휩쓸고 있어요."
+        },
+        {
+          "id": "ko-021-q5",
+          "type": "fill-blank",
+          "question": "「人工知能が未来社会を変えるでしょう」を韓国語で言ってください。",
+          "answer": "인공지능이 미래 사회를 변화시킬 것입니다."
+        },
+        {
+          "id": "ko-021-q6",
+          "type": "matching",
+          "question": "以下の現代韓国のトレンドを正しく組み合わせてください。",
+          "pairs": [
+            {"korean": "K-드라마", "meaning": "Kドラマ"},
+            {"korean": "스타트업", "meaning": "スタートアップ"},
+            {"korean": "AI 기술", "meaning": "AI技術"},
+            {"korean": "환경 보호", "meaning": "環境保護"}
+          ]
+        },
+        {
+          "id": "ko-021-q7",
+          "type": "fill-blank",
+          "question": "「ダイバーシティとインクルージョンが社会の未来を決定します」を韓国語で言ってください。",
+          "answer": "다양성과 포용성이 사회의 미래를 결정합니다."
+        },
+        {
+          "id": "ko-021-q8",
+          "type": "multiple-choice",
+          "question": "韓国の国際的影響力の源泉として、最も重要なのはどれですか？",
+          "options": [
+            "歴史的な軍事力のみ",
+            "技術革新、文化発信、企業競争力の統合",
+            "政治的圧力だけ",
+            "伝統文化のみ"
+          ],
+          "answer": 1
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国の現代社会・技術トレンド概論",
+          "duration": "19分",
+          "description": "AI・5G・スタートアップから韓流文化、社会的課題まで、現代韓国の全体像"
+        },
+        {
+          "type": "grammar",
+          "title": "現代的・未来志向の表現",
+          "content": "「～고 있어요」（進行中）、「～을 것입니다」（～するでしょう）、「～이/가 필요해요」（～が必要です）などの未来志向の表現。"
+        },
+        {
+          "type": "note",
+          "title": "韓国のテクノロジーリーダーシップ",
+          "content": "Samsung、LG、SK、Hyundaiなどが世界のテクノロジー市場を牽引。5G、AI、バッテリー技術などで世界を主導。スタートアップでもNaver、Kakao、Coupangなどが成功。"
+        },
+        {
+          "type": "note",
+          "title": "韓流文化の全球的影響",
+          "content": "2000年代の Kドラマ波に始まり、BTS・BLACKPINK等の K-pop、映画『パラサイト』のアカデミー賞受賞など、文化産業が国家の軟実力に。デジタル時代にアジア文化の代表として認識。"
+        },
+        {
+          "type": "note",
+          "title": "社会的課題と世代別価値観の違い",
+          "content": "若い世代は仕事と生活のバランス、環境問題、多様性を重視。企業も ESG（環境・社会・統治）経営へ転換。ただし少子化、地域格差など課題も多い。"
+        },
+        {
+          "type": "note",
+          "title": "韓国政府の革新政策",
+          "content": "「デジタルニューディール」などで AI、5G、ロボットへの投資を推進。教育改革、起業育成、国際技術協力など、未来志向の政策が展開。"
+        },
+        {
+          "type": "practice",
+          "title": "未来社会ディスカッション",
+          "content": "友人と「テクノロジー企業の CEO と社会学者」または「異なる世代の韓国人」の役割を分担して、AI時代の労働、環境問題、文化の国際化などについて深く議論してみてください。"
+        }
+      ]
     }
   ]
 }
