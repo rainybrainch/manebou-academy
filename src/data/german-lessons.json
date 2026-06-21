@@ -5575,6 +5575,225 @@
           "content": "あなたが企業の法務部長として、別国の企業との売買契約交渉に臨むシナリオ。相手国の法律環境、自社のリスク許容度、共通の利益を考慮して交渉戦略を立案します。支払条件、納期、品質保証、紛争解決メカニズムについて、どのような条項を提案するかを詳細に述べてください。"
         }
       ]
+    },
+    {
+      "id": "de-025",
+      "level": 5,
+      "title": "金融キャリアと投資戦略：銀行業務・資産管理・金融規制",
+      "titleDe": "Finanzkarriere und Investitionsstrategie: Bankwesen, Vermögensmanagement und Finanzregulation",
+      "objectives": [
+        "ドイツと国際的な金融システムの構造を理解する",
+        "銀行家・ファンドマネージャーのキャリアパスと職務要件を習得する",
+        "投資戦略、ポートフォリオ管理、リスク分析の基本を理解する",
+        "金融規制、コンプライアンス、および持続可能な投資の重要性を習得する"
+      ],
+      "content": {
+        "introduction": "金融セクターは世界経済の中核であり、洗練された知識と高度なスキルを要求します。このレッスンでは、ドイツの金融機関（Bundesbank、ドイツ銀行など）、銀行家や投資専門家のキャリアパス、投資戦略、金融規制（BaFin）、ESG投資、およびデジタル金融の変革に関する高度なドイツ語を学びます。",
+        "sections": [
+          {
+            "title": "ドイツの金融システムと職業体系",
+            "phrases": [
+              {
+                "german": "Das deutsche Finanzsystem wird durch die Bundesbank (Zentralbank), große Geschäftsbanken, und spezialisierte Finanzinstitute wie Investmentbanken und Versicherungsunternehmen geprägt.",
+                "romaji": "Das deutsche Finanzsystem wird durch die Bundesbank (Zentralbank), große Geschäftsbanken, und spezialisierte Finanzinstitute",
+                "japanese": "ドイツの金融システムは、連邦銀行（中央銀行）、大手商業銀行、投資銀行や保険会社などの専門金融機関によって特徴づけられています。",
+                "usage": "ドイツの金融システムの構造を説明するとき"
+              },
+              {
+                "german": "Bankangestellte benötigen häufig einen Abschluss in Betriebswirtschaft, Volkswirtschaft, oder Finanzmathematik, plus umfassende Schulungen und Zertifizierungen wie CFA (Chartered Financial Analyst).",
+                "romaji": "Bankangestellte benötigen häufig einen Abschluss in Betriebswirtschaft, Volkswirtschaft, oder Finanzmathematik",
+                "japanese": "銀行員は通常、経営学、経済学、または金融数学の学位を取得し、CFA（認定ファイナンシャルアナリスト）などの包括的な訓練と認定資格を有します。",
+                "usage": "銀行家のキャリア要件を説明するとき"
+              },
+              {
+                "german": "Karrierewege im Finanzsektor umfassen Positionen wie Kreditanalyst, Portfoliomanager, Investmentbanker, Risikomanager, und Compliance Officer in Banken, Fonds und Versicherungsunternehmen.",
+                "romaji": "Karrierewege im Finanzsektor umfassen Positionen wie Kreditanalyst, Portfoliomanager, Investmentbanker, Risikomanager",
+                "japanese": "金融セクターのキャリアパスは、信用分析官、ポートフォリオマネージャー、投資銀行家、リスク管理者、コンプライアンス責任者としての職位を含みます。",
+                "usage": "金融業界のキャリアパスを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "投資戦略とポートフォリオ管理",
+            "phrases": [
+              {
+                "german": "Eine erfolgreiche Investitionsstrategie erfordert klare Ziele, Risikotoleranz, Diversifikation, und regelmäßige Überprüfung und Anpassung auf Basis von Marktbedingungen.",
+                "romaji": "Eine erfolgreiche Investitionsstrategie erfordert klare Ziele, Risikotoleranz, Diversifikation, und regelmäßige Überprüfung",
+                "japanese": "成功する投資戦略には、明確な目標、リスク許容度、分散投資、市場状況に基づいた定期的な見直しと調整が必要です。",
+                "usage": "投資戦略の基本原則を説明するとき"
+              },
+              {
+                "german": "Portfoliomanager analysieren Aktien, Anleihen, Rohstoffe, und Immobilien, um eine optimale Vermögensallokation zu erreichen, die Rendite maximiert und Risiken minimiert.",
+                "romaji": "Portfoliomanager analysieren Aktien, Anleihen, Rohstoffe, und Immobilien, um eine optimale Vermögensallokation zu erreichen",
+                "japanese": "ポートフォリオマネージャーは株式、債券、商品、不動産を分析し、収益を最大化しリスクを最小化する最適な資産配分を達成します。",
+                "usage": "ポートフォリオ管理の実務を説明するとき"
+              },
+              {
+                "german": "Finanzmodelle und quantitative Methoden wie Value at Risk (VaR), Monte Carlo Simulation, und Volatilitätsanalyse sind essenzielle Werkzeuge für Risikobewertung und Entscheidungsfindung.",
+                "romaji": "Finanzmodelle und quantitative Methoden wie Value at Risk (VaR), Monte Carlo Simulation, und Volatilitätsanalyse",
+                "japanese": "バリュー・アット・リスク（VaR）、モンテカルロシミュレーション、ボラティリティ分析などの金融モデルと定量的手法はリスク評価と意思決定に不可欠なツールです。",
+                "usage": "金融リスク分析の手法を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "金融規制とコンプライアンス",
+            "phrases": [
+              {
+                "german": "Die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) reguliert den deutschen Finanzsektor und stellt sicher, dass Finanzinstitute hohe Standards für Solvabilität, Liquidität, und Kundenschutz erfüllen.",
+                "romaji": "Die Bundesanstalt für Finanzdienstleistungsaufsicht (BaFin) reguliert den deutschen Finanzsektor",
+                "japanese": "金融監督庁（BaFin）はドイツの金融セクターを規制し、金融機関が支払能力、流動性、顧客保護について高い基準を満たすことを保証します。",
+                "usage": "ドイツの金融規制を説明するとき"
+              },
+              {
+                "german": "Basel III und europäische Bankaufsichtsrichtlinien verpflichten Banken, Kapitalanforderungen zu erhöhen, Liquiditätsrisiken zu managen, und strenge Compliance-Standards einzuhalten.",
+                "romaji": "Basel III und europäische Bankaufsichtsrichtlinien verpflichten Banken, Kapitalanforderungen zu erhöhen",
+                "japanese": "バーゼルIIIと欧州銀行監督指令は、銀行に資本要件の引き上げ、流動性リスクの管理、厳格なコンプライアンス基準の遵守を義務付けます。",
+                "usage": "国際的な銀行規制を説明するとき"
+              },
+              {
+                "german": "Anti-Geldwäsche (AML), Know Your Customer (KYC), und Due Diligence sind kritische Compliance-Anforderungen, um Geldwäsche, Terrorismusfinanzierung, und betrügerische Aktivitäten zu verhindern.",
+                "romaji": "Anti-Geldwäsche (AML), Know Your Customer (KYC), und Due Diligence sind kritische Compliance-Anforderungen",
+                "japanese": "マネーロンダリング対策（AML）、顧客確認（KYC）、デューディリジェンスはマネーロンダリング、テロ資金提供、詐欺行為を防ぐための重要なコンプライアンス要件です。",
+                "usage": "金融コンプライアンスの主要要素を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "ESG投資とサステナブルファイナンス",
+            "phrases": [
+              {
+                "german": "ESG-Investitionen (Umwelt, Soziales, Governance) berücksichtigen Nachhaltigkeitsaspekte und integrieren diese in Investitionsentscheidungen, um langfristige Wertschöpfung und Risikominderung zu erzielen.",
+                "romaji": "ESG-Investitionen (Umwelt, Soziales, Governance) berücksichtigen Nachhaltigkeitsaspekte und integrieren diese in Investitionsentscheidungen",
+                "japanese": "ESG投資（環境・社会・ガバナンス）はサステナビリティの側面を考慮し、これらを投資判断に統合して長期的な価値創造とリスク軽減を実現します。",
+                "usage": "ESG投資の概念を説明するとき"
+              },
+              {
+                "german": "Grüne Anleihen (Green Bonds) finanzieren Umweltprojekte wie erneuerbare Energien, Energieeffizienz, und Klimaschutz und spielen eine zunehmend wichtige Rolle in der Finanzierung nachhaltiger Entwicklung.",
+                "romaji": "Grüne Anleihen (Green Bonds) finanzieren Umweltprojekte wie erneuerbare Energien, Energieeffizienz, und Klimaschutz",
+                "japanese": "グリーンボンド（緑色債券）は再生可能エネルギー、エネルギー効率、気候変動対策などの環境プロジェクトに資金を提供し、持続可能な開発資金における役割が増しています。",
+                "usage": "持続可能な金融商品を説明するとき"
+              },
+              {
+                "german": "Der Übergang zu einer Kreislaufwirtschaft und dekarbonisierten Wirtschaft erfordert massive Investitionen in grüne Infrastruktur, was Finanzfachleuten neue Chancen und Herausforderungen bietet.",
+                "romaji": "Der Übergang zu einer Kreislaufwirtschaft und dekarbonisierten Wirtschaft erfordert massive Investitionen in grüne Infrastruktur",
+                "japanese": "循環経済および脱炭素経済への移行には、グリーンインフラへの巨大な投資が必要であり、金融専門家に新しい機会と課題をもたらします。",
+                "usage": "エネルギー転換と金融の関係を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-025-q1",
+          "type": "fill-blank",
+          "question": "「ドイツの金融システムは連邦銀行と大手商業銀行で構成されています」をドイツ語で言ってください。",
+          "answer": "Das deutsche Finanzsystem wird durch die Bundesbank und große Geschäftsbanken geprägt."
+        },
+        {
+          "id": "de-025-q2",
+          "type": "multiple-choice",
+          "question": "銀行員に必要な学位は？",
+          "options": [
+            "経営学、経済学、または金融数学の学位 + CFA認定資格",
+            "文学の学位のみ",
+            "高校卒業で十分",
+            "実務経験のみで可能"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-025-q3",
+          "type": "fill-blank",
+          "question": "「成功する投資戦略は明確な目標とリスク許容度を必要とします」をドイツ語で言ってください。",
+          "answer": "Eine erfolgreiche Investitionsstrategie erfordert klare Ziele und Risikotoleranz."
+        },
+        {
+          "id": "de-025-q4",
+          "type": "multiple-choice",
+          "question": "ポートフォリオ管理の主な目的は？",
+          "options": [
+            "収益を最大化しリスクを最小化する",
+            "すべての資金を1つの銘柄に投資する",
+            "市場トレンドのみに従う",
+            "分析なしで決定する"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-025-q5",
+          "type": "fill-blank",
+          "question": "「BaFinはドイツの金融セクターを規制します」をドイツ語で言ってください。",
+          "answer": "Die BaFin reguliert den deutschen Finanzsektor."
+        },
+        {
+          "id": "de-025-q6",
+          "type": "matching",
+          "question": "金融規制用語と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"term": "AML", "description": "マネーロンダリング対策"},
+            {"term": "KYC", "description": "顧客確認プロセス"},
+            {"term": "Basel III", "description": "銀行資本規制"}
+          ]
+        },
+        {
+          "id": "de-025-q7",
+          "type": "fill-blank",
+          "question": "「ESG投資は環境・社会・ガバナンスを考慮します」をドイツ語で言ってください。",
+          "answer": "ESG-Investitionen berücksichtigen Umwelt-, Sozial- und Governance-Aspekte."
+        },
+        {
+          "id": "de-025-q8",
+          "type": "multiple-choice",
+          "question": "グリーンボンドの主な目的は？",
+          "options": [
+            "環境プロジェクト（再生可能エネルギー、気候変動対策）への資金提供",
+            "企業の営利事業の支援のみ",
+            "軍事費用への融資",
+            "投機目的の取引"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツの金融システムと投資キャリア：銀行業務・ポートフォリオ管理・ESG投資",
+          "duration": "28分",
+          "description": "連邦銀行とドイツ銀行の役割。銀行家のキャリアパス。投資戦略とリスク分析。BaFinの規制体制。ESG投資とグリーンボンド。デジタル金融の未来。"
+        },
+        {
+          "type": "grammar",
+          "title": "金融用語と投資・銀行業用語",
+          "content": "金融複合名詞：Finanzsystem（金融システム）、Portfoliomanagement（ポートフォリオ管理）、Risikobewertung（リスク評価）、Vermögensallokation（資産配分）。投資用語：Rendite（収益）、Volatilität（ボラティリティ）、Diversifikation（分散投資）。規制用語：Compliance（コンプライアンス）、Solvabilität（支払能力）、Liquidität（流動性）。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツの主要な金融機関と市場",
+          "content": "連邦銀行（Bundesbank）：中央銀行、金融政策実施。ドイツ銀行（Deutsche Bank）：大手国際銀行。コメルツバンク（Commerzbank）：商業銀行。フランクフルト証券取引所（Frankfurt Stock Exchange）：ドイツ最大の株式市場。"
+        },
+        {
+          "type": "note",
+          "title": "金融規制と国際基準",
+          "content": "バーゼルI・II・III：国際銀行規制。BaFin（金融監督庁）：銀行・保険・証券市場の監督。EU統一規制：銀行同盟、資本要件指令（CRD IV）。AML/KYC：反マネーロンダリング国際基準。"
+        },
+        {
+          "type": "note",
+          "title": "ESG投資とサステナブルファイナンスの動向",
+          "content": "パリ協定への対応：脱炭素投資の加速。グリーンボンドの成長：環境プロジェクト融資。サステナビリティ報告基準：企業の非財務情報開示。社会的責任投資（SRI）：人権・労働基準を考慮。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツと韓国の金融市場の比較",
+          "content": "ドイツ：EU統合、ユーロ圏の金融中心、長期安定性重視。韓国：高成長金融市場、技術革新、急速な金融デジタル化。両国とも国際的な金融規制に準拠。"
+        },
+        {
+          "type": "practice",
+          "title": "投資ポートフォリオの構築と実装計画",
+          "content": "あなたが資産管理会社のポートフォリオマネージャーとします。中期（5年）と長期（10年）の投資目標、リスク許容度、市場環境を考慮して、株式・債券・不動産・ESG投資の最適な配分を設計します。定期的なリバランスの戦略、モニタリング指標、規制遵守とコンプライアンスの実装計画を詳細に述べてください。"
+        }
+      ]
     }
   ]
 }
