@@ -698,6 +698,354 @@
         }
       ],
       "resources": []
+    },
+    {
+      "id": "ko-013",
+      "level": 4,
+      "title": "上級 - 文化・歴史",
+      "titleKo": "상급 - 문화와 역사",
+      "objectives": [
+        "韓国文化についての議論ができる",
+        "歴史的背景について説明できる",
+        "文化的背景を理解した深い会話ができる"
+      ],
+      "content": {
+        "introduction": "韓国の豊かな文化と歴史を学ぶことで、より深いコミュニケーションが可能になります。伝統と現代の融合を理解します。",
+        "sections": [
+          {
+            "title": "韓国文化の話題",
+            "phrases": [
+              {
+                "korean": "한복이 아름답네요.",
+                "romaji": "Hanbok-i areumdap-ne-yo.",
+                "japanese": "韓服は美しいですね。",
+                "usage": "文化への褒め"
+              },
+              {
+                "korean": "한국 전통이 살아있어요.",
+                "romaji": "Hanguk jeontong-i sal-a-it-eo-yo.",
+                "japanese": "韓国の伝統が生きていますね。",
+                "usage": "文化的観察"
+              },
+              {
+                "korean": "한글의 역사는 어떻게 돼요?",
+                "romaji": "Hanggeul-ui yeoksa-neun eotteoke doe-yo?",
+                "japanese": "ハングルの歴史はどうなっていますか？",
+                "usage": "歴史への質問"
+              },
+              {
+                "korean": "한국 전쟁 이후로 많이 변했어요.",
+                "romaji": "Hanguk jeonjaeng ihoo-ro man-i byeon-haet-seo-yo.",
+                "japanese": "朝鮮戦争以来、かなり変わりました。",
+                "usage": "歴史的背景"
+              },
+              {
+                "korean": "유교 문화가 여전히 중요해요.",
+                "romaji": "Yugyo munhwa-ga yeojeon-hi jung-yo-hae-yo.",
+                "japanese": "儒教文化は今でも重要です。",
+                "usage": "文化的背景説明"
+              }
+            ]
+          },
+          {
+            "title": "伝統と現代の融合",
+            "phrases": [
+              {
+                "korean": "K-pop이 세계적으로 인기예요.",
+                "romaji": "K-pop-i segyejok-eu-ro in-gi-ye-yo.",
+                "japanese": "K-popは世界的に人気です。",
+                "usage": "現代文化"
+              },
+              {
+                "korean": "한국 영화가 국제 영화제에서 상을 받았어요.",
+                "romaji": "Hanguk yeonghwa-ga gugje yeonghwaje-e-seo sang-eul bat-at-seo-yo.",
+                "japanese": "韓国映画は国際映画祭で賞を受けました。",
+                "usage": "文化的成就"
+              },
+              {
+                "korean": "서울이 현대적이면서도 전통을 유지하고 있어요.",
+                "romaji": "Seoul-i hyeondae-jok-i-myeon-seo-do jeontong-eul yuji-ha-go it-eo-yo.",
+                "japanese": "ソウルは現代的でありながら伝統を保っています。",
+                "usage": "都市観察"
+              },
+              {
+                "korean": "한국 음식은 웰빙 음식으로 주목받고 있어요.",
+                "romaji": "Hanguk eumsik-eun wellbing eumsik-eu-ro jumok-bat-go it-eo-yo.",
+                "japanese": "韓国料理はウェルビーイング食として注目されています。",
+                "usage": "食文化"
+              }
+            ]
+          },
+          {
+            "title": "文化交流",
+            "phrases": [
+              {
+                "korean": "한일 문화 교류가 활발해요.",
+                "romaji": "Hanil munhwa gyoryu-ga hwal-bal-hae-yo.",
+                "japanese": "日韓文化交流が盛んです。",
+                "usage": "交流について"
+              },
+              {
+                "korean": "한국 문화에 관심이 많은 사람들이 늘어나고 있어요.",
+                "romaji": "Hanguk munhwa-e gwansim-i man-eun saram-deul-i neul-eo-na-go it-eo-yo.",
+                "japanese": "韓国文化に関心のある人々が増えています。",
+                "usage": "文化現象"
+              },
+              {
+                "korean": "문화 교류는 상호 이해를 증진시켜요.",
+                "romaji": "Munhwa gyoryu-neun sangho ihaereul jeung-jin-si-kyeo-yo.",
+                "japanese": "文化交流は相互理解を促進します。",
+                "usage": "文化的意義"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-013-q1",
+          "type": "fill-blank",
+          "question": "「韓服は美しいですね」を韓国語で言ってください。",
+          "answer": "한복이 아름답네요."
+        }
+      ],
+      "resources": []
+    },
+    {
+      "id": "ko-014",
+      "level": 4,
+      "title": "上級 - ビジネス会話",
+      "titleKo": "상급 - 비즈니스 회화",
+      "objectives": [
+        "ビジネス用語と敬語が使える",
+        "会議やプレゼンで対応できる",
+        "契約やメール対応ができる"
+      ],
+      "content": {
+        "introduction": "韓国でのビジネスコミュニケーションは、敬語と専門用語の習得が鍵になります。実務的な表現を学びます。",
+        "sections": [
+          {
+            "title": "ビジネス挨拶・会議",
+            "phrases": [
+              {
+                "korean": "미팅 시간이 되었습니다.",
+                "romaji": "Mieting sigan-i doe-eot-seubnida.",
+                "japanese": "ミーティングの時間になりました。",
+                "usage": "会議開始"
+              },
+              {
+                "korean": "안건을 설명해 주시겠어요?",
+                "romaji": "Angeon-eul seolmyeong-hae ju-si-get-seo-yo?",
+                "japanese": "議題を説明していただけますか？",
+                "usage": "説明をリクエスト"
+              },
+              {
+                "korean": "계약서에 서명해 주세요.",
+                "romaji": "Gyeyak-seo-e seomyeong-hae ju-se-yo.",
+                "japanese": "契約書に署名してください。",
+                "usage": "契約プロセス"
+              },
+              {
+                "korean": "납기일이 언제예요?",
+                "romaji": "Napgi-il-i eonje-ye-yo?",
+                "japanese": "納期はいつですか？",
+                "usage": "納期確認"
+              },
+              {
+                "korean": "이 제안이 좋다고 생각합니다.",
+                "romaji": "I jeang-i jota-go saenggak-hamnida.",
+                "japanese": "この提案は良いと思います。",
+                "usage": "意見表明"
+              }
+            ]
+          },
+          {
+            "title": "ビジネスメール表現",
+            "phrases": [
+              {
+                "korean": "이메일을 받으셨나요?",
+                "romaji": "Imeilu-reul bad-eu-syeot-na-yo?",
+                "japanese": "メールを受け取られましたか？",
+                "usage": "確認"
+              },
+              {
+                "korean": "빨리 답장을 부탁드립니다.",
+                "romaji": "Ppalli dapjang-eul butakdeurimnida.",
+                "japanese": "早めのご返信をお願いいたします。",
+                "usage": "返信要請"
+              },
+              {
+                "korean": "첨부 파일을 보내드립니다.",
+                "romaji": "Cheombu pail-eul bonae-deu-rimnida.",
+                "japanese": "添付ファイルをお送りします。",
+                "usage": "ファイル送信"
+              },
+              {
+                "korean": "회의 결과를 정리해서 보내겠습니다.",
+                "romaji": "Hoeui gyeolgwa-reul jeongri-hae-seo bonae-get-seubnida.",
+                "japanese": "会議の結果をまとめてお送りします。",
+                "usage": "フォローアップ"
+              }
+            ]
+          },
+          {
+            "title": "プレゼンテーション",
+            "phrases": [
+              {
+                "korean": "발표 기회를 주셔서 감사합니다.",
+                "romaji": "Balpyo gihoereul ju-syeo-seo gamsahamnida.",
+                "japanese": "発表の機会をいただき、ありがとうございます。",
+                "usage": "発表開始"
+              },
+              {
+                "korean": "이 차트가 보여주는 것은 매출 증가입니다.",
+                "romaji": "I chagteu-ga boyeo-ju-neun geot-eun maechul jeung-ga-imnida.",
+                "japanese": "このグラフが示すのは売上増加です。",
+                "usage": "データ説明"
+              },
+              {
+                "korean": "질문이 있으시면 말씀해 주세요.",
+                "romaji": "Jilmun-i it-eu-si-myeon malsseum-hae ju-se-yo.",
+                "japanese": "ご質問がありましたら、お願いします。",
+                "usage": "質問受付"
+              },
+              {
+                "korean": "이렇게 우리는 목표를 달성했습니다.",
+                "romaji": "Ireoke uri-neun mokpyo-reul dal-seong-haet-seubnida.",
+                "japanese": "このようにして、私たちは目標を達成しました。",
+                "usage": "成果報告"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-014-q1",
+          "type": "fill-blank",
+          "question": "「ミーティングの時間になりました」を韓国語で言ってください。",
+          "answer": "미팅 시간이 되었습니다."
+        }
+      ],
+      "resources": []
+    },
+    {
+      "id": "ko-015",
+      "level": 4,
+      "title": "上級 - 時事・ニュース理解",
+      "titleKo": "상급 - 뉴스와 시사",
+      "objectives": [
+        "ニュース記事が理解できる",
+        "社会問題について議論できる",
+        "新聞や放送の内容が把握できる"
+      ],
+      "content": {
+        "introduction": "韓国のニュースや時事問題を理解することで、現在の社会動向を把握し、より深い会話ができます。",
+        "sections": [
+          {
+            "title": "ニュース関連表現",
+            "phrases": [
+              {
+                "korean": "오늘의 주요 뉴스는 무엇인가요?",
+                "romaji": "Oneul-ui juyō nyuseu-neun mueot-in-ga-yo?",
+                "japanese": "今日の主要ニュースは何ですか？",
+                "usage": "ニュース確認"
+              },
+              {
+                "korean": "이 기사가 화제가 되고 있어요.",
+                "romaji": "I gisa-ga hwaje-ga doe-go it-eo-yo.",
+                "japanese": "この記事が話題になっています。",
+                "usage": "話題言及"
+              },
+              {
+                "korean": "정부가 새로운 정책을 발표했어요.",
+                "romaji": "Jeongbu-ga saeroun jeongchaek-eul balpyo-haet-seo-yo.",
+                "japanese": "政府が新しい政策を発表しました。",
+                "usage": "政治ニュース"
+              },
+              {
+                "korean": "경제 상황이 어떻게 되고 있나요?",
+                "romaji": "Gyeongje sanghwang-i eotteoke doe-go it-na-yo?",
+                "japanese": "経済状況はどうなっていますか？",
+                "usage": "経済質問"
+              },
+              {
+                "korean": "사회 문제에 대해 어떻게 생각해요?",
+                "romaji": "Sahoe munje-e daehae eotteoke saenggak-hae-yo?",
+                "japanese": "社会問題についてどう思いますか？",
+                "usage": "意見交換"
+              }
+            ]
+          },
+          {
+            "title": "社会問題討論",
+            "phrases": [
+              {
+                "korean": "환경 문제가 점점 심각해지고 있어요.",
+                "romaji": "Hwangyeong munje-ga jeomjeom simgak-hae-ji-go it-eo-yo.",
+                "japanese": "環境問題がだんだん深刻になっています。",
+                "usage": "環境問題"
+              },
+              {
+                "korean": "교육 개혁이 필요하다고 생각해요.",
+                "romaji": "Gyoyuk gaebyeok-i pil-yo-ha-da-go saenggak-hae-yo.",
+                "japanese": "教育改革が必要だと思います。",
+                "usage": "教育議論"
+              },
+              {
+                "korean": "이 문제는 여러 관점이 있어요.",
+                "romaji": "I munje-neun yeoreo gwanjeom-i it-eo-yo.",
+                "japanese": "この問題には複数の観点があります。",
+                "usage": "多角的視点"
+              },
+              {
+                "korean": "긍정적인 변화를 기대해요.",
+                "romaji": "Keung-jeong-jeok-in byeonhwa-reul gidaehae-yo.",
+                "japanese": "ポジティブな変化を期待しています。",
+                "usage": "希望表現"
+              }
+            ]
+          },
+          {
+            "title": "メディアリテラシー",
+            "phrases": [
+              {
+                "korean": "그 정보가 믿을 만한가요?",
+                "romaji": "Geu jeongbo-ga mid-eul man-han-ga-yo?",
+                "japanese": "その情報は信頼できますか？",
+                "usage": "情報検証"
+              },
+              {
+                "korean": "출처가 명확해야 돼요.",
+                "romaji": "Chulcho-ga myeongheung-hae-ya doe-yo.",
+                "japanese": "出典が明確でなければいけません。",
+                "usage": "情報源確認"
+              },
+              {
+                "korean": "여러 매체의 보도를 비교해 봐요.",
+                "romaji": "Yeoreo maetche-ui bodo-reul bigyohae bwa-yo.",
+                "japanese": "複数のメディアの報道を比較してみましょう。",
+                "usage": "批判的思考"
+              },
+              {
+                "korean": "가짜 뉴스에 주의해야 해요.",
+                "romaji": "Gajja nyuseu-e juui-hae-ya hae-yo.",
+                "japanese": "フェイクニュースに注意しなければいけません。",
+                "usage": "警告"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-015-q1",
+          "type": "fill-blank",
+          "question": "「この記事が話題になっています」を韓国語で言ってください。",
+          "answer": "이 기사가 화제가 되고 있어요."
+        }
+      ],
+      "resources": []
     }
   ]
 }
