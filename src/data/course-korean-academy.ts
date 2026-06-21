@@ -292,7 +292,16 @@ export const koreanAcademyCategory: Category = {
             },
             {
               type: 'text',
-              content: '**業界用語**\n- 데뷔 (debut) - デビュー\n- 뮤직비디오 (music video) - MV\n- 앨범 (album) - アルバム\n- 콘서트 (concert) - コンサート\n- 팬클럽 (fan club) - ファンクラブ\n- 차트 (chart) - チャート\n- 스타일링 (styling) - スタイリング\n- 컴백 (comeback) - カムバック（新曲/新アルバムリリース）\n- 뮤직쇼 (music show) - 音楽番組\n\n**若者言葉・SNS用語**\n- 뭔가 (mwunga) - なんか（フィラー）\n- 솔직히 (soljikhи) - 正直に言うと\n- 저도 (jeodo) - 私も（謙虚な表現）\n- 감사합니다 (gamsahamnida) - ありがとうございます（アイドル標準敬語）\n- 응원해 주셔서 (eung-won-hae jusyeoseo) - 応援ありがとう（ファンへの感謝）\n- 사랑합니다 (saranghamnida) - 愛しています（アイドルが使う最敬語）\n\n**アイドル特有表現**\n- "열심히 하겠습니다" (yeolsimhi hagesseumnida) - 精一杯頑張ります（宣言）\n- "팬 여러분들" (paen yeoreobun-deul) - ファンの皆さん（敬語・感謝）\n- "앞으로도 응원 부탁드립니다" (apeuro do eung-won butakhdeureumnida) - 今後も応援よろしくお願いします\n- "이번 컴백도 많은 사랑 부탁드립니다" (ibeon comeback do maneun sarang butakh-deureumnida) - 今回のカムバックもたくさんのご愛顧ください',
+              content: '**業界用語**\n- 데뷔 (debut) - デビュー\n- 뮤직비디오 (music video) - MV\n- 앨범 (album) - アルバム\n- 콘서트 (concert) - コンサート\n- 팬클럽 (fan club) - ファンクラブ\n- 차트 (chart) - チャート\n- 스타일링 (styling) - スタイリング\n- 컴백 (comeback) - カムバック（新曲/新アルバムリリース）\n- 뮤직쇼 (music show) - 音楽番組\n- 애뮤 (amu) - 応援\n- 팬사인회 (pansain-hoe) - ファンサイン会\n- 콘 (kon) - コンサート（短縮形）\n- 뮤크 (myuk) - ミュージック（短縮形）\n- 솔로앨범 (solo album) - ソロアルバム\n\n**若者言葉・SNS用語**\n- 뭔가 (mwunga) - なんか（フィラー）\n- 솔직히 (soljikhи) - 正直に言うと\n- 저도 (jeodo) - 私も（謙虚な表現）\n- 감사합니다 (gamsahamnida) - ありがとうございます（アイドル標準敬語）\n- 응원해 주셔서 (eung-won-hae jusyeoseo) - 応援ありがとう（ファンへの感謝）\n- 사랑합니다 (saranghamnida) - 愛しています（アイドルが使う最敬語）\n- 화이팅 (hwai-ting) - ファイティング（応援・励まし）\n- 넘사벽 (neom-sa-byeok) - 越えられない壁（スターファンが使う）\n\n**アイドル特有表現**\n- "열심히 하겠습니다" (yeolsimhi hagesseumnida) - 精一杯頑張ります（宣言）\n- "팬 여러분들" (paen yeoreobun-deul) - ファンの皆さん（敬語・感謝）\n- "앞으로도 응원 부탁드립니다" (apeuro do eung-won butakhdeureumnida) - 今後も応援よろしくお願いします\n- "이번 컴백도 많은 사랑 부탁드립니다" (ibeon comeback do maneun sarang butakh-deureumnida) - 今回のカムバックもたくさんのご愛顧ください\n- "저희가 최선을 다하겠습니다" (jeohiga choeseon-eul da-hagesseumnida) - 私たちが最善を尽くします',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'K-POPアイドルのインタビュー表現例',
+            },
+            {
+              type: 'text',
+              content: '**Q: 新曲について教えてください**\nアイドル："이번 앨범은 저희가 정말 힘들게 준비했어요. 많은 애정을 가지고 만들었으니까 꼭 들어주세요."\n(This album was something we prepared really hard for. We made it with lots of love, so please listen to it.)\n\n**Q: ファンへのメッセージ**\nアイドル："항상 응원해주셔서 감사합니다. 여러분이 없으면 저희는 없어요. 앞으로도 최고의 무대를 보여드리겠습니다."\n(Thank you for always supporting us. Without you, we wouldn\'t exist. We\'ll continue to show you the best performances.)',
             },
           ],
         },
@@ -334,7 +343,7 @@ export const koreanAcademyCategory: Category = {
             },
             {
               type: 'text',
-              content: '**雨で濡れた二人**\n- "감기 걸리겠네..." - 風邪ひいちゃう...\n- "괜찮아... 난 괜찮아" - 大丈夫... 僕は大丈夫だ\n\n**夜明けの別れ**\n- "해가 뜰 때까지만 기다려..." - 日が出るまで待ってくれ...\n- "날 놔줘..." - 僕を手放して...（つらい決断）\n\n**偶然の再会**\n- "오빠... 너야?" - お兄さん... お前？\n- "많이 못 본 사이에 예뻐졌네" - 会わなかった間に綺麗になったね（懐かしさ）',
+              content: '**雨で濡れた二人**\n- "감기 걸리겠네..." - 風邪ひいちゃう...\n- "괜찮아... 난 괜찮아" - 大丈夫... 僕は大丈夫だ\n\n**夜明けの別れ**\n- "해가 뜰 때까지만 기다려..." - 日が出るまで待ってくれ...\n- "날 놔줘..." - 僕を手放して...（つらい決断）\n\n**偶然の再会**\n- "오빠... 너야?" - お兄さん... お前？\n- "많이 못 본 사이에 예뻐졌네" - 会わなかった間に綺麗になったね（懐かしさ）\n- "정말 오래만이야..." - 本当に久しぶりだね...\n- "너는... 달라졌어" - 君は... 変わったんだ',
             },
           ],
         },
