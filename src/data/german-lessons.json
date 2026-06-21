@@ -1319,6 +1319,25 @@
             {"german": "Bratwurst", "meaning": "ソーセージ"},
             {"german": "Spätzle", "meaning": "ドイツ風パスタ"}
           ]
+        },
+        {
+          "id": "de-005-q9",
+          "type": "fill-blank",
+          "question": "「メニューをください」をドイツ語で言ってください。",
+          "hint": "「Die Speisekarte」で始まります",
+          "answer": "Die Speisekarte bitte."
+        },
+        {
+          "id": "de-005-q10",
+          "type": "multiple-choice",
+          "question": "ドイツレストランでのチップ（Trinkgeld）について、正しいのはどれですか？",
+          "options": [
+            "チップは法律で義務付けられている",
+            "チップは任意で、満足した場合に5-10%程度渡すのが一般的",
+            "チップは不適切で、支払うべきではない",
+            "チップは必ず15%以上支払わなければならない"
+          ],
+          "answer": 1
         }
       ],
       "resources": [
