@@ -8810,6 +8810,230 @@
           "content": "あなたが韓国の農場経営者とします。今後5年のスマートファーム・デジタル化戦略を立案します。土壌・気象・植物監視システム導入、IoTセンサー配置、データ分析プラットフォーム、ドローン活用、ロボット導入計画、ブロックチェーン・トレーサビリティシステム構築、オンライン直販プラットフォーム、CSA会員管理システムを含めます。投資額、ROI、実装タイムライン、期待される効果を詳細に述べてください。"
         }
       ]
+    },
+    {
+      "id": "ko-048",
+      "level": 5,
+      "title": "運輸・ロジスティクス：サプライチェーン・物流管理・デジタル化",
+      "titleKo": "운송 및 물류: 공급망, 물류 관리, 디지털화",
+      "objectives": [
+        "サプライチェーン全体のプロセスと課題を理解する",
+        "物流管理、在庫管理、輸送最適化に関する専門用語を習得する",
+        "デジタル物流、IoT、AI活用に関する知識を習得する",
+        "持続可能な物流とグリーンロジスティクスを理解する"
+      ],
+      "content": {
+        "introduction": "運輸とロジスティクスはグローバルトレードの神経系です。韓国は海運と港湾で世界的に重要な地位を占め、高度な物流システムを持っています。このレッスンでは、サプライチェーン管理、物流最適化、デジタル物流、持続可能な輸送に関する高度な韓国語を学びます。",
+        "sections": [
+          {
+            "title": "サプライチェーン管理と物流ネットワーク",
+            "phrases": [
+              {
+                "korean": "공급망은 조달, 생산, 보관, 운송, 유통을 포함하며, 각 단계는 비용을 줄이고 고객 만족도를 높이기 위해 최적화되어야 합니다.",
+                "romaji": "Gong-geubmang-eun jodal, saengsan, bogwan, un-song, yu-tong-eul pohamhayeo, gaggag dan-gyae-neun bigyong-eul jjeul-igo goggaeg man-jogtdo-reul noph-igi wihae choesog hwahwae-doei-ya hamnida",
+                "japanese": "サプライチェーンは調達、生産、保管、輸送、配分を含みます。各段階を最適化してコスト削減と顧客満足度向上を実現します。",
+                "usage": "サプライチェーンの全体像を説明するとき"
+              },
+              {
+                "korean": "물류 네트워크(배송센터, 창고, 운송 경로)는 전략적으로 계획되어 리드 타임을 최소화하고 서비스 레벨을 최대화합니다.",
+                "romaji": "Mul-ryu neteuweokeu (baesong senteo, chang-go, un-song gyeongro)-neun jeonryagjeoug euro gyae hoeg doei-ya rid ta-im-eul choesoga hwahwae-hago seobiseu rebel-eul choe dae hwahwae hamnida",
+                "japanese": "ロジスティクスネットワーク（配送センター、倉庫、輸送ルート）は戦略的に計画され、リードタイムを最小化し、サービスレベルを最大化します。",
+                "usage": "物流ネットワークの計画を説明するとき"
+              },
+              {
+                "korean": "저스트 인 타임(JIT)과 린 물류는 재고를 줄이고, 캐시 플로우를 개선하며, 정확한 타이밍으로 자재 흐름을 향상시킵니다.",
+                "romaji": "Jeoseu teu in ta-im (JIT)-gwa rin mul-ryu-neun jaego-reul jjeul-igo, kyae-si peu-ro-u-reul gaeseon hayeo-imyeo, jeonghas-han ta-i-ming-euro jawae heure-reum-eul hyang-sang sikip nida",
+                "japanese": "ジャストインタイム（JIT）とリーンロジスティクスは在庫を削減し、キャッシュフローを改善し、材料フローの正確なタイミングで効率を向上させます。",
+                "usage": "ジャストインタイムの概念を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "在庫管理と輸送最適化",
+            "phrases": [
+              {
+                "korean": "재고 관리(ABC 분석, 안전 재고, 재주문 포인트)는 가용성, 보관 비용, 자본 구속 사이의 균형을 맞춉니다.",
+                "romaji": "Jaego gwanri (ABC bunseokg, anseon jaego, jaejumunn pointes)-eun ga-yong seong, bogwan bigyong, jaben gusokg saie-ui gyunhyeong-eul mat chup nida",
+                "japanese": "在庫管理（ABC分析、安全在庫、再注文点）は可用性、保管コスト、資本拘束のバランスを取ります。",
+                "usage": "在庫管理手法を説明するとき"
+              },
+              {
+                "korean": "운송 최적화는 알고리즘을 사용하여 경로 계획, 적재 통합, 운송 모드 선택(철도, 트럭, 선박, 항공)으로 시간과 비용을 최소화합니다.",
+                "romaji": "Un-song choesog hwahwae-neun al-go-ri-jeum-eul sayonghayeo gyeongro gyae hoeg, jeog-jae tong-hab, un-song modeue seontaeg (cheol-do, teurag-teo, seonbag, hang-gong)-euro sigan-gwa bigyong-eul choesoga hwahwae hamnida",
+                "japanese": "輸送最適化はアルゴリズムを使用してルート計画、積載統合、輸送モード選択（鉄道、トラック、船舶、航空）で時間とコストを最小化します。",
+                "usage": "輸送最適化戦略を説明するとき"
+              },
+              {
+                "korean": "라스트 마일 배송은 공급망에서 가장 비싼 단계입니다. 새로운 모델(마이크로 허브, 크라우드 배송, 드론)은 비용을 줄이고 환경 친화성을 향상시킵니다.",
+                "romaji": "Ra-seu-teu ma-il bae-song-eun gong-geubmang-e-seo gajang bi-ssan dan-gyae imnida. Saeroun model (ma-i-keu-ro heo-beu, keu-rau-deu bae-song, deuron)-eun bigyong-eul jjeul-igo hwangyeong chin-hwa seong-eul hyang-sang sikip nida",
+                "japanese": "ラストマイルデリバリーはサプライチェーンで最も費用がかかる段階です。新しいモデル（マイクロハブ、群衆配送、ドローン）がコスト削減と環境性能を向上させます。",
+                "usage": "ラストマイルデリバリーの課題を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "デジタル物流とテクノロジー",
+            "phrases": [
+              {
+                "korean": "디지털 물류는 ERP 시스템, WMS(창고 관리 시스템), TMS(운송 관리 시스템)를 통합하여 공급망의 투명성과 제어를 가능하게 합니다.",
+                "romaji": "Dijital mul-ryu-neun ERP siseutem, WMS (chang-go gwanri siseutem), TMS (un-song gwanri siseutem)-reul tonghab hayeo gong-geubmang-ui tuhmyeon seong-gwa jeyeo-reul ga-neung hage hamnida",
+                "japanese": "デジタル物流はERPシステム、WMS（倉庫管理システム）、TMS（輸送管理システム）を統合し、サプライチェーンの透明性と制御を実現します。",
+                "usage": "デジタル物流システムを説明するとき"
+              },
+              {
+                "korean": "IoT 센서(GPS 추적, 온도 모니터링, RFID)는 배송의 실시간 가시성, 문제의 조기 발견, 적극적인 조정을 가능하게 합니다.",
+                "romaji": "IoT senseo (GPS chu-jeog, on-do monitorni, RFID)-neun bae-song-ui silsigan gasi seong, mun-je-ui jogi balbgyeon, jeog-geuk jeoug-in jojeonj-eul ga-neung hage hamnida",
+                "japanese": "IoTセンサー（GPS追跡、温度監視、RFID）は配送のリアルタイム可視性、問題の早期検出、事前対応を可能にします。",
+                "usage": "IoT技術の物流応用を説明するとき"
+              },
+              {
+                "korean": "인공지능과 기계 학습은 수요 예측, 재고 계획, 경로 계획, 차량의 예측 유지보수를 최적화합니다.",
+                "romaji": "In-gong jigenung-gwa giae hagseubg-eun suyo yeyeok, jaego gyae hoeg, gyeongro gyae hoeg, cha-ryang-ui yeyeok yuji bogyuhwae-reul choesog hwahwae hamnida",
+                "japanese": "人工知能と機械学習は需要予測、在庫計画、ルート計画、車両の予防保全を最適化します。",
+                "usage": "AI在庫の物流活用を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "持続可能な物流とグリーンロジスティクス",
+            "phrases": [
+              {
+                "korean": "녹색 물류는 차량 선택(전기 트럭, 하이브리드), 경로 최적화, 철도로의 전환, 대체 에너지를 통해 CO2 배출량을 줄입니다.",
+                "romaji": "Nok-saeg mul-ryu-neun cha-ryang seontaeg (jeon-gi teurag-teo, ha-i-beu-rid), gyeongro choesog hwahwae, cheol-do ro-ui jeonhwan, dae-che eneoji-reul tonghae CO2 bae-chul ryang-eul jjeul imnida",
+                "japanese": "グリーンロジスティクスはCO2排出量を削減します。車両選択（電気トラック、ハイブリッド）、ルート最適化、鉄道へのシフト、代替エネルギーを使用します。",
+                "usage": "グリーンロジスティクスの実践を説明するとき"
+              },
+              {
+                "korean": "순환 물류(역물류, 반품 관리)는 제품의 재사용, 수리, 재활용을 가능하게 하고, 폐기물을 줄이며, 새로운 사업 기회를 창출합니다.",
+                "romaji": "Sun-hwan mul-ryu (yeak mul-ryu, banpum gwanri)-neun je-pum-ui jae-sa-yong, suři, jae-hwal-yong-eul ga-neung hage-hago, pyeagi-mul-eul jjeul-hayeo-imyeo, saeroun saeob gi-hoe-reul changchul hamnida",
+                "japanese": "循環ロジスティクス（リバースロジスティクス、返品管理）は製品の再利用、修理、リサイクルを可能にし、廃棄物削減と新しいビジネス機会を創造します。",
+                "usage": "循環ロジスティクスを説明するとき"
+              },
+              {
+                "korean": "공급망 투명성과 ESG 보고는 이해관계자 감시, 지속 가능성 검증, 공급자의 사회 및 환경 기준 준수를 가능하게 합니다.",
+                "romaji": "Gong-geubmang tuhmyeon seong-gwa ESG bogo-neun ihaee gwankye ja gam-si, jisog ga-neung seong geomjeung, gong-geub ja-ui sahoe mit hwangyeong gi jun junsuh-eul ga-neung hage hamnida",
+                "japanese": "サプライチェーン透明性とESG報告はステークホルダー管理、持続可能性検証、サプライヤーの社会・環境基準遵守を実現します。",
+                "usage": "サプライチェーン透明性を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-048-q1",
+          "type": "fill-blank",
+          "question": "「サプライチェーンは調達から配分までの全プロセスを含みます」を韓国語で言ってください。",
+          "answer": "공급망은 조달, 생산, 보관, 운송, 유통을 포함합니다."
+        },
+        {
+          "id": "ko-048-q2",
+          "type": "multiple-choice",
+          "question": "ロジスティクスネットワークの要素は？",
+          "options": [
+            "配送センター、倉庫、輸送ルート",
+            "生産施設のみ",
+            "販売店だけ",
+            "オフィス"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-048-q3",
+          "type": "fill-blank",
+          "question": "「ジャストインタイムは在庫を削減します」を韓国語で言ってください。",
+          "answer": "저스트 인 타임(JIT)은 재고를 줄입니다."
+        },
+        {
+          "id": "ko-048-q4",
+          "type": "multiple-choice",
+          "question": "輸送モード選択の例は？",
+          "options": [
+            "鉄道、トラック、船舶、航空",
+            "トラックのみ",
+            "船舶だけ",
+            "航空のみ"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-048-q5",
+          "type": "fill-blank",
+          "question": "「デジタル物流はシステムを統合します」を韓国語で言ってください。",
+          "answer": "디지털 물류는 ERP, WMS, TMS를 통합합니다."
+        },
+        {
+          "id": "ko-048-q6",
+          "type": "matching",
+          "question": "物流システムとその機能を正しく組み合わせてください。",
+          "pairs": [
+            {"system": "WMS", "description": "倉庫管理"},
+            {"system": "TMS", "description": "輸送管理"},
+            {"system": "ERP", "description": "統合資源計画"}
+          ]
+        },
+        {
+          "id": "ko-048-q7",
+          "type": "fill-blank",
+          "question": "「グリーンロジスティクスはCO2排出量を削減します」を韓国語で言ってください。",
+          "answer": "녹색 물류는 CO2 배출량을 줄입니다."
+        },
+        {
+          "id": "ko-048-q8",
+          "type": "multiple-choice",
+          "question": "循環ロジスティクスの目的は？",
+          "options": [
+            "再利用、修理、リサイクル、廃棄物削減",
+            "新規購入のみ",
+            "廃棄促進",
+            "資源浪費"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "運輸・ロジスティクス：サプライチェーン・物流管理・デジタル化・持続可能性",
+          "duration": "37分",
+          "description": "サプライチェーン管理。物流ネットワーク設計。JIT・リーンロジスティクス。在庫管理。輸送最適化。ラストマイルデリバリー。WMS・TMS・ERP。IoT・GPS追跡。AI予測。グリーンロジスティクス。リバースロジスティクス。"
+        },
+        {
+          "type": "grammar",
+          "title": "運輸・ロジスティクス用語と経営表現",
+          "content": "物流用語：Supply Chain（サプライチェーン）、Logistics Network（ロジスティクスネットワーク）、Inventory（在庫）、Warehouse（倉庫）、Distribution Center（配送センター）。システム用語：WMS（倉庫管理）、TMS（輸送管理）、ERP（統合資源計画）、Tracking（追跡）。戦略用語：Just-in-Time（ジャストインタイム）、Lean Logistics（リーンロジスティクス）、Last-Mile Delivery（ラストマイル）。"
+        },
+        {
+          "type": "note",
+          "title": "韓国の物流・海運産業",
+          "content": "韓国：釜山港など世界的な主要港湾。造船業の世界的リーダー。コンテナ港湾最大容量。Logistics IT 企業。CJ Logistics、Hanjin などの大手物流企業。高度に発達した海運・港湾インフラ。"
+        },
+        {
+          "type": "note",
+          "title": "物流管理システムと技術",
+          "content": "WMS（Warehouse Management System）：在庫最適化、ピッキング効率。TMS（Transportation Management System）：ルート計画、配送追跡。ERP（Enterprise Resource Planning）：統合データ管理。IoT sensors：GPS、温度、湿度監視。RFID・バーコード：自動認識。"
+        },
+        {
+          "type": "note",
+          "title": "ジャストインタイムとリーン原則",
+          "content": "JIT：必要な時に必要な量を配送。メリット：在庫削減、キャッシュフロー改善。課題：スケジュール厳守、サプライヤーの信頼性。Kanban システム：視覚的管理。Pull-based demand planning。"
+        },
+        {
+          "type": "note",
+          "title": "輸送最適化とラストマイル課題",
+          "content": "Route Optimization Algorithms：複数停止点での最短経路。Load Consolidation：複数小荷物の統合。Mode Selection：コスト・環境考慮。Last-Mile：配送コスト30-40%。Micro-hubs、Crowd delivery、Drone delivery の新展開。"
+        },
+        {
+          "type": "note",
+          "title": "グリーン・持続可能な物流",
+          "content": "Electrification：電気トラック・自動車。Modal Shift：道路→鉄道・船舶。Intermodal Transport：複数輸送モード組合。Reverse Logistics：リサイクル・返品管理。Packaging Optimization：廃棄物削減。Carbon Tracking & Reporting：GHG排出量管理。"
+        },
+        {
+          "type": "practice",
+          "title": "グローバルサプライチェーンの最適化戦略立案",
+          "content": "あなたが大手製造企業のサプライチェーン責任者とします。複数拠点（韓国、アジア、米国）のグローバルサプライチェーン最適化戦略を立案します。ネットワーク設計、在庫政策、JIT導入、デジタル物流システム（WMS・TMS・ERP）、IoT・AI活用、ラストマイル戦略、グリーンロジスティクス、リバースロジスティクス、ESG報告を含めます。コスト削減目標、リード短縮、環境負荷削減の具体的指標を詳細に述べてください。"
+        }
+      ]
     }
   ]
 }
