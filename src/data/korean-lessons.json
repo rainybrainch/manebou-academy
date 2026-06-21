@@ -7277,6 +7277,225 @@
           "content": "あなたが大型製造企業のサステナビリティ担当責任者とします。Scope 1・2・3 のカーボンフットプリント分析を実施し、2030年・2050年の削減目標を設定します。サプライチェーン脱炭素化、再生可能エネルギー導入、従業員教育、グリーンファイナンス活用を含めた包括的な気候対応計画を立案してください。"
         }
       ]
+    },
+    {
+      "id": "ko-041",
+      "level": 5,
+      "title": "製造・エンジニアリングキャリア：Industry 4.0・デジタル製造・品質管理",
+      "titleKo": "제조 및 엔지니어링 경력: 인더스트리 4.0, 디지털 제조, 품질 관리",
+      "objectives": [
+        "韓国の製造業とエンジニアリングセクターのキャリアを理解する",
+        "Industry 4.0とスマートマニュファクチャリングに関する専門用語を習得する",
+        "デジタル化、ロボティクス、AIの製造への応用を理解する",
+        "品質管理、プロジェクト管理、リーダーシップスキルを習得する"
+      ],
+      "content": {
+        "introduction": "韓国の製造業は急速なデジタル化を進めており、半導体、自動車、電子機器分野でグローバルリーダーシップを築いています。このレッスンでは、韓国エンジニアのキャリアパス、Industry 4.0 の実装、IoT・AI・ロボティクスの応用、品質・リスク管理に関する高度な韓国語を学びます。",
+        "sections": [
+          {
+            "title": "製造・エンジニアリングセクターのキャリア体系",
+            "phrases": [
+              {
+                "korean": "한국의 엔지니어링 산업은 반도체, 자동차, 전자제품, 조선, 철강 등 다양한 분야를 포함하며, 세계적 경쟁력을 갖춘 선도 산업입니다.",
+                "romaji": "Hangug-ui enjiniyering saniob-eun banhdoche, jadongcha, jeonjajaepoom, joseon, cheolgang deung dayanghhan bunyae-reul pohamhag-imyeo, segyejae gyeongchnaenryeog-eul gatchun seondo saniob imnida",
+                "japanese": "韓国のエンジニアリング産業は半導体、自動車、電子機器、造船、鉄鋼などの多様な分野を含み、世界的競争力を持つ主導産業です。",
+                "usage": "韓国エンジニアリング産業の位置づけを説明するとき"
+              },
+              {
+                "korean": "한국의 엔지니어는 공학 학사(4년), 실무 경험, 그리고 기술사나 PMP 같은 전문 자격증을 필요로 합니다.",
+                "romaji": "Hangug-ui enjiniya-neun gonghak hagsa (4nyeon), silmu gyeongheom, geurigo gisul sa na PMP kkatheun jeonmun jagyeokjeung-eul piryoro hamnida",
+                "japanese": "韓国のエンジニアは工学部卒業（4年）、実務経験、技術士やPMPなどの専門資格が必要です。",
+                "usage": "韓国エンジニアのキャリア要件を説明するとき"
+              },
+              {
+                "korean": "경력 경로는 신입 엔지니어에서 선임 엔지니어, 팀장, 부장, 그리고 임원진으로 발전하며, 각 분야 전문성을 깊이 있게 개발합니다.",
+                "romaji": "Gyeongnyeol gyeongro-neun sinip enjiniya-eseo seonimm enjiniya, tilljang, bu-jang, geurigo imwon-jin-euro baljeon hamyeo, gag bunyae jeonmun seong-eul gip-i issge gaebalhamnida",
+                "japanese": "キャリアパスは新入エンジニアから上級エンジニア、チームリーダー、部長、経営幹部に発展し、各分野の専門性を深く開発します。",
+                "usage": "韓国エンジニアのキャリアパスを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "Industry 4.0とスマートマニュファクチャリング",
+            "phrases": [
+              {
+                "korean": "인더스트리 4.0은 IoT, 빅데이터, AI, 그리고 클라우드 컴퓨팅을 통해 생산 프로세스를 자동화하고 최적화하는 스마트 제조입니다.",
+                "romaji": "Indeo seu seu tri 4.0 eun IoT, big data, AI, geurigo keullaoudeu keompyuting-eul tonghae saengsan peuroseseu-reul jadongwhahwa hago choesog hwahwa haneun seumateu jejo imnida",
+                "japanese": "Industry 4.0はIoT、ビッグデータ、AI、クラウドコンピューティングを通じて生産プロセスを自動化・最適化するスマート製造です。",
+                "usage": "Industry 4.0の概念を説明するとき"
+              },
+              {
+                "korean": "협동 로봇(협봇), 3D 프린팅, 그리고 머신러닝은 생산 효율성을 높이고, 제품 품질을 개선하며, 제조 비용을 감소시킵니다.",
+                "romaji": "Hyeopdong robot (hyeopbot), 3D peurintin, geurigo masin roning-eun saengsan hyoeul seong-eul nop-hi go, jepoom pumjil-eul gaeseonhamyeo, jejo bigyong-eul gamsso sikipnida",
+                "japanese": "協働ロボット、3D印刷、機械学習は生産効率を高め、製品品質を改善し、製造コストを削減します。",
+                "usage": "スマート製造技術を説明するとき"
+              },
+              {
+                "korean": "센서 데이터의 실시간 분석과 AI 예측 모델은 설비 고장을 미리 감지하고 예방적 유지보수를 가능하게 합니다.",
+                "romaji": "Senteo deiteo-ui silsigan bunseoggwa AI yeyeog model-eun seolagbi gojang-eul miri gamjihago yebang-jeoug yuji boysu-reul ganeunghage hamnida",
+                "japanese": "センサーデータのリアルタイム分析とAI予測モデルは設備故障を事前に検出し、予防的保全を可能にします。",
+                "usage": "予測保全と効率化を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "品質管理とプロジェクト管理",
+            "phrases": [
+              {
+                "korean": "품질 관리 시스템(ISO 9001, 식스 시그마)은 일관된 제품 품질, 비용 절감, 그리고 지속적 개선을 보장합니다.",
+                "romaji": "Pumjil gwanri siseutem (ISO 9001, sik seu sigeuma)-neun ilgwanhdoen jepoom pumjil, bigyong jeolkam, geurigo jisok-jeogin gaeseon-eul bojang hamnida",
+                "japanese": "品質管理システム（ISO 9001、Six Sigma）は一貫した製品品質、コスト削減、継続的改善を保証します。",
+                "usage": "品質管理の方法論を説明するとき"
+              },
+              {
+                "korean": "애자일, 스크럼, 그리고 폭포수 모델 같은 프로젝트 관리 방법론은 복잡한 제조 프로젝트를 기한 내, 예산 내, 고품질로 실행합니다.",
+                "romaji": "Ae-jail, seukeullum, geurigo pogpoksu model kkatheun peurojekteu gwanri bangbeop-non-eun bogjaghahnn jejo peurojekteu-reul gihan nae, yesang nae, gopumjil-ro silhaeng hamnida",
+                "japanese": "アジャイル、スクラム、ウォーターフォールなどのプロジェクト管理手法は複雑な製造プロジェクトを期限・予算・高品質で実行します。",
+                "usage": "プロジェクト管理の手法を説明するとき"
+              },
+              {
+                "korean": "위험 관리는 설비 장애, 공급 체인 중단, 그리고 품질 결함의 잠재적 위험을 파악하고 완화 전략을 개발합니다.",
+                "romaji": "Wihom gwanri-neun seolagbi jangae, gonggeupmang che-in jungdan, geurigo pumjil gyeolham-ui jamjae-jeoug wihom-eul pahag hago wanwhwa jeonryak-eul gaebalhamnida",
+                "japanese": "リスク管理は設備障害、供給チェーン断絶、品質欠陥の潜在的リスクを特定し軽減戦略を開発します。",
+                "usage": "リスク管理と危機対応を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "デジタル化、グローバルサプライチェーン、持続可能性",
+            "phrases": [
+              {
+                "korean": "블록체인, RFID 추적, 그리고 IoT 센서는 공급 체인 투명성, 신뢰성, 그리고 효율성을 향상시킵니다.",
+                "romaji": "Beulrok-chein, RFID chu-jeok, geurigo IoT senteo-neun gonggeupmang che-in tuthyeongseongg, sinryuoseongg, geurigo hyoeul seong-eul hyang-sangsikipnida",
+                "japanese": "ブロックチェーン、RFID追跡、IoTセンサーはサプライチェーン透明性、信頼性、効率性を向上させます。",
+                "usage": "デジタルサプライチェーンを説明するとき"
+              },
+              {
+                "korean": "에너지 효율성, 폐기물 최소화, 그리고 순환 경제는 비용 절감과 환경 보호를 동시에 달성합니다.",
+                "romaji": "Eneoji hyoeul seong, pyegimul chosowhahwa, geurigo sunhwan gyeongje-neun bigyong jeolkam-gwa hwangyeong boho-reul dongshi-e dalhae hamnida",
+                "japanese": "エネルギー効率、廃棄物最小化、循環経済はコスト削減と環境保護を同時に達成します。",
+                "usage": "持続可能な製造を説明するとき"
+              },
+              {
+                "korean": "글로벌 공급망은 다양한 문화, 언어, 규제를 이해하고 조절하는 능력을 요구하며, 이는 국제 경쟁력의 핵심입니다.",
+                "romaji": "Geulglobal gonggeupmang-eun dayanghhan munhwa, eon-eo, gyuje-reul ihaehago jojeol haneun neungryeog-eul yogu hamyeo, i-neun guggjae gyeongchnaenryeog-ui haekshim imnida",
+                "japanese": "グローバルサプライチェーンは多様な文化、言語、規制を理解・調整する能力を要求し、これが国際競争力の鍵です。",
+                "usage": "グローバルサプライチェーンの複雑さを説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-041-q1",
+          "type": "fill-blank",
+          "question": "「韓国のエンジニアリング産業は半導体、自動車、電子機器を含みます」を韓国語で言ってください。",
+          "answer": "한국의 엔지니어링 산업은 반도체, 자동차, 전자제품을 포함합니다."
+        },
+        {
+          "id": "ko-041-q2",
+          "type": "multiple-choice",
+          "question": "韓国エンジニアに必要な教育は？",
+          "options": [
+            "工学部卒業（4年）+ 実務経験 + 技術士/PMP資格",
+            "高卒で十分",
+            "ビジネス教育のみ",
+            "学位なしで可能"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-041-q3",
+          "type": "fill-blank",
+          "question": "「Industry 4.0はIoT、ビッグデータ、AIを通じたスマート製造です」を韓国語で言ってください。",
+          "answer": "인더스트리 4.0은 IoT, 빅데이터, AI를 통한 스마트 제조입니다."
+        },
+        {
+          "id": "ko-041-q4",
+          "type": "multiple-choice",
+          "question": "スマート製造の重要技術は？",
+          "options": [
+            "協働ロボット、3D印刷、機械学習",
+            "従来の機械のみ",
+            "手作業製造",
+            "自動化なし"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-041-q5",
+          "type": "fill-blank",
+          "question": "「ISO 9001とSix Sigmaは品質管理システムです」を韓国語で言ってください。",
+          "answer": "ISO 9001과 식스 시그마는 품질 관리 시스템입니다."
+        },
+        {
+          "id": "ko-041-q6",
+          "type": "matching",
+          "question": "製造の概念と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"concept": "OEE", "explanation": "総合設備効率"},
+            {"concept": "예측적 유지보수", "explanation": "予測保全"},
+            {"concept": "리엔 제조", "explanation": "リーン製造"}
+          ]
+        },
+        {
+          "id": "ko-041-q7",
+          "type": "fill-blank",
+          "question": "「センサーデータの分析により予防的保全が可能になります」を韓国語で言ってください。",
+          "answer": "센서 데이터 분석을 통해 예방적 유지보수가 가능합니다."
+        },
+        {
+          "id": "ko-041-q8",
+          "type": "multiple-choice",
+          "question": "持続可能な製造の特徴は？",
+          "options": [
+            "エネルギー効率、廃棄物最小化、循環経済",
+            "最大限の廃棄物",
+            "資源の過剰使用",
+            "環境対策なし"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国の製造・エンジニアリングキャリア：Industry 4.0・スマートファクトリー・品質管理",
+          "duration": "30分",
+          "description": "韓国の半導体・自動車産業の国際競争力。Industry 4.0 導入戦略。Samsung・LG・Hyundai の事例。IoT・AI・ロボティクス統合。デジタル供給チェーン。"
+        },
+        {
+          "type": "grammar",
+          "title": "製造・エンジニアリング用語とプロジェクト管理表現",
+          "content": "製造複合名詞：기계공학（機械工学）、자동화（自動化）、제품 품질（製品品質）。技術用語：IoT、AI、Blockchain、RFID。管理表現：최적화하다（最適化する）、감시하다（監視する）、이행하다（実行する）。"
+        },
+        {
+          "type": "note",
+          "title": "韓国の製造業と Industry 4.0 の位置づけ",
+          "content": "韓国の大企業グループ（Chaebol）の製造力：Samsung、LG、Hyundai、SK グループ。半導体産業でのグローバルリーダーシップ。自動車・電子機器の国際競争力。急速なデジタル化投資。"
+        },
+        {
+          "type": "note",
+          "title": "品質管理と効率化の手法",
+          "content": "ISO 9001：国際品質基準。Six Sigma：統計的品質改善。リーン製造：無駄排除と効率化。Total Productive Maintenance（TPM）：予防的メンテナンス。アジャイル・Scrum：プロジェクト管理方法。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツと韓国の製造業比較",
+          "content": "ドイツ：精密さと品質、Mittelstand の強み、Industry 4.0 発祥。韓国：大企業グループの規模、急速な技術採用、半導体での優位。両国とも国際製造サプライチェーンの要。"
+        },
+        {
+          "type": "note",
+          "title": "デジタル供給チェーンと持続可能性",
+          "content": "ブロックチェーン：透明性と信頼。RFID・IoT：追跡とリアルタイム管理。予測分析：需要予測と在庫最適化。カーボンニュートラル製造：エネルギー効率と循環経済統合。"
+        },
+        {
+          "type": "practice",
+          "title": "スマートファクトリーの設計と実装計画",
+          "content": "あなたが大型製造企業の生産担当責任者とします。現在の工場をIndustry 4.0水準にアップグレードする包括的計画を策定します。IoTセンサー導入、機械自動化、データ分析プラットフォーム、予測保全システムの実装タイムライン、投資計画、人員再配置、品質指標設定、ROI分析を含めて詳細に述べてください。"
+        }
+      ]
     }
   ]
 }
