@@ -3644,6 +3644,220 @@
           "content": "ドイツの芸術作品（絵画、彫刻、文学作品等）を選んで、その作品について友人と議論してみてください。作品の背景、美的特徴、文化的意味、個人的な解釈を共有します。複数の視点から作品を理解し、芸術的対話を実践してください。"
         }
       ]
+    },
+    {
+      "id": "de-016",
+      "level": 4,
+      "title": "スポーツ・ウェルネス・ライフスタイル",
+      "titleDe": "Sport, Wellness und gesundes Lebensstil",
+      "objectives": [
+        "スポーツと身体活動に関する語彙を習得する",
+        "フィットネスとトレーニングについて議論できる",
+        "ウェルネスと精神衛生の関係を理解する",
+        "持続可能な健康的ライフスタイルを構築する"
+      ],
+      "content": {
+        "introduction": "スポーツとウェルネスは現代社会の中心的課題です。このレッスンでは、様々なスポーツ、フィットネストレーニング、ウェルネス実践、精神衛生、持続可能な健康ライフスタイルについて、実践的なドイツ語を学びます。ドイツではランニング（Laufen）、サイクリング（Radfahren）、ハイキング（Wandern）が人気で、健康的生活が文化的価値となっています。",
+        "sections": [
+          {
+            "title": "スポーツと運動の種類",
+            "phrases": [
+              {
+                "german": "Sport und Bewegung sind essentiell für die physische und mentale Gesundheit.",
+                "romaji": "sport unt beh-VAY-goong zint eh-SEN-tsee-el foo-er dee FIZ-i-she unt MEN-tahl geh-ZOONT-hite",
+                "japanese": "スポーツと運動は身体と精神的健康に不可欠です。",
+                "usage": "スポーツの多面的な価値を説明するとき。健康と幸福"
+              },
+              {
+                "german": "Es gibt viele Sportarten: Fußball, Tennis, Schwimmen, Laufen, Yoga und viele mehr.",
+                "romaji": "es gipt FEEL-e SPORT-ahr-ten: FOOS-bahl, TEN-ees, SHVIM-men, LOW-fen, YOH-gah unt FEEL-e MAYR",
+                "japanese": "様々なスポーツがあります：サッカー、テニス、水泳、ランニング、ヨガなど。",
+                "usage": "異なるスポーツの種類と多様性を列挙するとき"
+              },
+              {
+                "german": "Regelmäßige körperliche Aktivität reduziert das Risiko für chronische Krankheiten.",
+                "romaji": "RAY-gel-meh-sig-e KÖR-per-li-he ahk-tee-vee-TATE reh-doo-TSEERT dahs RI-zee-ko foo-er KROH-ni-she KRAHNK-hi-ten",
+                "japanese": "定期的な身体活動は慢性疾患のリスクを低減します。",
+                "usage": "運動と疾病予防の科学的関係を説明するとき。予防医学"
+              }
+            ]
+          },
+          {
+            "title": "フィットネスとトレーニング",
+            "phrases": [
+              {
+                "german": "Fitnesstraining umfasst Kraft-, Ausdauer- und Flexibilitätsübungen.",
+                "romaji": "FIT-ness-TRAY-ning oom-FAHST KRAFT-, OUS-dour-, unt FLEKS-i-bee-lee-TATES-OO-boong-en",
+                "japanese": "フィットネストレーニングは、強度、耐久性、柔軟性の運動を含みます。",
+                "usage": "トレーニングの全体的なアプローチを説明するとき。総合的フィットネス"
+              },
+              {
+                "german": "Personalisierte Trainingspläne berücksichtigen individuelle Ziele und Fitnessniveaus.",
+                "romaji": "per-zoh-nah-lee-ZEER-te TRAY-nings-PLAHN-ne beh-RÜK-zikh-ti-gen in-dee-VID-oo-EL-le TSEE-le unt FIT-ness-nee-VOS",
+                "japanese": "個別化されたトレーニング計画は個人の目標とフィットネスレベルを考慮します。",
+                "usage": "効果的なトレーニング設計の原則を説明するとき。個別化"
+              },
+              {
+                "german": "Regeneration und Ruhe sind genauso wichtig wie das Training selbst.",
+                "romaji": "reh-gen-eh-RAH-tsee-ohn unt ROO-te zint geh-NAU-zoh VIKH-tig vee dahs TRAY-ning ZELBST",
+                "japanese": "回復と休息はトレーニング自体と同じくらい重要です。",
+                "usage": "オーバートレーニング防止と回復の重要性を説明するとき。バランス"
+              }
+            ]
+          },
+          {
+            "title": "ウェルネスと精神衛生",
+            "phrases": [
+              {
+                "german": "Wellness bedeutet ganzheitliches Wohlbefinden: körperlich, mental, emotional und sozial.",
+                "romaji": "vel-NESS beh-DOY-tet GAHN-tsite-likh-es VOHL-beh-FIN-den: KÖR-per-likh, MEN-tahl, eh-moh-TSEE-oh-NAHL unt ZOH-tsee-ahl",
+                "japanese": "ウェルネスとは総合的な幸福：身体的、精神的、感情的、社会的。",
+                "usage": "ウェルネスの多面的な本質を説明するとき。全人的健康"
+              },
+              {
+                "german": "Meditation, Achtsamkeit und Stressmanagement fördern die mentale Gesundheit.",
+                "romaji": "meh-dee-tah-TSEE-ohn, AHKT-zahm-kite unt STRESS-mahn-ayzh-ment FOR-dern dee MEN-tahl-e geh-ZOONT-hite",
+                "japanese": "瞑想、マインドフルネス、ストレスマネジメントは精神的健康を促進します。",
+                "usage": "精神衛生の実践的方法を説明するとき。心理的レジリエンス"
+              },
+              {
+                "german": "Soziale Beziehungen und Gemeinschaft sind wesentliche Komponenten von Wohlbefinden.",
+                "romaji": "ZOH-tsee-AH-le beh-TSEEH-oong-en unt geh-MY-nde-SHAHFT zint VAY-sent-li-che kom-poh-NEN-ten fon VOHL-beh-FIN-den",
+                "japanese": "社会的関係とコミュニティは幸福感の本質的な要素です。",
+                "usage": "人間関係と精神衛生の関連性を説明するとき。社会的ウェルネス"
+              }
+            ]
+          },
+          {
+            "title": "持続可能な健康ライフスタイル",
+            "phrases": [
+              {
+                "german": "Eine nachhaltige Gesundheitsroutine erfordert realistische Ziele und kontinuierliche Anpassung.",
+                "romaji": "AY-ne NAHKH-hahl-ti-ge geh-ZOONT-hites-roo-TEEN eh-FOR-dert rah-ah-LIS-ti-she TSEE-le unt kon-tee-NOO-eer-li-che AHN-pahss-oong",
+                "japanese": "持続可能な健康ルーチンは現実的な目標と継続的な適応が必要です。",
+                "usage": "長期的な健康習慣形成を説明するとき。行動変化"
+              },
+              {
+                "german": "Ernährung, Bewegung, Schlaf und psychisches Wohlbefinden sind die vier Säulen der Gesundheit.",
+                "romaji": "ehr-NEHR-oong, beh-VAY-goong, SHLAHF unt PSOO-khi-shes VOHL-beh-FIN-den zint dee FEER ZOHL-en der geh-ZOONT-hite",
+                "japanese": "栄養、運動、睡眠、精神的幸福は健康の4つの柱です。",
+                "usage": "包括的な健康アプローチを説明するとき。統合的理解"
+              },
+              {
+                "german": "Prävention ist kostengünstiger und effektiver als Behandlung von Krankheiten.",
+                "romaji": "preh-VEN-tsee-ohn ist KOHL-ten-goon-sti-ger unt eh-FEK-tee-ver als beh-HAHN-doong fon KRAHNK-hi-ten",
+                "japanese": "予防は疾患の治療よりも費用対効果が高く効果的です。",
+                "usage": "予防的健康管理の経済的価値を説明するとき。公衆衛生"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-016-q1",
+          "type": "fill-blank",
+          "question": "「スポーツと運動は身体と精神的健康に不可欠です」をドイツ語で言ってください。",
+          "answer": "Sport und Bewegung sind essentiell für die physische und mentale Gesundheit."
+        },
+        {
+          "id": "de-016-q2",
+          "type": "multiple-choice",
+          "question": "ウェルネスの定義として正しいのはどれですか？",
+          "options": [
+            "総合的な幸福：身体的、精神的、感情的、社会的",
+            "単に体の運動",
+            "医学的治療のみ",
+            "娯楽とエンターテインメント"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-016-q3",
+          "type": "fill-blank",
+          "question": "「定期的な身体活動は慢性疾患のリスクを低減します」をドイツ語で言ってください。",
+          "answer": "Regelmäßige körperliche Aktivität reduziert das Risiko für chronische Krankheiten."
+        },
+        {
+          "id": "de-016-q4",
+          "type": "multiple-choice",
+          "question": "フィットネストレーニングに含まれるのは？",
+          "options": [
+            "強度、耐久性、柔軟性の運動",
+            "娯楽活動のみ",
+            "瞑想だけ",
+            "無計画な運動"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-016-q5",
+          "type": "fill-blank",
+          "question": "「回復と休息はトレーニング自体と同じくらい重要です」をドイツ語で言ってください。",
+          "answer": "Regeneration und Ruhe sind genauso wichtig wie das Training selbst."
+        },
+        {
+          "id": "de-016-q6",
+          "type": "matching",
+          "question": "健康の要素と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"element": "Ernährung", "description": "栄養"},
+            {"element": "Bewegung", "description": "運動"},
+            {"element": "Schlaf", "description": "睡眠"}
+          ]
+        },
+        {
+          "id": "de-016-q7",
+          "type": "fill-blank",
+          "question": "「瞑想とマインドフルネスは精神的健康を促進します」をドイツ語で言ってください。",
+          "answer": "Meditation und Achtsamkeit fördern die mentale Gesundheit."
+        },
+        {
+          "id": "de-016-q8",
+          "type": "multiple-choice",
+          "question": "予防の経済的価値は？",
+          "options": [
+            "疾患の治療よりも費用対効果が高く効果的",
+            "治療より高コスト",
+            "経済的価値がない",
+            "無視できる"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツの健康文化とスポーツ伝統",
+          "duration": "19分",
+          "description": "ランニング・サイクリング・ハイキング文化、フィットネス産業、国民健康保険とウェルネス、アクティブなライフスタイル"
+        },
+        {
+          "type": "grammar",
+          "title": "健康・スポーツ用語と説明表現",
+          "content": "能力・可能性を表す「können」「fähig sein」。義務・推奨を表す「sollte」「müsste」。健康用語の複合名詞（Fitnesstraining、Stressmanagement）。数値と統計の表現"
+        },
+        {
+          "type": "note",
+          "title": "ドイツの健康文化とアクティブライフスタイル",
+          "content": "ドイツはヨーロッパで最も健康志向が高い国の一つ。Wandern（ハイキング）、Radfahren（サイクリング）、Joggen（ジョギング）が国民スポーツ。公的医療制度がウェルネスと予防医学をサポート。"
+        },
+        {
+          "type": "note",
+          "title": "ウェルネスの多面的定義と実装",
+          "content": "身体的ウェルネス：運動・栄養・睡眠。精神的ウェルネス：ストレス管理・瞑想。感情的ウェルネス：レジリエンス・自己認識。社会的ウェルネス：関係・コミュニティ。"
+        },
+        {
+          "type": "note",
+          "title": "トレーニング科学と効果的フィットネス",
+          "content": "FITT原則（Frequency・Intensity・Time・Type）。過負荷原則と段階的進行。回復の生理学（ホルモン、筋肉修復）。過度トレーニング症候群の予防。"
+        },
+        {
+          "type": "practice",
+          "title": "個人健康計画の作成と議論",
+          "content": "友人とあなたの健康と fitness goals について議論してみてください。現在のライフスタイル、改善すべき領域、実現可能な目標、段階的実装戦略を話し合います。自分たちの価値観、制約条件、サポートシステムを考慮した個人化されたアプローチを開発してください。"
+        }
+      ]
     }
   ]
 }
