@@ -4042,6 +4042,220 @@
           "content": "友人と気候変動対策について議論してみてください。個人レベルでできることは何か、企業や政府の役割は何か、東アジアの国々の対策に違いがあるか。反対意見も視野に入れながら、複雑な環境問題について多面的に考察してください。"
         }
       ]
+    },
+    {
+      "id": "ko-026",
+      "level": 4,
+      "title": "法律・ビジネス法務・契約",
+      "titleKo": "법률, 사업 계약, 그리고 협상",
+      "objectives": [
+        "法律とビジネス法務の基本用語を習得する",
+        "ビジネス契約の重要な条項を理解できる",
+        "国際取引での交渉スキルを学ぶ",
+        "紛争解決と法的権利について理解する"
+      ],
+      "content": {
+        "introduction": "ビジネスにおいて法的知識は不可欠です。このレッスンでは、契約の基本、法的権利と義務、国際取引のルール、紛争解決のプロセスなど、実務的な韓国語を学びます。韓国の民法（민법）は大陸法体系であり、企業法務は高度に発展しています。",
+        "sections": [
+          {
+            "title": "法的概念と権利義務",
+            "phrases": [
+              {
+                "korean": "계약은 두 개 이상의 당사자 간의 법적 구속력을 가진 합의입니다.",
+                "romaji": "gyeyak eun du gae isangeui dangsaja gan ui beobjeok gusokryeog eul gajin habui imnida",
+                "japanese": "契約は2者以上の当事者間の法的拘束力を持つ合意です。",
+                "usage": "契約の法的本質を説明するとき。基本的な法律概念"
+              },
+              {
+                "korean": "양쪽 당사자는 이행해야 할 권리와 의무를 가집니다.",
+                "romaji": "yangchuk dangsajaneun ihaenghae-ya hal gwonrigwa uimurul gajipeumnida",
+                "japanese": "両当事者は履行すべき権利と義務を有しています。",
+                "usage": "契約における相互の権利義務を説明するとき。対等性"
+              },
+              {
+                "korean": "계약 위반은 손해배상으로 이어질 수 있습니다.",
+                "romaji": "gyeyak wiban eun sonhaebaesan-euro ieo-jil su isseumnida",
+                "japanese": "契約違反は損害賠償につながる可能性があります。",
+                "usage": "契約違反の法的後果を説明するとき。法的責任"
+              }
+            ]
+          },
+          {
+            "title": "契約の基本要素と条項",
+            "phrases": [
+              {
+                "korean": "유효한 계약은 청약, 승낙, 대가, 상호 의도가 필요합니다.",
+                "romaji": "yuhyohahnn gyeyak eun cheongyak, seungnak, daegang, sanghho uido-ga piryohamnida",
+                "japanese": "有効な契約には申し込み、承諾、対価、相互の意思が必要です。",
+                "usage": "契約成立の要件を説明するとき。法的構成要素"
+              },
+              {
+                "korean": "중요한 조건은 명확히 정의되어야 합니다: 가격, 배송, 지불, 일정.",
+                "romaji": "jungyohahnn jogeon eun myeonghwaghee jeongui-doe-eoya hamnida: gagyeok, baesoong, jibul, iljeong",
+                "japanese": "重要な条項は明確に定義される必要があります：価格、配送、支払い、スケジュール。",
+                "usage": "契約の重要な条項を列挙するとき。詳細な契約条項"
+              },
+              {
+                "korean": "비밀유지 계약은 기밀 사업 정보를 보호합니다.",
+                "romaji": "bimiryuji gyeyak eun gimil sa-eop jeongbo-reul bohohabnida",
+                "japanese": "秘密保持契約は機密ビジネス情報を保護します。",
+                "usage": "特定の契約タイプと目的を説明するとき。知的財産保護"
+              }
+            ]
+          },
+          {
+            "title": "国際取引と交渉",
+            "phrases": [
+              {
+                "korean": "국제 거래에서는 통화, 지불 조건, 배송이 합의되어야 합니다.",
+                "romaji": "gukje georaeeseo neun tongwha, jibul jogeon, baesong-i habui-doe-eoya hamnida",
+                "japanese": "国際取引では、通貨、支払条件、配送が合意される必要があります。",
+                "usage": "国際ビジネスの複雑性を説明するとき。実務的な交渉要素"
+              },
+              {
+                "korean": "협상은 상호 이해, 타협, 윈윈 솔루션이 필요합니다.",
+                "romaji": "hyeopsang eun sanghho ihe, taaheap, WIN-WIN soluseyon-i piryohamnida",
+                "japanese": "交渉には相互理解、妥協、ウィンウィンソリューションが必要です。",
+                "usage": "ビジネス交渉の原則と目標を説明するとき。交渉スキル"
+              },
+              {
+                "korean": "인코텀즈는 국제 무역 규칙으로, 비용과 위험을 배분합니다.",
+                "romaji": "inkotemjeu neun gukje mureyg gyuchik-euro, biyong-gwa wiheom-eul baebun hamnida",
+                "japanese": "Incotermsは国際商取引ルールで、コストとリスクを配分します。",
+                "usage": "国際貿易の標準化ルールを説明するとき。複雑な取引構造"
+              }
+            ]
+          },
+          {
+            "title": "紛争解決と法的手続き",
+            "phrases": [
+              {
+                "korean": "불일치가 생기면, 당사자들은 협상, 중재, 또는 중재 절차를 시도할 수 있습니다.",
+                "romaji": "burilchi-ga saeng-gimyeon, dangsajadeul-eun hyeopsang, jungjae, ttoneun junjae jeolchareul sidohhal su isseumnida",
+                "japanese": "紛争が生じた場合、当事者は交渉、調停、仲裁手続きを試みることができます。",
+                "usage": "紛争解決の段階的なプロセスを説明するとき。代替紛争解決（ADR）"
+              },
+              {
+                "korean": "중재 판정부는 법원보다 빠르고 기밀성이 높은 대안을 제공합니다.",
+                "romaji": "junjae panjeongbu neun beopwon-boda ppareugeo gimil-seong-i nop-eun dae-an-eul jegonghamnida",
+                "japanese": "仲裁廷は法廷よりも迅速で機密性の高い代替手段を提供します。",
+                "usage": "仲裁制度と伝統的裁判制度の比較。効率性と機密性"
+              },
+              {
+                "korean": "법적 구제는 피해자 또는 그들의 변호사에 의해 시작될 수 있습니다.",
+                "romaji": "beobjeok gunje neun pihaeja ttoneun geudeul-ui byeonhosae uihae sijak-doel su isseumnida",
+                "japanese": "法的救済は被害者またはその弁護士によって開始されることができます。",
+                "usage": "紛争解決の法的メカニズムを説明するとき。法的救済手段"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-026-q1",
+          "type": "fill-blank",
+          "question": "「契約は法的拘束力を持つ合意です」を韓国語で言ってください。",
+          "answer": "계약은 법적 구속력을 가진 합의입니다."
+        },
+        {
+          "id": "ko-026-q2",
+          "type": "multiple-choice",
+          "question": "有効な契約に必要な要素はどれですか？",
+          "options": [
+            "申し込み、承諾、対価、相互の意思",
+            "申し込みだけ",
+            "承諾だけ",
+            "書面での署名だけ"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-026-q3",
+          "type": "fill-blank",
+          "question": "「両当事者は履行すべき権利と義務を有しています」を韓国語で言ってください。",
+          "answer": "양쪽 당사자는 권리와 의무를 가집니다."
+        },
+        {
+          "id": "ko-026-q4",
+          "type": "multiple-choice",
+          "question": "秘密保持契約（NDA）の目的は何ですか？",
+          "options": [
+            "機密ビジネス情報を保護すること",
+            "製品の価格を決定すること",
+            "労働者を雇用することだけ",
+            "税金を支払うこと"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-026-q5",
+          "type": "fill-blank",
+          "question": "「契約違反は損害賠償につながる可能性があります」を韓国語で言ってください。",
+          "answer": "계약 위반은 손해배상으로 이어질 수 있습니다."
+        },
+        {
+          "id": "ko-026-q6",
+          "type": "matching",
+          "question": "法律用語と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"term": "인코텀즈", "explanation": "国際商取引ルール"},
+            {"term": "중재", "explanation": "仲裁"},
+            {"term": "중개", "explanation": "調停"}
+          ]
+        },
+        {
+          "id": "ko-026-q7",
+          "type": "fill-blank",
+          "question": "「交渉にはウィンウィンソリューションが必要です」を韓国語で言ってください。",
+          "answer": "협상은 윈윈 솔루션이 필요합니다."
+        },
+        {
+          "id": "ko-026-q8",
+          "type": "multiple-choice",
+          "question": "紛争が生じた場合の解決手順の順序は？",
+          "options": [
+            "交渉→調停→仲裁→訴訟",
+            "訴訟→仲裁→調停→交渉",
+            "調停→交渉→仲裁→訴訟",
+            "仲裁→訴訟→交渉→調停"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国民法と国際ビジネス契約",
+          "duration": "18分",
+          "description": "韓国法制の特徴、契約成立の原則、国際商取引の法的枠組み"
+        },
+        {
+          "type": "grammar",
+          "title": "法律用語と文法：義務と権利の表現",
+          "content": "義務表現「～해야 합니다」「～해야 한다」の使い分け。条件付き表現「～면」「～는 경우」。能動・受動態の法的文書での使用。法律用語の복合명사構造"
+        },
+        {
+          "type": "note",
+          "title": "韓国法制の特徴と国際取引での応用",
+          "content": "韓国民法は大陸法体系。条文が系統的で論理的。韓国は国際商品売買契約（CISG）に加盟。契約自由の原則と公序良俗による制限。"
+        },
+        {
+          "type": "note",
+          "title": "国際取引の複雑性と標準化ルール",
+          "content": "Incotermsの11タイプ（EXW、FOB、CIF等）。各Incotermsでコスト・リスク分岐点が異なる。国際商品売買契約（CISG）による統一。通貨リスクと為替ヘッジ。"
+        },
+        {
+          "type": "note",
+          "title": "韓国の紛争解決メカニズム",
+          "content": "交渉（협상）：当事者主導、柔軟性高。調停（중개）：第三者の援助。仲裁（중재）：法的拘束力。訴訟（소송）：最終的解決。韓国国際仲裁委員会（KCAB）。"
+        },
+        {
+          "type": "practice",
+          "title": "ビジネス契約交渉シミュレーション",
+          "content": "友人と売り手と買い手の役を分担し、商品売買契約の交渉をしてみてください。価格、支払条件、納期、品質保証、紛争解決条項などについて交渉します。法的用語を使いながら、双方にとって受け入れられる条件を探ってください。"
+        }
+      ]
     }
   ]
 }
