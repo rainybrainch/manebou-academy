@@ -6013,6 +6013,225 @@
           "content": "あなたが大学の研究グループのリーダーとします。3～5年の研究テーマを設定し、研究質問、仮説、方法論、期待される成果を定義します。国際的なパートナー機関との協力体制、学際的な専門家の組成、資金調達戦略、成果の社会への還元方法を含めた包括的な研究計画を立案してください。"
         }
       ]
+    },
+    {
+      "id": "de-027",
+      "level": 5,
+      "title": "環境・サステナビリティキャリア：気候変動対応・グリーン産業・環境政策",
+      "titleDe": "Umwelt- und Nachhaltigkeitskarriere: Klimawandel, grüne Industrie und Umweltpolitik",
+      "objectives": [
+        "環境・サステナビリティセクターのキャリアパスを理解する",
+        "気候変動対応とグリーンテクノロジーに関する専門用語を習得する",
+        "環境政策と国際的な気候交渉について理解する",
+        "企業のサステナビリティ戦略と環境リスク管理を習得する"
+      ],
+      "content": {
+        "introduction": "環境・サステナビリティセクターは現代社会で最も急速に成長する産業です。このレッスンでは、気候変動への対応、再生可能エネルギー産業、環境政策、企業のサステナビリティ戦略、国際的な環境協力に関する高度なドイツ語を学びます。ドイツは気候中立経済への転換で世界をリードしています。",
+        "sections": [
+          {
+            "title": "環境セクターのキャリアと職業多様性",
+            "phrases": [
+              {
+                "german": "Das Umwelt- und Nachhaltigkeitssektor umfasst Positionen in Energiewirtschaft, Umweltberatung, Naturschutz, Abfallwirtschaft, Wassermanagement, und Klimapolitik.",
+                "romaji": "Das Umwelt- und Nachhaltigkeitssektor umfasst Positionen in Energiewirtschaft, Umweltberatung, Naturschutz",
+                "japanese": "環境・サステナビリティセクターはエネルギー産業、環境コンサルティング、自然保護、廃棄物管理、水管理、気候政策の職位を含みます。",
+                "usage": "環境セクターの職業多様性を説明するとき"
+              },
+              {
+                "german": "Umweltfachleute benötigen Ausbildung in Naturwissenschaften, Ingenieurwesen, Umweltrecht, oder Betriebswirtschaft, plus spezialisierte Zertifizierungen wie die des EMAS (Eco-Management and Audit Scheme).",
+                "romaji": "Umweltfachleute benötigen Ausbildung in Naturwissenschaften, Ingenieurwesen, Umweltrecht, oder Betriebswirtschaft",
+                "japanese": "環境専門家は自然科学、工学、環境法、経営学の教育と、EMAS（エコマネジメント監査制度）などの専門認定資格が必要です。",
+                "usage": "環境専門家の教育要件を説明するとき"
+              },
+              {
+                "german": "Karrierewege führen von Praktika bei Umweltbehörden oder NGOs über Fachpositionen zu Managementrollen wie Sustainability Officer oder Director of Green Operations.",
+                "romaji": "Karrierewege führen von Praktika bei Umweltbehörden oder NGOs über Fachpositionen zu Managementrollen",
+                "japanese": "キャリアパスは環境当局またはNGOでのインターンシップからサステナビリティ責任者やグリーン運営部長などのマネジメント職に至ります。",
+                "usage": "環境セクターのキャリアパスを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "気候変動とグリーンテクノロジー",
+            "phrases": [
+              {
+                "german": "Der Klimawandel verursacht steigende Temperaturen, Extremwetterereignisse, Meeresspiegel-Anstieg, und ökologische Instabilität, was dringende Maßnahmen zur Emissionsreduktion erforderlich macht.",
+                "romaji": "Der Klimawandel verursacht steigende Temperaturen, Extremwetterereignisse, Meeresspiegel-Anstieg",
+                "japanese": "気候変動は気温上昇、異常気象、海面上昇、生態系不安定性を引き起こし、温室効果ガス削減の緊急措置が必要です。",
+                "usage": "気候変動の影響を説明するとき"
+              },
+              {
+                "german": "Grüne Technologien wie Windkraft, Solarenergie, Batteriespeicherung, und Wasserstoffproduktion ermöglichen einen Übergang zu einer kohlenstoffarmen Wirtschaft.",
+                "romaji": "Grüne Technologien wie Windkraft, Solarenergie, Batteriespeicherung, und Wasserstoffproduktion",
+                "japanese": "風力、太陽光、電池貯蔵、水素製造などのグリーンテクノロジーはカーボンニュートラル経済への転換を可能にします。",
+                "usage": "グリーンテクノロジーの重要性を説明するとき"
+              },
+              {
+                "german": "Carbon Capture, Circular Economy-Modelle, und regenerative Landwirtschaft sind innovative Ansätze zur Emissionsreduktion und zur Schaffung einer nachhaltigen Zukunft.",
+                "romaji": "Carbon Capture, Circular Economy-Modelle, und regenerative Landwirtschaft sind innovative Ansätze",
+                "japanese": "カーボンキャプチャー、循環経済モデル、再生農業はカーボン削減と持続可能な未来創造のための革新的アプローチです。",
+                "usage": "環境革新のアプローチを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "企業のサステナビリティ戦略と環境リスク管理",
+            "phrases": [
+              {
+                "german": "Unternehmen entwickeln Nachhaltigkeitsstrategien, um ESG-Kriterien zu erfüllen, Investorenerwartungen zu erfüllen, und langfristige Geschäftskontinuität zu sichern.",
+                "romaji": "Unternehmen entwickeln Nachhaltigkeitsstrategien, um ESG-Kriterien zu erfüllen, Investorenerwartungen zu erfüllen",
+                "japanese": "企業はESG基準を満たし、投資家期待を満たし、長期的事業継続性を確保するためのサステナビリティ戦略を開発します。",
+                "usage": "企業のサステナビリティ戦略を説明するとき"
+              },
+              {
+                "german": "Umweltrisiko-Management identifiziert potenzielle Klimarisiken (physische Risiken, Transitionsrisiken), wertet sie, und entwickelt Anpassungsstrategien.",
+                "romaji": "Umweltrisiko-Management identifiziert potenzielle Klimarisiken (physische Risiken, Transitionsrisiken)",
+                "japanese": "環境リスク管理は潜在的な気候リスク（物理的リスク、移行リスク）を特定、評価し、適応戦略を開発します。",
+                "usage": "環境リスク管理を説明するとき"
+              },
+              {
+                "german": "Nachhaltigkeitskommunikation, Greenwashing-Vermeidung, und glaubwürdige Berichterstattung nach GRI oder SASB Standards sind essentiell für Transparenz und Vertrauenswürdigkeit.",
+                "romaji": "Nachhaltigkeitskommunikation, Greenwashing-Vermeidung, und glaubwürdige Berichterstattung",
+                "japanese": "サステナビリティコミュニケーション、グリーンウォッシング回避、GRI・SASBスタンダードに基づいた信頼できる報告は透明性と信頼性に不可欠です。",
+                "usage": "サステナビリティ報告の重要性を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "国際環境政策と気候交渉",
+            "phrases": [
+              {
+                "german": "Internationale Abkommen wie das Pariser Abkommen (Paris Agreement), die UN Sustainable Development Goals (SDGs), und das EU Green Deal sind Rahmen für globale Klimaschutzmaßnahmen.",
+                "romaji": "Internationale Abkommen wie das Pariser Abkommen (Paris Agreement), die UN Sustainable Development Goals (SDGs)",
+                "japanese": "パリ協定、国連持続可能な開発目標（SDGs）、EUグリーンディールなどの国際協定はグローバル気候変動対策の枠組みです。",
+                "usage": "国際環境政策を説明するとき"
+              },
+              {
+                "german": "Klimanegotiationen erfordern technisches Fachwissen, diplomatische Fähigkeiten, und die Fähigkeit, die Interessen verschiedener Stakeholder (Industrie, Zivilgesellschaft, entwickelte und Entwicklungsländer) zu balancieren.",
+                "romaji": "Klimanegotiationen erfordern technisches Fachwissen, diplomatische Fähigkeiten, und die Fähigkeit",
+                "japanese": "気候交渉は技術専門知識、外交スキル、様々なステークホルダー（産業、市民社会、先進国・開発途上国）の利益のバランスを取る能力が必要です。",
+                "usage": "気候交渉のスキルを説明するとき"
+              },
+              {
+                "german": "Nationale Umweltpolitik, regionale Ansätze (wie die EU Circular Economy Action Plan), und lokale Initiativen bilden eine mehrschichtige Governance-Struktur für nachhaltigen Wandel.",
+                "romaji": "Nationale Umweltpolitik, regionale Ansätze (wie die EU Circular Economy Action Plan)",
+                "japanese": "国家環境政策、地域的アプローチ（EU循環経済行動計画など）、地方イニシアティブは持続可能な変化のための多層的なガバナンス構造を形成します。",
+                "usage": "環境政策の階層を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-027-q1",
+          "type": "fill-blank",
+          "question": "「環境・サステナビリティセクターはエネルギー産業、環境コンサルティング、自然保護を含みます」をドイツ語で言ってください。",
+          "answer": "Das Umwelt- und Nachhaltigkeitssektor umfasst Energiewirtschaft, Umweltberatung, und Naturschutz."
+        },
+        {
+          "id": "de-027-q2",
+          "type": "multiple-choice",
+          "question": "環境専門家に必要な教育は？",
+          "options": [
+            "自然科学、工学、環境法、経営学 + EMAS認定資格",
+            "ビジネス教育のみ",
+            "高校卒業で十分",
+            "資格なしで可能"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-027-q3",
+          "type": "fill-blank",
+          "question": "「気候変動は気温上昇と異常気象を引き起こします」をドイツ語で言ってください。",
+          "answer": "Der Klimawandel verursacht steigende Temperaturen und Extremwetterereignisse."
+        },
+        {
+          "id": "de-027-q4",
+          "type": "multiple-choice",
+          "question": "グリーンテクノロジーに含まれるのは？",
+          "options": [
+            "風力、太陽光、電池貯蔵、水素製造",
+            "石炭とガス発電",
+            "原子力のみ",
+            "従来のエネルギー源のみ"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-027-q5",
+          "type": "fill-blank",
+          "question": "「企業はESG基準を満たし、投資家期待に応えるためサステナビリティ戦略を開発します」をドイツ語で言ってください。",
+          "answer": "Unternehmen entwickeln Nachhaltigkeitsstrategien, um ESG-Kriterien zu erfüllen und Investorenerwartungen zu erfüllen."
+        },
+        {
+          "id": "de-027-q6",
+          "type": "matching",
+          "question": "環境概念と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"concept": "Klimaneutraliät", "explanation": "カーボンニュートラル"},
+            {"concept": "Kreislaufwirtschaft", "explanation": "循環経済"},
+            {"concept": "Greenwashing", "explanation": "グリーンウォッシング"}
+          ]
+        },
+        {
+          "id": "de-027-q7",
+          "type": "fill-blank",
+          "question": "「パリ協定はグローバル気候変動対策の枠組みです」をドイツ語で言ってください。",
+          "answer": "Das Pariser Abkommen ist ein Rahmen für globale Klimaschutzmaßnahmen."
+        },
+        {
+          "id": "de-027-q8",
+          "type": "multiple-choice",
+          "question": "気候交渉に必要なスキルは？",
+          "options": [
+            "技術知識、外交スキル、ステークホルダーのバランス",
+            "経済知識のみ",
+            "政治経験だけ",
+            "交渉スキルなし"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツの環境・サステナビリティキャリア：グリーン産業・気候政策・企業戦略",
+          "duration": "30分",
+          "description": "Energiewendeの実装と雇用創造。再生可能エネルギー産業の成長。環境規制と企業のサステナビリティ対応。ドイツの気候中立目標。国際気候交渉でのドイツの役割。"
+        },
+        {
+          "type": "grammar",
+          "title": "環境・サステナビリティ用語と政策コミュニケーション表現",
+          "content": "環境複合名詞：Klimawandel（気候変動）、Nachhaltigkeit（サステナビリティ）、Emissionsreduktion（排出削減）、Kreislaufwirtschaft（循環経済）、Energiewende（エネルギー転換）。政策表現：regulieren（規制する）、fördern（促進する）、verpflichten（義務付ける）。ESG用語：Governance（ガバナンス）、Transparenz（透明性）、Verantwortung（責任）。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツの環境・グリーン産業の構造",
+          "content": "再生可能エネルギー産業：風力、太陽光、水力での世界的リーダーシップ。グリーンビルディング：建築の脱炭素化。電気自動車産業：テスラに次ぐ成長。自然保護組織：NABU、Grüne Liga などの市民活動。"
+        },
+        {
+          "type": "note",
+          "title": "企業のサステナビリティ対応と課題",
+          "content": "ESG報告基準：GRI、SASB、TCFD（気候関連財務情報開示）。グリーンボンド：環境プロジェクト資金調達。供給チェーンの脱炭素化。従業員の環境意識向上と職業訓練。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツと韓国のグリーン産業比較",
+          "content": "ドイツ：Energiewendeによる長期的転換、基礎技術開発重視。韓国：急速な技術導入、国家 R&D 戦略、グローバル企業による展開。両国とも国際市場で競争。"
+        },
+        {
+          "type": "note",
+          "title": "国際気候交渉とドイツの外交",
+          "content": "パリ協定（2015）実施。NDC（国家決定貢献）の更新。COP会議でのドイツの主導的役割。開発途上国への気候資金支援。EU統一戦略と国家政策のバランス。"
+        },
+        {
+          "type": "practice",
+          "title": "企業のサステナビリティ戦略と気候対応計画",
+          "content": "あなたが大規模製造企業のサステナビリティ責任者とします。スコープ1・2・3のカーボンフットプリント分析を実施し、2030年・2050年の削減目標を設定します。サプライチェーン脱炭素化、再生可能エネルギー導入、従業員教育、グリーンファイナンス活用を含めた包括的な気候対応計画を立案してください。"
+        }
+      ]
     }
   ]
 }
