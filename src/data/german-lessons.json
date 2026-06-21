@@ -6889,6 +6889,225 @@
           "content": "あなたが大規模e-commerceプラットフォームのアーキテクトとします。スケーラブルなマイクロサービスアーキテクチャを設計します：ユーザー管理、商品カタログ、注文処理、支払い処理、配送追跡。各サービスにCloudコンテナ化、API設計、データベース設計を含めます。DevOpsパイプライン、CI/CD、セキュリティ統合（認証、暗号化、監査ログ）、パフォーマンスモニタリング、ディザスタリカバリー計画も策定します。"
         }
       ]
+    },
+    {
+      "id": "de-031",
+      "level": 5,
+      "title": "マーケティング・デジタルマーケティング：ブランディング・顧客戦略・データ分析",
+      "titleDe": "Marketing und Digitales Marketing: Branding, Kundenstrategien, Datenanalyse",
+      "objectives": [
+        "マーケティング戦略と顧客セグメンテーションの基本を理解する",
+        "デジタルマーケティング、SEO、ソーシャルメディア、コンテンツマーケティングに関する専門用語を習得する",
+        "顧客行動分析とデータドリブン意思決定を理解する",
+        "ブランディング、CRM、マーケティングオートメーション戦略を習得する"
+      ],
+      "content": {
+        "introduction": "マーケティングはドイツと韓国の両国で急速に進化しています。デジタルトランスフォーメーション、AI活用、顧客データ分析は企業の成長戦略の中核です。このレッスンでは、マーケティング戦略、デジタルマーケティング戦術、顧客分析、ブランディング、マーケティングテクノロジーに関する高度なドイツ語を学びます。",
+        "sections": [
+          {
+            "title": "マーケティング戦略と顧客セグメンテーション",
+            "phrases": [
+              {
+                "german": "Marketingstrategie definiert die Zielgruppe, den Wertangebote, die Positionierung, die Preisgestaltung, und die Distributionskanäle, um Kundengewinnung und -bindung zu erreichen.",
+                "romaji": "Marketingstrategie definiert die Zielgruppe, den Wertangebote, die Positionierung, die Preisgestaltung",
+                "japanese": "マーケティング戦略は、ターゲットオーディエンス、価値提案、ポジショニング、価格設定、流通チャネルを定義し、顧客獲得と保持を実現します。",
+                "usage": "マーケティング戦略の構成要素を説明するとき"
+              },
+              {
+                "german": "Kundensegmentierung teilt den Markt basierend auf Demografie, Psychografie, Verhalten, und Bedürfnisse ein, um zielgerichtete Marketing-Kampagnen zu gestalten.",
+                "romaji": "Kundensegmentierung teilt den Markt basierend auf Demografie, Psychografie, Verhalten, und Bedürfnisse",
+                "japanese": "顧客セグメンテーションは、人口統計、心理的特性、行動、ニーズに基づいて市場を分割し、ターゲット指向のマーケティングキャンペーンを実現します。",
+                "usage": "顧客セグメンテーション手法を説明するとき"
+              },
+              {
+                "german": "Customer Journey Mapping visualisiert den kompletten Kundenweg von Bewusstsein über Kontakt, Kaufentscheidung, bis zur Treue, um Optimierungspotenziale zu identifizieren.",
+                "romaji": "Customer Journey Mapping visualisiert den kompletten Kundenweg von Bewusstsein über Kontakt",
+                "japanese": "カスタマージャーニーマッピングは、認識からコンタクト、購買決定、ロイヤルティまでの完全な顧客パスを可視化し、最適化の可能性を特定します。",
+                "usage": "カスタマージャーニーの重要性を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "デジタルマーケティングと顧客獲得チャネル",
+            "phrases": [
+              {
+                "german": "Digitales Marketing umfasst SEO (Suchmaschinen-Optimierung), SEM (Suchmaschinen-Marketing), Social-Media-Marketing, E-Mail-Marketing, Content Marketing, und Influencer-Marketing.",
+                "romaji": "Digitales Marketing umfasst SEO (Suchmaschinen-Optimierung), SEM (Suchmaschinen-Marketing)",
+                "japanese": "デジタルマーケティングはSEO（検索エンジン最適化）、SEM（検索エンジンマーケティング）、ソーシャルメディアマーケティング、メールマーケティング、コンテンツマーケティング、インフルエンサーマーケティングを含みます。",
+                "usage": "デジタルマーケティング戦術を説明するとき"
+              },
+              {
+                "german": "SEO und Keyword-Recherche verbessern die organische Sichtbarkeit in Suchmaschinen durch technische Optimierung, Content-Qualität, Backlink-Profil, und User Experience.",
+                "romaji": "SEO und Keyword-Recherche verbessern die organische Sichtbarkeit in Suchmaschinen",
+                "japanese": "SEOとキーワード調査は、技術的最適化、コンテンツ品質、バックリンクプロファイル、ユーザーエクスペリエンスを通じて検索エンジンでの有機的可視性を向上させます。",
+                "usage": "SEOの重要性を説明するとき"
+              },
+              {
+                "german": "Social-Media-Marketing nutzt Plattformen wie Facebook, Instagram, LinkedIn, TikTok, um Engagement zu fördern, Community zu aufzubauen, und Kundenerlebnisse zu personalisieren.",
+                "romaji": "Social-Media-Marketing nutzt Plattformen wie Facebook, Instagram, LinkedIn, TikTok",
+                "japanese": "ソーシャルメディアマーケティングはFacebook、Instagram、LinkedIn、TikTokなどのプラットフォームを活用し、エンゲージメントを促進し、コミュニティを構築し、顧客体験をパーソナライズします。",
+                "usage": "ソーシャルメディア戦略を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "顧客データ分析とマーケティングテクノロジー",
+            "phrases": [
+              {
+                "german": "Datengesteuerte Marketingnutzt Customer Data, Analytics, und Artificial Intelligence, um Kundenverhalten vorherzusagen, Kampagnen zu optimieren, und ROI zu maximieren.",
+                "romaji": "Datengesteuerte Marketing nutzt Customer Data, Analytics, und Artificial Intelligence",
+                "japanese": "データドリブンマーケティングは顧客データ、分析、人工知能を活用して、顧客行動を予測し、キャンペーンを最適化し、ROIを最大化します。",
+                "usage": "データ分析の重要性を説明するとき"
+              },
+              {
+                "german": "Marketing Automation Plattformen (HubSpot, Marketo, Salesforce) automatisieren E-Mail-Kampagnen, Lead Scoring, Nurturing, und Personalisierung in großem Maßstab.",
+                "romaji": "Marketing Automation Plattformen (HubSpot, Marketo, Salesforce) automatisieren E-Mail-Kampagnen",
+                "japanese": "マーケティングオートメーションプラットフォーム（HubSpot、Marketo、Salesforce）はメールキャンペーン、リードスコアリング、ナーチャリング、パーソナライゼーションを大規模に自動化します。",
+                "usage": "マーケティングオートメーション技術を説明するとき"
+              },
+              {
+                "german": "Customer Relationship Management (CRM) Systems zentralisieren Kundeninteraktionen, Verkaufszyklen, und Service-Aktivitäten, um 360-Grad-Kundenverständnis zu ermöglichen.",
+                "romaji": "Customer Relationship Management (CRM) Systems zentralisieren Kundeninteraktionen",
+                "japanese": "顧客関係管理（CRM）システムは顧客インタラクション、販売サイクル、サービス活動を一元化し、360度の顧客理解を実現します。",
+                "usage": "CRMシステムの役割を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "ブランディング、コンテンツ戦略、パフォーマンス測定",
+            "phrases": [
+              {
+                "german": "Branding definiert die Identität, die Werte, die Persönlichkeit, und die Botschaft einer Marke, um emotionale Verbindung und Differenzierung im Wettbewerb zu schaffen.",
+                "romaji": "Branding definiert die Identität, die Werte, die Persönlichkeit, und die Botschaft",
+                "japanese": "ブランディングはブランドのアイデンティティ、価値、パーソナリティ、メッセージを定義し、感情的な結びつきと競争での差別化を創造します。",
+                "usage": "ブランディング戦略を説明するとき"
+              },
+              {
+                "german": "Content Marketing Strategy entwickelt wertvolle, relevante, konsistente Inhalte, um Zielgruppen anzuziehen, zu binden, und Autorität in der Branche zu etablieren.",
+                "romaji": "Content Marketing Strategy entwickelt wertvolle, relevante, konsistente Inhalte",
+                "japanese": "コンテンツマーケティング戦略は価値があり、関連性があり、一貫したコンテンツを開発し、ターゲットオーディエンスを引き付け、保持し、業界での権威を確立します。",
+                "usage": "コンテンツ戦略の重要性を強調するとき"
+              },
+              {
+                "german": "Key Performance Indicators (KPIs) wie Conversion Rate, Customer Acquisition Cost (CAC), Lifetime Value (LTV), ROI, messen Marketingeffizienz und leiten strategische Entscheidungen.",
+                "romaji": "Key Performance Indicators (KPIs) wie Conversion Rate, Customer Acquisition Cost (CAC)",
+                "japanese": "主要業績評価指標（KPI）のようなコンバージョン率、顧客獲得費用（CAC）、顧客生涯価値（LTV）、ROIはマーケティング効率を測定し、戦略的決定を導きます。",
+                "usage": "マーケティングの成果測定を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-031-q1",
+          "type": "fill-blank",
+          "question": "「マーケティング戦略はターゲット、価値提案、ポジショニング、価格、流通を定義します」をドイツ語で言ってください。",
+          "answer": "Marketingstrategie definiert die Zielgruppe, den Wertangebote, die Positionierung, die Preisgestaltung, und die Distributionskanäle."
+        },
+        {
+          "id": "de-031-q2",
+          "type": "multiple-choice",
+          "question": "顧客セグメンテーションの基準は？",
+          "options": [
+            "人口統計、心理的特性、行動、ニーズ",
+            "年齢のみ",
+            "収入だけ",
+            "地域のみ"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-031-q3",
+          "type": "fill-blank",
+          "question": "「デジタルマーケティングはSEO、SEM、ソーシャルメディア、メール、コンテンツを含みます」をドイツ語で言ってください。",
+          "answer": "Digitales Marketing umfasst SEO, SEM, Social-Media-Marketing, E-Mail-Marketing, Content Marketing, und Influencer-Marketing."
+        },
+        {
+          "id": "de-031-q4",
+          "type": "multiple-choice",
+          "question": "SEOの目的は？",
+          "options": [
+            "検索エンジンでの有機的可視性向上",
+            "有料広告のみ",
+            "テレビCMのみ",
+            "印刷メディア"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-031-q5",
+          "type": "fill-blank",
+          "question": "「データドリブンマーケティングは顧客行動を予測し、キャンペーンを最適化します」をドイツ語で言ってください。",
+          "answer": "Datengesteuerte Marketing nutzt Customer Data, Analytics, und Artificial Intelligence, um Kundenverhalten vorherzusagen, Kampagnen zu optimieren."
+        },
+        {
+          "id": "de-031-q6",
+          "type": "matching",
+          "question": "マーケティング技術とその機能を正しく組み合わせてください。",
+          "pairs": [
+            {"tech": "CRM", "description": "顧客関係管理"},
+            {"tech": "Marketing Automation", "description": "キャンペーン自動化"},
+            {"tech": "Analytics", "description": "データ分析"}
+          ]
+        },
+        {
+          "id": "de-031-q7",
+          "type": "fill-blank",
+          "question": "「ブランディングはアイデンティティ、価値、パーソナリティを定義します」をドイツ語で言ってください。",
+          "answer": "Branding definiert die Identität, die Werte, die Persönlichkeit, und die Botschaft einer Marke."
+        },
+        {
+          "id": "de-031-q8",
+          "type": "multiple-choice",
+          "question": "マーケティング効果測定の主要KPIは？",
+          "options": [
+            "コンバージョン率、CAC、LTV、ROI",
+            "クリック数のみ",
+            "ビュー数だけ",
+            "フォロワー数"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "マーケティング・デジタルマーケティング：戦略・SEO・ソーシャルメディア・データ分析",
+          "duration": "33分",
+          "description": "マーケティング戦略と4P。顧客セグメンテーション。カスタマージャーニー。SEO・キーワード戦略。ソーシャルメディアマーケティング。データ分析とAI。マーケティングオートメーション。KPI測定。"
+        },
+        {
+          "type": "grammar",
+          "title": "マーケティング用語とマーケティングコミュニケーション表現",
+          "content": "マーケティング複合語：Marketing Strategy（マーケティング戦略）、Target Audience（ターゲットオーディエンス）、Value Proposition（価値提案）、Customer Acquisition（顧客獲得）。デジタル用語：Search Engine Optimization（SEO）、Search Engine Marketing（SEM）、Social Media Marketing（ソーシャルメディアマーケティング）、Content Marketing（コンテンツマーケティング）。分析用語：Key Performance Indicator（KPI）、Conversion Rate（コンバージョン率）、Customer Lifetime Value（顧客生涯価値）。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツのマーケティング文化と規制",
+          "content": "ドイツ：高い品質基準とデータプライバシー重視（GDPR）。B2B マーケティング産業の強さ。Mittelstand 企業のデジタル化。Hamburg、Berlin のマーケティングハブ。ドイツの DTC（Direct-to-Consumer）トレンド。"
+        },
+        {
+          "type": "note",
+          "title": "デジタルマーケティング戦術と媒体",
+          "content": "Google Ads、Facebook Ads、LinkedIn Ads での有料広告。Organic Social Media：Instagram、TikTok、YouTube。Email Marketing Automation：Mailchimp、ConvertKit。Content Distribution：Blogging、Podcasting、Webinars。Affiliate Marketing、Referral Programs。"
+        },
+        {
+          "type": "note",
+          "title": "データ分析とマーケティング測定",
+          "content": "Google Analytics、GA4、Adobe Analytics。UTM パラメータトラッキング。A/B テスト、多変量テスト。Attribution Modeling：First-click、Last-click、Multi-touch。Customer Funnel Analysis：Awareness→Consideration→Decision→Retention。"
+        },
+        {
+          "type": "note",
+          "title": "ブランディングとコンテンツ戦略",
+          "content": "Brand Positioning Map。Brand Messaging Framework。Content Pillars、Topic Clusters。Editorial Calendar。SEO Content Strategy。Storytelling と Emotional Connection。Visual Branding と Design Systems。"
+        },
+        {
+          "type": "practice",
+          "title": "総合的なデジタルマーケティングキャンペーン企画と実行",
+          "content": "あなたが B2B SaaS 企業のマーケティングマネージャーとします。新製品ローンチのための総合的なデジタルマーケティングキャンペーンを企画します。ターゲットオーディエンス分析、ペルソナ開発、カスタマージャーニーマッピング、マルチチャネル戦略（SEO、SEM、Social Media、Email、Content）の設計を含めます。具体的な KPI 設定、予算配分、タイムライン、各チャネルの成功メトリクスと測定方法を詳細に述べてください。"
+        }
+      ]
     }
   ]
 }
