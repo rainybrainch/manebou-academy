@@ -340,16 +340,27 @@ export const englishAcademyCategory: Category = {
           title: '電話会議での英語表現',
           duration: '7:30',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
             '会議の開始・終了表現が分かる',
             '発言を促す表現が使える',
             '同意・反対の伝え方が分かる',
+            'Zoom/Teams 特有の表現が分かる',
+            '会議を円滑に進められる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: 'リモート会議が増えた今、Zoom や Teams での英語表現は必須スキルです。',
+              content: 'リモート会議が増えた今、Zoom や Teams での英語表現は必須スキルです。技術的な問題への対応や、効率的な会議進行ができるようになります。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'リモート会議の基本表現',
+            },
+            {
+              type: 'text',
+              content: '**会議開始時**\n- "I think we\'re all here. Let\'s get started."\n- "Can everyone see and hear me okay?"\n- "Let\'s do a quick roll call. Who\'s joining us today?"\n\n**発言の促促し**\n- "John, what\'s your take on this?"\n- "Does anyone have thoughts on this proposal?"\n- "Let\'s hear from the Asia team."\n\n**同意・反対**\n- I agree with that.\n- I don\'t quite see it that way.\n- That makes sense to me.\n- I have a concern about...\n\n**技術的な問題対応**\n- "Can you repeat that? Your audio cut out."\n- "I think you\'re on mute."\n- "Let\'s move to the next slide."',
             },
           ],
         },
