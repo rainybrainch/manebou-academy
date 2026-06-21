@@ -1195,17 +1195,33 @@
           "type": "video",
           "title": "ドイツレストラン実践会話",
           "url": "#",
-          "duration": "12分"
+          "duration": "14分",
+          "description": "注文から支払いまでの完全な流れ、アレルギー対応の説明含む"
         },
         {
           "type": "grammar",
           "title": "敬語と丁寧な表現",
-          "content": "レストランでは一貫して敬語を使用します。Könnten Sie～? や Bitte... などの表現が基本。"
+          "content": "レストランでは一貫して敬語を使用します。Könnten Sie～? や Bitte... などの表現が基本。過去形の例：「Könnten Sie mir einen Tisch geben?」（テーブルをいただけますか？）"
+        },
+        {
+          "type": "grammar",
+          "title": "助動詞 mögen / möchte の活用",
+          "content": "「Mögen Sie Fleisch?」（肉は好きですか？）、「Ich möchte einen Wein.」（ワインをください）。möchte は mögen の過去形ではなく、独立した助動詞です。"
         },
         {
           "type": "note",
           "title": "ドイツ食文化",
-          "content": "ドイツではチップ（Trinkgeld）は義務的ではなく、サービスに満足した場合に5-10%を目安に渡します。"
+          "content": "ドイツではチップ（Trinkgeld）は義務的ではなく、サービスに満足した場合に5-10%を目安に渡します。レストラン文化は層が厚く、Biergarten（ビアガーデン）からMichelin星付きまで様々。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツ料理の特徴",
+          "content": "ドイツ料理は肉とジャガイモが中心です。有名なシュニッツェル、ブラートヴルスト（ソーセージ）、プレッツェル（塩辛いパン）。南部バイエルン州ではシュペッツレ（卵入りパスタ）が名物です。"
+        },
+        {
+          "type": "practice",
+          "title": "レストラン会話ロールプレイ",
+          "content": "友人と「ウェイター/ウェイトレスと顧客」の役割を分担し、メニュー確認 → 注文 → アレルギー確認 → 支払い という流れで練習してみてください。"
         }
       ]
     },
