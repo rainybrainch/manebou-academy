@@ -3828,6 +3828,220 @@
           "content": "韓国のニュースサイト（ポータル「네이버」「다음」など）から実際の記事を選んで読んでみてください。見出し、記事構成、引用元、コメント欄を確認します。その後、友人と記事について議論し、異なる解釈や視点を共有してください。"
         }
       ]
+    },
+    {
+      "id": "ko-025",
+      "level": 4,
+      "title": "環境・サステナビリティ・気候変動",
+      "titleKo": "환경, 지속가능성, 그리고 기후변화",
+      "objectives": [
+        "環境問題に関する語彙と概念を習得する",
+        "気候変動とその影響について韓国語で説明できる",
+        "サステナビリティと企業責任について理解する",
+        "環境問題への対策と個人の選択肢を学ぶ"
+      ],
+      "content": {
+        "introduction": "環境問題は現代社会最大の課題です。このレッスンでは、気候変動、資源枯渇、汚染、再生可能エネルギーなど、環境分野の実践的な韓国語を学びます。韓国は急速な経済成長に伴う環境問題に直面しており、同時に再生可能エネルギーと環境技術で先進的です。",
+        "sections": [
+          {
+            "title": "環境問題の現状と種類",
+            "phrases": [
+              {
+                "korean": "기후변화는 우리 시대 최대의 과제 중 하나입니다.",
+                "romaji": "gihubyeonhwaneun uri sidaeui choeui gwaje jung hanaimnida",
+                "japanese": "気候変動は私たちの時代最大の課題の一つです。",
+                "usage": "気候変動の重要性と緊急性を強調するとき。環境問題の中心的なテーマ"
+              },
+              {
+                "korean": "환경오염, 자원 부족, 생물종 멸종은 심각한 문제입니다.",
+                "romaji": "hwangyeongolyeom, jayeon bujogg, saengmulchong myeoljjongeun simgaghan munjeimnida",
+                "japanese": "環境汚染、資源枯渇、生物種の絶滅は重大な問題です。",
+                "usage": "複数の環境問題を並列して説明するとき。環境危機の複合性"
+              },
+              {
+                "korean": "온실가스 배출을 대폭 줄여야 합니다.",
+                "romaji": "onsulgasu baechul eul daepog jureoyaye hamnida",
+                "japanese": "温室効果ガスの排出を大幅に削減する必要があります。",
+                "usage": "気候変動対策の必要性を強調するとき。科学的根拠に基づく主張"
+              }
+            ]
+          },
+          {
+            "title": "再生可能エネルギーと転換戦略",
+            "phrases": [
+              {
+                "korean": "태양광 및 풍력 같은 재생가능 에너지는 미래에 중요합니다.",
+                "romaji": "taeyangkwang mit pungryeok kateeun jaesaengganeung eneojineun miraee jungyohamnida",
+                "japanese": "太陽光と風力などの再生可能エネルギーは将来に重要です。",
+                "usage": "環境に優しいエネルギー源を説明するとき。エネルギー転換の意義"
+              },
+              {
+                "korean": "한국은 2050년까지 탄소 중립을 목표로 하고 있습니다.",
+                "romaji": "hanggugeun i-cheong-o-sib neonkkaji tanso jungnibeul mokpyoro hago isseumnida",
+                "japanese": "韓国は2050年までにカーボンニュートラルを目指しています。",
+                "usage": "国家レベルの環境政策や具体的な目標を説明するとき"
+              },
+              {
+                "korean": "에너지 효율성과 전력 절약은 기후 보호에 필수적입니다.",
+                "romaji": "energi hyoyulseonggwa jeonryeog jeol-yak eun gihu bohuye pilsujeogimnida",
+                "japanese": "エネルギー効率と電力節約は気候保護に必須です。",
+                "usage": "個人レベルでの環境対策と企業の役割を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "サステナビリティと責任ある消費",
+            "phrases": [
+              {
+                "korean": "지속가능성은 미래 세대도 자원을 가질 수 있도록 자원을 사용하는 것입니다.",
+                "romaji": "jisokganeungseong eun mirae sedaedo jayuneul gajil su issdorok jayuneul sayonghaneun geosimnida",
+                "japanese": "サステナビリティは将来の世代も資源を持つようにリソースを使うことです。",
+                "usage": "サステナビリティの本質的な定義を説明するとき。長期的思考"
+              },
+              {
+                "korean": "책임감 있는 소비는 재활용, 플라스틱 회피, 지속 가능한 제품 지원을 포함합니다.",
+                "romaji": "chaegimgam inneun sobi neun jaehwalyong, peulraseutik hoep-i, jisok ganeunghan jepum jiwon eul pohanhamnida",
+                "japanese": "責任ある消費にはリサイクル、プラスチック回避、サステナブル製品支援が含まれます。",
+                "usage": "個人の環境配慮行動の具体例を説明するとき。消費者の選択肢"
+              },
+              {
+                "korean": "기업은 공급망을 감시하고 환경 기준을 준수해야 합니다.",
+                "romaji": "gieob eun gonggubang eul gamshihago hwangyeong gijun eul junsuhae-ya hamnida",
+                "japanese": "企業はサプライチェーンを監視し、環境基準を遵守する必要があります。",
+                "usage": "企業の社会的責任（CSR）と環境対策について説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "環境政策と国際協力",
+            "phrases": [
+              {
+                "korean": "파리 기후협약은 국가들이 배출량을 줄일 의무를 부과합니다.",
+                "romaji": "pari gihubyeophyeobyakkeun gukgadeul-i baechulryangul jureul uimurul bugohamnida",
+                "japanese": "パリ気候協定は国家の排出量削減義務を課しています。",
+                "usage": "国際的な環境協力と法的枠組みについて説明するとき"
+              },
+              {
+                "korean": "정부, 기업, 시민 운동은 기후변화와 싸우기 위해 협력해야 합니다.",
+                "romaji": "jeongbu, gieob, simin undong eun gihubyeonhwagwa ssaugi wihae hyeopreyokahae-ya hamnida",
+                "japanese": "政府、企業、市民運動は気候変動に対抗するために協力する必要があります。",
+                "usage": "複数ステークホルダーの協働と社会的変化を説明するとき"
+              },
+              {
+                "korean": "녹색 기술과 혁신은 지속 가능한 미래의 핵심입니다.",
+                "romaji": "noksaek gisulgwa hyeokmsin eun jisok ganeunghan miraui haeksimimnida",
+                "japanese": "グリーンテクノロジーとイノベーションはサステナブルな未来の核です。",
+                "usage": "技術的解決策と環境問題の関係を説明するとき。希望的メッセージ"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-025-q1",
+          "type": "fill-blank",
+          "question": "「気候変動は私たちの時代最大の課題の一つです」を韓国語で言ってください。",
+          "answer": "기후변화는 우리 시대 최대의 과제 중 하나입니다."
+        },
+        {
+          "id": "ko-025-q2",
+          "type": "multiple-choice",
+          "question": "サステナビリティの本質的な意味は何ですか？",
+          "options": [
+            "将来の世代も資源を持つようにリソースを使うこと",
+            "現在の経済成長を最大化すること",
+            "環境を完全に変えること",
+            "プラスチックの使用を禁止すること"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-025-q3",
+          "type": "fill-blank",
+          "question": "「太陽光と風力などの再生可能エネルギーは将来に重要です」を韓国語で言ってください。",
+          "answer": "태양광 및 풍력 같은 재생가능 에너지는 미래에 중요합니다."
+        },
+        {
+          "id": "ko-025-q4",
+          "type": "multiple-choice",
+          "question": "韓国のカーボンニュートラル目標年は？",
+          "options": [
+            "2050年",
+            "2040年",
+            "2045年",
+            "2030年"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-025-q5",
+          "type": "fill-blank",
+          "question": "「責任ある消費にはリサイクルが含まれます」を韓国語で言ってください。",
+          "answer": "책임감 있는 소비는 재활용을 포함합니다."
+        },
+        {
+          "id": "ko-025-q6",
+          "type": "matching",
+          "question": "環境用語と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"term": "온실가스", "explanation": "温室効果ガス"},
+            {"term": "에너지 효율성", "explanation": "エネルギー効率"},
+            {"term": "공급망", "explanation": "サプライチェーン"}
+          ]
+        },
+        {
+          "id": "ko-025-q7",
+          "type": "fill-blank",
+          "question": "「パリ気候協定は国家の排出量削減義務を課しています」を韓国語で言ってください。",
+          "answer": "파리 기후협약은 국가들이 배출량을 줄일 의무를 부과합니다."
+        },
+        {
+          "id": "ko-025-q8",
+          "type": "multiple-choice",
+          "question": "気候変動の解決に必要な主体は誰ですか？",
+          "options": [
+            "政府、企業、市民運動が協力して",
+            "政府だけ",
+            "大企業だけ",
+            "個人の行動だけで十分"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国の再生可能エネルギーと環境政策",
+          "duration": "19分",
+          "description": "韓国の2050カーボンニュートラル目標、太陽光と風力の拡大、環境技術産業の発展"
+        },
+        {
+          "type": "grammar",
+          "title": "環境・気候用語と複合文構造",
+          "content": "環境用語の造語法（태양광、풍력、온실가스）。義務を表す「～해야 합니다」の使用。「～(으)로부터」による原因表現。対比表現「～면서도」での複合文"
+        },
+        {
+          "type": "note",
+          "title": "韓国の環境政策とアジアでの役割",
+          "content": "韓国は2050年カーボンニュートラル宣言。再生可能エネルギー投資の拡大。グリーン産業（電池、太陽光）の世界市場でのリーダーシップ。半導体生産での環境課題。"
+        },
+        {
+          "type": "note",
+          "title": "環境問題の複合性と相互関連性",
+          "content": "気候変動は単独の問題ではなく、生物多様性、資源枯渇、健康問題と相互に関連。消費パターン、エネルギー利用、輸送が複雑に絡み合う。解決には生活様式の根本的な見直しが必要。"
+        },
+        {
+          "type": "note",
+          "title": "韓国でのサステナビリティとビジネス戦略",
+          "content": "大企業のESG委員会設置と報告義務。カーボンクレジット取引市場の拡大。サステナビリティ報告書の義務化。グリーンマーケティングと実質的な環境対策の区別が重要。"
+        },
+        {
+          "type": "practice",
+          "title": "環境問題についてのディスカッション",
+          "content": "友人と気候変動対策について議論してみてください。個人レベルでできることは何か、企業や政府の役割は何か、東アジアの国々の対策に違いがあるか。反対意見も視野に入れながら、複雑な環境問題について多面的に考察してください。"
+        }
+      ]
     }
   ]
 }
