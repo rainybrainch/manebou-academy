@@ -3858,6 +3858,220 @@
           "content": "友人とあなたの健康と fitness goals について議論してみてください。現在のライフスタイル、改善すべき領域、実現可能な目標、段階的実装戦略を話し合います。自分たちの価値観、制約条件、サポートシステムを考慮した個人化されたアプローチを開発してください。"
         }
       ]
+    },
+    {
+      "id": "de-017",
+      "level": 4,
+      "title": "高度な交渉・プレゼンテーション・リーダーシップ",
+      "titleDe": "Verhandlungen, Präsentationen und Führung",
+      "objectives": [
+        "高度な交渉戦略と説得技法を習得する",
+        "効果的なプレゼンテーションスキルを開発する",
+        "リーダーシップと影響力について理解する",
+        "チームビルディングと組織開発のための言語を学ぶ"
+      ],
+      "content": {
+        "introduction": "ビジネスにおいて、効果的なコミュニケーション、交渉、リーダーシップスキルは成功の鍵です。このレッスンでは、複雑な交渉、説得的なプレゼンテーション、リーダーシップ、チームマネジメントなど、高度なビジネスコミュニケーションについて学びます。ドイツ企業文化では、論理性、透明性、直接的コミュニケーションが重視されています。",
+        "sections": [
+          {
+            "title": "高度な交渉スキル",
+            "phrases": [
+              {
+                "german": "Erfolgreiche Verhandlungen erfordern gründliche Vorbereitung, klare Kommunikation und gegenseitiges Verständnis.",
+                "romaji": "ehr-FOLK-ray-she fer-HAHN-tlung-en ehr-FOR-dern GROON-tli-he FOR-bah-RAY-toong, KLAHR-e kom-moo-nee-KAH-tsee-ohn unt GAY-gen-ZY-ti-ges fer-SHTENT-nis",
+                "japanese": "成功した交渉は十分な準備、明確なコミュニケーション、相互理解を必要とします。",
+                "usage": "交渉の基本原則と必須要素を説明するとき。交渉準備"
+              },
+              {
+                "german": "BATNA (Best Alternative to Negotiated Agreement) ist eine Strategie zur Stärkung der Verhandlungsposition.",
+                "romaji": "BATNA （Best Alternative to Negotiated Agreement） ist AY-ne SHTRAHR-teh-gee tsoor SHTER-koong der fer-HAHN-doongs-poh-ZEE-tsee-ohn",
+                "japanese": "BATNA（交渉成立時の最良な代替案）は交渉立場を強化する戦略です。",
+                "usage": "交渉の準備段階で代替案を検討するとき。戦略的準備"
+              },
+              {
+                "german": "Aktives Zuhören und Empathie sind Schlüssel zum Verständnis der Gegenseite und zum Erreichen von Win-win-Lösungen.",
+                "romaji": "AHK-tee-ves TSOO-hö-ren unt em-PAH-tee zint SHLÜ-sel tsoom fer-SHTENT-nis der GAY-gen-ZY-te unt tsoom ehr-RAY-hen fon WIN-win-LÖ-zoong-en",
+                "japanese": "積極的傾聴と共感は相手の理解とウィンウィンソリューション実現の鍵です。",
+                "usage": "相互理解に基づく交渉アプローチを説明するとき。共感的交渉"
+              }
+            ]
+          },
+          {
+            "title": "効果的なプレゼンテーション",
+            "phrases": [
+              {
+                "german": "Eine starke Eröffnung, klare Struktur und überzeugende Abschlussfolgerung machen eine Präsentation wirksam.",
+                "romaji": "AY-ne SHTAHR-ke ehr-ÖF-noong, KLAHR-e SHTOOK-too-er unt OO-ber-TSOYN-den-de AHP-shlooss-FOL-ger-oong mah-hen AY-ne pre-zen-tah-TSEE-ohn VEERK-zahm",
+                "japanese": "強力な冒頭、明確な構造、説得的な結論がプレゼンテーションを効果的にします。",
+                "usage": "プレゼンテーションの基本構成を説明するとき。構成の重要性"
+              },
+              {
+                "german": "Visuelles Material, Datenvisualisierung und Storytelling erhöhen Verständnis und Engagement des Publikums.",
+                "romaji": "VIZ-oo-EL-es mah-TEH-ree-ahl, DAH-ten-VIZ-oo-ah-li-ZEE-roong unt STORY-tel-ing ehr-HÖ-en fer-SHTENT-nis unt en-GAHZH-ment des POO-blee-kooms",
+                "japanese": "視覚資料、データビジュアライゼーション、ストーリーテリングは理解とエンゲージメントを高めます。",
+                "usage": "効果的なプレゼンテーション資料の活用を説明するとき。視覚的強化"
+              },
+              {
+                "german": "Nonverbale Kommunikation, Stimmlage und Körpersprache prägen die Wirkung einer Präsentation stark.",
+                "romaji": "non-ver-BAH-le kom-moo-nee-KAH-tsee-ohn, SHTIM-lah-ge unt KÖR-per-SHPRAH-he PRAG-en dee VEERK-oong AY-ner pre-zen-tah-TSEE-ohn SHTARK",
+                "japanese": "非言語コミュニケーション、声調、ボディランゲージはプレゼンテーションの効果を大きく形作ります。",
+                "usage": "プレゼンテーション時の身体表現の重要性を説明するとき。非言語表現"
+              }
+            ]
+          },
+          {
+            "title": "リーダーシップと影響力",
+            "phrases": [
+              {
+                "german": "Effektive Führung erfordert klare Vision, inspirierende Kommunikation und die Fähigkeit, Vertrauen aufzubauen.",
+                "romaji": "eh-FEK-tee-ve FOO-roong ehr-FOR-dert KLAHR-e VIZ-ee-ohn, in-spi-REE-ren-de kom-moo-nee-KAH-tsee-ohn unt dee FAH-hig-kite, FEHR-trou-en OWF-tsoo-bou-en",
+                "japanese": "効果的なリーダーシップは明確なビジョン、感動的なコミュニケーション、信頼構築能力を必要とします。",
+                "usage": "リーダーシップの基本的な資質を説明するとき。指導性"
+              },
+              {
+                "german": "Emotionale Intelligenz, Authentizität und Verantwortung sind Grundlagen des modernen, transformativen Führungsstils.",
+                "romaji": "eh-moh-TSEE-oh-nah-le in-tel-lee-HENTS, ou-TEN-ti-tsee-TATE unt fer-AHN-tvort-oong zint GROON-lah-gen des MOH-der-nen, trans-for-mah-TEE-ven FOO-roongs-SHTIL",
+                "japanese": "感情知能、真正性、責任はモダンな変革的リーダーシップの基盤です。",
+                "usage": "21世紀のリーダーシップ特性を説明するとき。変革的リーダーシップ"
+              },
+              {
+                "german": "Einfluss wird durch Glaubwürdigkeit, Expertise und die Fähigkeit, andere zu befähigen, aufgebaut.",
+                "romaji": "INE-floos veert doorsh GLOWP-voo-er-dig-kite, eks-per-TEES unt dee FAH-hig-kite, AHN-der-re tsoo beh-FAH-hi-gen, OWF-geh-bout",
+                "japanese": "影響力は信頼性、専門知識、他者を力づける能力を通じて構築されます。",
+                "usage": "影響力の構成要素を説明するとき。影響力構築"
+              }
+            ]
+          },
+          {
+            "title": "チームビルディングと組織開発",
+            "phrases": [
+              {
+                "german": "Effektive Teams entstehen durch klare Rollen, gemeinsame Ziele und eine Kultur der gegenseitigen Unterstützung.",
+                "romaji": "eh-FEK-tee-ve TEAMS ent-SHTAY-en doorsh KLAHR-e ROH-len, geh-MY-nzah-me TSEE-le unt AY-ne KOOL-too-er der GAY-gen-ZY-ti-gen OON-ter-SHTOO-tsoong",
+                "japanese": "効果的なチームは明確な役割、共有目標、相互サポートの文化によって形成されます。",
+                "usage": "チーム構成の成功要因を説明するとき。チームダイナミクス"
+              },
+              {
+                "german": "Diversität und Inklusion fördern Innovation, Kreativität und organisatorisches Wohlbefinden.",
+                "romaji": "dee-ver-zee-TATE unt in-kloo-zee-OHN FOR-dern in-oh-VAH-tsee-ohn, kray-ah-TEE-tät unt or-gah-nee-zah-TOR-i-shes VOHL-beh-FIN-den",
+                "japanese": "多様性とインクルージョンはイノベーション、創造性、組織的幸福を促進します。",
+                "usage": "ダイバーシティ経営とインクルーシブ文化を説明するとき。組織多様性"
+              },
+              {
+                "german": "Kontinuierliches Lernen und Entwicklung sind Schlüssel zur Anpassung an sich ändernde Geschäftsumgebungen.",
+                "romaji": "kon-ti-NOO-eer-li-shes LAIR-nen unt ent-VICK-loong zint SHLÜ-sel tsoor AHN-pahss-oong ahn zikh EN-der-n-de geh-SHEF-ts-oom-GAY-boong-en",
+                "japanese": "継続的学習と開発は変化するビジネス環境への適応の鍵です。",
+                "usage": "組織学習と開発を説明するとき。適応能力"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-017-q1",
+          "type": "fill-blank",
+          "question": "「成功した交渉は十分な準備と相互理解を必要とします」をドイツ語で言ってください。",
+          "answer": "Erfolgreiche Verhandlungen erfordern gründliche Vorbereitung und gegenseitiges Verständnis."
+        },
+        {
+          "id": "de-017-q2",
+          "type": "multiple-choice",
+          "question": "BATNA の役割は何ですか？",
+          "options": [
+            "交渉立場を強化する",
+            "相手に屈服する",
+            "交渉を避ける",
+            "最低の結果を受け入れる"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-017-q3",
+          "type": "fill-blank",
+          "question": "「積極的傾聴と共感はウィンウィンソリューション実現の鍵です」をドイツ語で言ってください。",
+          "answer": "Aktives Zuhören und Empathie sind Schlüssel zum Erreichen von Win-win-Lösungen."
+        },
+        {
+          "id": "de-017-q4",
+          "type": "multiple-choice",
+          "question": "プレゼンテーションを効果的にするために必要なのは？",
+          "options": [
+            "強力な冒頭、明確な構造、説得的な結論",
+            "長い話",
+            "複雑な用語",
+            "視覚資料なし"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-017-q5",
+          "type": "fill-blank",
+          "question": "「効果的なリーダーシップは明確なビジョンと信頼構築能力を必要とします」をドイツ語で言ってください。",
+          "answer": "Effektive Führung erfordert klare Vision und die Fähigkeit, Vertrauen aufzubauen."
+        },
+        {
+          "id": "de-017-q6",
+          "type": "matching",
+          "question": "リーダーシップの要素と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"element": "Vision", "description": "明確な方向性"},
+            {"element": "Vertrauen", "description": "信頼"},
+            {"element": "Einfluss", "description": "影響力"}
+          ]
+        },
+        {
+          "id": "de-017-q7",
+          "type": "fill-blank",
+          "question": "「多様性とインクルージョンはイノベーションを促進します」をドイツ語で言ってください。",
+          "answer": "Diversität und Inklusion fördern Innovation."
+        },
+        {
+          "id": "de-017-q8",
+          "type": "multiple-choice",
+          "question": "効果的なチーム形成に必要なのは？",
+          "options": [
+            "明確な役割、共有目標、相互サポート文化",
+            "個人主義的競争",
+            "権威的支配",
+            "コミュニケーション不足"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツの交渉文化とビジネスコミュニケーション",
+          "duration": "22分",
+          "description": "直接的で論理的なコミュニケーション、効果的な交渉戦略、ドイツ企業のリーダーシップスタイル"
+        },
+        {
+          "type": "grammar",
+          "title": "上級ビジネス言語：説得と影響力の表現",
+          "content": "条件法での提案表現（würde...）。接続詞による論理的構造（daher、deshalb、weil）。間接話法と報告表現。修辞疑問による強調"
+        },
+        {
+          "type": "note",
+          "title": "ドイツ企業文化と交渉スタイル",
+          "content": "ドイツ企業では直接的で率直なコミュニケーションが重視される。感情的主張より論理的根拠が有効。階層文化だが透明性も大切。ルール遵守と契約履行が基本。"
+        },
+        {
+          "type": "note",
+          "title": "プレゼンテーション効果の心理学",
+          "content": "Primacy effect（最初の印象）とRecency effect（最後の記憶）。Cognitive load（認知負荷）の管理。ストーリーテリング構造による記憶定着。視覚資料と言語の相乗効果。"
+        },
+        {
+          "type": "note",
+          "title": "21世紀のリーダーシップ理論",
+          "content": "変革的リーダーシップ vs トランザクショナルリーダーシップ。サーバント・リーダーシップ（奉仕型）。感情知能（EQ）の重要性。分散的リーダーシップとチーム共創。"
+        },
+        {
+          "type": "practice",
+          "title": "交渉・プレゼン・リーダーシップシミュレーション",
+          "content": "友人と複雑な交渉シナリオをロールプレイしてみてください。一人が顧客・パートナー、もう一人が営業・マネージャーの役を担当。BATNA を適用し、共感的に聴きながら、ウィンウィンソリューションを探ってください。その後、相互のフィードバックを通じてコミュニケーションスキルを磨きます。"
+        }
+      ]
     }
   ]
 }
