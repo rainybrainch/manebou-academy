@@ -8213,6 +8213,230 @@
           "content": "あなたがドイツの医薬品企業のプロジェクトディレクターとします。新規医薬品の開発から上市までの戦略を立案します。治験計画（フェーズI-III）、規制戦略（FDA・EMA申請）、製造・品質管理（GMP）、知的財産保護、ファーマコビジランス計画、デジタルヘルス統合、患者アクセスプログラム、グローバル上市戦略（複数国展開）を含めます。開発期間、予算、規制マイルストーン、市場投入タイムラインを詳細に述べてください。"
         }
       ]
+    },
+    {
+      "id": "de-037",
+      "level": 5,
+      "title": "通信・メディア・放送：デジタルメディア・コンテンツ戦略・5G",
+      "titleDe": "Telekommunikation und Medien: Digitale Medien, Inhaltsstrategien, 5G",
+      "objectives": [
+        "通信・メディア産業の変革とデジタル化を理解する",
+        "ストリーミング、5G、デジタルコンテンツに関する専門用語を習得する",
+        "コンテンツ戦略、視聴者エンゲージメント、マネタイゼーションを理解する",
+        "メディア規制、著作権、デジタル倫理を習得する"
+      ],
+      "content": {
+        "introduction": "通信とメディア産業はデジタル革命の中心にあります。ドイツはテレコムインフラとメディア多様性で知られており、5Gやストリーミング技術が急速に普及しています。このレッスンでは、デジタルメディア戦略、コンテンツ制作、視聴者分析、メディア技術に関する高度なドイツ語を学びます。",
+        "sections": [
+          {
+            "title": "通信インフラと5G技術",
+            "phrases": [
+              {
+                "german": "Telekommunikationsinfrastruktur (mobile Netze, Breitband, Glasfaser) bildet das Rückgrat digitaler Wirtschaft; 5G ermöglicht hohe Geschwindigkeit, niedrige Latenz, massive Konnektivität.",
+                "romaji": "Telekommunikationsinfrastruktur (mobile Netze, Breitband, Glasfaser) bildet das Rückgrat",
+                "japanese": "通信インフラ（モバイルネット、ブロードバンド、光ファイバー）はデジタル経済の根幹です。5Gは高速度、低遅延、大規模接続を実現します。",
+                "usage": "通信インフラの重要性を説明するとき"
+              },
+              {
+                "german": "5G Technologie revolutioniert IoT, autonome Fahrzeuge, remote Chirurgie, Smart Cities durch Ultra-Breitband und deterministische Netzwerke.",
+                "romaji": "5G Technologie revolutioniert IoT, autonome Fahrzeuge, remote Chirurgie",
+                "japanese": "5G技術はIoT、自動運転車、遠隔手術、スマートシティをウルトラブロードバンドと決定論的ネットワークで革新します。",
+                "usage": "5G技術の応用を説明するとき"
+              },
+              {
+                "german": "Spektrum-Management und Lizensierungspolitik (Frequenzen, Auktionen) bestimmen Wettbewerb, Innovation, und Netzwerkabdeckung in Telekommunikation.",
+                "romaji": "Spektrum-Management und Lizensierungspolitik (Frequenzen, Auktionen)",
+                "japanese": "スペクトラム管理とライセンス政策（周波数、オークション）は通信の競争、イノベーション、ネットワークカバレッジを決定します。",
+                "usage": "通信規制を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "デジタルメディアとストリーミング",
+            "phrases": [
+              {
+                "german": "Streaming-Plattformen (Netflix, Amazon Prime, Disney+) ersetzen lineares Fernsehen; On-Demand-Modelle, Personalisierung, und Algorithmen transformieren Medienkonsum.",
+                "romaji": "Streaming-Plattformen (Netflix, Amazon Prime, Disney+) ersetzen lineares Fernsehen",
+                "japanese": "ストリーミングプラットフォーム（Netflix、Amazon Prime、Disney+）は線形テレビを置き換えます。オンデマンドモデル、パーソナライゼーション、アルゴリズムがメディア消費を変革します。",
+                "usage": "ストリーミングサービスを説明するとき"
+              },
+              {
+                "german": "Content-Strategie erfordert Verständnis von Zielgruppen, Storytelling, Multi-Platform-Distribution, Engagement-Metriken, und Revenue Models (Abonnement, Werbung, Hybrid).",
+                "romaji": "Content-Strategie erfordert Verständnis von Zielgruppen, Storytelling",
+                "japanese": "コンテンツ戦略はターゲットオーディエンス、ストーリーテリング、マルチプラットフォーム配布、エンゲージメント測定、収益モデル（サブスク、広告、ハイブリッド）を理解する必要があります。",
+                "usage": "コンテンツ戦略を説明するとき"
+              },
+              {
+                "german": "User-Generated Content und Influencer Marketing (YouTube, TikTok, Twitch) demokratisieren Inhaltsproduktion, schaffen neue Creator-Ökosysteme, und verändern traditionelle Medienrollen.",
+                "romaji": "User-Generated Content und Influencer Marketing (YouTube, TikTok, Twitch)",
+                "japanese": "ユーザー生成コンテンツとインフルエンサーマーケティング（YouTube、TikTok、Twitch）はコンテンツ制作を民主化し、クリエーターエコシステムを創造し、従来のメディア役割を変えます。",
+                "usage": "ソーシャルメディアコンテンツを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "デジタル広告と視聴者分析",
+            "phrases": [
+              {
+                "german": "Digitale Werbung (Programmatic Advertising, Display, Video, Native) nutzt Daten, Zielgruppenerkennung, Real-Time Bidding, um Relevanz und ROI zu maximieren.",
+                "romaji": "Digitale Werbung (Programmatic Advertising, Display, Video, Native) nutzt Daten",
+                "japanese": "デジタル広告（プログラマティック、ディスプレイ、ビデオ、ネイティブ）はデータ、オーディエンスターゲティング、リアルタイム入札を使用して関連性とROIを最大化します。",
+                "usage": "デジタル広告戦略を説明するとき"
+              },
+              {
+                "german": "Audience Analytics und Data Intelligence (Google Analytics, Nielsen, ComScore) messen Viewership, Engagement, Attribution, und Conversion zur Optimierung von Inhalten und Kampagnen.",
+                "romaji": "Audience Analytics und Data Intelligence (Google Analytics, Nielsen, ComScore)",
+                "japanese": "視聴者分析とデータインテリジェンス（Google Analytics、Nielsen、ComScore）は視聴、エンゲージメント、アトリビューション、コンバージョンを測定し、コンテンツとキャンペーンを最適化します。",
+                "usage": "データ分析を説明するとき"
+              },
+              {
+                "german": "Künstliche Intelligenz in Medien (Recommendation Engines, Content Personalization, Synthetic Media) optimiert Nutzererlebnis, erhöht Engagement, und eröffnet neue Inhaltsformate.",
+                "romaji": "Künstliche Intelligenz in Medien (Recommendation Engines, Content Personalization)",
+                "japanese": "メディアのAI（レコメンデーションエンジン、コンテンツパーソナライゼーション、合成メディア）はユーザー体験を最適化し、エンゲージメントを向上させ、新しいコンテンツ形式を開きます。",
+                "usage": "AI技術のメディア応用を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "メディア規制と倫理",
+            "phrases": [
+              {
+                "german": "Medienregulierung (Lizenzen, Inhaltsstandards, Pressefraktion) balanciert freie Meinungsäußerung, Medienvielfalt, Schutz vor schädlichen Inhalten, und Wettbewerb.",
+                "romaji": "Medienregulierung (Lizenzen, Inhaltsstandards, Pressefraktion) balanciert freie Meinungsäußerung",
+                "japanese": "メディア規制（ライセンス、コンテンツ基準、プレスフリーダム）は言論の自由、メディア多様性、有害コンテンツ保護、競争のバランスを取ります。",
+                "usage": "メディア規制を説明するとき"
+              },
+              {
+                "german": "Urheberrecht und Lizensierung (Copyright, Fair Use, DRM) schützen Creator-Rechte, ermöglichen Lizenzvergabe, und verhindern Piraterie in digitaler Verteilung.",
+                "romaji": "Urheberrecht und Lizensierung (Copyright, Fair Use, DRM) schützen Creator-Rechte",
+                "japanese": "著作権とライセンシング（Copyright、Fair Use、DRM）はクリエーター権を保護し、ライセンス発行を可能にし、デジタル配布での海賊行為を防止します。",
+                "usage": "著作権を説明するとき"
+              },
+              {
+                "german": "Digitale Ethik in Medien (Fake News, Desinformation, Datenschutz, Algorithmic Bias) erfordert Transparenz, Medienkompetenz, und Verantwortung gegenüber Gesellschaft.",
+                "romaji": "Digitale Ethik in Medien (Fake News, Desinformation, Datenschutz)",
+                "japanese": "メディアのデジタル倫理（フェイクニュース、情報操作、プライバシー、アルゴリズムバイアス）は透明性、メディアリテラシー、社会への責任を要求します。",
+                "usage": "デジタルメディア倫理を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-037-q1",
+          "type": "fill-blank",
+          "question": "「通信インフラはデジタル経済の根幹です」をドイツ語で言ってください。",
+          "answer": "Telekommunikationsinfrastruktur bildet das Rückgrat der digitalen Wirtschaft."
+        },
+        {
+          "id": "de-037-q2",
+          "type": "multiple-choice",
+          "question": "5G技術の特徴は？",
+          "options": [
+            "高速度、低遅延、大規模接続",
+            "低速度のみ",
+            "遅延が大きい",
+            "接続少数"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-037-q3",
+          "type": "fill-blank",
+          "question": "「ストリーミングプラットフォームはメディア消費を変革します」をドイツ語で言ってください。",
+          "answer": "Streaming-Plattformen transformieren den Medienkonsum durch On-Demand-Modelle."
+        },
+        {
+          "id": "de-037-q4",
+          "type": "multiple-choice",
+          "question": "デジタル広告の例は？",
+          "options": [
+            "プログラマティック、ディスプレイ、ビデオ、ネイティブ",
+            "テレビCMのみ",
+            "新聞広告だけ",
+            "看板"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-037-q5",
+          "type": "fill-blank",
+          "question": "「視聴者分析は視聴を測定します」をドイツ語で言ってください。",
+          "answer": "Audience Analytics messen Viewership, Engagement, und Attribution."
+        },
+        {
+          "id": "de-037-q6",
+          "type": "matching",
+          "question": "メディア分析ツールとその機能を正しく組み合わせてください。",
+          "pairs": [
+            {"tool": "Google Analytics", "description": "ウェブ分析"},
+            {"tool": "Nielsen", "description": "視聴率測定"},
+            {"tool": "ComScore", "description": "デジタルメトリクス"}
+          ]
+        },
+        {
+          "id": "de-037-q7",
+          "type": "fill-blank",
+          "question": "「著作権はクリエーター権を保護します」をドイツ語で言ってください。",
+          "answer": "Urheberrecht schützt Creator-Rechte und verhindert Piraterie."
+        },
+        {
+          "id": "de-037-q8",
+          "type": "multiple-choice",
+          "question": "デジタルメディア倫理の課題は？",
+          "options": [
+            "フェイクニュース、情報操作、プライバシー、バイアス",
+            "広告のみ",
+            "コンテンツなし",
+            "規制なし"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "通信・メディア・放送：5G・ストリーミング・デジタル広告・倫理",
+          "duration": "38分",
+          "description": "通信インフラ。5G技術。ストリーミングプラットフォーム。コンテンツ戦略。ユーザー生成コンテンツ。デジタル広告。視聴者分析。AI推奨。メディア規制。著作権。フェイクニュース対策。"
+        },
+        {
+          "type": "grammar",
+          "title": "通信・メディア用語とコンテンツ表現",
+          "content": "通信用語：Telecommunications（通信）、5G、Spectrum（周波数帯）、Broadband（ブロードバンド）。メディア用語：Streaming Platform（ストリーミング）、Content（コンテンツ）、On-Demand（オンデマンド）、Engagement（エンゲージメント）。広告用語：Programmatic Advertising（プログラマティック）、Display Ad（ディスプレイ広告）、Real-Time Bidding（RTB）。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツの通信・メディア産業",
+          "content": "ドイツ：Deutsche Telekom、Vodafone Deutschland などの大型通信企業。強力な放送規制（ARD、ZDF）。メディア多様性の伝統。GAFAM（デジタル巨人）への規制。5G展開、デジタル化推進。"
+        },
+        {
+          "type": "note",
+          "title": "ストリーミングと動画コンテンツ",
+          "content": "Netflix、Amazon Prime、Disney+、Apple TV+ などのOTT（Over-The-Top）サービス。オリジナルシリーズ制作。サブスクリプションモデル。ライセンス管理。字幕・吹き替え多言語対応。"
+        },
+        {
+          "type": "note",
+          "title": "デジタル広告とマーケティング",
+          "content": "Programmatic Advertising：自動買付。Retargeting：再ターゲティング。Native Advertising：ネイティブ広告。Performance Marketing：成果報酬型。Marketing Automation：マーケティング自動化。Data-Driven：データドリブン。"
+        },
+        {
+          "type": "note",
+          "title": "メディアリテラシーと情報管理",
+          "content": "Fact-checking（ファクトチェック）。Misinformation対策。Source verification（情報源確認）。Algorithmic Transparency（アルゴリズム透明性）。GDPR（EU個人情報保護）。DSA（Digital Services Act）。"
+        },
+        {
+          "type": "note",
+          "title": "新しいメディア形式",
+          "content": "Podcasting（ポッドキャスト）。Live Streaming（ライブ配信）。Interactive Content（インタラクティブ）。Augmented Reality（AR）コンテンツ。Virtual Reality（VR）体験。Metaverse内コンテンツ。"
+        },
+        {
+          "type": "practice",
+          "title": "グローバルストリーミング・メディア企業の戦略立案",
+          "content": "あなたがドイツのメディア企業のコンテンツ戦略担当者とします。5年間のグローバルストリーミング戦略を立案します。ターゲットオーディエンス分析、オリジナルコンテンツ制作計画、配信戦略（地域別・言語別）、マネタイゼーション（サブスク・広告・ハイブリッド）、視聴者分析・AI推奨エンジン、マーケティング戦略、競合分析、規制対応（著作権・GDPR・DSA）を含めます。投資額、ROI、市場シェア目標を詳細に述べてください。"
+        }
+      ]
     }
   ]
 }
