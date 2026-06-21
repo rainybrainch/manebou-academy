@@ -8437,6 +8437,230 @@
           "content": "あなたがドイツのメディア企業のコンテンツ戦略担当者とします。5年間のグローバルストリーミング戦略を立案します。ターゲットオーディエンス分析、オリジナルコンテンツ制作計画、配信戦略（地域別・言語別）、マネタイゼーション（サブスク・広告・ハイブリッド）、視聴者分析・AI推奨エンジン、マーケティング戦略、競合分析、規制対応（著作権・GDPR・DSA）を含めます。投資額、ROI、市場シェア目標を詳細に述べてください。"
         }
       ]
+    },
+    {
+      "id": "de-038",
+      "level": 5,
+      "title": "建築・不動産・都市開発：BIM・サステイナブル建築・スマートシティ",
+      "titleDe": "Architektur und Immobilien: BIM, Nachhaltige Architektur, Smart Cities",
+      "objectives": [
+        "建築・不動産産業の変革とデジタル化を理解する",
+        "BIM、サステイナブル建築、スマートシティに関する専門用語を習得する",
+        "建築プロジェクト管理と建設技術を理解する",
+        "都市開発、不動産市場、デジタル不動産に関する知識を習得する"
+      ],
+      "content": {
+        "introduction": "建築と不動産産業は都市の発展と経済成長の根幹です。ドイツは高度な建築技術、サステイナビリティ基準、スマートシティ構想で知られています。このレッスンでは、建築設計、建設プロジェクト管理、BIM技術、不動産開発、都市計画に関する高度なドイツ語を学びます。",
+        "sections": [
+          {
+            "title": "建築とBIM（Building Information Modeling）",
+            "phrases": [
+              {
+                "german": "Building Information Modeling (BIM) ist ein digitales Werkzeug, das alle Bauphasen (Design, Konstruktion, Betrieb) mit 3D-Modellen, Daten, und Zusammenarbeit integriert.",
+                "romaji": "Building Information Modeling (BIM) ist ein digitales Werkzeug, das alle Bauphasen",
+                "japanese": "BIM（ビルディング・インフォメーション・モデリング）はすべての建築段階（設計、施工、運営）を3Dモデル、データ、協力で統合するデジタルツールです。",
+                "usage": "BIMの定義を説明するとき"
+              },
+              {
+                "german": "Nachhaltige Architektur nutzt Energieeffizienz, erneuerbare Energien, umweltfreundliche Materialien, Wassersparung, und biophile Designs, um ökologischen Fußabdruck zu reduzieren.",
+                "romaji": "Nachhaltige Architektur nutzt Energieeffizienz, erneuerbare Energien",
+                "japanese": "サステイナブル建築はエネルギー効率、再生可能エネルギー、環境にやさしい材料、節水、バイオフィリック設計を使用して生態学的フットプリントを削減します。",
+                "usage": "サステイナブル建築を説明するとき"
+              },
+              {
+                "german": "Bauprojektmanagement (Kostenmanagement, Terminplanung, Qualitätskontrolle, Risikomanagement) sichert erfolgreiche Projektabwicklung, Einhaltung von Budget und Zeitplan.",
+                "romaji": "Bauprojektmanagement (Kostenmanagement, Terminplanung, Qualitätskontrolle)",
+                "japanese": "建設プロジェクト管理（コスト管理、工期計画、品質管理、リスク管理）はプロジェクトの成功、予算と工期の遵守を保証します。",
+                "usage": "建築プロジェクト管理を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "不動産市場と不動産開発",
+            "phrases": [
+              {
+                "german": "Immobilienmarkt (Residential, Commercial, Industrial) wird durch Nachfrage, Kapitalzinsen, demografische Trends, und Regulierung geprägt; Investitionen erfordern Marktanalyse und Risikoabwägung.",
+                "romaji": "Immobilienmarkt (Residential, Commercial, Industrial) wird durch Nachfrage",
+                "japanese": "不動産市場（住宅、商業、工業）は需要、資本金利、人口動態、規制により形作られます。投資には市場分析とリスク評価が必要です。",
+                "usage": "不動産市場を説明するとき"
+              },
+              {
+                "german": "Immobilienentwicklung (Land Acquisition, Genehmigung, Design, Konstruktion, Marketing, Verkauf) erfordert Koordination mehrerer Stakeholder, finanzielle Planung, und Risikoverwaltung.",
+                "romaji": "Immobilienentwicklung (Land Acquisition, Genehmigung, Design)",
+                "japanese": "不動産開発（土地取得、許可、設計、施工、マーケティング、販売）は複数ステークホルダーの調整、財務計画、リスク管理を要求します。",
+                "usage": "不動産開発プロセスを説明するとき"
+              },
+              {
+                "german": "PropTech (Property Technology) revolutioniert Immobilienbranche durch Online-Plattformen, Virtual Tours, AI-gestützte Bewertung, Blockchain-Verträge, und Smart-Home-Integration.",
+                "romaji": "PropTech (Property Technology) revolutioniert Immobilienbranche",
+                "japanese": "PropTech（プロパティテクノロジー）はオンラインプラットフォーム、バーチャルツアー、AI評価、ブロックチェーン契約、スマートホーム統合で不動産業を革新します。",
+                "usage": "不動産テクノロジーを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "スマートシティと都市計画",
+            "phrases": [
+              {
+                "german": "Smart Cities integrieren IoT-Sensoren, Datenanalyse, und KI zur Optimierung von Verkehr, Energieverbrauch, Abfallwirtschaft, Sicherheit, und Lebensqualität für nachhaltige urbane Entwicklung.",
+                "romaji": "Smart Cities integrieren IoT-Sensoren, Datenanalyse, und KI",
+                "japanese": "スマートシティはIoTセンサー、データ分析、AIを統合して、交通、エネルギー消費、廃棄物管理、セキュリティ、生活の質を最適化し、持続可能な都市開発を実現します。",
+                "usage": "スマートシティの概念を説明するとき"
+              },
+              {
+                "german": "Urban Planning (Zonierung, Infrastruktur, öffentliche Räume, Mobilität) bildet die Grundlage für lebenswerte Städte mit sozialer Inklusion, Wirtschaftsvitalität, und Umweltschutz.",
+                "romaji": "Urban Planning (Zonierung, Infrastruktur, öffentliche Räume)",
+                "japanese": "都市計画（ゾーニング、インフラ、公共空間、モビリティ）は社会的包含、経済活力、環境保護を備えた住みやすい都市の基礎を形成します。",
+                "usage": "都市計画を説明するとき"
+              },
+              {
+                "german": "Klimaanpassung in Städten (Grünflächen, Wassermanagement, Hitzeinseln, Resilienz) wird kritisch für Städte, die mit Klimawandel-Folgen umgehen.",
+                "romaji": "Klimaanpassung in Städten (Grünflächen, Wassermanagement)",
+                "japanese": "都市の気候適応（緑地、水管理、熱島、レジリエンス）は気候変動の影響に対処する都市にとって重要になっています。",
+                "usage": "気候変動への適応を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "建築デジタル化と規制",
+            "phrases": [
+              {
+                "german": "Digitale Transformation in Architektur (Cloud-Zusammenarbeit, AR/VR-Visualisierung, Datenanalyse, Automatisierung) verbessert Effizienz, reduziert Fehler, und beschleunigt Projektabwicklung.",
+                "romaji": "Digitale Transformation in Architektur (Cloud-Zusammenarbeit, AR/VR-Visualisierung)",
+                "japanese": "建築のデジタル変革（クラウド協力、AR/VR可視化、データ分析、自動化）は効率を改善し、エラーを削減し、プロジェクト実行を加速します。",
+                "usage": "建築デジタル化を説明するとき"
+              },
+              {
+                "german": "Bauregulierung (Baugenehmigung, Energiestandards, Sicherheitsstandards, Denkmalschutz) gewährleistet Sicherheit, Nachhaltigkeit, und kulturelle Erhaltung; unterscheidet sich regional.",
+                "romaji": "Bauregulierung (Baugenehmigung, Energiestandards, Sicherheitsstandards)",
+                "japanese": "建築規制（建築許可、エネルギー基準、安全基準、文化財保護）は安全性、持続可能性、文化遺産保護を保証します。地域で異なります。",
+                "usage": "建築規制を説明するとき"
+              },
+              {
+                "german": "Zirkuläre Bauwirtschaft (Material-Recycling, modulare Konstruktion, wiederverwendbare Komponenten, Zero-Waste-Design) reduziert Abfall und schafft neue wirtschaftliche Werte.",
+                "romaji": "Zirkuläre Bauwirtschaft (Material-Recycling, modulare Konstruktion)",
+                "japanese": "循環建築経済（材料リサイクル、モジュール構成、再利用可能部品、ゼロウェイストデザイン）は廃棄物を削減し、新しい経済価値を創造します。",
+                "usage": "循環経済建築を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-038-q1",
+          "type": "fill-blank",
+          "question": "「BIMはすべての建築段階を統合します」をドイツ語で言ってください。",
+          "answer": "Building Information Modeling (BIM) integriert alle Bauphasen mit 3D-Modellen und Daten."
+        },
+        {
+          "id": "de-038-q2",
+          "type": "multiple-choice",
+          "question": "サステイナブル建築の特徴は？",
+          "options": [
+            "エネルギー効率、再生可能エネルギー、環境にやさしい材料",
+            "高エネルギー消費のみ",
+            "環境問題なし",
+            "規制なし"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-038-q3",
+          "type": "fill-blank",
+          "question": "「建設プロジェクト管理は予算と工期を保証します」をドイツ語で言ってください。",
+          "answer": "Bauprojektmanagement sichert Einhaltung von Budget und Zeitplan."
+        },
+        {
+          "id": "de-038-q4",
+          "type": "multiple-choice",
+          "question": "不動産市場の影響要因は？",
+          "options": [
+            "需要、金利、人口動態、規制",
+            "天気のみ",
+            "政治だけ",
+            "技術なし"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-038-q5",
+          "type": "fill-blank",
+          "question": "「PropTechは不動産業を革新します」をドイツ語で言ってください。",
+          "answer": "PropTech revolutioniert Immobilienbranche durch Online-Plattformen und AI-Bewertung."
+        },
+        {
+          "id": "de-038-q6",
+          "type": "matching",
+          "question": "都市システムとその説明を正しく組み合わせてください。",
+          "pairs": [
+            {"system": "Smart Cities", "description": "IoT・AI統合都市"},
+            {"system": "Urban Planning", "description": "都市計画"},
+            {"system": "Climate Adaptation", "description": "気候適応"}
+          ]
+        },
+        {
+          "id": "de-038-q7",
+          "type": "fill-blank",
+          "question": "「スマートシティはIoTと分析を統合します」をドイツ語で言ってください。",
+          "answer": "Smart Cities integrieren IoT-Sensoren und Datenanalyse zur Optimierung urbaner Systeme."
+        },
+        {
+          "id": "de-038-q8",
+          "type": "multiple-choice",
+          "question": "循環建築経済の目的は？",
+          "options": [
+            "廃棄物削減、リサイクル、新経済価値創造",
+            "廃棄物増加のみ",
+            "リサイクル不要",
+            "コスト無視"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "建築・不動産・都市開発：BIM・サステイナブル・スマートシティ",
+          "duration": "39分",
+          "description": "BIM技術。建設プロジェクト管理。サステイナブル建築。不動産市場分析。PropTech・オンラインプラットフォーム。スマートシティ。都市計画。気候適応。循環経済建築。デジタル規制。"
+        },
+        {
+          "type": "grammar",
+          "title": "建築・不動産用語と建設表現",
+          "content": "建築用語：Architecture（建築）、Building（建物）、Construction（施工）、Design（設計）。BIM用語：3D Modeling（3Dモデリング）、Collaboration（協力）、Data Integration（データ統合）。不動産用語：Property（物件）、Real Estate（不動産）、Market Analysis（市場分析）、Investment（投資）。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツの建築・不動産業界",
+          "content": "ドイツ：高度な建築技術、バウハウス伝統。大型建設企業（Hochtief、Bilfinger）。サステイナビリティ基準（KfW基準）。スマートシティプロジェクト。KfW開発銀行の不動産融資。"
+        },
+        {
+          "type": "note",
+          "title": "BIM とデジタル建築",
+          "content": "BIM Level 1-3：段階的成熟度。Revit、ArchiCAD、Navisworks などのツール。IFC（Industry Foundation Classes）標準。CLOUDによる協力。VR・AR可視化。"
+        },
+        {
+          "type": "note",
+          "title": "不動産開発プロセス",
+          "content": "Site Selection & Analysis：立地分析。Permitting & Approvals：許可取得。Design Phase：設計。Construction：施工。Marketing & Sales：マーケティング・販売。Property Management：運営管理。"
+        },
+        {
+          "type": "note",
+          "title": "スマートシティ技術",
+          "content": "IoT Infrastructure：センサーネットワーク。Smart Mobility：交通最適化。Energy Management：エネルギー管理。Waste Management：廃棄物管理。Smart Buildings：スマートビル。Public Services：公共サービス。"
+        },
+        {
+          "type": "note",
+          "title": "サステイナブル建築基準",
+          "content": "LEED認証（米国）。BREEAM認証（英国）。DGNB認証（ドイツ）。Passive House（パッシブハウス）。Net-Zero Energy Buildings。Biophilic Design。"
+        },
+        {
+          "type": "practice",
+          "title": "大規模混合用途開発プロジェクトの計画",
+          "content": "あなたがドイツの大規模不動産開発企業の開発責任者とします。5年間の大規模混合用途開発プロジェクト（住宅・商業・公共スペース）を計画します。立地選定、許可戦略、BIM技術導入、サステイナビリティ基準適用、スマートシティ統合、PropTech活用、資金計画、スケジュール、品質管理、リスク管理を含めます。総投資額、期待される収益、環境指標を詳細に述べてください。"
+        }
+      ]
     }
   ]
 }
