@@ -7715,6 +7715,225 @@
           "content": "あなたが新しいビジネスアイデアの起業家とします。ビジネスモデルを設計し、ターゲット市場を定義し、競争分析を実施し、3年財務予測を作成します。VCに向けた5分間のピッチを準備し、以下を含めます：問題定義、革新的ソリューション、市場規模、チーム背景、資金調達ニーズ、成功指標。"
         }
       ]
+    },
+    {
+      "id": "ko-043",
+      "level": 5,
+      "title": "IT・ソフトウェア開発：プログラミング・クラウドコンピューティング・サイバーセキュリティ",
+      "titleKo": "정보 기술 및 소프트웨어 개발: 프로그래밍, 클라우드 컴퓨팅, 사이버 보안",
+      "objectives": [
+        "ソフトウェア開発ライフサイクルと開発方法論を理解する",
+        "クラウドコンピューティング、マイクロサービス、DevOpsに関する専門用語を習得する",
+        "サイバーセキュリティとデータ保護の重要性を理解する",
+        "IT業界でのキャリアパスとスキル開発を計画する能力を習得する"
+      ],
+      "content": {
+        "introduction": "IT産業は韓国と日本の両国の経済成長の中核です。デジタルトランスフォーメーション、クラウドマイグレーション、AI統合は企業の競争力を左右します。このレッスンでは、ソフトウェア開発方法論、クラウドアーキテクチャ、サイバーセキュリティ、DevOps、アジャイル開発に関する高度な韓国語を学びます。",
+        "sections": [
+          {
+            "title": "ソフトウェア開発ライフサイクル（SDLC）と開発方法論",
+            "phrases": [
+              {
+                "korean": "소프트웨어 개발 생명 주기(SDLC)는 요구사항 분석, 설계, 구현, 테스트, 배포, 유지보수를 포함하여 고품질 소프트웨어를 전달합니다.",
+                "romaji": "Sofeuteuweeo gaebargat saengmyeol jusi (SDLC)-neun yogu-sahangg bunseokg, seolgyae, guheomseong, teseutu, baepo, yuji bogyuhwae-reul pohamhayeo go pum-jil sofeuteuweeo-reul jeondalh hamnida",
+                "japanese": "ソフトウェア開発ライフサイクル（SDLC）は要件分析、設計、実装、テスト、デプロイメント、保守を含み、高品質なソフトウェアを提供します。",
+                "usage": "ソフトウェア開発プロセスを説明するとき"
+              },
+              {
+                "korean": "애자일 개발(스크럼, 칸반)은 반복적 개발, 지속적인 피드백, 적응 계획, 개발 팀과 비즈니스 간의 밀접한 협력을 강조합니다.",
+                "romaji": "Aeja-il gaebargat (seukeureom, kalban)-eun ban-bogjeog gaebargat, jisog jeoug-in pid-beog, jeog-eob gyae-hoeg, gaebargat team-gwa biziuneseu gane-ui miljeop-hann hyeopryeok-eul gangyoghag hamnida",
+                "japanese": "アジャイル開発（Scrum、Kanban）は反復的開発、継続的フィードバック、適応計画、開発チームとビジネス間の密接な協力を強調します。",
+                "usage": "アジャイル開発方法論を説明するとき"
+              },
+              {
+                "korean": "데브옵스는 개발과 IT 운영을 통합하여 더 빠른 소프트웨어 배포, 높은 신뢰성, 지속적인 개선을 실현하는 문화와 관행입니다.",
+                "romaji": "Daebeob-eobseu-neun gaebargat-gwa IT un-yeong-eul tonghab hayeo deo ppareun sofeuteuweeo baepo, noppeun shinryoeseong, jisog jeoug-in gaebareul silhyeon haneun munhwa-wa gwanhaeng imnida",
+                "japanese": "DevOpsは開発とIT運用を統合し、より迅速なソフトウェアデプロイメント、高い信頼性、継続的改善を実現する文化と実践です。",
+                "usage": "DevOpsの概念を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "クラウドコンピューティングとマイクロサービスアーキテクチャ",
+            "phrases": [
+              {
+                "korean": "클라우드 컴퓨팅은 온디맨드 리소스(IaaS, PaaS, SaaS)를 제공하며, AWS, Azure, Google Cloud, 또는 프라이빗 클라우드를 통해 확장성, 비용 효율성, 글로벌 가용성을 제공합니다.",
+                "romaji": "Keulaoudeu keompyuting-eun ondimend risoseu (IaaS, PaaS, SaaS)-reul jegong hayeo-imyeo, AWS, Azure, Google Cloud, ddo neun peurain bit keulaoudeu-reul tonghae hwaksang seong, bigyong hyoeul seong, geulrobal ga-yong seong-eul jegong hamnida",
+                "japanese": "クラウドコンピューティングはIaaS、PaaS、SaaSなどのオンデマンドリソースを提供し、スケーラビリティ、コスト効率性、グローバル可用性をAWS、Azure、Google Cloud、プライベートクラウドで実現します。",
+                "usage": "クラウドコンピューティングの利点を説明するとき"
+              },
+              {
+                "korean": "마이크로서비스 아키텍처는 큰 애플리케이션을 작고 독립적인 서비스로 분할하여, 각각 독립적으로 확장, 배포, 유지보수되며, 유연성과 속도를 향상시킵니다.",
+                "romaji": "Maikeuroseobu-seu akitegcha-neun keun aepeuliKeisjeon-eul jaggo doglib jeoug-in seobiseu ro bunal hayeo, gaggag doglib jeoug ro hwaksang, baepo, yuji bogyuhwae-doei-myeo, yuyeon seong-gwa soktdo-reul hyang-sang sikip nida",
+                "japanese": "マイクロサービスアーキテクチャは大型アプリケーションを小型で独立したサービスに分割し、それぞれ個別にスケーリング、デプロイメント、保守でき、柔軟性と速度を向上させます。",
+                "usage": "マイクロサービスの利点を説明するとき"
+              },
+              {
+                "korean": "컨테이너(Docker, Kubernetes)는 격리된 환경에서 이식 가능하고 확장 가능한 애플리케이션 배포, 간단한 오케스트레이션, 그리고 다양한 인프라에 걸친 일관된 배포를 가능하게 합니다.",
+                "romaji": "Keonteia-neo (Docker, Kubernetes)-neun gyeok li-doen hwangyeong-e-seo isig ga-neung-hago hwaksang ga-neung aepeuliKeisjeon baepo, gandanhan oke seutreisjeon, geurigo da-yang-han inpeu-ra-e geol-chan il-gwan-doen baepo-reul ga-neung hage hamnida",
+                "japanese": "コンテナ（Docker、Kubernetes）は分離された環境での移植可能でスケーラブルなアプリケーション配置、簡単なオーケストレーション、インフラ全体での一貫したデプロイメントを実現します。",
+                "usage": "コンテナ技術の利点を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "サイバーセキュリティとデータ保護",
+            "phrases": [
+              {
+                "korean": "사이버 보안은 악성코드, 피싱, SQL 인젝션, DDoS 공격, 데이터 침해 등의 위협으로부터 보호하기 위해 안전한 코드, 암호화, 인증, 지속적인 모니터링 등의 조치를 포함합니다.",
+                "romaji": "Saibeo boseong-eun agseokg kodeue, pi-ssing, SQL injegsjeon, DDoS gonggaeg, deiteo chimaehae deung-ui wihom euro-buteo bohohagi wihae anjeon-han kodeue, amhwahwae, injeonj, jisog jeoug-in monitorni deung-ui jojigeu-reul pohamhamnida",
+                "japanese": "サイバーセキュリティはマルウェア、フィッシング、SQLインジェクション、DDoS攻撃、データ漏洩に対する対策を含み、安全なコーディング、暗号化、認証、継続的監視により実現します。",
+                "usage": "サイバーセキュリティ対策を説明するとき"
+              },
+              {
+                "korean": "데이터 보호 및 규정 준수(GDPR, CCPA)는 개인 데이터의 보안, 데이터 처리의 투명성, 사용자 권리, 정기적인 보안 감사를 요구합니다.",
+                "romaji": "Deiteo bohoh mit gyujeong junsuh (GDPR, CCPA)-neun gaein deiteo-ui boseong, deiteo cheoeri-ui tuhmyeon seong, sayongja gwonri, jeonggi jeoug-in boseong gamsa-reul yogu hamnida",
+                "japanese": "データ保護と法令遵守（GDPR、CCPA）は個人データの保護、データ処理の透明性、ユーザー権利、定期的セキュリティ監査を要求します。",
+                "usage": "データ保護規制について説明するとき"
+              },
+              {
+                "korean": "제로 트러스트 보안은 암묵적인 신뢰 수준을 부여하지 않고 모든 접근을 검증하여 내부자 위협 및 외부 공격을 방지하는 모델입니다.",
+                "romaji": "Jero teureobseu boseong-eun ammug jeoug-in shinryoe sujunn-eul buryeo hajiman-go modeun jeobgeun-eul geomjeung hayeo naebuja wihom mit oebuja gonggaeg-eul bangji haneun modeleubnida",
+                "japanese": "ゼロトラスト・セキュリティは暗黙的な信頼レベルを持たず、すべてのアクセスを検証し、内部脅威と外部攻撃を防止するモデルです。",
+                "usage": "最新のセキュリティアプローチを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "IT業界でのキャリアと継続的スキル開発",
+            "phrases": [
+              {
+                "korean": "IT 경력 경로는 소프트웨어 엔지니어, DevOps 엔지니어, 클라우드 아키텍트, 보안 엔지니어, 데이터 엔지니어, AI/ML 엔지니어 등의 역할과 다양한 전문화를 포함합니다.",
+                "romaji": "IT gyeongryeok gyeongro-neun sofeuteuweeo enjinieo, DevOps enjinieo, keulaoudeu akitegcha, boseong enjinieo, deiteo enjinieo, AI/ML enjinieo deung-ui yeoghal-gwa da-yang-han jeonmun hwa-reul pohamhamnida",
+                "japanese": "ITキャリアパスはソフトウェアエンジニア、DevOpsエンジニア、クラウドアーキテクト、セキュリティエンジニア、データエンジニア、AI/MLエンジニアなどの異なる専門化と責任を含みます。",
+                "usage": "IT業界のキャリアオプションを説明するとき"
+              },
+              {
+                "korean": "지속적인 학습은 IT에서 필수적입니다: 자격증(AWS 인증 솔루션 아키텍트, Kubernetes 인증 애플리케이션 개발자), 온라인 과정, 컨퍼런스, 오픈소스 커뮤니티 참여가 중요합니다.",
+                "romaji": "Jisog jeoug-in hagseubg-eun IT-e-seo pilsu jeoug imnida: jakyeok jeung (AWS injeonj soreusyeon akitegcha, Kubernetes injeonj aepeuliKeisjeon gaebgaja), online gwajeonj, keonpeoreonseu, open soseu keomyu niti cham-yeo-ga jungyohabnida",
+                "japanese": "継続的学習はIT業界で不可欠：認定資格（AWS認定ソリューションアーキテクト、Kubernetes認定アプリケーション開発者）、オンラインコース、カンファレンス、オープンソースコミュニティへの参加。",
+                "usage": "スキル開発の重要性を強調するとき"
+              },
+              {
+                "korean": "원격 근무와 글로벌 분산을 통해 IT 전문가들은 국제 기업을 위해 일하고, 다양한 지역의 인재를 활용하며, 업무와 생활의 균형을 개선할 수 있습니다.",
+                "romaji": "Won gyeog geunmu-wa geul robal bunsang-eul tonghae IT jeonmun gaja deul-eun gugje gieobbun wihae ilhago, da-yang-han jiyeog-ui intae-reul hwalhyong hayeo-imyeo, eobmu-wa saengwal-ui gyunhyeong-eul gaeseon hal su issebnida",
+                "japanese": "リモートワークとグローバル分散は、IT専門家が国際企業で働き、異なる地域の才能を活用し、ワークライフバランスを改善することを可能にします。",
+                "usage": "IT業界の働き方の多様性を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-043-q1",
+          "type": "fill-blank",
+          "question": "「ソフトウェア開発ライフサイクルは要件分析から保守まで含みます」を韓国語で言ってください。",
+          "answer": "소프트웨어 개발 생명 주기는 요구사항 분석, 설계, 구현, 테스트, 배포, 유지보수를 포함합니다."
+        },
+        {
+          "id": "ko-043-q2",
+          "type": "multiple-choice",
+          "question": "アジャイル開発の特徴は？",
+          "options": [
+            "反復的開発、継続的フィードバック、適応計画、チームとビジネスの協力",
+            "計画が固定され、変更不可",
+            "テストなし",
+            "単一個人による開発"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-043-q3",
+          "type": "fill-blank",
+          "question": "「DevOpsは開発とIT運用を統合し、迅速なデプロイメントを実現します」を韓国語で言ってください。",
+          "answer": "데브옵스는 개발과 IT 운영을 통합하여 더 빠른 소프트웨어 배포를 실현합니다."
+        },
+        {
+          "id": "ko-043-q4",
+          "type": "multiple-choice",
+          "question": "クラウドコンピューティングが提供するサービスモデルは？",
+          "options": [
+            "IaaS、PaaS、SaaS",
+            "ハードウェアのみ",
+            "オンプレミスのみ",
+            "ネットワーク接続なし"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-043-q5",
+          "type": "fill-blank",
+          "question": "「マイクロサービスは大型アプリケーションを小さなサービスに分割します」を韓国語で言ってください。",
+          "answer": "마이크로서비스 아키텍처는 큰 애플리케이션을 작고 독립적인 서비스로 분할합니다."
+        },
+        {
+          "id": "ko-043-q6",
+          "type": "matching",
+          "question": "IT技術とその説明を正しく組み合わせてください。",
+          "pairs": [
+            {"tech": "Docker", "description": "コンテナ化技術"},
+            {"tech": "Kubernetes", "description": "オーケストレーション"},
+            {"tech": "GDPR", "description": "データ保護規制"}
+          ]
+        },
+        {
+          "id": "ko-043-q7",
+          "type": "fill-blank",
+          "question": "「サイバーセキュリティは暗号化と認証により脅威から守ります」を韓国語で言ってください。",
+          "answer": "사이버 보안은 암호화, 인증, 지속적인 모니터링 등의 조치를 통해 위협으로부터 보호합니다."
+        },
+        {
+          "id": "ko-043-q8",
+          "type": "multiple-choice",
+          "question": "ITキャリアパスの例は？",
+          "options": [
+            "ソフトウェアエンジニア、DevOpsエンジニア、クラウドアーキテクト、セキュリティエンジニア",
+            "営業のみ",
+            "マネジメント一択",
+            "技術不要"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "IT・ソフトウェア開発：クラウド・DevOps・セキュリティ・キャリア",
+          "duration": "32分",
+          "description": "SDLCとアジャイル開発。クラウドマイグレーション戦略。Dockerとコンテナ化。Kubernetesのスケーリング。サイバーセキュリティベストプラクティス。GDPR対応。ITキャリアパス。"
+        },
+        {
+          "type": "grammar",
+          "title": "IT・ソフトウェア開発用語とテクニカルコミュニケーション表現",
+          "content": "開発複合語：Software Development Lifecycle（SDLC）、Application Programming Interface（API）、User Experience（UX）。アジャイル用語：Sprint、Backlog、Standup、Retrospective。クラウド用語：Infrastructure as a Service（IaaS）、Platform as a Service（PaaS）、Software as a Service（SaaS）、Container。セキュリティ用語：Encryption、Authentication、Authorization、Zero Trust。"
+        },
+        {
+          "type": "note",
+          "title": "韓国のIT産業とデジタルトランスフォーメーション",
+          "content": "Korea's Digital Korea 2.0戦略。ソウルのスタートアップシーン。Samsung、LG、SK Telecom、Naver、Kakaoなどの大型IT企業。韓国の高速インターネット基盤。デジタル化推進と5G戦略。"
+        },
+        {
+          "type": "note",
+          "title": "クラウドコンピューティングアーキテクチャ設計",
+          "content": "AWS：EC2、S3、Lambda、RDS。Azure：VMs、App Service、Azure SQL。Google Cloud：Compute Engine、Cloud Storage、BigQuery。アーキテクチャパターン：モノリシック → マイクロサービス → サーバーレス。スケーラビリティ、冗長性、ディザスタリカバリ。"
+        },
+        {
+          "type": "note",
+          "title": "DevOpsとCI/CDパイプライン",
+          "content": "Continuous Integration（CI）：自動ビルド・テスト。Continuous Deployment（CD）：自動デプロイメント。ツール：Jenkins、GitLab CI、GitHub Actions。Infrastructure as Code（IaC）：Terraform、Ansible。Monitoring：Prometheus、ELK Stack。"
+        },
+        {
+          "type": "note",
+          "title": "サイバーセキュリティとコンプライアンス",
+          "content": "OWASP Top 10：一般的なセキュリティ脆弱性。NIST Cybersecurity Framework。ペネトレーションテスト。SOC（Security Operations Center）。事故対応計画（Incident Response）。ユーザートレーニング。"
+        },
+        {
+          "type": "practice",
+          "title": "クラウドベースのマイクロサービスアーキテクチャ設計とセキュリティ統合",
+          "content": "あなたが大規模e-commerceプラットフォームのアーキテクトとします。スケーラブルなマイクロサービスアーキテクチャを設計します：ユーザー管理、商品カタログ、注文処理、支払い処理、配送追跡。各サービスにCloudコンテナ化、API設計、データベース設計を含めます。DevOpsパイプライン、CI/CD、セキュリティ統合（認証、暗号化、監査ログ）、パフォーマンスモニタリング、ディザスタリカバリー計画も策定します。"
+        }
+      ]
     }
   ]
 }
