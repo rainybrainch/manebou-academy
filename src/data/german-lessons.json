@@ -501,39 +501,49 @@
       "resources": [
         {
           "type": "grammar",
-          "title": "複合数字の規則",
-          "content": "ドイツ語では英語と異なり、下の位を先に言います。例：23 = 'dreiundzwanzig'（3と20）。21〜99の複合数字はすべてこのパターンで、中間に 'und' を挿入します。"
+          "title": "複合数字の完全規則",
+          "content": "ドイツ語では英語と異なり、下の位を先に言います。例：23 = 'dreiundzwanzig'（3と20）。21〜99の複合数字はすべてこのパターンで、中間に 'und' を挿入します。100以上は逆に大きい位から言います。"
         },
         {
           "type": "grammar",
-          "title": "序数の基本（1〜19）",
-          "content": "序数（第1、第2番目など）は基本的に「数字+-te」で作られます。例外：erste（1番目）、dritte（3番目）、siebte（7番目）。文法上は形容詞で、名詞に続いて性・数・格で変化します。"
+          "title": "序数の完全体系（基本～応用）",
+          "content": "序数（第1、第2番目など）は基本的に「数字+-te」で作られます。例外：erste（1番目）、dritte（3番目）、siebte（7番目）。文法上は形容詞で、名詞に続いて性・数・格で変化。20以上は -ste がつきます。"
+        },
+        {
+          "type": "grammar",
+          "title": "時間表現と日付の正式表記",
+          "content": "日付は「曜日、den 日. 月 年」で表現。例：Montag, den 15. November 2024。時間は 24 時間形式が一般的。Uhr（時間）、Minute（分）の使用。"
         },
         {
           "type": "note",
-          "title": "11と12の特殊性",
-          "content": "11（elf）と12（zwölf）は独特の形です。13以降は通常のパターンに従い始めます。ただし序数では 11. = elfte、12. = zwölfte となります。"
+          "title": "11と12の特殊性と序数",
+          "content": "11（elf）と12（zwölf）は独特の形です。13以降は通常のパターンに従い始めます。序数では 11. = elfte、12. = zwölfte となり、特別な扱い。"
         },
         {
           "type": "note",
-          "title": "曜日の語源",
-          "content": "ドイツ語の曜日は北欧神話に由来します。Montag（月曜）= Luna（月）、Mittwoch（水曜）= Mercury（水星）の概念、Donnerstag（木曜）= Thor（雷神ドナー）、Freitag（金曜）= Frija/Freya（愛と美の女神）。これらの語源を知ると曜日を忘れにくくなります。"
+          "title": "曜日の語源と北欧神話",
+          "content": "ドイツ語の曜日は北欧神話に由来します。Montag（月曜）= Luna（月）、Mittwoch（水曜）= Mercury（水星）、Donnerstag（木曜）= Thor（雷神ドナー）、Freitag（金曜）= Frija/Freya（愛と美の女神）。Sunday, Saturday はより古い形 Sonntag, Samstag。"
         },
         {
           "type": "note",
-          "title": "月名の言語変化",
-          "content": "ドイツ語の月名は一部にウムラウトを含みます：Januar、Februar、März（ä）、April、Mai、Juni、Juli、August、September、Oktober、November、Dezember。発音時に注意してください。"
+          "title": "月名の言語変化とウムラウト",
+          "content": "ドイツ語の月名は一部にウムラウトを含みます：Januar、Februar、März（ä）、April、Mai、Juni、Juli、August、September、Oktober、November、Dezember。各月の正確な発音と使用頻度を認識。"
+        },
+        {
+          "type": "note",
+          "title": "電話番号・生年月日・住所番号の表記",
+          "content": "ドイツでは電話番号は区間ごとに区切って言います。生年月日は день.месяц.год形式。住所番号は Straße 5（通り 5）のように数字が後ろに来ます。"
         },
         {
           "type": "practice",
-          "title": "数字練習",
-          "content": "友人と数字をランダムに呼び合う練習をしてみてください。電話番号交換や価格表示で数字を聞く練習も効果的です。"
+          "title": "数字・日付完全練習",
+          "content": "友人と数字をランダムに呼び合う、電話番号交換、生年月日共有、予定日を日付で述べる練習など、実務的なシナリオで習得を目指してください。"
         },
         {
           "type": "video",
-          "title": "ドイツ語の数字・曜日・月名発音ガイド",
-          "duration": "9分",
-          "description": "複合数字の発音、曜日と月名の正確な発音、文化的背景の解説を含む"
+          "title": "ドイツ語の数字・曜日・月名発音ガイド完全版",
+          "duration": "12分",
+          "description": "複合数字の発音、曜日と月名の正確な発音、序数表現、文化的背景の完全解説"
         }
       ]
     },
