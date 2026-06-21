@@ -7989,6 +7989,230 @@
           "content": "あなたが大手製造企業のサプライチェーン責任者とします。複数拠点（ドイツ、アジア、米国）のグローバルサプライチェーン最適化戦略を立案します。ネットワーク設計、在庫政策、JIT導入、デジタル物流システム（WMS・TMS・ERP）、IoT・AI活用、ラストマイル戦略、グリーンロジスティクス、リバースロジスティクス、ESG報告を含めます。コスト削減目標、リード短縮、環境負荷削減の具体的指標を詳細に述べてください。"
         }
       ]
+    },
+    {
+      "id": "de-036",
+      "level": 5,
+      "title": "ヘルスケア・医薬品産業：医薬品開発・規制・デジタルヘルス",
+      "titleDe": "Gesundheitswesen und Pharmaindustrie: Arzneimittelentwicklung, Regulierung, Digital Health",
+      "objectives": [
+        "医薬品開発プロセスと規制環境を理解する",
+        "臨床試験、承認プロセス、品質管理に関する専門用語を習得する",
+        "デジタルヘルス、医療技術、患者中心のケアを理解する",
+        "医薬品業界の倫理、知的財産、グローバル展開を習得する"
+      ],
+      "content": {
+        "introduction": "医薬品とヘルスケア産業は人命救助の最前線です。ドイツとドイツ系企業（Bayer、Merck）は医薬品開発と医療技術で世界的リーダーです。このレッスンでは、医薬品開発、臨床試験、規制要件、デジタルヘルス、患者ケア革新に関する高度なドイツ語を学びます。",
+        "sections": [
+          {
+            "title": "医薬品開発と臨床試験プロセス",
+            "phrases": [
+              {
+                "german": "Die Arzneimittelentwicklung durchläuft mehrere Phasen: Forschung, präklinische Tests, klinische Versuche (Phase I-IV), Genehmigung, und Marktüberwachung, was 10-15 Jahre und Milliarden Euro kostet.",
+                "romaji": "Die Arzneimittelentwicklung durchläuft mehrere Phasen: Forschung, präklinische Tests",
+                "japanese": "医薬品開発は複数の段階を経ます：研究、前臨床試験、臨床試験（フェーズI-IV）、承認、市場監視。10-15年と数十億ユーロの投資が必要です。",
+                "usage": "医薬品開発プロセスを説明するとき"
+              },
+              {
+                "german": "Klinische Versuche (Phase I: Sicherheit, Phase II: Wirksamkeit, Phase III: Vergleich, Phase IV: Langzeitbeobachtung) setzen strenge Ethik- und Sicherheitsstandards voraus.",
+                "romaji": "Klinische Versuche (Phase I: Sicherheit, Phase II: Wirksamkeit)",
+                "japanese": "臨床試験（フェーズI：安全性、フェーズII：有効性、フェーズIII：比較、フェーズIV：長期観察）は厳格な倫理とセキュリティ基準を要求します。",
+                "usage": "臨床試験のフェーズを説明するとき"
+              },
+              {
+                "german": "Patente und intellektuelles Eigentum schützen Innovationen für 20 Jahre, ermöglichen Monopolpreise, und finanzieren Forschung; Generika-Konkurrenz nach Patentablauf stellt Zugang sicher.",
+                "romaji": "Patente und intellektuelles Eigentum schützen Innovationen für 20 Jahre",
+                "japanese": "特許と知的財産権は20年間イノベーションを保護し、独占価格を実現し、研究を資金化します。特許失効後のジェネリック競争は患者アクセスを確保します。",
+                "usage": "医薬品知的財産を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "規制要件と品質管理",
+            "phrases": [
+              {
+                "german": "Regulierung (FDA, EMA) stellt strenge Anforderungen an Herstellung, Qualität, Sicherheit, Wirksamkeit, Verpackung, und Kennzeichnung, um Patientensicherheit zu gewährleisten.",
+                "romaji": "Regulierung (FDA, EMA) stellt strenge Anforderungen an Herstellung",
+                "japanese": "規制（FDA、EMA）は製造、品質、安全性、有効性、包装、表示に対して厳格な要件を課し、患者安全を保証します。",
+                "usage": "医薬品規制を説明するとき"
+              },
+              {
+                "german": "Good Manufacturing Practice (GMP) definiert Standards für Reinräume, Geräte, Verfahren, Dokumentation, und Qualitätskontrolle in pharmazeutischen Produktionsstätten.",
+                "romaji": "Good Manufacturing Practice (GMP) definiert Standards für Reinräume",
+                "japanese": "医薬品製造管理及び品質管理基準（GMP）は無菌室、機器、手順、文書化、品質管理の基準を定義します。",
+                "usage": "医薬品製造基準を説明するとき"
+              },
+              {
+                "german": "Pharmacovigilance (Arzneimittelsicherheitsüberwachung) erfasst Nebenwirkungen, Arzneimittelwechselwirkungen, und Missbräuche nach Markteinführung, um Patienten zu schützen.",
+                "romaji": "Pharmacovigilance (Arzneimittelsicherheitsüberwachung) erfasst Nebenwirkungen",
+                "japanese": "ファーマコビジランス（医薬品安全性監視）は上市後の有害事象、相互作用、乱用を追跡し、患者を保護します。",
+                "usage": "医薬品安全性監視を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "デジタルヘルスと患者ケア革新",
+            "phrases": [
+              {
+                "german": "Digital Health umfasst Elektronische Gesundheitsakten (EHR), Telemedizin, Mobile Health Apps, Wearables, und AI-basierte Diagnostik, um Patientenergebnisse zu verbessern.",
+                "romaji": "Digital Health umfasst Elektronische Gesundheitsakten (EHR), Telemedizin",
+                "japanese": "デジタルヘルスは電子健康記録（EHR）、遠隔医療、モバイルアプリ、ウェアラブル、AI診断を含み、患者転帰を改善します。",
+                "usage": "デジタルヘルスの要素を説明するとき"
+              },
+              {
+                "german": "Personalisierte Medizin und Genomik nutzen genetische Daten, um Behandlungen an individuelles Risikoprofil anzupassen, Wirksamkeit zu erhöhen, und Nebenwirkungen zu reduzieren.",
+                "romaji": "Personalisierte Medizin und Genomik nutzen genetische Daten",
+                "japanese": "個別化医療とゲノミクスは遺伝データを使用して治療を個人的リスク層別化に適応させ、有効性を向上させ、副作用を削減します。",
+                "usage": "個別化医療を説明するとき"
+              },
+              {
+                "german": "Patient-Zentric Care betont Patientensicherheit, Transparenz, Mitsprache bei Behandlungsentscheidungen, Zugang zu Informationen, und Genesung nach Behandlung.",
+                "romaji": "Patient-Zentric Care betont Patientensicherheit, Transparenz",
+                "japanese": "患者中心のケアは患者安全、透明性、治療決定への参画、情報アクセス、治療後の回復を強調します。",
+                "usage": "患者中心のケアを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "医薬品業界の倫理と国際展開",
+            "phrases": [
+              {
+                "german": "Pharmazeutische Ethik behandelt Fragen der Preisgestaltung, Zugänglichkeit in Entwicklungsländern, Forschungsethik, Transparenz gegenüber Patienten und Fachleuten.",
+                "romaji": "Pharmazeutische Ethik behandelt Fragen der Preisgestaltung, Zugänglichkeit",
+                "japanese": "医薬品倫理は価格設定、開発途上国でのアクセス、研究倫理、患者と医療専門家への透明性の問題を扱います。",
+                "usage": "医薬品倫理を説明するとき"
+              },
+              {
+                "german": "Globale Expansion erfordert Regulierungszulassung in mehreren Ländern, Lokalisierung von Produkten, Anpassung an Gesundheitssysteme, und kulturelle Sensibilität.",
+                "romaji": "Globale Expansion erfordert Regulierungszulassung in mehreren Ländern",
+                "japanese": "グローバル展開は複数国での規制承認、製品のローカライゼーション、医療システムへの適応、文化的感受性を要求します。",
+                "usage": "医薬品グローバル展開を説明するとき"
+              },
+              {
+                "german": "Biosimilars und Generika erhöhen Wettbewerb nach Patentablauf, senken Preise, verbessern Zugänglichkeit, und erfordern ähnliche Zulassungsprozesse zur Qualitätssicherung.",
+                "romaji": "Biosimilars und Generika erhöhen Wettbewerb nach Patentablauf",
+                "japanese": "バイオシミラーとジェネリックは特許失効後の競争を増加させ、価格を低下させ、アクセスを改善し、品質保証のための同等の承認プロセスを要求します。",
+                "usage": "ジェネリック医薬品を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-036-q1",
+          "type": "fill-blank",
+          "question": "「医薬品開発は研究から市場監視まで複数段階を経ます」をドイツ語で言ってください。",
+          "answer": "Die Arzneimittelentwicklung durchläuft mehrere Phasen: Forschung, präklinische Tests, klinische Versuche, Genehmigung, und Marktüberwachung."
+        },
+        {
+          "id": "de-036-q2",
+          "type": "multiple-choice",
+          "question": "臨床試験のフェーズは？",
+          "options": [
+            "安全性、有効性、比較、長期観察",
+            "効果測定のみ",
+            "安全性確認だけ",
+            "市場テスト"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-036-q3",
+          "type": "fill-blank",
+          "question": "「特許は医薬品イノベーションを保護します」をドイツ語で言ってください。",
+          "answer": "Patente schützen Innovationen für 20 Jahre und ermöglichen Monopolpreise."
+        },
+        {
+          "id": "de-036-q4",
+          "type": "multiple-choice",
+          "question": "医薬品規制機関の例は？",
+          "options": [
+            "FDA、EMA",
+            "販売部門のみ",
+            "流通企業",
+            "薬局のみ"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-036-q5",
+          "type": "fill-blank",
+          "question": "「デジタルヘルスは患者ケアを革新します」をドイツ語で言ってください。",
+          "answer": "Digital Health umfasst EHR, Telemedizin, Mobile Health Apps, um Patientenergebnisse zu verbessern."
+        },
+        {
+          "id": "de-036-q6",
+          "type": "matching",
+          "question": "デジタルヘルス技術とその説明を正しく組み合わせてください。",
+          "pairs": [
+            {"tech": "EHR", "description": "電子健康記録"},
+            {"tech": "Telemedizin", "description": "遠隔医療"},
+            {"tech": "Wearables", "description": "ウェアラブルデバイス"}
+          ]
+        },
+        {
+          "id": "de-036-q7",
+          "type": "fill-blank",
+          "question": "「個別化医療は遺伝データを使用します」をドイツ語で言ってください。",
+          "answer": "Personalisierte Medizin nutzt genetische Daten, um Behandlungen anzupassen."
+        },
+        {
+          "id": "de-036-q8",
+          "type": "multiple-choice",
+          "question": "医薬品倫理の主要な問題は？",
+          "options": [
+            "価格設定、アクセス、研究倫理、透明性",
+            "利益最大化のみ",
+            "販売推進のみ",
+            "広告"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ヘルスケア・医薬品産業：医薬品開発・臨床試験・規制・デジタルヘルス",
+          "duration": "38分",
+          "description": "医薬品開発プロセス。前臨床・臨床試験。FDA・EMA承認。GMP基準。ファーマコビジランス。知的財産・特許。個別化医療・ゲノミクス。遠隔医療・デジタルヘルス。患者中心ケア。ジェネリック・バイオシミラー。"
+        },
+        {
+          "type": "grammar",
+          "title": "ヘルスケア・医薬品用語と医療表現",
+          "content": "医薬品用語：Drug Development（医薬品開発）、Clinical Trial（臨床試験）、Regulatory Approval（規制承認）、Manufacturing（製造）。技術用語：Personalized Medicine（個別化医療）、Genomics（ゲノミクス）、Digital Health（デジタルヘルス）、AI-based Diagnostics（AI診断）。倫理用語：Patient Safety（患者安全）、Pharmacovigilance（ファーマコビジランス）、Ethics（倫理）。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツの医薬品・バイオテク産業",
+          "content": "ドイツ：Bayer、Merck などの大型医薬品企業。Aspirin などの歴史的ヒット医薬品。生物医学研究の国際的拠点。規制ハブとしてのEMA。強力な医療ビジネス基盤。"
+        },
+        {
+          "type": "note",
+          "title": "医薬品開発のライフサイクル",
+          "content": "Discovery Phase：化合物探索。Preclinical：動物実験。IND申請：治験開始許可。Phase I-III：人間試験。NDA/BLA申請：上市申請。Phase IV：上市後観察。Patent Expiration：特許失効、ジェネリック参入。"
+        },
+        {
+          "type": "note",
+          "title": "医薬品規制と品質基準",
+          "content": "FDA（米国）、EMA（欧州）、PMD（日本）。ICH（国際医薬品規制調和）。GMP（医薬品製造管理）。Pharmacopeias（薬局方）。Clinical Trial Phases：安全性→有効性→比較→長期観察。"
+        },
+        {
+          "type": "note",
+          "title": "デジタルトランスフォーメーション in ヘルスケア",
+          "content": "EHR/EMR：患者データ統合。Telehealth：遠隔診療。AI in diagnostics：画像診断AI。Wearable monitoring：連続監視。Drug discovery AI：化合物設計。Personalized medicine：遺伝子検査に基づく治療。"
+        },
+        {
+          "type": "note",
+          "title": "医薬品コンプライアンスと倫理",
+          "content": "Pricing Ethics：価格設定の透明性。Access Programs：途上国への供給。Research Ethics：倫理委員会（IRB/EC）。Transparency：医者への支払い開示。Post-marketing Surveillance：安全性監視。"
+        },
+        {
+          "type": "practice",
+          "title": "新規医薬品のグローバル開発・上市戦略立案",
+          "content": "あなたがドイツの医薬品企業のプロジェクトディレクターとします。新規医薬品の開発から上市までの戦略を立案します。治験計画（フェーズI-III）、規制戦略（FDA・EMA申請）、製造・品質管理（GMP）、知的財産保護、ファーマコビジランス計画、デジタルヘルス統合、患者アクセスプログラム、グローバル上市戦略（複数国展開）を含めます。開発期間、予算、規制マイルストーン、市場投入タイムラインを詳細に述べてください。"
+        }
+      ]
     }
   ]
 }
