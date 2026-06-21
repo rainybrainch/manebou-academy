@@ -53,25 +53,31 @@ export const englishAcademyCategory: Category = {
           title: 'アルファベット26文字の正しい発音',
           duration: '7:00',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
             'A～Z を正しく発音できる',
             'アルファベットと単語の関連性が理解できる',
             'spelling を聞いて綴字できる',
+            '文字の名前と音声の違いが区別できる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: 'アルファベットの名前と、実際の単語での発音は違います。この講義で、26文字をすべてマスターしましょう。',
+              content: 'アルファベットの「文字の名前」と「単語での音声」は全く違います。この講義で、26文字をすべてマスターしましょう。',
             },
             {
               type: 'heading',
               level: 2,
-              content: 'A～Z の発音と例',
+              content: 'A～Z の発音体系と記号',
             },
             {
               type: 'text',
-              content: '- A [ei] - apple, ant, amazing\n- B [bi:] - ball, beautiful, before\n- C [si:] - cat, car, clever\n- D [di:] - dog, day, dream\n- E [i:] - egg, end, energy',
+              content: '**グループ1：[i:] で終わる文字**\n- B, C, D, E, F, G, P, T, V, Z [bi:, si:, di:, i:, ef, dʒi:, pi:, ti:, vi:, zed]\n\n**グループ2：[ɛ] で終わる文字**\n- A, H, J, K, R [ei, eitʃ, dʒei, kei, ɑ:r]\n\n**グループ3：その他**\n- I, O, Q, U, W, X, Y [ai, oʊ, kju:, ju:, dʌbəl ju:, eks, wai]\n\n**母音グループ（単独）**\n- A [ei], E [i:], I [ai], O [oʊ], U [ju:]',
+            },
+            {
+              type: 'highlight-box',
+              title: 'プレミアム：実践練習',
+              content: 'このセクションでは：\n- 各文字の発音を繰り返し練習\n- ネイティブ音声との聞き比べ\n- Spelling dictation（聞き取り綴字）\n- 名前や単語の綴字クイズ',
             },
           ],
         },
@@ -195,16 +201,32 @@ export const englishAcademyCategory: Category = {
           title: '買い物での英語表現',
           duration: '7:30',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
             '店員と会話ができる',
             '商品の説明を理解できる',
             'お金の会話ができる',
+            'セールや割引を理解できる',
+            '商品説明文が読める',
           ],
           sections: [
             {
               type: 'info-box',
-              content: '海外の店で買い物するときに必要な英語を学びます。',
+              content: '海外の店で買い物するときに必要な英語を学びます。実践的な会話パターンで、スーパー・百貨店・オンラインショップで対応できる力を養います。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'ショッピング会話の実例',
+            },
+            {
+              type: 'text',
+              content: '**シーン1：商品を探す**\n- Customer: \"Where can I find the sweaters?\"\n- Staff: \"They\'re in the menswear section, second floor.\"\n\n**シーン2：サイズ・色確認**\n- \"Do you have this in blue?\" / \"What sizes are available?\"\n- \"We have XS, S, M, L, and XL.\"\n\n**シーン3：試着**\n- \"Where is the fitting room?\" / \"May I try this on?\"\n\n**シーン4：会計**\n- \"How much is this?\" / \"Do you have a discount code?\"\n- \"That\'ll be $45.99 total.\"',
+            },
+            {
+              type: 'highlight-box',
+              title: 'プレミアム：ロールプレイとクイズ',
+              content: '- 実際の店員とのロールプレイ動画\n- セール・割引フレーズの詳細解説\n- 商品説明文の読解問題\n- カスタマーレビューの理解練習',
             },
           ],
         },
