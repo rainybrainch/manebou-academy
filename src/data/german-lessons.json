@@ -362,6 +362,50 @@
           "question": "「3月」をドイツ語で言ってください。",
           "hint": "ウムラウト（ä）が含まれます",
           "answer": "März"
+        },
+        {
+          "id": "de-002-q5",
+          "type": "fill-blank",
+          "question": "「99」をドイツ語で言ってください。",
+          "hint": "「neunun」で始まります",
+          "answer": "neunundneunzig"
+        },
+        {
+          "id": "de-002-q6",
+          "type": "multiple-choice",
+          "question": "ドイツ語で複合数字（21、34など）を言うとき、正しい順序はどれですか？",
+          "options": [
+            "大きい位を先に言う（34 = 34）",
+            "小さい位を先に言う（34 = 4と30）",
+            "どちらでもよい",
+            "数字では言わず文字で書く"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "de-002-q7",
+          "type": "fill-blank",
+          "question": "「木曜日」をドイツ語で言ってください。",
+          "hint": "「Donner」で始まります（北欧神話の雷神ドナー由来）",
+          "answer": "Donnerstag"
+        },
+        {
+          "id": "de-002-q8",
+          "type": "matching",
+          "question": "以下の曜日を正しく組み合わせてください。",
+          "pairs": [
+            {"german": "Montag", "day": "月曜日"},
+            {"german": "Mittwoch", "day": "水曜日"},
+            {"german": "Freitag", "day": "金曜日"},
+            {"german": "Sonntag", "day": "日曜日"}
+          ]
+        },
+        {
+          "id": "de-002-q9",
+          "type": "fill-blank",
+          "question": "「12月」をドイツ語で言ってください。",
+          "hint": "「Dezember」です",
+          "answer": "Dezember"
         }
       ],
       "resources": [
