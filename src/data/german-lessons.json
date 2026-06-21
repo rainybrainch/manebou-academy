@@ -194,6 +194,50 @@
           "question": "自分が日本から来たことを伝えるドイツ語を言ってください。",
           "hint": "「Ich komme aus」で始まります",
           "answer": "Ich komme aus Japan."
+        },
+        {
+          "id": "de-001-q5",
+          "type": "fill-blank",
+          "question": "朝の挨拶をドイツ語で言ってください。",
+          "hint": "「Guten」で始まり、朝用です",
+          "answer": "Guten Morgen"
+        },
+        {
+          "id": "de-001-q6",
+          "type": "fill-blank",
+          "question": "敬語で「あなたの名前は何ですか？」と尋ねてください。",
+          "hint": "「Wie」で始まります",
+          "answer": "Wie heißen Sie?"
+        },
+        {
+          "id": "de-001-q7",
+          "type": "multiple-choice",
+          "question": "「Gute Nacht」を使うべき場面はどれですか？",
+          "options": [
+            "昼間の挨拶",
+            "夜間の別れの挨拶",
+            "カジュアルな挨拶",
+            "ビジネス挨拶"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "de-001-q8",
+          "type": "matching",
+          "question": "以下の人称代名詞を正しく組み合わせてください。",
+          "pairs": [
+            {"pronoun": "ich", "form": "bin"},
+            {"pronoun": "du", "form": "bist"},
+            {"pronoun": "Sie", "form": "sind"},
+            {"pronoun": "wir", "form": "sind"}
+          ]
+        },
+        {
+          "id": "de-001-q9",
+          "type": "fill-blank",
+          "question": "カジュアルに友人に「元気？」と尋ねてください。",
+          "hint": "「Wie geht's」で始まります",
+          "answer": "Wie geht's?"
         }
       ],
       "resources": [
@@ -201,17 +245,38 @@
           "type": "video",
           "title": "発音講座：基本挨拶と自己紹介",
           "url": "#",
-          "duration": "8分"
+          "duration": "10分",
+          "description": "正確なドイツ語発音、敬語と非敬語の使い分けの実例含む"
         },
         {
           "type": "grammar",
           "title": "sein動詞の完全活用表",
-          "content": "現在形: bin, bist, ist, sind, seid, sind（3人称単数と3人称複数で異なる）"
+          "content": "現在形: ich bin / du bist / er, sie, es ist / wir sind / ihr seid / sie (敬語) sind / sie (3人称複数) sind。同じ形でも文脈で異なります。"
+        },
+        {
+          "type": "grammar",
+          "title": "kommen動詞の活用",
+          "content": "「来る」を意味する動詞。ich komme / du kommst / er, sie, es kommt など。自分の出身地や来た場所を説明する際に頻繁に使用。"
         },
         {
           "type": "note",
           "title": "ドイツ語の敬語について",
-          "content": "ドイツ語では相手との関係によって表現を変えます。Sie（敬語）は常に大文字で始まります。"
+          "content": "ドイツ語では相手との関係によって表現を変えます。Sie（敬語）は常に大文字で始まります。初対面の人や目上の人には Sie を使い、親友や子どもには du を使うことが一般的。敬語の違い違いを無視するは失礼とされます。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツ人の挨拶文化",
+          "content": "ドイツ人は握手による挨拶を重視します。ビジネスシーンでは握手はほぼ必須です。女性が先に手を出す場合もあり、男性が待つべきという伝統があります。"
+        },
+        {
+          "type": "note",
+          "title": "時間帯別の挨拶使い分け",
+          "content": "朝は Guten Morgen（～12時）、昼は Guten Tag（～18時）、夜は Guten Abend（18時～）。晩遅く寝る前は Gute Nacht。時間帯を誤った挨拶は不自然に聞こえます。"
+        },
+        {
+          "type": "practice",
+          "title": "初対面の会話ロールプレイ",
+          "content": "友人と「初対面の人」の役割を分担して、挨拶 → 自己紹介 → 出身地説明 → 簡単な質問応答 という流れで実践してみてください。敬語レベルの使い分けに注意しましょう。"
         }
       ]
     },
