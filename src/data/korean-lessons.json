@@ -9034,6 +9034,230 @@
           "content": "あなたが大手製造企業のサプライチェーン責任者とします。複数拠点（韓国、アジア、米国）のグローバルサプライチェーン最適化戦略を立案します。ネットワーク設計、在庫政策、JIT導入、デジタル物流システム（WMS・TMS・ERP）、IoT・AI活用、ラストマイル戦略、グリーンロジスティクス、リバースロジスティクス、ESG報告を含めます。コスト削減目標、リード短縮、環境負荷削減の具体的指標を詳細に述べてください。"
         }
       ]
+    },
+    {
+      "id": "ko-049",
+      "level": 5,
+      "title": "ヘルスケア・医薬品産業：医薬品開発・規制・デジタルヘルス",
+      "titleKo": "의료 및 제약 산업: 약물 개발, 규제, 디지털 헬스",
+      "objectives": [
+        "医薬品開発プロセスと規制環境を理解する",
+        "臨床試験、承認プロセス、品質管理に関する専門用語を習得する",
+        "デジタルヘルス、医療技術、患者中心のケアを理解する",
+        "医薬品業界の倫理、知的財産、グローバル展開を習得する"
+      ],
+      "content": {
+        "introduction": "医薬品とヘルスケア産業は人命救助の最前線です。韓国系企業（Celltrion、Samsung Bioepis）は医薬品開発と医療技術で成長しています。このレッスンでは、医薬品開発、臨床試験、規制要件、デジタルヘルス、患者ケア革新に関する高度な韓国語を学びます。",
+        "sections": [
+          {
+            "title": "医薬品開発と臨床試験プロセス",
+            "phrases": [
+              {
+                "korean": "약물 개발은 여러 단계를 거칩니다: 연구, 전임상 시험, 임상 시험(I-IV 단계), 승인, 시장 감시로, 10-15년과 수십억 달러의 투자가 필요합니다.",
+                "romaji": "Yagmul gaebargat-eun yeoro dan-gyae-reul geo chimnida: yeon-gu, jeon-imsang siheon, imsang siheon (I-IV dan-gyae), seung-in, sigang gam-si ro, 10-15nyeon-gwa su-sip-eok dal-leo-ui tuja-ga pil-yo imnida",
+                "japanese": "医薬品開発は複数の段階を経ます：研究、前臨床試験、臨床試験（フェーズI-IV）、承認、市場監視。10-15年と数十億ユーロの投資が必要です。",
+                "usage": "医薬品開発プロセスを説明するとき"
+              },
+              {
+                "korean": "임상 시험(I 단계: 안전성, II 단계: 유효성, III 단계: 비교, IV 단계: 장기 관찰)은 엄격한 윤리 및 안전 기준을 요구합니다.",
+                "romaji": "Imsang siheon (I dan-gyae: anseon seong, II dan-gyae: yuyoe seong, III dan-gyae: bi-gyo, IV dan-gyae: jang-gi gwan-chal)-eun eom-gyeok yunil mit anseon gi jun-eul yogu hamnida",
+                "japanese": "臨床試験（フェーズI：安全性、フェーズII：有効性、フェーズIII：比較、フェーズIV：長期観察）は厳格な倫理とセキュリティ基準を要求します。",
+                "usage": "臨床試験のフェーズを説明するとき"
+              },
+              {
+                "korean": "특허 및 지적 재산권은 20년 동안 혁신을 보호하고, 독점 가격을 가능하게 하며, 연구에 자금을 제공합니다. 특허 만료 후 제네릭 경쟁은 환자 접근을 보장합니다.",
+                "romaji": "Teugcho mit jijeokg jaesang gwonri-neun 20nyeon dong-an hyeok-shin-eul bohohgi-hago, dogjeom gagyeok-eul ga-neung hage hayeo-imyeo, yeon-gu-e jageum-eul jegong hamnida. Teugcho man-ryo hoo jeneurik gyeongchnaeng-eun hwanjaeg jeobgeun-eul bohojang hamnida",
+                "japanese": "特許と知的財産権は20年間イノベーションを保護し、独占価格を実現し、研究を資金化します。特許失効後のジェネリック競争は患者アクセスを確保します。",
+                "usage": "医薬品知的財産を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "規制要件と品質管理",
+            "phrases": [
+              {
+                "korean": "규제(FDA, EMA) 요구 사항은 제조, 품질, 안전성, 효과성, 포장, 표시에 엄격한 기준을 설정하여 환자 안전을 보장합니다.",
+                "romaji": "Gyuje (FDA, EMA) yogu-sahangg-eun jecho, pum-jil, anseon seong, hyoe-gwaseong, po-jang, pyosiga-e eom-gyeok gi jun-eul seol jeong hayeo hwanjaeg anseon-eul bohojang hamnida",
+                "japanese": "規制（FDA、EMA）は製造、品質、安全性、有効性、包装、表示に対して厳格な要件を課し、患者安全を保証します。",
+                "usage": "医薬品規制を説明するとき"
+              },
+              {
+                "korean": "의약품 제조 및 품질 관리(GMP)는 무균실, 장비, 절차, 문서화, 품질 관리에 대한 기준을 정의합니다.",
+                "romaji": "Uiyagyeom jecho mit pum-jil gwanri (GMP)-neun mugyun-sil, jang-bi, jeol cha, mun-seohwae, pum-jil gwanri-e dae-han gi jun-eul jeong ui hamnida",
+                "japanese": "医薬品製造管理及び品質管理基準（GMP）は無菌室、機器、手順、文書化、品質管理の基準を定義します。",
+                "usage": "医薬品製造基準を説明するとき"
+              },
+              {
+                "korean": "약물 안전성 감시(파마코비질란스)는 상시 후 부작용, 약물 상호 작용, 남용을 추적하여 환자를 보호합니다.",
+                "romaji": "Yagmul anseon seong gam-si (pa-ma-ko-bi-jil-ran-seu)-neun sang-si hoo bu-ja-yong, yagmul sang-ho ja-yong, nam-yong-eul chu-jeog hayeo hwanjaeg-eul bohohg hamnida",
+                "japanese": "ファーマコビジランス（医薬品安全性監視）は上市後の有害事象、相互作用、乱用を追跡し、患者を保護します。",
+                "usage": "医薬品安全性監視を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "デジタルヘルスと患者ケア革新",
+            "phrases": [
+              {
+                "korean": "디지털 헬스는 전자 건강 기록(EHR), 원격 의료, 모바일 헬스 앱, 웨어러블, AI 기반 진단을 포함하여 환자 결과를 개선합니다.",
+                "romaji": "Dijital helpeu-neun jeon-ja geongang gi-rok (EHR), wonggyeog uiryo, mobile helpeu aep, wea-ro-bol, AI gi-ban jindan-eul pohamhayeo hwanjaeg gyeol-gwa-reul gaeseon hamnida",
+                "japanese": "デジタルヘルスは電子健康記録（EHR）、遠隔医療、モバイルアプリ、ウェアラブル、AI診断を含み、患者転帰を改善します。",
+                "usage": "デジタルヘルスの要素を説明するとき"
+              },
+              {
+                "korean": "맞춤형 의료 및 유전체학은 유전 데이터를 사용하여 치료를 개인적 위험 프로필에 맞추고, 효과성을 높이며, 부작용을 줄입니다.",
+                "romaji": "Matchum hyeong uiryo mit yujen che hagseubg-eun yujen deiteo-reul sayonghayeo chi-ryo-reul gaein jeoug wihom peu-ro-fil-e matchul hago, hyoe gwaseong-eul noph-hayeo-imyeo, bu-ja-yong-eul jjeul imnida",
+                "japanese": "個別化医療とゲノミクスは遺伝データを使用して治療を個人的リスク層別化に適応させ、有効性を向上させ、副作用を削減します。",
+                "usage": "個別化医療を説明するとき"
+              },
+              {
+                "korean": "환자 중심 치료는 환자 안전, 투명성, 치료 결정에 참여, 정보 접근, 치료 후 회복을 강조합니다.",
+                "romaji": "Hwanjaeg jung-sim chi-ryo-neun hwanjaeg anseon, tuhmyeon seong, chi-ryo gyeoljeonj-e cham-yeo, jeong-bo jeobgeun, chi-ryo hoo hoebogyeok-eul gangyoghag hamnida",
+                "japanese": "患者中心のケアは患者安全、透明性、治療決定への参画、情報アクセス、治療後の回復を強調します。",
+                "usage": "患者中心のケアを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "医薬品業界の倫理と国際展開",
+            "phrases": [
+              {
+                "korean": "의약품 윤리는 가격 책정, 개발도상국에서의 접근성, 연구 윤리, 환자 및 전문가에 대한 투명성 문제를 다룹니다.",
+                "romaji": "Uiyagyeom yunil-eun gagyeok chaeg jeong, gaebargat do-sang-guk-e-seo-ui jeobgeun seong, yeon-gu yunil, hwanjaeg mit jeonmun ga-e dae-han tuhmyeon seong mun-je-reul da-reul imnida",
+                "japanese": "医薬品倫理は価格設定、開発途上国でのアクセス、研究倫理、患者と医療専門家への透明性の問題を扱います。",
+                "usage": "医薬品倫理を説明するとき"
+              },
+              {
+                "korean": "글로벌 확장은 여러 국가에서의 규제 승인, 제품 지역화, 의료 시스템에 대한 적응, 문화적 민감성을 요구합니다.",
+                "romaji": "Geul ro-bal hwaksang-eun yeoro gugka-e-seo-ui gyuje seung-in, je-pum jiyeok hwahwae, uiryo siseutem-e dae-han jeog-eob, munhwa jeoug minsam seong-eul yogu hamnida",
+                "japanese": "グローバル展開は複数国での規制承認、製品のローカライゼーション、医療システムへの適応、文化的感受性を要求します。",
+                "usage": "医薬品グローバル展開を説明するとき"
+              },
+              {
+                "korean": "바이오시밀러 및 제네릭은 특허 만료 후 경쟁을 증가시키고, 가격을 낮추며, 접근성을 개선하고, 품질 보증을 위한 유사한 승인 절차를 요구합니다.",
+                "romaji": "Ba-io-si-mil-leo mit jeneurik-eun teugcho man-ryo hoo gyeongchnaeng-eul jeung ga-si-kigo, gagyeok-eul natchu-hayeo-imyeo, jeobgeun seong-eul gaeseon hago, pum-jil bojung-eul wihan yusahann seung-in jeol cha-reul yogu hamnida",
+                "japanese": "バイオシミラーとジェネリックは特許失効後の競争を増加させ、価格を低下させ、アクセスを改善し、品質保証のための同等の承認プロセスを要求します。",
+                "usage": "ジェネリック医薬品を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-049-q1",
+          "type": "fill-blank",
+          "question": "「医薬品開発は研究から市場監視まで複数段階を経ます」を韓国語で言ってください。",
+          "answer": "약물 개발은 연구, 전임상 시험, 임상 시험, 승인, 시장 감시를 포함합니다."
+        },
+        {
+          "id": "ko-049-q2",
+          "type": "multiple-choice",
+          "question": "臨床試験のフェーズは？",
+          "options": [
+            "安全性、有効性、比較、長期観察",
+            "効果測定のみ",
+            "安全性確認だけ",
+            "市場テスト"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-049-q3",
+          "type": "fill-blank",
+          "question": "「特許は医薬品イノベーションを保護します」を韓国語で言ってください。",
+          "answer": "특허는 혁신을 20년 동안 보호하고 독점 가격을 가능하게 합니다."
+        },
+        {
+          "id": "ko-049-q4",
+          "type": "multiple-choice",
+          "question": "医薬品規制機関の例は？",
+          "options": [
+            "FDA、EMA",
+            "販売部門のみ",
+            "流通企業",
+            "薬局のみ"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-049-q5",
+          "type": "fill-blank",
+          "question": "「デジタルヘルスは患者ケアを革新します」を韓国語で言ってください。",
+          "answer": "디지털 헬스는 EHR, 원격 의료, 모바일 헬스 앱을 통해 환자 결과를 개선합니다."
+        },
+        {
+          "id": "ko-049-q6",
+          "type": "matching",
+          "question": "デジタルヘルス技術とその説明を正しく組み合わせてください。",
+          "pairs": [
+            {"tech": "EHR", "description": "電子健康記録"},
+            {"tech": "원격의료", "description": "遠隔医療"},
+            {"tech": "웨어러블", "description": "ウェアラブルデバイス"}
+          ]
+        },
+        {
+          "id": "ko-049-q7",
+          "type": "fill-blank",
+          "question": "「個別化医療は遺伝データを使用します」を韓国語で言ってください。",
+          "answer": "맞춤형 의료는 유전 데이터를 사용하여 치료를 개인화합니다."
+        },
+        {
+          "id": "ko-049-q8",
+          "type": "multiple-choice",
+          "question": "医薬品倫理の主要な問題は？",
+          "options": [
+            "価格設定、アクセス、研究倫理、透明性",
+            "利益最大化のみ",
+            "販売推進のみ",
+            "広告"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ヘルスケア・医薬品産業：医薬品開発・臨床試験・規制・デジタルヘルス",
+          "duration": "38分",
+          "description": "医薬品開発プロセス。前臨床・臨床試験。FDA・EMA承認。GMP基準。ファーマコビジランス。知的財産・特許。個別化医療・ゲノミクス。遠隔医療・デジタルヘルス。患者中心ケア。ジェネリック・バイオシミラー。"
+        },
+        {
+          "type": "grammar",
+          "title": "ヘルスケア・医薬品用語と医療表現",
+          "content": "医薬品用語：Drug Development（医薬品開発）、Clinical Trial（臨床試験）、Regulatory Approval（規制承認）、Manufacturing（製造）。技術用語：Personalized Medicine（個別化医療）、Genomics（ゲノミクス）、Digital Health（デジタルヘルス）、AI-based Diagnostics（AI診断）。倫理用語：Patient Safety（患者安全）、Pharmacovigilance（ファーマコビジランス）、Ethics（倫理）。"
+        },
+        {
+          "type": "note",
+          "title": "韓国の医薬品・バイオテク産業",
+          "content": "韓国：Celltrion、Samsung Bioepis などのバイオテク企業。バイオシミラー開発の先進国。K-pharma産業。Incheon などのバイオクラスター。医療政策の支援。"
+        },
+        {
+          "type": "note",
+          "title": "医薬品開発のライフサイクル",
+          "content": "Discovery Phase：化合物探索。Preclinical：動物実験。IND申請：治験開始許可。Phase I-III：人間試験。NDA/BLA申請：上市申請。Phase IV：上市後観察。Patent Expiration：特許失効、ジェネリック参入。"
+        },
+        {
+          "type": "note",
+          "title": "医薬品規制と品質基準",
+          "content": "FDA（米国）、EMA（欧州）、PMD（日本）。ICH（国際医薬品規制調和）。GMP（医薬品製造管理）。Pharmacopeias（薬局方）。Clinical Trial Phases：安全性→有効性→比較→長期観察。"
+        },
+        {
+          "type": "note",
+          "title": "デジタルトランスフォーメーション in ヘルスケア",
+          "content": "EHR/EMR：患者データ統合。Telehealth：遠隔診療。AI in diagnostics：画像診断AI。Wearable monitoring：連続監視。Drug discovery AI：化合物設計。Personalized medicine：遺伝子検査に基づく治療。"
+        },
+        {
+          "type": "note",
+          "title": "医薬品コンプライアンスと倫理",
+          "content": "Pricing Ethics：価格設定の透明性。Access Programs：途上国への供給。Research Ethics：倫理委員会（IRB/EC）。Transparency：医者への支払い開示。Post-marketing Surveillance：安全性監視。"
+        },
+        {
+          "type": "practice",
+          "title": "新規医薬品のグローバル開発・上市戦略立案",
+          "content": "あなたが韓国の医薬品企業のプロジェクトディレクターとします。新規医薬品の開発から上市までの戦略を立案します。治験計画（フェーズI-III）、規制戦略（FDA・EMA申請）、製造・品質管理（GMP）、知的財産保護、ファーマコビジランス計画、デジタルヘルス統合、患者アクセスプログラム、グローバル上市戦略（複数国展開）を含めます。開発期間、予算、規制マイルストーン、市場投入タイムラインを詳細に述べてください。"
+        }
+      ]
     }
   ]
 }
