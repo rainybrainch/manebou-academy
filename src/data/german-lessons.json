@@ -5356,6 +5356,225 @@
           "content": "あなたが医療分野でのキャリアをドイツで（または国際的に）開発したいとします。必要な教育、言語スキル、認定資格、倫理的責任を検討してください。患者ケアの価値観、継続的な学習へのコミットメント、国際医療協力への関心を組み込んだ5年プランを作成してください。"
         }
       ]
+    },
+    {
+      "id": "de-024",
+      "level": 5,
+      "title": "法律キャリアとビジネス法務：国際契約交渉とコンプライアンス",
+      "titleDe": "Juridische Karriere und Unternehmensrecht: Internationale Vertragsverhandlungen und Compliance",
+      "objectives": [
+        "ドイツの法律体系とキャリア構造を理解する",
+        "国際契約交渉の基本原則と戦術を習得する",
+        "ビジネスコンプライアンスと法的リスク管理を理解する",
+        "複雑な法律文書の読解と交渉スキルを習得する"
+      ],
+      "content": {
+        "introduction": "法律専門家は企業や社会の信頼と安定の基盤です。このレッスンでは、ドイツの法律制度、弁護士・法務スタッフのキャリアパス、国際契約交渉の実務、EU法とドイツ法、コンプライアンスと法的リスク管理に関する高度なドイツ語を学びます。グローバル企業では法律的専門知識と交渉スキルがビジネス成功を左右します。",
+        "sections": [
+          {
+            "title": "ドイツの法律体系とキャリア構造",
+            "phrases": [
+              {
+                "german": "Das deutsche Rechtssystem basiert auf dem Zivilrecht (Bürgerliches Gesetzbuch - BGB) und umfasst zahlreiche spezialisierte Gesetze für verschiedene Geschäftsbereiche.",
+                "romaji": "Das deutsche Rechtssystem basiert auf dem Zivilrecht (Bürgerliches Gesetzbuch - BGB) und umfasst zahlreiche spezialisierte Gesetze",
+                "japanese": "ドイツの法律体系は民法（民法典BGB）に基づいており、様々なビジネス分野のための多くの特別法を含みます。",
+                "usage": "ドイツ法の基本体系を説明するとき"
+              },
+              {
+                "german": "Rechtsanwälte benötigen ein Jurastudium von 4-5 Jahren, ein juristisches Referendariat (Praktikum) von 2 Jahren, und das Staatsexamen, um zugelassen zu werden.",
+                "romaji": "Rechtsanwälte benötigen ein Jurastudium von 4-5 Jahren, ein juristisches Referendariat (Praktikum) von 2 Jahren, und das Staatsexamen",
+                "japanese": "弁護士は4～5年間の法学教育、2年間の法務実務研修（司法修習）、および国家試験が必要です。",
+                "usage": "弁護士のキャリアパスを説明するとき"
+              },
+              {
+                "german": "Rechtsanwälte spezialisieren sich auf Bereiche wie Arbeitsrecht, Vertragsrecht, Steuerrecht, Immobilienrecht, oder Gesellschaftsrecht und arbeiten in Kanzleien oder in der Unternehmensabteilung (In-House Counsel).",
+                "romaji": "Rechtsanwälte spezialisieren sich auf Bereiche wie Arbeitsrecht, Vertragsrecht, Steuerrecht, Immobilienrecht, oder Gesellschaftsrecht",
+                "japanese": "弁護士は労働法、契約法、税法、不動産法、会社法などの分野に専門化し、法律事務所または企業法務部（社内弁護士）で働きます。",
+                "usage": "弁護士の専門分野を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "国際契約交渉の原則と戦術",
+            "phrases": [
+              {
+                "german": "Eine erfolgreiche internationale Vertragsverhandlung erfordert genaue Vorbereitung, klare Verständigung der Ziele, und die Fähigkeit, kulturelle Unterschiede zu navigieren.",
+                "romaji": "Eine erfolgreiche internationale Vertragsverhandlung erfordert genaue Vorbereitung, klare Verständigung der Ziele, und die Fähigkeit",
+                "japanese": "成功する国際契約交渉には、綿密な準備、目標の明確な伝達、文化的相違への対応能力が必要です。",
+                "usage": "契約交渉の基本原則を説明するとき"
+              },
+              {
+                "german": "Verhandlungspartner müssen Verträge sorgfältig lesen, potenzielle Risiken identifizieren, und durch Nachverhandlung oder Klauseln die Interessen der eigenen Seite schützen.",
+                "romaji": "Verhandlungspartner müssen Verträge sorgfältig lesen, potenzielle Risiken identifizieren, und durch Nachverhandlung oder Klauseln",
+                "japanese": "交渉担当者は契約を注意深く読み、潜在的なリスクを特定し、再交渉または特約条項により自社の利益を保護する必要があります。",
+                "usage": "契約交渉の実務を説明するとき"
+              },
+              {
+                "german": "Wichtige Vertragsklauseln sind Zahlungsbedingungen, Lieferfristen, Haftungsbegrenzung, Geheimhaltungsklauseln, Schiedsklauseln, und Bestimmungen über höhere Gewalt (Force Majeure).",
+                "romaji": "Wichtige Vertragsklauseln sind Zahlungsbedingungen, Lieferfristen, Haftungsbegrenzung, Geheimhaltungsklauseln, Schiedsklauseln",
+                "japanese": "重要な契約条項は支払条件、納期、責任制限、機密保持条項、仲裁条項、および不可抗力条項です。",
+                "usage": "契約の重要条項を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "ビジネスコンプライアンスと法的リスク管理",
+            "phrases": [
+              {
+                "german": "Unternehmenscomplianceumfasst alle Maßnahmen, um sicherzustellen, dass die Unternehmensaktivitäten mit Gesetzen, Vorschriften, und ethischen Standards übereinstimmen.",
+                "romaji": "Unternehmenscomplianceumfasst alle Maßnahmen, um sicherzustellen, dass die Unternehmensaktivitäten mit Gesetzen, Vorschriften",
+                "japanese": "企業コンプライアンスは、企業活動が法律、規制、倫理基準に準拠していることを確保するためのすべての措置を含みます。",
+                "usage": "コンプライアンスの定義を説明するとき"
+              },
+              {
+                "german": "Wichtige Compliancebereiche sind Datenschutz (GDPR), Arbeitnehmerrechte, Umweltschutz, Korruptionsbekämpfung, und Geldwäschebekämpfung (AML/KYC).",
+                "romaji": "Wichtige Compliancebereiche sind Datenschutz (GDPR), Arbeitnehmerrechte, Umweltschutz, Korruptionsbekämpfung",
+                "japanese": "重要なコンプライアンス領域はデータ保護（GDPR）、労働者の権利、環境保護、腐敗防止、マネーロンダリング対策（AML/KYC）です。",
+                "usage": "コンプライアンスの主要分野を説明するとき"
+              },
+              {
+                "german": "Regelmäßige Compliance-Audits, Schulungsprogramme für Mitarbeiter, und ein starkes Compliance-Management-System helfen, rechtliche Risiken zu minimieren und Reputationsschäden zu vermeiden.",
+                "romaji": "Regelmäßige Compliance-Audits, Schulungsprogramme für Mitarbeiter, und ein starkes Compliance-Management-System",
+                "japanese": "定期的なコンプライアンス監査、従業員向けの訓練プログラム、強固なコンプライアンス管理体制は法的リスクを最小化し、評判損害を避けます。",
+                "usage": "コンプライアンスの実装戦略を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "EU法とドイツの企業法務の最新動向",
+            "phrases": [
+              {
+                "german": "Die EU-Gesetzgebung (EU-Richtlinien und -Verordnungen) wirkt sich direkt auf deutsches Unternehmensrecht aus, besonders in Bereichen wie Verbraucherschutz, Wettbewerb, und Umwelt.",
+                "romaji": "Die EU-Gesetzgebung (EU-Richtlinien und -Verordnungen) wirkt sich direkt auf deutsches Unternehmensrecht aus",
+                "japanese": "EU法規（EU指令および規則）はドイツの企業法に直接影響を与え、特に消費者保護、競争、環境分野に影響します。",
+                "usage": "EU法の影響を説明するとき"
+              },
+              {
+                "german": "Moderne rechtliche Trends wie ESG (Umwelt, Soziales, Governance), digitale Transformation, und Cybersecurity stellen neue Anforderungen an Unternehmensrecht und Compliance.",
+                "romaji": "Moderne rechtliche Trends wie ESG (Umwelt, Soziales, Governance), digitale Transformation, und Cybersecurity",
+                "japanese": "ESG（環境・社会・ガバナンス）、デジタル変革、サイバーセキュリティなどの現代的な法的トレンドは、企業法務とコンプライアンスに新たな要件をもたらします。",
+                "usage": "現代の法務トレンドを説明するとき"
+              },
+              {
+                "german": "In-House Counsel (Unternehmensanwälte) spielen eine zunehmend strategische Rolle bei der Unternehmensleitung, indem sie nicht nur rechtliche Risiken abschwächen, sondern auch bei der Geschäftsentwicklung mitwirken.",
+                "romaji": "In-House Counsel (Unternehmensanwälte) spielen eine zunehmend strategische Rolle bei der Unternehmensleitung",
+                "japanese": "社内弁護士（In-House Counsel）は企業経営において戦略的な役割を果たし、法的リスクの軽減だけでなくビジネス発展にも関与します。",
+                "usage": "企業法務職の進化を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-024-q1",
+          "type": "fill-blank",
+          "question": "「ドイツの法律体系は民法典（BGB）に基づいており、多くの特別法を含みます」をドイツ語で言ってください。",
+          "answer": "Das deutsche Rechtssystem basiert auf dem Zivilrecht (BGB) und umfasst zahlreiche spezialisierte Gesetze."
+        },
+        {
+          "id": "de-024-q2",
+          "type": "multiple-choice",
+          "question": "ドイツの弁護士のキャリアパスの要件は？",
+          "options": [
+            "法学教育4～5年 + 法務実務研修2年 + 国家試験",
+            "大学なしで可能",
+            "4年間の教育で十分",
+            "試験なしで可能"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-024-q3",
+          "type": "fill-blank",
+          "question": "「成功する国際契約交渉には綿密な準備と目標の明確な伝達が必要です」をドイツ語で言ってください。",
+          "answer": "Eine erfolgreiche internationale Vertragsverhandlung erfordert genaue Vorbereitung und klare Verständigung der Ziele."
+        },
+        {
+          "id": "de-024-q4",
+          "type": "multiple-choice",
+          "question": "重要な契約条項は何か？",
+          "options": [
+            "支払条件、納期、責任制限、機密保持条項、仲裁条項",
+            "相手の利益のみ",
+            "署名者の個人情報のみ",
+            "契約期間なし"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-024-q5",
+          "type": "fill-blank",
+          "question": "「企業コンプライアンスは法律、規制、倫理基準への準拠を確保します」をドイツ語で言ってください。",
+          "answer": "Unternehmencompliance stellt sicher, dass die Unternehmensaktivitäten mit Gesetzen, Vorschriften, und ethischen Standards übereinstimmen."
+        },
+        {
+          "id": "de-024-q6",
+          "type": "matching",
+          "question": "コンプライアンス領域と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"area": "GDPR", "description": "データ保護"},
+            {"area": "AML/KYC", "description": "マネーロンダリング対策"},
+            {"area": "ESG", "description": "環境・社会・ガバナンス"}
+          ]
+        },
+        {
+          "id": "de-024-q7",
+          "type": "fill-blank",
+          "question": "「EU法はドイツの企業法に直接影響を与えます」をドイツ語で言ってください。",
+          "answer": "Die EU-Gesetzgebung wirkt sich direkt auf deutsches Unternehmensrecht aus."
+        },
+        {
+          "id": "de-024-q8",
+          "type": "multiple-choice",
+          "question": "現代の企業法務のトレンドは？",
+          "options": [
+            "ESG、デジタル変革、サイバーセキュリティ",
+            "紙ベースの契約のみ",
+            "国際取引なし",
+            "法的助言不要"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツの法律制度と企業法務：弁護士キャリアとビジネスコンプライアンス",
+          "duration": "27分",
+          "description": "ドイツの法学教育と弁護士資格。労働法・契約法・会社法の基本。国際契約交渉のプロセス。EU法の影響。企業コンプライアンスの実装。"
+        },
+        {
+          "type": "grammar",
+          "title": "法律文書と契約交渉用語",
+          "content": "法律複合名詞：Vertragsrecht（契約法）、Unternehmensrecht（企業法）、Geheimhaltungsklausel（機密条項）、Schiedsklausel（仲裁条項）。交渉表現：verhandeln（交渉する）、einigen（合意する）、vereinbaren（取り決める）。法的責任表現：Haftung（責任）、Risiko（リスク）、Verstoß（違反）。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツの法律制度と職業体系",
+          "content": "法学教育（Jurastudium）は理論重視で、ケースメソッドと試験対策が並行。司法修習（Referendariat）で裁判所・検察・法律事務所での実務経験。弁護士（Rechtsanwalt）・判事（Richter）・検察官（Staatsanwalt）への職業選択。"
+        },
+        {
+          "type": "note",
+          "title": "国際契約交渉のプロセスと文化的相違",
+          "content": "交渉前準備：相手国の法律・商慣行の研究。初期交渉：立場表明と目標設定。詳細協議：条項ごとの交渉。最終化：言語確認と法的レビュー。ドイツ企業は法的完全性と書面化を重視。"
+        },
+        {
+          "type": "note",
+          "title": "EU法とドイツ法の関係",
+          "content": "EU指令（Direktive）：各国が国内法に転換する必要。EU規則（Verordnung）：直接適用される。主要な法律：GDPR（データ保護）、EU競争法、環境指令。ドイツは EU法を厳格に実装。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツと韓国の法務キャリアの比較",
+          "content": "ドイツ：法治国家、法を重視、弁護士は独立性が強い。韓国：儒教的背景、関係性重視、企業法務が急速に発展。いずれも国際化が進み、英語での法務が必須に。"
+        },
+        {
+          "type": "practice",
+          "title": "国際ビジネス契約の交渉シミュレーション",
+          "content": "あなたが企業の法務部長として、別国の企業との売買契約交渉に臨むシナリオ。相手国の法律環境、自社のリスク許容度、共通の利益を考慮して交渉戦略を立案します。支払条件、納期、品質保証、紛争解決メカニズムについて、どのような条項を提案するかを詳細に述べてください。"
+        }
+      ]
     }
   ]
 }
