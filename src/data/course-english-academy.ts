@@ -633,16 +633,32 @@ export const englishAcademyCategory: Category = {
           title: 'AI による英語音声生成と発音トレーニング',
           duration: '8:30',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
             'AI生成音声と自分の発音の違いが分かる',
             '発音が改善される',
             'ネイティブに近い発音ができるようになる',
+            '自分の発音の弱点が認識できる',
+            '継続練習で発音精度が上がることを実感できる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: 'AI による音声生成技術で、ネイティブスピーカーの発音と比較練習ができます。',
+              content: 'AI による音声生成技術で、ネイティブスピーカーの発音と比較練習ができます。AI は永遠に失敗しないため、何度でも繰り返し練習でき、あなたの発音を客観的に評価してくれます。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'AI 発音トレーニングの流れ',
+            },
+            {
+              type: 'text',
+              content: '**ステップ1：目標文を選ぶ**\n- 漫画のセリフ、テキストの例文、日常会話など\n- 短いセリフ（5-15単語）が最適\n\n**ステップ2：AI音声を聞く（複数回）**\n- ゆっくり版 → 通常速度 → 高速版\n- 各バージョンで「音のつながり」「ストレス」を確認\n\n**ステップ3：自分で発音（録音）**\n- 何度も繰り返す\n- 毎回最高品質を目指す\n\n**ステップ4：AI による客観評価**\n- 音韻ごとの正確さ（ストレス、イントネーション）\n- スコア表示\n- 改善点の指摘\n\n**ステップ5：改善練習**\n- 指摘された弱点を重点的に練習\n- スコアが上がるまで繰り返す',
+            },
+            {
+              type: 'highlight-box',
+              title: 'AI トレーニングの利点',
+              content: '- **24/7 利用可能** - いつでも何度でも\n- **ジャッジなし** - 人間の先生より気が楽\n- **客観的評価** - 感情が入らない\n- **データ記録** - 進捗が可視化される\n- **低コスト** - 無料または格安',
             },
           ],
         },
@@ -651,16 +667,31 @@ export const englishAcademyCategory: Category = {
           title: '漫画キャラの心情を英語で解読する',
           duration: '6:45',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
             'キャラクターの感情が理解できる',
             'セリフの背景にある文脈が分かる',
             'より深い読解ができるようになる',
+            'ネイティブの言葉選びの心理が理解できる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: '漫画の「絵」「セリフ」「フキダシの形」から、キャラの心情を読み取ります。これは実生活の英会話でも役立つスキルです。',
+              content: '漫画の「絵」「セリフ」「フキダシの形」から、キャラの心情を読み取ります。同じ意思表示でも、心理状態で言葉選びが変わることを学びます。実生活の英会話でも役立つスキル。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: '心情別：言葉選びの違い',
+            },
+            {
+              type: 'text',
+              content: '**同じ「同意」でも**\n1. "Yeah, sure." - ぶっきらぼう（同意だが気乗りしない）\n2. "I agree." - 正式（ビジネス）\n3. "Absolutely!" - 熱意（全力で同意）\n4. "I suppose." - 渋々（納得していない）\n\n**同じ「No」でも**\n1. "No." - 強い拒否\n2. "I don\'t think so." - 柔らかい反対\n3. "Not really." - ぼやけた否定\n4. "I\'m not sure." - 迷い\n\n**感情表現の微妙な違い**\n- "I\'m happy" - 一般的な幸福\n- "I\'m thrilled!" - 興奮・喜び\n- "I\'m content." - 満足感\n- "I\'m relieved." - ほっとした',
+            },
+            {
+              type: 'highlight-box',
+              title: '漫画で学ぶ言語心理学',
+              content: 'キャラクターの感情状態によって：\n- **語彙の複雑さが変わる** - 冷静 → 複雑な文法 / パニック → シンプルな言葉\n- **話速・ポーズが変わる** - 躊躇 → "I...I..." / 決意 → "I will."\n- **相手への敬意が変わる** - 敬語か タメ口かで関係性が読める',
             },
           ],
         },
@@ -669,16 +700,31 @@ export const englishAcademyCategory: Category = {
           title: 'スラング・カジュアル表現は漫画で学ぶ',
           duration: '7:15',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
             'スラングが理解できる',
             'カジュアルな表現が使える',
             '実会話に対応できるようになる',
+            'スラングの使う場面が判断できる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: '教科書にない「実際の会話」「スラング」「若者言葉」は漫画から学ぶのが最短です。',
+              content: '教科書にない「実際の会話」「スラング」「若者言葉」は漫画から学ぶのが最短です。ただし、スラングは使う場面が限られるため、判断力が重要。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'よく使うスラング＆カジュアル表現',
+            },
+            {
+              type: 'text',
+              content: '**省略形（日常会話の99%）**\n- gonna (going to) - 〜するつもり\n- wanna (want to) - 〜したい\n- gotta (got to) - 〜しなきゃいけない\n- kinda (kind of) - 〜みたいな、〜ぽい\n- sorta (sort of) - 〜みたいな\n\n**若者スラング**\n- dude - (男性に対する呼びかけ) よ、君\n- cool - いいね、かっこいい\n- awesome - 素晴らしい\n- sucks - 最悪\n- whatever - どうでもいい（投げやり）\n\n**インターネット・SNS用語**\n- LOL (laugh out loud) - 笑う\n- BFF (best friend forever) - 親友\n- TBH (to be honest) - 正直に言うと\n- IMO (in my opinion) - 私の意見では\n- NVM (nevermind) - 気にしないで\n\n**つなぎ言葉（ネイティブ特有）**\n- like - 「〜のような」「〜って」（頻用）\n- you know - 「ほら、えっと」\n- I mean - 「つまり」「言い換えると」\n- basically - 「基本的に」「ようするに」',
+            },
+            {
+              type: 'highlight-box',
+              title: 'スラング使用時の注意',
+              content: '✅ 使ってもOK：友人同士、カジュアルな場面\n❌ 避けるべき：ビジネス、目上の人、初対面\n\n例：\n- Friend: "Wanna grab some coffee?" ✅ OK\n- Boss: "Would you like to grab some coffee?" ✅ Better\n- "This sucks" (友人) ✅ OK\n- "This is not satisfactory" (プレゼン) ✅ Better',
             },
           ],
         },
