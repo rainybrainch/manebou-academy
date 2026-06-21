@@ -7327,6 +7327,225 @@
           "content": "あなたがドイツの 4 つ星ホテル経営者とします。年間収益と稼働率向上のための統合戦略を立案します。オンライン予約プラットフォーム最適化、SEO・SEM 戦略、ソーシャルメディアマーケティング、ゲストレビュー管理、季節別価格設定、ロイヤルティプログラム設計、多言語カスタマーサービス、スタッフトレーニング計画を含めます。具体的な KPI、マーケティング予算配分、実装タイムライン、期待される成果を詳細に述べてください。"
         }
       ]
+    },
+    {
+      "id": "de-033",
+      "level": 5,
+      "title": "エネルギー・再生可能エネルギー：太陽光・風力・グリーン技術",
+      "titleDe": "Energie und Erneuerbare Energien: Solarenergie, Windenergie, Grüne Technologie",
+      "objectives": [
+        "エネルギー産業とエネルギー転換の基本を理解する",
+        "再生可能エネルギー技術と発電システムに関する専門用語を習得する",
+        "エネルギー効率化とスマートグリッドの概念を理解する",
+        "グリーンテクノロジーとサステイナビリティ戦略を習得する"
+      ],
+      "content": {
+        "introduction": "エネルギー産業は気候変動対策の中核です。ドイツの Energiewende（エネルギー転換）と韓国のグリーン産業政策は、再生可能エネルギーへの急速な転換を主導しています。このレッスンでは、再生可能エネルギー技術、発電システム、エネルギー管理、グリーン産業に関する高度なドイツ語を学びます。",
+        "sections": [
+          {
+            "title": "エネルギー産業とエネルギー転換戦略",
+            "phrases": [
+              {
+                "german": "Die Energiewende ist ein strategischer Übergang von fossilen Brennstoffen zu erneuerbaren Energien, um CO2-Emissionen zu reduzieren und Nachhaltigkeit zu erreichen.",
+                "romaji": "Die Energiewende ist ein strategischer Übergang von fossilen Brennstoffen zu erneuerbaren Energien",
+                "japanese": "エネルギー転換は化石燃料から再生可能エネルギーへの戦略的転換であり、CO2排出量の削減とサステイナビリティを実現します。",
+                "usage": "エネルギー転換の概念を説明するとき"
+              },
+              {
+                "german": "Erneuerbare Energiequellen (Sonne, Wind, Wasser, Biomasse, Geothermie) sind unbegrenzt, umweltfreundlich, und spielen eine zentrale Rolle in der globalen Energiesicherheit.",
+                "romaji": "Erneuerbare Energiequellen (Sonne, Wind, Wasser, Biomasse, Geothermie) sind unbegrenzt, umweltfreundlich",
+                "japanese": "再生可能エネルギー源（太陽光、風力、水力、バイオマス、地熱）は無限で、環境にやさしく、グローバルエネルギー安全保障で中心的な役割を果たします。",
+                "usage": "再生可能エネルギーの種類を説明するとき"
+              },
+              {
+                "german": "Energiepolitik und Regulierung (Subventionen, Stromnetze, CO2-Preisgestaltung, Effizienzstandards) fördern die Adoption erneuerbarer Energien und reduzen Umweltauswirkungen.",
+                "romaji": "Energiepolitik und Regulierung (Subventionen, Stromnetze, CO2-Preisgestaltung, Effizienzstandards) fördern die Adoption erneuerbarer Energien",
+                "japanese": "エネルギー政策と規制（補助金、電力網、CO2価格設定、効率基準）は再生可能エネルギーの採用を促進し、環境への影響を削減します。",
+                "usage": "エネルギー政策の役割を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "太陽光発電と風力発電システム",
+            "phrases": [
+              {
+                "german": "Photovoltaik (PV) konvertiert Sonnenlicht direkt in Elektrizität durch Halbleitermaterialien, mit Effizienzraten von 15-22%, und ist wirtschaftlich kosteneffektiv.",
+                "romaji": "Photovoltaik (PV) konvertiert Sonnenlicht direkt in Elektrizität durch Halbleitermaterialien",
+                "japanese": "太陽光発電（PV）は半導体材料を通じて太陽光を直接電気に変換し、効率は15-22%で、経済的にコスト効率的です。",
+                "usage": "太陽光発電技術を説明するとき"
+              },
+              {
+                "german": "Windkraftanlagen nutzen Windenergie zur Stromerzeugung durch rotierende Turbinen, mit onshore (40-60%) und offshore (45-50%) Anlagen mit unterschiedlichen Kapazitäten.",
+                "romaji": "Windkraftanlagen nutzen Windenergie zur Stromerzeugung durch rotierende Turbinen",
+                "japanese": "風力発電装置は回転タービンを通じて風エネルギーで電力を生成し、陸上（40-60%）と洋上（45-50%）の異なる容量を持つ施設があります。",
+                "usage": "風力発電システムを説明するとき"
+              },
+              {
+                "german": "Energiespeicherung (Batterien, Speicherkraftwerke, Wasserstoff) ist kritisch für die Stabilität des Stromnetzes, da erneuerbare Energien zeitabhängig und variabel sind.",
+                "romaji": "Energiespeicherung (Batterien, Speicherkraftwerke, Wasserstoff) ist kritisch für die Stabilität des Stromnetzes",
+                "japanese": "エネルギー貯蔵（バッテリー、揚水発電所、水素）は電力網の安定性に不可欠です。再生可能エネルギーは時間依存で変動するためです。",
+                "usage": "エネルギー貯蔵の重要性を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "スマートグリッドと電力管理システム",
+            "phrases": [
+              {
+                "german": "Smart Grids sind digitale Stromnetze, die Erzeugung, Verteilung, und Verbrauch bidirektional integrieren, um Effizienz, Zuverlässigkeit, und Nachhaltigkeit zu maximieren.",
+                "romaji": "Smart Grids sind digitale Stromnetze, die Erzeugung, Verteilung, und Verbrauch bidirektional integrieren",
+                "japanese": "スマートグリッドはデジタル電力網であり、発電、配分、消費を双方向に統合し、効率、信頼性、サステイナビリティを最大化します。",
+                "usage": "スマートグリッドの概念を説明するとき"
+              },
+              {
+                "german": "Demand Response und Lastmanagement optimieren Stromverbrauch durch zeitabhängige Tarife, intelligente Zähler, und automatische Verbrauchersteuerung.",
+                "romaji": "Demand Response und Lastmanagement optimieren Stromverbrauch durch zeitabhängige Tarife",
+                "japanese": "デマンドレスポンスと負荷管理は、時間依存の料金、スマートメーター、自動消費者制御を通じて電力消費を最適化します。",
+                "usage": "電力管理戦略を説明するとき"
+              },
+              {
+                "german": "Digitale Technologien (IoT, AI, Machine Learning) ermöglichen Echtzeit-Überwachung, Vorhersage, und Optimierung von Energieerzeugung und -verbrauch.",
+                "romaji": "Digitale Technologien (IoT, AI, Machine Learning) ermöglichen Echtzeit-Überwachung, Vorhersage",
+                "japanese": "デジタル技術（IoT、AI、機械学習）はエネルギー生成と消費のリアルタイム監視、予測、最適化を可能にします。",
+                "usage": "デジタル技術の活用を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "グリーンテクノロジーとサステイナビリティ",
+            "phrases": [
+              {
+                "german": "Grüne Technologien (Elektromobilität, Wärmepumpen, LED-Beleuchtung, energieeffiziente Gebäude) reduzieren Kohlenstoff-Fußabdrücke und fördern nachhaltiges Leben.",
+                "romaji": "Grüne Technologien (Elektromobilität, Wärmepumpen, LED-Beleuchtung, energieeffiziente Gebäude)",
+                "japanese": "グリーンテクノロジー（電気自動車、ヒートポンプ、LED照明、エネルギー効率的な建物）は炭素フットプリントを削減し、持続可能な生活を促進します。",
+                "usage": "グリーンテクノロジーの例を説明するとき"
+              },
+              {
+                "german": "Circular Economy und Ressourceneffizienz minimieren Abfall, fördern Wiederverwendung, Recycling, und regenerative Materialien in Produktdesign und Fertigungsprozessen.",
+                "romaji": "Circular Economy und Ressourceneffizienz minimieren Abfall, fördern Wiederverwendung",
+                "japanese": "サーキュラーエコノミーとリソース効率は廃棄物を最小化し、再利用、リサイクル、製品設計と製造プロセスでの再生可能材料を促進します。",
+                "usage": "循環経済の原則を説明するとき"
+              },
+              {
+                "german": "ESG-Bewertung (Environmental, Social, Governance) und Nachhaltigkeitsberichterstattung bewerten Unternehmensverantwortung und Umweltauswirkungen für Investoren und Stakeholder.",
+                "romaji": "ESG-Bewertung (Environmental, Social, Governance) und Nachhaltigkeitsberichterstattung bewerten Unternehmensverantwortung",
+                "japanese": "ESG評価（環境、社会、ガバナンス）とサステイナビリティ報告は、投資家とステークホルダーに対する企業責任と環境への影響を評価します。",
+                "usage": "ESGと持続可能性報告を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-033-q1",
+          "type": "fill-blank",
+          "question": "「エネルギー転換は化石燃料から再生可能エネルギーへの転換です」をドイツ語で言ってください。",
+          "answer": "Die Energiewende ist ein strategischer Übergang von fossilen Brennstoffen zu erneuerbaren Energien."
+        },
+        {
+          "id": "de-033-q2",
+          "type": "multiple-choice",
+          "question": "再生可能エネルギー源の例は？",
+          "options": [
+            "太陽光、風力、水力、バイオマス、地熱",
+            "石炭のみ",
+            "石油だけ",
+            "天然ガス"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-033-q3",
+          "type": "fill-blank",
+          "question": "「太陽光発電は太陽光を電気に変換します」をドイツ語で言ってください。",
+          "answer": "Photovoltaik (PV) konvertiert Sonnenlicht direkt in Elektrizität durch Halbleitermaterialien."
+        },
+        {
+          "id": "de-033-q4",
+          "type": "multiple-choice",
+          "question": "風力発電の効率の例は？",
+          "options": [
+            "陸上40-60%、洋上45-50%",
+            "10%以下",
+            "すべてが80%以上",
+            "効率がない"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-033-q5",
+          "type": "fill-blank",
+          "question": "「スマートグリッドはデジタル電力網です」をドイツ語で言ってください。",
+          "answer": "Smart Grids sind digitale Stromnetze, die Erzeugung, Verteilung, und Verbrauch integrieren."
+        },
+        {
+          "id": "de-033-q6",
+          "type": "matching",
+          "question": "再生可能エネルギー技術とその説明を正しく組み合わせてください。",
+          "pairs": [
+            {"tech": "PV", "description": "太陽光発電"},
+            {"tech": "Wind", "description": "風力発電"},
+            {"tech": "Hydro", "description": "水力発電"}
+          ]
+        },
+        {
+          "id": "de-033-q7",
+          "type": "fill-blank",
+          "question": "「グリーンテクノロジーは炭素フットプリントを削減します」をドイツ語で言ってください。",
+          "answer": "Grüne Technologien reduzieren Kohlenstoff-Fußabdrücke und fördern nachhaltiges Leben."
+        },
+        {
+          "id": "de-033-q8",
+          "type": "multiple-choice",
+          "question": "ESGの構成要素は？",
+          "options": [
+            "環境、社会、ガバナンス",
+            "経済のみ",
+            "企業規模だけ",
+            "利益"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "エネルギー・再生可能エネルギー：太陽光・風力・スマートグリッド・グリーン技術",
+          "duration": "35分",
+          "description": "エネルギー転換とエネルギー政策。太陽光発電技術。風力発電システム。水力・地熱・バイオマス。エネルギー貯蔵技術。スマートグリッド。デマンドレスポンス。グリーンテクノロジー。循環経済。ESG評価。"
+        },
+        {
+          "type": "grammar",
+          "title": "エネルギー業界用語とサステイナビリティ表現",
+          "content": "エネルギー用語：Renewable Energy（再生可能エネルギー）、Photovoltaic（太陽光発電）、Wind Turbine（風力タービン）、Energy Storage（エネルギー貯蔵）。技術用語：Smart Grid（スマートグリッド）、Demand Response（デマンドレスポンス）、Internet of Things（IoT）、Energy Efficiency（エネルギー効率）。サステイナビリティ用語：Carbon Footprint（炭素フットプリント）、Circular Economy（循環経済）、ESG（環境・社会・ガバナンス）。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツのエネルギー転換（Energiewende）",
+          "content": "ドイツ：2050年までに炭素中立達成目標。再生可能エネルギー比率：2023年50%超。主力：風力（ドイツ総発電電力の25%）、太陽光。政策：FIT（固定価格買取制度）廃止→競争入札制度。地域分布型エネルギー。"
+        },
+        {
+          "type": "note",
+          "title": "再生可能エネルギー技術",
+          "content": "太陽光：単結晶シリコン、薄膜、ペロブスカイト（次世代）。風力：陸上2-5MW、洋上10-15MW以上。水力：大規模ダム、小規模水力。地熱：発電、温熱利用。バイオマス：農業廃棄物、木質ペレット。"
+        },
+        {
+          "type": "note",
+          "title": "エネルギー貯蔵と電力管理",
+          "content": "バッテリー：リチウムイオン、全個体電池。機械的：揚水発電、圧縮空気。化学的：水素（グリーン水素）、合成燃料。需要側管理：スマートメーター、EVチャージング、建物の熱貯蔵。"
+        },
+        {
+          "type": "note",
+          "title": "グリーン産業とビジネスモデル",
+          "content": "グリーンテクノロジー産業：太陽光・風力製造、蓄電池、EV充電インフラ。ビジネスモデル：PPA（電力購買契約）、エネルギー管理サービス、屋根借地型太陽光。雇用創出と地域経済。"
+        },
+        {
+          "type": "practice",
+          "title": "大規模再生可能エネルギープロジェクト企画と実行計画",
+          "content": "あなたがドイツのエネルギー企業のプロジェクトマネージャーとします。大規模な再生可能エネルギープロジェクト（太陽光農場 + 風力発電所）の企画を立案します。サイトの選定・環境評価、技術仕様（容量・効率）、スマートグリッド統合、エネルギー貯蔵システム設計、資金調達戦略、規制対応、地域コミュニティとの連携、環境への影響評価、10年財務予測、ESG報告を含めます。"
+        }
+      ]
     }
   ]
 }
