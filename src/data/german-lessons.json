@@ -1422,6 +1422,49 @@
           "question": "「まっすぐ進んでください」をドイツ語で言ってください。",
           "hint": "「Gehen Sie」で始まります",
           "answer": "Gehen Sie geradeaus."
+        },
+        {
+          "id": "de-006-q5",
+          "type": "fill-blank",
+          "question": "「駅はどこですか？」をドイツ語で言ってください。",
+          "hint": "「Wo ist」で始まります",
+          "answer": "Wo ist der Bahnhof?"
+        },
+        {
+          "id": "de-006-q6",
+          "type": "multiple-choice",
+          "question": "「Hin- und Rückfahrt」という表現の意味として正しいのはどれですか？",
+          "options": [
+            "片道チケット",
+            "往復チケット",
+            "1等車の切符",
+            "グループチケット"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "de-006-q7",
+          "type": "fill-blank",
+          "question": "「左に曲がってください」をドイツ語で言ってください。",
+          "hint": "「Biegen Sie」で始まります",
+          "answer": "Biegen Sie nach links ab."
+        },
+        {
+          "id": "de-006-q8",
+          "type": "fill-blank",
+          "question": "「乗り換える必要がありますか？」をドイツ語で言ってください。",
+          "answer": "Muss ich umsteigen?"
+        },
+        {
+          "id": "de-006-q9",
+          "type": "matching",
+          "question": "以下の交通関連用語を正しく組み合わせてください。",
+          "pairs": [
+            {"german": "Bahnsteig", "meaning": "プラットフォーム"},
+            {"german": "Gleis", "meaning": "線路"},
+            {"german": "Fahrkarte", "meaning": "乗車券"},
+            {"german": "Zug", "meaning": "列車"}
+          ]
         }
       ],
       "resources": [
@@ -1429,17 +1472,38 @@
           "type": "video",
           "title": "ドイツ交通機関実践ガイド",
           "url": "#",
-          "duration": "11分"
+          "duration": "13分",
+          "description": "駅での乗車券購入、プラットフォーム確認、乗り換え手続き、道案内を含む実践会話"
         },
         {
           "type": "grammar",
           "title": "命令形（Imperativ）",
-          "content": "方向指示では敬語命令形を使用します。Gehen Sie～, Biegen Sie～ など。これは敬意を示しつつ指示する表現。"
+          "content": "方向指示では敬語命令形を使用します。Gehen Sie～, Biegen Sie～ など。これは敬意を示しつつ指示する表現。不規則動詞の命令形は特に注意が必要。"
+        },
+        {
+          "type": "grammar",
+          "title": "前置詞と方向表現",
+          "content": "nach（～へ）、von（～から）、bis（～まで）など。特に nach + 都市名で「～へ」を表します。Ich fahre nach Berlin.（ベルリンへ行きます）"
         },
         {
           "type": "note",
           "title": "ドイツ鉄道システム",
-          "content": "ドイツ国鉄（DB）は時間に正確で有名。DBのアプリやウェブサイトで切符購入・乗車変更が可能。BahnCard（定期乗車券）があると割引がある。"
+          "content": "ドイツ国鉄（DB）は時間に正確で有名。DBのアプリやウェブサイトで切符購入・乗車変更が可能。BahnCard（定期乗車券）があると割引がある。各駅には自動販売機（Fahrkartenautomat）もある。"
+        },
+        {
+          "type": "note",
+          "title": "切符等級と乗車料金",
+          "content": "ドイツ列車には1等車（1. Klasse）と2等車（2. Klasse）があります。1等車はより快適で静かですが、割高です。早期購入割引（Super Saver など）を利用するとお得です。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツの方向感覚と案内",
+          "content": "ドイツ人は詳細で正確な方向指示を好みます。メートル単位で距離を告げることも多いです。右（rechts）/左（links）/直進（geradeaus）の基本方向は重要です。"
+        },
+        {
+          "type": "practice",
+          "title": "交通ロールプレイ",
+          "content": "友人と「駅員と乗客」の役割分担で、切符購入 → プラットフォーム確認 → 目的地到着までの会話を実践してみてください。複雑な乗り換え手続きや迷って道を尋ねるシナリオも効果的です。"
         }
       ]
     }
