@@ -1506,6 +1506,194 @@
           "content": "友人と「駅員と乗客」の役割分担で、切符購入 → プラットフォーム確認 → 目的地到着までの会話を実践してみてください。複雑な乗り換え手続きや迷って道を尋ねるシナリオも効果的です。"
         }
       ]
+    },
+    {
+      "id": "de-007",
+      "level": 4,
+      "title": "上級 - ビジネスコミュニケーション",
+      "titleDe": "Fortgeschrittene - Geschäftskommunikation",
+      "objectives": [
+        "ビジネスミーティングでの正式な表現を習得する",
+        "契約書や提案書の基本的な語彙を理解する",
+        "プレゼンテーションの表現を使いこなせる",
+        "複雑なビジネス交渉の会話ができる"
+      ],
+      "content": {
+        "introduction": "ドイツはビジネス大国です。正式なビジネスコミュニケーションにはドイツ語の敬語（特に Sie）が必須です。このレッスンでは、ビジネスメール、会議、プレゼンテーション、契約交渉などで使う上級表現を習得します。",
+        "sections": [
+          {
+            "title": "ビジネスミーティング開始",
+            "phrases": [
+              {
+                "german": "Guten Tag, mein Name ist Mueller. Ich freue mich, Sie kennenzulernen.",
+                "romaji": "GOO-ten TAHG, mayn NAH-me ist MÜL-ler. Ikh FROY-uh mikh, zee KEN-nen-tsoo-LAIR-nen.",
+                "japanese": "こんにちは。私の名前はミュラーです。皆様にお目にかかれて光栄です。",
+                "usage": "フォーマルな自己紹介"
+              },
+              {
+                "german": "Ich bin von der Firma XYZ hier.",
+                "romaji": "ikh bin fon der FIR-mah XYZ heer",
+                "japanese": "私はXYZ社から参りました。",
+                "usage": "会社紹介"
+              },
+              {
+                "german": "Können wir die Tagesordnung besprechen?",
+                "romaji": "KER-nen veer dee TAH-ges-or-noong buh-SHPREH-khen?",
+                "japanese": "議題について議論できますか？",
+                "usage": "会議開始"
+              },
+              {
+                "german": "Das ist unser Hauptziel für dieses Projekt.",
+                "romaji": "dahs ist UN-zer HOUPT-tsyl für DEE-zes pro-YEKT",
+                "japanese": "これがこのプロジェクトの主要目標です。",
+                "usage": "プロジェクト目標の説明"
+              }
+            ]
+          },
+          {
+            "title": "提案と交渉",
+            "phrases": [
+              {
+                "german": "Wir möchten einen Vertrag mit Ihnen abschließen.",
+                "romaji": "veer MERKH-ten AY-nen FER-trag mit EE-nen AHP-shlysan",
+                "japanese": "私たちは貴社と契約を結びたいのです。",
+                "usage": "契約意向の表明"
+              },
+              {
+                "german": "Die Konditionen sind wie folgt...",
+                "romaji": "dee KON-dish-yo-nen zind vee FOL-gent",
+                "japanese": "条件は以下の通りです。",
+                "usage": "条件提示"
+              },
+              {
+                "german": "Können wir über den Preis verhandeln?",
+                "romaji": "KER-nen veer Ü-ber den PRIES fer-HAHN-deln?",
+                "japanese": "価格について交渉することは可能ですか？",
+                "usage": "価格交渉の切り出し"
+              },
+              {
+                "german": "Wir können einen Rabatt von 10 Prozent anbieten.",
+                "romaji": "veer KER-nen AY-nen rah-BAHT fon TSEN pro-TSENT AHN-bee-ten",
+                "japanese": "10パーセントの割引を提供できます。",
+                "usage": "割引提案"
+              }
+            ]
+          },
+          {
+            "title": "プレゼンテーション",
+            "phrases": [
+              {
+                "german": "Ich möchte Ihnen die Ergebnisse präsentieren.",
+                "romaji": "ikh MERKH-tuh EE-nen dee er-GAY-bnis-uh PRAY-zen-tee-ren",
+                "japanese": "結果をお客様にご説明したいのです。",
+                "usage": "プレゼンテーション開始"
+              },
+              {
+                "german": "Wie Sie sehen, sind die Verkaufszahlen um 20 Prozent gestiegen.",
+                "romaji": "vee zee ZAY-en, zind dee fer-KOUWFS-tsahl-en um TSVAHN-tsikh pro-TSENT guh-SHTEE-gen",
+                "japanese": "ご覧の通り、売上は20パーセント増加しました。",
+                "usage": "データ提示"
+              },
+              {
+                "german": "Dies zeigt, dass unsere Strategie erfolgreich ist.",
+                "romaji": "dees TSYGT, dahs UN-zer shtra-TAY-zhee er-FOLK-rykhh ist",
+                "japanese": "これは私たちの戦略が成功していることを示しています。",
+                "usage": "分析結論"
+              }
+            ]
+          },
+          {
+            "title": "契約書用語",
+            "items": [
+              {"german": "Vertrag", "japanese": "契約"},
+              {"german": "Bedingung", "japanese": "条件"},
+              {"german": "Preis", "japanese": "価格"},
+              {"german": "Zahlung", "japanese": "支払い"},
+              {"german": "Lieferung", "japanese": "納期"},
+              {"german": "Qualität", "japanese": "品質"},
+              {"german": "Garantie", "japanese": "保証"},
+              {"german": "Kündigung", "japanese": "解約"},
+              {"german": "Rabatt", "japanese": "割引"},
+              {"german": "Provision", "japanese": "コミッション"}
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-007-q1",
+          "type": "fill-blank",
+          "question": "「私はXYZ社から参りました」をドイツ語で言ってください。",
+          "answer": "Ich bin von der Firma XYZ hier."
+        },
+        {
+          "id": "de-007-q2",
+          "type": "fill-blank",
+          "question": "「私たちは契約を結びたいのです」をドイツ語で言ってください。",
+          "hint": "「Wir möchten」で始まります",
+          "answer": "Wir möchten einen Vertrag mit Ihnen abschließen."
+        },
+        {
+          "id": "de-007-q3",
+          "type": "multiple-choice",
+          "question": "「Die Konditionen sind wie folgt」という表現の意味として正しいのはどれですか？",
+          "options": [
+            "条件は以下の通りです",
+            "条件に同意しません",
+            "条件の確認をしてください",
+            "条件は不明です"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-007-q4",
+          "type": "fill-blank",
+          "question": "「10パーセントの割引を提供できます」をドイツ語で言ってください。",
+          "hint": "「Wir können」で始まります",
+          "answer": "Wir können einen Rabatt von 10 Prozent anbieten."
+        },
+        {
+          "id": "de-007-q5",
+          "type": "fill-blank",
+          "question": "「議題について議論できますか？」をドイツ語で言ってください。",
+          "hint": "「Können wir」で始まります",
+          "answer": "Können wir die Tagesordnung besprechen?"
+        },
+        {
+          "id": "de-007-q6",
+          "type": "matching",
+          "question": "以下のビジネス用語を正しく組み合わせてください。",
+          "pairs": [
+            {"german": "Vertrag", "meaning": "契約"},
+            {"german": "Zahlung", "meaning": "支払い"},
+            {"german": "Lieferung", "meaning": "納期"},
+            {"german": "Kündigung", "meaning": "解約"}
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツビジネス交渉実践",
+          "duration": "15分",
+          "description": "実際のビジネスミーティング、プレゼンテーション、交渉シーンの実践会話"
+        },
+        {
+          "type": "grammar",
+          "title": "ビジネス敬語と正式表現",
+          "content": "ビジネスでは Sie を使用し、より丁寧な表現を用います。Könnten Sie～? (Could you～?) という条件法も頻繁に使用されます。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツのビジネス文化",
+          "content": "ドイツのビジネス会話は直接的で、くどい前置きを避けることが重要です。時間を大切にし、議論は論理的に進めることが期待されます。"
+        },
+        {
+          "type": "practice",
+          "title": "ビジネス交渉ロールプレイ",
+          "content": "友人と「営業と購買部長」の役割を分担し、提案 → 交渉 → 合意 までの流れを実践してみてください。契約条件や価格交渉など、複雑なシナリオに挑戦しましょう。"
+        }
+      ]
     }
   ]
 }
