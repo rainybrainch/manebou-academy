@@ -412,17 +412,38 @@
         {
           "type": "grammar",
           "title": "複合数字の規則",
-          "content": "ドイツ語では英語と異なり、下の位を先に言います。例：23 = 'dreiundzwanzig'（3と20）"
+          "content": "ドイツ語では英語と異なり、下の位を先に言います。例：23 = 'dreiundzwanzig'（3と20）。21〜99の複合数字はすべてこのパターンで、中間に 'und' を挿入します。"
+        },
+        {
+          "type": "grammar",
+          "title": "序数の基本（1〜19）",
+          "content": "序数（第1、第2番目など）は基本的に「数字+-te」で作られます。例外：erste（1番目）、dritte（3番目）、siebte（7番目）。文法上は形容詞で、名詞に続いて性・数・格で変化します。"
         },
         {
           "type": "note",
           "title": "11と12の特殊性",
-          "content": "11（elf）と12（zwölf）は独特の形です。13以降は通常のパターンに従い始めます。"
+          "content": "11（elf）と12（zwölf）は独特の形です。13以降は通常のパターンに従い始めます。ただし序数では 11. = elfte、12. = zwölfte となります。"
+        },
+        {
+          "type": "note",
+          "title": "曜日の語源",
+          "content": "ドイツ語の曜日は北欧神話に由来します。Montag（月曜）= Luna（月）、Mittwoch（水曜）= Mercury（水星）の概念、Donnerstag（木曜）= Thor（雷神ドナー）、Freitag（金曜）= Frija/Freya（愛と美の女神）。これらの語源を知ると曜日を忘れにくくなります。"
+        },
+        {
+          "type": "note",
+          "title": "月名の言語変化",
+          "content": "ドイツ語の月名は一部にウムラウトを含みます：Januar、Februar、März（ä）、April、Mai、Juni、Juli、August、September、Oktober、November、Dezember。発音時に注意してください。"
         },
         {
           "type": "practice",
           "title": "数字練習",
-          "content": "友人と数字をランダムに呼び合う練習をしてみてください。"
+          "content": "友人と数字をランダムに呼び合う練習をしてみてください。電話番号交換や価格表示で数字を聞く練習も効果的です。"
+        },
+        {
+          "type": "video",
+          "title": "ドイツ語の数字・曜日・月名発音ガイド",
+          "duration": "9分",
+          "description": "複合数字の発音、曜日と月名の正確な発音、文化的背景の解説を含む"
         }
       ]
     },
@@ -594,24 +615,75 @@
             "1と2は同じ意味"
           ],
           "answer": 3
+        },
+        {
+          "id": "de-003-q6",
+          "type": "fill-blank",
+          "question": "「私は医者です（女性形）」をドイツ語で言ってください。",
+          "hint": "女性形は -in で作られます",
+          "answer": "Ich bin Ärztin."
+        },
+        {
+          "id": "de-003-q7",
+          "type": "multiple-choice",
+          "question": "「Ich habe einen Bruder」が意味するのはどれですか？",
+          "options": [
+            "私は兄がいます",
+            "私は兄弟がいます",
+            "私は弟がいます",
+            "1と3の両方の可能性がある"
+          ],
+          "answer": 3
+        },
+        {
+          "id": "de-003-q8",
+          "type": "fill-blank",
+          "question": "「私は会社で働いています」をドイツ語で言ってください。",
+          "hint": "「Ich arbeite」で始まります",
+          "answer": "Ich arbeite in einem Betrieb."
+        },
+        {
+          "id": "de-003-q9",
+          "type": "matching",
+          "question": "以下の職業を男性形・女性形と正しく組み合わせてください。",
+          "pairs": [
+            {"male": "Lehrer", "female": "Lehrerin"},
+            {"male": "Arzt", "female": "Ärztin"},
+            {"male": "Ingenieur", "female": "Ingenieurin"}
+          ]
         }
       ],
       "resources": [
         {
           "type": "grammar",
           "title": "haben 動詞の重要性",
-          "content": "haben は「持つ」という基本的な意味の他、多くの慣用表現で使用されます。「Hunger haben（お腹が空いている）」「Angst haben（怖い）」など。"
+          "content": "haben は「持つ」という基本的な意味の他、多くの慣用表現で使用されます。「Hunger haben（お腹が空いている）」「Angst haben（怖い）」など。ドイツ語では身体的・心理的な状態を haben を使って表現することが多いです。"
+        },
+        {
+          "type": "grammar",
+          "title": "haben の活用表",
+          "content": "ich habe / du hast / er, sie, es hat / wir haben / ihr habt / sie (您) haben。現在形の活用は比較的規則的です。"
         },
         {
           "type": "video",
           "title": "家族紹介と職業の会話",
           "url": "#",
-          "duration": "9分"
+          "duration": "12分"
         },
         {
           "type": "note",
           "title": "ドイツ語の男性形・女性形",
-          "content": "職業に -in をつけることで女性形になります。例：Lehrer (男性) → Lehrerin (女性)。ドイツ語では言語の性（gender）が重要です。"
+          "content": "職業に -in をつけることで女性形になります。例：Lehrer (男性) → Lehrerin (女性)。多くの職業名がこのパターンに従いますが、一部例外もあります。ドイツ語では言語の性（gender）が文法上重要です。"
+        },
+        {
+          "type": "note",
+          "title": "家族構成のドイツ文化",
+          "content": "ドイツでは親しい間柄でも敬語を使うことが一般的です。同僚や上司との会話では「Sie」を使い、「du」は家族や親友に限定されます。職場での自己紹介では、まず敬語（Mein Name ist...）から始めるのが礼儀です。"
+        },
+        {
+          "type": "practice",
+          "title": "家族の説明練習",
+          "content": "自分の家族構成を3〜4文で説明する練習をしてみてください。「Ich habe einen Bruder und eine Schwester. Mein Vater ist Ingenieur und meine Mutter ist Lehrerin.」のような文を作ってみましょう。"
         }
       ]
     },
