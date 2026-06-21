@@ -7108,6 +7108,225 @@
           "content": "あなたが B2B SaaS 企業のマーケティングマネージャーとします。新製品ローンチのための総合的なデジタルマーケティングキャンペーンを企画します。ターゲットオーディエンス分析、ペルソナ開発、カスタマージャーニーマッピング、マルチチャネル戦略（SEO、SEM、Social Media、Email、Content）の設計を含めます。具体的な KPI 設定、予算配分、タイムライン、各チャネルの成功メトリクスと測定方法を詳細に述べてください。"
         }
       ]
+    },
+    {
+      "id": "de-032",
+      "level": 5,
+      "title": "観光・ホスピタリティ：ホテル管理・旅行企画・顧客サービス",
+      "titleDe": "Tourismus und Gastgewerbe: Hotelmanagement, Reiseplanung, Kundenservice",
+      "objectives": [
+        "ホテル業界の運営管理と顧客サービスの基本を理解する",
+        "旅行企画、観光商品、顧客体験設計に関する専門用語を習得する",
+        "マルチカルチュラルな顧客対応とコミュニケーションスキルを習得する",
+        "観光業のデジタル化とオンライン予約システムを理解する"
+      ],
+      "content": {
+        "introduction": "観光とホスピタリティはドイツと韓国の両国で重要な産業です。ドイツは歴史的名所と文化観光、韓国は先進的なホテル業界で知られています。このレッスンでは、ホテル経営、旅行企画、顧客サービス、観光マーケティング、多言語顧客対応に関する高度なドイツ語を学びます。",
+        "sections": [
+          {
+            "title": "ホテル業界と宿泊施設管理",
+            "phrases": [
+              {
+                "german": "Hotelmanagement umfasst Betriebsabläufe, Personalverwaltung, Gastkontakt, Reservierungssystem, Finanzmanagement, und Qualitätssicherung, um optimale Gasterlebnisse zu schaffen.",
+                "romaji": "Hotelmanagement umfasst Betriebsabläufe, Personalverwaltung, Gastkontakt, Reservierungssystem",
+                "japanese": "ホテル経営は、運営プロセス、人事管理、ゲストコンタクト、予約システム、財務管理、品質保証を含み、最適な宿泊体験を創造します。",
+                "usage": "ホテル経営の主要機能を説明するとき"
+              },
+              {
+                "german": "Klassifizierung von Unterkunftsbetrieben reicht von Budget-Hotels, über Mid-Range-Hotels, bis zu Luxury-Resorts, abhängig von Ausstattung, Service-Niveau, und Zielgruppe.",
+                "romaji": "Klassifizierung von Unterkunftsbetrieben reicht von Budget-Hotels, über Mid-Range-Hotels",
+                "japanese": "宿泊施設の分類は、バジェットホテル、ミッドレンジホテル、ラグジュアリーリゾートまで及び、設備、サービスレベル、ターゲット層に依存します。",
+                "usage": "ホテルカテゴリーを説明するとき"
+              },
+              {
+                "german": "Gastzufriedenheit und Kundenservice sind zentral im Hotelgewerbe: Training von Mitarbeitern, Reaktion auf Beschwerde, Personalisierung, und Loyalty-Programme sind kritisch.",
+                "romaji": "Gastzufriedenheit und Kundenservice sind zentral im Hotelgewerbe: Training von Mitarbeitern",
+                "japanese": "ゲスト満足度と顧客サービスはホテル業界の中心：従業員トレーニング、苦情対応、パーソナライゼーション、ロイヤルティプログラムが重要です。",
+                "usage": "顧客サービス戦略を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "旅行企画と観光商品設計",
+            "phrases": [
+              {
+                "german": "Reiseplanung beinhaltet Destinationsauswahl, Routenplanung, Unterkunftsbuchung, Aktivitäten, Verpflegung, und Transportlogistik, um unvergessliche Erlebnisse zu kreieren.",
+                "romaji": "Reiseplanung beinhaltet Destinationsauswahl, Routenplanung, Unterkunftsbuchung",
+                "japanese": "旅行企画は、目的地選択、ルート計画、宿泊予約、アクティビティ、食事、輸送ロジスティクスを含み、忘れられない体験を創造します。",
+                "usage": "旅行企画プロセスを説明するとき"
+              },
+              {
+                "german": "Tourismuspakete (All-Inclusive-Reisen, Abenteuer-Touren, Kulturreisen, Wellness-Retreats) müssen Bedürfnisse verschiedener Zielgruppen erfüllen und differenzierte Preismodelle anbieten.",
+                "romaji": "Tourismuspakete (All-Inclusive-Reisen, Abenteuer-Touren, Kulturreisen, Wellness-Retreats)",
+                "japanese": "観光パッケージ（オールインクルーシブ旅行、アドベンチャーツアー、文化旅行、ウェルネスリトリート）はさまざまなターゲット層のニーズを満たし、差別化された価格モデルを提供する必要があります。",
+                "usage": "観光商品の種類を説明するとき"
+              },
+              {
+                "german": "Nachhaltige Tourismuspraktiken fördern lokale Gemeinschaften, schützen Umwelt, respektieren Kulturen, und schaffen langfristige wirtschaftliche Vorteile für Destinationen.",
+                "romaji": "Nachhaltige Tourismuspraktiken fördern lokale Gemeinschaften, schützen Umwelt",
+                "japanese": "持続可能な観光慣行は地域コミュニティを促進し、環境を保護し、文化を尊重し、目的地に長期的な経済的利益を創造します。",
+                "usage": "サステイナブルツーリズムを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "デジタルツーリズムとオンライン予約システム",
+            "phrases": [
+              {
+                "german": "Online-Buchungsplattformen (Booking.com, Airbnb, Expedia) haben Reisebuchungen revolutioniert und ermöglichen direkte Vergleiche, Bewertungen, mobile Booking, und personalisierte Empfehlungen.",
+                "romaji": "Online-Buchungsplattformen (Booking.com, Airbnb, Expedia) haben Reisebuchungen revolutioniert",
+                "japanese": "オンライン予約プラットフォーム（Booking.com、Airbnb、Expedia）は旅行予約を革命化し、直接比較、レビュー、モバイル予約、パーソナライズされた推奨を実現します。",
+                "usage": "オンライン予約システムの影響を説明するとき"
+              },
+              {
+                "german": "Customer Experience (CX) in Tourismus umfasst Pre-Booking-Phase, Buchung, Pre-Arrival-Communication, On-Site-Experience, Post-Stay-Feedback, um Gesamtzufriedenheit zu erhöhen.",
+                "romaji": "Customer Experience (CX) in Tourismus umfasst Pre-Booking-Phase, Buchung, Pre-Arrival-Communication",
+                "japanese": "観光における顧客体験（CX）は、予約前段階、予約、到着前通信、現地体験、滞在後フィードバックを含み、全体的な満足度を向上させます。",
+                "usage": "顧客体験の全体的なフローを説明するとき"
+              },
+              {
+                "german": "Digitales Marketing für Tourismus nutzt Social Media, Influencer-Partnerships, Virtual Tours, User-Generated Content, und SEO, um Destinationen und Hotels zu bewerben.",
+                "romaji": "Digitales Marketing für Tourismus nutzt Social Media, Influencer-Partnerships, Virtual Tours",
+                "japanese": "観光のデジタルマーケティングはソーシャルメディア、インフルエンサーパートナーシップ、バーチャルツアー、ユーザー生成コンテンツ、SEOを活用して、目的地とホテルを宣伝します。",
+                "usage": "観光マーケティング戦略を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "多言語顧客対応と文化的感受性",
+            "phrases": [
+              {
+                "german": "Mehrsprachige Kundenbetreuung ist essentiell im internationalen Tourismus: Kommunikation in Kundensprache, kulturelle Sensibilität, und Verständnis für lokale Gebräuche verbessern Gastzufriedenheit.",
+                "romaji": "Mehrsprachige Kundenbetreuung ist essentiell im internationalen Tourismus",
+                "japanese": "多言語顧客対応は国際観光に不可欠：顧客言語での通信、文化的感受性、現地慣習の理解がゲスト満足度を向上させます。",
+                "usage": "多言語対応の重要性を説明するとき"
+              },
+              {
+                "german": "Kulturelle Unterschiede in Erwartungen (Ruhezeiten, Mahlzeiten, Distanzen, Privatsphäre, Begrüßungen) erfordern angepasste Service-Protokolle für verschiedene Nationalitäten und Kulturen.",
+                "romaji": "Kulturelle Unterschiede in Erwartungen (Ruhezeiten, Mahlzeiten, Distanzen, Privatsphäre)",
+                "japanese": "期待における文化的違い（休息時間、食事、距離、プライバシー、挨拶）は、異なる国籍と文化に適応したサービスプロトコルを要求します。",
+                "usage": "文化的配慮の必要性を説明するとき"
+              },
+              {
+                "german": "Cross-Cultural Training für Hospitality-Mitarbeiter fördert Verständnis, Toleranz, Adaptabilität, und Problemlösungsfähigkeiten, um internationale Gäste effektiv zu bedienen.",
+                "romaji": "Cross-Cultural Training für Hospitality-Mitarbeiter fördert Verständnis, Toleranz",
+                "japanese": "ホスピタリティ従業員向けの異文化トレーニングは、理解、寛容さ、適応性、問題解決能力を促進し、国際ゲストに効果的に対応します。",
+                "usage": "従業員トレーニングの重要性を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-032-q1",
+          "type": "fill-blank",
+          "question": "「ホテル経営は運営、人事、ゲストコンタクト、予約、財務を含みます」をドイツ語で言ってください。",
+          "answer": "Hotelmanagement umfasst Betriebsabläufe, Personalverwaltung, Gastkontakt, Reservierungssystem, und Finanzmanagement."
+        },
+        {
+          "id": "de-032-q2",
+          "type": "multiple-choice",
+          "question": "ホテル分類の例は？",
+          "options": [
+            "バジェットホテル、ミッドレンジ、ラグジュアリーリゾート",
+            "運営のみ",
+            "予約のみ",
+            "食事だけ"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-032-q3",
+          "type": "fill-blank",
+          "question": "「旅行企画は目的地選択、ルート、宿泊、活動を含みます」をドイツ語で言ってください。",
+          "answer": "Reiseplanung beinhaltet Destinationsauswahl, Routenplanung, Unterkunftsbuchung, Aktivitäten, Verpflegung, und Transportlogistik."
+        },
+        {
+          "id": "de-032-q4",
+          "type": "multiple-choice",
+          "question": "観光パッケージの例は？",
+          "options": [
+            "オールインクルーシブ、アドベンチャー、文化、ウェルネス",
+            "移動のみ",
+            "食事だけ",
+            "宿泊のみ"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-032-q5",
+          "type": "fill-blank",
+          "question": "「オンライン予約プラットフォームは旅行予約を革新し、比較とレビューを可能にしました」をドイツ語で言ってください。",
+          "answer": "Online-Buchungsplattformen haben Reisebuchungen revolutioniert und ermöglichen direkte Vergleiche und Bewertungen."
+        },
+        {
+          "id": "de-032-q6",
+          "type": "matching",
+          "question": "観光のライフステージとその説明を正しく組み合わせてください。",
+          "pairs": [
+            {"stage": "予約前", "description": "情報収集・検討"},
+            {"stage": "予約中", "description": "確認・決済"},
+            {"stage": "滞在中", "description": "体験・サービス"}
+          ]
+        },
+        {
+          "id": "de-032-q7",
+          "type": "fill-blank",
+          "question": "「多言語対応は国際観光で不可欠です」をドイツ語で言ってください。",
+          "answer": "Mehrsprachige Kundenbetreuung ist essentiell im internationalen Tourismus."
+        },
+        {
+          "id": "de-032-q8",
+          "type": "multiple-choice",
+          "question": "異文化トレーニングの目的は？",
+          "options": [
+            "理解、寛容さ、適応性、問題解決能力を促進",
+            "言語習得のみ",
+            "文化の変更",
+            "一方的な対応"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "観光・ホスピタリティ：ホテル管理・旅行企画・顧客サービス・デジタル化",
+          "duration": "34分",
+          "description": "ホテル業界の運営。宿泊施設の分類。顧客サービスと満足度。旅行企画プロセス。観光パッケージ開発。オンライン予約システム。顧客体験設計。多言語対応。デジタルマーケティング。"
+        },
+        {
+          "type": "grammar",
+          "title": "ホスピタリティ・観光用語とサービスコミュニケーション表現",
+          "content": "ホテル用語：Front Desk（フロントデスク）、Concierge（コンシェルジュ）、Housekeeping（ハウスキーピング）、Room Service（ルームサービス）。旅行用語：Itinerary（旅程）、Destination（目的地）、Accommodation（宿泊）、Tour Operator（ツアーオペレーター）。サービス表現：Check-in、Check-out、Book、Reserve、Confirm Booking、Upgrade（アップグレード）。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツの観光とホスピタリティ業界",
+          "content": "ドイツ：Berlin、Munich、Hamburg などの主要観光地。城、ビール文化、オクトーバーフェスト。MICE（ミーティング・インセンティブ・カンファレンス・エキシビション）産業の強さ。高品質のホスピタリティ基準。"
+        },
+        {
+          "type": "note",
+          "title": "オンライン予約システムと旅行プラットフォーム",
+          "content": "Booking.com、Airbnb、Expedia、Trivago などのプラットフォーム。Property Management System（PMS）。Channel Manager。Reviews and Ratings システム。Dynamic Pricing。Loyalty Programs（マイレージプログラム）。"
+        },
+        {
+          "type": "note",
+          "title": "顧客体験（CX）設計と満足度測定",
+          "content": "Customer Journey Mapping。NPS（Net Promoter Score）。CSAT（Customer Satisfaction）。Journey Stages：Awareness → Consideration → Booking → Stay → Post-Stay。Touchpoint Optimization。Personalization Strategies。"
+        },
+        {
+          "type": "note",
+          "title": "サステイナブルツーリズム",
+          "content": "Green Hospitality：エネルギー効率、廃棄物削減。Community Impact：地域経済への貢献、文化保護。環境保全：生物多様性、天然資源管理。Certification Programs：Green Key、EarthCheck。"
+        },
+        {
+          "type": "practice",
+          "title": "統合的なホテルマーケティング・オペレーション戦略の立案",
+          "content": "あなたがドイツの 4 つ星ホテル経営者とします。年間収益と稼働率向上のための統合戦略を立案します。オンライン予約プラットフォーム最適化、SEO・SEM 戦略、ソーシャルメディアマーケティング、ゲストレビュー管理、季節別価格設定、ロイヤルティプログラム設計、多言語カスタマーサービス、スタッフトレーニング計画を含めます。具体的な KPI、マーケティング予算配分、実装タイムライン、期待される成果を詳細に述べてください。"
+        }
+      ]
     }
   ]
 }
