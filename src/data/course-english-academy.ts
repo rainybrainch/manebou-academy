@@ -3,7 +3,7 @@ import { Category } from '@/types';
 export const englishAcademyCategory: Category = {
   id: 'english-academy',
   title: '英語アカデミー',
-  description: '日常英会話から実務英語まで。ニュース×AI×漫画で楽しく学ぶ。全5章・25講義。',
+  description: '【入門〜初級】日常英会話から実務英語まで。ニュース×AI×漫画で楽しく学ぶ。全5章・25講義・完全サポート。発音→日常会話→ビジネス英語→時事ニュース→1分問題集で、360度全方位の英語スキルが定着する。マネぼう塾の最新教育メソッドで、1ヶ月で基礎完成。',
   level: '入門',
   topicCategoryId: 'cat-english',
   image: '/images/genres/genre-english.png',
@@ -86,16 +86,26 @@ export const englishAcademyCategory: Category = {
           title: 'リンキング（音のつながり）',
           duration: '5:30',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
             'リンキングの基本ルールが分かる',
             '実際の会話で音のつながりを聞き取れる',
             'より自然な英語を話せるようになる',
+            '連続音の3パターンが識別できる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: 'ネイティブスピーカーは単語を一つずつ発音しません。音と音が「つながる」ことで、自然な英語になります。',
+              content: 'ネイティブスピーカーは単語を一つずつ発音しません。音と音が「つながる」ことで、自然な英語になります。これが聞き取れないと、ネイティブ速度の会話についていけません。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'リンキングの3パターン',
+            },
+            {
+              type: 'text',
+              content: '**パターン1：子音 + 母音**\n- want + to = "wanna" /wɑnə/\n- got + a = "gotta" /ɡɑtə/\n- gotta go!\n\n**パターン2：同じ音が連続**\n- not + ten = "notten" (tが1つに)\n- does + she = "dushe" (sが延長)\n\n**パターン3：音の同化**\n- miss + you = "missyou"\n- did + you = "didya"',
             },
           ],
         },
