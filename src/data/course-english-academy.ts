@@ -25,6 +25,7 @@ export const englishAcademyCategory: Category = {
             'a, e, i, o, u の発音の違いが分かる',
             '短母音と長母音の区別ができる',
             '単語を正しく発音できる',
+            'IPA（国際音声記号）が読める',
           ],
           sections: [
             {
@@ -34,16 +35,16 @@ export const englishAcademyCategory: Category = {
             {
               type: 'heading',
               level: 2,
-              content: '5つの基本母音',
+              content: '5つの基本母音と発音記号',
             },
             {
               type: 'text',
-              content: '英語の母音には5つの基本音があります：\n\n1. **a** - cat, apple, hand（短母音）\n2. **e** - bed, pen, red（短母音）\n3. **i** - sit, big, lip（短母音）\n4. **o** - dog, box, hot（短母音）\n5. **u** - cup, bus, fun（短母音）',
+              content: '英語の短母音 5つ\n\n1. **[æ]** - a音\n   - cat /kæt/、apple /ˈæpəl/、hand /hænd/\n   - 口の形：広く開く、舌は前へ\n\n2. **[e]** - e音\n   - bed /bed/、pen /pen/、red /red/\n   - 口の形：やや開く、唇は中立\n\n3. **[ɪ]** - i音\n   - sit /sɪt/、big /bɪg/、lip /lɪp/\n   - 口の形：狭く、唇は中立\n\n4. **[ɑ:]** - o音\n   - dog /dɑ:g/、box /bɑ:ks/、hot /hɑ:t/\n   - 口の形：大きく開く、舌は奥へ\n\n5. **[ʌ]** - u音\n   - cup /kʌp/、bus /bʌs/、fun /fʌn/\n   - 口の形：少し開く、舌は中央',
             },
             {
               type: 'highlight-box',
               title: 'ポイント：日本語「あ・い・う・え・お」との違い',
-              content: '日本語の「あ」と英語の「a」は違う音です。英語を話すときは「えいご」のように，まず正確な音を聞いて，そして自分でも発音してみることが大切です。',
+              content: '日本語の「あ」と英語の「a [æ]」は違う音です。英語を話すときは、まず正確な音を「聞く」→「自分で発音してみる」→「録音して比較」の3ステップで習得します。',
             },
           ],
         },
@@ -147,11 +148,27 @@ export const englishAcademyCategory: Category = {
             '基本的な挨拶ができる',
             '簡単な自己紹介ができる',
             '相手の名前を聞ける',
+            '時間帯による挨拶の使い分けができる',
+            'フォーマル vs カジュアルの区別ができる',
           ],
           sections: [
             {
               type: 'info-box',
               content: '「Hello」は最も基本的な挨拶です。この講義で、自然な挨拶と自己紹介をマスターしましょう。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: '基本的な挨拶フレーズ',
+            },
+            {
+              type: 'text',
+              content: '**時間帯による挨拶の使い分け**\n\n1. **朝（6:00～12:00）**\n   - Good morning! / おはよう\n   - 例：Good morning! How are you today?\n\n2. **昼（12:00～17:00）**\n   - Good afternoon! / こんにちは\n   - 例：Good afternoon! Nice to meet you.\n\n3. **夜（17:00～深夜）**\n   - Good evening! / こんばんは\n   - 例：Good evening! I\'m happy to see you.\n\n4. **就寝時**\n   - Good night! / おやすみなさい\n   - ※相手が寝るときに言う（別れの挨拶）\n\n5. **時間帯不問**\n   - Hello! / Hey! / Hi!\n   - カジュアルな場面で使える',
+            },
+            {
+              type: 'highlight-box',
+              title: 'フォーマル vs カジュアル',
+              content: '**フォーマル**（初対面・ビジネス・目上の人）\n- Good morning. My name is John.\n- It\'s a pleasure to meet you.\n\n**カジュアル**（友人・家族）\n- Hey! What\'s up?\n- I\'m Tom. Nice to meet you!',
             },
           ],
         },
@@ -246,6 +263,8 @@ export const englishAcademyCategory: Category = {
             'ビジネスメールの構造が分かる',
             '敬語表現が使える',
             'professional なメール文が書ける',
+            'メール件名のルールが分かる',
+            'フォーマットエラーをなくせる',
           ],
           sections: [
             {
@@ -254,8 +273,17 @@ export const englishAcademyCategory: Category = {
             },
             {
               type: 'highlight-box',
-              title: 'ビジネスメールの基本構成',
-              content: '1. 件名（Subject）\n2. 挨拶（Greeting）\n3. 本文（Body）\n4. 結び（Closing）\n5. 署名（Signature）',
+              title: 'ビジネスメールの5つの構成要素',
+              content: '1. **件名（Subject Line）** - 明確で簡潔\n2. **挨拶（Greeting）** - Dear Mr./Ms.\n3. **本文（Body）** - 3つの段落（導入・本論・結論）\n4. **結び（Closing）** - Best regards, Sincerely,\n5. **署名（Signature）** - フルネーム＋役職',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'ビジネスメール実例',
+            },
+            {
+              type: 'text',
+              content: '**Subject: Meeting Request - Project Alpha Next Steps**\n\nDear Mr. Anderson,\n\nI hope this email finds you well. I am writing to propose a meeting to discuss the next phase of Project Alpha.\n\nWould you be available on Thursday, June 23rd at 2:00 PM EST? I believe we have several important items to cover, including timeline and deliverables.\n\nPlease let me know if this time works for you, or feel free to suggest an alternative.\n\nBest regards,\nTanaka Yoshiko\nProject Manager\nRB Academy Inc.',
             },
           ],
         },
@@ -350,11 +378,27 @@ export const englishAcademyCategory: Category = {
             'ニュース英語の特徴が分かる',
             '難しい単語の推測ができる',
             '聞き取り精度が上がる',
+            'BBC のウェブサイトを活用できる',
+            'ニュース記事を精読できる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: 'BBC News は世界のニュースを英語で配信。発音も標準的で学習に最適です。',
+              content: 'BBC News は世界のニュースを英語で配信。発音も標準的で学習に最適です。イギリス英語を学べるボーナスも。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'BBC で学ぶメリット',
+            },
+            {
+              type: 'text',
+              content: '1. **発音が標準的**（Received Pronunciation - RP）\n   - 明確で聞き取りやすい\n   - 国際的に理解しやすい\n\n2. **語彙が豊か**\n   - アメリカ英語とは異なる単語使い\n   - より高度な表現が学べる\n\n3. **ニュースの信頼性**\n   - 正確な情報で学習できる\n   - 背景知識がつく\n\n4. **Web 版とアプリ**\n   - www.bbc.com/news\n   - BBC Learning English（専用チャンネル）\n   - 字幕・スクリプト完備',
+            },
+            {
+              type: 'highlight-box',
+              title: '学習方法：段階別アプローチ',
+              content: '**初級**：BBC Learning English の短編（3-5分）で基本表現\n**中級**：BBC News の30秒ニュース（字幕付き）で日常語彙\n**上級**：BBC News の長編報道（字幕なし）でネイティブ速度',
             },
           ],
         },
@@ -521,11 +565,27 @@ export const englishAcademyCategory: Category = {
             '英作文が素早くできる',
             'ライティング精度が上がる',
             'アウトプットが習慣化される',
+            '文法エラーを自分で見つけられる',
+            'ネイティブチェックで改善できる',
           ],
           sections: [
             {
               type: 'info-box',
               content: '毎日1分、漫画シーンをもとに英作文練習。インプット→アウトプットの循環で、実践的な英語スキルが定着します。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: '1分問題集のサイクル',
+            },
+            {
+              type: 'text',
+              content: '**Step 1: 漫画シーンを見る（15秒）**\n- 絵とセリフから状況を把握\n- 主人公の感情を推測\n\n**Step 2: 英作文に挑戦（30秒）**\n- 漫画のセリフを英語で言い換える\n- または、次のセリフを予想する\n\n**Step 3: 解答例と比較（10秒）**\n- 提供された解答例を確認\n- 自分の作文との違いを分析\n\n**Step 4: AI フィードバック（5秒）**\n- 文法エラーのチェック\n- より自然な表現の提案',
+            },
+            {
+              type: 'highlight-box',
+              title: 'なぜ漫画で学ぶのか',
+              content: '**利点1：コンテキストが明確**\n- 絵から状況がすぐに分かる\n- 推測力が養われる\n\n**利点2：会話が自然**\n- スラング・カジュアル表現が豊富\n- リアルな英語を学べる\n\n**利点3：毎日続けやすい**\n- 短編（1分）だから習慣化しやすい\n- ゲーム感覚で楽しめる',
             },
           ],
         },
