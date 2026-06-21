@@ -7058,6 +7058,225 @@
           "content": "あなたが韓国の大学の研究チームリーダーとします。3～5年の研究テーマを設定し、研究質問、仮説、方法論、期待される成果を定義します。国際的なパートナー大学との協力体制、学際的専門家の組成、NRF・先導研究センター資金の申請戦略、成果の社会への還元方法を含めた包括的な研究計画を立案してください。"
         }
       ]
+    },
+    {
+      "id": "ko-040",
+      "level": 5,
+      "title": "環境・サステナビリティキャリア：気候変動対応・グリーン産業・環境政策",
+      "titleKo": "환경 및 지속가능성 경력: 기후변화 대응, 녹색 산업, 환경 정책",
+      "objectives": [
+        "環境・サステナビリティセクターのキャリアパスを理解する",
+        "気候変動対応とグリーンテクノロジーに関する専門用語を習得する",
+        "環境政策と国際的な気候協力について理解する",
+        "企業のサステナビリティ戦略と環境リスク管理を習得する"
+      ],
+      "content": {
+        "introduction": "韓国の環境・サステナビリティセクターは急速に成長しており、政府の「グリーン成長」戦略とESG投資の増加により、新しいキャリア機会が生まれています。このレッスンでは、気候変動への対応、再生可能エネルギー産業、環境規制、企業のサステナビリティ戦略に関する高度な韓国語を学びます。",
+        "sections": [
+          {
+            "title": "環境セクターのキャリアと職業多様性",
+            "phrases": [
+              {
+                "korean": "한국의 환경·지속가능성 부문은 재생 에너지, 에너지 효율, 환경 컨설팅, 자연 보존, 폐기물 관리, 물 관리, 그리고 녹색 건설 등 다양한 직책을 포함합니다.",
+                "romaji": "Hangug-ui hwangyeong·jisok ganeung seong bumon-eun jaesaeng eneoji, eneoji hyoeul seong, hwangyeong keonseoling, jayeon boseong, peygimuhl gwanri, mul gwanri, geurigo noksaeg geonseol deung dayanghhan jikcheak-eul pohamhamnida",
+                "japanese": "韓国の環境・サステナビリティセクターは再生可能エネルギー、エネルギー効率、環境コンサルティング、自然保全、廃棄物管理、水管理、グリーン建設などの様々な職位を含みます。",
+                "usage": "環境セクターの職業多様性を説明するとき"
+              },
+              {
+                "korean": "환경 전문가는 환경 공학, 환경 과학, 또는 환경 정책 교육과 함께, ISO 14001 인증이나 한국 환경 컨설턴트 자격 같은 전문 자격증이 필요합니다.",
+                "romaji": "Hwangyeong jeonmun ga-neun hwangyeong gonghak, hwangyeong gwahak, tteoneun hwangyeong jeongchaeg gyoyuk-gwa hamkke, ISO 14001 injeung-i na Hangug hwangyeong keonseoling taeng-ti jagyeog kkatheun jeonmun jagyeokjeung-i piryohamnida",
+                "japanese": "環境専門家は環境工学、環境科学、または環境政策教育と、ISO 14001認証や韓国環境コンサルタント資格などの専門資格が必要です。",
+                "usage": "環境専門家の教育要件を説明するとき"
+              },
+              {
+                "korean": "경력 경로는 환경 관련 부처나 NGO의 인턴십부터 시작하여, 환경 엔지니어, 환경 컨설턴트, 지속가능성 담당자, 녹색 사업 부장으로 발전합니다.",
+                "romaji": "Gyeongnyeol gyeongro-neun hwangyeong gwanryeon bucho na NGO-ui intaenship bu-teo sijak hayeo, hwangyeong enjiniyeo, hwangyeong keonseoling taeng-ti, jisok ganeung seong damndang ja, noksaeg saob bu-jang-euro baljeon hamnida",
+                "japanese": "キャリアパスは環境関連省庁またはNGOのインターンシップから始まり、環境エンジニア、環境コンサルタント、サステナビリティ担当者、グリーン事業部長に発展します。",
+                "usage": "環境セクターのキャリアパスを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "気候変動とグリーンテクノロジー",
+            "phrases": [
+              {
+                "korean": "기후변화는 지구 평균 기온의 상승, 극단적인 날씨 현상, 해수면 상승, 생태 불안정성을 유발하며, 온실가스 배출 감축이 시급합니다.",
+                "romaji": "Gihu byeonhwa-neun jigu pyeonggyun gion-ui sang-ung, geukdan-jeoug-in nalssse hyunsang, haesumyeon sang-ung, saengtae bulansjeong-seong-eul yugihwamyeo, onsilgash baechul gamchuk-i sigub hamnida",
+                "japanese": "気候変動は地球平均気温の上昇、極端な天候現象、海面上昇、生態不安定性を引き起こし、温室効果ガス削減が急務です。",
+                "usage": "気候変動の影響を説明するとき"
+              },
+              {
+                "korean": "태양광, 풍력, 수소 에너지, 그리고 이차 전지(배터리)와 같은 녹색 기술은 저탄소 경제로의 전환을 가능하게 합니다.",
+                "romaji": "Taeyangggwang, pungryeok, suso eneoji, geurigo ich jeonjji (baeteli)-wa kkatheun noksaeg gisul-eun jeotanso gyeongje-ro ui jeonhwan-eul ganeunghage hamnida",
+                "japanese": "太陽光、風力、水素エネルギー、二次電池などのグリーンテクノロジーは低炭素経済への転換を可能にします。",
+                "usage": "グリーンテクノロジーの重要性を説明するとき"
+              },
+              {
+                "korean": "탄소 포집·저장, 순환 경제 모델, 그리고 지속 가능한 농업은 온실가스 감축과 환경 복원을 위한 혁신적 접근입니다.",
+                "romaji": "Tansso pojip·jeojang, sunhwan gyeongje model, geurigo jisok ganeung-hahnn nongeob-eun onsilgash gamchuk-gwa hwangyeong bogwon-eul wihan hyeoksim-jeoug jeobgeun imnida",
+                "japanese": "カーボン回収・貯蔵、循環経済モデル、持続可能な農業はカーボン削減と環境復元のための革新的アプローチです。",
+                "usage": "環境革新のアプローチを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "企業のサステナビリティ戦略と環境リスク管理",
+            "phrases": [
+              {
+                "korean": "기업들은 ESG 기준을 충족하고, 투자자 기대를 만족시키며, 장기적 사업 지속성을 보장하기 위해 지속가능성 전략을 수립합니다.",
+                "romaji": "Gieob deul-eun ESG gijun-eul chungmok hago, tuja ja gidae reul manjogsik-i-myeo, janggijeog saob jisok seong-eul bojang hagi wihae jisok ganeung seong jeonryak-eul subseol hamnida",
+                "japanese": "企業はESG基準を満たし、投資家期待を満たし、長期的事業継続性を保証するためにサステナビリティ戦略を確立します。",
+                "usage": "企業のサステナビリティ戦略を説明するとき"
+              },
+              {
+                "korean": "환경 위험 관리는 잠재적 기후 위험(물리적 위험과 이행 위험)을 파악하고 평가하여 적응 전략을 개발합니다.",
+                "romaji": "Hwangyeong wihom gwanri-neun jamjae-jeoug gihu wihom (mulli-jeoug wihom-gwa ihang wihom)-eul pahag hago pyeongga hayeo jeog-eob jeonryak-eul gaebalhamnida",
+                "japanese": "環境リスク管理は潜在的気候リスク（物理的リスクと移行リスク）を特定し評価して適応戦略を開発します。",
+                "usage": "環境リスク管理を説明するとき"
+              },
+              {
+                "korean": "지속가능성 커뮤니케이션, 그린워싱 방지, 그리고 GRI나 SASB 기준에 따른 신뢰할 수 있는 보고는 투명성과 신뢰성에 필수적입니다.",
+                "romaji": "Jisok ganeung seong keomyunike isyeon, geurin-wossing bangji, geurigo GRI na SASB gijun-e ttareun sinryuehag su isneun bogoga-neun tuthyeongseongg-gwa sinryuoseongg-e pilysu-jeogimnida",
+                "japanese": "サステナビリティコミュニケーション、グリーンウォッシング防止、GRI・SASBスタンダードに基づいた信頼できる報告は透明性と信頼性に必須です。",
+                "usage": "サステナビリティ報告の重要性を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "国際環境政策と気候協力",
+            "phrases": [
+              {
+                "korean": "파리협정(Paris Agreement), UN 지속가능발전목표(SDG), 그리고 각국의 탄소중립 목표는 지구 규모의 기후 행동을 위한 국제적 틀입니다.",
+                "romaji": "Pari hyeopjeong (Paris Agreement), UN jisok ganeung baljeonsesok-pyo (SDG), geurigo gaggug-ui tansso jungnib mokpyo-neun jigu gyumo-ui gihu haengdong-eul wihan guggjae-jeoug tteul imnida",
+                "japanese": "パリ協定、UN持続可能な開発目標（SDG）、各国のカーボンニュートラル目標は地球規模の気候行動のための国際的枠組みです。",
+                "usage": "国際環境政策を説明するとき"
+              },
+              {
+                "korean": "기후 협상은 기술적 전문 지식, 외교 능력, 그리고 산업, 시민사회, 개발도상국과 선진국 간의 이해관계를 조절하는 능력을 요구합니다.",
+                "romaji": "Gihu hyeopssang-eun gisul-jeoug jeonmun jisig, wegyyo neungryeog, geurigo sanob, simin sahwee, gaebael dosang-gug-gwa seonjingug gan-ui ihae gwanggyye-reul jojeol haneun neungryeog-eul yogu hamnida",
+                "japanese": "気候交渉は技術的専門知識、外交能力、産業・市民社会・開発途上国と先進国間の利益を調整する能力を要求します。",
+                "usage": "気候交渉のスキルを説明するとき"
+              },
+              {
+                "korean": "국가 환경 정책, 지역 순환 경제 계획, 그리고 지역 사회의 환경 이니셔티브는 지속 가능한 변화를 위한 다층적 거버넌스를 형성합니다.",
+                "romaji": "Gugga hwangyeong jeongchaeg, jiyeog sunhwan gyeongje gyehoeg, geurigo jiyeog sahwee-ui hwangyeong inishyeotibeu-neun jisok ganeung hahnn byeonhwa-reul wihan dachung-jeoug geobeonensu-reul hyeongseonghamnida",
+                "japanese": "国家環境政策、地域循環経済計画、地域社会の環境イニシアティブは持続可能な変化のための多層的ガバナンスを形成します。",
+                "usage": "環境政策の階層を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-040-q1",
+          "type": "fill-blank",
+          "question": "「環境・サステナビリティセクターは再生可能エネルギー、環境コンサルティング、自然保全を含みます」を韓国語で言ってください。",
+          "answer": "한국의 환경·지속가능성 부문은 재생 에너지, 환경 컨설팅, 자연 보존을 포함합니다."
+        },
+        {
+          "id": "ko-040-q2",
+          "type": "multiple-choice",
+          "question": "環境専門家に必要な教育は？",
+          "options": [
+            "環境工学、環境科学、環境政策 + ISO 14001・環境コンサルタント資格",
+            "ビジネス教育のみ",
+            "高卒で十分",
+            "資格なしで可能"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-040-q3",
+          "type": "fill-blank",
+          "question": "「気候変動は気温上昇と極端な天候現象を引き起こします」を韓国語で言ってください。",
+          "answer": "기후변화는 지구 평균 기온의 상승과 극단적인 날씨 현상을 유발합니다."
+        },
+        {
+          "id": "ko-040-q4",
+          "type": "multiple-choice",
+          "question": "グリーンテクノロジーに含まれるのは？",
+          "options": [
+            "太陽光、風力、水素、バッテリー技術",
+            "石炭とガス発電",
+            "原子力のみ",
+            "従来のエネルギー源のみ"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-040-q5",
+          "type": "fill-blank",
+          "question": "「企業はESG基準を満たすためサステナビリティ戦略を確立します」を韓国語で言ってください。",
+          "answer": "기업들은 ESG 기준을 충족하기 위해 지속가능성 전략을 수립합니다."
+        },
+        {
+          "id": "ko-040-q6",
+          "type": "matching",
+          "question": "環境概念と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"concept": "탄소 중립", "explanation": "カーボンニュートラル"},
+            {"concept": "순환 경제", "explanation": "循環経済"},
+            {"concept": "그린워싱", "explanation": "グリーンウォッシング"}
+          ]
+        },
+        {
+          "id": "ko-040-q7",
+          "type": "fill-blank",
+          "question": "「パリ協定はグローバル気候行動の国際的枠組みです」を韓国語で言ってください。",
+          "answer": "파리협정은 지구 규모의 기후 행동을 위한 국제적 틀입니다."
+        },
+        {
+          "id": "ko-040-q8",
+          "type": "multiple-choice",
+          "question": "気候交渉に必要なスキルは？",
+          "options": [
+            "技術知識、外交能力、ステークホルダーの利益調整",
+            "経済知識のみ",
+            "政治経験だけ",
+            "交渉スキルなし"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国の環境・サステナビリティキャリア：グリーン産業・気候政策・企業戦略",
+          "duration": "29分",
+          "description": "韓国グリーン成長戦略と再生可能エネルギー産業の発展。環境規制の強化と企業のESG対応。韓国の脱炭素化ロードマップ。国際気候交渉での韓国の立場。"
+        },
+        {
+          "type": "grammar",
+          "title": "環境・サステナビリティ用語と政策コミュニケーション表現",
+          "content": "環境複合名詞：기후변화（気候変動）、지속가능성（サステナビリティ）、탄소배출（カーボン排出）、순환경제（循環経済）。政策表現：규제하다（規制する）、지원하다（支援する）、의무화하다（義務化する）。ESG用語：거버넌스（ガバナンス）、투명성（透明性）、책임（責任）。"
+        },
+        {
+          "type": "note",
+          "title": "韓国の環境・グリーン産業の構造",
+          "content": "再生可能エネルギー産業：太陽光・風力の急速な拡大。グリーン建設：建築物の脱炭素化と効率化。電気自動車産業：現代・起亜による展開。环保企業：LG、SK の環境技術開発。"
+        },
+        {
+          "type": "note",
+          "title": "企業のサステナビリティ対応と課題",
+          "content": "ESG報告基準：GRI・SASB・TCFD への適合。グリーンファイナンス：グリーンボンド・サステナビリティ・ローン。サプライチェーン脱炭素化。中小企業の低炭素転換支援。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツと韓国のグリーン産業比較",
+          "content": "ドイツ：Energiewende による長期的エネルギー転換、基礎技術の深掘り。韓国：グリーン成長を通じた急速な産業化、グローバル企業による国際展開。両国で国際的な環境産業競争が激化。"
+        },
+        {
+          "type": "note",
+          "title": "国際気候協力と韓国の外交",
+          "content": "パリ協定での 2030・2050 目標設定。NDC（国가결정기여）への対応。COP会議での韓国の参加。ODA を通じた開発途上国への環境技術移転。"
+        },
+        {
+          "type": "practice",
+          "title": "企業のサステナビリティ戦略と気候対応計画",
+          "content": "あなたが大型製造企業のサステナビリティ担当責任者とします。Scope 1・2・3 のカーボンフットプリント分析を実施し、2030年・2050年の削減目標を設定します。サプライチェーン脱炭素化、再生可能エネルギー導入、従業員教育、グリーンファイナンス活用を含めた包括的な気候対応計画を立案してください。"
+        }
+      ]
     }
   ]
 }
