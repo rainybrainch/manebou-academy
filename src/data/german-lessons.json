@@ -788,6 +788,222 @@
           "content": "ドイツの店舗は品質重視。価格交渉はあまり一般的ではありません。セール（Ausverkauf）期間が年2回あります。"
         }
       ]
+    },
+    {
+      "id": "de-005",
+      "level": 3,
+      "title": "中級 - レストランと食事",
+      "titleDe": "Mittelstufe - Restaurant und Essen",
+      "objectives": [
+        "レストランでの完全な会話ができる",
+        "メニューを理解し、詳しく質問できる",
+        "食事中のマナーと表現を習得する",
+        "特別な食事要望（アレルギー、ベジタリアンなど）を伝えられる"
+      ],
+      "content": {
+        "introduction": "ドイツの食文化は多様で、伝統的なドイツ料理から国際料理まで幅広い選択肢があります。このレッスンでは、レストランでの予約から食事完了まで、すべてのシーンでの会話を習得します。ドイツ人とのビジネスミーティングや社交活動もしばしば食事を伴うため、この能力は重要です。",
+        "sections": [
+          {
+            "title": "レストラン入店・予約",
+            "phrases": [
+              {
+                "german": "Ich möchte einen Tisch für zwei Personen reservieren.",
+                "romaji": "ikh MERKH-tuh AY-nen tish für tsvay pair-ZOH-nen ray-zer-VEER-en",
+                "japanese": "2名のテーブルを予約したいです。",
+                "usage": "電話での予約"
+              },
+              {
+                "german": "Haben Sie einen freien Tisch?",
+                "romaji": "HAH-ben zee AY-nen FRAY-en tish?",
+                "japanese": "空いているテーブルがありますか？",
+                "usage": "入店時の質問"
+              },
+              {
+                "german": "Einen Tisch am Fenster bitte.",
+                "romaji": "AY-nen tish ahm FEN-ster BIT-uh",
+                "japanese": "窓際のテーブルをお願いします。",
+                "usage": "座席位置をリクエスト"
+              },
+              {
+                "german": "Wir möchten Platz nehmen.",
+                "romaji": "veer MERKH-ten plahts NAY-men",
+                "japanese": "席に座りたいです。",
+                "usage": "フォーマルな入席表現"
+              }
+            ]
+          },
+          {
+            "title": "メニュー確認と注文",
+            "phrases": [
+              {
+                "german": "Die Speisekarte bitte.",
+                "romaji": "dee SHPAY-zuh-kar-tuh BIT-uh",
+                "japanese": "メニューをください。",
+                "usage": "メニューリクエスト"
+              },
+              {
+                "german": "Was empfehlen Sie?",
+                "romaji": "vahs em-FLAY-len zee?",
+                "japanese": "何をお勧めされていますか？",
+                "usage": "おすすめ料理の質問"
+              },
+              {
+                "german": "Was sind die Spezialitäten?",
+                "romaji": "vahs zint dee shpay-tsee-ah-lee-TAY-ten?",
+                "japanese": "特別料理は何ですか？",
+                "usage": "店の特徴ある料理を尋ねる"
+              },
+              {
+                "german": "Ich bin Vegetarier.",
+                "romaji": "ikh bin veg-uh-TAH-ree-er",
+                "japanese": "私はベジタリアンです。",
+                "usage": "食事制限の告知"
+              },
+              {
+                "german": "Ich bin allergisch gegen Nüsse.",
+                "romaji": "ikh bin al-LER-gish GAY-gen NÜS-uh",
+                "japanese": "私はナッツアレルギーがあります。",
+                "usage": "アレルギー情報提供"
+              },
+              {
+                "german": "Ich möchte das Schnitzel mit Kartoffeln.",
+                "romaji": "ikh MERKH-tuh dahs SHNIT-zel mit kar-TOF-feln",
+                "japanese": "シュニッツェルとジャガイモをください。",
+                "usage": "具体的な注文"
+              }
+            ]
+          },
+          {
+            "title": "食事中の会話と要望",
+            "phrases": [
+              {
+                "german": "Wie schmeckt es?",
+                "romaji": "vee SHMEKT es?",
+                "japanese": "味はいかがですか？",
+                "usage": "同席者への質問"
+              },
+              {
+                "german": "Das ist köstlich.",
+                "romaji": "dahs ist KERST-likh",
+                "japanese": "これは絶品です。",
+                "usage": "食事への褒め言葉"
+              },
+              {
+                "german": "Das Essen ist kalt.",
+                "romaji": "dahs ES-sen ist KAHLT",
+                "japanese": "料理が冷えています。",
+                "usage": "問題の報告"
+              },
+              {
+                "german": "Können Sie mir noch ein Glas Wasser bringen?",
+                "romaji": "KER-nen zee meer nokh ayn glahs VAHS-ser BRING-en?",
+                "japanese": "もう1杯の水をお持ちいただけますか？",
+                "usage": "追加オーダー"
+              },
+              {
+                "german": "Die Rechnung bitte.",
+                "romaji": "dee RAKH-noong BIT-uh",
+                "japanese": "お会計をお願いします。",
+                "usage": "会計リクエスト"
+              }
+            ]
+          },
+          {
+            "title": "支払いと評価",
+            "phrases": [
+              {
+                "german": "Zusammen oder getrennt?",
+                "romaji": "tsoo-zah-men OH-der guh-TRENNT?",
+                "japanese": "一緒にまたは別ですか？",
+                "usage": "支払い方法確認（ウェイターの質問）"
+              },
+              {
+                "german": "Zusammen bitte.",
+                "romaji": "tsoo-zah-men BIT-uh",
+                "japanese": "一緒でお願いします。",
+                "usage": "支払い方法の指定"
+              },
+              {
+                "german": "Das Essen war hervorragend.",
+                "romaji": "dahs ES-sen var hair-FOR-rah-gent",
+                "japanese": "食事は素晴らしかったです。",
+                "usage": "感謝と感想"
+              },
+              {
+                "german": "Ein Trinkgeld für Sie.",
+                "romaji": "ayn TRINK-gelt für zee",
+                "japanese": "チップです。",
+                "usage": "チップ提供"
+              }
+            ]
+          },
+          {
+            "title": "ドイツ料理の代表的なメニュー",
+            "items": [
+              {"german": "Schnitzel", "japanese": "シュニッツェル（肉のカツ）"},
+              {"german": "Bratwurst", "japanese": "ブラートヴルスト（ソーセージ）"},
+              {"german": "Sauerbraten", "japanese": "ザウアーブラーテン（酢漬け肉）"},
+              {"german": "Kartoffelpuffer", "japanese": "ジャガイモパンケーキ"},
+              {"german": "Spätzle", "japanese": "シュペッツレ（ドイツ風パスタ）"},
+              {"german": "Pretzels", "japanese": "プレッツェル（塩辛いパン）"},
+              {"german": "Schwarzwälder Kirschtorte", "japanese": "黒い森のケーキ"},
+              {"german": "Apfelstrudel", "japanese": "アップルシュトルーデル"}
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-005-q1",
+          "type": "fill-blank",
+          "question": "「メニューをください」をドイツ語で言ってください。",
+          "hint": "「Die Speisekarte」で始まります",
+          "answer": "Die Speisekarte bitte."
+        },
+        {
+          "id": "de-005-q2",
+          "type": "fill-blank",
+          "question": "「2名のテーブルを予約したいです」をドイツ語で言ってください。",
+          "hint": "「Ich möchte」で始まります",
+          "answer": "Ich möchte einen Tisch für zwei Personen reservieren."
+        },
+        {
+          "id": "de-005-q3",
+          "type": "multiple-choice",
+          "question": "「Das ist köstlich」という表現の意味として正しいのはどれですか？",
+          "options": [
+            "これは絶品です",
+            "これは高価です",
+            "これは辛いです",
+            "これは新鮮です"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-005-q4",
+          "type": "fill-blank",
+          "question": "「私はベジタリアンです」をドイツ語で言ってください。",
+          "answer": "Ich bin Vegetarier."
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツレストラン実践会話",
+          "url": "#",
+          "duration": "12分"
+        },
+        {
+          "type": "grammar",
+          "title": "敬語と丁寧な表現",
+          "content": "レストランでは一貫して敬語を使用します。Könnten Sie～? や Bitte... などの表現が基本。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツ食文化",
+          "content": "ドイツではチップ（Trinkgeld）は義務的ではなく、サービスに満足した場合に5-10%を目安に渡します。"
+        }
+      ]
     }
   ]
 }
