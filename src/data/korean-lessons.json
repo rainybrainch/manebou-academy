@@ -11,11 +11,12 @@
       "titleKo": "여행 회화 - 호텔 예약",
       "objectives": [
         "ホテル予約の基本表現を習得する",
-        "部屋のタイプや設備について質問できる",
-        "チェックイン・チェックアウトについて説明できる"
+        "部屋のタイプや設備について正確に質問できる",
+        "チェックイン・チェックアウトプロセスを理解する",
+        "ホテルスタッフとの敬語での会話ができる"
       ],
       "content": {
-        "introduction": "韓国への旅行時に必要なホテル予約の会話を学びます。宿泊施設に関する語彙と表現を習得することで、快適な旅行ができます。",
+        "introduction": "韓国への旅行時に必要なホテル予約の会話を学びます。宿泊施設に関する語彙と表現を習得することで、快適な旅行ができます。韓国のホテルは予約段階、チェックイン時、滞在中、チェックアウト時に異なる表現が使われます。",
         "sections": [
           {
             "title": "ホテル予約の基本表現",
@@ -24,37 +25,49 @@
                 "korean": "숙소를 예약하고 싶습니다.",
                 "romaji": "Suksso-reul yeyak-hago sip-seubnida.",
                 "japanese": "宿泊施設を予約したいです。",
-                "usage": "予約の意思を伝える"
+                "usage": "予約の意思を伝える際の丁寧な表現。ビジネス敬語"
               },
               {
                 "korean": "몇 박이 필요하신가요?",
                 "romaji": "Myeot bagi pil-yo-ha-sin-ga-yo?",
                 "japanese": "何泊ですか？",
-                "usage": "宿泊日数を尋ねる"
+                "usage": "宿泊日数を尋ねる。敬語表現で、相手に敬意を示す"
               },
               {
                 "korean": "싱글 룸 있나요?",
                 "romaji": "Singgeul rum it-na-yo?",
                 "japanese": "シングルルームはありますか？",
-                "usage": "部屋のタイプを尋ねる"
+                "usage": "部屋のタイプを尋ねる。カジュアルな敬語"
               },
               {
                 "korean": "더블 룸으로 주세요.",
                 "romaji": "Deobul rum-eu-ro ju-se-yo.",
                 "japanese": "ダブルルームでお願いします。",
-                "usage": "部屋のタイプをリクエストする"
+                "usage": "部屋のタイプをリクエストする。リクエスト形式"
               },
               {
                 "korean": "아침 식사가 포함되어 있나요?",
                 "romaji": "Achim siksaga poham-doe-eo it-na-yo?",
                 "japanese": "朝食は含まれていますか？",
-                "usage": "朝食の有無を確認"
+                "usage": "朝食の有無を確認。ホテルプランの詳細確認"
               },
               {
                 "korean": "와이파이가 있나요?",
                 "romaji": "Wai-pa-i-ga it-na-yo?",
                 "japanese": "WiFiはありますか？",
-                "usage": "施設の確認"
+                "usage": "施設の確認。無料WiFi有無の確認は重要"
+              },
+              {
+                "korean": "가격이 얼마예요?",
+                "romaji": "Gagyeok-i eol-ma-ye-yo?",
+                "japanese": "料金はいくらですか？",
+                "usage": "宿泊料金を確認する際の表現"
+              },
+              {
+                "korean": "예약금이 필요해요?",
+                "romaji": "Yeyak-geum-i pil-yo-hae-yo?",
+                "japanese": "デポジット（予約金）は必要ですか？",
+                "usage": "支払いについての詳細確認"
               }
             ]
           },
@@ -65,39 +78,49 @@
                 "korean": "체크인 시간이 몇 시예요?",
                 "romaji": "Chekeu-in sigan-i myeot si-ye-yo?",
                 "japanese": "チェックインは何時ですか？",
-                "usage": "チェックイン時間を尋ねる"
+                "usage": "チェックイン時間を尋ねる。通常午後3時から"
               },
               {
                 "korean": "체크아웃 시간이 언제예요?",
                 "romaji": "Chekeu-a-ut sigan-i eonje-ye-yo?",
                 "japanese": "チェックアウトは何時ですか？",
-                "usage": "チェックアウト時間を尋ねる"
+                "usage": "チェックアウト時間を尋ねる。通常午前11時"
               },
               {
                 "korean": "이 열쇠는 몇 번 방입니까?",
                 "romaji": "I yeolswae-neun myeot beon bang-im-ni-kka?",
                 "japanese": "このカギは何号室ですか？",
-                "usage": "部屋番号を確認"
+                "usage": "部屋番号を確認。チェックイン時に必須"
               },
               {
                 "korean": "늦은 체크아웃이 가능한가요?",
                 "romaji": "Neujeun chekeu-a-ut-i ga-neung-han-ga-yo?",
                 "japanese": "遅いチェックアウトは可能ですか？",
                 "usage": "チェックアウト延長をリクエスト"
+              },
+              {
+                "korean": "조용한 방으로 부탁드릴 수 있을까요?",
+                "romaji": "Joyong-han bang-eu-ro butakdeuril su it-eul-kka-yo?",
+                "japanese": "静かな部屋に変えていただけますか？",
+                "usage": "特別なリクエスト"
               }
             ]
           },
           {
             "title": "部屋の設備・サービス",
             "items": [
-              {"korean": "침대", "japanese": "ベッド"},
-              {"korean": "욕실", "japanese": "バスルーム"},
-              {"korean": "에어컨", "japanese": "エアコン"},
-              {"korean": "난방", "japanese": "暖房"},
-              {"korean": "TV", "japanese": "テレビ"},
-              {"korean": "냉장고", "japanese": "冷蔵庫"},
-              {"korean": "책상", "japanese": "机"},
-              {"korean": "의자", "japanese": "椅子"}
+              {"korean": "침대", "japanese": "ベッド", "type": "가구"},
+              {"korean": "욕실", "japanese": "バスルーム", "type": "시설"},
+              {"korean": "에어컨", "japanese": "エアコン", "type": "냉난방"},
+              {"korean": "난방", "japanese": "暖房", "type": "냉난방"},
+              {"korean": "TV", "japanese": "テレビ", "type": "오락"},
+              {"korean": "냉장고", "japanese": "冷蔵庫", "type": "주방"},
+              {"korean": "책상", "japanese": "机", "type": "가구"},
+              {"korean": "의자", "japanese": "椅子", "type": "가구"},
+              {"korean": "샤워실", "japanese": "シャワー室", "type": "욕실"},
+              {"korean": "욕조", "japanese": "バスタブ", "type": "욕실"},
+              {"korean": "헤어드라이어", "japanese": "ヘアドライヤー", "type": "욕실용품"},
+              {"korean": "타올", "japanese": "タオル", "type": "욕실용품"}
             ]
           }
         ]
@@ -121,9 +144,45 @@
             "ファミリールーム"
           ],
           "answer": 0
+        },
+        {
+          "id": "ko-007-q3",
+          "type": "fill-blank",
+          "question": "「チェックインは何時ですか？」を韓国語で言ってください。",
+          "hint": "「체크인」で始まります",
+          "answer": "체크인 시간이 몇 시예요?"
+        },
+        {
+          "id": "ko-007-q4",
+          "type": "multiple-choice",
+          "question": "「조용한 방으로 부탁드릴 수 있을까요?」という表現の意味として正しいのはどれですか？",
+          "options": [
+            "静かな部屋に変えていただけますか？",
+            "この部屋は静かですか？",
+            "静かにしてください",
+            "静かな場所が好きです"
+          ],
+          "answer": 0
         }
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "video",
+          "title": "ホテル予約会話実践",
+          "url": "#",
+          "duration": "10分"
+        },
+        {
+          "type": "grammar",
+          "title": "敬語パターン（-세요 vs -아요）",
+          "content": "ホテルスタッフとの会話では-세요（敬語）を使用することが望ましい。カジュアルな-아요も理解できる必要がある。"
+        },
+        {
+          "type": "note",
+          "title": "韓国のホテル文化",
+          "content": "韓国のホテルは一般的にチェックイン15時、チェックアウト11時。都市部では24時間フロント対応がほぼ標準。"
+        }
+      ]
     },
     {
       "id": "ko-008",
