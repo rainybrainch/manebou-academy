@@ -4500,6 +4500,220 @@
           "content": "友人とビジネスアイデアについて議論し、簡単なビジネスプランを作成してみてください。問題認識、解決案、ビジネスモデル、資金需要、成長戦略を含めます。その後、相手に投資家になってもらい、あなたのプランをドイツ語でプレゼンテーションして、フィードバックを受けてください。"
         }
       ]
+    },
+    {
+      "id": "de-020",
+      "level": 4,
+      "title": "キャリア開発・個人ブランディング・グローバル活躍",
+      "titleDe": "Karriereentwicklung, Persönliches Branding und globale Karriere",
+      "objectives": [
+        "キャリア計画と自己認識を習得する",
+        "個人ブランディングと価値提案を構築できる",
+        "ネットワーキングと関係構築のスキルを学ぶ",
+        "グローバルキャリアとライフデザインについて理解する"
+      ],
+      "content": {
+        "introduction": "個人のキャリア開発とグローバルな活躍は、個人的成長と社会への貢献の両立です。このレッスンでは、キャリア計画、自己認識、個人ブランディング、ネットワーキング、グローバルキャリア戦略など、個人的・職業的成長に関する実践的なドイツ語を学びます。ドイツではライフロングラーニングとキャリア転換が一般的であり、個人のスキル開発が重視されています。",
+        "sections": [
+          {
+            "title": "キャリア計画と自己認識",
+            "phrases": [
+              {
+                "german": "Karriereplanung beginnt mit Selbstreflexion: Wer bin ich, was sind meine Stärken und Schwächen, was motiviert mich?",
+                "romaji": "kah-ree-AY-ren-PLAH-noong beh-GIN-t mit ZELBST-reh-FLEKS-zee-ohn: ver bin ikh, vahs zint MY-ne SHTER-ken unt SHVEKH-en, vahs moh-tee-VEERT mikh",
+                "japanese": "キャリア計画は自己反省から始まります：私は誰か、強みと弱みは何か、何が動機づけているのか？",
+                "usage": "キャリアの自己認識プロセスを説明するとき。自己理解"
+              },
+              {
+                "german": "Klare Ziele, realistische Meilensteine und kontinuierliche Entwicklung sind Schlüssel zu nachhaltigem Karriereerfolg.",
+                "romaji": "KLAHR-e TSEE-le, rah-ah-LIS-ti-she MY-len-SHTY-ne unt kon-ti-NOO-eer-li-che ent-VICK-loong zint SHLÜ-sel tsoo NAHKH-hahl-ti-gem kah-ree-AY-ren-ehr-FOLK-g",
+                "japanese": "明確な目標、現実的なマイルストーン、継続的な開発はキャリア成功の鍵です。",
+                "usage": "キャリア計画の戦略的アプローチを説明するとき。目標設定"
+              },
+              {
+                "german": "Flexibilität und Anpassungsfähigkeit sind in der schnell verändernden Arbeitswelt essentiell.",
+                "romaji": "fleks-i-bee-lee-TAT unt AHN-pahss-oongs-FAH-hig-kite zint in der SHNELL fer-EN-der-n-den AHR-bites-velt es-SEN-tsee-el",
+                "japanese": "柔軟性と適応能力は急速に変化する労働環境に不可欠です。",
+                "usage": "現代的キャリアの変動性と適応の必要性を説明するとき。レジリエンス"
+              }
+            ]
+          },
+          {
+            "title": "個人ブランディングと価値提案",
+            "phrases": [
+              {
+                "german": "Persönliches Branding bedeutet, Ihre einzigartigen Fähigkeiten, Erfahrungen und Werte auf authentische Weise zu kommunizieren.",
+                "romaji": "per-zö-NLIKHS-es branding beh-DOY-tet, EE-re INE-tsi-gart-i-gen FAH-hig-kay-ten, ehr-FAHR-oong-en unt VEHR-te owf ou-TEN-ti-she VAY-ze tsoo kom-moo-nee-TSEER-en",
+                "japanese": "個人ブランディングとは、あなたのユニークなスキル、経験、価値を真正な方法で伝えることです。",
+                "usage": "個人ブランディングの本質を説明するとき。真性性"
+              },
+              {
+                "german": "LinkedIn, Portfolio und persönliche Website sind wichtige Plattformen zur Präsentation Ihrer beruflichen Identität.",
+                "romaji": "LinkedIn, portfolio unt per-ZÖN-li-che VEBST-site zint VIKH-ti-ge PLAH-tfor-men tsoor preh-zen-TAH-tsee-ohn EE-rer beh-ROOF-li-chen i-DEN-ti-TATE",
+                "japanese": "LinkedIn、ポートフォリオ、個人ウェブサイトはあなたの職業的アイデンティティを提示するための重要なプラットフォームです。",
+                "usage": "デジタルブランディングツールを説明するとき。オンライン存在"
+              },
+              {
+                "german": "Kontinuierliche Sichtbarkeit durch Gedankenaustausch, Fachartikel und Beteiligung in relevanten Communities stärkt Ihre Reputation.",
+                "romaji": "kon-ti-NOO-eer-li-che ZIKH-bahr-kite doorsh geh-DAHN-ken-ous-TAUSCH, FAH-khahr-tee-kel unt beh-TAY-li-goong in reh-LEV-ahn-ten kom-MOO-nee-TEES SHTER-kt EE-re reh-POO-tah-TSEE-ohn",
+                "japanese": "思考交換、専門記事、関連コミュニティへの参加による継続的な可視化はあなたの評判を強化します。",
+                "usage": "思想的リーダーシップと影響力構築を説明するとき。リーダーシップ"
+              }
+            ]
+          },
+          {
+            "title": "ネットワーキングと関係構築",
+            "phrases": [
+              {
+                "german": "Starke berufliche Netzwerke entstehen durch gegenseitigen Respekt, Mehrwertschaffung und authentische Beziehungen.",
+                "romaji": "SHTAHR-ke beh-ROOF-li-che NETS-verk-ke ent-SHTAY-en doorsh GAY-gen-ZY-ti-gen res-PEK-t, MEHR-vehrt-SHAHF-oong unt ou-TEN-ti-she beh-TSEEH-oong-en",
+                "japanese": "強力なプロフェッショナルネットワークは相互の尊重、価値創造、真正な関係を通じて形成されます。",
+                "usage": "ネットワーク構築の基本原則を説明するとき。相互価値"
+              },
+              {
+                "german": "Mentoring, Sponsoring und gegenseitige Unterstützung beschleunigen berufliche Entwicklung und öffnen Türen.",
+                "romaji": "mentoring, sponsoring unt GAY-gen-ZY-ti-ge oon-ter-SHTOO-tsoong be-SHLOY-ni-gen beh-ROOF-li-che ent-VICK-loong unt ÖF-nen TÜR-en",
+                "japanese": "メンタリング、スポンサーシップ、相互支援は職業的開発を加速し、ドアを開きます。",
+                "usage": "キャリア加速のメカニズムを説明するとき。成長促進"
+              },
+              {
+                "german": "Diversifikation von Netzwerken über Industrien, Kulturen und Funktionen ermöglicht neue Perspektiven und Chancen.",
+                "romaji": "dee-ver-see-fee-kah-TSEE-ohn fon NETS-verk-en OO-ber in-DOOS-treen, KOOL-too-ren unt FUNK-tsee-oh-nen ehr-MÖ-glik-t NOY-e per-SPEK-tee-ven unt CHAHN-tsen",
+                "japanese": "業界、文化、職種にわたるネットワークの多様化は新しい視点とチャンスを可能にします。",
+                "usage": "ネットワーク多様性の価値を説明するとき。機会創出"
+              }
+            ]
+          },
+          {
+            "title": "グローバルキャリアとライフデザイン",
+            "phrases": [
+              {
+                "german": "Globale Karrieremöglichkeiten erfordern Sprachkompetenz, interkulturelle Intelligenz und Anpassungsfähigkeit.",
+                "romaji": "GLOH-bah-le kah-ree-AY-ren-möglichkeiten ehr-FOR-dern SHPRAH-khe-KOM-peh-TENTS, in-ter-KOOL-too-REL-le in-tel-lee-HENTS unt AHN-pahss-oongs-FAH-hig-kite",
+                "japanese": "グローバルキャリアの機会は言語能力、異文化知能、適応能力を必要とします。",
+                "usage": "国際キャリアの要件を説明するとき。グローバルコンピテンス"
+              },
+              {
+                "german": "Remote Work, internationale Projekte und virtuelle Teams ermöglichen Zusammenarbeit jenseits geografischer Grenzen.",
+                "romaji": "remote work, in-ter-nah-TSEE-oh-nah-le pro-YEK-te unt vir-TOO-EL-le teams ehr-MÖ-glik-en too-ZAH-men-ahr-BITE YEN-zite geh-oh-GRAHF-i-sher GREN-tsen",
+                "japanese": "リモートワーク、国際プロジェクト、バーチャルチームは地理的境界を超えた協業を可能にします。",
+                "usage": "グローバル労働市場の新しい機会を説明するとき。仕事の未来"
+              },
+              {
+                "german": "Work-Life Balance, Sinn erfüllte Arbeit und persönliches Wohlbefinden sind zentral für nachhaltige Karriereerfolg.",
+                "romaji": "work-life balance, ZINN ehr-FOO-lte AHR-bite unt per-ZÖN-li-ches VOHL-beh-FIN-den zint TSEN-trahl foo-er NAHKH-hahl-ti-gen kah-ree-AY-ren-ehr-FOLK-g",
+                "japanese": "ワークライフバランス、意義のある仕事、個人的幸福は持続可能なキャリア成功の中心です。",
+                "usage": "人生の総合的充実と職業的成功の統合を説明するとき。全人的成功"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-020-q1",
+          "type": "fill-blank",
+          "question": "「キャリア計画は自己反省から始まります」をドイツ語で言ってください。",
+          "answer": "Karriereplanung beginnt mit Selbstreflexion."
+        },
+        {
+          "id": "de-020-q2",
+          "type": "multiple-choice",
+          "question": "キャリア成功の鍵は何ですか？",
+          "options": [
+            "明確な目標、現実的なマイルストーン、継続的な開発",
+            "運と偶然のみ",
+            "高い給与だけ",
+            "職位の頻繁な変更"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-020-q3",
+          "type": "fill-blank",
+          "question": "「個人ブランディングはスキル、経験、価値を真正な方法で伝えることです」をドイツ語で言ってください。",
+          "answer": "Persönliches Branding bedeutet, Ihre Fähigkeiten und Werte auf authentische Weise zu kommunizieren."
+        },
+        {
+          "id": "de-020-q4",
+          "type": "multiple-choice",
+          "question": "個人ブランディングに重要なプラットフォームは？",
+          "options": [
+            "LinkedIn、ポートフォリオ、個人ウェブサイト",
+            "テレビのみ",
+            "新聞広告だけ",
+            "個人情報の公開不要"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-020-q5",
+          "type": "fill-blank",
+          "question": "「ネットワークは相互の尊重と真正な関係を通じて形成されます」をドイツ語で言ってください。",
+          "answer": "Netzwerke entstehen durch gegenseitigen Respekt und authentische Beziehungen."
+        },
+        {
+          "id": "de-020-q6",
+          "type": "matching",
+          "question": "キャリア支援の方法と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"method": "Mentoring", "description": "指導"},
+            {"method": "Sponsoring", "description": "後援"},
+            {"method": "Networking", "description": "ネットワーキング"}
+          ]
+        },
+        {
+          "id": "de-020-q7",
+          "type": "fill-blank",
+          "question": "「グローバルキャリアは言語能力と異文化知能を必要とします」をドイツ語で言ってください。",
+          "answer": "Globale Karrieremöglichkeiten erfordern Sprachkompetenz und interkulturelle Intelligenz."
+        },
+        {
+          "id": "de-020-q8",
+          "type": "multiple-choice",
+          "question": "持続可能なキャリア成功に必要なのは？",
+          "options": [
+            "ワークライフバランス、意義のある仕事、個人的幸福",
+            "短期的利益のみ",
+            "私生活の完全な放棄",
+            "継続的なストレス"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツのキャリア開発とグローバルな個人ブランディング",
+          "duration": "22分",
+          "description": "ライフロングラーニング文化、キャリア転換、個人ブランディング戦略、グローバルネットワーキング、人生100年時代のキャリアデザイン"
+        },
+        {
+          "type": "grammar",
+          "title": "キャリア開発に関する重要な表現",
+          "content": "自己反省を表す再帰動詞（sich entwickeln）。可能性と機会の表現（ermöglichen、eröffnen）。義務と必要性（erfordern、erforderlich）。複合名詞（Karriereplanung、Netzwerk）"
+        },
+        {
+          "type": "note",
+          "title": "ドイツのキャリア文化と個人開発",
+          "content": "ドイツではライフロングラーニングが社会的規範。職業訓練と継続教育が奨励される。キャリア転換が一般的で柔軟性が重視される。個人の価値と多様性が尊重される。"
+        },
+        {
+          "type": "note",
+          "title": "個人ブランディングの心理学と戦略",
+          "content": "真正性（Authentizität）が信頼を生む。価値提案の明確化。デジタルプレゼンスの管理。思想的リーダーシップの構築。オンラインと対面のバランス。"
+        },
+        {
+          "type": "note",
+          "title": "グローバルキャリアの複雑性と機会",
+          "content": "言語能力は必須。異文化コンピテンスの開発。リモートワークの成長。時間帯と地域を超えた協業。キャリア多様化と柔軟な選択肢。"
+        },
+        {
+          "type": "practice",
+          "title": "個人キャリア戦略の構築と実行",
+          "content": "友人と5年および10年のキャリアビジョンについて議論してみてください。強み、弱み、機会、脅威（SWOT分析）を検討します。具体的な目標、マイルストーン、開発計画を立てます。ネットワーキング戦略と個人ブランディング計画を含めてください。"
+        }
+      ]
     }
   ]
 }
