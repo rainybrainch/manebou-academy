@@ -3002,6 +3002,220 @@
           "content": "友人と気候変動対策について議論してみてください。個人レベルでできることは何か、企業や政府の役割は何か、各国の対策に違いがあるか。反対意見も視野に入れながら、複雑な環境問題について多面的に考察してください。"
         }
       ]
+    },
+    {
+      "id": "de-013",
+      "level": 4,
+      "title": "法律・ビジネス法務・契約",
+      "titleDe": "Recht, Geschäftsverträge und Verhandlungen",
+      "objectives": [
+        "法律とビジネス法務の基本用語を習得する",
+        "ビジネス契約の重要な条項を理解できる",
+        "国際取引での交渉スキルを学ぶ",
+        "紛争解決と法的権利について理解する"
+      ],
+      "content": {
+        "introduction": "ビジネスにおいて法的知識は不可欠です。このレッスンでは、契約の基本、法的権利と義務、国際取引のルール、紛争解決のプロセスなど、実務的なドイツ語を学びます。ドイツ法はヨーロッパ法制の基礎であり、BGB（民法）は厳密で論理的です。",
+        "sections": [
+          {
+            "title": "法的概念と権利義務",
+            "phrases": [
+              {
+                "german": "Ein Vertrag ist eine rechtlich bindende Vereinbarung zwischen zwei oder mehr Parteien.",
+                "romaji": "ine FEHR-trahg ist AY-ne RECHTS-likh BIN-den-de fer-AY-nee-bah-roong TSVEE-shen TSVAY oh-der MEHR PAHR-tay-en",
+                "japanese": "契約は2者以上の当事者間の法的拘束力を持つ合意です。",
+                "usage": "契約の法的本質を説明するとき。基本的な法律概念"
+              },
+              {
+                "german": "Beide Seiten haben Rechte und Pflichten, die sie erfüllen müssen.",
+                "romaji": "BY-de ZY-ten hah-ben RECHTE unt PFLIKH-ten, dee zee ehr-FOOL-en MOO-sen",
+                "japanese": "両当事者は履行すべき権利と義務を有しています。",
+                "usage": "契約における相互の権利義務を説明するとき。対等性"
+              },
+              {
+                "german": "Die Verletzung eines Vertrags kann zu Schadensersatz führen.",
+                "romaji": "dee FEHR-LET-soong AY-nes FEHR-trahgs kahn tsoo SHAH-dens-ehr-zahts FOO-ren",
+                "japanese": "契約違反は損害賠償につながる可能性があります。",
+                "usage": "契約違反の法的後果を説明するとき。法的責任"
+              }
+            ]
+          },
+          {
+            "title": "契約の基本要素と条項",
+            "phrases": [
+              {
+                "german": "Ein gültiger Vertrag erfordert Angebot, Annahme, Gegenleistung und gegenseitige Absicht.",
+                "romaji": "ine GYOOL-ti-ger FEHR-trahg ehr-FOR-dert AHN-geh-boht, AHN-nah-me, GAY-gen-LY-stoong unt GAY-gen-ZY-ti-ge AHP-zikht",
+                "japanese": "有効な契約には申し込み、承諾、対価、相互の意思が必要です。",
+                "usage": "契約成立の要件を説明するとき。法的構成要素"
+              },
+              {
+                "german": "Wesentliche Bedingungen müssen klar definiert sein: Preis, Lieferung, Zahlung und Zeitplan.",
+                "romaji": "VAY-sent-lee-she beh-DING-oong-en MOO-sen klahr deh-fee-NEERT ZY-en: PRYS, LEE-fer-oong, TSAH-loong unt TSITE-plahn",
+                "japanese": "重要な条項は明確に定義される必要があります：価格、納期、支払い、スケジュール。",
+                "usage": "契約の重要な条項を列挙するとき。詳細な契約条項"
+              },
+              {
+                "german": "Geheimhaltungsverträge schützen vertrauliche Geschäftsinformationen.",
+                "romaji": "geh-HAYM-hahl-toongs-fehr-TRAH-ge SHOO-tsen fer-TRAU-li-he geh-SHEF-ts-in-for-mah-TSEE-oh-nen",
+                "japanese": "秘密保持契約は機密ビジネス情報を保護します。",
+                "usage": "特定の契約タイプと目的を説明するとき。知的財産保護"
+              }
+            ]
+          },
+          {
+            "title": "国際取引と交渉",
+            "phrases": [
+              {
+                "german": "Bei internationalen Geschäften müssen Währung, Zahlungsbedingungen und Versand vereinbart werden.",
+                "romaji": "by in-ter-nah-TSEE-oh-nah-len geh-SHEF-ten MOO-sen VER-roong, TSAH-loongs-beh-DING-oong-en unt FEHR-zahnt fer-EIN-baht VER-den",
+                "japanese": "国際取引では、通貨、支払条件、配送が合意される必要があります。",
+                "usage": "国際ビジネスの複雑性を説明するとき。実務的な交渉要素"
+              },
+              {
+                "german": "Verhandlungen erfordern gegenseitiges Verständnis, Kompromisse und Win-win-Lösungen.",
+                "romaji": "fer-HAHN-tlung-en ehr-FOR-dern GAY-gen-ZY-ti-ges FEHR-shtent-nis, KOM-proh-miss-se unt WIN-win-LÖ-zoong-en",
+                "japanese": "交渉には相互理解、妥協、ウィンウィンソリューションが必要です。",
+                "usage": "ビジネス交渉の原則と目標を説明するとき。交渉スキル"
+              },
+              {
+                "german": "Incoterms sind internationale Handelsregeln, die Kosten und Risiken verteilen.",
+                "romaji": "IN-koh-terms zint in-ter-nah-TSEE-oh-nah-le HAHN-dels-reh-geln, dee KOH-sten unt REE-zi-ken fer-TY-len",
+                "japanese": "Incotermsは国際商取引ルールで、コストとリスクを配分します。",
+                "usage": "国際貿易の標準化ルールを説明するとき。複雑な取引構造"
+              }
+            ]
+          },
+          {
+            "title": "紛争解決と法的手続き",
+            "phrases": [
+              {
+                "german": "Wenn es zu Unstimmigkeiten kommt, können die Parteien Verhandlungen, Mediation oder Schiedsverfahren versuchen.",
+                "romaji": "ven es tsoo OON-shtim-ig-KY-ten komt, KÖN-nen dee PAHR-tay-en fer-HAHN-tlung-en, meh-dee-ah-TSEE-ohn oh-der SHEES-fahr-fah-ren fer-ZOO-hen",
+                "japanese": "紛争が生じた場合、当事者は交渉、調停、仲裁手続きを試みることができます。",
+                "usage": "紛争解決の段階的なプロセスを説明するとき。代替紛争解決（ADR）"
+              },
+              {
+                "german": "Schiedsgerichte bieten eine schnellere und vertraulichere Alternative zu Gerichten.",
+                "romaji": "SHEES-geh-RIKH-te BEE-ten AY-ne SHNELL-ehr-re unt fer-TRAU-li-kher-re ahl-ter-nah-TEE-ve tsoo geh-RIKH-ten",
+                "japanese": "仲裁廷は法廷よりも迅速で機密性の高い代替手段を提供します。",
+                "usage": "仲裁制度と伝統的裁判制度の比較。効率性と機密性"
+              },
+              {
+                "german": "Rechtliche Besserung kann durch Geschädigte oder deren Rechtsanwälte eingeleitet werden.",
+                "romaji": "RECHTS-li-he BES-ser-oong kahn doorsh geh-SHEH-dig-te oh-der DEREN RECHTS-ahn-VELT-te INE-geh-LY-tet VER-den",
+                "japanese": "法的救済は被害者またはその弁護士によって開始されることができます。",
+                "usage": "紛争解決の法的メカニズムを説明するとき。法的救済手段"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-013-q1",
+          "type": "fill-blank",
+          "question": "「契約は法的拘束力を持つ合意です」をドイツ語で言ってください。",
+          "answer": "Ein Vertrag ist eine rechtlich bindende Vereinbarung."
+        },
+        {
+          "id": "de-013-q2",
+          "type": "multiple-choice",
+          "question": "有効な契約に必要な要素はどれですか？",
+          "options": [
+            "申し込み、承諾、対価、相互の意思",
+            "申し込みだけ",
+            "承諾だけ",
+            "書面での署名だけ"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-013-q3",
+          "type": "fill-blank",
+          "question": "「両当事者は履行すべき権利と義務を有しています」をドイツ語で言ってください。",
+          "answer": "Beide Seiten haben Rechte und Pflichten."
+        },
+        {
+          "id": "de-013-q4",
+          "type": "multiple-choice",
+          "question": "秘密保持契約（NDA）の目的は何ですか？",
+          "options": [
+            "機密ビジネス情報を保護すること",
+            "製品の価格を決定すること",
+            "労働者を雇用することだけ",
+            "税金を支払うこと"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-013-q5",
+          "type": "fill-blank",
+          "question": "「契約違反は損害賠償につながる可能性があります」をドイツ語で言ってください。",
+          "answer": "Die Verletzung eines Vertrags kann zu Schadensersatz führen."
+        },
+        {
+          "id": "de-013-q6",
+          "type": "matching",
+          "question": "法律用語と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"term": "Incoterms", "explanation": "国際商取引ルール"},
+            {"term": "Schiedsverfahren", "explanation": "仲裁手続き"},
+            {"term": "Mediation", "explanation": "調停"}
+          ]
+        },
+        {
+          "id": "de-013-q7",
+          "type": "fill-blank",
+          "question": "「交渉にはウィンウィンソリューションが必要です」をドイツ語で言ってください。",
+          "answer": "Verhandlungen erfordern Win-win-Lösungen."
+        },
+        {
+          "id": "de-013-q8",
+          "type": "multiple-choice",
+          "question": "紛争が生じた場合の解決手順の順序は？",
+          "options": [
+            "交渉→調停→仲裁→訴訟",
+            "訴訟→仲裁→調停→交渉",
+            "調停→交渉→仲裁→訴訟",
+            "仲裁→訴訟→交渉→調停"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツ民法（BGB）とビジネス契約の基礎",
+          "duration": "18分",
+          "description": "ドイツ法制の特徴、契約成立の原則、国際商取引の法的枠組み"
+        },
+        {
+          "type": "grammar",
+          "title": "法律用語と文法：義務と権利の表現",
+          "content": "義務表現「müssen」「sollen」の使い分け。条件付き表現「wenn...dann」。能動・受動態の法的文書での使用。複合名詞（Geheimhaltungsvertrag、Schadensersatz）"
+        },
+        {
+          "type": "note",
+          "title": "ドイツ法制の特徴とヨーロッパ法への影響",
+          "content": "ドイツ民法（BGB）は成文法体系。条文が系統的で論理的。ドイツは1999年のローマ条約改革でEU法の基礎化。契約自由の原則と公序良俗による制限。"
+        },
+        {
+          "type": "note",
+          "title": "国際取引の複雑性と標準化ルール",
+          "content": "Incotermsの11タイプ（EXW、FOB、CIF等）。各Incotermsでコスト・リスク分岐点が異なる。国際商品売買契約（CISG）による統一。通貨リスクと為替ヘッジ。"
+        },
+        {
+          "type": "note",
+          "title": "紛争解決メカニズムの比較",
+          "content": "交渉（Verhandlungen）：当事者主導、柔軟性高。調停（Mediation）：第三者の援助。仲裁（Schiedsverfahren）：法的拘束力。訴訟（Gerichtsverfahren）：最終的解決。各段階でのコスト・時間・機密性の違い。"
+        },
+        {
+          "type": "practice",
+          "title": "ビジネス契約交渉シミュレーション",
+          "content": "友人と売り手と買い手の役を分担し、商品売買契約の交渉をしてみてください。価格、支払条件、納期、品質保証、紛争解決条項などについて交渉します。法的用語を使いながら、双方にとって受け入れられる条件を探ってください。"
+        }
+      ]
     }
   ]
 }
