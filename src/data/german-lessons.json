@@ -4286,6 +4286,220 @@
           "content": "友人と多様性とインクルージョンについて議論してみてください。職場、学校、社会での現在の課題、改善方法、個人として何ができるかを話し合います。異なる視点を尊重しながら、建設的な対話を通じて相互理解を深めてください。"
         }
       ]
+    },
+    {
+      "id": "de-019",
+      "level": 4,
+      "title": "起業家精神・イノベーション・ビジネス創造",
+      "titleDe": "Unternehmertum, Innovation und Geschäftsgründung",
+      "objectives": [
+        "起業家精神の本質と特性を習得する",
+        "イノベーションプロセスと創造的問題解決を理解する",
+        "ビジネスモデルと資金調達について議論できる",
+        "スケーリングと持続可能な成長戦略を学ぶ"
+      ],
+      "content": {
+        "introduction": "起業家精神とイノベーションは経済発展と社会進歩の原動力です。このレッスンでは、起業家の心理、イノベーションプロセス、ビジネスモデル、資金調達、成長戦略など、ビジネス創造に関する実践的なドイツ語を学びます。ドイツはミッテルシュタント（中小企業）とスタートアップの文化で知られ、革新的なビジネスエコシステムを持っています。",
+        "sections": [
+          {
+            "title": "起業家精神の本質",
+            "phrases": [
+              {
+                "german": "Unternehmertum ist die Bereitschaft, Risiken einzugehen, neue Ideen zu verfolgen und Werte zu schaffen.",
+                "romaji": "oon-ter-NAY-mer-toum ist dee beh-RAYT-shahft, RI-zee-ken INE-tsoo-GAY-en, NOY-e ee-DAY-en tsu fer-FOL-gen unt VER-te tsoo SHAHF-en",
+                "japanese": "起業家精神とはリスクを取り、新しいアイデアを追求し、価値を創造する意欲です。",
+                "usage": "起業家精神の定義と本質を説明するとき。起業者の特性"
+              },
+              {
+                "german": "Unternehmer sind Problemlöser, die Herausforderungen als Chancen sehen und kreativ handeln.",
+                "romaji": "oon-ter-NAY-mer zint PROH-blem-LÖ-zer, dee he-ROUWS-fah-der-oong-en ahls CHAHN-tsen ZAY-en unt KRAY-ah-teef HAHN-deln",
+                "japanese": "起業家は問題解決者であり、課題をチャンスと見て創造的に行動します。",
+                "usage": "起業家の思考様式と行動パターンを説明するとき。問題解決"
+              },
+              {
+                "german": "Ausdauer, Leidenschaft und Lernwilligkeit sind entscheidend für den Erfolg von Unternehmern.",
+                "romaji": "OUS-dour-er, LYE-den-shahft unt LAIR-vil-li-kite zint ent-SHAY-dent foo-er den ehr-FOLK-g fon oon-ter-NAY-mern",
+                "japanese": "忍耐力、情熱、学習意欲は起業家の成功に決定的です。",
+                "usage": "起業家に必要な個人的資質を説明するとき。成功の要因"
+              }
+            ]
+          },
+          {
+            "title": "イノベーションプロセス",
+            "phrases": [
+              {
+                "german": "Innovation entsteht durch systematische Identifikation von Problemen, Ideenfindung und iterative Entwicklung.",
+                "romaji": "in-oh-VAH-tsee-ohn ent-SHTAYT doorsh zis-teh-MAH-ti-she i-DEN-tee-fee-kah-TSEE-ohn fon PROH-bleh-men, ee-DAY-en-FIN-doong unt i-teh-rah-TEE-ve ent-VICK-loong",
+                "japanese": "イノベーションは問題の体系的特定、アイデア創出、反復的開発を通じて生まれます。",
+                "usage": "イノベーションプロセスの段階を説明するとき。創造的開発"
+              },
+              {
+                "german": "Design Thinking und agile Methoden ermöglichen schnelles Prototyping und Lernen durch Fehler.",
+                "romaji": "design thinking unt AH-gile MEH-toh-den ehr-MÖ-glik-en SHNELL-es PROH-toh-TY-ping unt LAIR-nen doorsh FAY-ler",
+                "japanese": "デザイン思考とアジャイル手法は迅速なプロトタイピングと失敗からの学習を可能にします。",
+                "usage": "現代的イノベーション手法を説明するとき。学習プロセス"
+              },
+              {
+                "german": "Zusammenarbeit mit Kunden, Partnern und Stakeholdern beschleunigt Innovationsprozesse und erhöht Erfolgschancen.",
+                "romaji": "tsoo-ZAH-men-ahr-BITE mit KOON-den, PAHR-tnern unt stakeholders beh-SHLOY-ni-gt in-oh-VAH-tsee-ohn-pro-TSES-se unt ehr-HÖ-et ehr-FOLK-s-CHAHN-tsen",
+                "japanese": "顧客、パートナー、ステークホルダーとの協業はイノベーションを加速し成功確率を高めます。",
+                "usage": "共創的イノベーションアプローチを説明するとき。多元的協業"
+              }
+            ]
+          },
+          {
+            "title": "ビジネスモデルと資金調達",
+            "phrases": [
+              {
+                "german": "Ein nachhaltiges Geschäftsmodell definiert, wie ein Unternehmen Wert schafft, liefert und erfasst.",
+                "romaji": "ine nahk-HAHL-ti-ges geh-SHEF-ts-moh-del deh-fee-NEERT, vee ine oon-ter-NAY-men VEHR-t SHAHFT, LEEFER-t unt ehr-FAHST",
+                "japanese": "持続可能なビジネスモデルは、企業がいかに価値を創造、提供、獲得するかを定義します。",
+                "usage": "ビジネスモデルの構成要素を説明するとき。価値創造"
+              },
+              {
+                "german": "Diverse Finanzierungsquellen wie Bootstrapping, Angel-Investoren, Venture Capital und Crowdfunding unterstützen verschiedene Phasen des Unternehmens.",
+                "romaji": "dee-VER-se fee-nahn-tsee-roongs-KWEL-len vee bootstrap-ping, angel-investoren, venture capital unt crowdfunding oon-ter-SHTOO-tsen fer-SHEE-de-ne FAH-zen des oon-ter-NAY-mens",
+                "japanese": "ブートストラップ、エンジェル投資家、ベンチャーキャピタル、クラウドファンディングなど、多様な資金源が企業のさまざまな段階をサポートします。",
+                "usage": "資金調達の選択肢と各段階を説明するとき。成長資金"
+              },
+              {
+                "german": "Geschäftsplanung, Marktforschung und finanzielle Modellierung sind wesentlich für die Gewinnung von Investoren.",
+                "romaji": "geh-SHEF-ts-PLAH-noong, MARKT-for-shoong unt fee-NAHN-tsee-EL-le moh-DEL-ee-roong zint VAY-sent-likh foo-er dee geh-VIN-oong fon in-VES-toren",
+                "japanese": "事業計画、市場調査、財務モデルは投資家獲得に不可欠です。",
+                "usage": "投資家ピッチの準備要素を説明するとき。資金調達準備"
+              }
+            ]
+          },
+          {
+            "title": "スケーリングと成長戦略",
+            "phrases": [
+              {
+                "german": "Skalierbarkeit bedeutet, dass ein Unternehmen mit wachsendem Erfolg effizienter wird und nicht proportional mehr Ressourcen benötigt.",
+                "romaji": "skah-LEER-bah-kite beh-DOY-tet, dahs ine oon-ter-NAY-men mit VAHK-sen-dem ehr-FOLK-g eh-FEE-tsee-EN-ter veert unt nikht proh-por-tsee-O-nahl MEHR RES-sour-tsen beh-NÖ-ti-gt",
+                "japanese": "スケーラビリティとは、企業が成功に伴い、より多くのリソースを必要とせずに効率的になることです。",
+                "usage": "成長の効率性と拡張可能性を説明するとき。成長戦略"
+              },
+              {
+                "german": "Internationale Expansion, Produktdiversifikation und strategische Partnerschaften ermöglichen schnelleres Wachstum.",
+                "romaji": "in-ter-nah-TSEE-oh-nah-le ex-pahn-zee-OHN, proh-DOUKT-dee-ver-see-fee-kah-TSEE-ohn unt shtrahr-TEH-gi-she PAHR-tner-shahf-ten ehr-MÖ-glik-en SHNELL-er-es VAHKS-toom",
+                "japanese": "国際展開、製品多様化、戦略的パートナーシップはより速い成長を可能にします。",
+                "usage": "企業拡大の戦術を説明するとき。成長オプション"
+              },
+              {
+                "german": "Nachhaltige Wachstumspläne berücksichtigen Mitarbeiterkultur, Kundenbeziehungen und langfristige Rentabilität.",
+                "romaji": "nahk-HAHL-ti-ge VAHKS-tooms-PLAHN-ne beh-RÜK-zikh-ti-gen mit-ahr-BAY-ter-kool-TOO-er, KOON-den-beh-TSEEH-oong-en unt LAHNG-FREES-ti-ge ren-tah-bee-lee-TAT",
+                "japanese": "持続可能な成長計画は、従業員文化、顧客関係、長期的収益性を考慮します。",
+                "usage": "責任ある成長と企業継続性を説明するとき。持続可能性"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-019-q1",
+          "type": "fill-blank",
+          "question": "「起業家精神とはリスクを取り新しいアイデアを追求し価値を創造する意欲です」をドイツ語で言ってください。",
+          "answer": "Unternehmertum ist die Bereitschaft, Risiken einzugehen, neue Ideen zu verfolgen und Werte zu schaffen."
+        },
+        {
+          "id": "de-019-q2",
+          "type": "multiple-choice",
+          "question": "起業家の主な特性は何ですか？",
+          "options": [
+            "課題をチャンスと見て創造的に行動する",
+            "リスクを避けることを重視する",
+            "既存の方法に従う",
+            "変化に抵抗する"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-019-q3",
+          "type": "fill-blank",
+          "question": "「イノベーションは問題の体系的特定とアイデア創出を通じて生まれます」をドイツ語で言ってください。",
+          "answer": "Innovation entsteht durch systematische Identifikation von Problemen und Ideenfindung."
+        },
+        {
+          "id": "de-019-q4",
+          "type": "multiple-choice",
+          "question": "ビジネスモデルの主な役割は？",
+          "options": [
+            "企業がいかに価値を創造、提供、獲得するかを定義する",
+            "単に商品を売ること",
+            "価格を決めるだけ",
+            "マーケティングのみ"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-019-q5",
+          "type": "fill-blank",
+          "question": "「スケーラビリティは成長に伴い効率的になることです」をドイツ語で言ってください。",
+          "answer": "Skalierbarkeit bedeutet, dass ein Unternehmen mit wachsendem Erfolg effizienter wird."
+        },
+        {
+          "id": "de-019-q6",
+          "type": "matching",
+          "question": "起業のステージと説明を正しく組み合わせてください。",
+          "pairs": [
+            {"stage": "Bootstrapping", "description": "初期資金調達"},
+            {"stage": "Venture Capital", "description": "成長段階投資"},
+            {"stage": "Scaling", "description": "拡大段階"}
+          ]
+        },
+        {
+          "id": "de-019-q7",
+          "type": "fill-blank",
+          "question": "「事業計画と市場調査は投資家獲得に不可欠です」をドイツ語で言ってください。",
+          "answer": "Geschäftsplanung und Marktforschung sind wesentlich für die Gewinnung von Investoren."
+        },
+        {
+          "id": "de-019-q8",
+          "type": "multiple-choice",
+          "question": "持続可能な成長に必要なのは？",
+          "options": [
+            "従業員文化、顧客関係、長期的収益性を考慮する",
+            "短期的利益のみ",
+            "従業員の福祉を無視する",
+            "顧客満足度を無視する"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツのスタートアップエコシステムと起業文化",
+          "duration": "21分",
+          "description": "ドイツのミッテルシュタント、ベルリンのスタートアップシーン、起業家精神、イノベーション事例、資金調達オプション"
+        },
+        {
+          "type": "grammar",
+          "title": "起業と成長に関する業界用語と表現",
+          "content": "前置詞による段階表現（von...bis）。可能性を表す表現（ermöglichen）。条件付き成功表現（wenn...dann）。複合名詞（Geschäftsmodell、Wachstumsstrategie）"
+        },
+        {
+          "type": "note",
+          "title": "ドイツの起業エコシステムの特徴",
+          "content": "ミッテルシュタント（中小企業）が経済の中核。ベルリン、ミュンヘン、ハンブルクなどのスタートアップハブ。政府の起業家支援プログラム。職業訓練と起業家教育の充実。"
+        },
+        {
+          "type": "note",
+          "title": "イノベーション文化と創造的問題解決",
+          "content": "Design Thinking の起源はドイツの工学思想。失敗を学習機会として見る文化。段階的改善（Kaizen的思考）。チーム協業とアイデア民主化。"
+        },
+        {
+          "type": "note",
+          "title": "資金調達パイプラインと投資家生態系",
+          "content": "Bootstrapping（自己資金）から始まる段階的成長。Angel投資家とベンチャーキャピタルの役割分担。クラウドファンディングの新しい選択肢。政府の起業家ローンと助成金。"
+        },
+        {
+          "type": "practice",
+          "title": "ビジネスプランの作成と投資家ピッチ",
+          "content": "友人とビジネスアイデアについて議論し、簡単なビジネスプランを作成してみてください。問題認識、解決案、ビジネスモデル、資金需要、成長戦略を含めます。その後、相手に投資家になってもらい、あなたのプランをドイツ語でプレゼンテーションして、フィードバックを受けてください。"
+        }
+      ]
     }
   ]
 }
