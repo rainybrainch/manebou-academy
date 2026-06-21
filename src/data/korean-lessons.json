@@ -1972,6 +1972,262 @@
         }
       ],
       "resources": []
+    },
+    {
+      "id": "ko-019",
+      "level": 3,
+      "title": "買い物と商品交渉",
+      "titleKo": "쇼핑과 상품 협상",
+      "objectives": [
+        "商品説明を理解し、詳しく質問できる",
+        "価格交渉の基本表現を習得する",
+        "商品の品質や特徴について議論できる",
+        "返品・交換の手続きに関する語彙を習得する"
+      ],
+      "content": {
+        "introduction": "韓国でのショッピング文化は独特です。市場（南大門市場、東大門など）では価格交渉が一般的で、大型百貨店では敬語の使用が重要です。このレッスンでは、商品選びから交渉、支払いまでの完全な会話を習得します。",
+        "sections": [
+          {
+            "title": "商品探しと質問",
+            "phrases": [
+              {
+                "korean": "이 상품의 가격이 얼마예요?",
+                "romaji": "I sangpum-ui gapgyeok-i eol-ma-ye-yo?",
+                "japanese": "この商品の価格はいくらですか？",
+                "usage": "商品の価格を尋ねる。一般的な敬語"
+              },
+              {
+                "korean": "더 싼 것 없어요?",
+                "romaji": "Deo ssan geot eobs-eo-yo?",
+                "japanese": "もっと安いものはありませんか？",
+                "usage": "より安い商品を探す。カジュアルな敬語"
+              },
+              {
+                "korean": "이 색깔로 다른 사이즈가 있어요?",
+                "romaji": "I saekgal-ro dareun sai-jeu-ga iss-eo-yo?",
+                "japanese": "この色で別のサイズはありますか？",
+                "usage": "違うサイズの有無を尋ねる"
+              },
+              {
+                "korean": "이것의 품질은 어떻게 돼요?",
+                "romaji": "Igeot-ui pumsil-eun eotteohge dwae-yo?",
+                "japanese": "これの品質はどうですか？",
+                "usage": "商品の品質を尋ねる"
+              },
+              {
+                "korean": "할인해 줄 수 있어요?",
+                "romaji": "Hal-in-hae jul su iss-eo-yo?",
+                "japanese": "割引していただけますか？",
+                "usage": "割引を交渉する。丁寧な表現"
+              }
+            ]
+          },
+          {
+            "title": "商品の説明と比較",
+            "phrases": [
+              {
+                "korean": "이건 한국 제품이에요.",
+                "romaji": "Igeon Hanguk jepum-i-e-yo.",
+                "japanese": "これは韓国製品です。",
+                "usage": "商品の原産地を説明"
+              },
+              {
+                "korean": "이 제품은 최신 기술이 사용됐어요.",
+                "romaji": "I jepum-eun choe-sin gisul-i sayong-dwae-sseo-yo.",
+                "japanese": "この製品は最新技術が使われています。",
+                "usage": "製品の特徴を説明"
+              },
+              {
+                "korean": "다른 제품과 비교하면 이게 더 좋아요.",
+                "romaji": "Dareun jepum-gwa bigyohara-myeon igae deo joh-a-yo.",
+                "japanese": "他の製品と比べると、これがより良いです。",
+                "usage": "商品の優位性を説明"
+              },
+              {
+                "korean": "가격 대비 품질이 아주 좋습니다.",
+                "romaji": "Gapgyeok daebi pumsil-i aju joh-seubnida.",
+                "japanese": "価格と比べて品質が非常に良いです。",
+                "usage": "コストパフォーマンスをアピール"
+              }
+            ]
+          },
+          {
+            "title": "交渉と返品",
+            "phrases": [
+              {
+                "korean": "얼마면 팔아줄 수 있어요?",
+                "romaji": "Eol-ma-myeon pal-a-jul su iss-eo-yo?",
+                "japanese": "いくらなら売ってくれますか？",
+                "usage": "価格交渉の切り出し"
+              },
+              {
+                "korean": "3개 사면 더 싸져요?",
+                "romaji": "Sam-gae sa-myeon deo ssa-jyeo-yo?",
+                "japanese": "3個買ったらもっと安くなりますか？",
+                "usage": "まとめ買い割引を交渉"
+              },
+              {
+                "korean": "반품이 가능해요?",
+                "romaji": "Banpum-i ganeung-hae-yo?",
+                "japanese": "返品は可能ですか？",
+                "usage": "返品可能性を確認"
+              },
+              {
+                "korean": "물건이 손상되면 교환해 줄 수 있어요?",
+                "romaji": "Mul-geon-i son-sang-doe-myeon gyohwan-hae jul su iss-eo-yo?",
+                "japanese": "物が傷んだら交換してくれますか？",
+                "usage": "破損時の対応を確認"
+              },
+              {
+                "korean": "보증 기간은 얼마예요?",
+                "romaji": "Bojeung gigang-eun eol-ma-ye-yo?",
+                "japanese": "保証期間はどのくらいですか？",
+                "usage": "保証期間を確認"
+              }
+            ]
+          },
+          {
+            "title": "支払いと領収書",
+            "phrases": [
+              {
+                "korean": "카드 가능해요?",
+                "romaji": "Kadeu ganeung-hae-yo?",
+                "japanese": "カード払いは可能ですか？",
+                "usage": "支払い方法の確認"
+              },
+              {
+                "korean": "영수증을 주세요.",
+                "romaji": "Yeongsujung-eul ju-se-yo.",
+                "japanese": "領収書をください。",
+                "usage": "領収書をリクエスト"
+              },
+              {
+                "korean": "선물 포장해 줄 수 있어요?",
+                "romaji": "Seonmul pojang-hae jul su iss-eo-yo?",
+                "japanese": "ギフトラッピングしてくれますか？",
+                "usage": "ギフトラッピングをリクエスト"
+              }
+            ]
+          },
+          {
+            "title": "ショッピング用語",
+            "items": [
+              {"korean": "상품", "japanese": "商品"},
+              {"korean": "가격", "japanese": "価格"},
+              {"korean": "할인", "japanese": "割引"},
+              {"korean": "품질", "japanese": "品質"},
+              {"korean": "크기", "japanese": "サイズ"},
+              {"korean": "색깔", "japanese": "色"},
+              {"korean": "재질", "japanese": "素材"},
+              {"korean": "보증", "japanese": "保証"},
+              {"korean": "반품", "japanese": "返品"},
+              {"korean": "교환", "japanese": "交換"}
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-019-q1",
+          "type": "fill-blank",
+          "question": "「この商品の価格はいくらですか？」を韓国語で言ってください。",
+          "answer": "이 상품의 가격이 얼마예요?"
+        },
+        {
+          "id": "ko-019-q2",
+          "type": "fill-blank",
+          "question": "「割引していただけますか？」を韓国語で言ってください。",
+          "hint": "「할인」で始まります",
+          "answer": "할인해 줄 수 있어요?"
+        },
+        {
+          "id": "ko-019-q3",
+          "type": "multiple-choice",
+          "question": "「이 제품은 최신 기술이 사용됐어요」という表現の意味として正しいのはどれですか？",
+          "options": [
+            "この製品は古い技術を使っています",
+            "この製品は最新技術が使われています",
+            "この製品は壊れています",
+            "この製品は輸入品です"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "ko-019-q4",
+          "type": "fill-blank",
+          "question": "「返品は可能ですか？」を韓国語で言ってください。",
+          "answer": "반품이 가능해요?"
+        },
+        {
+          "id": "ko-019-q5",
+          "type": "fill-blank",
+          "question": "「3個買ったらもっと安くなりますか？」を韓国語で言ってください。",
+          "hint": "「sam-gae sa-myeon」で始まります",
+          "answer": "3개 사면 더 싸져요?"
+        },
+        {
+          "id": "ko-019-q6",
+          "type": "multiple-choice",
+          "question": "韓国の市場での価格交渉について、正しいのはどれですか？",
+          "options": [
+            "百貨店でも交渉は一般的",
+            "市場では交渉が一般的だが、百貨店ではしない",
+            "交渉は失礼である",
+            "すべての場所で交渉可能"
+          ],
+          "answer": 1
+        },
+        {
+          "id": "ko-019-q7",
+          "type": "fill-blank",
+          "question": "「領収書をください」を韓国語で言ってください。",
+          "answer": "영수증을 주세요."
+        },
+        {
+          "id": "ko-019-q8",
+          "type": "matching",
+          "question": "以下のショッピング用語を正しく組み合わせてください。",
+          "pairs": [
+            {"korean": "할인", "meaning": "割引"},
+            {"korean": "반품", "meaning": "返品"},
+            {"korean": "교환", "meaning": "交換"},
+            {"korean": "보증", "meaning": "保証"}
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国市場での実践ショッピング会話",
+          "duration": "13分",
+          "description": "南大門市場での実際の交渉例、敬語レベルの使い分け含む"
+        },
+        {
+          "type": "grammar",
+          "title": "価格交渉の表現パターン",
+          "content": "「얼마면～?」（いくらなら～？）、「더 싸게～」（もっと安く～）などの交渉表現。韓国文化では適切な敬語レベルでの交渉は失礼ではなく、むしろコミュニケーションの一部です。"
+        },
+        {
+          "type": "grammar",
+          "title": "~지 않으려고 하다 vs ~지 않으려고 해요",
+          "content": "丁寧さのレベルによる表現の違い。「이 가격이 너무 비싼데」（この価格は高すぎるんですが）というような迂回的な交渉方法も効果的。"
+        },
+        {
+          "type": "note",
+          "title": "韓国のショッピング文化",
+          "content": "韓国では南大門市場や東大門市場などの伝統市場での値引き交渉が文化的に受け入れられています。しかし高級百貨店での交渉は一般的ではありません。オンラインショッピングも非常に発達しており、配送サービスが充実しています。"
+        },
+        {
+          "type": "note",
+          "title": "領収書と税金",
+          "content": "韓国では領収書（영수증）の重要性が高く、税務申告やポイント積立に必要です。買い物後に「영수증 있으세요?」と聞くと、店員はレシートをくれます。"
+        },
+        {
+          "type": "practice",
+          "title": "ショッピング交渉ロールプレイ",
+          "content": "友人と「店員と顧客」の役割を分担して、商品説明 → 価格確認 → 割引交渉 → 支払い の流れで実践してみてください。韓国市場での会話を想定して練習しましょう。"
+        }
+      ]
     }
   ]
 }
