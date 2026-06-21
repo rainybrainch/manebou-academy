@@ -471,6 +471,31 @@
           "question": "「12月」をドイツ語で言ってください。",
           "hint": "「Dezember」です",
           "answer": "Dezember"
+        },
+        {
+          "id": "de-002-q10",
+          "type": "fill-blank",
+          "question": "「第3番目」をドイツ語で言ってください。",
+          "hint": "序数形で、数字 3 をベースに -te をつけます",
+          "answer": "dritte"
+        },
+        {
+          "id": "de-002-q11",
+          "type": "multiple-choice",
+          "question": "「2024年11月15日」をドイツ語で表現するとき、正しい順序はどれですか？",
+          "options": [
+            "Montag, den 15. November 2024",
+            "November 15, 2024",
+            "2024-11-15",
+            "15-11-2024"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-002-q12",
+          "type": "fill-blank",
+          "question": "「土曜日」をドイツ語で言ってください。",
+          "answer": "Samstag"
         }
       ],
       "resources": [
