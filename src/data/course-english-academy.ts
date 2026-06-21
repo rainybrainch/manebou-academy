@@ -142,16 +142,31 @@ export const englishAcademyCategory: Category = {
           title: 'ストレス（アクセント）の位置',
           duration: '5:45',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
             '単語のストレスの位置が分かる',
             'ストレスを正しく発音できる',
             '聞き取り精度が上がる',
+            'ストレスで意味が変わる単語が分かる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: '「バナナ」と「パナマ」は同じ音の繰り返しですが、ストレス（どこに力を入れるか）が違いますね。英語でも同じです。',
+              content: '「バナナ」と「パナマ」は同じ音の繰り返しですが、ストレス（どこに力を入れるか）が違いますね。英語でも同じです。ストレスがズレると、ネイティブに通じません。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'ストレスで意味が変わる単語',
+            },
+            {
+              type: 'text',
+              content: '**produce vs produce**\n- PRO-duce (PROduct) - 名詞：商品\n- pro-DUCE (produce) - 動詞：生産する\n\n**record vs record**\n- RE-cord (ReCording) - 名詞：記録\n- re-CORD (recording) - 動詞：記録する\n\n**read vs read**\n- READ (present) - 現在形：読む\n- red (past) - 過去形：読んだ（発音は「レッド」）\n\n**stress vs stress**\n- STRESS (noun) - 名詞：ストレス\n- stress (verb) - 動詞：強調する\n\n**ストレス位置のルール**\n- 一般的に、2音節単語：最初の音にストレス（PRE-sent）\n- 3音節以上：特定のパターンがある（im-POR-tant, dic-TION-ar-y）',
+            },
+            {
+              type: 'highlight-box',
+              title: 'ストレスの聞き分け練習',
+              content: 'ネイティブスピーカーはストレスの位置で単語を判断しています。\n- 聞き取り不正確 → ストレスの位置が違う\n- 発音が通じない → ストレスを間違えている\n\n各単語を何度も聞いて、「力が入る音」を認識することが重要です。',
             },
           ],
         },
@@ -271,16 +286,32 @@ export const englishAcademyCategory: Category = {
           title: 'レストランでの注文',
           duration: '7:00',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
             'メニューが読める',
             '注文ができる',
             '食事の好みを伝えられる',
+            'アレルギー・デイエットを説明できる',
+            'ウェイターとのトラブル時に対応できる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: 'レストランで使える実用的な英語フレーズを習得します。',
+              content: 'レストランで使える実用的な英語フレーズを習得します。海外旅行や英語圏での生活で必須のスキル。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'レストラン会話の流れ',
+            },
+            {
+              type: 'text',
+              content: '**ステップ1：到着**\n- "Table for two, please." - 2人です\n- "Do you have a reservation?" - ご予約はありますか？\n- "We have a 7 o\'clock reservation under the name Smith." - 7時にスミスの名義で予約があります\n\n**ステップ2：メニュー確認**\n- "Can I see the menu?" - メニューをください\n- "What do you recommend?" - おすすめは何ですか？\n- "What\'s in this dish?" - このディッシュには何が入っていますか？\n\n**ステップ3：注文**\n- "I\'ll have the salmon with a side of vegetables." - サーモンと野菜添えをください\n- "Medium rare, please." - ミディアムレアでお願いします\n- "Can I get that without the sauce?" - ソースなしでもらえますか？\n\n**ステップ4：食事中＆食後**\n- "How is your meal?" - 食事はいかがですか？\n- "It\'s delicious!" - 美味しいです！\n- "The check, please." - お勘定をお願いします',
+            },
+            {
+              type: 'highlight-box',
+              title: 'アレルギー・食事制限の伝え方',
+              content: '- I\'m allergic to peanuts. - ピーナッツアレルギーがあります\n- I\'m vegetarian. - ベジタリアンです\n- I don\'t eat gluten. - グルテンは食べません\n- Can you make it without dairy? - 乳製品なしでお願いできますか？\n- Is this dish spicy? - このディッシュは辛いですか？',
             },
           ],
         },
