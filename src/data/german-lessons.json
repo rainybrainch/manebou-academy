@@ -6451,6 +6451,225 @@
           "content": "あなたが製造企業の Production Director とします。現在の工場をIndustry 4.0仕様にアップグレードする包括的な計画を策定します。IoT センサー導入、機械の自動化、データ分析プラットフォーム、予測保全システムの実装タイムラインと投資計画、人的資源の再配置、品質指標の設定、ROI分析を含めて詳細に述べてください。"
         }
       ]
+    },
+    {
+      "id": "de-029",
+      "level": 5,
+      "title": "起業・イノベーション管理：ビジネスモデル・スタートアップ戦略・リスク投資",
+      "titleDe": "Unternehmertum und Innovationsmanagement: Geschäftsmodelle, Startup-Strategien und Risikokapital",
+      "objectives": [
+        "起業家精神とイノベーション管理の基本を理解する",
+        "ビジネスモデル設計と市場戦略に関する専門用語を習得する",
+        "スタートアップのライフサイクルとファンディング戦略を理解する",
+        "失敗から学び、スケーラブルなビジネスを構築するスキルを習得する"
+      ],
+      "content": {
+        "introduction": "起業家精神とイノベーションはドイツ経済の駆動力です。ベルリンのスタートアップシーンから伝統的な Mittelstand の家族経営企業まで、ドイツはイノベーション文化を育んでいます。このレッスンでは、ビジネスモデル設計、起業の課程、資金調達戦略、スケーリング、国際展開に関する高度なドイツ語を学びます。",
+        "sections": [
+          {
+            "title": "起業家精神とイノベーション文化",
+            "phrases": [
+              {
+                "german": "Unternehmertum bedeutet die Identifikation von Marktchancen, die Entwicklung innovativer Lösungen, die Übernahme von Risiken, und die Schaffung von Wertangeboten für Kunden.",
+                "romaji": "Unternehmertum bedeutet die Identifikation von Marktchancen, die Entwicklung innovativer Lösungen",
+                "japanese": "起業家精神は市場機会の特定、革新的ソリューションの開発、リスク負担、顧客への価値創造を意味します。",
+                "usage": "起業家精神の本質を説明するとき"
+              },
+              {
+                "german": "Erfolgreiche Gründer kombinieren technische Expertise mit Geschäftssinn, Durchhaltevermögen, Anpassungsfähigkeit, und ein starkes Netzwerk von Mentoren und Investoren.",
+                "romaji": "Erfolgreiche Gründer kombinieren technische Expertise mit Geschäftssinn, Durchhaltevermögen",
+                "japanese": "成功した起業家は技術専門知識とビジネスセンス、粘り強さ、適応能力、メンターと投資家の強いネットワークを組み合わせます。",
+                "usage": "起業家の資質を説明するとき"
+              },
+              {
+                "german": "Deutschlands Startup-Ökosystem umfasst Tech-Hubs (Berlin, München), Venture-Capital-Fonds, Business-Inkubatoren, und Acceleratoren, die Gründer unterstützen.",
+                "romaji": "Deutschlands Startup-Ökosystem umfasst Tech-Hubs (Berlin, München), Venture-Capital-Fonds",
+                "japanese": "ドイツのスタートアップエコシステムはテックハブ（ベルリン、ミュンヘン）、ベンチャーキャピタル、ビジネスインキュベーター、アクセレーターで起業家を支援します。",
+                "usage": "ドイツのスタートアップシーンを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "ビジネスモデルと市場戦略",
+            "phrases": [
+              {
+                "german": "Ein Geschäftsmodell definiert, wie ein Unternehmen Wert schafft, liefert und erfasst. Beispiele: Subscription-Model, Plattform-Modell, Freemium, B2B, B2C, oder Peer-to-Peer.",
+                "romaji": "Ein Geschäftsmodell definiert, wie ein Unternehmen Wert schafft, liefert und erfasst",
+                "japanese": "ビジネスモデルは企業が価値を創造・提供・獲得する方法を定義します。例：サブスクリプション、プラットフォーム、フリーミアム、B2B、B2C、P2P。",
+                "usage": "ビジネスモデルの種類を説明するとき"
+              },
+              {
+                "german": "Marktvalidierung und Customer Discovery sind kritisch: Gründer müssen mit potenziellen Kunden sprechen, Hypothesen testen, und schnell lernen, ob ihr Produkt einen echten Markt hat.",
+                "romaji": "Marktvalidierung und Customer Discovery sind kritisch: Gründer müssen mit potenziellen Kunden sprechen",
+                "japanese": "市場検証と顧客発見は重要：起業家は潜在顧客と対話し、仮説をテストし、製品が実際の市場を持つかを素早く学ぶ必要があります。",
+                "usage": "市場検証プロセスを説明するとき"
+              },
+              {
+                "german": "Go-to-Market-Strategie umfasst Pricing, Distribution-Kanäle, Marketing-Mix, und Customer-Acquisition-Kosten (CAC), um sustainable und profitable zu wachsen.",
+                "romaji": "Go-to-Market-Strategie umfasst Pricing, Distribution-Kanäle, Marketing-Mix",
+                "japanese": "市場投入戦略は価格設定、流通チャネル、マーケティングミックス、顧客獲得費用（CAC）を含み、持続可能で収益性の高い成長を実現します。",
+                "usage": "市場投入戦略を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "スタートアップのライフサイクルと資金調達",
+            "phrases": [
+              {
+                "german": "Startup-Phasen: Seed (Ideenphase), Series A/B/C (Wachstumsphasen), Late-Stage (Reife), und Liquidity Event (IPO oder Akquisition) mit unterschiedlichen Finanzierungsanforderungen.",
+                "romaji": "Startup-Phasen: Seed (Ideenphase), Series A/B/C (Wachstumsphasen)",
+                "japanese": "スタートアップの段階：シード（構想段階）、Series A/B/C（成長段階）、後期段階（成熟）、流動性イベント（IPOまたは買収）。",
+                "usage": "スタートアップのライフサイクルを説明するとき"
+              },
+              {
+                "german": "Finanzierungsquellen: Bootstrapping, Angel-Investitionen, Venture Capital, Crowdfunding, und Fremdfinanzierung, jede mit unterschiedlichen Bedingungen und Erwartungen.",
+                "romaji": "Finanzierungsquellen: Bootstrapping, Angel-Investitionen, Venture Capital, Crowdfunding",
+                "japanese": "資金源：ブートストラッピング、エンジェル投資、ベンチャーキャピタル、クラウドファンディング、負債資金調達。各々異なる条件と期待。",
+                "usage": "資金調達オプションを説明するとき"
+              },
+              {
+                "german": "Due Diligence von Investoren prüft Geschäftsmodell, Marktgröße, Team-Qualifikationen, finanzielle Projektionen, und Wettbewerbsposition, um Investitionsrisiken zu bewerten.",
+                "romaji": "Due Diligence von Investoren prüft Geschäftsmodell, Marktgröße, Team-Qualifikationen",
+                "japanese": "投資家のデューディリジェンスはビジネスモデル、市場規模、チーム適性、財務予測、競争力を精査し投資リスクを評価します。",
+                "usage": "投資家の審査プロセスを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "スケーリング、国際展開、失敗から学ぶ",
+            "phrases": [
+              {
+                "german": "Skalierbarkeit bedeutet, das Geschäft mit minimalen zusätzlichen Kosten zu wachsen, durch Automatisierung, Technologieeinsatz, und organisatorische Optimierung.",
+                "romaji": "Skalierbarkeit bedeutet, das Geschäft mit minimalen zusätzlichen Kosten zu wachsen",
+                "japanese": "スケーラビリティは最小限の追加コストで事業を成長させることを意味し、自動化、技術活用、組織最適化を通じて実現します。",
+                "usage": "スケーリングの重要性を説明するとき"
+              },
+              {
+                "german": "Internationale Expansion erfordert kulturelle Sensibilität, Verständnis lokaler Märkte, regulatorisches Compliance, Lokalisierung, und strategische Partnerschaften in neuen Märkten.",
+                "romaji": "Internationale Expansion erfordert kulturelle Sensibilität, Verständnis lokaler Märkte",
+                "japanese": "国際展開は文化的配慮、現地市場の理解、規制遵守、ローカライゼーション、新市場での戦略的パートナーシップを必要とします。",
+                "usage": "国際展開の課題を説明するとき"
+              },
+              {
+                "german": "Failure ist Teil des Unternehmertums: Lernen aus Fehlschlägen, schnelle Iteration, Pivot bei Bedarf, und psychische Widerstandskraft sind Schlüssel zum Erfolg.",
+                "romaji": "Failure ist Teil des Unternehmertums: Lernen aus Fehlschlägen, schnelle Iteration",
+                "japanese": "失敗は起業家精神の一部：失敗から学び、素早く反復し、必要に応じてピボット、精神的レジリエンスが成功の鍵です。",
+                "usage": "失敗と学習を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-029-q1",
+          "type": "fill-blank",
+          "question": "「起業家精神は市場機会の特定と価値創造を意味します」をドイツ語で言ってください。",
+          "answer": "Unternehmertum bedeutet die Identifikation von Marktchancen und die Schaffung von Wertangeboten."
+        },
+        {
+          "id": "de-029-q2",
+          "type": "multiple-choice",
+          "question": "起業家に必要な資質は？",
+          "options": [
+            "技術知識、ビジネスセンス、粘り強さ、ネットワーク",
+            "お金だけ",
+            "技術のみ",
+            "学位がすべて"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-029-q3",
+          "type": "fill-blank",
+          "question": "「ビジネスモデルは価値を創造・提供・獲得する方法を定義します」をドイツ語で言ってください。",
+          "answer": "Ein Geschäftsmodell definiert, wie ein Unternehmen Wert schafft, liefert und erfasst."
+        },
+        {
+          "id": "de-029-q4",
+          "type": "multiple-choice",
+          "question": "ビジネスモデルの例は？",
+          "options": [
+            "サブスクリプション、プラットフォーム、フリーミアム、B2B、B2C",
+            "製造のみ",
+            "小売のみ",
+            "サービスなし"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-029-q5",
+          "type": "fill-blank",
+          "question": "「市場検証は顧客発見と仮説テストです」をドイツ語で言ってください。",
+          "answer": "Marktvalidierung ist Customer Discovery und Hypothesentestung."
+        },
+        {
+          "id": "de-029-q6",
+          "type": "matching",
+          "question": "スタートアップの段階と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"stage": "Seed", "description": "構想段階"},
+            {"stage": "Series A/B/C", "description": "成長段階"},
+            {"stage": "Late-Stage", "description": "成熟段階"}
+          ]
+        },
+        {
+          "id": "de-029-q7",
+          "type": "fill-blank",
+          "question": "「ベンチャーキャピタルはリスク投資で高成長を期待します」をドイツ語で言ってください。",
+          "answer": "Venture Capital ist Risikofinanzierung mit Erwartungen auf hohes Wachstum."
+        },
+        {
+          "id": "de-029-q8",
+          "type": "multiple-choice",
+          "question": "スケーラビリティの意味は？",
+          "options": [
+            "追加コストを最小化して事業を成長させる能力",
+            "大規模な初期投資が必要",
+            "成長できないビジネス",
+            "技術不要"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツの起業・イノベーション管理：スタートアップ戦略・資金調達・スケーリング",
+          "duration": "32分",
+          "description": "ベルリンのスタートアップシーン。ビジネスモデルキャンバス。市場検証とピボット。VCファンディングプロセス。ドイツから世界へのスケーリング戦略。"
+        },
+        {
+          "type": "grammar",
+          "title": "起業・イノベーション用語と戦略コミュニケーション表現",
+          "content": "起業複合名詞：Geschäftsmodell（ビジネスモデル）、Startup（スタートアップ）、Gründer（起業家）、Pitch（ピッチ）、Due Diligence（デューディリジェンス）。戦略表現：validieren（検証する）、pivotieren（ピボットする）、skalieren（スケーリングする）。ファイナンス用語：Funding Round（資金調達ラウンド）、Cap Table（資本テーブル）。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツのスタートアップエコシステムの構造",
+          "content": "Tech Hubs：Berlin、Munich、Hamburg での集中。組織：Startup Association Germany（ドイツスタートアップ協会）。資金源：ドイツ復興銀行（KfW）、民間VC、コーポレートベンチャー。メンターシップ：シリアルアントレプレナー、業界エキスパート。"
+        },
+        {
+          "type": "note",
+          "title": "ビジネスモデル設計と市場戦略",
+          "content": "Business Model Canvas：9ブロックフレームワーク（顧客セグメント、価値提案など）。Lean Startup 方法論：Build-Measure-Learn サイクル。MVP（Minimum Viable Product）：最小限の実行可能製品。A/B テストと仮説駆動開発。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツと韓国のスタートアップ文化比較",
+          "content": "ドイツ：高い市場基準、規制への適応重視、長期的価値構築。韓国：急速な成長、技術革新重視、グローバル展開志向。両国ともシリコンバレーとの関係を重視。"
+        },
+        {
+          "type": "note",
+          "title": "資金調達とデューディリジェンス",
+          "content": "シード段階：家族・友人・エンジェル投資家。Series A：初期 VC ファンド。Series B/C：成長期ファンド。IPO・買収：出口戦略。投資家の評価：チーム、市場規模、ビジネスモデル、財務予測。"
+        },
+        {
+          "type": "practice",
+          "title": "スタートアップビジネスプランの策定と投資ピッチ",
+          "content": "あなたが新しいビジネスアイデアの起業家とします。ビジネスモデルを設計し、ターゲット市場を定義し、競争分析を行い、3年財務予測を作成します。VCに向けた5分間のピッチを準備し、以下を含めます：問題定義、革新的ソリューション、市場規模、チーム背景、資金調達ニーズ、成功指標。"
+        }
+      ]
     }
   ]
 }
