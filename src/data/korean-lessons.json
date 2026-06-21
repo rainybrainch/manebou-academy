@@ -8372,6 +8372,225 @@
           "content": "あなたが韓国のソウルにある 5 つ星ホテル経営者とします。年間収益と稼働率向上のための統合戦略を立案します。オンライン予約プラットフォーム最適化、SEO・SEM 戦略、ソーシャルメディアマーケティング、ゲストレビュー管理、季節別価格設定、ロイヤルティプログラム設計、多言語カスタマーサービス、スタッフトレーニング計画を含めます。具体的な KPI、マーケティング予算配分、実装タイムライン、期待される成果を詳細に述べてください。"
         }
       ]
+    },
+    {
+      "id": "ko-046",
+      "level": 5,
+      "title": "エネルギー・再生可能エネルギー：太陽光・風力・グリーン技術",
+      "titleKo": "에너지 및 재생 에너지: 태양광, 풍력, 녹색 기술",
+      "objectives": [
+        "エネルギー産業とエネルギー転換の基本を理解する",
+        "再生可能エネルギー技術と発電システムに関する専門用語を習得する",
+        "エネルギー効率化とスマートグリッドの概念を理解する",
+        "グリーンテクノロジーとサステイナビリティ戦略を習得する"
+      ],
+      "content": {
+        "introduction": "エネルギー産業は気候変動対策の中核です。韓国のグリーン産業政策は、再生可能エネルギーへの急速な転換を主導しています。このレッスンでは、再生可能エネルギー技術、発電システム、エネルギー管理、グリーン産業に関する高度な韓国語を学びます。",
+        "sections": [
+          {
+            "title": "エネルギー産業とエネルギー転換戦略",
+            "phrases": [
+              {
+                "korean": "에너지 전환은 화석 연료에서 재생 에너지로의 전략적 전환으로, CO2 배출량을 줄이고 지속 가능성을 달성합니다.",
+                "romaji": "Eneoji jeonhwan-eun hwahseog yeonryo-e-seo jaesan eneoji ro-ui jeonryagjeoug jeonhwan euro, CO2 bae-chul ryang-eul jjeul-igo jisog ga-neung seong-eul dal-seonghag hamnida",
+                "japanese": "エネルギー転換は化石燃料から再生可能エネルギーへの戦略的転換であり、CO2排出量の削減とサステイナビリティを実現します。",
+                "usage": "エネルギー転換の概念を説明するとき"
+              },
+              {
+                "korean": "재생 에너지 원(태양, 바람, 물, 바이오매스, 지열)은 무한하고 환경 친화적이며 전 지구적 에너지 안보에서 중심적인 역할을 합니다.",
+                "romaji": "Jaesan eneoji won (taeyang, ba-ram, mul, ba-io maes, jiyeol)-eun muhanhago hwangyeong chin-hwa jeoug hayeo imyeo jeon jiggu jeoug eneoji an-bo-e-seo jung-sim jeoug-in yeoghal-eul hamnida",
+                "japanese": "再生可能エネルギー源（太陽光、風力、水力、バイオマス、地熱）は無限で、環境にやさしく、グローバルエネルギー安全保障で中心的な役割を果たします。",
+                "usage": "再生可能エネルギーの種類を説明するとき"
+              },
+              {
+                "korean": "에너지 정책과 규제(보조금, 전력망, CO2 가격 책정, 효율 기준)는 재생 에너지 채택을 촉진하고 환경 영향을 줄입니다.",
+                "romaji": "Eneoji jeongchaeg-gwa gyuje (bosojeum, jeonryeog-mang, CO2 gagyeok chaeg jeong, hyoeul gi jun)-eun jaesan eneoji chaetaeg-eul chogji nhago hwangyeong yeong-hyang-eul jjeul imnida",
+                "japanese": "エネルギー政策と規制（補助金、電力網、CO2価格設定、効率基準）は再生可能エネルギーの採用を促進し、環境への影響を削減します。",
+                "usage": "エネルギー政策の役割を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "太陽光発電と風力発電システム",
+            "phrases": [
+              {
+                "korean": "태양광 발전(PV)은 반도체 물질을 통해 햇빛을 직접 전기로 변환하며, 효율은 15-22%로 경제적으로 비용 효율적입니다.",
+                "romaji": "Taeyang-gwang balgeonn (PV)-eun bandoche mul jil-eul tonghae hae-bbicht-eul jigjeob jeon-gi ro beon-hwan hayeo-imyeo, hyoeul-eun 15-22% ro gyeongje jeoug-ro bigyong hyoeul jeoug imnida",
+                "japanese": "太陽光発電（PV）は半導体材料を通じて太陽光を直接電気に変換し、効率は15-22%で、経済的にコスト効率的です。",
+                "usage": "太陽光発電技術を説明するとき"
+              },
+              {
+                "korean": "풍력 발전 장치는 회전 터빈을 통해 바람 에너지로 전기를 생성하며, 육상(40-60%)과 해상(45-50%) 시설은 다양한 용량을 가집니다.",
+                "romaji": "Pung-ryeok balgeonn jangchi-neun hoejeon teo bin-eul tonghae ba-ram eneoji ro jeon-gi-reul saengseong hayeo-imyeo, yuk-sang (40-60%)-gwa hae-sang (45-50%) siseogl-eun da-yang-han yong-ryang-eul gajip nida",
+                "japanese": "風力発電装置は回転タービンを通じて風エネルギーで電力を生成し、陸上（40-60%）と洋上（45-50%）の異なる容量を持つ施設があります。",
+                "usage": "風力発電システムを説明するとき"
+              },
+              {
+                "korean": "에너지 저장(배터리, 양수 발전소, 수소)은 전력망의 안정성을 위해 중요합니다. 재생 에너지는 시간에 따라 달라지기 때문입니다.",
+                "romaji": "Eneoji jeosang (baeteo ri, yang-su balgeonn-so, suseo)-eun jeonryeog-mang-ui an-jeong seong-eul wihae jungyohabnida. Jaesan eneoji-neun sigan-e ttara dal-ra-gi ttae-munnimnida",
+                "japanese": "エネルギー貯蔵（バッテリー、揚水発電所、水素）は電力網の安定性に不可欠です。再生可能エネルギーは時間依存で変動するためです。",
+                "usage": "エネルギー貯蔵の重要性を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "スマートグリッドと電力管理システム",
+            "phrases": [
+              {
+                "korean": "스마트 그리드는 발전, 배분, 소비를 양방향으로 통합하는 디지털 전력망으로, 효율성, 신뢰성, 지속 가능성을 최대화합니다.",
+                "romaji": "Seu mata geu ri deu-neun balgeonn, bae bun, so-bi-reul yang-banghyang euro tonghab haneun dijital jeonryeog mang euro, hyoeul seong, shinryoeseong, jisog ga-neung seong-eul choe dae hwahwae hamnida",
+                "japanese": "スマートグリッドはデジタル電力網であり、発電、配分、消費を双方向に統合し、効率、信頼性、サステイナビリティを最大化します。",
+                "usage": "スマートグリッドの概念を説明するとき"
+              },
+              {
+                "korean": "수요 대응과 부하 관리는 시간별 요금, 스마트 미터, 자동 소비자 제어를 통해 전력 소비를 최적화합니다.",
+                "romaji": "Suyo dae-eobng-gwa buha gwanri-neun sigan byeol yo-geum, seu mata mi-teo, jadong so-bi ja jeyeo-reul tonghae jeonryeog so-bi-reul choesog hwahwae hamnida",
+                "japanese": "デマンドレスポンスと負荷管理は、時間依存の料金、スマートメーター、自動消費者制御を通じて電力消費を最適化します。",
+                "usage": "電力管理戦略を説明するとき"
+              },
+              {
+                "korean": "디지털 기술(IoT, AI, 기계 학습)은 에너지 생성과 소비의 실시간 모니터링, 예측, 최적화를 가능하게 합니다.",
+                "romaji": "Dijital gisul (IoT, AI, giae hagseubg)-eun eneoji saengseong-gwa so-bi-ui silsigan monitorni, yeyeok, choesog hwahwae-reul ga-neung hage hamnida",
+                "japanese": "デジタル技術（IoT、AI、機械学習）はエネルギー生成と消費のリアルタイム監視、予測、最適化を可能にします。",
+                "usage": "デジタル技術の活用を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "グリーンテクノロジーとサステイナビリティ",
+            "phrases": [
+              {
+                "korean": "녹색 기술(전기 자동차, 열펌프, LED 조명, 에너지 효율적인 건물)은 탄소 발자국을 줄이고 지속 가능한 생활을 촉진합니다.",
+                "romaji": "Nok-saeg gisul (jeon-gi jadongcha, yeol peom-peu, LED jomyeong, eneoji hyoeul jeoug-in geonmul)-eun talso baljaguk-eul jjeul-igo jisog ga-neung saengwal-eul chogji nhamnida",
+                "japanese": "グリーンテクノロジー（電気自動車、ヒートポンプ、LED照明、エネルギー効率的な建物）は炭素フットプリントを削減し、持続可能な生活を促進します。",
+                "usage": "グリーンテクノロジーの例を説明するとき"
+              },
+              {
+                "korean": "순환 경제와 자원 효율성은 폐기물을 최소화하고 제품 설계와 제조 공정에서 재사용, 재활용, 재생 가능한 자재를 촉진합니다.",
+                "romaji": "Sun-hwan gyeongje-wa jawon hyoeul seong-eun pyeagi-mul-eul choesoga hwahwae-hago jae-pum seolgyae-wa jecho gong jeong-e-seo jae-sa-yong, jae-hwal-yong, jaegan ga-neung ja-jae-reul chogji nhamnida",
+                "japanese": "サーキュラーエコノミーとリソース効率は廃棄物を最小化し、再利用、リサイクル、製品設計と製造プロセスでの再生可能材料を促進します。",
+                "usage": "循環経済の原則を説明するとき"
+              },
+              {
+                "korean": "ESG 평가(환경, 사회, 지배구조)와 지속 가능성 보고는 투자자와 이해관계자에게 기업의 책임과 환경 영향을 평가합니다.",
+                "romaji": "ESG pyeong-ga (hwangyeong, sahoe, ji-bae gu-jo)-wa jisog ga-neung seong bogo-neun tuja ja-wa ihaee gwankye ja-e ge gieob-ui chaeg-im-gwa hwangyeong yeong-hyang-eul pyeong-ga hamnida",
+                "japanese": "ESG評価（環境、社会、ガバナンス）とサステイナビリティ報告は、投資家とステークホルダーに対する企業責任と環境への影響を評価します。",
+                "usage": "ESGと持続可能性報告を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-046-q1",
+          "type": "fill-blank",
+          "question": "「エネルギー転換は化石燃料から再生可能エネルギーへの転換です」を韓国語で言ってください。",
+          "answer": "에너지 전환은 화석 연료에서 재생 에너지로의 전환입니다."
+        },
+        {
+          "id": "ko-046-q2",
+          "type": "multiple-choice",
+          "question": "再生可能エネルギー源の例は？",
+          "options": [
+            "太陽光、風力、水力、バイオマス、地熱",
+            "石炭のみ",
+            "石油だけ",
+            "天然ガス"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-046-q3",
+          "type": "fill-blank",
+          "question": "「太陽光発電は太陽光を電気に変換します」を韓国語で言ってください。",
+          "answer": "태양광 발전은 햇빛을 전기로 변환합니다."
+        },
+        {
+          "id": "ko-046-q4",
+          "type": "multiple-choice",
+          "question": "風力発電の効率の例は？",
+          "options": [
+            "陸上40-60%、洋上45-50%",
+            "10%以下",
+            "すべてが80%以上",
+            "効率がない"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-046-q5",
+          "type": "fill-blank",
+          "question": "「スマートグリッドはデジタル電力網です」を韓国語で言ってください。",
+          "answer": "스마트 그리드는 디지털 전력망입니다."
+        },
+        {
+          "id": "ko-046-q6",
+          "type": "matching",
+          "question": "再生可能エネルギー技術とその説明を正しく組み合わせてください。",
+          "pairs": [
+            {"tech": "태양광", "description": "太陽光発電"},
+            {"tech": "풍력", "description": "風力発電"},
+            {"tech": "수력", "description": "水力発電"}
+          ]
+        },
+        {
+          "id": "ko-046-q7",
+          "type": "fill-blank",
+          "question": "「グリーンテクノロジーは炭素フットプリントを削減します」を韓国語で言ってください。",
+          "answer": "녹색 기술은 탄소 발자국을 줄입니다."
+        },
+        {
+          "id": "ko-046-q8",
+          "type": "multiple-choice",
+          "question": "ESGの構成要素は？",
+          "options": [
+            "環境、社会、ガバナンス",
+            "経済のみ",
+            "企業規模だけ",
+            "利益"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "エネルギー・再生可能エネルギー：太陽光・風力・スマートグリッド・グリーン技術",
+          "duration": "35分",
+          "description": "エネルギー転換とエネルギー政策。太陽光発電技術。風力発電システム。水力・地熱・バイオマス。エネルギー貯蔵技術。スマートグリッド。デマンドレスポンス。グリーンテクノロジー。循環経済。ESG評価。"
+        },
+        {
+          "type": "grammar",
+          "title": "エネルギー業界用語とサステイナビリティ表現",
+          "content": "エネルギー用語：Renewable Energy（再生可能エネルギー）、Photovoltaic（太陽光発電）、Wind Turbine（風力タービン）、Energy Storage（エネルギー貯蔵）。技術用語：Smart Grid（スマートグリッド）、Demand Response（デマンドレスポンス）、Internet of Things（IoT）、Energy Efficiency（エネルギー効率）。サステイナビリティ用語：Carbon Footprint（炭素フットプリント）、Circular Economy（循環経済）、ESG（環境・社会・ガバナンス）。"
+        },
+        {
+          "type": "note",
+          "title": "韓国のグリーン産業政策",
+          "content": "韓国：2050年までにカーボンニュートラル達成目標。グリーン産業：太陽光・風力製造、EV・バッテリー、水素産業。政策支援：Government Green Growth Plan。産業の強み：太陽光パネル製造（Samsung、LG）、バッテリー技術（LG Energy Solution、SK Innovation）。"
+        },
+        {
+          "type": "note",
+          "title": "再生可能エネルギー技術",
+          "content": "太陽光：単結晶シリコン、薄膜、ペロブスカイト（次世代）。風力：陸上2-5MW、洋上10-15MW以上。水力：大規模ダム、小規模水力。地熱：発電、温熱利用。バイオマス：農業廃棄物、木質ペレット。"
+        },
+        {
+          "type": "note",
+          "title": "エネルギー貯蔵と電力管理",
+          "content": "バッテリー：リチウムイオン、全個体電池。機械的：揚水発電、圧縮空気。化学的：水素（グリーン水素）、合成燃料。需要側管理：スマートメーター、EVチャージング、建物の熱貯蔵。"
+        },
+        {
+          "type": "note",
+          "title": "グリーン産業とビジネスモデル",
+          "content": "グリーンテクノロジー産業：太陽光・風力製造、蓄電池、EV充電インフラ。ビジネスモデル：PPA（電力購買契約）、エネルギー管理サービス、屋根借地型太陽光。雇用創出と地域経済。"
+        },
+        {
+          "type": "practice",
+          "title": "大規模再生可能エネルギープロジェクト企画と実行計画",
+          "content": "あなたが韓国のエネルギー企業のプロジェクトマネージャーとします。大規模な再生可能エネルギープロジェクト（太陽光農場 + 風力発電所）の企画を立案します。サイトの選定・環境評価、技術仕様（容量・効率）、スマートグリッド統合、エネルギー貯蔵システム設計、資金調達戦略、規制対応、地域コミュニティとの連携、環境への影響評価、10年財務予測、ESG報告を含めます。"
+        }
+      ]
     }
   ]
 }
