@@ -2574,6 +2574,220 @@
           "content": "友人と医者と患者の役を分担し、症状説明、診察質問、処方薬について説明、会計など一連の医療相談プロセスをロールプレイしてみてください。相手の理解度を確認しながら進めることがポイント。"
         }
       ]
+    },
+    {
+      "id": "de-011",
+      "level": 4,
+      "title": "メディア・ニュース・ジャーナリズム",
+      "titleDe": "Medien, Nachrichten und Journalismus",
+      "objectives": [
+        "ニュース・メディア関連の語彙を習得する",
+        "新聞記事やニュース報道を理解できる",
+        "ジャーナリズムの基本概念と倫理を学ぶ",
+        "メディアクリティシズムを身につける"
+      ],
+      "content": {
+        "introduction": "現代社会においてメディアリテラシーは必須スキルです。このレッスンでは、ドイツのニュース環境、ジャーナリズムの伝統、メディアの信頼性評価、ニュース記事の読み方など、実践的なドイツ語でのメディア理解を学びます。ドイツは報道の自由と多様なメディア環境で知られています。",
+        "sections": [
+          {
+            "title": "メディアタイプと情報源",
+            "phrases": [
+              {
+                "german": "Ich lese die Zeitung und schaue Nachrichten in den Medien.",
+                "romaji": "ikh LAY-ze dee TSAY-toong unt SHAH-oo-e NAHKH-rikh-ten in den meh-DEE-en",
+                "japanese": "私は新聞を読み、メディアのニュースを見ます。",
+                "usage": "ニュースの情報源の多様性を説明するとき。複数のメディアから情報を得ることの重要性"
+              },
+              {
+                "german": "Online-Nachrichtenportale sind schnell und aktuell.",
+                "romaji": "AHN-line-NAHKH-rikh-ten-por-TAH-le zint shnell unt ahk-TOO-el",
+                "japanese": "オンラインニュースサイトは迅速で最新です。",
+                "usage": "デジタルメディアの利点を説明するとき。インターネット時代のニュース流通"
+              },
+              {
+                "german": "Soziale Medien verbreiten Information schneller, aber weniger zuverlässig.",
+                "romaji": "zoh-tsee-AH-le meh-DEE-en fer-BRAY-ten in-for-mah-tsee-OHN SHNELL-er ah-ber VEN-iger too-fer-LAH-sig",
+                "japanese": "ソーシャルメディアは情報をより速く拡散しますが、信頼性は低いです。",
+                "usage": "SNSとメディアの関係、情報の信頼性について議論するとき"
+              }
+            ]
+          },
+          {
+            "title": "ニュース記事の構造と読解",
+            "phrases": [
+              {
+                "german": "Der Artikel behandelt ein aktuelles Thema und gibt verschiedene Perspektiven.",
+                "romaji": "dehr AHR-ti-kel be-HAHN-delt ine ahk-TOO-el-es TAY-mah unt gibt fer-SHEE-de-ne per-SPEK-tee-ven",
+                "japanese": "その記事は現在の話題を扱い、様々な視点を提供しています。",
+                "usage": "ニュース記事の内容構成を説明するとき。多角的報道の重要性"
+              },
+              {
+                "german": "Die Schlagzeile ist prägnant, aber manchmal sensationell.",
+                "romaji": "dee SHLAHG-tsile ist PRAYG-nahnt ah-ber MAHN-shmahl zen-sah-tsee-o-NEL",
+                "japanese": "見出しは印象的ですが、時には扇情的です。",
+                "usage": "ニュース記事の見出しと本文の相違について検討するとき"
+              },
+              {
+                "german": "Quellenangabe und Faktencheck sind für glaubwürdigen Journalismus wichtig.",
+                "romaji": "KWEL-len-AHN-gah-be unt FAHK-ten-chek zint foo-er GLOWP-voo-er-dih-gen jour-nah-LEES-mus VIKH-tig",
+                "japanese": "出典記載とファクトチェックは信頼できるジャーナリズムにとって重要です。",
+                "usage": "ジャーナリズムの倫理と信頼性について説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "ジャーナリストと報道の自由",
+            "phrases": [
+              {
+                "german": "Journalisten berichten unabhängig und objektiv über wichtige Ereignisse.",
+                "romaji": "jour-nah-LEES-ten be-RIKHS-ten oon-AHP-heng-ig unt ohb-YEK-teef OO-ber VIKH-ti-ge eh-RIGH-nis-se",
+                "japanese": "ジャーナリストは重要な出来事について独立して客観的に報道します。",
+                "usage": "ジャーナリズムの役割と専門性を説明するとき。報道の自由の重要性"
+              },
+              {
+                "german": "Die Pressefreiheit ist ein Grundrecht in demokratischen Ländern.",
+                "romaji": "dee PRES-se-FRAY-hite ist ine GROOONT-recht in deh-moh-KRAH-tee-shen LEN-dern",
+                "japanese": "報道の自由は民主主義国家の基本的人権です。",
+                "usage": "民主主義と報道の自由の関係を議論するとき"
+              },
+              {
+                "german": "Redaktionelle Unabhängigkeit schützt vor politischem Druck und Manipulation.",
+                "romaji": "reh-dahk-tsee-o-NEL-le oon-AHP-heng-ig-kite shoo-tst for poh-LEE-tee-shem drook unt mah-nee-poo-LAH-tsee-ohn",
+                "japanese": "編集上の独立性は政治的圧力と操作から守ります。",
+                "usage": "メディアの独立性とそれを脅かす要素について説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "メディアクリティシズムとメディアリテラシー",
+            "phrases": [
+              {
+                "german": "Man sollte kritisch denken und die Glaubwürdigkeit von Quellen überprüfen.",
+                "romaji": "mahn zolt-te KREE-tish DEN-ken unt dee GLOWP-voo-er-dig-kite fon KWEL-len OO-ber-proo-fen",
+                "japanese": "批判的に考え、情報源の信頼性を確認するべきです。",
+                "usage": "メディアリテラシー、ファクトチェックの実践方法を説明するとき"
+              },
+              {
+                "german": "Fake News und Desinformation sind eine Herausforderung für die Gesellschaft.",
+                "romaji": "fake news unt deh-zin-for-mah-tsee-OHN zint AY-ne he-ROUWS-fah-de-roong foo-er dee geh-ZEL-shahft",
+                "japanese": "フェイクニュースと偽情報は社会にとって課題です。",
+                "usage": "現代的なメディアの課題、情報汚染について議論するとき"
+              },
+              {
+                "german": "Vielfalt im Mediensystem fördert verschiedene Stimmen und Perspektiven.",
+                "romaji": "fee-EL-fahlt im meh-DEE-en-zis-tem FOR-dert fer-SHEE-de-ne SHTIM-men unt per-SPEK-tee-ven",
+                "japanese": "メディアシステムの多様性は異なる声と視点を促進します。",
+                "usage": "メディアの多様性と民主的社会の関係を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-011-q1",
+          "type": "fill-blank",
+          "question": "「私は新聞を読み、ニュースを見ます」をドイツ語で言ってください。",
+          "answer": "Ich lese die Zeitung und schaue Nachrichten."
+        },
+        {
+          "id": "de-011-q2",
+          "type": "multiple-choice",
+          "question": "オンラインニュースサイトの主な特徴は何ですか？",
+          "options": [
+            "迅速で最新の情報を提供する",
+            "印刷に時間がかかる",
+            "情報源が限られている",
+            "ソーシャルメディアより信頼性が低い"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-011-q3",
+          "type": "fill-blank",
+          "question": "「報道の自由は民主主義国家の基本的人権です」をドイツ語で言ってください。",
+          "answer": "Die Pressefreiheit ist ein Grundrecht in demokratischen Ländern."
+        },
+        {
+          "id": "de-011-q4",
+          "type": "multiple-choice",
+          "question": "ジャーナリストの報道に求められる主な原則は？",
+          "options": [
+            "独立性と客観性",
+            "政治的偏見の表現",
+            "個人的な意見の優先",
+            "最速での情報発表"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-011-q5",
+          "type": "fill-blank",
+          "question": "「批判的に考え、情報源の信頼性を確認するべきです」をドイツ語で言ってください。",
+          "answer": "Man sollte kritisch denken und die Glaubwürdigkeit von Quellen überprüfen."
+        },
+        {
+          "id": "de-011-q6",
+          "type": "matching",
+          "question": "メディアの概念と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"concept": "Pressefreiheit", "explanation": "報道の自由"},
+            {"concept": "Faktencheck", "explanation": "事実確認"},
+            {"concept": "Desinformation", "explanation": "偽情報"}
+          ]
+        },
+        {
+          "id": "de-011-q7",
+          "type": "fill-blank",
+          "question": "「ソーシャルメディアは情報をより速く拡散しますが、信頼性は低いです」をドイツ語で言ってください。",
+          "answer": "Soziale Medien verbreiten Information schneller, aber weniger zuverlässig."
+        },
+        {
+          "id": "de-011-q8",
+          "type": "multiple-choice",
+          "question": "メディアシステムの多様性が重要な理由は？",
+          "options": [
+            "異なる声と視点を促進するため",
+            "報道速度を加速させるため",
+            "メディア企業の利益を増やすため",
+            "政治的支配を確立するため"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツのメディアシステムとジャーナリズムの伝統",
+          "duration": "17分",
+          "description": "ARD、ZDF、複数の新聞社による多様なメディア環境。報道の自由と信頼性確保の仕組み"
+        },
+        {
+          "type": "grammar",
+          "title": "ニュース記事に頻出する文法と表現",
+          "content": "受動態（～は報道される）の使用頻度。接続詞「obwohl」（～にもかかわらず）による対比表現。「zunächst」「schließlich」などのニュース特有の接続詞。引用の表現方法"
+        },
+        {
+          "type": "note",
+          "title": "ドイツジャーナリズムの特徴と歴史",
+          "content": "ドイツはヨーロッパで最も発達したメディアシステムを持つ国。ARD（ドイツ放送連盟）とZDF（第二ドイツテレビ）による公共放送、複数の全国紙（Frankfurter Allgemeine Zeitung、Süddeutsche Zeitung など）。ナチス時代の教訓から報道の自由が厳格に守られている。"
+        },
+        {
+          "type": "note",
+          "title": "メディアリテラシーの実践ルール",
+          "content": "複数の情報源から情報を確認する（cross-checking）。著者と編集者の背景を知る。グラフやデータの出典を確認する。個人的なバイアスを認識する。メディアに投資する企業を理解する。"
+        },
+        {
+          "type": "note",
+          "title": "デジタル時代のメディアの課題と機会",
+          "content": "フェイクニュースの拡散速度。AI生成コンテンツの信頼性。仮想空間でのニュース検証。新聞から信頼できるジャーナリズムへの転換。メディア企業のサステナビリティモデル。"
+        },
+        {
+          "type": "practice",
+          "title": "ニュース記事のクリティカルリーディング",
+          "content": "ドイツのニュースサイトから実際の記事を選んで読んでみてください。見出し、導入部、詳細、引用元、ライター名を確認します。その後、友人と記事について議論し、異なる解釈や視点を共有してください。"
+        }
+      ]
     }
   ]
 }
