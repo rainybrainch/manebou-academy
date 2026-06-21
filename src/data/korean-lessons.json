@@ -6839,6 +6839,225 @@
           "content": "あなたが資産管理会社の投資ポートフォリオマネージャーとします。中期（5年）と長期（10年）の投資目標、リスク許容度、市場環境を考慮して、株式・債券・不動産・ESG投資の最適な配分を設計します。定期的なリバランス戦略、モニタリング指標、規制遵守とコンプライアンス実装計画を詳細に述べてください。"
         }
       ]
+    },
+    {
+      "id": "ko-039",
+      "level": 5,
+      "title": "教育・研究キャリア：大学教育・学問的リーダーシップ・国際研究協力",
+      "titleKo": "교육 및 연구 경력: 대학 교육, 학문적 리더십, 국제 연구 협력",
+      "objectives": [
+        "韓国と国際的な大学システムを理解する",
+        "研究者・教授のキャリアパスと学問的要件を習得する",
+        "国際研究協力とアカデミックリーダーシップのスキルを身につける",
+        "学問の倫理と知識の社会への還元について習得する"
+      ],
+      "content": {
+        "introduction": "韓国の高等教育は急速に発展し、世界の研究ランキングで上位に位置する大学が増加しています。このレッスンでは、韓国の大学制度、研究者のキャリアパス、博士号取得、国際研究ネットワーク、学問の倫理、およびアジア・太平洋地域での研究指導力に関する高度な韓国語を学びます。",
+        "sections": [
+          {
+            "title": "韓国の大学システムと学問体系",
+            "phrases": [
+              {
+                "korean": "한국의 대학 시스템은 국립대학과 사립대학으로 구성되며, 개인적 성장, 실무 교육, 그리고 기초 연구를 통해 인재를 양성합니다.",
+                "romaji": "Hangug-ui daehag siseutem-eun gugnip daehag-gwa sailip daehag-euro guseonghae isseumyeo, gae-injeoug seong-gong, silmu gyoyuk, geurigo gicho yeonggu-reul tonghae ingjai-reul yangseonghamnida",
+                "japanese": "韓国の大学システムは国立大学と私立大学で構成され、個人的成長、実務教育、基礎研究を通じて人材を育成します。",
+                "usage": "韓国高等教育の構造を説明するとき"
+              },
+              {
+                "korean": "한국의 연구자는 학사 학위(4년), 석사 학위(2년), 박사 학위(3-4년)의 과정을 거쳐 대학 강사, 조교수, 부교수, 교수로 승진합니다.",
+                "romaji": "Hangug-ui yeonggu ja-neun hagsa hagwi (4nyeon), seogsa hagwi (2nyeon), bagsa hagwi (3-4nyeon)-ui gwajeongg-eul geochyeo daehag gangsa, jogyosu, bu-gyosu, gyosu-ro seungjin hamnida",
+                "japanese": "韓国の研究者は学士学位（4年）、修士学位（2年）、博士学位（3～4年）を経て、大学講師、助教授、准教授、教授に昇進します。",
+                "usage": "韓国の学問的キャリアパスを説明するとき"
+              },
+              {
+                "korean": "한국 대학은 국제 경쟁력을 강화하기 위해 세계 최고 수준의 연구 시설, 국제 협력 프로그램, 그리고 학생 국제화 정책에 투자하고 있습니다.",
+                "romaji": "Hangug daehag-eun guggjae gyeongchnaenryeog-eul ganghwag-hagi wihae segyejae choego sujoong-ui yeonggu siseol, guggjae hyeob-eob peurogeulaem, geurigo haksaeng guggjae hwa jeongchaeg-e tuja hago issnida",
+                "japanese": "韓国の大学は国際競争力を強化するため、世界トップレベルの研究施設、国際協力プログラム、学生の国際化政策に投資しています。",
+                "usage": "韓国高等教育の国際化を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "研究とアカデミックリーダーシップ",
+            "phrases": [
+              {
+                "korean": "연구는 새로운 지식을 창출하고, 실험, 이론 구성, 그리고 학술 논문 발표를 통해 학문 공동체에 기여합니다.",
+                "romaji": "Yeonggu-neun saeroun jisig-eul changchul hago, silheum, ironn guseongg, geurigo hagseul nonmun balphyo-reul tonghae hagmun gongdonggche-e giyo hamnida",
+                "japanese": "研究は新しい知識を創出し、実験、理論構築、学術論文発表を通じて学問コミュニティに貢献します。",
+                "usage": "研究の本質と社会的貢献を説明するとき"
+              },
+              {
+                "korean": "학문적 리더십은 전문 지식뿐만 아니라 연구 팀 관리, 예산 확보, 대학원 제자 지도, 그리고 정책 결정자와의 소통 능력을 요구합니다.",
+                "romaji": "Hagmun-jeoug rideosip-eun jeonmun jisig bbut man anirae yeonggu tim gwanri, yesang hwaksae, daehagwon jeja jido, geurigo jeongchaeg gyeoljeongg ja-wa ui sotung neungryeog-eul yogu hamnida",
+                "japanese": "学問的リーダーシップは専門知識だけでなく、研究チーム管理、予算確保、大学院生指導、政策決定者との対話能力を要求します。",
+                "usage": "アカデミックリーダーシップの本質を説明するとき"
+              },
+              {
+                "korean": "학술지 투고, 동료 검증(peer review), 그리고 학문적 정직성은 한국 학계의 신뢰성과 글로벌 위상을 유지하기 위한 필수 원칙입니다.",
+                "romaji": "Hagseulgji tugeo, dongryyo geomjeung (peer review), geurigo hagmun-jeoug jeongjigseongg-eun Hangug haggye-ui sinryuoseongg-gwa geulglobal wisang-eul yuji hagi wihan pilysu wonchik imnida",
+                "japanese": "学術誌投稿、ピアレビュー、学問的誠実性は韓国学界の信頼性とグローバルな地位を維持するための必須原則です。",
+                "usage": "学問的品質管理を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "国際研究協力と学際的連携",
+            "phrases": [
+              {
+                "korean": "국제 연구 협력은 한국 연구자들을 세계의 최고 연구팀과 연결하고, 공동 프로젝트, 자료 공유, 그리고 혁신적 발견을 가능하게 합니다.",
+                "romaji": "Guggjae yeonggu hyeob-eob-eun Hangug yeonggu ja deul-eul segyae-ui choego yeonggu-tim-gwa yeongyeol hago, gongdong peurojekteu, jaryoe gongyue, geurigo hyeoksim-jeoug balbgyeon-eul ganeunghage hamnida",
+                "japanese": "国際研究協力は韓国の研究者を世界のトップ研究チームと結び、共同プロジェクト、資料共有、革新的発見を可能にします。",
+                "usage": "国際研究協力の価値を説明するとき"
+              },
+              {
+                "korean": "학제적 연구는 공학, 과학, 인문학, 그리고 사회과학을 결합하여 복잡한 사회 문제를 다양한 관점에서 해결합니다.",
+                "romaji": "Hagjae-jeoug yeonggu-neun gonghak, gwahak, inmunahak, geurigo sahwee gwahak-eul gyeolhap hayeo bogjaghahnn sahwee munje-reul dayanghhan gwanjeom-e-seo haegyeol hamnida",
+                "japanese": "学際的研究は工学、科学、人文学、社会科学を結合して、複雑な社会問題を多様な視点から解決します。",
+                "usage": "学際的研究の重要性を説明するとき"
+              },
+              {
+                "korean": "한국의 BK21+ 사업, 개인기초연구지원, 그리고 선도연구센터 사업은 국내 연구 역량을 강화하고 국제적 위상을 높이기 위한 정부 정책입니다.",
+                "romaji": "Hangug-ui BK21+ saob, gae-in gicho yeonggu jiwon, geurigo seondo yeonggu senteo saob-eun gugnae yeonggu yeognyeom-eul ganghwag hago guggjae-jeoug wisang-eul nop-higi wihan jeongbu jeongchaeg imnida",
+                "japanese": "韓国のBK21+事業、個人基礎研究支援、先導研究センター事業は国内研究能力を強化し国際的地位を高めるための政府政策です。",
+                "usage": "韓国の研究支援政策を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "学問の倫理と社会への知識還元",
+            "phrases": [
+              {
+                "korean": "연구 윤리는 데이터 수집 투명성, 연구 대상자 보호, 이해충돌 회피, 그리고 연구 결과의 정직한 보도를 요구합니다.",
+                "romaji": "Yeonggu yulli-neun deiteo sugip tuthyeongseongg, yeonggu daesangjja boho, ihae chungdol hoephi, geurigo yeonggu gyeolgwa-ui jeongjikhahnn bodoga-reul yogu hamnida",
+                "japanese": "研究倫理はデータ収集の透明性、研究対象者保護、利益相反回避、研究結果の誠実な報告を要求します。",
+                "usage": "研究倫理の基本要素を説明するとき"
+              },
+              {
+                "korean": "과학 대중화와 사회 소통은 연구자의 중요한 책임이며, 복잡한 과학 지식을 일반인이 이해할 수 있게 전달하고 사회적 토론을 촉진합니다.",
+                "romaji": "Gwahak daejung hwa-wa sahwee sotung-eun yeonggu ja-ui jungyohahnn chaegim-i-myeo, bogjaghahnn gwahak jisig-eul ilbansaen-i ihaehag su isneun jeonhwal hago sahwee-jeoug torum-eul chogjeinhamnida",
+                "japanese": "科学の大衆化と社会対話は研究者の重要な責任であり、複雑な科学知識を一般人が理解できるよう伝達し社会的議論を促進します。",
+                "usage": "知識の社会への還元を説明するとき"
+              },
+              {
+                "korean": "대학과 연구기관은 지역 사회 발전, 기술 이전, 그리고 산학 협력을 통해 사회에 기여하며, 이는 대학의 사회적 책임이자 존재 이유입니다.",
+                "romaji": "Daehag-gwa yeonggu gigan-eun jiyeog sahwee baljeon, gisul itjeon, geurigo sanhag hyeob-eob-eul tonghae sahwee-e giyo hamyeo, i-neun daehag-ui sahwee-jeoug chaegim ijja jon-jae iyyu imnida",
+                "japanese": "大学と研究機関は地域社会発展、技術移転、産学協力を通じて社会に貢献し、これは大学の社会的責任であり存在理由です。",
+                "usage": "大学の社会的責任を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-039-q1",
+          "type": "fill-blank",
+          "question": "「韓国の大学は国立大学と私立大学で構成されています」を韓国語で言ってください。",
+          "answer": "한국의 대학은 국립대학과 사립대학으로 구성되어 있습니다."
+        },
+        {
+          "id": "ko-039-q2",
+          "type": "multiple-choice",
+          "question": "韓国の研究者のキャリアパスは？",
+          "options": [
+            "学士（4年）+ 修士（2年）+ 博士（3～4年）→ 昇進",
+            "学部教育のみで十分",
+            "修士号で十分",
+            "資格なしで研究職可能"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-039-q3",
+          "type": "fill-blank",
+          "question": "「研究は新しい知識を創出し、学問コミュニティに貢献します」を韓国語で言ってください。",
+          "answer": "연구는 새로운 지식을 창출하고 학문 공동체에 기여합니다."
+        },
+        {
+          "id": "ko-039-q4",
+          "type": "multiple-choice",
+          "question": "学問的リーダーシップに必要なものは？",
+          "options": [
+            "専門知識、チーム管理、予算確保、対話能力",
+            "専門知識のみ",
+            "予算管理だけ",
+            "対話なしで可能"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-039-q5",
+          "type": "fill-blank",
+          "question": "「国際研究協力は共同プロジェクトと資料共有を実現します」を韓国語で言ってください。",
+          "answer": "국제 연구 협력은 공동 프로젝트와 자료 공유를 가능하게 합니다."
+        },
+        {
+          "id": "ko-039-q6",
+          "type": "matching",
+          "question": "学問的概念と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"concept": "동료 검증", "explanation": "ピアレビュー"},
+            {"concept": "학제적", "explanation": "学際的"},
+            {"concept": "학문적 정직성", "explanation": "学問的誠実性"}
+          ]
+        },
+        {
+          "id": "ko-039-q7",
+          "type": "fill-blank",
+          "question": "「研究倫理はデータの透明性と対象者保護を要求します」を韓国語で言ってください。",
+          "answer": "연구 윤리는 데이터 투명성과 연구 대상자 보호를 요구합니다."
+        },
+        {
+          "id": "ko-039-q8",
+          "type": "multiple-choice",
+          "question": "科学の大衆化の主な目的は？",
+          "options": [
+            "複雑な知識を一般人が理解できるようにし、社会的議論を促進する",
+            "専門家のみへの情報開示",
+            "研究成果の非公開",
+            "一般向けの情報隠蔽"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国の大学システムと研究キャリア：学位制度・博士号・国際研究ネットワーク",
+          "duration": "28分",
+          "description": "韓国大学の序列と競争。大学院教育と博士号の役割。全国大学院生の雇用市場。BK21+・先導研究センター事業。韓国の研究データベース（KCI）。国際共同研究。"
+        },
+        {
+          "type": "grammar",
+          "title": "学問用語と研究・教育コミュニケーション表現",
+          "content": "学問複合名詞：연구（研究）、교육（教育）、논문（論文）、학술지（学術誌）、박사（博士）。研究活動表現：수행하다（実施する）、분석하다（分析する）、발표하다（発表する）、검증하다（検証する）。学問倫理用語：윤리（倫理）、투명성（透明性）、정직성（誠実性）。"
+        },
+        {
+          "type": "note",
+          "title": "韓国の主要高等教育機関と研究センター",
+          "content": "ソウル大学、KAIST、ポスコ科学技術大学などの名門大学。韓国研究財団（NRF）：研究資金配分。先導研究センター（ERC）：基礎研究支援。BK21事業：大学院教育改革。国家科学技術委員会：研究政策立案。"
+        },
+        {
+          "type": "note",
+          "title": "韓国高等教育の課題と改革",
+          "content": "大学序列化への批判と多様性の필요性。大学院生の過剰供給と就業難。研究倫理の강화（논문 조작, 표절 방지）。国際競争力의 强化를 위한 구조개혁。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツと韓国の大学システムの比較",
+          "content": "ドイツ：ハンボルト理念、研究の自由、基礎研究重視。韓国：高等教育の大衆化、実用的人材育成、政府支援による研究指向。両国とも国際研究協力に積極的で、グローバル大学ランキングへの関心が高い。"
+        },
+        {
+          "type": "note",
+          "title": "研究倫理と学問的誠実性の강화",
+          "content": "연구부정행위 적발과 징계 체계. 저널 투고 전 표절 검사의 필수화. 이해충돌 선언과 이익 공개. 연구 데이터 관리 및 장기 보존 의무."
+        },
+        {
+          "type": "practice",
+          "title": "研究プロジェクトの設計と国際協力計画",
+          "content": "あなたが韓国の大学の研究チームリーダーとします。3～5年の研究テーマを設定し、研究質問、仮説、方法論、期待される成果を定義します。国際的なパートナー大学との協力体制、学際的専門家の組成、NRF・先導研究センター資金の申請戦略、成果の社会への還元方法を含めた包括的な研究計画を立案してください。"
+        }
+      ]
     }
   ]
 }
