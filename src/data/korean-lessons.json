@@ -9258,6 +9258,230 @@
           "content": "あなたが韓国の医薬品企業のプロジェクトディレクターとします。新規医薬品の開発から上市までの戦略を立案します。治験計画（フェーズI-III）、規制戦略（FDA・EMA申請）、製造・品質管理（GMP）、知的財産保護、ファーマコビジランス計画、デジタルヘルス統合、患者アクセスプログラム、グローバル上市戦略（複数国展開）を含めます。開発期間、予算、規制マイルストーン、市場投入タイムラインを詳細に述べてください。"
         }
       ]
+    },
+    {
+      "id": "ko-050",
+      "level": 5,
+      "title": "通信・メディア・放送：デジタルメディア・コンテンツ戦略・5G",
+      "titleKo": "통신 및 미디어: 디지털 미디어, 콘텐츠 전략, 5G",
+      "objectives": [
+        "通信・メディア産業の変革とデジタル化を理解する",
+        "ストリーミング、5G、デジタルコンテンツに関する専門用語を習得する",
+        "コンテンツ戦略、視聴者エンゲージメント、マネタイゼーションを理解する",
+        "メディア規制、著作権、デジタル倫理を習得する"
+      ],
+      "content": {
+        "introduction": "通信とメディア産業はデジタル革命の中心にあります。韓国は高速インターネットとOTTサービスで世界的に先進的であり、5Gやストリーミング技術が急速に普及しています。このレッスンでは、デジタルメディア戦略、コンテンツ制作、視聴者分析、メディア技術に関する高度な韓国語を学びます。",
+        "sections": [
+          {
+            "title": "通信インフラと5G技術",
+            "phrases": [
+              {
+                "korean": "통신 인프라(모바일 네트워크, 광대역, 광섬유)는 디지털 경제의 기반을 형성합니다. 5G는 높은 속도, 낮은 지연, 대규모 연결을 가능하게 합니다.",
+                "romaji": "Tongshin inpeu-ra (mobile neteuweokeu, gwang-daebang, gwang-seomyu)-neun dijital gyeongje-ui gi-ban-eul hyeong-seong hamnida. 5G-neun noppeun soktdo, najeun jiyeon, dae-gyumo yeon-kyeol-eul ga-neung hage hamnida",
+                "japanese": "通信インフラ（モバイルネット、ブロードバンド、光ファイバー）はデジタル経済の根幹です。5Gは高速度、低遅延、大規模接続を実現します。",
+                "usage": "通信インフラの重要性を説明するとき"
+              },
+              {
+                "korean": "5G 기술은 IoT, 자율 주행 자동차, 원격 수술, 스마트 도시를 초고속 광대역 및 결정론적 네트워크로 혁신합니다.",
+                "romaji": "5G gisul-eun IoT, jayul jughaeng jadongcha, wonggyeog susul, seu mata dosi-reul chogo-sog gwang-daebang mit gyeol-jeong-non jeoug neteuweokeu ro hyeok-shin hamnida",
+                "japanese": "5G技術はIoT、自動運転車、遠隔手術、スマートシティをウルトラブロードバンドと決定論的ネットワークで革新します。",
+                "usage": "5G技術の応用を説明するとき"
+              },
+              {
+                "korean": "스펙트럼 관리 및 라이센싱 정책(주파수, 경매)은 통신에서 경쟁, 혁신, 네트워크 범위를 결정합니다.",
+                "romaji": "Seu peg-teu reom gwanri mit raisensing jeongchaeg (ju-pa-su, gyeongmae)-neun tongshin-e-seo gyeongchnaeng, hyeok-shin, neteuweokeu beomwi-reul gyeol-jeong hamnida",
+                "japanese": "スペクトラム管理とライセンス政策（周波数、オークション）は通信の競争、イノベーション、ネットワークカバレッジを決定します。",
+                "usage": "通信規制を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "デジタルメディアとストリーミング",
+            "phrases": [
+              {
+                "korean": "스트리밍 플랫폼(Netflix, Amazon Prime, Disney+)은 선형 텔레비전을 대체합니다. 온디맨드 모델, 맞춤화, 알고리즘이 미디어 소비를 변환합니다.",
+                "romaji": "Seu teu ri-ming peu-lat-pom (Netflix, Amazon Prime, Disney+)-eun seonhyeog tellebi jeon-eul dae-che hamnida. On-dimend model, matchum hwa, al-go-ri-jeum-i midiae so-bi-reul byeon-hwan hamnida",
+                "japanese": "ストリーミングプラットフォーム（Netflix、Amazon Prime、Disney+）は線形テレビを置き換えます。オンデマンドモデル、パーソナライゼーション、アルゴリズムがメディア消費を変革します。",
+                "usage": "ストリーミングサービスを説明するとき"
+              },
+              {
+                "korean": "콘텐츠 전략은 목표 고객, 스토리텔링, 멀티플랫폼 배포, 참여 측정, 수익 모델(구독, 광고, 하이브리드)을 이해해야 합니다.",
+                "romaji": "Content jeonryak-eun mokpyo goggaeg, seu tori-telni, mul-ti-peu-lat-pom baepo, cham-yeo cheuksjeong, suigyeog model (gubdug, gwang-go, ha-i-beu-rid)-eul ihaee hae ya hamnida",
+                "japanese": "コンテンツ戦略はターゲットオーディエンス、ストーリーテリング、マルチプラットフォーム配布、エンゲージメント測定、収益モデル（サブスク、広告、ハイブリッド）を理解する必要があります。",
+                "usage": "コンテンツ戦略を説明するとき"
+              },
+              {
+                "korean": "사용자 생성 콘텐츠 및 인플루언서 마케팅(YouTube, TikTok, Twitch)은 콘텐츠 제작을 민주화하고, 새로운 크리에이터 생태계를 만들며, 전통적 미디어 역할을 변경합니다.",
+                "romaji": "Sayongja saengseong content mit inpeul-weonseo marketing (YouTube, TikTok, Twitch)-eun content jecho-reul minjo-hwa-hago, saeroun keu-ri-ei-teo saengtae gyae-reul man-deul-hayeo-imyeo, jeontong jeoug midiae yeoghal-eul byeon-gyeong hamnida",
+                "japanese": "ユーザー生成コンテンツとインフルエンサーマーケティング（YouTube、TikTok、Twitch）はコンテンツ制作を民主化し、クリエーターエコシステムを創造し、従来のメディア役割を変えます。",
+                "usage": "ソーシャルメディアコンテンツを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "デジタル広告と視聴者分析",
+            "phrases": [
+              {
+                "korean": "디지털 광고(프로그래매틱, 디스플레이, 비디오, 네이티브)는 데이터, 청중 타게팅, 실시간 입찰을 사용하여 관련성과 ROI를 최대화합니다.",
+                "romaji": "Dijital gwang-go (peu-ro-geu-rae-maetig, diseu peu-re-i, bi-di-o, nae-i-ti-beu)-neun deiteo, cheongjung tageting, silsigan ip-chal-eul sayonghayeo gwan-ryeon seong-gwa ROI-reul choe dae hwahwae hamnida",
+                "japanese": "デジタル広告（プログラマティック、ディスプレイ、ビデオ、ネイティブ）はデータ、オーディエンスターゲティング、リアルタイム入札を使用して関連性とROIを最大化します。",
+                "usage": "デジタル広告戦略を説明するとき"
+              },
+              {
+                "korean": "청중 분석 및 데이터 인텔리전스(Google Analytics, Nielsen, ComScore)는 조회, 참여, 기인, 변환을 측정하여 콘텐츠 및 캠페인을 최적화합니다.",
+                "romaji": "Cheongjung bunseokg mit deiteo intelrijeonseu (Google Analytics, Nielsen, ComScore)-neun jochoe, cham-yeo, gi-in, byeon-hwan-eul cheuksyeong hayeo content mit kaempel-ein-eul choesog hwahwae hamnida",
+                "japanese": "視聴者分析とデータインテリジェンス（Google Analytics、Nielsen、ComScore）は視聴、エンゲージメント、アトリビューション、コンバージョンを測定し、コンテンツとキャンペーンを最適化します。",
+                "usage": "データ分析を説明するとき"
+              },
+              {
+                "korean": "미디어의 인공지능(추천 엔진, 콘텐츠 맞춤화, 합성 미디어)은 사용자 경험을 최적화하고, 참여를 증가시키며, 새로운 콘텐츠 형식을 가능하게 합니다.",
+                "romaji": "Midiae-ui in-gong jigenung (chu-cheon enjin, content matchum hwa, hab-seonj midiae)-eun sayongja gyeongheom-eul choesog hwahwae-hago, cham-yeo-reul jeung ga-si-kigye, saeroun content hyeong-sik-eul ga-neung hage hamnida",
+                "japanese": "メディアのAI（レコメンデーションエンジン、コンテンツパーソナライゼーション、合成メディア）はユーザー体験を最適化し、エンゲージメントを向上させ、新しいコンテンツ形式を開きます。",
+                "usage": "AI技術のメディア応用を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "メディア規制と倫理",
+            "phrases": [
+              {
+                "korean": "미디어 규제(라이선스, 콘텐츠 표준, 보도의 자유)는 언론의 자유, 미디어 다양성, 유해 콘텐츠 보호, 경쟁 균형을 유지합니다.",
+                "romaji": "Midiae gyuje (raisenseu, content pyosigan, bodo-ui jayeu)-neun eonron-ui jayeu, midiae da-yang seong, yuhae content bohoh, gyeongchnaeng gyunhyeong-eul yuji hamnida",
+                "japanese": "メディア規制（ライセンス、コンテンツ基準、プレスフリーダム）は言論の自由、メディア多様性、有害コンテンツ保護、競争のバランスを取ります。",
+                "usage": "メディア規制を説明するとき"
+              },
+              {
+                "korean": "저작권 및 라이센싱(저작권, 공정 이용, DRM)은 창작자 권리를 보호하고, 라이센스 부여를 가능하게 하며, 디지털 배포에서 저작권 침해를 방지합니다.",
+                "romaji": "Jeojak gwon mit raisensing (jeojak gwon, gong-jeong iyong, DRM)-eun chang-jak ja gwonri-reul bohohgi-hago, raisenseu buryeo-reul ga-neung hage hayeo-imyeo, dijital baepo-e-seo jeojak gwon chimaehae-reul bangji hamnida",
+                "japanese": "著作権とライセンシング（Copyright、Fair Use、DRM）はクリエーター権を保護し、ライセンス発行を可能にし、デジタル配布での海賊行為を防止します。",
+                "usage": "著作権を説明するとき"
+              },
+              {
+                "korean": "미디어의 디지털 윤리(거짓 뉴스, 잘못된 정보, 데이터 보호, 알고리즘 편향)는 투명성, 미디어 문해력, 사회에 대한 책임을 요구합니다.",
+                "romaji": "Midiae-ui dijital yunil (geojit nyuseu, jal-mot doen jeong-bo, deiteo bohoh, al-go-ri-jeum pyeon-hyang)-eun tuhmyeon seong, midiae mun-hae ryeok, sahoe-e dae-han chaek-im-eul yogu hamnida",
+                "japanese": "メディアのデジタル倫理（フェイクニュース、情報操作、プライバシー、アルゴリズムバイアス）は透明性、メディアリテラシー、社会への責任を要求します。",
+                "usage": "デジタルメディア倫理を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-050-q1",
+          "type": "fill-blank",
+          "question": "「通信インフラはデジタル経済の根幹です」を韓国語で言ってください。",
+          "answer": "통신 인프라는 디지털 경제의 기반을 형성합니다."
+        },
+        {
+          "id": "ko-050-q2",
+          "type": "multiple-choice",
+          "question": "5G技術の特徴は？",
+          "options": [
+            "高速度、低遅延、大規模接続",
+            "低速度のみ",
+            "遅延が大きい",
+            "接続少数"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-050-q3",
+          "type": "fill-blank",
+          "question": "「ストリーミングプラットフォームはメディア消費を変革します」を韓国語で言ってください。",
+          "answer": "스트리밍 플랫폼은 미디어 소비를 변환합니다."
+        },
+        {
+          "id": "ko-050-q4",
+          "type": "multiple-choice",
+          "question": "デジタル広告の例は？",
+          "options": [
+            "プログラマティック、ディスプレイ、ビデオ、ネイティブ",
+            "テレビCMのみ",
+            "新聞広告だけ",
+            "看板"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-050-q5",
+          "type": "fill-blank",
+          "question": "「視聴者分析は視聴を測定します」を韓国語で言ってください。",
+          "answer": "청중 분석은 조회, 참여, 기인을 측정합니다."
+        },
+        {
+          "id": "ko-050-q6",
+          "type": "matching",
+          "question": "メディア分析ツールとその機能を正しく組み合わせてください。",
+          "pairs": [
+            {"tool": "Google Analytics", "description": "ウェブ分析"},
+            {"tool": "Nielsen", "description": "視聴率測定"},
+            {"tool": "ComScore", "description": "デジタルメトリクス"}
+          ]
+        },
+        {
+          "id": "ko-050-q7",
+          "type": "fill-blank",
+          "question": "「著作権はクリエーター権を保護します」を韓国語で言ってください。",
+          "answer": "저작권은 창작자 권리를 보호하고 저작권 침해를 방지합니다."
+        },
+        {
+          "id": "ko-050-q8",
+          "type": "multiple-choice",
+          "question": "デジタルメディア倫理の課題は？",
+          "options": [
+            "フェイクニュース、情報操作、プライバシー、バイアス",
+            "広告のみ",
+            "コンテンツなし",
+            "規制なし"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "通信・メディア・放送：5G・ストリーミング・デジタル広告・倫理",
+          "duration": "38分",
+          "description": "通信インフラ。5G技術。ストリーミングプラットフォーム。コンテンツ戦略。ユーザー生成コンテンツ。デジタル広告。視聴者分析。AI推奨。メディア規制。著作権。フェイクニュース対策。"
+        },
+        {
+          "type": "grammar",
+          "title": "通信・メディア用語とコンテンツ表現",
+          "content": "通信用語：Telecommunications（通信）、5G、Spectrum（周波数帯）、Broadband（ブロードバンド）。メディア用語：Streaming Platform（ストリーミング）、Content（コンテンツ）、On-Demand（オンデマンド）、Engagement（エンゲージメント）。広告用語：Programmatic Advertising（プログラマティック）、Display Ad（ディスプレイ広告）、Real-Time Bidding（RTB）。"
+        },
+        {
+          "type": "note",
+          "title": "韓国の通信・メディア産業",
+          "content": "韓国：SKT、KT、LGU+ などの大型通信企業。高速インターネット基盤。OTTサービス（Naver TV、Kakao TV など）。K-content の海外展開。5G 先進国。デジタル문화・콘텐츠 수출국。"
+        },
+        {
+          "type": "note",
+          "title": "ストリーミングと動画コンテンツ",
+          "content": "Netflix、Amazon Prime、Disney+、Apple TV+ などのOTT（Over-The-Top）サービス。オリジナルシリーズ制作。サブスクリプションモデル。ライセンス管理。字幕・吹き替え多言語対応。"
+        },
+        {
+          "type": "note",
+          "title": "デジタル広告とマーケティング",
+          "content": "Programmatic Advertising：自動買付。Retargeting：再ターゲティング。Native Advertising：ネイティブ広告。Performance Marketing：成果報酬型。Marketing Automation：マーケティング自動化。Data-Driven：データドリブン。"
+        },
+        {
+          "type": "note",
+          "title": "メディアリテラシーと情報管理",
+          "content": "Fact-checking（ファクトチェック）。Misinformation対策。Source verification（情報源確認）。Algorithmic Transparency（アルゴリズム透明性）。GDPR（EU個人情報保護）。DSA（Digital Services Act）。"
+        },
+        {
+          "type": "note",
+          "title": "新しいメディア形式",
+          "content": "Podcasting（ポッドキャスト）。Live Streaming（ライブ配信）。Interactive Content（インタラクティブ）。Augmented Reality（AR）コンテンツ。Virtual Reality（VR）体験。Metaverse内コンテンツ。"
+        },
+        {
+          "type": "practice",
+          "title": "グローバルストリーミング・メディア企業の戦略立案",
+          "content": "あなたが韓国のメディア企業のコンテンツ戦略担当者とします。5年間のグローバルストリーミング戦略を立案します。ターゲットオーディエンス分析、オリジナルコンテンツ制作計画、配信戦略（地域別・言語別）、マネタイゼーション（サブスク・広告・ハイブリッド）、視聴者分析・AI推奨エンジン、マーケティング戦略、競合分析、規制対応（著作権・GDPR・DSA）を含めます。投資額、ROI、市場シェア目標を詳細に述べてください。"
+        }
+      ]
     }
   ]
 }
