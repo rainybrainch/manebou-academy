@@ -1022,6 +1022,25 @@
             {"german": "Rabatt", "meaning": "割引"},
             {"german": "Garantie", "meaning": "保証"}
           ]
+        },
+        {
+          "id": "de-004-q9",
+          "type": "fill-blank",
+          "question": "「セーターはどこにありますか？」をドイツ語で言ってください。",
+          "hint": "「Wo finde ich」で始まります",
+          "answer": "Wo finde ich einen Pullover?"
+        },
+        {
+          "id": "de-004-q10",
+          "type": "multiple-choice",
+          "question": "ドイツの店舗での価格交渉について、正しいのはどれですか？",
+          "options": [
+            "百貨店でも市場でも交渉は一般的",
+            "高級店ではあまり一般的ではなく、セール期間に購入することが一般的",
+            "全ての場所で強く交渉することが期待される",
+            "交渉は失礼である"
+          ],
+          "answer": 1
         }
       ],
       "resources": [
@@ -1029,32 +1048,43 @@
           "type": "video",
           "title": "ドイツでのショッピング実践会話",
           "url": "#",
-          "duration": "12分"
+          "duration": "14分",
+          "description": "商品探し、サイズ確認、返品手続き、支払い方法を含む実践会話シーン"
         },
         {
           "type": "grammar",
           "title": "Können + 動詞の使い方",
-          "content": "「Können Sie～?」は「～できますか？」という敬語表現。買い物では非常によく使用される構文。完全な例：Können Sie mir einen kleineren Pullover geben? = より小さいセーターをいただけますか？"
+          "content": "「Können Sie～?」は「～できますか？」という敬語表現。買い物では非常によく使用される構文。完全な例：Können Sie mir einen kleineren Pullover geben? = より小さいセーターをいただけますか？条件法 「Könnten Sie～?」も同様に頻出。"
         },
         {
           "type": "grammar",
           "title": "比較級（高い・安い）の表現",
-          "content": "「teuer（高い）→ teurer（より高い）」「billig（安い）→ billiger（より安い）」。最上級は「am teuersten（最も高い）」「am billigsten（最も安い）」。"
+          "content": "「teuer（高い）→ teurer（より高い）」「billig（安い）→ billiger（より安い）」。最上級は「am teuersten（最も高い）」「am billigsten（最も安い）」。買い物交渉では比較級がよく使用されます。"
+        },
+        {
+          "type": "grammar",
+          "title": "接続詞 aber（だが）と und（そして）",
+          "content": "ショッピング会話では選択肢を示す際に「Haben Sie das auch in Rot oder Blau?」（赤または青でもありますか？）のように接続詞が頻出。"
         },
         {
           "type": "note",
           "title": "ドイツのショッピング文化",
-          "content": "ドイツの店舗は品質重視。価格交渉はあまり一般的ではありません。セール（Ausverkauf）期間が年2回（冬・夏）あります。返品期間は通常14日以内で、購入証明書（Quittung）が必要です。"
+          "content": "ドイツの店舗は品質重視。価格交渉はあまり一般的ではなく、セール（Ausverkauf）期間（1月、7月）に購入するのが標準的。返品期間は通常14日以内で、購入証明書（Quittung）が必須。プライベートブランド商品も人気。"
         },
         {
           "type": "note",
-          "title": "支払い方法の変化",
-          "content": "現金（Bargeld）の使用は減少し、クレジットカード（Kreditkarte）やEC-Card（デビットカード）が一般的。小額決済では「kontaktlos」（非接触型）が一般的です。"
+          "title": "支払い方法と店舗形態",
+          "content": "現金（Bargeld）使用は減少傾向。クレジットカード（Kreditkarte）や EC-Card（デビットカード）が一般的。小額決済では「kontaktlos」（非接触型）が普及。オンライン購入も浸透し、返送も簡単。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツ主要百貨店・ショッピング施設",
+          "content": "Galeria Karstadt Kaufhof（大規模百貨店）、Media Markt（電子機器）、Zara, H&M（ファッション）などが一般的。各都市の中心街に集中。"
         },
         {
           "type": "practice",
           "title": "ショッピング会話ロールプレイ",
-          "content": "友人と「店員と顧客」の役割分担でショッピング会話を練習してみてください。価格確認 → サイズ選び → 割引交渉 → 支払い という流れを実践してみましょう。"
+          "content": "友人と「店員と顧客」の役割分担でショッピング会話を練習してみてください。商品探し → サイズ・色確認 → 価格質問 → 返品可能性確認 → 支払い という完全な流れを実践してみましょう。"
         }
       ]
     },
