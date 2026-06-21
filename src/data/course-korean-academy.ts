@@ -301,7 +301,16 @@ export const koreanAcademyCategory: Category = {
             },
             {
               type: 'text',
-              content: '**Q: 新曲について教えてください**\nアイドル："이번 앨범은 저희가 정말 힘들게 준비했어요. 많은 애정을 가지고 만들었으니까 꼭 들어주세요."\n(This album was something we prepared really hard for. We made it with lots of love, so please listen to it.)\n\n**Q: ファンへのメッセージ**\nアイドル："항상 응원해주셔서 감사합니다. 여러분이 없으면 저희는 없어요. 앞으로도 최고의 무대를 보여드리겠습니다."\n(Thank you for always supporting us. Without you, we wouldn\'t exist. We\'ll continue to show you the best performances.)',
+              content: '**Q: 新曲について教えてください**\nアイドル："이번 앨범은 저희가 정말 힘들게 준비했어요. 많은 애정을 가지고 만들었으니까 꼭 들어주세요."\n(This album was something we prepared really hard for. We made it with lots of love, so please listen to it.)\n\n**Q: ファンへのメッセージ**\nアイドル："항상 응원해주셔서 감사합니다. 여러분이 없으면 저희는 없어요. 앞으로도 최고의 무대를 보여드리겠습니다."\n(Thank you for always supporting us. Without you, we wouldn\'t exist. We\'ll continue to show you the best performances.)\n\n**Q: 活動の工夫について**\nアイドル："저희는 매일 최선을 다하고 있고요. 팬분들께 더 좋은 무대와 음악을 선물하기 위해서 항상 준비 중입니다. 여러분의 응원이 저희의 힘입니다."\n(We do our best every day. We\'re always preparing to give our fans better performances and music. Your support is our strength.)\n\n**Q: 個人的な夢**\nアイドル："저는 전 세계 무대에서 우리의 음악을 선보이고 싶어요. 그리고 우리 팬들과 함께 성장하고 싶습니다."\n(I want to showcase our music on stages around the world. And I want to grow together with our fans.)',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'Instagram・Twitter での K-POPアイドル投稿',
+            },
+            {
+              type: 'text',
+              content: '**投稿例1：活動報告**\n"오늘도 무대를 잘 마쳤어요! 응원해주신 모든 분께 감사합니다 💜 #무대화이팅 #팬분들사랑해"\n(We finished today\'s performance well! Thank you to everyone who supported us 💜 #Stage Fighting #LoveOurFans)\n\n**投稿例2：練習風景**\n"새로운 안무를 배우고 있어요. 열심히 연습하니까 완성도 높은 무대로 보여드릴게요! 기대해주세요 😊"\n(We\'re learning new choreography. We\'ll show you a polished performance with hard practice! Look forward to it 😊)\n\n**投稿例3：感謝のメッセージ**\n"어제의 팬사인회 정말 재미있었어요. 많은 팬분들을 만나서 정말 행복했습니다. 다음에 또 만나요! ✨"\n(Yesterday\'s fan sign event was so fun. I was really happy meeting so many fans. See you next time! ✨)',
             },
           ],
         },
@@ -386,7 +395,16 @@ export const koreanAcademyCategory: Category = {
             },
             {
               type: 'text',
-              content: '**毎日のルーチン**\n\n【1分目】\n- 新しいドラマシーンを見る（字幕なし5回）\n- 何が起きているか、キャラの気分を推測\n\n【2分目】\n- 日本語字幕をON\n- 「どういう心理だから、こう訳されたのか」を理解\n\n【3分目】\n- セリフを声に出して繰り返す\n- ネイティブのイントネーション・速度を真似る\n\n【週1回（5分チャレンジ）】\n- 字幕なしで完全に理解できるか試す\n- できなかった部分を重点練習',
+              content: '**毎日のルーチン**\n\n【1分目】\n- 新しいドラマシーンを見る（字幕なし5回）\n- 何が起きているか、キャラの気分を推測\n- 顔の表情からも感情を読み取る\n\n【2分目】\n- 日本語字幕をON\n- 「どういう心理だから、こう訳されたのか」を理解\n- 敬語レベルから関係性を判断する\n\n【3分目】\n- セリフを声に出して繰り返す\n- ネイティブのイントネーション・速度を真似る\n- AI による発音評価を受ける\n\n【4分目】\n- シーンを再度見て、理解度をチェック\n- 聞き取れなかった部分を特定\n\n【週1回（5分チャレンジ）】\n- 字幕なしで完全に理解できるか試す\n- できなかった部分を重点練習\n- 新しい敬語・スラングを学習記録に追加',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'ドラマジャンル別：学べる表現の違い',
+            },
+            {
+              type: 'text',
+              content: '**ロマンスドラマ**\n- 敬語とタメ口の使い分けが豊か\n- 感情表現が深い\n- 愛情・別れ・再会の表現が学べる\n\n**サスペンス・推理ドラマ**\n- 論理的な説明表現\n- 疑惑・確信を表現する言い方\n- ビジネス敬語が多い\n\n**コメディドラマ**\n- 日常会話が豊か\n- 冗談・からかいの表現\n- 若者言葉・スラングが多い\n\n**歴史ドラマ**\n- 最敬語が多い\n- 格調高い表現\n- 古い文法が出現することも',
             },
           ],
         },
