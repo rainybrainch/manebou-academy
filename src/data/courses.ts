@@ -36,6 +36,7 @@ import { japaneseElectionsCategory } from './course-japanese-elections';
 import { governmentSystemsCategory } from './course-government-systems';
 import { partyPoliticsCategory, internationalPoliticsCategory, constitutionLawCategory } from './course-party-politics';
 import { localGovernmentCategory, populismAuthoritarianismCategory, politicsEconomicsCategory, digitalPoliticsCategory } from './course-political-topics';
+import { englishAcademyCategory } from './course-english-academy';
 
 const nisaBasicsCategory: Category = {
   id: 'nisa-basics',
@@ -591,6 +592,7 @@ export const categories: Category[] = [
   populismAuthoritarianismCategory,
   politicsEconomicsCategory,
   digitalPoliticsCategory,
+  englishAcademyCategory,
 ];
 
 export function getCourse(courseId: string) {
