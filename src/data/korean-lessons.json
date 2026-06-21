@@ -5754,6 +5754,220 @@
           "content": "友人と5年および10年のキャリアビジョンについて議論してみてください。強み、弱み、機会、脅威（SWOT分析）を検討します。具体的な目標、マイルストーン、開発計画を立てます。ネットワーキング戦略と個人ブランディング計画を含めてください。"
         }
       ]
+    },
+    {
+      "id": "ko-034",
+      "level": 5,
+      "title": "継続学習・コミュニティ形成・グローバルネットワーク",
+      "titleKo": "평생 학습, 커뮤니티 형성, 그리고 글로벌 네트워크",
+      "objectives": [
+        "継続学習とスキル開発の文化を習得する",
+        "コミュニティ形成と相互支援の重要性を理解する",
+        "グローバルネットワークと協業について学ぶ",
+        "生涯学習と自己実現のビジョンを構築する"
+      ],
+      "content": {
+        "introduction": "生涯学習とコミュニティは個人と社会の継続的成長の基盤です。このレッスンでは、学習文化、知識共有、コミュニティ形成、グローバル協業、生涯学習のビジョンに関する統合的な韓国語を学びます。韓国では急速な変化に適応するために、継続的な自己開発と知識共有がますます重要になっています。",
+        "sections": [
+          {
+            "title": "継続学習とスキル開発",
+            "phrases": [
+              {
+                "korean": "평생 학습은 개인적 필요일 뿐만 아니라 지식 사회에서의 사회적 책임입니다.",
+                "romaji": "pyeongssaeng hagseub eun gae-injeoug piryoil bbut man anirae jisig sahoee-seo ui sahwejeoug chaegim imnida",
+                "japanese": "生涯学習は個人の必要性であるだけでなく、知識社会における社会的責任です。",
+                "usage": "学習文化の本質と社会的価値を説明するとき。知識社会"
+              },
+              {
+                "korean": "새로운 능력, 적응형 기술, 그리고 기업가 정신은 변화하는 세계에서 관련성의 열쇠입니다.",
+                "romaji": "saeroun neungryeog, jeog-eob hyunggi sul, geurigo gieobga jeongsin eun byeonhwahaneun segyee eseo gwanryonseong ui yeolswe imnida",
+                "japanese": "新しいスキル、適応的テクノロジー、起業家精神は変化する世界での関連性の鍵です。",
+                "usage": "現代の学習課題と適応の必要性を説明するとき。変化への対応"
+              },
+              {
+                "korean": "형식 교육, 비형식 학습, 그리고 자기주도적 개발은 모두 전체적 역량 개발에 필수적입니다.",
+                "romaji": "hyeongsik gyoyuk, biheonsig hagseub, geurigo jagi judojeouk gaebareul modu jeonche jeouk yeognyeom gaebale piryosujeogimnida",
+                "japanese": "形式教育、非形式学習、自己主導的開発はすべて総合的コンピテンス開発に不可欠です。",
+                "usage": "学習の多元的アプローチを説明するとき。総合的成長"
+              }
+            ]
+          },
+          {
+            "title": "コミュニティ形成と相互支援",
+            "phrases": [
+              {
+                "korean": "강력한 커뮤니티는 공동의 목표, 상호 지원, 그리고 투명한 의사소통을 통해 형성됩니다.",
+                "romaji": "gangyeol-hahnn keomyuniti neun gongdong ui mokpyo, sangho jiwon, geurigo tuhyeonghahnn uisasotung-eul tonghae hyeongseonghae mnida",
+                "japanese": "強力なコミュニティは共通の目標、相互支援、透明なコミュニケーションを通じて形成されます。",
+                "usage": "コミュニティ構築の基本原則を説明するとき。協同体"
+              },
+              {
+                "korean": "멘토링, 동료 학습, 그리고 지식 공유는 개인적 성장과 집단적 지능을 가속화합니다.",
+                "romaji": "mentoring, dongryyo hagseub, geurigo jisig gong-yu neun gae-injeoug seong-gong-gwa jipdan jeoug jineung-eul gasokkhwa hamnida",
+                "japanese": "メンタリング、ピア学習、知識共有は個人の成長と集団的知性を加速します。",
+                "usage": "コミュニティ学習の力を説明するとき。集団知性"
+              },
+              {
+                "korean": "다양성을 소중히 여기고 다양한 목소리를 높이는 포용적 커뮤니티는 혁신과 개인적 성장을 촉진합니다.",
+                "romaji": "dayangseongeul sojungi yeogigo dayanghhan mogsori-reul nop-hineun poyongjeoug keomyuniti neun hyeoksim-gwa gae-injeoug seong-gong-eul chogjeinhamnida",
+                "japanese": "多様性を大切にし異なる声を上げるインクルーシブなコミュニティはイノベーションと個人の成長を促進します。",
+                "usage": "包含的コミュニティの価値を説明するとき。多様性"
+              }
+            ]
+          },
+          {
+            "title": "グローバルネットワークと協業",
+            "phrases": [
+              {
+                "korean": "글로벌 네트워크는 국경을 넘어 사람들을 연결하고 인류의 중요한 과제에서의 협력을 가능하게 합니다.",
+                "romaji": "geulglobal neteuweokeu neun gugggyeong-eul neom-eo salamdeul-eul yeongyeol hago inryueui jungyohahnn gwaje eseo ui hyeolyeog-eul ganeunghage hamnida",
+                "japanese": "グローバルネットワークは境界を越えて人々を結び、人類の重要な課題での協業を可能にします。",
+                "usage": "国際協業の可能性を説明するとき。グローバル課題"
+              },
+              {
+                "korean": "글로벌 네트워크의 문화적 다양성은 혁신적 해결책과 더 깊은 상호 이해를 만들어냅니다.",
+                "romaji": "geulglobal neteuweokeu ui munhwajeog dayangseongeun hyeoksim-jeouk haegyeoljjak-gwa deo gip-eun sangho ihe-reul maneul-eo nabnida",
+                "japanese": "グローバルネットワークにおける文化的多様性は革新的ソリューションとより深い相互理解を生み出します。",
+                "usage": "多文化協業の価値を説明するとき。イノベーション"
+              },
+              {
+                "korean": "디지털 플랫폼, 오픈소스 운동, 그리고 글로벌 연구 네트워크는 전례 없는 협력과 지식 교환을 가능하게 합니다.",
+                "romaji": "dijital peulraetpom, opeunsoseu undong, geurigo geulglobal yeonggu neteuweokeu neun jeonryae eob-neun hyeolyeog-gwa jisig gyohwan-eul ganeunghage hamnida",
+                "japanese": "デジタルプラットフォーム、オープンソース運動、グローバル研究ネットワークは前例のない協業と知識交換を可能にします。",
+                "usage": "デジタル時代の協業ツールを説明するとき。テクノロジー"
+              }
+            ]
+          },
+          {
+            "title": "生涯学習とライフロング成長",
+            "phrases": [
+              {
+                "korean": "충만한 삶은 지속적인 학습, 자기 인식, 그리고 자신에게 도전하는 용기를 통해 생겨납니다.",
+                "romaji": "chungman-hahnn salm eun jisog-jeogin hagseub, jagi insik, geurigo jasin-egehae dochalen-haneun yong-gi-reul tonghae saeng-gyeo nabnida",
+                "japanese": "充実した人生は継続的学習、自己認識、自分に挑戦する勇気を通じて生まれます。",
+                "usage": "人生の意味と自己実現を説明するとき。全人的成長"
+              },
+              {
+                "korean": "인생의 단계들은 새로운 도전을 가져오지만, 또한 성장, 적응, 그리고 재창조의 새로운 기회도 가져옵니다.",
+                "romaji": "insaeng ui dangyadeul eun saeroun dochalen-eul gajyeo ojiman, ttohrahnn seong-gong, jeog-eob, geurigo jae-changjjo ui saeroun gihoereul gajyeo op nida",
+                "japanese": "人生の段階は新しい課題をもたらしますが、同時に成長、適応、再発明の新しい機会ももたらします。",
+                "usage": "人生段階ごとの成長機会を説明するとき。ライフステージ"
+              },
+              {
+                "korean": "비전, 회복력, 호기심, 그리고 열정은 지속적 개발과 사회 기여의 충만한 삶의 추진력입니다.",
+                "romaji": "bijeol, hoebok-ryeog, hogisim, geurigo yeoljeong eun jisog-jeogin gaebalgwa sahwee giyo ui chungman-hahnn salm ui chusin-ryeok imnida",
+                "japanese": "ビジョン、レジリエンス、好奇心、情熱は継続的成長と社会への貢献の人生の推進力です。",
+                "usage": "人生の目的と社会的責任を統合する説明。統合的人生ビジョン"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-034-q1",
+          "type": "fill-blank",
+          "question": "「生涯学習は個人の必要性であるだけでなく社会的責任です」を韓国語で言ってください。",
+          "answer": "평생 학습은 개인적 필요일 뿐만 아니라 사회적 책임입니다."
+        },
+        {
+          "id": "ko-034-q2",
+          "type": "multiple-choice",
+          "question": "コンピテンス開発に必要なのは？",
+          "options": [
+            "形式教育、非形式学習、自己主導的開発のすべて",
+            "学校教育のみ",
+            "自己学習だけ",
+            "正規教育は不要"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-034-q3",
+          "type": "fill-blank",
+          "question": "「強力なコミュニティは共通の目標と相互支援を通じて形成されます」を韓国語で言ってください。",
+          "answer": "강력한 커뮤니티는 공동의 목표와 상호 지원을 통해 형성됩니다."
+        },
+        {
+          "id": "ko-034-q4",
+          "type": "multiple-choice",
+          "question": "コミュニティ学習の効果は？",
+          "options": [
+            "個人の成長と集団的知性の加速",
+            "個人競争のみ",
+            "孤立と分断",
+            "他者への依存"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-034-q5",
+          "type": "fill-blank",
+          "question": "「グローバルネットワークは協業と知識交換を可能にします」を韓国語で言ってください。",
+          "answer": "글로벌 네트워크는 협력과 지식 교환을 가능하게 합니다."
+        },
+        {
+          "id": "ko-034-q6",
+          "type": "matching",
+          "question": "学習アプローチと説明を正しく組み合わせてください。",
+          "pairs": [
+            {"approach": "멘토링", "description": "指導による学習"},
+            {"approach": "동료 학습", "description": "同僚との協働学習"},
+            {"approach": "자기주도 학습", "description": "自己主導学習"}
+          ]
+        },
+        {
+          "id": "ko-034-q7",
+          "type": "fill-blank",
+          "question": "「充実した人生は継続的学習と自己挑戦を通じて生まれます」を韓国語で言ってください。",
+          "answer": "충만한 삶은 지속적인 학습과 자신에게 도전하는 용기를 통해 생겨납니다."
+        },
+        {
+          "id": "ko-034-q8",
+          "type": "multiple-choice",
+          "question": "ライフロング成長の推進力は？",
+          "options": [
+            "ビジョン、レジリエンス、好奇心、情熱",
+            "経済的報酬のみ",
+            "外部からの指示のみ",
+            "社会的地位"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国の生涯学習文化とグローバルコミュニティ形成",
+          "duration": "23分",
+          "description": "平生学習（평생학습）の文化、オープンソースと知識共有、グローバルコラボレーション、コミュニティ主導のイノベーション、急速に変わる時代の学習戦略"
+        },
+        {
+          "type": "grammar",
+          "title": "継続学習と成長に関する重要表現",
+          "content": "継続性を表す表現（지속적, 평생）。可能性と機会（~을 가능하게 하다）。コミュニティと協力（커뮤니티, 협력）。複合名詞（평생학습, 지식교환）"
+        },
+        {
+          "type": "note",
+          "title": "韓国の知識社会と学習文化",
+          "content": "急速な산업구조 변화への対応としての学習。職業訓練と継続教育への投資。개인의 自己開発競争。오픈 이노베이션과 知識共有。"
+        },
+        {
+          "type": "note",
+          "title": "コミュニティ形成とネットワークダイナミクス",
+          "content": "信頼と透明性に基づくコミュニティ。ピア学習と集団知性。다양성가져오는 혁신。デジタル時代のバーチャルコミュニティ。"
+        },
+        {
+          "type": "note",
+          "title": "生涯学習と人生設計",
+          "content": "人生段階ごとの学習ニーズ。新しい挑戦への適応能力。キャリア転換と再発明。自己実現と社会貢献の統合。"
+        },
+        {
+          "type": "practice",
+          "title": "学習コミュニティの構想と実装",
+          "content": "友人と共に、あなたたちが形成したいコミュニティのビジョンについて議論してみてください。共通の目標、学習の焦点、相互支援の方法を定めます。グローバルネットワークとの関係、知識共有の仕組み、包含的な文化をどのように構築するかを考察してください。"
+        }
+      ]
     }
   ]
 }
