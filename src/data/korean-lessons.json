@@ -5540,6 +5540,220 @@
           "content": "友人とビジネスアイデアについて議論し、簡単なビジネスプランを作成してみてください。問題認識、解決案、ビジネスモデル、資金需要、成長戦略を含めます。その後、相手に投資家になってもらい、あなたのプランを韓国語でプレゼンテーションして、フィードバックを受けてください。"
         }
       ]
+    },
+    {
+      "id": "ko-033",
+      "level": 4,
+      "title": "キャリア開発・個人ブランディング・グローバル活躍",
+      "titleKo": "커리어 개발, 개인 브랜딩, 그리고 글로벌 커리어",
+      "objectives": [
+        "キャリア計画と自己認識を習得する",
+        "個人ブランディングと価値提案を構築できる",
+        "ネットワーキングと関係構築のスキルを学ぶ",
+        "グローバルキャリアとライフデザインについて理解する"
+      ],
+      "content": {
+        "introduction": "個人のキャリア開発とグローバルな活躍は、個人的成長と社会への貢献の両立です。このレッスンでは、キャリア計画、自己認識、個人ブランディング、ネットワーキング、グローバルキャリア戦略など、個人的・職業的成長に関する実践的な韓国語を学びます。韓国では急速な社会変化の中で、個人のスキル開発とキャリア転換が重要な課題になっています。",
+        "sections": [
+          {
+            "title": "キャリア計画と自己認識",
+            "phrases": [
+              {
+                "korean": "커리어 계획은 자기 성찰에서 시작됩니다: 나는 누구인가, 내 강점과 약점은 무엇인가, 무엇이 나를 동기부여하는가?",
+                "romaji": "keorier gyehoaek eun jagi seongchal-eseo sijak doe mnida: naneun nugu inga, nae gangjjeomd gwa yakjeom-eun mueosinga, mueosi nareul donggi buyeohaneun ga",
+                "japanese": "キャリア計画は自己反省から始まります：私は誰か、強みと弱みは何か、何が動機づけているのか？",
+                "usage": "キャリアの自己認識プロセスを説明するとき。自己理解"
+              },
+              {
+                "korean": "명확한 목표, 현실적인 이정표, 그리고 지속적인 개발은 지속 가능한 커리어 성공의 핵심입니다.",
+                "romaji": "myeonghwakhan mokpyo, hyeonsiljeogin ijeongpyo, geurigo jisok-jeogin gaebareul jisog ganeunghahnn keorier seong-gong ui haekshim imnida",
+                "japanese": "明確な目標、現実的なマイルストーン、継続的な開発はキャリア成功の鍵です。",
+                "usage": "キャリア計画の戦略的アプローチを説明するとき。目標設定"
+              },
+              {
+                "korean": "유연성과 적응력은 빠르게 변화하는 직업 세계에서 필수적입니다.",
+                "romaji": "yunyeonseong-gwa jeog-eob-ryeog eun ppareuge byeonhwahaneun jiggeob seege eseo pilsujeogimnida",
+                "japanese": "柔軟性と適応能力は急速に変化する労働環境に不可欠です。",
+                "usage": "現代的キャリアの変動性と適応の必要性を説明するとき。レジリエンス"
+              }
+            ]
+          },
+          {
+            "title": "個人ブランディングと価値提案",
+            "phrases": [
+              {
+                "korean": "개인 브랜딩은 당신의 독특한 능력, 경험, 그리고 가치를 진정성 있는 방식으로 전달하는 것입니다.",
+                "romaji": "gae-in beuraending eun dangshi-nui dogtughan neungryeog, gyeongheom, geurigo gazchi-reul jinjeongseong inneun bangshig-euro jeondalhaneun geosul imnida",
+                "japanese": "個人ブランディングとは、あなたのユニークなスキル、経験、価値を真正な方法で伝えることです。",
+                "usage": "個人ブランディングの本質を説明するとき。真性性"
+              },
+              {
+                "korean": "LinkedIn, 포트폴리오, 그리고 개인 웹사이트는 당신의 직업적 정체성을 제시하기 위한 중요한 플랫폼입니다.",
+                "romaji": "LinkedIn, poteupo-ri-o, geurigo gae-in websaiteu neun dangshi-nui jiggeob-jeoug jeongche-seong-eul jesihagi wihan jungyohahnn peulraetpom imnida",
+                "japanese": "LinkedIn、ポートフォリオ、個人ウェブサイトはあなたの職業的アイデンティティを提示するための重要なプラットフォームです。",
+                "usage": "デジタルブランディングツールを説明するとき。オンライン存在"
+              },
+              {
+                "korean": "아이디어 교환, 전문 기사, 그리고 관련 커뮤니티 참여를 통한 지속적 가시성은 당신의 평판을 강화합니다.",
+                "romaji": "aidia gyo-hwan, jeonmun giasa, geurigo gwanryeon keomyuniti chammyeo-reul tonghahan jisog gashiseong eun dangshi-nui pyeonggwaneul ganghwah hamnida",
+                "japanese": "思考交換、専門記事、関連コミュニティへの参加による継続的な可視化はあなたの評判を強化します。",
+                "usage": "思想的リーダーシップと影響力構築を説明するとき。リーダーシップ"
+              }
+            ]
+          },
+          {
+            "title": "ネットワーキングと関係構築",
+            "phrases": [
+              {
+                "korean": "강력한 직업적 네트워크는 상호 존중, 가치 창조, 그리고 진정한 관계를 통해 형성됩니다.",
+                "romaji": "gangyeol-hahnn jiggeob-jeoug neteuweokeu neun sangho jon-jung, gazchi changjo, geurigo jinjeong-hahnn gwangyeareul tonghae hyeongseonghae mnida",
+                "japanese": "強力なプロフェッショナルネットワークは相互の尊重、価値創造、真正な関係を通じて形成されます。",
+                "usage": "ネットワーク構築の基本原則を説明するとき。相互価値"
+              },
+              {
+                "korean": "멘토링, 후원, 그리고 상호 지원은 직업적 개발을 가속화하고 문을 엽니다.",
+                "romaji": "mentoring, huon, geurigo sangho jiwon eun jiggeob-jeoug gaebareul gasokkhwa hago mun-eul yeop nida",
+                "japanese": "メンタリング、スポンサーシップ、相互支援は職業的開発を加速し、ドアを開きます。",
+                "usage": "キャリア加速のメカニズムを説明するとき。成長促進"
+              },
+              {
+                "korean": "산업, 문화, 그리고 기능을 넘는 네트워크의 다양화는 새로운 관점과 기회를 가능하게 합니다.",
+                "romaji": "sangeop, munhwa, geurigo ginung-eul neom neun neteuweokeu ui dayanghwa neun saeroun gwanjeom-gwa gihoereul ganeunghage hamnida",
+                "japanese": "業界、文化、職種にわたるネットワークの多様化は新しい視点とチャンスを可能にします。",
+                "usage": "ネットワーク多様性の価値を説明するとき。機会創出"
+              }
+            ]
+          },
+          {
+            "title": "グローバルキャリアとライフデザイン",
+            "phrases": [
+              {
+                "korean": "글로벌 커리어 기회는 언어 능력, 간문화 지능, 그리고 적응력을 요구합니다.",
+                "romaji": "geulglobal keorier gihoereul eon-eo neungryeog, ganmunhwa jineung, geurigo jeog-eob-ryeog-eul yogo hamnida",
+                "japanese": "グローバルキャリアの機会は言語能力、異文化知能、適応能力を必要とします。",
+                "usage": "国際キャリアの要件を説明するとき。グローバルコンピテンス"
+              },
+              {
+                "korean": "원격 근무, 국제 프로젝트, 그리고 가상 팀은 지리적 경계를 넘어선 협력을 가능하게 합니다.",
+                "romaji": "weonggyeog geunmu, gukje peurojektu, geurigo gasang tim eun jiri-jeoug gyeonggyereul neom-eoseon hyeolyeog-eul ganeunghage hamnida",
+                "japanese": "リモートワーク、国際プロジェクト、バーチャルチームは地理的境界を超えた協業を可能にします。",
+                "usage": "グローバル労働市場の新しい機会を説明するとき。仕事の未来"
+              },
+              {
+                "korean": "업무와 삶의 균형, 의미 있는 일, 그리고 개인적 안녕은 지속 가능한 커리어 성공의 중심입니다.",
+                "romaji": "eobmu-wa salm ui gyunhyeong, uimi inneun il, geurigo gae-injeoug annyeong eun jisog ganeunghahnn keorier seong-gong ui jungsim imnida",
+                "japanese": "ワークライフバランス、意義のある仕事、個人的幸福は持続可能なキャリア成功の中心です。",
+                "usage": "人生の総合的充実と職業的成功の統合を説明するとき。全人的成功"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-033-q1",
+          "type": "fill-blank",
+          "question": "「キャリア計画は自己反省から始まります」を韓国語で言ってください。",
+          "answer": "커리어 계획은 자기 성찰에서 시작됩니다."
+        },
+        {
+          "id": "ko-033-q2",
+          "type": "multiple-choice",
+          "question": "キャリア成功の鍵は何ですか？",
+          "options": [
+            "明確な目標、現実的なマイルストーン、継続的な開発",
+            "運と偶然のみ",
+            "高い給与だけ",
+            "職位の頻繁な変更"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-033-q3",
+          "type": "fill-blank",
+          "question": "「個人ブランディングはスキル、経験、価値を真正な方法で伝えることです」を韓国語で言ってください。",
+          "answer": "개인 브랜딩은 당신의 능력과 가치를 진정성 있는 방식으로 전달하는 것입니다."
+        },
+        {
+          "id": "ko-033-q4",
+          "type": "multiple-choice",
+          "question": "個人ブランディングに重要なプラットフォームは？",
+          "options": [
+            "LinkedIn、ポートフォリオ、個人ウェブサイト",
+            "テレビのみ",
+            "新聞広告だけ",
+            "個人情報の公開不要"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "ko-033-q5",
+          "type": "fill-blank",
+          "question": "「ネットワークは相互の尊重と真正な関係を通じて形成されます」を韓国語で言ってください。",
+          "answer": "네트워크는 상호 존중과 진정한 관계를 통해 형성됩니다."
+        },
+        {
+          "id": "ko-033-q6",
+          "type": "matching",
+          "question": "キャリア支援の方法と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"method": "멘토링", "description": "指導"},
+            {"method": "후원", "description": "後援"},
+            {"method": "네트워킹", "description": "ネットワーキング"}
+          ]
+        },
+        {
+          "id": "ko-033-q7",
+          "type": "fill-blank",
+          "question": "「グローバルキャリアは言語能力と異文化知能を必要とします」を韓国語で言ってください。",
+          "answer": "글로벌 커리어는 언어 능력과 간문화 지능을 요구합니다."
+        },
+        {
+          "id": "ko-033-q8",
+          "type": "multiple-choice",
+          "question": "持続可能なキャリア成功に必要なのは？",
+          "options": [
+            "ワークライフバランス、意義のある仕事、個人的幸福",
+            "短期的利益のみ",
+            "私生活の完全な放棄",
+            "継続的なストレス"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "韓国のキャリア開発とグローバルな個人ブランディング",
+          "duration": "22分",
+          "description": "急速な社会変化とキャリア転換、個人ブランディング戦略、グローバルネットワーキング、K-人材のグローバル進出、人生設計と自己実現"
+        },
+        {
+          "type": "grammar",
+          "title": "キャリア開発に関する重要な表現",
+          "content": "自己反省を表す表現（자기 성찰）。可能性と機会の表現（～을 가능하게 하다，～을 열다）。義務と必要性（요구하다，필수적이다）。複合名詞（커리어계획，네트워크）"
+        },
+        {
+          "type": "note",
+          "title": "韓国のキャリア文化と個人開発",
+          "content": "ジェネレーションギャップと新しいキャリア価値観の出現。起業家精神と取業の多様化。グローバル進出する若い世代。メンタリングと組織文化の変化。"
+        },
+        {
+          "type": "note",
+          "title": "個人ブランディングの心理学と戦略",
+          "content": "真正性（진정성）が信頼を生む。価値提案の明確化。デジタルプレゼンスの管理。思想的リーダーシップの構築。オンラインと対面のバランス。"
+        },
+        {
+          "type": "note",
+          "title": "グローバルキャリアの複雑性と機会",
+          "content": "言語能力は必須。異文化コンピテンスの開発。リモートワークの成長。時間帯と地域を超えた協業。K-talent のグローバル需要。"
+        },
+        {
+          "type": "practice",
+          "title": "個人キャリア戦略の構築と実行",
+          "content": "友人と5年および10年のキャリアビジョンについて議論してみてください。強み、弱み、機会、脅威（SWOT分析）を検討します。具体的な目標、マイルストーン、開発計画を立てます。ネットワーキング戦略と個人ブランディング計画を含めてください。"
+        }
+      ]
     }
   ]
 }
