@@ -5142,6 +5142,220 @@
           "content": "あなたの国のエネルギー状況を分析してください。現在のエネルギーミックス、主な課題、2050年までのビジョン。ドイツの事例を参考にしながら、実現可能な気候政策を提案します。経済的影響、雇用、国際協業などを含めて議論してください。"
         }
       ]
+    },
+    {
+      "id": "de-023",
+      "level": 5,
+      "title": "医療セクターのキャリア開発と国際協業",
+      "titleDe": "Karriereentwicklung im Gesundheitssektor und internationale Zusammenarbeit",
+      "objectives": [
+        "ドイツの医療システムと職業体系を理解する",
+        "医療専門家のキャリアパスと職務要件を習得する",
+        "国際医療協力と多言語医療環境での対応能力を身につける",
+        "医療倫理と患者ケアのコミュニケーションスキルを習得する"
+      ],
+      "content": {
+        "introduction": "医療は高度な専門性、継続的な自己開発、患者中心のコミュニケーションを要求する分野です。このレッスンでは、ドイツの医療システムの特徴、医師・看護師・医療技術者のキャリアパス、国際医療協業、医療倫理に関する高度なドイツ語を学びます。EUの移動の自由により、医療専門家の国際交流がますます活発になっています。",
+        "sections": [
+          {
+            "title": "ドイツの医療システムとキャリア構造",
+            "phrases": [
+              {
+                "german": "Das deutsche Gesundheitssystem basiert auf der Bismarck-Modell mit Krankenkassen, Leistungserbringern, und einer Mischung aus öffentlichen und privaten Anbietern.",
+                "romaji": "Das deutsche Gesundheitssystem basiert auf der Bismarck-Modell mit Krankenkassen, Leistungserbringern, und einer Mischung aus öffentlichen und privaten Anbietern",
+                "japanese": "ドイツの医療システムはビスマルク模型に基づいており、健康保険、医療提供者、公的・民間提供者の混合で構成されています。",
+                "usage": "ドイツの医療制度を説明するとき"
+              },
+              {
+                "german": "Ärzte müssen ein Medizinstudium von 6 Jahren absolvieren, eine Facharztausbildung von 5-6 Jahren, und sich kontinuierlich weiterbilden, um ihre Lizenz zu behalten.",
+                "romaji": "Ärzte müssen ein Medizinstudium von 6 Jahren absolvieren, eine Facharztausbildung von 5-6 Jahren, und sich kontinuierlich weiterbilden, um ihre Lizenz zu behalten",
+                "japanese": "医師は6年間の医学教育を修了し、5～6年間の専門医資格取得訓練を受け、ライセンスを維持するために継続的に研鑽する必要があります。",
+                "usage": "医師のキャリアパスを説明するとき"
+              },
+              {
+                "german": "Krankenpfleger und Pflegefachkräfte sind der Rückgrat des deutschen Gesundheitswesens und können sich zu spezialisierten Fachgebieten wie Intensivpflege, Onkologie, oder Geriatrie weiter entwickeln.",
+                "romaji": "Krankenpfleger und Pflegefachkräfte sind der Rückgrat des deutschen Gesundheitswesens und können sich zu spezialisierten Fachgebieten wie Intensivpflege, Onkologie, oder Geriatrie weiter entwickeln",
+                "japanese": "看護師と看護専門家はドイツ医療の中核であり、集中治療、腫瘍学、老年医学などの専門分野へキャリアを発展させることができます。",
+                "usage": "看護職のキャリア発展を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "医療専門職の職務と専門分野",
+            "phrases": [
+              {
+                "german": "Hausärzte (Allgemeinmediziner) sind die erste Anlaufstelle für Patienten, koordinieren die Patientenversorgung, und überweisen an Spezialisten.",
+                "romaji": "Hausärzte (Allgemeinmediziner) sind die erste Anlaufstelle für Patienten, koordinieren die Patientenversorgung, und überweisen an Spezialisten",
+                "japanese": "主治医（一般医）は患者の最初の接点であり、患者ケアを調整し、専門医に紹介します。",
+                "usage": "基礎医療の役割を説明するとき"
+              },
+              {
+                "german": "Fachärzte (Spezialisten) wie Kardiologen, Onkologen, und Neurologen erfordern spezialisierte Ausbildung und sind oft in Krankenhäusern oder Fachpraxen tätig.",
+                "romaji": "Fachärzte (Spezialisten) wie Kardiologen, Onkologen, und Neurologen erfordern spezialisierte Ausbildung und sind oft in Krankenhäusern oder Fachpraxen tätig",
+                "japanese": "循環器内科医、腫瘍医、神経医学者などの専門医は特殊な訓練を必要とし、病院や専門クリニックで働くことが多いです。",
+                "usage": "専門医の役割を説明するとき"
+              },
+              {
+                "german": "Medizinische Technologen, Laborassistenten, und Radiologietechnologen sind entscheidend für Diagnostik und tragen wesentlich zur Patientenversorgung bei.",
+                "romaji": "Medizinische Technologen, Laborassistenten, und Radiologietechnologen sind entscheidend für Diagnostik und tragen wesentlich zur Patientenversorgung bei",
+                "japanese": "医療技術者、検査室スタッフ、放射線技師は診断に不可欠であり、患者ケアに大きく貢献します。",
+                "usage": "医療技術職の重要性を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "国際医療協力と多言語対応",
+            "phrases": [
+              {
+                "german": "Die Mobilität von Fachkräften innerhalb der EU ermöglicht es Ärzten und Pflegekräften, in verschiedenen Ländern zu arbeiten und ihre Erfahrungen und Fachkenntnisse zu teilen.",
+                "romaji": "Die Mobilität von Fachkräften innerhalb der EU ermöglicht es Ärzten und Pflegekräften, in verschiedenen Ländern zu arbeiten und ihre Erfahrungen und Fachkenntnisse zu teilen",
+                "japanese": "EU内の専門家の移動性により、医師と看護師は異なる国で働き、経験と専門知識を共有することができます。",
+                "usage": "医療職の国際交流を説明するとき"
+              },
+              {
+                "german": "Interkulturelle Kompetenz und Sprachfähigkeiten sind für Gesundheitsfachkräfte zunehmend wichtig, um mit vielfältigen Patientenpopulationen effektiv zu kommunizieren und Missverständnisse zu vermeiden.",
+                "romaji": "Interkulturelle Kompetenz und Sprachfähigkeiten sind für Gesundheitsfachkräfte zunehmend wichtig, um mit vielfältigen Patientenpopulationen effektiv zu kommunizieren und Missverständnisse zu vermeiden",
+                "japanese": "異文化間の能力と言語スキルは医療専門家にとってますます重要になり、多様な患者層と効果的にコミュニケーションし、誤解を避ける必要があります。",
+                "usage": "医療現場での多言語対応の必要性を説明するとき"
+              },
+              {
+                "german": "Globale Gesundheitsinitiative, medizinische Forschung, und Entwicklungshilfe bieten Möglichkeiten für Ärzte, ihre Karriere auf internationaler Ebene zu erweitern und zu Gesundheitsverbesserung in underversorgten Regionen beizutragen.",
+                "romaji": "Globale Gesundheitsinitiative, medizinische Forschung, und Entwicklungshilfe bieten Möglichkeiten für Ärzte, ihre Karriere auf internationaler Ebene zu erweitern und zu Gesundheitsverbesserung in underversorgten Regionen beizutragen",
+                "japanese": "グローバル保健イニシアティブ、医学研究、開発支援は医師がキャリアを国際レベルで拡張し、医療不足地域の健康向上に貢献する機会を提供します。",
+                "usage": "医療の国際協業と社会貢献を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "医療倫理と患者コミュニケーション",
+            "phrases": [
+              {
+                "german": "Die medizinische Ethik basiert auf den Prinzipien der Autonomie, Wohltuendheit, Nichtschadensprinzip, und Gerechtigkeit, die das Fundament professioneller Ärzte-Patienten-Beziehungen bilden.",
+                "romaji": "Die medizinische Ethik basiert auf den Prinzipien der Autonomie, Wohltuendheit, Nichtschadensprinzip, und Gerechtigkeit, die das Fundament professioneller Ärzte-Patienten-Beziehungen bilden",
+                "japanese": "医療倫理は自律性、善行原則、危害回避、正義の原則に基づいており、これらが専門的な医師患者関係の基礎を形成します。",
+                "usage": "医療倫理の基本原則を説明するとき"
+              },
+              {
+                "german": "Ärzte müssen komplexe medizinische Information in verständlicher Sprache erklären, um ein informiertes Einverständnis (informed consent) zu gewährleisten.",
+                "romaji": "Ärzte müssen komplexe medizinische Information in verständlicher Sprache erklären, um ein informiertes Einverständnis (informed consent) zu gewährleisten",
+                "japanese": "医師は複雑な医学情報を理解可能な言葉で説明し、インフォームド・コンセントを確保する必要があります。",
+                "usage": "患者へのコミュニケーション責任を説明するとき"
+              },
+              {
+                "german": "Empathie, Vertrauen, und Respekt für Patientenpräferenzen sind zentral für eine patientenzentrierte Versorgung und können Behandlungsergebnisse erheblich verbessern.",
+                "romaji": "Empathie, Vertrauen, und Respekt für Patientenpräferenzen sind zentral für eine patientenzentrierte Versorgung und können Behandlungsergebnisse erheblich verbessern",
+                "japanese": "共感、信頼、患者の嗜好への尊重は患者中心のケアの中核であり、治療結果を大幅に改善することができます。",
+                "usage": "患者中心ケアの重要性を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-023-q1",
+          "type": "fill-blank",
+          "question": "「ドイツの医療システムはビスマルク模型に基づいており、健康保険と医療提供者で構成されています」をドイツ語で言ってください。",
+          "answer": "Das deutsche Gesundheitssystem basiert auf der Bismarck-Modell mit Krankenkassen und Leistungserbringern."
+        },
+        {
+          "id": "de-023-q2",
+          "type": "multiple-choice",
+          "question": "ドイツの医師のキャリアパスの要件は？",
+          "options": [
+            "6年間の医学教育 + 5～6年間の専門医訓練 + 継続的な研修",
+            "4年間の教育で十分",
+            "大学院なしで可能",
+            "毎年の再試験が不要"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-023-q3",
+          "type": "fill-blank",
+          "question": "「看護師はドイツ医療の中核であり、集中治療などの専門分野へ発展できます」をドイツ語で言ってください。",
+          "answer": "Krankenpfleger sind der Rückgrat des deutschen Gesundheitswesens und können sich zu Fachgebieten wie Intensivpflege entwickeln."
+        },
+        {
+          "id": "de-023-q4",
+          "type": "multiple-choice",
+          "question": "主治医（Hausarzt）の主な役割は？",
+          "options": [
+            "患者の最初の接点であり、ケアを調整して専門医に紹介する",
+            "すべての患者を手術する",
+            "診断のみで治療しない",
+            "患者の相談を受け付けない"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-023-q5",
+          "type": "fill-blank",
+          "question": "「医療専門家の国際的移動はEUの重要な特徴です」をドイツ語で言ってください。",
+          "answer": "Die Mobilität von Fachkräften innerhalb der EU ist ein wichtiges Merkmal."
+        },
+        {
+          "id": "de-023-q6",
+          "type": "matching",
+          "question": "医療専門職と職務を正しく組み合わせてください。",
+          "pairs": [
+            {"profession": "Hausarzt", "role": "基礎医療と患者調整"},
+            {"profession": "Facharzt", "role": "専門分野での専門医療"},
+            {"profession": "Krankenpfleger", "role": "患者ケアと支援"}
+          ]
+        },
+        {
+          "id": "de-023-q7",
+          "type": "fill-blank",
+          "question": "「医療倫理は自律性、善行原則、危害回避、正義に基づいています」をドイツ語で言ってください。",
+          "answer": "Die medizinische Ethik basiert auf Autonomie, Wohltuendheit, Nichtschadensprinzip, und Gerechtigkeit."
+        },
+        {
+          "id": "de-023-q8",
+          "type": "multiple-choice",
+          "question": "患者中心のケアに最も重要な要素は？",
+          "options": [
+            "共感、信頼、患者の嗜好への尊重",
+            "医師の意見のみの押し付け",
+            "患者との対話なし",
+            "治療費のみの関心"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツの医療システムとキャリアパス：医師・看護師・医療技術者",
+          "duration": "24分",
+          "description": "ビスマルク模型の仕組み。医学教育と専門医資格。看護職の多様なキャリア。医療技術者の役割。EUでの職業移動と言語要件。"
+        },
+        {
+          "type": "grammar",
+          "title": "医療専門用語と患者コミュニケーション表現",
+          "content": "医療複合名詞：Gesundheitssystem（医療制度）、Patientenversorgung（患者ケア）、Facharzt（専門医）。患者説明の表現：erklären（説明する）、verstehen（理解する）、vereinbaren（同意する）。医療倫理用語：Autonomie（自律性）、Einverständnis（同意）、Vertrauen（信頼）。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツの医療制度の構造と特徴",
+          "content": "ビスマルク模型：雇用者と労働者による強制保険。全国約4万の一般開業医と約30万の病院ベッド。強い初期治療（Hausarzt）システム。高い医療の質と国民満足度。デジタル化への段階的進行。"
+        },
+        {
+          "type": "note",
+          "title": "医療職の継続教育と専門家認定",
+          "content": "医師の毎年の研修要件（CME: Continuing Medical Education）。専門医資格の更新と再認定。看護職の高度な資格プログラム。医療品質の維持と患者安全への継続的コミットメント。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツと韓国の医療キャリアの比較",
+          "content": "ドイツ：社会保障モデル中心、長期安定性、医療の質重視。韓国：単一保険制度、効率性重視、技術革新。いずれも国民皆保険で医療アクセスを保証。"
+        },
+        {
+          "type": "practice",
+          "title": "医療キャリアの国際的展開計画",
+          "content": "あなたが医療分野でのキャリアをドイツで（または国際的に）開発したいとします。必要な教育、言語スキル、認定資格、倫理的責任を検討してください。患者ケアの価値観、継続的な学習へのコミットメント、国際医療協力への関心を組み込んだ5年プランを作成してください。"
+        }
+      ]
     }
   ]
 }
