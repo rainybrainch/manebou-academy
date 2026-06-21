@@ -4928,6 +4928,220 @@
           "content": "友人と共に、あなたたちが形成したいコミュニティのビジョンについて議論してみてください。共通の目標、学習の焦点、相互支援の方法を定めます。グローバルネットワークとの関係、知識共有の仕組み、包含的な文化をどのように構築するかを考察してください。"
         }
       ]
+    },
+    {
+      "id": "de-022",
+      "level": 5,
+      "title": "エネルギー転換と気候政策：ドイツのグリーン経済戦略",
+      "titleDe": "Energiewende und Klimapolitik: Deutschlands grüne Wirtschaftsstrategie",
+      "objectives": [
+        "ドイツのエネルギー転換（Energiewende）の背景と概念を理解する",
+        "再生可能エネルギーと気候政策に関する専門用語を習得する",
+        "気候変動対応のビジネス戦略について議論できる",
+        "グリーン経済とサステナビリティの国際的な文脈を理解する"
+      ],
+      "content": {
+        "introduction": "ドイツのエネルギー転換（Energiewende）は、化石燃料から再生可能エネルギーへの転換を目指す歴史的な取り組みです。このレッスンでは、気候政策、グリーンテクノロジー、持続可能なビジネスモデル、そしてドイツが世界的なエネルギー転換のリーダーになった理由について、高度なドイツ語で学びます。",
+        "sections": [
+          {
+            "title": "エネルギー転換の背景と政策体系",
+            "phrases": [
+              {
+                "german": "Die Energiewende ist Deutschlands zentrales Ziel zur Begrenzung des Klimawandels und zur Schaffung einer nachhaltigen Wirtschaft.",
+                "romaji": "Die Energiewende ist Deutschlands tsentrahles Tsiel tsum Begrentsoong des Klima-vandels und tsum Schaffung einer nahkhah-lee-teekhen Virts-shahft",
+                "japanese": "エネルギー転換は気候変動を制限し、持続可能な経済を創造するためのドイツの中心的な目標です。",
+                "usage": "エネルギー政策の全体像を説明するとき"
+              },
+              {
+                "german": "Deutschland hat sich zum Ziel gesetzt, bis 2045 treibhausgasneutral zu sein und den Stromsektor bis 2035 zu 80 Prozent aus erneuerbaren Energien zu versorgen.",
+                "romaji": "Doytsh-lahnt hahts zikh tsoom Tsiel geh-zetz, bis tsvey-toysent-foon-foont-foont-foont traip-hous-gahs-noy-trahl tsoo zine oont den Shtrohm-zek-tor bis tsvey-toysent-doyn-foont-foont-foont tsoo akh-tsiG Protsent aus er-noy-er-bah-ren En-er-ghee-en tser-zor-gen",
+                "japanese": "ドイツは2045年までにカーボンニュートラルになり、電力部門を2035年までに80%再生可能エネルギーから供給することを目標としています。",
+                "usage": "ドイツの気候目標を説明するとき"
+              },
+              {
+                "german": "Die Energiewende umfasst den Ausstieg aus Kernkraft, den Wechsel zu erneuerbaren Energien wie Windkraft, Solarenergie und Bioenergie, sowie die Modernisierung der Stromnetze.",
+                "romaji": "Die Energiewende oomfahst den Ousshtike ous Kern-kraft, den Veksel tsoo er-noy-er-bah-ren En-er-ghee-en vie Vint-kraft, Zolar-en-er-ghee und Bio-en-er-ghee, sowie die Mod-er-nee-zee-roong der Shtrohm-nets",
+                "japanese": "エネルギー転換は原子力からの撤退、風力、太陽光、バイオエネルギーなどの再生可能エネルギーへの転換、および電力網の近代化を含みます。",
+                "usage": "エネルギー転換の構成要素を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "再生可能エネルギー技術と産業",
+            "phrases": [
+              {
+                "german": "Windenergie und Solarenergie sind die Säulen von Deutschlands erneuerbarem Energiesystem und tragen bereits zu über 50 Prozent der Stromproduktion bei.",
+                "romaji": "Vint-en-er-ghee oont Zolar-en-er-ghee zine die Zoy-oo-len fon Doytsh-lahnt-s er-noy-er-bah-ren En-er-ghee-zis-tem oont trah-gen berights tsoo oo-ber foont-tsiG Protsent der Shtrohm-pro-dook-tsion bai",
+                "japanese": "風力エネルギーと太陽光エネルギーはドイツの再生可能エネルギーシステムの柱であり、すでに発電量の50%以上を占めています。",
+                "usage": "ドイツの再生可能エネルギーの現状を説明するとき"
+              },
+              {
+                "german": "Deutschland führt weltweit in der Entwicklung von grünen Technologien an, einschließlich Energiespeicherung, intelligente Stromnetze (Smart Grids), und Wasserstofftechnik.",
+                "romaji": "Doytsh-lahnt fürt velt-vite in der Ent-vik-loong fon groo-nen Tek-nol-oh-ghee-en ahn, ine-shlees-likh En-er-ghee-shpye-cher-roong, in-tel-lee-ghen-te Shtrohm-nets oont Vah-ser-shtof-tek-nik",
+                "japanese": "ドイツはエネルギー貯蔵、スマートグリッド、水素技術を含むグリーンテクノロジーの開発において世界をリードしています。",
+                "usage": "ドイツの技術的優位性を説明するとき"
+              },
+              {
+                "german": "Mittelständische Unternehmen spielen eine Schlüsselrolle in der Energiewende, indem sie innovative Lösungen für lokale Energieversorgung und Effizienzsteigerung entwickeln.",
+                "romaji": "Mit-el-shtents-dee-she Oont-er-nay-men shpee-len eye-ne Shloss-sel-rol-le in der En-er-ghee-ven-de, in-dem zee in-no-vah-tee-ve Loo-zoong-en für lo-kah-le En-er-ghee-fer-zor-goong oont Eff-ee-tsients-shtie-ger-roong ent-vik-eln",
+                "japanese": "中堅企業はエネルギー転換において重要な役割を果たし、地域のエネルギー供給と効率向上のための革新的なソリューションを開発しています。",
+                "usage": "ドイツの経済主体とエネルギー転換の関係を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "グリーンビジネスと循環経済",
+            "phrases": [
+              {
+                "german": "Die Kreislaufwirtschaft ist ein Schlüsselkonzept der Energiewende, bei dem Abfälle in Ressourcen umgewandelt und Rohstoffe recycelt werden, um Umweltbelastung zu reduzieren.",
+                "romaji": "Die Kreis-lauf-virts-shaft ist eye-n Shloss-sel-kon-tshept der En-er-ghee-ven-de, bai dem Ap-fle in Ress-our-sen oom-ge-vahn-delt oont Roh-shtof-fe ree-tsy-kelt ver-den, oom Oom-velt-be-lash-toong tsoo re-doo-tsee-ren",
+                "japanese": "循環経済はエネルギー転換の重要な概念であり、廃棄物をリソースに変換し、原料をリサイクルして環境負荷を軽減します。",
+                "usage": "循環経済のコンセプトを説明するとき"
+              },
+              {
+                "german": "Unternehmen, die Nachhaltigkeitsstandards implementieren, gewinnen wettbewerbliche Vorteile und ziehen talentierte Mitarbeiter an, die sich für eine grüne Zukunft engagieren.",
+                "romaji": "Oont-er-nay-men, die Nahkh-hah-lee-tiks-shtahn-darts im-ple-men-tee-ren, ghah-vee-nen vet-be-verb-lee-che Vor-tie-le oont tsee-hen tahl-en-tee-er-te Mit-ar-bye-ter ahn, die zikh für eye-ne groo-ne Tsoo-koonft en-gah-zhee-ren",
+                "japanese": "サステナビリティの基準を実装する企業は競争上の優位性を獲得し、グリーンな未来に貢献する才能ある従業員を引き付けます。",
+                "usage": "グリーンビジネスの経済的利点を説明するとき"
+              },
+              {
+                "german": "Carbon Pricing, CO2-Steuer, und Emissionszertifikate sind Marktmechanismen, die Unternehmen anregen, ihre Kohlenstoffemissionen zu reduzieren.",
+                "romaji": "Carbon Pricing, CO2-Shtoy-er, oont E-mis-yons-tser-tee-fee-kah-te zine Markt-me-khan-nis-men, die Oont-er-nay-men ahn-rah-gen, ee-re Kol-len-shtof-e-mis-yons tsoo re-doo-tsee-ren",
+                "japanese": "カーボンプライシング、CO2税、排出権証書は企業にカーボン排出量削減を促すメカニズムです。",
+                "usage": "気候政策の経済的手段を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "グローバルな気候変動対応と国際協業",
+            "phrases": [
+              {
+                "german": "Deutschlands Energiewende ist ein Modell für globale Klimapolitik und inspiriert andere Länder, ehrgeizige Ziele für Treibhausgasreduktion und erneuerbare Energien zu setzen.",
+                "romaji": "Doytsh-lahnt-s En-er-ghee-ven-de ist eye-n Mo-del für glob-ah-le Kli-mah-pol-ee-tik oont in-shpi-rert ahn-de-re Lents-der, air-guye-tsi-ge Tsee-le für Traip-haus-gahs-re-dok-tsion oont er-noy-er-bah-re En-er-ghee-en tsoo zet-sen",
+                "japanese": "ドイツのエネルギー転換はグローバルな気候政策の模範であり、他国に野心的な温室効果ガス削減と再生可能エネルギーの目標設定を促しています。",
+                "usage": "ドイツの国際的な気候リーダーシップを説明するとき"
+              },
+              {
+                "german": "Internationale Partnerschaften zwischen Ländern, Forschungsinstitutionen, und Unternehmen beschleunigen den Wissensaustausch und die Entwicklung von innovativen Lösungen für den Klimawandel.",
+                "romaji": "In-ter-nah-tsio-nah-le Par-tner-shahf-ten tsvee-shen Lents-dern, For-shoongs-in-stee-too-tsio-nen, oont Oont-er-nay-men be-shle-oo-nee-gen den Vis-sens-ous-toushe oont die Ent-vik-loong fon in-no-vah-tee-ven Loo-zoong-en für den Kli-mah-vahn-del",
+                "japanese": "国家、研究機関、企業間の国際的パートナーシップは知識交換を加速し、気候変動に対する革新的ソリューションの開発を進めています。",
+                "usage": "国際的な気候協業を説明するとき"
+              },
+              {
+                "german": "Die Agenda 2030 und die Ziele für nachhaltige Entwicklung (SDGs) sind der Rahmen für die globale Transformation zu einer kohlenstoffarmen Wirtschaft, an der Deutschland führend beteiligt ist.",
+                "romaji": "Die Ah-ghen-dah tsvey-toysent-drite-sik oont die Tsee-le für nahkh-hah-lee-tsi-ge Ent-vik-loong zine der Rah-men für die glob-ah-le Trans-for-mah-tsion tsooh eye-ner kol-len-shtof-ahr-men Virts-shaft, ahn der Doytsh-lahnt fürt-ent be-tie-likt ist",
+                "japanese": "2030年アジェンダと持続可能な開発目標（SDGs）はカーボンニュートラル経済への世界的変革の枠組みであり、ドイツはその主導的な役割を担っています。",
+                "usage": "グローバルな持続可能性の枠組みを説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-022-q1",
+          "type": "fill-blank",
+          "question": "「エネルギー転換はドイツの気候変動対応の中心的な目標です」をドイツ語で言ってください。",
+          "answer": "Die Energiewende ist Deutschlands zentrales Ziel zur Begrenzung des Klimawandels."
+        },
+        {
+          "id": "de-022-q2",
+          "type": "multiple-choice",
+          "question": "ドイツの再生可能エネルギー目標は？",
+          "options": [
+            "2035年までに電力の80%を再生可能エネルギーから供給",
+            "2030年までに100%達成",
+            "2050年までに50%達成",
+            "2025年までに完全な達成"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-022-q3",
+          "type": "fill-blank",
+          "question": "「風力エネルギーと太陽光エネルギーはドイツの発電量の50%以上を占めています」をドイツ語で言ってください。",
+          "answer": "Windenergie und Solarenergie tragen bereits zu über 50 Prozent der Stromproduktion bei."
+        },
+        {
+          "id": "de-022-q4",
+          "type": "multiple-choice",
+          "question": "ドイツが再生可能エネルギーで世界的リーダーになった理由は？",
+          "options": [
+            "エネルギー貯蔵、スマートグリッド、水素技術などの技術開発",
+            "石油資源の豊富さ",
+            "原子力技術の先進性",
+            "天然ガスの低価格"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-022-q5",
+          "type": "fill-blank",
+          "question": "「循環経済は廃棄物をリソースに変換します」をドイツ語で言ってください。",
+          "answer": "Die Kreislaufwirtschaft wandelt Abfälle in Ressourcen um."
+        },
+        {
+          "id": "de-022-q6",
+          "type": "matching",
+          "question": "気候政策のメカニズムと説明を正しく組み合わせてください。",
+          "pairs": [
+            {"mechanism": "Carbon Pricing", "explanation": "カーボン価格設定"},
+            {"mechanism": "Emissionszertifikate", "description": "排出権証書"},
+            {"mechanism": "CO2-Steuer", "explanation": "CO2税"}
+          ]
+        },
+        {
+          "id": "de-022-q7",
+          "type": "fill-blank",
+          "question": "「ドイツのエネルギー転換はグローバルな気候政策のモデルです」をドイツ語で言ってください。",
+          "answer": "Deutschlands Energiewende ist ein Modell für globale Klimapolitik."
+        },
+        {
+          "id": "de-022-q8",
+          "type": "multiple-choice",
+          "question": "グリーンビジネスの経済的な利点は？",
+          "options": [
+            "競争優位性の獲得と才能ある従業員の引き付け",
+            "消費者からの反発",
+            "短期的なコスト削減のみ",
+            "市場での競争力の低下"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツのエネルギー転換：Energiewende の戦略と成果",
+          "duration": "28分",
+          "description": "2011年フクシマ原発事故後のドイツの政策転換。再生可能エネルギーへの投資。風力発電と太陽光発電の急速な拡大。グリーン産業の経済的成長。"
+        },
+        {
+          "type": "grammar",
+          "title": "エネルギー政策と気候変動に関する重要表現",
+          "content": "複合名詞：Energiewende（エネルギー転換）、Treibhausgase（温室効果ガス）、Stromsektor（電力部門）。政策表現：sich zum Ziel setzen（目標を設定する）、implementieren（実装する）、beschleunigen（加速する）。比較表現と統計データの説明。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツの気候政策の法的枠組み",
+          "content": "気候変動対策法（Klimaschutzgesetz）。EU排出権取引制度（ETS）。2045年カーボンニュートラル達成の法的義務。部門別削減目標（建築、産業、農業、運輸）。"
+        },
+        {
+          "type": "note",
+          "title": "グリーンテクノロジーと産業構造の変化",
+          "content": "スマートグリッド、エネルギー貯蔵システム、水素技術、電気自動車充電インフラ。再生可能エネルギー産業による雇用創出。従来のエネルギー産業からの労働力の転換と職業訓練。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツと韓国のエネルギー転換戦略の比較",
+          "content": "ドイツの政治的決定と強い市民支持。韓国のテクノロジー主導のアプローチ。再生可能エネルギーと原子力のバランス。各国の地理的・経済的条件の違い。"
+        },
+        {
+          "type": "practice",
+          "title": "エネルギー政策のディスカッションと提案",
+          "content": "あなたの国のエネルギー状況を分析してください。現在のエネルギーミックス、主な課題、2050年までのビジョン。ドイツの事例を参考にしながら、実現可能な気候政策を提案します。経済的影響、雇用、国際協業などを含めて議論してください。"
+        }
+      ]
     }
   ]
 }
