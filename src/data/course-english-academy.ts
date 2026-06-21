@@ -320,16 +320,32 @@ export const englishAcademyCategory: Category = {
           title: '道案内と方向の聞き方',
           duration: '6:30',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
             'right, left, straight の使い分けができる',
             '道を聞ける',
             '目的地まで無事到着できる',
+            '道案内を正確に理解できる',
+            '自分も他人に道を教えられる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: '海外で迷ったときに大切な「道を聞く英語」をマスターしましょう。',
+              content: '海外で迷ったときに大切な「道を聞く英語」をマスターしましょう。また、自分も他人に道を教えられるスキルも身につけます。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: '道を聞く基本表現',
+            },
+            {
+              type: 'text',
+              content: '**道を聞く（丁寧）**\n- "Excuse me, where is the station?" - すみません、駅はどこですか？\n- "Can you tell me how to get to the airport?" - 空港への行き方を教えていただけますか？\n- "Is there a cafe near here?" - このあたりにカフェはありますか？\n\n**方向を示す**\n- Go straight. - まっすぐ行ってください\n- Turn left. - 左に曲がってください\n- Turn right. - 右に曲がってください\n- It\'s on the right. - 右側にあります\n- It\'s across the street. - 通りの向こう側です\n\n**距離・時間を示す**\n- It\'s about 5 minutes away. - 約5分くらい先です\n- It\'s 100 meters down this road. - この道を100メートル下ったところです\n- It\'s just around the corner. - すぐ角を曲がったところです',
+            },
+            {
+              type: 'highlight-box',
+              title: '実践会話：道を聞く',
+              content: '**A (迷った人)：**"Excuse me, I\'m looking for the museum. Do you know where it is?"\n**B (地元の人)：**"Yes, of course! Go straight ahead for two blocks, then turn left. You can\'t miss it."\n**A：**"Turn left after two blocks?"\n**B：**"Right. And it\'s on your left side. You\'ll see a big sign."\n**A：**"Thank you so much!"\n**B：**"You\'re welcome!"',
             },
           ],
         },
@@ -410,16 +426,31 @@ export const englishAcademyCategory: Category = {
           title: 'プレゼンテーションの構成と表現',
           duration: '9:00',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
             'プレゼンの導入が自然にできる',
             'ポイントを効果的に説明できる',
             '質問に対応できる',
+            '説得力のあるデータ解釈ができる',
           ],
           sections: [
             {
               type: 'info-box',
               content: 'グローバル企業では英語プレゼンが避けられません。論理的で説得力のあるプレゼンの極意を学びます。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: 'プレゼン3部構成',
+            },
+            {
+              type: 'text',
+              content: '**導入（Introduction）**\n- "Good morning, everyone. Today I\'d like to talk about..." - おはようございます。今日は...についてお話ししたいと思います\n- "This presentation will take about 15 minutes." - このプレゼンは約15分かかります\n- "Feel free to ask questions at the end." - 最後に質問をどうぞ\n\n**本論（Body）**\n- "First, let me explain the background." - まず、背景を説明させてください\n- "As you can see in this chart..." - このチャートからわかるように...\n- "The key point here is..." - ここで重要なのは...\n- "Moving on to the next slide..." - 次のスライドに進みます\n\n**結論（Conclusion）**\n- "To summarize the main points..." - 主な点をまとめると...\n- "In conclusion, we should..." - 結論として、我々は...すべきです\n- "Thank you for your attention." - ご聴取ありがとうございました',
+            },
+            {
+              type: 'highlight-box',
+              title: 'データ解釈の表現',
+              content: '- "This shows a significant increase." - これは大きな増加を示しています\n- "Sales have declined by 20%." - 売上は20%減少しました\n- "The trend is upward/downward." - トレンドは上昇/下降しています\n- "This is consistent with our predictions." - これは我々の予測と一致しています',
             },
           ],
         },
@@ -428,16 +459,32 @@ export const englishAcademyCategory: Category = {
           title: '交渉・営業での英語',
           duration: '8:30',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
             'offer と demand の違いが分かる',
             '交渉の流れを理解できる',
             '営業トークができる',
+            '価格交渉ができる',
+            '相手の異議に対応できる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: 'ビジネスの最前線で必要な交渉英語を習得します。',
+              content: 'ビジネスの最前線で必要な交渉英語を習得します。価格から条件まで、柔軟に交渉できるスキルは高給職の必須条件。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: '交渉の基本パターン',
+            },
+            {
+              type: 'text',
+              content: '**オファー（提案）**\n- "We\'re offering a 10% discount." - 10%割引を提供しています\n- "Our best price is $5,000." - 当社の最低価格は5,000ドルです\n- "We can offer flexible payment terms." - 柔軟な支払い条件を提供できます\n\n**デマンド（要求）**\n- "We need a 20% discount." - 20%割引が必要です\n- "Can you deliver by next month?" - 来月までに配達できますか？\n- "We require a warranty." - 保証が必要です\n\n**妥協提案**\n- "What if we meet in the middle?" - 中間地点で合意できますか？\n- "Would you accept 15% instead?" - 代わりに15%はいかがですか？\n- "Let\'s find a win-win solution." - ウィン・ウィンの解決策を見つけましょう\n\n**異議対応**\n- "I understand your concern, but..." - ご懸念はわかりますが...\n- "That\'s not feasible because..." - それは実現不可能です。なぜなら...\n- "Let me show you the benefits..." - メリットをお見せします',
+            },
+            {
+              type: 'highlight-box',
+              title: '実践：価格交渉',
+              content: '**営業：**"Our product costs $10,000."\n**買い手：**"That\'s too expensive. Can you go lower?"\n**営業：**"We can offer $9,000 with a bulk discount."\n**買い手：**"I need at least 20% off. Can you do $8,000?"\n**営業：**"$8,500 is our absolute lowest. Can we agree on that?"\n**買い手：**"Plus free shipping and a 2-year warranty?"\n**営業：**"You\'ve got a deal!"',
             },
           ],
         },
