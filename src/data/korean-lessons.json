@@ -1,0 +1,703 @@
+{
+  "language": "korean",
+  "name": "韓国語",
+  "icon": "/images/genres/genre-korean.png",
+  "description": "標準韓国語（標準語）の講義コース。初級から中上級まで段階的に学習できます。",
+  "lessons": [
+    {
+      "id": "ko-007",
+      "level": 2,
+      "title": "旅行会話 - ホテル予約",
+      "titleKo": "여행 회화 - 호텔 예약",
+      "objectives": [
+        "ホテル予約の基本表現を習得する",
+        "部屋のタイプや設備について質問できる",
+        "チェックイン・チェックアウトについて説明できる"
+      ],
+      "content": {
+        "introduction": "韓国への旅行時に必要なホテル予約の会話を学びます。宿泊施設に関する語彙と表現を習得することで、快適な旅行ができます。",
+        "sections": [
+          {
+            "title": "ホテル予約の基本表現",
+            "phrases": [
+              {
+                "korean": "숙소를 예약하고 싶습니다.",
+                "romaji": "Suksso-reul yeyak-hago sip-seubnida.",
+                "japanese": "宿泊施設を予約したいです。",
+                "usage": "予約の意思を伝える"
+              },
+              {
+                "korean": "몇 박이 필요하신가요?",
+                "romaji": "Myeot bagi pil-yo-ha-sin-ga-yo?",
+                "japanese": "何泊ですか？",
+                "usage": "宿泊日数を尋ねる"
+              },
+              {
+                "korean": "싱글 룸 있나요?",
+                "romaji": "Singgeul rum it-na-yo?",
+                "japanese": "シングルルームはありますか？",
+                "usage": "部屋のタイプを尋ねる"
+              },
+              {
+                "korean": "더블 룸으로 주세요.",
+                "romaji": "Deobul rum-eu-ro ju-se-yo.",
+                "japanese": "ダブルルームでお願いします。",
+                "usage": "部屋のタイプをリクエストする"
+              },
+              {
+                "korean": "아침 식사가 포함되어 있나요?",
+                "romaji": "Achim siksaga poham-doe-eo it-na-yo?",
+                "japanese": "朝食は含まれていますか？",
+                "usage": "朝食の有無を確認"
+              },
+              {
+                "korean": "와이파이가 있나요?",
+                "romaji": "Wai-pa-i-ga it-na-yo?",
+                "japanese": "WiFiはありますか？",
+                "usage": "施設の確認"
+              }
+            ]
+          },
+          {
+            "title": "チェックイン・チェックアウト",
+            "phrases": [
+              {
+                "korean": "체크인 시간이 몇 시예요?",
+                "romaji": "Chekeu-in sigan-i myeot si-ye-yo?",
+                "japanese": "チェックインは何時ですか？",
+                "usage": "チェックイン時間を尋ねる"
+              },
+              {
+                "korean": "체크아웃 시간이 언제예요?",
+                "romaji": "Chekeu-a-ut sigan-i eonje-ye-yo?",
+                "japanese": "チェックアウトは何時ですか？",
+                "usage": "チェックアウト時間を尋ねる"
+              },
+              {
+                "korean": "이 열쇠는 몇 번 방입니까?",
+                "romaji": "I yeolswae-neun myeot beon bang-im-ni-kka?",
+                "japanese": "このカギは何号室ですか？",
+                "usage": "部屋番号を確認"
+              },
+              {
+                "korean": "늦은 체크아웃이 가능한가요?",
+                "romaji": "Neujeun chekeu-a-ut-i ga-neung-han-ga-yo?",
+                "japanese": "遅いチェックアウトは可能ですか？",
+                "usage": "チェックアウト延長をリクエスト"
+              }
+            ]
+          },
+          {
+            "title": "部屋の設備・サービス",
+            "items": [
+              {"korean": "침대", "japanese": "ベッド"},
+              {"korean": "욕실", "japanese": "バスルーム"},
+              {"korean": "에어컨", "japanese": "エアコン"},
+              {"korean": "난방", "japanese": "暖房"},
+              {"korean": "TV", "japanese": "テレビ"},
+              {"korean": "냉장고", "japanese": "冷蔵庫"},
+              {"korean": "책상", "japanese": "机"},
+              {"korean": "의자", "japanese": "椅子"}
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-007-q1",
+          "type": "fill-blank",
+          "question": "「宿泊施設を予約したいです」を韓国語で言ってください。",
+          "hint": "「숙소를」で始まります",
+          "answer": "숙소를 예약하고 싶습니다."
+        },
+        {
+          "id": "ko-007-q2",
+          "type": "multiple-choice",
+          "question": "「싱글 룸」という表現の意味として正しいのはどれですか？",
+          "options": [
+            "シングルルーム",
+            "ツインルーム",
+            "スイートルーム",
+            "ファミリールーム"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": []
+    },
+    {
+      "id": "ko-008",
+      "level": 2,
+      "title": "日常会話 - レストラン",
+      "titleKo": "일상 회화 - 레스토랑",
+      "objectives": [
+        "レストランでの基本会話ができる",
+        "メニューについて質問できる",
+        "注文や支払いについて対応できる"
+      ],
+      "content": {
+        "introduction": "韓国のレストランでの会話は旅行や日常生活で頻繁に必要です。食事に関する語彙と会話表現を学びます。",
+        "sections": [
+          {
+            "title": "レストラン入店・席選び",
+            "phrases": [
+              {
+                "korean": "몇 명이세요?",
+                "romaji": "Myeot myeong-i-se-yo?",
+                "japanese": "何名ですか？",
+                "usage": "人数を尋ねる"
+              },
+              {
+                "korean": "2명입니다.",
+                "romaji": "I myeong-im-ni-da.",
+                "japanese": "2名です。",
+                "usage": "人数を答える"
+              },
+              {
+                "korean": "창가 자리 있나요?",
+                "romaji": "Changga jari it-na-yo?",
+                "japanese": "窓際の席はありますか？",
+                "usage": "席をリクエスト"
+              },
+              {
+                "korean": "예약이 있습니다.",
+                "romaji": "Yeyak-i it-seubnida.",
+                "japanese": "予約があります。",
+                "usage": "予約の確認"
+              }
+            ]
+          },
+          {
+            "title": "メニュー・注文",
+            "phrases": [
+              {
+                "korean": "메뉴를 주세요.",
+                "romaji": "Menuyu-reul ju-se-yo.",
+                "japanese": "メニューをください。",
+                "usage": "メニューをリクエスト"
+              },
+              {
+                "korean": "이것이 뭐예요?",
+                "romaji": "I-geot-i mwo-ye-yo?",
+                "japanese": "これは何ですか？",
+                "usage": "料理について質問"
+              },
+              {
+                "korean": "맵지 않은 음식 있나요?",
+                "romaji": "Maep-ji an-eun eumsik it-na-yo?",
+                "japanese": "辛くない食べ物はありますか？",
+                "usage": "辛さについて確認"
+              },
+              {
+                "korean": "이것으로 주세요.",
+                "romaji": "I-geot-eu-ro ju-se-yo.",
+                "japanese": "これをください。",
+                "usage": "注文する"
+              },
+              {
+                "korean": "물을 한 잔 주세요.",
+                "romaji": "Mul-eul han jan ju-se-yo.",
+                "japanese": "水を1杯ください。",
+                "usage": "飲み物をリクエスト"
+              }
+            ]
+          },
+          {
+            "title": "支払い・会計",
+            "phrases": [
+              {
+                "korean": "계산서를 주세요.",
+                "romaji": "Gyesan-seo-reul ju-se-yo.",
+                "japanese": "お会計をお願いします。",
+                "usage": "会計をリクエスト"
+              },
+              {
+                "korean": "신용카드 가능한가요?",
+                "romaji": "Sinyong-kadeu ga-neung-han-ga-yo?",
+                "japanese": "クレジットカードは使えますか？",
+                "usage": "支払方法を尋ねる"
+              },
+              {
+                "korean": "맛있게 드세요.",
+                "romaji": "Mas-it-ge deu-se-yo.",
+                "japanese": "おいしくお召し上がりください。",
+                "usage": "店員の言葉"
+              },
+              {
+                "korean": "맛있었습니다.",
+                "romaji": "Mas-it-eot-seubnida.",
+                "japanese": "おいしかったです。",
+                "usage": "料理への感謝"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-008-q1",
+          "type": "fill-blank",
+          "question": "「メニューをください」を韓国語で言ってください。",
+          "answer": "메뉴를 주세요."
+        },
+        {
+          "id": "ko-008-q2",
+          "type": "multiple-choice",
+          "question": "「맛있었습니다」という表現の意味として正しいのはどれですか？",
+          "options": [
+            "おいしかったです",
+            "おいしいです",
+            "おいしくしてください",
+            "おいしいところはどこですか"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": []
+    },
+    {
+      "id": "ko-009",
+      "level": 2,
+      "title": "交通・移動",
+      "titleKo": "교통 - 이동",
+      "objectives": [
+        "タクシー・バスの乗降表現を習得する",
+        "目的地への道を尋ねられる",
+        "乗車券の購入ができる"
+      ],
+      "content": {
+        "introduction": "韓国での移動に必要な会話表現を学びます。タクシーやバス、地下鉄などの交通機関を利用する際に役立ちます。",
+        "sections": [
+          {
+            "title": "タクシー利用",
+            "phrases": [
+              {
+                "korean": "택시를 불러주세요.",
+                "romaji": "Taeksi-reul bul-leo-ju-se-yo.",
+                "japanese": "タクシーを呼んでください。",
+                "usage": "タクシー配車"
+              },
+              {
+                "korean": "미터기를 켜주세요.",
+                "romaji": "Mi-teo-gi-reul kyeo-ju-se-yo.",
+                "japanese": "メーターをつけてください。",
+                "usage": "メーター使用をリクエスト"
+              },
+              {
+                "korean": "명동으로 가주세요.",
+                "romaji": "Myeongdong-eu-ro ga-ju-se-yo.",
+                "japanese": "明洞に行ってください。",
+                "usage": "目的地を指定"
+              },
+              {
+                "korean": "여기서 세워주세요.",
+                "romaji": "Yeogi-seo se-wo-ju-se-yo.",
+                "japanese": "ここで止めてください。",
+                "usage": "降車地点を指定"
+              },
+              {
+                "korean": "얼마예요?",
+                "romaji": "Eol-ma-ye-yo?",
+                "japanese": "いくらですか？",
+                "usage": "料金を確認"
+              }
+            ]
+          },
+          {
+            "title": "バス利用",
+            "phrases": [
+              {
+                "korean": "버스 정류장이 어디에요?",
+                "romaji": "Beoseu jeongryuusang-i eodi-e-yo?",
+                "japanese": "バス停はどこですか？",
+                "usage": "バス停を探す"
+              },
+              {
+                "korean": "몇 번 버스를 타야 돼요?",
+                "romaji": "Myeot beon beoseu-reul ta-ya doe-yo?",
+                "japanese": "何番のバスに乗ればいいですか？",
+                "usage": "バス番号を尋ねる"
+              },
+              {
+                "korean": "편도 표 한 장 주세요.",
+                "romaji": "Pyeondo pyo han jang ju-se-yo.",
+                "japanese": "片道切符を1枚ください。",
+                "usage": "乗車券購入"
+              },
+              {
+                "korean": "왕복 표 두 장 주세요.",
+                "romaji": "Wangbok pyo du jang ju-se-yo.",
+                "japanese": "往復切符を2枚ください。",
+                "usage": "往復切符購入"
+              }
+            ]
+          },
+          {
+            "title": "地下鉄利用",
+            "phrases": [
+              {
+                "korean": "지하철역이 어디에요?",
+                "romaji": "Jihacheol-yeog-i eodi-e-yo?",
+                "japanese": "地下鉄駅はどこですか？",
+                "usage": "駅を探す"
+              },
+              {
+                "korean": "명동역으로 어떻게 가요?",
+                "romaji": "Myeongdong-yeog-eu-ro eotteoke ga-yo?",
+                "japanese": "明洞駅へはどう行きますか？",
+                "usage": "経路を尋ねる"
+              },
+              {
+                "korean": "카드로 충전하고 싶습니다.",
+                "romaji": "Kadeu-ro chung-jeon-ha-go sip-seubnida.",
+                "japanese": "カードをチャージしたいです。",
+                "usage": "カード購入・チャージ"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-009-q1",
+          "type": "fill-blank",
+          "question": "「ここで止めてください」を韓国語で言ってください。",
+          "answer": "여기서 세워주세요."
+        }
+      ],
+      "resources": []
+    },
+    {
+      "id": "ko-010",
+      "level": 3,
+      "title": "中級 - 買い物・商品説明",
+      "titleKo": "중급 - 쇼핑",
+      "objectives": [
+        "衣類や商品について詳しく質問できる",
+        "サイズや色について正確に伝えられる",
+        "値引き交渉ができる"
+      ],
+      "content": {
+        "introduction": "韓国での買い物や市場での交渉は文化体験の一つです。商品選びと値引き交渉の表現を学びます。",
+        "sections": [
+          {
+            "title": "商品選び",
+            "phrases": [
+              {
+                "korean": "다른 사이즈 있나요?",
+                "romaji": "Dareun saijeu it-na-yo?",
+                "japanese": "別のサイズはありますか？",
+                "usage": "サイズの確認"
+              },
+              {
+                "korean": "이 색상은 어떤가요?",
+                "romaji": "I saegsang-eun eotteun-ga-yo?",
+                "japanese": "この色はいかがですか？",
+                "usage": "色についての意見"
+              },
+              {
+                "korean": "소재가 무엇이에요?",
+                "romaji": "Sojae-ga mueot-i-e-yo?",
+                "japanese": "素材は何ですか？",
+                "usage": "素材を質問"
+              },
+              {
+                "korean": "품질이 좋은가요?",
+                "romaji": "Pum-jil-i joh-eun-ga-yo?",
+                "japanese": "品質はいいですか？",
+                "usage": "品質確認"
+              }
+            ]
+          },
+          {
+            "title": "値引き交渉",
+            "phrases": [
+              {
+                "korean": "할인해 주실래요?",
+                "romaji": "Hal-in-hae ju-sil-lae-yo?",
+                "japanese": "割引してくれませんか？",
+                "usage": "割引をリクエスト"
+              },
+              {
+                "korean": "얼마까지 깎아줄 수 있나요?",
+                "romaji": "Eol-ma-kka-ji kka-a-jul su it-na-yo?",
+                "japanese": "どこまで値引きできますか？",
+                "usage": "値引き幅を確認"
+              },
+              {
+                "korean": "여러 개 사면 싸져요?",
+                "romaji": "Yeoreo gae sa-myeon ssa-jyeo-yo?",
+                "japanese": "複数個買うと安くなりますか？",
+                "usage": "まとめ買い割引"
+              },
+              {
+                "korean": "최대 얼마까지 내릴 수 있어요?",
+                "romaji": "Choe-dae eol-ma-kka-ji nae-ril su it-eo-yo?",
+                "japanese": "最大いくら下げられますか？",
+                "usage": "最大値引き確認"
+              }
+            ]
+          },
+          {
+            "title": "試着・返品",
+            "phrases": [
+              {
+                "korean": "한번 입어봐도 되나요?",
+                "romaji": "Han-beon ib-eo-bwa-do doe-na-yo?",
+                "japanese": "試着してもいいですか？",
+                "usage": "試着をリクエスト"
+              },
+              {
+                "korean": "탈의실이 어디에요?",
+                "romaji": "Tal-ui-sil-i eodi-e-yo?",
+                "japanese": "試着室はどこですか？",
+                "usage": "試着室の場所確認"
+              },
+              {
+                "korean": "환불 가능한가요?",
+                "romaji": "Hwan-bul ga-neung-han-ga-yo?",
+                "japanese": "返品・返金はできますか？",
+                "usage": "返品ポリシー確認"
+              },
+              {
+                "korean": "환불 기간이 얼마나 돼요?",
+                "romaji": "Hwan-bul gi-gan-i eol-ma-na doe-yo?",
+                "japanese": "返品期間はどのくらいですか？",
+                "usage": "返品期間確認"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-010-q1",
+          "type": "fill-blank",
+          "question": "「割引してくれませんか？」を韓国語で言ってください。",
+          "answer": "할인해 주실래요?"
+        }
+      ],
+      "resources": []
+    },
+    {
+      "id": "ko-011",
+      "level": 3,
+      "title": "中級 - 病院・医療",
+      "titleKo": "중급 - 병원",
+      "objectives": [
+        "医者と患者の会話ができる",
+        "症状を正確に説明できる",
+        "処方箋や医療用語が理解できる"
+      ],
+      "content": {
+        "introduction": "韓国で病気やけがをした際に必要な表現です。医療施設での会話と医療用語を学びます。",
+        "sections": [
+          {
+            "title": "病院での基本会話",
+            "phrases": [
+              {
+                "korean": "어디가 아파요?",
+                "romaji": "Eodi-ga a-pa-yo?",
+                "japanese": "どこが痛いですか？",
+                "usage": "症状を尋ねる"
+              },
+              {
+                "korean": "머리가 아파요.",
+                "romaji": "Meori-ga a-pa-yo.",
+                "japanese": "頭が痛いです。",
+                "usage": "症状を伝える"
+              },
+              {
+                "korean": "감기 같아요.",
+                "romaji": "Gamgi gat-a-yo.",
+                "japanese": "風邪のようです。",
+                "usage": "症状の自己診断"
+              },
+              {
+                "korean": "약을 처방해 주세요.",
+                "romaji": "Yak-eul cheobang-hae ju-se-yo.",
+                "japanese": "薬を処方してください。",
+                "usage": "処方箋をリクエスト"
+              },
+              {
+                "korean": "병원비가 얼마예요?",
+                "romaji": "Byeongwon-bi-ga eol-ma-ye-yo?",
+                "japanese": "診療費はいくらですか？",
+                "usage": "診察料を確認"
+              }
+            ]
+          },
+          {
+            "title": "症状表現",
+            "items": [
+              {"korean": "열이 있어요", "japanese": "熱があります"},
+              {"korean": "기침해요", "japanese": "咳をします"},
+              {"korean": "콧물이 나와요", "japanese": "鼻水が出ます"},
+              {"korean": "목이 아파요", "japanese": "喉が痛いです"},
+              {"korean": "배가 아파요", "japanese": "お腹が痛いです"},
+              {"korean": "어지러워요", "japanese": "めまいがします"},
+              {"korean": "피곤해요", "japanese": "疲れています"},
+              {"korean": "설사해요", "japanese": "下痢をしています"}
+            ]
+          },
+          {
+            "title": "医療用語",
+            "phrases": [
+              {
+                "korean": "처방전",
+                "romaji": "Cheobang-jeon",
+                "japanese": "処方箋",
+                "usage": "医療用語"
+              },
+              {
+                "korean": "약사",
+                "romaji": "Yaksa",
+                "japanese": "薬剤師",
+                "usage": "医療職"
+              },
+              {
+                "korean": "진료",
+                "romaji": "Jinryo",
+                "japanese": "診療",
+                "usage": "医療サービス"
+              },
+              {
+                "korean": "예약",
+                "romaji": "Yeyak",
+                "japanese": "予約",
+                "usage": "医療予約"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-011-q1",
+          "type": "fill-blank",
+          "question": "「頭が痛いです」を韓国語で言ってください。",
+          "answer": "머리가 아파요."
+        }
+      ],
+      "resources": []
+    },
+    {
+      "id": "ko-012",
+      "level": 3,
+      "title": "中級 - 電話・オンライン会話",
+      "titleKo": "중급 - 전화 회화",
+      "objectives": [
+        "電話での基本的なやり取りができる",
+        "メッセージやチャットで意思疎通できる",
+        "敬語と平語を適切に使い分けられる"
+      ],
+      "content": {
+        "introduction": "電話やオンラインでのコミュニケーションは日常的に必要です。敬語を中心とした丁寧な表現を学びます。",
+        "sections": [
+          {
+            "title": "電話の基本",
+            "phrases": [
+              {
+                "korean": "여보세요.",
+                "romaji": "Yeoboseyo.",
+                "japanese": "もしもし。",
+                "usage": "電話での挨拶"
+              },
+              {
+                "korean": "누구세요?",
+                "romaji": "Nugusseyo?",
+                "japanese": "どちらですか？",
+                "usage": "相手を確認"
+              },
+              {
+                "korean": "저는 김철수입니다.",
+                "romaji": "Jeoneun Kim Chul-su-ibnida.",
+                "japanese": "私は金チョルス です。",
+                "usage": "自己紹介"
+              },
+              {
+                "korean": "잠깐만 기다려주세요.",
+                "romaji": "Jamkkan-man gida-ryeo-ju-se-yo.",
+                "japanese": "ちょっと待ってください。",
+                "usage": "相手を待たせる"
+              },
+              {
+                "korean": "전화 받을 수 없어요. 나중에 다시 걸 게요.",
+                "romaji": "Jeonhwa bad-eul su eop-seo-yo. Najung-e dasi geol ge-yo.",
+                "japanese": "電話に出られません。後でかけ直します。",
+                "usage": "電話を受けられない場合"
+              }
+            ]
+          },
+          {
+            "title": "メッセージ会話",
+            "phrases": [
+              {
+                "korean": "문자 보내도 되나요?",
+                "romaji": "Munja bonae-do doe-na-yo?",
+                "japanese": "メッセージ送ってもいいですか？",
+                "usage": "許可を得る"
+              },
+              {
+                "korean": "카톡 아이디 알려 줄래요?",
+                "romaji": "Katalk ai-di al-lyeo jul-lae-yo?",
+                "japanese": "カカオトークのID教えてくれますか？",
+                "usage": "連絡先交換"
+              },
+              {
+                "korean": "메일로 보내 주세요.",
+                "romaji": "Meil-ro bonae ju-se-yo.",
+                "japanese": "メールで送ってください。",
+                "usage": "連絡方法をリクエスト"
+              },
+              {
+                "korean": "답장 기다릴게요.",
+                "romaji": "Dapjang gida-ril-ge-yo.",
+                "japanese": "返信お待ちしています。",
+                "usage": "返信待つ"
+              }
+            ]
+          },
+          {
+            "title": "敬語表現",
+            "phrases": [
+              {
+                "korean": "안녕하세요.",
+                "romaji": "Annyeonghaseyo.",
+                "japanese": "こんにちは（敬語）",
+                "usage": "挨拶（フォーマル）"
+              },
+              {
+                "korean": "안녕해.",
+                "romaji": "Annyeonghae.",
+                "japanese": "やあ（タメ口）",
+                "usage": "挨拶（カジュアル）"
+              },
+              {
+                "korean": "감사합니다.",
+                "romaji": "Gamsahamnida.",
+                "japanese": "ありがとうございます（敬語）",
+                "usage": "感謝（フォーマル）"
+              },
+              {
+                "korean": "고마워.",
+                "romaji": "Gomawo.",
+                "japanese": "ありがとう（タメ口）",
+                "usage": "感謝（カジュアル）"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "ko-012-q1",
+          "type": "fill-blank",
+          "question": "「電話での挨拶『もしもし』」を韓国語で言ってください。",
+          "answer": "여보세요."
+        }
+      ],
+      "resources": []
+    }
+  ]
+}

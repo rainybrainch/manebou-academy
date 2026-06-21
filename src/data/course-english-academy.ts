@@ -193,16 +193,32 @@ export const englishAcademyCategory: Category = {
           title: '「How are you?」への答え方',
           duration: '6:45',
           videoId: '',
-          isPremium: false,
+          isPremium: true,
           checkItems: [
             '「How are you?」に自然に答えられる',
             '会話を続けるための返答ができる',
             '相手の状態を聞き出せる',
+            'フォーマル〜カジュアルの表現が区別できる',
+            '自然な会話の流れが作れる',
           ],
           sections: [
             {
               type: 'info-box',
-              content: '「I\'m fine, thank you」と答えるだけでは、会話は続きません。自然な返答方法を学びましょう。',
+              content: '「I\'m fine, thank you」と答えるだけでは、会話は続きません。自然な返答方法と、会話を広げるテクニックを学びましょう。',
+            },
+            {
+              type: 'heading',
+              level: 2,
+              content: '「How are you?」への自然な答え方',
+            },
+            {
+              type: 'text',
+              content: '**フォーマルな返答**\n- I\'m doing well, thank you. How about yourself?\n- Very good, thank you for asking. And you?\n\n**カジュアルな返答**\n- I\'m good, thanks!\n- Pretty well, thanks for asking.\n- Not bad, you know.\n- Can\'t complain!\n\n**会話を広げる返答**\n- I\'m doing great! Just finished a project. How are you?\n- I\'ve been pretty busy lately, but I\'m hanging in there. What about you?\n- I\'m excited! We\'re going on vacation next week. How\'ve you been?',
+            },
+            {
+              type: 'highlight-box',
+              title: 'ポイント：逆質問が重要',
+              content: '英語の会話では、相手に質問を返すことが会話を続けるカギです。\n"How are you?" → "I\'m good, thanks! How are you?" のように、必ず相手にも聞き返しましょう。',
             },
           ],
         },
