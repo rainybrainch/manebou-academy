@@ -5794,6 +5794,225 @@
           "content": "あなたが資産管理会社のポートフォリオマネージャーとします。中期（5年）と長期（10年）の投資目標、リスク許容度、市場環境を考慮して、株式・債券・不動産・ESG投資の最適な配分を設計します。定期的なリバランスの戦略、モニタリング指標、規制遵守とコンプライアンスの実装計画を詳細に述べてください。"
         }
       ]
+    },
+    {
+      "id": "de-026",
+      "level": 5,
+      "title": "教育・研究キャリア：大学教育・学問的リーダーシップ・国際研究協力",
+      "titleDe": "Bildungs- und Forschungskarriere: Universitätsbildung, akademische Führung und internationale Forschungskooperation",
+      "objectives": [
+        "ドイツの大学システムと学問体系を理解する",
+        "研究者・教授のキャリアパスと学問的要件を習得する",
+        "国際研究協力とアカデミックリーダーシップのスキルを身につける",
+        "学問の倫理と知識の社会への還元について習得する"
+      ],
+      "content": {
+        "introduction": "学問と研究は社会の基盤であり、知識の創造と人材育成を通じて文明の進歩を推進します。このレッスンでは、ドイツの大学制度（ハンボルト理念）、研究者のキャリアパス、博士号取得、国際研究ネットワーク、学問の倫理、および高等教育政策に関する高度なドイツ語を学びます。",
+        "sections": [
+          {
+            "title": "ドイツの大学システムと学問体系",
+            "phrases": [
+              {
+                "german": "Das deutsche Universitätssystem basiert auf der Humboldtschen Idee der Einheit von Forschung und Lehre, wonach Universitäten beide Funktionen gleichberechtigt verfolgen sollen.",
+                "romaji": "Das deutsche Universitätssystem basiert auf der Humboldtschen Idee der Einheit von Forschung und Lehre",
+                "japanese": "ドイツの大学制度はハンボルト理念に基づいており、研究と教育の統一を追求し、大学は両機能を等しく追求すべきとしています。",
+                "usage": "ドイツ高等教育の基本理念を説明するとき"
+              },
+              {
+                "german": "Ein deutscher Wissenschaftler durchläuft typically folgende Schritte: Diplom oder Bachelor (3-4 Jahre), Master (2 Jahre), Promotion (Doktorgrad, 3-5 Jahre), und Habilitation (3-5 Jahre) für eine Professur.",
+                "romaji": "Ein deutscher Wissenschaftler durchläuft typically folgende Schritte: Diplom oder Bachelor (3-4 Jahre), Master (2 Jahre), Promotion",
+                "japanese": "ドイツの研究者は通常、学部（3～4年）、修士（2年）、博士号（3～5年）、教授資格（3～5年）の段階を経ます。",
+                "usage": "学問的キャリアパスを説明するとき"
+              },
+              {
+                "german": "Deutsche Universitäten sind autonom und dezentralisiert, mit verschiedenen Finanzierungsmodellen und Spezialisierungen, die Forschungsfreiheit und akademische Exzellenz fördern.",
+                "romaji": "Deutsche Universitäten sind autonom und dezentralisiert, mit verschiedenen Finanzierungsmodellen und Spezialisierungen",
+                "japanese": "ドイツの大学は自律的で分散化されており、様々な資金調達モデルと専門分野があり、研究の自由と学問的卓越性を促進します。",
+                "usage": "ドイツ大学の特徴を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "研究とアカデミックリーダーシップ",
+            "phrases": [
+              {
+                "german": "Forschung ist das Herzstück der Universität, wobei Wissenschaftler durch empirische Untersuchungen, Experimente, und Theoriebildung neues Wissen schaffen und dieses durch Publikationen teilen.",
+                "romaji": "Forschung ist das Herzstück der Universität, wobei Wissenschaftler durch empirische Untersuchungen, Experimente, und Theoriebildung",
+                "japanese": "研究は大学の中核であり、研究者は経験的調査、実験、理論構築を通じて新しい知識を創造し、出版を通じてこれを共有します。",
+                "usage": "学問研究の本質を説明するとき"
+              },
+              {
+                "german": "Akademische Führung erfordert nicht nur wissenschaftliche Expertise, sondern auch Fähigkeiten in Mentorschaft, Teamleitung, Fundraising, und Kommunikation mit Stakeholdern wie Politik und Industrie.",
+                "romaji": "Akademische Führung erfordert nicht nur wissenschaftliche Expertise, sondern auch Fähigkeiten in Mentorschaft, Teamleitung, Fundraising",
+                "japanese": "学問的リーダーシップには科学的専門知識だけでなく、メンタリング、チーム指導、資金調達、政策立案者や産業との対話のスキルが必要です。",
+                "usage": "アカデミックリーダーシップの要件を説明するとき"
+              },
+              {
+                "german": "Peer Review und wissenschaftliche Integrität sind Grundprinzipien der akademischen Welt, wobei Forschungsergebnisse von Kollegen überprüft werden, um Qualität und Glaubwürdigkeit sicherzustellen.",
+                "romaji": "Peer Review und wissenschaftliche Integrität sind Grundprinzipien der akademischen Welt",
+                "japanese": "ピアレビューと科学的誠実性は学問の基本原則であり、研究成果は同僚によって検証され、品質と信頼性が確保されます。",
+                "usage": "学問的品質管理を説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "国際研究協力と学際的連携",
+            "phrases": [
+              {
+                "german": "Internationale Forschungsnetzwerke verbinden Wissenschaftler weltweit, ermöglichen Wissensaustausch, gemeinsame Projekte, und führen zu bahnbrechenden Durchbrüchen, die globale Herausforderungen adressieren.",
+                "romaji": "Internationale Forschungsnetzwerke verbinden Wissenschaftler weltweit, ermöglichen Wissensaustausch, gemeinsame Projekte",
+                "japanese": "国際研究ネットワークは世界の研究者を結び、知識交換、共同プロジェクト、グローバルな課題に対応する革新的なブレークスルーを実現します。",
+                "usage": "国際研究協力の価値を説明するとき"
+              },
+              {
+                "german": "Interdisziplinäre Forschung kombiniert Perspektiven aus verschiedenen Fächern (Naturwissenschaften, Geisteswissenschaften, Sozialwissenschaften), um komplexe Probleme aus multiplen Blickwinkeln zu lösen.",
+                "romaji": "Interdisziplinäre Forschung kombiniert Perspektiven aus verschiedenen Fächern (Naturwissenschaften, Geisteswissenschaften, Sozialwissenschaften)",
+                "japanese": "学際的研究は異なる分野（自然科学、人文科学、社会科学）の視点を結合し、複雑な問題を多角的に解決します。",
+                "usage": "学際的研究の重要性を説明するとき"
+              },
+              {
+                "german": "Open Science und Open Access Bewegungen fördern die Transparenz und Zugänglichkeit von Forschungsergebnissen, was wissenschaftlichen Fortschritt beschleunigt und die Reproduzierbarkeit verbessert.",
+                "romaji": "Open Science und Open Access Bewegungen fördern die Transparenz und Zugänglichkeit von Forschungsergebnissen",
+                "japanese": "オープンサイエンスとオープンアクセス運動は研究成果の透明性とアクセス性を促進し、科学的進歩を加速させ、再現性を向上させます。",
+                "usage": "現代の学問的トレンドを説明するとき"
+              }
+            ]
+          },
+          {
+            "title": "学問の倫理と社会への知識還元",
+            "phrases": [
+              {
+                "german": "Forschungsethik schließt Integrität, Transparenz, Datenschutz, Tierschutz, und die Vermeidung von Interessenskonflikten ein, um sicherzustellen, dass Forschung ethisch und verantwortungsvoll durchgeführt wird.",
+                "romaji": "Forschungsethik schließt Integrität, Transparenz, Datenschutz, Tierschutz, und die Vermeidung von Interessenskonflikten ein",
+                "japanese": "研究倫理は誠実性、透明性、データ保護、動物保護、利益相反回避を含み、研究が倫理的かつ責任を持って実施されることを保証します。",
+                "usage": "研究倫理の基本要素を説明するとき"
+              },
+              {
+                "german": "Die Vermittlung von Forschungsergebnissen an die Öffentlichkeit (Science Communication) ist eine wichtige Aufgabe von Wissenschaftlern, um gesellschaftliche Verständigung und evidenzbasierte Politikgestaltung zu fördern.",
+                "romaji": "Die Vermittlung von Forschungsergebnissen an die Öffentlichkeit (Science Communication) ist eine wichtige Aufgabe von Wissenschaftlern",
+                "japanese": "研究成果を公衆に伝える科学コミュニケーションは研究者の重要な責務であり、社会的理解と根拠に基づいた政策形成を促進します。",
+                "usage": "知識の社会への還元を説明するとき"
+              },
+              {
+                "german": "Universitäten tragen Verantwortung für die Ausbildung der nächsten Generation von Führungskräften und für die Lösung gesellschaftlicher Probleme durch Forschung, Innovation, und Wissensaustausch.",
+                "romaji": "Universitäten tragen Verantwortung für die Ausbildung der nächsten Generation von Führungskräften",
+                "japanese": "大学は次世代のリーダー育成と社会問題の解決について責任を持ち、研究、イノベーション、知識交換を通じてこれを実現します。",
+                "usage": "大学の社会的責任を説明するとき"
+              }
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-026-q1",
+          "type": "fill-blank",
+          "question": "「ドイツの大学はハンボルト理念に基づいており、研究と教育を等しく追求します」をドイツ語で言ってください。",
+          "answer": "Das deutsche Universitätssystem basiert auf der Humboldtschen Idee und verfolgt Forschung und Lehre gleichberechtigt."
+        },
+        {
+          "id": "de-026-q2",
+          "type": "multiple-choice",
+          "question": "ドイツの研究者のキャリアパスは？",
+          "options": [
+            "学部 + 修士 + 博士号 + 教授資格の段階",
+            "学部教育のみで十分",
+            "修士号で十分",
+            "資格なしで研究職可能"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-026-q3",
+          "type": "fill-blank",
+          "question": "「研究は新しい知識を創造し、出版を通じて共有します」をドイツ語で言ってください。",
+          "answer": "Forschung schafft neues Wissen und teilt dieses durch Publikationen."
+        },
+        {
+          "id": "de-026-q4",
+          "type": "multiple-choice",
+          "question": "学問的リーダーシップに必要な能力は？",
+          "options": [
+            "専門知識、メンタリング、資金調達、利害関係者との対話",
+            "専門知識のみ",
+            "資金調達だけ",
+            "対話なしで可能"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-026-q5",
+          "type": "fill-blank",
+          "question": "「国際研究ネットワークは知識交換と共同プロジェクトを実現します」をドイツ語で言ってください。",
+          "answer": "Internationale Forschungsnetzwerke ermöglichen Wissensaustausch und gemeinsame Projekte."
+        },
+        {
+          "id": "de-026-q6",
+          "type": "matching",
+          "question": "学問的概念と説明を正しく組み合わせてください。",
+          "pairs": [
+            {"concept": "Peer Review", "explanation": "同僚による検証"},
+            {"concept": "Interdisziplinär", "description": "学際的アプローチ"},
+            {"concept": "Open Science", "explanation": "透明性と共有"}
+          ]
+        },
+        {
+          "id": "de-026-q7",
+          "type": "fill-blank",
+          "question": "「研究倫理は誠実性と透明性を含みます」をドイツ語で言ってください。",
+          "answer": "Forschungsethik schließt Integrität und Transparenz ein."
+        },
+        {
+          "id": "de-026-q8",
+          "type": "multiple-choice",
+          "question": "科学コミュニケーションの主な目的は？",
+          "options": [
+            "社会的理解と根拠に基づいた政策形成の促進",
+            "専門家のみへの情報開示",
+            "研究成果の非公開",
+            "一般公衆への情報隠蔽"
+          ],
+          "answer": 0
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツの大学システムと研究キャリア：ハンボルト理念・博士号・国際研究協力",
+          "duration": "29分",
+          "description": "ドイツの大学の自律性と研究の自由。学位制度（学部・修士・博士）。教授資格（Habilitation）の意味。Max Planck研究機構とFraunhofer応用研究機構。EU研究枠組み計画。"
+        },
+        {
+          "type": "grammar",
+          "title": "学問用語と研究・教育コミュニケーション表現",
+          "content": "学問複合名詞：Forschung（研究）、Lehre（教育）、Publikation（出版）、Peer Review（ピアレビュー）、Promotion（博士号取得）。研究活動表現：durchführen（実施する）、analysieren（分析する）、veröffentlichen（公開する）、überprüfen（検証する）。学問倫理用語：Integrität（誠実性）、Transparenz（透明性）、Reproduzierbarkeit（再現性）。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツの高等教育機関と研究ネットワーク",
+          "content": "大学（Universität）：研究と教育の中心。応用科学大学（Fachhochschule）：実務重視。Max Planck研究機構：基礎研究の最前線。Fraunhofer協会：応用研究と産業連携。ドイツ学術交流機構（DAAD）：国際学術交流。"
+        },
+        {
+          "type": "note",
+          "title": "ハンボルト理念と現代的課題",
+          "content": "研究と教育の統一：学問の自由と責任。大学の自律性と公的責任のバランス。デジタル化と教育革新。グローバル化による国際化。資金調達と研究の質の維持。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツと韓国の大学システムの比較",
+          "content": "ドイツ：ハンボルト理念、基礎研究重視、自律性と研究の自由。韓国：実利重視、急速な高等教育拡大、国際競争力重視。両国とも国際研究協力に積極的。"
+        },
+        {
+          "type": "note",
+          "title": "研究倫理と学問的誠実性",
+          "content": "データ管理と再現性：研究の質を支える基盤。利益相反の回避：客観性の維持。動物実験・人間主体研究の倫理：生命倫理委員会による審査。研究不正への対処：撤回と説明責任。"
+        },
+        {
+          "type": "practice",
+          "title": "研究プロジェクトの設計と国際協力計画",
+          "content": "あなたが大学の研究グループのリーダーとします。3～5年の研究テーマを設定し、研究質問、仮説、方法論、期待される成果を定義します。国際的なパートナー機関との協力体制、学際的な専門家の組成、資金調達戦略、成果の社会への還元方法を含めた包括的な研究計画を立案してください。"
+        }
+      ]
     }
   ]
 }
