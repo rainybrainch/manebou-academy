@@ -838,3 +838,6 @@ export const englishAcademyCategory: Category = {
         },
       ],
     },
+  ];
+
+  export default courseEnglishAcademy;
