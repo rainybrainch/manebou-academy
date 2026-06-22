@@ -179,7 +179,12 @@ function buildLessonText(lesson: Lesson, courseTitle: string, chapterTitle: stri
         lines.push(''); break;
       case 'highlight-box':
         lines.push(`【${section.title}】`);
-        section.items.forEach(item => lines.push(`• ${stripBold(item)}`));
+        if (section.items) {
+          section.items.forEach(item => lines.push(`• ${stripBold(item)}`));
+        }
+        if (section.content) {
+          lines.push(stripBold(section.content));
+        }
         lines.push(''); break;
       case 'info-box': lines.push(stripBold(section.content), ''); break;
       case 'practice':
@@ -454,14 +459,21 @@ function SectionRenderer({ section }: { section: LessonSection }) {
             <span className="text-sm font-bold" style={{ color: 'var(--mb-gold)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>{section.title}</span>
           </div>
           <div className="p-4 bg-white">
-            <ul className="space-y-2">
-              {section.items.map((item, i) => (
-                <li key={i} className="flex items-start gap-2.5 text-sm" style={{ color: 'rgba(26,26,46,0.8)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-                  <span className="mt-[5px] w-1.5 h-1.5 rounded-full shrink-0" style={{ background: 'var(--mb-gold)' }} />
-                  {renderBold(item)}
-                </li>
-              ))}
-            </ul>
+            {(section as any).items && (
+              <ul className="space-y-2">
+                {(section as any).items.map((item: string, i: number) => (
+                  <li key={i} className="flex items-start gap-2.5 text-sm" style={{ color: 'rgba(26,26,46,0.8)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                    <span className="mt-[5px] w-1.5 h-1.5 rounded-full shrink-0" style={{ background: 'var(--mb-gold)' }} />
+                    {renderBold(item)}
+                  </li>
+                ))}
+              </ul>
+            )}
+            {section.content && (
+              <div style={{ color: 'rgba(26,26,46,0.8)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
+                {renderBold(section.content)}
+              </div>
+            )}
           </div>
         </div>
       );
