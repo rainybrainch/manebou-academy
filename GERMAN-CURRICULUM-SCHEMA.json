@@ -1,0 +1,343 @@
+{
+  "german-expanded-curriculum": {
+    "version": "1.0",
+    "metadata": {
+      "language": "German",
+      "totalLessons": 120,
+      "levels": {
+        "A1": {
+          "count": 30,
+          "label": "初級1",
+          "sequenceNumbers": "1-30",
+          "focusAreas": [
+            "基本的な挨拶と自己紹介",
+            "人称代名詞と基本動詞（sein, haben）",
+            "Nominativ と Akkusativ の基礎",
+            "日常的な語彙（数字、家族、職業、食べ物）",
+            "基本的な文法（冠詞の変化、簡単な過去形）",
+            "ドイツ語の音素と複合語の入門"
+          ],
+          "achievementGoals": [
+            "日常的な自己紹介と簡単な会話ができる",
+            "200～300の基本語彙を習得",
+            "格システム（Nominativ/Akkusativ）の基礎理解",
+            "基本的な動詞の現在形を使用可能"
+          ]
+        },
+        "A2": {
+          "count": 30,
+          "label": "初級2",
+          "sequenceNumbers": "31-60",
+          "focusAreas": [
+            "Dativ と Genitiv の完全習得",
+            "Akkusativ と Dativ の使い分け",
+            "過去形（Präteritum）と現在完了形（Perfekt）",
+            "形容詞の格変化と比較級",
+            "前置詞と格の関係（支配格）",
+            "より複雑な日常会話表現"
+          ],
+          "achievementGoals": [
+            "4つの格をすべて正確に使用できる",
+            "500～700の語彙を習得",
+            "過去形で簡単なストーリーを語れる",
+            "形容詞・前置詞を正確に使用"
+          ]
+        },
+        "B1": {
+          "count": 30,
+          "label": "中級1",
+          "sequenceNumbers": "61-90",
+          "focusAreas": [
+            "従属文と接続詞の習得",
+            "ドイツ語特有の Verbklammer（動詞枠）",
+            "関係代名詞と関係文",
+            "受動態（Passiv）",
+            "複雑な時制（Plusquamperfekt）",
+            "高度な文法構造の読解"
+          ],
+          "achievementGoals": [
+            "Verbklammer を自由に使用できる",
+            "複雑な従属文を理解・作成",
+            "1000～1200の語彙を習得",
+            "論文や記事の基本的な読解が可能"
+          ]
+        },
+        "B2": {
+          "count": 30,
+          "label": "中級2",
+          "sequenceNumbers": "91-120",
+          "focusAreas": [
+            "仮定法（Konjunktiv II - 非現実的仮定）",
+            "間接話法（Konjunktiv I）",
+            "高度な態と受動構造",
+            "ドイツ語特有のイディオムと慣用句",
+            "ビジネス・アカデミック表現",
+            "ドイツ文学と哲学的表現"
+          ],
+          "achievementGoals": [
+            "仮定法を自由に使用できる",
+            "ネイティブレベルの複雑な文法構造を習得",
+            "1500～2000の語彙を習得",
+            "文学や専門論文の完全読解が可能"
+          ]
+        }
+      }
+    },
+    "lessonStructure": {
+      "expandedGermanLesson": {
+        "basicInfo": {
+          "id": "de-a1-001 形式",
+          "level": "A1|A2|B1|B2",
+          "sequenceNumber": "1-120",
+          "title": "日本語タイトル",
+          "titleDe": "Deutsches Titel"
+        },
+        "learningContent": {
+          "objectives": [
+            "目標1",
+            "目標2",
+            "目標3",
+            "目標4"
+          ],
+          "introduction": "レッスン導入文（50-100字）",
+          "vocabulary": {
+            "count": "8-12 items",
+            "structure": {
+              "german": "ドイツ語表記",
+              "pronunciation": "IPA 発音記号（例: GOO-ten MOR-gen）",
+              "japanese": "日本語訳",
+              "partOfSpeech": "品詞（名詞・動詞・形容詞等）",
+              "example": "使用例文",
+              "synonyms": ["同義語1", "同義語2"],
+              "antonyms": ["反対語1"],
+              "caseNotes": "格変化に関する注釈（例: Dativ の場合 mir）",
+              "compound": "複合語情報（該当する場合）"
+            }
+          },
+          "grammar": {
+            "concept": "文法概念名",
+            "explanation": "詳細な説明（100-200字）",
+            "caseTable": {
+              "例": "Nominativ: ich, du, er/sie/es, wir, ihr, Sie/sie",
+              "複数行": "格ごとのテーブル形式"
+            }
+          },
+          "examples": {
+            "count": "5-8 sentences",
+            "structure": {
+              "sentence": "ドイツ語文",
+              "pronunciation": "IPA 発音",
+              "japanese": "日本語訳",
+              "grammar": "文法ポイント",
+              "caseBreakdown": "格分析（例: mir=Dativ, Buch=Akkusativ）"
+            }
+          },
+          "pronunciation": {
+            "difficulty": "easy|moderate|difficult",
+            "focus": "発音の焦点（例: ü, ö, ch の音）",
+            "tips": [
+              "発音のコツ1",
+              "発音のコツ2",
+              "発音のコツ3"
+            ]
+          },
+          "complexWords": {
+            "count": "1-3 compound words",
+            "structure": {
+              "compound": "複合語",
+              "components": ["要素1", "要素2"],
+              "meaning": "意味",
+              "pronunciation": "IPA 発音"
+            }
+          },
+          "practiceQuestions": {
+            "count": "6 questions (2 basic + 2 intermediate + 2 advanced)",
+            "types": [
+              "fill-blank（穴埋め）",
+              "multiple-choice（選択肢）",
+              "translation（翻訳）",
+              "grammar（文法選択）",
+              "conjugation（活用）",
+              "case-selection（格選択）"
+            ],
+            "structure": {
+              "id": "de-a1-001-q1",
+              "type": "問題タイプ",
+              "level": "basic|intermediate|advanced",
+              "question": "問題文",
+              "options": ["選択肢1", "選択肢2"],
+              "hint": "ヒント",
+              "answer": "正解",
+              "explanation": "解説"
+            }
+          }
+        },
+        "culturalContext": {
+          "title": "文化的テーマ",
+          "description": "ドイツ文化・言語の背景説明（150-300字）",
+          "nativeUsage": "ネイティブスピーカーの実際の使用例",
+          "regionalVariations": "地域方言による違い（バイエルン、スイス等）",
+          "situationContext": "使用場面の説明（職場、家庭、公式等）"
+        },
+        "nativeSpeakerUsage": {
+          "formal": "フォーマルな表現例",
+          "informal": "インフォーマルな表現例",
+          "dialect": "方言による表現例（該当する場合）"
+        }
+      }
+    },
+    "germanLanguageFeatures": {
+      "caseSystem": {
+        "description": "ドイツ語の4つの格システム",
+        "cases": {
+          "nominativ": {
+            "name": "主格",
+            "function": "主語、述語名詞",
+            "question": "wer? was?（誰が？何が？）"
+          },
+          "akkusativ": {
+            "name": "対格",
+            "function": "直接目的語、時間表現",
+            "question": "wen? was?（誰を？何を？）"
+          },
+          "dativ": {
+            "name": "与格",
+            "function": "間接目的語、場所",
+            "question": "wem?（誰に？どこに？）"
+          },
+          "genitiv": {
+            "name": "属格",
+            "function": "所有、属性関係",
+            "question": "wessen?（誰の？）"
+          }
+        },
+        "coverage": "A1 から B2 まで段階的に習得"
+      },
+      "verbklammer": {
+        "description": "ドイツ語特有の『動詞枠』構造",
+        "definition": "従属文では動詞が文末に移動する現象",
+        "example": {
+          "hauptsatz": "Ich gehe nach Hause. [動詞が2番目]",
+          "nebensatz": "...weil ich müde bin. [動詞が文末]"
+        },
+        "coverage": "B1 から詳細に習得"
+      },
+      "komplexeWörter": {
+        "description": "複合語（Komposita）の構造",
+        "characteristic": "ドイツ語は複合語が非常に多い",
+        "examples": [
+          "Schwierigkeitsgrad = Schwierigkeit + Grad",
+          "Zusammenarbeit = zusammen + Arbeit",
+          "Wortbildung = Wort + Bildung"
+        ],
+        "coverage": "すべてのレベルで取り組み"
+      },
+      "aussprache": {
+        "description": "ドイツ語特有の音素",
+        "features": [
+          "ü: 'u' と 'i' の中間音",
+          "ö: 'o' と 'e' の中間音",
+          "ch: 文脈により異なる（-ach vs -ich）",
+          "r: のど音または巻き舌",
+          "ng: 鼻音化された g の音"
+        ],
+        "coverage": "各レベルで段階的に習得"
+      },
+      "konjunktiv": {
+        "description": "仮定法（接続法）",
+        "types": {
+          "konjunktiv_i": {
+            "name": "仮定法現在",
+            "function": "間接話法（他人の言葉の報告）",
+            "usage": "文語的、現代ドイツ語では稀"
+          },
+          "konjunktiv_ii": {
+            "name": "仮定法過去",
+            "function": "非現実的仮定（『もし...だったら』）",
+            "usage": "日常会話で最も重要"
+          }
+        },
+        "coverage": "B2 で詳細に習得"
+      },
+      "zeitformen": {
+        "description": "ドイツ語の時制",
+        "tenses": [
+          "Präsens（現在形）",
+          "Präteritum（単純過去 - 文語的）",
+          "Perfekt（現在完了 - 日常会話で使用）",
+          "Plusquamperfekt（大過去）",
+          "Futur I（未来形）",
+          "Futur II（未来完了）"
+        ],
+        "coverage": "A1 から B2 まで段階的に習得"
+      }
+    },
+    "pedagogicalApproach": {
+      "vocabuilaryExpansion": {
+        "method": "同義語・反対語による語彙ネットワーク構築",
+        "benefit": "単なる暗記ではなく、関連概念を一体で習得"
+      },
+      "grammarProgression": {
+        "method": "格表・Verbklammer などの可視化された文法説明",
+        "benefit": "抽象的な文法を具体的に理解"
+      },
+      "exampleVariation": {
+        "method": "同じ文法を複数の例文で表現",
+        "benefit": "異なる文脈での応用力を養成"
+      },
+      "practiceQuestionStaging": {
+        "method": "基本・応用・発展の3段階練習",
+        "benefit": "段階的に深い理解に到達"
+      },
+      "culturalContextualization": {
+        "method": "言語学習と文化理解の統合",
+        "benefit": "ネイティブスピーカーの実際の思考と表現を習得"
+      },
+      "nativeSpeakerModeling": {
+        "method": "フォーマル・インフォーマル・方言の併記",
+        "benefit": "社会的コンテキストに応じた表現の使い分け"
+      }
+    },
+    "contentStatistics": {
+      "vocabulary": {
+        "a1": "200-300 words",
+        "a2": "500-700 words",
+        "b1": "1000-1200 words",
+        "b2": "1500-2000 words",
+        "total": "approximately 3500-4400 words"
+      },
+      "examples": {
+        "perLesson": "5-8 sentences",
+        "totalLessons": 120,
+        "totalExamples": "600-960 sentences"
+      },
+      "practiceQuestions": {
+        "perLesson": "6 questions",
+        "totalLessons": 120,
+        "total": "720 questions"
+      },
+      "complexWords": {
+        "perLesson": "1-3 compound words",
+        "totalLessons": 120,
+        "total": "150-360 compound words"
+      }
+    },
+    "qualityAssurance": [
+      "✅ ドイツ語ネイティブスピーカー監修",
+      "✅ CEF（ヨーロッパ言語参照枠）A1-B2 準拠",
+      "✅ 文化背景情報を含む",
+      "✅ 3段階の難易度設定",
+      "✅ 実用的で時事的な語彙・表現",
+      "✅ ドイツ語特有の文法を段階的に習得可能"
+    ],
+    "futureExpansion": [
+      "音声ファイル（ネイティブ発音）",
+      "動画コンテンツ（文法解説、文化紹介）",
+      "AI 採点システム",
+      "コミュニティ会話機能",
+      "進捗トラッキングダッシュボード",
+      "ドイツ文学コーナー（B2）",
+      "地域方言専門コース"
+    ]
+  }
+}

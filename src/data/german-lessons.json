@@ -12,96 +12,146 @@
       "objectives": [
         "基本的なドイツ語の挨拶を習得する",
         "簡単な自己紹介ができる",
-        "人称代名詞を理解する"
+        "人称代名詞を理解する",
+        "フォーマルとカジュアルな表現を区別できる"
       ],
       "content": {
-        "introduction": "ドイツ語を学ぶ第一歩は、基本的な挨拶と自己紹介です。このレッスンでは、日常会話で最も使われる表現を学びます。",
+        "introduction": "ドイツ語を学ぶ第一歩は、基本的な挨拶と自己紹介です。このレッスンでは、日常会話で最も使われる表現と、フォーマルな環境での使い分けを学びます。ドイツ語は敬語が発達しており、相手によって表現を変える必要があります。",
         "sections": [
           {
-            "title": "挨拶の基本",
+            "title": "時間帯別の挨拶",
             "phrases": [
               {
                 "german": "Guten Morgen",
-                "romaji": "Guten Morgen",
+                "romaji": "GOO-ten MOR-gen",
                 "japanese": "おはようございます",
-                "usage": "朝の挨拶（フォーマル）"
+                "usage": "朝5時～12時の挨拶。フォーマルな場面に最適"
               },
               {
                 "german": "Guten Tag",
-                "romaji": "Guten Tag",
+                "romaji": "GOO-ten TAHG",
                 "japanese": "こんにちは",
-                "usage": "昼間の挨拶（フォーマル）"
+                "usage": "昼12時～夜18時の挨拶。最も標準的で広く使える表現"
               },
               {
                 "german": "Guten Abend",
-                "romaji": "Guten Abend",
+                "romaji": "GOO-ten AH-bent",
                 "japanese": "こんばんは",
-                "usage": "夜の挨拶（フォーマル）"
+                "usage": "夜18時以降の挨拶。レストランやパーティで使用"
               },
               {
-                "german": "Hallo",
-                "romaji": "Hallo",
-                "japanese": "やあ",
-                "usage": "カジュアルな挨拶"
+                "german": "Gute Nacht",
+                "romaji": "GOO-te NAHKT",
+                "japanese": "おやすみなさい",
+                "usage": "就寝時の別れの挨拶。夜間の別れに使う"
               },
               {
-                "german": "Wie geht es dir?",
-                "romaji": "Vee gayt es deer?",
-                "japanese": "お元気ですか？（親友用）",
-                "usage": "カジュアルな質問"
+                "german": "Hallo / Hallo, wie geht's?",
+                "romaji": "HAH-lo / HAH-lo VEE gates",
+                "japanese": "やあ / やあ、元気？",
+                "usage": "カジュアルな挨拶。友人や親しい人との会話で使用"
               }
             ]
           },
           {
-            "title": "自己紹介",
+            "title": "自己紹介の基本",
             "phrases": [
               {
-                "german": "Ich heiße...",
-                "romaji": "Ikh hay-say...",
-                "japanese": "私の名前は...です",
-                "usage": "自己紹介で使用"
+                "german": "Ich heiße Maria.",
+                "romaji": "ikh HYE-se MAH-ree-ah",
+                "japanese": "私の名前はマリアです",
+                "usage": "最も基本的な自己紹介。heiße = be called（~と呼ばれる）"
               },
               {
-                "german": "Ich bin Lehrer/in.",
-                "romaji": "Ikh bin ley-rer/in",
-                "japanese": "私は教師です",
-                "usage": "職業を伝える"
+                "german": "Mein Name ist Peter.",
+                "romaji": "MYNE NAH-me ist PAY-ter",
+                "japanese": "私の名前はペーターです",
+                "usage": "より正式な自己紹介。ビジネスシーンに適切"
+              },
+              {
+                "german": "Ich bin 25 Jahre alt.",
+                "romaji": "ikh bin FÜN-foonf YAH-re ahlt",
+                "japanese": "私は25歳です",
+                "usage": "年齢を伝える際の標準的な表現"
+              },
+              {
+                "german": "Ich komme aus Japan.",
+                "romaji": "ikh KOM-me ous YAH-pahn",
+                "japanese": "私は日本から来ました",
+                "usage": "出身地や来た場所を伝える"
+              },
+              {
+                "german": "Ich bin Student/Studentin.",
+                "romaji": "ikh bin SHTU-dent / SHTU-den-tin",
+                "japanese": "私は学生です",
+                "usage": "職業や身分を説明する。-in は女性形"
               }
             ]
           },
           {
-            "title": "人称代名詞",
+            "title": "人称代名詞と動詞の活用",
             "pronouns": [
               {
                 "german": "ich",
                 "romaji": "ikh",
-                "meaning": "私（主語）"
+                "meaning": "私",
+                "example": "Ich bin Student. = I am a student."
               },
               {
                 "german": "du",
                 "romaji": "doo",
-                "meaning": "あなた（親友用・主語）"
+                "meaning": "あなた（親友・同年代用）",
+                "example": "Du bist freundlich. = You are friendly."
               },
               {
                 "german": "Sie",
                 "romaji": "zee",
-                "meaning": "あなた（敬語・主語）"
+                "meaning": "あなた（敬語・目上の人用）",
+                "example": "Sie sind Lehrer. = You are a teacher."
               },
               {
-                "german": "er",
-                "romaji": "air",
-                "meaning": "彼（主語）"
-              },
-              {
-                "german": "sie",
-                "romaji": "zee",
-                "meaning": "彼女（主語）"
+                "german": "er / sie / es",
+                "romaji": "air / zee / es",
+                "meaning": "彼／彼女／それ",
+                "example": "Er ist groß. = He is tall."
               },
               {
                 "german": "wir",
                 "romaji": "veer",
-                "meaning": "私たち（主語）"
+                "meaning": "私たち",
+                "example": "Wir sind Freunde. = We are friends."
+              },
+              {
+                "german": "ihr",
+                "romaji": "eer",
+                "meaning": "あなたたち（親友グループ用）",
+                "example": "Ihr seid intelligent. = You (plural) are intelligent."
+              },
+              {
+                "german": "Sie",
+                "romaji": "zee",
+                "meaning": "あなたたち（敬語・複数用）",
+                "example": "Sie sind willkommen. = You (plural) are welcome."
+              },
+              {
+                "german": "sie",
+                "romaji": "zee",
+                "meaning": "彼ら／彼女たち",
+                "example": "Sie sind nett. = They are nice."
               }
+            ]
+          },
+          {
+            "title": "sein動詞の活用",
+            "items": [
+              {"german": "ich bin", "japanese": "私は...です"},
+              {"german": "du bist", "japanese": "あなたは...です（親友用）"},
+              {"german": "Sie sind", "japanese": "あなたは...です（敬語）"},
+              {"german": "er/sie/es ist", "japanese": "彼/彼女/それは...です"},
+              {"german": "wir sind", "japanese": "私たちは...です"},
+              {"german": "ihr seid", "japanese": "あなたたちは...です（親友用）"},
+              {"german": "Sie sind", "japanese": "あなたたちは...です（敬語）"},
+              {"german": "sie sind", "japanese": "彼らは...です"}
             ]
           }
         ]
@@ -110,24 +160,60 @@
         {
           "id": "de-001-q1",
           "type": "fill-blank",
-          "question": "「こんにちは」をドイツ語で言ってください。",
-          "hint": "「Guten」で始まります",
+          "question": "昼間にドイツ人に会ったときの挨拶「こんにちは」を言ってください。",
+          "hint": "「Guten」で始まり、昼間用です",
           "answer": "Guten Tag"
         },
         {
           "id": "de-001-q2",
           "type": "multiple-choice",
-          "question": "「Ich heiße」の意味として正しいのはどれですか？",
+          "question": "「Ich heiße」という表現の意味として正しいのはどれですか？",
           "options": [
-            "私の名前は",
-            "私は",
-            "私です",
-            "私を"
+            "私の名前は...です",
+            "私は...です（職業など）",
+            "私は...を持っています",
+            "私は...が好きです"
           ],
           "answer": 0
+        },
+        {
+          "id": "de-001-q3",
+          "type": "multiple-choice",
+          "question": "敬語で「あなたは誰ですか？」と尋ねる場合、どの人称代名詞を使いますか？",
+          "options": [
+            "du",
+            "ihr",
+            "Sie",
+            "er"
+          ],
+          "answer": 2
+        },
+        {
+          "id": "de-001-q4",
+          "type": "fill-blank",
+          "question": "自分が日本から来たことを伝えるドイツ語を言ってください。",
+          "hint": "「Ich komme aus」で始まります",
+          "answer": "Ich komme aus Japan."
         }
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "video",
+          "title": "発音講座：基本挨拶と自己紹介",
+          "url": "#",
+          "duration": "8分"
+        },
+        {
+          "type": "grammar",
+          "title": "sein動詞の完全活用表",
+          "content": "現在形: bin, bist, ist, sind, seid, sind（3人称単数と3人称複数で異なる）"
+        },
+        {
+          "type": "note",
+          "title": "ドイツ語の敬語について",
+          "content": "ドイツ語では相手との関係によって表現を変えます。Sie（敬語）は常に大文字で始まります。"
+        }
+      ]
     },
     {
       "id": "de-002",
@@ -135,35 +221,115 @@
       "title": "数字と日付",
       "titleDe": "Zahlen und Daten",
       "objectives": [
-        "0～100の数字を習得する",
-        "曜日と月を言える",
-        "日付を表現できる"
+        "0～100の数字を完璧に習得する",
+        "曜日と月をスムーズに言える",
+        "日付を正確に表現できる",
+        "複合数字の構造を理解する"
       ],
       "content": {
-        "introduction": "ドイツ語の基本となる数字と日付の表現を学びます。",
+        "introduction": "ドイツ語の数字は日常生活で頻繁に使用されます。ショッピング、時間、電話番号、年号など、多くの場面で数字が必要です。このレッスンでは0～100の数字、曜日、月、日付の表現を体系的に学びます。",
         "sections": [
           {
-            "title": "数字（0～20）",
+            "title": "基本数字（0～20）",
             "items": [
+              {"number": 0, "german": "null", "pronunciation": "NOOL", "memo": "ゼロという意味"},
+              {"number": 1, "german": "eins", "pronunciation": "AYNS", "memo": "「一つ」の意味"},
+              {"number": 2, "german": "zwei", "pronunciation": "TSVAY", "memo": "「二」の意味"},
+              {"number": 3, "german": "drei", "pronunciation": "DRAY", "memo": "「三」の意味"},
+              {"number": 4, "german": "vier", "pronunciation": "FEER", "memo": "「四」の意味"},
+              {"number": 5, "german": "fünf", "pronunciation": "FOONF", "memo": "「五」の意味"},
+              {"number": 6, "german": "sechs", "pronunciation": "ZEKS", "memo": "「六」の意味"},
+              {"number": 7, "german": "sieben", "pronunciation": "ZEE-ben", "memo": "「七」の意味"},
+              {"number": 8, "german": "acht", "pronunciation": "AHKT", "memo": "「八」の意味"},
+              {"number": 9, "german": "neun", "pronunciation": "NOYN", "memo": "「九」の意味"},
+              {"number": 10, "german": "zehn", "pronunciation": "TSAN", "memo": "「十」の意味"},
+              {"number": 11, "german": "elf", "pronunciation": "ELF", "memo": "11は特殊な形"},
+              {"number": 12, "german": "zwölf", "pronunciation": "TSVERLF", "memo": "12も特殊な形（ウムラウト付き）"},
+              {"number": 13, "german": "dreizehn", "pronunciation": "DRAY-tsan", "memo": "13以降は10の形 + 3"},
+              {"number": 15, "german": "fünfzehn", "pronunciation": "FOONF-tsan", "memo": "15 = 5 + 10"},
+              {"number": 20, "german": "zwanzig", "pronunciation": "TSVAHN-tsikh", "memo": "20は新しい単語"}
+            ]
+          },
+          {
+            "title": "十の位の数字（20～100）",
+            "items": [
+              {"number": 20, "german": "zwanzig", "pronunciation": "TSVAHN-tsikh"},
+              {"number": 30, "german": "dreißig", "pronunciation": "DRY-sikh"},
+              {"number": 40, "german": "vierzig", "pronunciation": "FEER-tsikh"},
+              {"number": 50, "german": "fünfzig", "pronunciation": "FOONF-tsikh"},
+              {"number": 60, "german": "sechzig", "pronunciation": "ZEKS-tsikh"},
+              {"number": 70, "german": "siebzig", "pronunciation": "ZEEP-tsikh"},
+              {"number": 80, "german": "achtzig", "pronunciation": "AHKT-tsikh"},
+              {"number": 90, "german": "neunzig", "pronunciation": "NOYN-tsikh"},
+              {"number": 100, "german": "einhundert", "pronunciation": "AYN-hun-dert"}
+            ]
+          },
+          {
+            "title": "複合数字の作り方",
+            "phrases": [
               {
-                "number": 0,
-                "german": "null",
-                "pronunciation": "nool"
+                "german": "einundzwanzig (21)",
+                "romaji": "AYN-unt-TSVAHN-tsikh",
+                "japanese": "21（一と二十）",
+                "usage": "ドイツ語は下の位から言う"
               },
               {
-                "number": 1,
-                "german": "eins",
-                "pronunciation": "ayns"
+                "german": "fünfundvierzig (45)",
+                "romaji": "FOONF-unt-FEER-tsikh",
+                "japanese": "45（五と四十）",
+                "usage": "常に「単位 + und + 十の位」の順"
               },
               {
-                "number": 5,
-                "german": "fünf",
-                "pronunciation": "foonf"
+                "german": "neunundachtzig (89)",
+                "romaji": "NOYN-unt-AHKT-tsikh",
+                "japanese": "89（九と八十）",
+                "usage": "この順序は重要なルール"
+              }
+            ]
+          },
+          {
+            "title": "曜日（Wochentage）",
+            "days": [
+              {"german": "Montag", "japanese": "月曜日", "abbreviation": "Mo."},
+              {"german": "Dienstag", "japanese": "火曜日", "abbreviation": "Di."},
+              {"german": "Mittwoch", "japanese": "水曜日", "abbreviation": "Mi."},
+              {"german": "Donnerstag", "japanese": "木曜日", "abbreviation": "Do."},
+              {"german": "Freitag", "japanese": "金曜日", "abbreviation": "Fr."},
+              {"german": "Samstag/Sonnabend", "japanese": "土曜日", "abbreviation": "Sa."},
+              {"german": "Sonntag", "japanese": "日曜日", "abbreviation": "So."}
+            ]
+          },
+          {
+            "title": "月（Monate）",
+            "items": [
+              {"number": 1, "german": "Januar", "japanese": "1月"},
+              {"number": 2, "german": "Februar", "japanese": "2月"},
+              {"number": 3, "german": "März", "japanese": "3月（ウムラウト付き）"},
+              {"number": 4, "german": "April", "japanese": "4月"},
+              {"number": 5, "german": "Mai", "japanese": "5月"},
+              {"number": 6, "german": "Juni", "japanese": "6月"},
+              {"number": 7, "german": "Juli", "japanese": "7月"},
+              {"number": 8, "german": "August", "japanese": "8月"},
+              {"number": 9, "german": "September", "japanese": "9月"},
+              {"number": 10, "german": "Oktober", "japanese": "10月"},
+              {"number": 11, "german": "November", "japanese": "11月"},
+              {"number": 12, "german": "Dezember", "japanese": "12月"}
+            ]
+          },
+          {
+            "title": "日付の表現",
+            "phrases": [
+              {
+                "german": "Der 3. März 2024",
+                "romaji": "DAIR DRAY. MÄRTS TSVAY-tousent FEER-unt-tsvahn-tsikh",
+                "japanese": "2024年3月3日",
+                "usage": "正式な日付表現。序数と月を組み合わせる"
               },
               {
-                "number": 10,
-                "german": "zehn",
-                "pronunciation": "tsan"
+                "german": "Heute ist Montag, den 15. Januar.",
+                "romaji": "HOY-te ist MON-tag DEN FOONF-tsan YAH-nu-ar",
+                "japanese": "今日は1月15日（月曜日）です",
+                "usage": "会話での日付表現"
               }
             ]
           }
@@ -175,3809 +341,887 @@
           "type": "fill-blank",
           "question": "「5」をドイツ語で言ってください。",
           "answer": "fünf"
+        },
+        {
+          "id": "de-002-q2",
+          "type": "fill-blank",
+          "question": "「47」をドイツ語で言ってください。（複合数字）",
+          "hint": "下の位から言います",
+          "answer": "siebenundvierzig"
+        },
+        {
+          "id": "de-002-q3",
+          "type": "multiple-choice",
+          "question": "「Montag」は何曜日ですか？",
+          "options": ["日曜日", "月曜日", "火曜日", "水曜日"],
+          "answer": 1
+        },
+        {
+          "id": "de-002-q4",
+          "type": "fill-blank",
+          "question": "「3月」をドイツ語で言ってください。",
+          "hint": "ウムラウト（ä）が含まれます",
+          "answer": "März"
         }
       ],
-      "resources": []
+      "resources": [
+        {
+          "type": "grammar",
+          "title": "複合数字の規則",
+          "content": "ドイツ語では英語と異なり、下の位を先に言います。例：23 = 'dreiundzwanzig'（3と20）"
+        },
+        {
+          "type": "note",
+          "title": "11と12の特殊性",
+          "content": "11（elf）と12（zwölf）は独特の形です。13以降は通常のパターンに従い始めます。"
+        },
+        {
+          "type": "practice",
+          "title": "数字練習",
+          "content": "友人と数字をランダムに呼び合う練習をしてみてください。"
+        }
+      ]
     },
     {
       "id": "de-003",
-      "level": 6,
-      "title": "ドイツ語の格（Kasus）- 4格システム概論",
-      "titleDe": "Das deutsche Kasussystem - Überblick",
+      "level": 2,
+      "title": "日常会話 - 家族と職業",
+      "titleDe": "Alltag - Familie und Beruf",
       "objectives": [
-        "4つの格の役割を理解する",
-        "格による語順と意味変化を学ぶ",
-        "格の基本的な使い分けを習得する"
+        "家族構成について説明できる",
+        "職業や仕事について話題にできる",
+        "所有物の表現ができる",
+        "possess動詞 haben の活用をマスターする"
       ],
       "content": {
-        "introduction": "ドイツ語の格（Kasus）システムは言語の基礎です。英語と異なり、ドイツ語では名詞・冠詞・形容詞が4つの格で大きく変化します。",
+        "introduction": "家族と職業は日常会話の基本的な話題です。ドイツ人との自然な会話では、家族構成や仕事について尋ねられることが多くあります。このレッスンでは、家族関係を表現し、職業について語る能力を養います。また、所有物について語るために必要な haben 動詞の活用も学びます。",
         "sections": [
           {
-            "title": "ドイツ語の格（Kasus）- 4格システム概論",
-            "content": "格システムに関する学習内容。このレッスンでは、ドイツ語の格（Kasus）- 4格システム概論について詳しく解説します。"
+            "title": "家族関係の表現",
+            "phrases": [
+              {
+                "german": "Das ist meine Mutter.",
+                "romaji": "dahs ist MAY-ne MOO-ter",
+                "japanese": "これは私の母です。",
+                "usage": "家族紹介の基本形"
+              },
+              {
+                "german": "Ich habe einen Bruder und eine Schwester.",
+                "romaji": "ikh HAH-be AY-nen BROO-der oont AY-ne SHVES-ter",
+                "japanese": "私は兄弟と妹がいます。",
+                "usage": "家族構成説明（haben 動詞使用）"
+              },
+              {
+                "german": "Mein Vater ist Lehrer.",
+                "romaji": "mayn FAH-ter ist LAY-rer",
+                "japanese": "私の父は教師です。",
+                "usage": "家族の職業紹介"
+              },
+              {
+                "german": "Meine Familie ist sehr groß.",
+                "romaji": "MAY-ne fah-MEE-lyuh ist ZAY-er GROSSH",
+                "japanese": "我が家族はとても大きいです。",
+                "usage": "家族の規模説明"
+              },
+              {
+                "german": "Ich bin verheiratet.",
+                "romaji": "ikh bin fer-HAY-ra-tet",
+                "japanese": "私は結婚しています。",
+                "usage": "結婚状況の説明"
+              },
+              {
+                "german": "Wir haben zwei Kinder.",
+                "romaji": "veer HAH-ben TSVAY KIN-der",
+                "japanese": "私たちは2人の子どもがいます。",
+                "usage": "子どもの人数説明"
+              }
+            ]
+          },
+          {
+            "title": "職業と仕事",
+            "phrases": [
+              {
+                "german": "Was ist dein Beruf?",
+                "romaji": "vahs ist dayn be-ROOF?",
+                "japanese": "あなたの職業は何ですか？（親友用）",
+                "usage": "職業を尋ねるカジュアルな表現"
+              },
+              {
+                "german": "Was ist Ihr Beruf?",
+                "romaji": "vahs ist eer be-ROOF?",
+                "japanese": "あなたの職業は何ですか？（敬語）",
+                "usage": "職業を尋ねる敬語"
+              },
+              {
+                "german": "Ich bin Arzt.",
+                "romaji": "ikh bin AHRTS",
+                "japanese": "私は医者です。",
+                "usage": "職業を述べる（男性形）"
+              },
+              {
+                "german": "Ich bin Ärztin.",
+                "romaji": "ikh bin AHRT-stin",
+                "japanese": "私は医者です。（女性形）",
+                "usage": "職業を述べる（女性形）"
+              },
+              {
+                "german": "Ich arbeite in einem Büro.",
+                "romaji": "ikh AHR-bay-te in AY-nem BÜ-ro",
+                "japanese": "私はオフィスで働いています。",
+                "usage": "職場環境の説明"
+              },
+              {
+                "german": "Meine Arbeit ist interessant.",
+                "romaji": "MAY-ne AHR-bayt ist in-ter-ES-ant",
+                "japanese": "私の仕事は興味深いです。",
+                "usage": "仕事についての感想"
+              }
+            ]
+          },
+          {
+            "title": "haben 動詞の活用",
+            "pronouns": [
+              {"german": "ich habe", "romaji": "ikh HAH-be", "meaning": "I have"},
+              {"german": "du hast", "romaji": "doo HAHST", "meaning": "you have (familiar)"},
+              {"german": "Sie haben", "romaji": "zee HAH-ben", "meaning": "you have (formal)"},
+              {"german": "er/sie/es hat", "romaji": "air/zee/es HAHT", "meaning": "he/she/it has"},
+              {"german": "wir haben", "romaji": "veer HAH-ben", "meaning": "we have"},
+              {"german": "ihr habt", "romaji": "eer HAPT", "meaning": "you have (plural familiar)"},
+              {"german": "Sie haben", "romaji": "zee HAH-ben", "meaning": "you have (plural formal)"},
+              {"german": "sie haben", "romaji": "zee HAH-ben", "meaning": "they have"}
+            ]
+          },
+          {
+            "title": "所有物の表現",
+            "items": [
+              {"german": "Ich habe ein Auto", "japanese": "私は車を持っています"},
+              {"german": "Ich habe ein Haus", "japanese": "私は家を持っています"},
+              {"german": "Ich habe einen Computer", "japanese": "私はコンピュータを持っています"},
+              {"german": "Ich habe ein Haustier", "japanese": "私はペットを持っています"},
+              {"german": "Ich habe Geld", "japanese": "私はお金を持っています"},
+              {"german": "Ich habe Zeit", "japanese": "私は時間を持っています"},
+              {"german": "Ich habe Angst", "japanese": "私は怖いです（恐怖を持っています）"},
+              {"german": "Ich habe Hunger", "japanese": "私はお腹が空いています（空腹を持っています）"}
+            ]
           }
         ]
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-003-q1",
+          "type": "fill-blank",
+          "question": "「私は兄弟と妹がいます」をドイツ語で言ってください。",
+          "hint": "「Ich habe」で始まります",
+          "answer": "Ich habe einen Bruder und eine Schwester."
+        },
+        {
+          "id": "de-003-q2",
+          "type": "fill-blank",
+          "question": "「私は医者です（男性）」をドイツ語で言ってください。",
+          "answer": "Ich bin Arzt."
+        },
+        {
+          "id": "de-003-q3",
+          "type": "multiple-choice",
+          "question": "「Mein Vater ist Lehrer」という文の意味として正しいのはどれですか？",
+          "options": [
+            "私の父は教師です",
+            "私の兄は教師です",
+            "私は父と教師です",
+            "父は私の教師です"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-003-q4",
+          "type": "fill-blank",
+          "question": "「あなたの職業は何ですか？（敬語）」をドイツ語で言ってください。",
+          "hint": "「Was ist」で始まります",
+          "answer": "Was ist Ihr Beruf?"
+        },
+        {
+          "id": "de-003-q5",
+          "type": "multiple-choice",
+          "question": "have の意味で「Ich habe Hunger」という表現の意味として正しいのはどれですか？",
+          "options": [
+            "私はお腹が空いています",
+            "私は空腹を持っています",
+            "私は饑餓を持っています",
+            "1と2は同じ意味"
+          ],
+          "answer": 3
+        }
+      ],
+      "resources": [
+        {
+          "type": "grammar",
+          "title": "haben 動詞の重要性",
+          "content": "haben は「持つ」という基本的な意味の他、多くの慣用表現で使用されます。「Hunger haben（お腹が空いている）」「Angst haben（怖い）」など。"
+        },
+        {
+          "type": "video",
+          "title": "家族紹介と職業の会話",
+          "url": "#",
+          "duration": "9分"
+        },
+        {
+          "type": "note",
+          "title": "ドイツ語の男性形・女性形",
+          "content": "職業に -in をつけることで女性形になります。例：Lehrer (男性) → Lehrerin (女性)。ドイツ語では言語の性（gender）が重要です。"
+        }
+      ]
     },
     {
       "id": "de-004",
-      "level": 6,
-      "title": "Nominativ（主格）の詳細用法",
-      "titleDe": "Der Nominativ - Grundlagen",
+      "level": 2,
+      "title": "買い物と価格交渉",
+      "titleDe": "Einkaufen und Preisverhandlung",
       "objectives": [
-        "主格の役割を理解する",
-        "文の主語として機能する条件",
-        "述語名詞の概念を学ぶ"
+        "商品名と色・サイズを正確に尋ねられる",
+        "価格について交渉できる",
+        "支払い方法を確認できる",
+        "返品・交換の手続きを理解する"
       ],
       "content": {
-        "introduction": "主格（Nominativ）は文の主語と述語名詞として機能する最も基本的な格です。",
+        "introduction": "ドイツでのショッピングは文化体験の一つです。ドイツの店舗では品質が高く、スタッフの対応も丁寧です。このレッスンでは、商品選びから支払いまでの完全な買い物会話と、必要に応じた価格交渉の技術を習得します。",
         "sections": [
           {
-            "title": "Nominativ（主格）の詳細用法",
-            "content": "主格に関する学習内容。このレッスンでは、Nominativ（主格）の詳細用法について詳しく解説します。"
+            "title": "商品探しと質問",
+            "phrases": [
+              {
+                "german": "Wo finde ich einen Pullover?",
+                "romaji": "vo FIND-uh ikh AY-nen PUL-o-ver?",
+                "japanese": "セーターはどこにありますか？",
+                "usage": "商品の場所を尋ねる"
+              },
+              {
+                "german": "Haben Sie das in Größe M?",
+                "romaji": "HAH-ben zee dahs in GRER-se M?",
+                "japanese": "これはサイズMでありますか？",
+                "usage": "特定のサイズの有無確認"
+              },
+              {
+                "german": "Ich möchte ein anderes Modell sehen.",
+                "romaji": "ikh MERKH-tuh ayn AHN-der-es MO-del ZAY-en",
+                "japanese": "別のモデルを見たいです。",
+                "usage": "他の商品の提案をリクエスト"
+              },
+              {
+                "german": "Haben Sie das in einer anderen Farbe?",
+                "romaji": "HAH-ben zee dahs in AY-ner AHN-der-en FAR-buh?",
+                "japanese": "別の色でありますか？",
+                "usage": "色違いの有無確認"
+              },
+              {
+                "german": "Wie viel kostet das?",
+                "romaji": "vee feel KOS-tet dahs?",
+                "japanese": "これはいくらですか？",
+                "usage": "価格確認"
+              },
+              {
+                "german": "Das ist zu teuer für mich.",
+                "romaji": "dahs ist tsoo TOY-er für mikh",
+                "japanese": "これは私には高すぎます。",
+                "usage": "価格に対する意見表明"
+              }
+            ]
+          },
+          {
+            "title": "商品説明と品質確認",
+            "phrases": [
+              {
+                "german": "Woraus besteht dieses Material?",
+                "romaji": "VOR-ous buh-SHTAT dieses mah-tay-REEL?",
+                "japanese": "この材料は何でできていますか？",
+                "usage": "素材確認"
+              },
+              {
+                "german": "Ist das hochwertig?",
+                "romaji": "ist dahs HOKH-ver-tikh?",
+                "japanese": "これは高品質ですか？",
+                "usage": "品質確認"
+              },
+              {
+                "german": "Wie lange hält dieses Produkt?",
+                "romaji": "vee LAHNG-uh HALT dieses PRO-dukt?",
+                "japanese": "この商品はどのくらい持ちますか？",
+                "usage": "耐久性確認"
+              },
+              {
+                "german": "Garantie auf dieses Produkt?",
+                "romaji": "gah-RAHN-tee auf dieses PRO-dukt?",
+                "japanese": "この商品に保証はありますか？",
+                "usage": "保証確認"
+              }
+            ]
+          },
+          {
+            "title": "価格交渉と割引",
+            "phrases": [
+              {
+                "german": "Können Sie mir einen Rabatt geben?",
+                "romaji": "KER-nen zee meer AY-nen RAH-baht GAY-ben?",
+                "japanese": "割引をしていただけますか？",
+                "usage": "割引リクエスト（敬語）"
+              },
+              {
+                "german": "Gibt es Mengenrabatt?",
+                "romaji": "gibt es MENG-en-RAH-baht?",
+                "japanese": "まとめ買い割引はありますか？",
+                "usage": "大量購入時の割引確認"
+              },
+              {
+                "german": "Ist das der beste Preis?",
+                "romaji": "ist dahs der BEST-uh PRYSE?",
+                "japanese": "これが最良の価格ですか？",
+                "usage": "最低価格確認"
+              },
+              {
+                "german": "Der Preis ist noch zu hoch.",
+                "romaji": "der PRYSE ist nokh tsoo HOKH",
+                "japanese": "価格はまだ高すぎます。",
+                "usage": "さらなる値引き交渉"
+              }
+            ]
+          },
+          {
+            "title": "支払いと返品",
+            "phrases": [
+              {
+                "german": "Welche Zahlungsmittel akzeptieren Sie?",
+                "romaji": "VEL-khuh TSAHL-oongs-mittel AHK-zep-TEER-en zee?",
+                "japanese": "どの支払い方法をお受けされていますか？",
+                "usage": "支払い方法確認"
+              },
+              {
+                "german": "Ich möchte mit Kreditkarte zahlen.",
+                "romaji": "ikh MERKH-tuh mit KRAY-dit-kahr-tuh TSAHL-en",
+                "japanese": "クレジットカードで支払いたいです。",
+                "usage": "支払い方法の指定"
+              },
+              {
+                "german": "Kann ich das zurückgeben?",
+                "romaji": "kahn ikh dahs TSOO-rück-GAY-ben?",
+                "japanese": "これを返品できますか？",
+                "usage": "返品可否確認"
+              },
+              {
+                "german": "Welche Bedingungen für Rückgabe?",
+                "romaji": "VEL-khuh buh-DING-oong-en für RÜCK-gah-buh?",
+                "japanese": "返品の条件は何ですか？",
+                "usage": "返品条件確認"
+              },
+              {
+                "korean": "Kann ich das tauschen?",
+                "romaji": "kahn ikh dahs TOWSH-en?",
+                "japanese": "これを交換できますか？",
+                "usage": "交換リクエスト"
+              }
+            ]
+          },
+          {
+            "title": "ショッピング関連語彙",
+            "items": [
+              {"german": "Größe (M, L, XL)", "japanese": "サイズ"},
+              {"german": "Farbe", "japanese": "色"},
+              {"german": "Material", "japanese": "素材"},
+              {"german": "Qualität", "japanese": "品質"},
+              {"german": "Preis", "japanese": "価格"},
+              {"german": "Rabatt", "japanese": "割引"},
+              {"german": "Garantie", "japanese": "保証"},
+              {"german": "Rückgabe", "japanese": "返品"},
+              {"german": "Umtausch", "japanese": "交換"},
+              {"german": "Quittung", "japanese": "領収書"}
+            ]
           }
         ]
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-004-q1",
+          "type": "fill-blank",
+          "question": "「これはいくらですか？」をドイツ語で言ってください。",
+          "answer": "Wie viel kostet das?"
+        },
+        {
+          "id": "de-004-q2",
+          "type": "fill-blank",
+          "question": "「セーターはどこにありますか？」をドイツ語で言ってください。",
+          "hint": "「Wo finde ich」で始まります",
+          "answer": "Wo finde ich einen Pullover?"
+        },
+        {
+          "id": "de-004-q3",
+          "type": "multiple-choice",
+          "question": "「割引をしていただけますか？」という敬語表現として正しいのはどれですか？",
+          "options": [
+            "Können Sie mir einen Rabatt geben?",
+            "Geben Sie mir einen Rabatt.",
+            "Rabatt für mich?",
+            "Ich will einen Rabatt."
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-004-q4",
+          "type": "fill-blank",
+          "question": "「これを返品できますか？」をドイツ語で言ってください。",
+          "hint": "「Kann ich」で始まります",
+          "answer": "Kann ich das zurückgeben?"
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツでのショッピング実践会話",
+          "url": "#",
+          "duration": "10分"
+        },
+        {
+          "type": "grammar",
+          "title": "Können + 動詞の使い方",
+          "content": "「Können Sie～?」は「～できますか？」という敬語表現。買い物では非常によく使用される構文。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツのショッピング文化",
+          "content": "ドイツの店舗は品質重視。価格交渉はあまり一般的ではありません。セール（Ausverkauf）期間が年2回あります。"
+        }
+      ]
     },
     {
       "id": "de-005",
-      "level": 6,
-      "title": "Akkusativ（対格）- 直接目的語と時間表現",
-      "titleDe": "Der Akkusativ - Direktes Objekt",
+      "level": 3,
+      "title": "中級 - レストランと食事",
+      "titleDe": "Mittelstufe - Restaurant und Essen",
       "objectives": [
-        "対格の役割を理解する",
-        "直接目的語として機能する条件",
-        "時間・距離表現での使用法"
+        "レストランでの完全な会話ができる",
+        "メニューを理解し、詳しく質問できる",
+        "食事中のマナーと表現を習得する",
+        "特別な食事要望（アレルギー、ベジタリアンなど）を伝えられる"
       ],
       "content": {
-        "introduction": "対格（Akkusativ）は動詞の直接目的語となり、時間・距離を表現します。",
+        "introduction": "ドイツの食文化は多様で、伝統的なドイツ料理から国際料理まで幅広い選択肢があります。このレッスンでは、レストランでの予約から食事完了まで、すべてのシーンでの会話を習得します。ドイツ人とのビジネスミーティングや社交活動もしばしば食事を伴うため、この能力は重要です。",
         "sections": [
           {
-            "title": "Akkusativ（対格）- 直接目的語と時間表現",
-            "content": "対格に関する学習内容。このレッスンでは、Akkusativ（対格）- 直接目的語と時間表現について詳しく解説します。"
+            "title": "レストラン入店・予約",
+            "phrases": [
+              {
+                "german": "Ich möchte einen Tisch für zwei Personen reservieren.",
+                "romaji": "ikh MERKH-tuh AY-nen tish für tsvay pair-ZOH-nen ray-zer-VEER-en",
+                "japanese": "2名のテーブルを予約したいです。",
+                "usage": "電話での予約"
+              },
+              {
+                "german": "Haben Sie einen freien Tisch?",
+                "romaji": "HAH-ben zee AY-nen FRAY-en tish?",
+                "japanese": "空いているテーブルがありますか？",
+                "usage": "入店時の質問"
+              },
+              {
+                "german": "Einen Tisch am Fenster bitte.",
+                "romaji": "AY-nen tish ahm FEN-ster BIT-uh",
+                "japanese": "窓際のテーブルをお願いします。",
+                "usage": "座席位置をリクエスト"
+              },
+              {
+                "german": "Wir möchten Platz nehmen.",
+                "romaji": "veer MERKH-ten plahts NAY-men",
+                "japanese": "席に座りたいです。",
+                "usage": "フォーマルな入席表現"
+              }
+            ]
+          },
+          {
+            "title": "メニュー確認と注文",
+            "phrases": [
+              {
+                "german": "Die Speisekarte bitte.",
+                "romaji": "dee SHPAY-zuh-kar-tuh BIT-uh",
+                "japanese": "メニューをください。",
+                "usage": "メニューリクエスト"
+              },
+              {
+                "german": "Was empfehlen Sie?",
+                "romaji": "vahs em-FLAY-len zee?",
+                "japanese": "何をお勧めされていますか？",
+                "usage": "おすすめ料理の質問"
+              },
+              {
+                "german": "Was sind die Spezialitäten?",
+                "romaji": "vahs zint dee shpay-tsee-ah-lee-TAY-ten?",
+                "japanese": "特別料理は何ですか？",
+                "usage": "店の特徴ある料理を尋ねる"
+              },
+              {
+                "german": "Ich bin Vegetarier.",
+                "romaji": "ikh bin veg-uh-TAH-ree-er",
+                "japanese": "私はベジタリアンです。",
+                "usage": "食事制限の告知"
+              },
+              {
+                "german": "Ich bin allergisch gegen Nüsse.",
+                "romaji": "ikh bin al-LER-gish GAY-gen NÜS-uh",
+                "japanese": "私はナッツアレルギーがあります。",
+                "usage": "アレルギー情報提供"
+              },
+              {
+                "german": "Ich möchte das Schnitzel mit Kartoffeln.",
+                "romaji": "ikh MERKH-tuh dahs SHNIT-zel mit kar-TOF-feln",
+                "japanese": "シュニッツェルとジャガイモをください。",
+                "usage": "具体的な注文"
+              }
+            ]
+          },
+          {
+            "title": "食事中の会話と要望",
+            "phrases": [
+              {
+                "german": "Wie schmeckt es?",
+                "romaji": "vee SHMEKT es?",
+                "japanese": "味はいかがですか？",
+                "usage": "同席者への質問"
+              },
+              {
+                "german": "Das ist köstlich.",
+                "romaji": "dahs ist KERST-likh",
+                "japanese": "これは絶品です。",
+                "usage": "食事への褒め言葉"
+              },
+              {
+                "german": "Das Essen ist kalt.",
+                "romaji": "dahs ES-sen ist KAHLT",
+                "japanese": "料理が冷えています。",
+                "usage": "問題の報告"
+              },
+              {
+                "german": "Können Sie mir noch ein Glas Wasser bringen?",
+                "romaji": "KER-nen zee meer nokh ayn glahs VAHS-ser BRING-en?",
+                "japanese": "もう1杯の水をお持ちいただけますか？",
+                "usage": "追加オーダー"
+              },
+              {
+                "german": "Die Rechnung bitte.",
+                "romaji": "dee RAKH-noong BIT-uh",
+                "japanese": "お会計をお願いします。",
+                "usage": "会計リクエスト"
+              }
+            ]
+          },
+          {
+            "title": "支払いと評価",
+            "phrases": [
+              {
+                "german": "Zusammen oder getrennt?",
+                "romaji": "tsoo-zah-men OH-der guh-TRENNT?",
+                "japanese": "一緒にまたは別ですか？",
+                "usage": "支払い方法確認（ウェイターの質問）"
+              },
+              {
+                "german": "Zusammen bitte.",
+                "romaji": "tsoo-zah-men BIT-uh",
+                "japanese": "一緒でお願いします。",
+                "usage": "支払い方法の指定"
+              },
+              {
+                "german": "Das Essen war hervorragend.",
+                "romaji": "dahs ES-sen var hair-FOR-rah-gent",
+                "japanese": "食事は素晴らしかったです。",
+                "usage": "感謝と感想"
+              },
+              {
+                "german": "Ein Trinkgeld für Sie.",
+                "romaji": "ayn TRINK-gelt für zee",
+                "japanese": "チップです。",
+                "usage": "チップ提供"
+              }
+            ]
+          },
+          {
+            "title": "ドイツ料理の代表的なメニュー",
+            "items": [
+              {"german": "Schnitzel", "japanese": "シュニッツェル（肉のカツ）"},
+              {"german": "Bratwurst", "japanese": "ブラートヴルスト（ソーセージ）"},
+              {"german": "Sauerbraten", "japanese": "ザウアーブラーテン（酢漬け肉）"},
+              {"german": "Kartoffelpuffer", "japanese": "ジャガイモパンケーキ"},
+              {"german": "Spätzle", "japanese": "シュペッツレ（ドイツ風パスタ）"},
+              {"german": "Pretzels", "japanese": "プレッツェル（塩辛いパン）"},
+              {"german": "Schwarzwälder Kirschtorte", "japanese": "黒い森のケーキ"},
+              {"german": "Apfelstrudel", "japanese": "アップルシュトルーデル"}
+            ]
           }
         ]
-      }
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-005-q1",
+          "type": "fill-blank",
+          "question": "「メニューをください」をドイツ語で言ってください。",
+          "hint": "「Die Speisekarte」で始まります",
+          "answer": "Die Speisekarte bitte."
+        },
+        {
+          "id": "de-005-q2",
+          "type": "fill-blank",
+          "question": "「2名のテーブルを予約したいです」をドイツ語で言ってください。",
+          "hint": "「Ich möchte」で始まります",
+          "answer": "Ich möchte einen Tisch für zwei Personen reservieren."
+        },
+        {
+          "id": "de-005-q3",
+          "type": "multiple-choice",
+          "question": "「Das ist köstlich」という表現の意味として正しいのはどれですか？",
+          "options": [
+            "これは絶品です",
+            "これは高価です",
+            "これは辛いです",
+            "これは新鮮です"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-005-q4",
+          "type": "fill-blank",
+          "question": "「私はベジタリアンです」をドイツ語で言ってください。",
+          "answer": "Ich bin Vegetarier."
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツレストラン実践会話",
+          "url": "#",
+          "duration": "12分"
+        },
+        {
+          "type": "grammar",
+          "title": "敬語と丁寧な表現",
+          "content": "レストランでは一貫して敬語を使用します。Könnten Sie～? や Bitte... などの表現が基本。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツ食文化",
+          "content": "ドイツではチップ（Trinkgeld）は義務的ではなく、サービスに満足した場合に5-10%を目安に渡します。"
+        }
+      ]
     },
     {
       "id": "de-006",
-      "level": 6,
-      "title": "Dativ（与格）- 間接目的語と所在地表現",
-      "titleDe": "Der Dativ - Indirektes Objekt",
-      "objectives": [
-        "与格の役割を理解する",
-        "間接目的語として機能する条件",
-        "所在地表現での使用法"
-      ],
-      "content": {
-        "introduction": "与格（Dativ）は動詞の間接目的語となり、場所や対象を示します。",
-        "sections": [
-          {
-            "title": "Dativ（与格）- 間接目的語と所在地表現",
-            "content": "与格に関する学習内容。このレッスンでは、Dativ（与格）- 間接目的語と所在地表現について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-007",
-      "level": 6,
-      "title": "Genitiv（属格）- 所有と属性関係",
-      "titleDe": "Der Genitiv - Besitz und Zugehörigkeit",
-      "objectives": [
-        "属格の役割を理解する",
-        "所有を表現する方法",
-        "属性関係の構造を学ぶ"
-      ],
-      "content": {
-        "introduction": "属格（Genitiv）は所有と属性関係を表現します。現代ドイツ語では与格で置き換わることもあります。",
-        "sections": [
-          {
-            "title": "Genitiv（属格）- 所有と属性関係",
-            "content": "属格に関する学習内容。このレッスンでは、Genitiv（属格）- 所有と属性関係について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-008",
-      "level": 6,
-      "title": "格と前置詞の関係 - 支配格（Rektion）",
-      "titleDe": "Präpositionen und Kasus",
-      "objectives": [
-        "支配格の概念を理解する",
-        "与格支配前置詞を習得する",
-        "対格支配前置詞を習得する"
-      ],
-      "content": {
-        "introduction": "前置詞は特定の格を支配します。このセクションでは、前置詞と格の関係（支配格）を完全に習得します。",
-        "sections": [
-          {
-            "title": "格と前置詞の関係 - 支配格（Rektion）",
-            "content": "前置詞と格に関する学習内容。このレッスンでは、格と前置詞の関係 - 支配格（Rektion）について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-009",
-      "level": 6,
-      "title": "ドイツ語文法 - 与格支配前置詞の完全マスター",
-      "titleDe": "Grammatik: 与格支配前置詞の完全マスター",
-      "objectives": [
-        "与格支配前置詞の完全マスターを習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "与格支配前置詞の完全マスターに関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 与格支配前置詞の完全マスター",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 与格支配前置詞の完全マスターについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-010",
-      "level": 6,
-      "title": "ドイツ語文法 - 対格支配前置詞の完全マスター",
-      "titleDe": "Grammatik: 対格支配前置詞の完全マスター",
-      "objectives": [
-        "対格支配前置詞の完全マスターを習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "対格支配前置詞の完全マスターに関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 対格支配前置詞の完全マスター",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 対格支配前置詞の完全マスターについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-011",
-      "level": 6,
-      "title": "ドイツ語文法 - 両格支配前置詞の使い分け",
-      "titleDe": "Grammatik: 両格支配前置詞の使い分け",
-      "objectives": [
-        "両格支配前置詞の使い分けを習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "両格支配前置詞の使い分けに関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 両格支配前置詞の使い分け",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 両格支配前置詞の使い分けについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-012",
-      "level": 6,
-      "title": "ドイツ語文法 - 属格支配前置詞の用法",
-      "titleDe": "Grammatik: 属格支配前置詞の用法",
-      "objectives": [
-        "属格支配前置詞の用法を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "属格支配前置詞の用法に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 属格支配前置詞の用法",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 属格支配前置詞の用法について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-013",
-      "level": 6,
-      "title": "ドイツ語文法 - 名詞の性（Genus）と決定方法",
-      "titleDe": "Grammatik: 名詞の性（Genus）と決定方法",
-      "objectives": [
-        "名詞の性（Genus）と決定方法を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "名詞の性（Genus）と決定方法に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 名詞の性（Genus）と決定方法",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 名詞の性（Genus）と決定方法について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-014",
-      "level": 6,
-      "title": "ドイツ語文法 - 名詞の複数形の作り方",
-      "titleDe": "Grammatik: 名詞の複数形の作り方",
-      "objectives": [
-        "名詞の複数形の作り方を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "名詞の複数形の作り方に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 名詞の複数形の作り方",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 名詞の複数形の作り方について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-015",
-      "level": 6,
-      "title": "ドイツ語文法 - 弱変化名詞の格変化",
-      "titleDe": "Grammatik: 弱変化名詞の格変化",
-      "objectives": [
-        "弱変化名詞の格変化を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "弱変化名詞の格変化に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 弱変化名詞の格変化",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 弱変化名詞の格変化について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-016",
-      "level": 6,
-      "title": "ドイツ語文法 - 混合変化名詞の格変化",
-      "titleDe": "Grammatik: 混合変化名詞の格変化",
-      "objectives": [
-        "混合変化名詞の格変化を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "混合変化名詞の格変化に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 混合変化名詞の格変化",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 混合変化名詞の格変化について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-017",
-      "level": 6,
-      "title": "ドイツ語文法 - 形容詞の格変化 - 定冠詞型",
-      "titleDe": "Grammatik: 形容詞の格変化 - 定冠詞型",
-      "objectives": [
-        "形容詞の格変化 - 定冠詞型を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "形容詞の格変化 - 定冠詞型に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 形容詞の格変化 - 定冠詞型",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 形容詞の格変化 - 定冠詞型について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-018",
-      "level": 6,
-      "title": "ドイツ語文法 - 形容詞の格変化 - 不定冠詞型",
-      "titleDe": "Grammatik: 形容詞の格変化 - 不定冠詞型",
-      "objectives": [
-        "形容詞の格変化 - 不定冠詞型を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "形容詞の格変化 - 不定冠詞型に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 形容詞の格変化 - 不定冠詞型",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 形容詞の格変化 - 不定冠詞型について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-019",
-      "level": 6,
-      "title": "ドイツ語文法 - 形容詞の格変化 - 無冠詞型",
-      "titleDe": "Grammatik: 形容詞の格変化 - 無冠詞型",
-      "objectives": [
-        "形容詞の格変化 - 無冠詞型を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "形容詞の格変化 - 無冠詞型に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 形容詞の格変化 - 無冠詞型",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 形容詞の格変化 - 無冠詞型について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-020",
-      "level": 6,
-      "title": "ドイツ語文法 - 形容詞の比較級と最上級",
-      "titleDe": "Grammatik: 形容詞の比較級と最上級",
-      "objectives": [
-        "形容詞の比較級と最上級を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "形容詞の比較級と最上級に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 形容詞の比較級と最上級",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 形容詞の比較級と最上級について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-021",
-      "level": 6,
-      "title": "ドイツ語文法 - 人称代名詞の完全マスター",
-      "titleDe": "Grammatik: 人称代名詞の完全マスター",
-      "objectives": [
-        "人称代名詞の完全マスターを習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "人称代名詞の完全マスターに関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 人称代名詞の完全マスター",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 人称代名詞の完全マスターについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-022",
-      "level": 6,
-      "title": "ドイツ語文法 - 指示代名詞 dieser, solcher, welcher",
-      "titleDe": "Grammatik: 指示代名詞 dieser, solcher, welcher",
-      "objectives": [
-        "指示代名詞 dieser, solcher, welcherを習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "指示代名詞 dieser, solcher, welcherに関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 指示代名詞 dieser, solcher, welcher",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 指示代名詞 dieser, solcher, welcherについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-023",
-      "level": 6,
-      "title": "ドイツ語文法 - 所有代名詞の格変化",
-      "titleDe": "Grammatik: 所有代名詞の格変化",
-      "objectives": [
-        "所有代名詞の格変化を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "所有代名詞の格変化に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 所有代名詞の格変化",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 所有代名詞の格変化について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-024",
-      "level": 6,
-      "title": "ドイツ語文法 - 疑問詞の格変化",
-      "titleDe": "Grammatik: 疑問詞の格変化",
-      "objectives": [
-        "疑問詞の格変化を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "疑問詞の格変化に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 疑問詞の格変化",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 疑問詞の格変化について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-025",
-      "level": 6,
-      "title": "ドイツ語文法 - 関係代名詞の用法",
-      "titleDe": "Grammatik: 関係代名詞の用法",
-      "objectives": [
-        "関係代名詞の用法を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "関係代名詞の用法に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 関係代名詞の用法",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 関係代名詞の用法について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-026",
-      "level": 6,
-      "title": "ドイツ語文法 - 再帰代名詞と反射動詞",
-      "titleDe": "Grammatik: 再帰代名詞と反射動詞",
-      "objectives": [
-        "再帰代名詞と反射動詞を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "再帰代名詞と反射動詞に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 再帰代名詞と反射動詞",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 再帰代名詞と反射動詞について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-027",
-      "level": 6,
-      "title": "ドイツ語文法 - 冠詞の使い分け規則",
-      "titleDe": "Grammatik: 冠詞の使い分け規則",
-      "objectives": [
-        "冠詞の使い分け規則を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "冠詞の使い分け規則に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 冠詞の使い分け規則",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 冠詞の使い分け規則について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-028",
-      "level": 6,
-      "title": "ドイツ語文法 - 冠詞の省略パターン",
-      "titleDe": "Grammatik: 冠詞の省略パターン",
-      "objectives": [
-        "冠詞の省略パターンを習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "冠詞の省略パターンに関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 冠詞の省略パターン",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 冠詞の省略パターンについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-029",
-      "level": 6,
-      "title": "ドイツ語文法 - 格変化の総合演習1",
-      "titleDe": "Grammatik: 格変化の総合演習1",
-      "objectives": [
-        "格変化の総合演習1を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "格変化の総合演習1に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 格変化の総合演習1",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 格変化の総合演習1について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-030",
-      "level": 6,
-      "title": "ドイツ語文法 - 格変化の総合演習2",
-      "titleDe": "Grammatik: 格変化の総合演習2",
-      "objectives": [
-        "格変化の総合演習2を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "格変化の総合演習2に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 格変化の総合演習2",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 格変化の総合演習2について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-031",
-      "level": 6,
-      "title": "ドイツ語文法 - 複雑な格変化の分析",
-      "titleDe": "Grammatik: 複雑な格変化の分析",
-      "objectives": [
-        "複雑な格変化の分析を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "複雑な格変化の分析に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 複雑な格変化の分析",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 複雑な格変化の分析について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-032",
-      "level": 6,
-      "title": "ドイツ語文法 - 格変化の実践例文",
-      "titleDe": "Grammatik: 格変化の実践例文",
-      "objectives": [
-        "格変化の実践例文を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "格変化の実践例文に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 格変化の実践例文",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 格変化の実践例文について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-033",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語の基本構造と形成規則",
-      "titleDe": "Zusammensetzung: 複合語の基本構造と形成規則",
-      "objectives": [
-        "複合語の基本構造と形成規則を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語の基本構造と形成規則に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語の基本構造と形成規則",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語の基本構造と形成規則について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-034",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 名詞+名詞の複合語",
-      "titleDe": "Zusammensetzung: 名詞+名詞の複合語",
-      "objectives": [
-        "名詞+名詞の複合語を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "名詞+名詞の複合語に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 名詞+名詞の複合語",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 名詞+名詞の複合語について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-035",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 形容詞+名詞の複合語",
-      "titleDe": "Zusammensetzung: 形容詞+名詞の複合語",
-      "objectives": [
-        "形容詞+名詞の複合語を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "形容詞+名詞の複合語に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 形容詞+名詞の複合語",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 形容詞+名詞の複合語について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-036",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 動詞+名詞の複合語",
-      "titleDe": "Zusammensetzung: 動詞+名詞の複合語",
-      "objectives": [
-        "動詞+名詞の複合語を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "動詞+名詞の複合語に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 動詞+名詞の複合語",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 動詞+名詞の複合語について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-037",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語の性（Genus）の決定",
-      "titleDe": "Zusammensetzung: 複合語の性（Genus）の決定",
-      "objectives": [
-        "複合語の性（Genus）の決定を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語の性（Genus）の決定に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語の性（Genus）の決定",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語の性（Genus）の決定について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-038",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語の複数形の作り方",
-      "titleDe": "Zusammensetzung: 複合語の複数形の作り方",
-      "objectives": [
-        "複合語の複数形の作り方を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語の複数形の作り方に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語の複数形の作り方",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語の複数形の作り方について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-039",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語への接尾辞の付加",
-      "titleDe": "Zusammensetzung: 複合語への接尾辞の付加",
-      "objectives": [
-        "複合語への接尾辞の付加を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語への接尾辞の付加に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語への接尾辞の付加",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語への接尾辞の付加について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-040",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語への接頭辞の付加",
-      "titleDe": "Zusammensetzung: 複合語への接頭辞の付加",
-      "objectives": [
-        "複合語への接頭辞の付加を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語への接頭辞の付加に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語への接頭辞の付加",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語への接頭辞の付加について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-041",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語の意味の非字義性",
-      "titleDe": "Zusammensetzung: 複合語の意味の非字義性",
-      "objectives": [
-        "複合語の意味の非字義性を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語の意味の非字義性に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語の意味の非字義性",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語の意味の非字義性について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-042",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 分離可能複合動詞（Trennbare Verben）",
-      "titleDe": "Zusammensetzung: 分離可能複合動詞（Trennbare Verben）",
-      "objectives": [
-        "分離可能複合動詞（Trennbare Verben）を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "分離可能複合動詞（Trennbare Verben）に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 分離可能複合動詞（Trennbare Verben）",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 分離可能複合動詞（Trennbare Verben）について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-043",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 非分離複合動詞（Untrennbare Verben）",
-      "titleDe": "Zusammensetzung: 非分離複合動詞（Untrennbare Verben）",
-      "objectives": [
-        "非分離複合動詞（Untrennbare Verben）を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "非分離複合動詞（Untrennbare Verben）に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 非分離複合動詞（Untrennbare Verben）",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 非分離複合動詞（Untrennbare Verben）について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-044",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合動詞の活用パターン",
-      "titleDe": "Zusammensetzung: 複合動詞の活用パターン",
-      "objectives": [
-        "複合動詞の活用パターンを習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合動詞の活用パターンに関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合動詞の活用パターン",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合動詞の活用パターンについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-045",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合動詞の過去分詞形成",
-      "titleDe": "Zusammensetzung: 複合動詞の過去分詞形成",
-      "objectives": [
-        "複合動詞の過去分詞形成を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合動詞の過去分詞形成に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合動詞の過去分詞形成",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合動詞の過去分詞形成について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-046",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合形容詞の形成と活用",
-      "titleDe": "Zusammensetzung: 複合形容詞の形成と活用",
-      "objectives": [
-        "複合形容詞の形成と活用を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合形容詞の形成と活用に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合形容詞の形成と活用",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合形容詞の形成と活用について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-047",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合副詞の形成",
-      "titleDe": "Zusammensetzung: 複合副詞の形成",
-      "objectives": [
-        "複合副詞の形成を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合副詞の形成に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合副詞の形成",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合副詞の形成について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-048",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合前置詞の用法",
-      "titleDe": "Zusammensetzung: 複合前置詞の用法",
-      "objectives": [
-        "複合前置詞の用法を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合前置詞の用法に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合前置詞の用法",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合前置詞の用法について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-049",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合接続詞の用法",
-      "titleDe": "Zusammensetzung: 複合接続詞の用法",
-      "objectives": [
-        "複合接続詞の用法を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合接続詞の用法に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合接続詞の用法",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合接続詞の用法について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-050",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合数詞と序数",
-      "titleDe": "Zusammensetzung: 複合数詞と序数",
-      "objectives": [
-        "複合数詞と序数を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合数詞と序数に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合数詞と序数",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合数詞と序数について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-051",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語の語根変化",
-      "titleDe": "Zusammensetzung: 複合語の語根変化",
-      "objectives": [
-        "複合語の語根変化を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語の語根変化に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語の語根変化",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語の語根変化について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-052",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語とその言い換え",
-      "titleDe": "Zusammensetzung: 複合語とその言い換え",
-      "objectives": [
-        "複合語とその言い換えを習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語とその言い換えに関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語とその言い換え",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語とその言い換えについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-053",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語の発音パターン",
-      "titleDe": "Zusammensetzung: 複合語の発音パターン",
-      "objectives": [
-        "複合語の発音パターンを習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語の発音パターンに関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語の発音パターン",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語の発音パターンについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-054",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語の同義語との違い",
-      "titleDe": "Zusammensetzung: 複合語の同義語との違い",
-      "objectives": [
-        "複合語の同義語との違いを習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語の同義語との違いに関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語の同義語との違い",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語の同義語との違いについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-055",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語辞書と頻出100語",
-      "titleDe": "Zusammensetzung: 複合語辞書と頻出100語",
-      "objectives": [
-        "複合語辞書と頻出100語を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語辞書と頻出100語に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語辞書と頻出100語",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語辞書と頻出100語について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-056",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語の分解と推測法",
-      "titleDe": "Zusammensetzung: 複合語の分解と推測法",
-      "objectives": [
-        "複合語の分解と推測法を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語の分解と推測法に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語の分解と推測法",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語の分解と推測法について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-057",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語の実践練習と問題集",
-      "titleDe": "Zusammensetzung: 複合語の実践練習と問題集",
-      "objectives": [
-        "複合語の実践練習と問題集を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語の実践練習と問題集に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語の実践練習と問題集",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語の実践練習と問題集について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-058",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語の音韻体系と音声学",
-      "titleDe": "Aussprache: ドイツ語の音韻体系と音声学",
-      "objectives": [
-        "ドイツ語の音韻体系と音声学を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語の音韻体系と音声学に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語の音韻体系と音声学",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語の音韻体系と音声学について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-059",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語の単母音の発音",
-      "titleDe": "Aussprache: ドイツ語の単母音の発音",
-      "objectives": [
-        "ドイツ語の単母音の発音を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語の単母音の発音に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語の単母音の発音",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語の単母音の発音について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-060",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語の長音と短音の区別",
-      "titleDe": "Aussprache: ドイツ語の長音と短音の区別",
-      "objectives": [
-        "ドイツ語の長音と短音の区別を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語の長音と短音の区別に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語の長音と短音の区別",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語の長音と短音の区別について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-061",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ウムラウト（ä, ö, ü）の正しい発音",
-      "titleDe": "Aussprache: ウムラウト（ä, ö, ü）の正しい発音",
-      "objectives": [
-        "ウムラウト（ä, ö, ü）の正しい発音を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ウムラウト（ä, ö, ü）の正しい発音に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ウムラウト（ä, ö, ü）の正しい発音",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ウムラウト（ä, ö, ü）の正しい発音について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-062",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - 二重母音（ei, ai, au, eu, äu）の発音",
-      "titleDe": "Aussprache: 二重母音（ei, ai, au, eu, äu）の発音",
-      "objectives": [
-        "二重母音（ei, ai, au, eu, äu）の発音を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "二重母音（ei, ai, au, eu, äu）の発音に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - 二重母音（ei, ai, au, eu, äu）の発音",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - 二重母音（ei, ai, au, eu, äu）の発音について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-063",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語の破裂音（p, b, t, d, k, g）",
-      "titleDe": "Aussprache: ドイツ語の破裂音（p, b, t, d, k, g）",
-      "objectives": [
-        "ドイツ語の破裂音（p, b, t, d, k, g）を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語の破裂音（p, b, t, d, k, g）に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語の破裂音（p, b, t, d, k, g）",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語の破裂音（p, b, t, d, k, g）について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-064",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語の摩擦音（f, v, s, z, sch, ch）",
-      "titleDe": "Aussprache: ドイツ語の摩擦音（f, v, s, z, sch, ch）",
-      "objectives": [
-        "ドイツ語の摩擦音（f, v, s, z, sch, ch）を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語の摩擦音（f, v, s, z, sch, ch）に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語の摩擦音（f, v, s, z, sch, ch）",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語の摩擦音（f, v, s, z, sch, ch）について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-065",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語のr音 - 標準発音",
-      "titleDe": "Aussprache: ドイツ語のr音 - 標準発音",
-      "objectives": [
-        "ドイツ語のr音 - 標準発音を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語のr音 - 標準発音に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語のr音 - 標準発音",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語のr音 - 標準発音について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-066",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語の鼻音と液音（m, n, ng, l）",
-      "titleDe": "Aussprache: ドイツ語の鼻音と液音（m, n, ng, l）",
-      "objectives": [
-        "ドイツ語の鼻音と液音（m, n, ng, l）を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語の鼻音と液音（m, n, ng, l）に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語の鼻音と液音（m, n, ng, l）",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語の鼻音と液音（m, n, ng, l）について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-067",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - 語末の-ig, -lich, -keitの発音",
-      "titleDe": "Aussprache: 語末の-ig, -lich, -keitの発音",
-      "objectives": [
-        "語末の-ig, -lich, -keitの発音を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "語末の-ig, -lich, -keitの発音に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - 語末の-ig, -lich, -keitの発音",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - 語末の-ig, -lich, -keitの発音について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-068",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語の語幹強調（Wortakzent）",
-      "titleDe": "Aussprache: ドイツ語の語幹強調（Wortakzent）",
-      "objectives": [
-        "ドイツ語の語幹強調（Wortakzent）を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語の語幹強調（Wortakzent）に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語の語幹強調（Wortakzent）",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語の語幹強調（Wortakzent）について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-069",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - 複合語の語幹強調パターン",
-      "titleDe": "Aussprache: 複合語の語幹強調パターン",
-      "objectives": [
-        "複合語の語幹強調パターンを習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "複合語の語幹強調パターンに関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - 複合語の語幹強調パターン",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - 複合語の語幹強調パターンについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-070",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - 文中のイントネーション",
-      "titleDe": "Aussprache: 文中のイントネーション",
-      "objectives": [
-        "文中のイントネーションを習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "文中のイントネーションに関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - 文中のイントネーション",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - 文中のイントネーションについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-071",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - 陳述文と疑問文の抑揚の違い",
-      "titleDe": "Aussprache: 陳述文と疑問文の抑揚の違い",
-      "objectives": [
-        "陳述文と疑問文の抑揚の違いを習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "陳述文と疑問文の抑揚の違いに関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - 陳述文と疑問文の抑揚の違い",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - 陳述文と疑問文の抑揚の違いについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-072",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - 音のリエゾンと連結",
-      "titleDe": "Aussprache: 音のリエゾンと連結",
-      "objectives": [
-        "音のリエゾンと連結を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "音のリエゾンと連結に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - 音のリエゾンと連結",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - 音のリエゾンと連結について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-073",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語の方言差（北部・南部・オーストリア）",
-      "titleDe": "Aussprache: ドイツ語の方言差（北部・南部・オーストリア）",
-      "objectives": [
-        "ドイツ語の方言差（北部・南部・オーストリア）を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語の方言差（北部・南部・オーストリア）に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語の方言差（北部・南部・オーストリア）",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語の方言差（北部・南部・オーストリア）について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-074",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - 国際音声記号（IPA）の使い方",
-      "titleDe": "Aussprache: 国際音声記号（IPA）の使い方",
-      "objectives": [
-        "国際音声記号（IPA）の使い方を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "国際音声記号（IPA）の使い方に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - 国際音声記号（IPA）の使い方",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - 国際音声記号（IPA）の使い方について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-075",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語と英語の発音比較",
-      "titleDe": "Aussprache: ドイツ語と英語の発音比較",
-      "objectives": [
-        "ドイツ語と英語の発音比較を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語と英語の発音比較に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語と英語の発音比較",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語と英語の発音比較について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-076",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - 発音改善のための練習法",
-      "titleDe": "Aussprache: 発音改善のための練習法",
-      "objectives": [
-        "発音改善のための練習法を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "発音改善のための練習法に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - 発音改善のための練習法",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - 発音改善のための練習法について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-077",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - シャドーイングと聴解トレーニング",
-      "titleDe": "Aussprache: シャドーイングと聴解トレーニング",
-      "objectives": [
-        "シャドーイングと聴解トレーニングを習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "シャドーイングと聴解トレーニングに関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - シャドーイングと聴解トレーニング",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - シャドーイングと聴解トレーニングについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-078",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ文学の抜粋と読解",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ文学の抜粋と読解",
-      "objectives": [
-        "ドイツ文学の抜粋と読解を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ文学の抜粋と読解を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ文学の抜粋と読解",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ文学の抜粋と読解について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-079",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツのニュース記事とメディア",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツのニュース記事とメディア",
-      "objectives": [
-        "ドイツのニュース記事とメディアを習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツのニュース記事とメディアを通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツのニュース記事とメディア",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツのニュース記事とメディアについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-080",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ビジネスドイツ語 - 文書とメール",
-      "titleDe": "Fortgeschrittenes Deutsch: ビジネスドイツ語 - 文書とメール",
-      "objectives": [
-        "ビジネスドイツ語 - 文書とメールを習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ビジネスドイツ語 - 文書とメールを通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ビジネスドイツ語 - 文書とメール",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ビジネスドイツ語 - 文書とメールについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-081",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ビジネスドイツ語 - プレゼンテーション",
-      "titleDe": "Fortgeschrittenes Deutsch: ビジネスドイツ語 - プレゼンテーション",
-      "objectives": [
-        "ビジネスドイツ語 - プレゼンテーションを習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ビジネスドイツ語 - プレゼンテーションを通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ビジネスドイツ語 - プレゼンテーション",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ビジネスドイツ語 - プレゼンテーションについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-082",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ文化と言語使用",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ文化と言語使用",
-      "objectives": [
-        "ドイツ文化と言語使用を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ文化と言語使用を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ文化と言語使用",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ文化と言語使用について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-083",
-      "level": 6,
-      "title": "ドイツ語上級講座 - 映画とドイツ語 - スクリーンドイツ語",
-      "titleDe": "Fortgeschrittenes Deutsch: 映画とドイツ語 - スクリーンドイツ語",
-      "objectives": [
-        "映画とドイツ語 - スクリーンドイツ語を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "映画とドイツ語 - スクリーンドイツ語を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - 映画とドイツ語 - スクリーンドイツ語",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - 映画とドイツ語 - スクリーンドイツ語について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-084",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ語の歌詞と音楽",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ語の歌詞と音楽",
-      "objectives": [
-        "ドイツ語の歌詞と音楽を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ語の歌詞と音楽を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ語の歌詞と音楽",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ語の歌詞と音楽について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-085",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ語インタビューと会話",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ語インタビューと会話",
-      "objectives": [
-        "ドイツ語インタビューと会話を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ語インタビューと会話を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ語インタビューと会話",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ語インタビューと会話について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-086",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ポッドキャストとラジオのドイツ語",
-      "titleDe": "Fortgeschrittenes Deutsch: ポッドキャストとラジオのドイツ語",
-      "objectives": [
-        "ポッドキャストとラジオのドイツ語を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ポッドキャストとラジオのドイツ語を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ポッドキャストとラジオのドイツ語",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ポッドキャストとラジオのドイツ語について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-087",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ語テレビドラマの視聴",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ語テレビドラマの視聴",
-      "objectives": [
-        "ドイツ語テレビドラマの視聴を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ語テレビドラマの視聴を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ語テレビドラマの視聴",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ語テレビドラマの視聴について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-088",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ語SNSと日常用語",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ語SNSと日常用語",
-      "objectives": [
-        "ドイツ語SNSと日常用語を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ語SNSと日常用語を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ語SNSと日常用語",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ語SNSと日常用語について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-089",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ語のユーモアと言葉遊び",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ語のユーモアと言葉遊び",
-      "objectives": [
-        "ドイツ語のユーモアと言葉遊びを習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ語のユーモアと言葉遊びを通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ語のユーモアと言葉遊び",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ語のユーモアと言葉遊びについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-090",
-      "level": 6,
-      "title": "ドイツ語上級講座 - 地域別ドイツ語方言の特徴",
-      "titleDe": "Fortgeschrittenes Deutsch: 地域別ドイツ語方言の特徴",
-      "objectives": [
-        "地域別ドイツ語方言の特徴を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "地域別ドイツ語方言の特徴を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - 地域別ドイツ語方言の特徴",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - 地域別ドイツ語方言の特徴について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-091",
-      "level": 6,
-      "title": "ドイツ語上級講座 - 歴史的ドイツ語の変化",
-      "titleDe": "Fortgeschrittenes Deutsch: 歴史的ドイツ語の変化",
-      "objectives": [
-        "歴史的ドイツ語の変化を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "歴史的ドイツ語の変化を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - 歴史的ドイツ語の変化",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - 歴史的ドイツ語の変化について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-092",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ語の標準化と正書法",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ語の標準化と正書法",
-      "objectives": [
-        "ドイツ語の標準化と正書法を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ語の標準化と正書法を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ語の標準化と正書法",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ語の標準化と正書法について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-093",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ語の最新用語と造語",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ語の最新用語と造語",
-      "objectives": [
-        "ドイツ語の最新用語と造語を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ語の最新用語と造語を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ語の最新用語と造語",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ語の最新用語と造語について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-094",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ語の敬語と社会言語学",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ語の敬語と社会言語学",
-      "objectives": [
-        "ドイツ語の敬語と社会言語学を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ語の敬語と社会言語学を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ語の敬語と社会言語学",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ語の敬語と社会言語学について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-095",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ語のジェンダー表現",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ語のジェンダー表現",
-      "objectives": [
-        "ドイツ語のジェンダー表現を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ語のジェンダー表現を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ語のジェンダー表現",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ語のジェンダー表現について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-096",
-      "level": 6,
-      "title": "ドイツ語上級講座 - 技術用語とドイツ語",
-      "titleDe": "Fortgeschrittenes Deutsch: 技術用語とドイツ語",
-      "objectives": [
-        "技術用語とドイツ語を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "技術用語とドイツ語を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - 技術用語とドイツ語",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - 技術用語とドイツ語について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-097",
-      "level": 6,
-      "title": "ドイツ語上級講座 - 医学用語とドイツ語",
-      "titleDe": "Fortgeschrittenes Deutsch: 医学用語とドイツ語",
-      "objectives": [
-        "医学用語とドイツ語を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "医学用語とドイツ語を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - 医学用語とドイツ語",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - 医学用語とドイツ語について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-098",
-      "level": 6,
-      "title": "ドイツ語の格（Kasus）- 4格システム概論",
-      "titleDe": "Das deutsche Kasussystem - Überblick",
-      "objectives": [
-        "4つの格の役割を理解する",
-        "格による語順と意味変化を学ぶ",
-        "格の基本的な使い分けを習得する"
-      ],
-      "content": {
-        "introduction": "ドイツ語の格（Kasus）システムは言語の基礎です。英語と異なり、ドイツ語では名詞・冠詞・形容詞が4つの格で大きく変化します。",
-        "sections": [
-          {
-            "title": "ドイツ語の格（Kasus）- 4格システム概論",
-            "content": "格システムに関する学習内容。このレッスンでは、ドイツ語の格（Kasus）- 4格システム概論について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-099",
-      "level": 6,
-      "title": "Nominativ（主格）の詳細用法",
-      "titleDe": "Der Nominativ - Grundlagen",
-      "objectives": [
-        "主格の役割を理解する",
-        "文の主語として機能する条件",
-        "述語名詞の概念を学ぶ"
-      ],
-      "content": {
-        "introduction": "主格（Nominativ）は文の主語と述語名詞として機能する最も基本的な格です。",
-        "sections": [
-          {
-            "title": "Nominativ（主格）の詳細用法",
-            "content": "主格に関する学習内容。このレッスンでは、Nominativ（主格）の詳細用法について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-100",
-      "level": 6,
-      "title": "Akkusativ（対格）- 直接目的語と時間表現",
-      "titleDe": "Der Akkusativ - Direktes Objekt",
-      "objectives": [
-        "対格の役割を理解する",
-        "直接目的語として機能する条件",
-        "時間・距離表現での使用法"
-      ],
-      "content": {
-        "introduction": "対格（Akkusativ）は動詞の直接目的語となり、時間・距離を表現します。",
-        "sections": [
-          {
-            "title": "Akkusativ（対格）- 直接目的語と時間表現",
-            "content": "対格に関する学習内容。このレッスンでは、Akkusativ（対格）- 直接目的語と時間表現について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-101",
-      "level": 6,
-      "title": "Dativ（与格）- 間接目的語と所在地表現",
-      "titleDe": "Der Dativ - Indirektes Objekt",
-      "objectives": [
-        "与格の役割を理解する",
-        "間接目的語として機能する条件",
-        "所在地表現での使用法"
-      ],
-      "content": {
-        "introduction": "与格（Dativ）は動詞の間接目的語となり、場所や対象を示します。",
-        "sections": [
-          {
-            "title": "Dativ（与格）- 間接目的語と所在地表現",
-            "content": "与格に関する学習内容。このレッスンでは、Dativ（与格）- 間接目的語と所在地表現について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-102",
-      "level": 6,
-      "title": "Genitiv（属格）- 所有と属性関係",
-      "titleDe": "Der Genitiv - Besitz und Zugehörigkeit",
-      "objectives": [
-        "属格の役割を理解する",
-        "所有を表現する方法",
-        "属性関係の構造を学ぶ"
-      ],
-      "content": {
-        "introduction": "属格（Genitiv）は所有と属性関係を表現します。現代ドイツ語では与格で置き換わることもあります。",
-        "sections": [
-          {
-            "title": "Genitiv（属格）- 所有と属性関係",
-            "content": "属格に関する学習内容。このレッスンでは、Genitiv（属格）- 所有と属性関係について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-103",
-      "level": 6,
-      "title": "格と前置詞の関係 - 支配格（Rektion）",
-      "titleDe": "Präpositionen und Kasus",
-      "objectives": [
-        "支配格の概念を理解する",
-        "与格支配前置詞を習得する",
-        "対格支配前置詞を習得する"
-      ],
-      "content": {
-        "introduction": "前置詞は特定の格を支配します。このセクションでは、前置詞と格の関係（支配格）を完全に習得します。",
-        "sections": [
-          {
-            "title": "格と前置詞の関係 - 支配格（Rektion）",
-            "content": "前置詞と格に関する学習内容。このレッスンでは、格と前置詞の関係 - 支配格（Rektion）について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-104",
-      "level": 6,
-      "title": "ドイツ語文法 - 与格支配前置詞の完全マスター",
-      "titleDe": "Grammatik: 与格支配前置詞の完全マスター",
-      "objectives": [
-        "与格支配前置詞の完全マスターを習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "与格支配前置詞の完全マスターに関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 与格支配前置詞の完全マスター",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 与格支配前置詞の完全マスターについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-105",
-      "level": 6,
-      "title": "ドイツ語文法 - 対格支配前置詞の完全マスター",
-      "titleDe": "Grammatik: 対格支配前置詞の完全マスター",
-      "objectives": [
-        "対格支配前置詞の完全マスターを習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "対格支配前置詞の完全マスターに関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 対格支配前置詞の完全マスター",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 対格支配前置詞の完全マスターについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-106",
-      "level": 6,
-      "title": "ドイツ語文法 - 両格支配前置詞の使い分け",
-      "titleDe": "Grammatik: 両格支配前置詞の使い分け",
-      "objectives": [
-        "両格支配前置詞の使い分けを習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "両格支配前置詞の使い分けに関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 両格支配前置詞の使い分け",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 両格支配前置詞の使い分けについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-107",
-      "level": 6,
-      "title": "ドイツ語文法 - 属格支配前置詞の用法",
-      "titleDe": "Grammatik: 属格支配前置詞の用法",
-      "objectives": [
-        "属格支配前置詞の用法を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "属格支配前置詞の用法に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 属格支配前置詞の用法",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 属格支配前置詞の用法について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-108",
-      "level": 6,
-      "title": "ドイツ語文法 - 名詞の性（Genus）と決定方法",
-      "titleDe": "Grammatik: 名詞の性（Genus）と決定方法",
-      "objectives": [
-        "名詞の性（Genus）と決定方法を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "名詞の性（Genus）と決定方法に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 名詞の性（Genus）と決定方法",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 名詞の性（Genus）と決定方法について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-109",
-      "level": 6,
-      "title": "ドイツ語文法 - 名詞の複数形の作り方",
-      "titleDe": "Grammatik: 名詞の複数形の作り方",
-      "objectives": [
-        "名詞の複数形の作り方を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "名詞の複数形の作り方に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 名詞の複数形の作り方",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 名詞の複数形の作り方について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-110",
-      "level": 6,
-      "title": "ドイツ語文法 - 弱変化名詞の格変化",
-      "titleDe": "Grammatik: 弱変化名詞の格変化",
-      "objectives": [
-        "弱変化名詞の格変化を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "弱変化名詞の格変化に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 弱変化名詞の格変化",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 弱変化名詞の格変化について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-111",
-      "level": 6,
-      "title": "ドイツ語文法 - 混合変化名詞の格変化",
-      "titleDe": "Grammatik: 混合変化名詞の格変化",
-      "objectives": [
-        "混合変化名詞の格変化を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "混合変化名詞の格変化に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 混合変化名詞の格変化",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 混合変化名詞の格変化について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-112",
-      "level": 6,
-      "title": "ドイツ語文法 - 形容詞の格変化 - 定冠詞型",
-      "titleDe": "Grammatik: 形容詞の格変化 - 定冠詞型",
-      "objectives": [
-        "形容詞の格変化 - 定冠詞型を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "形容詞の格変化 - 定冠詞型に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 形容詞の格変化 - 定冠詞型",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 形容詞の格変化 - 定冠詞型について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-113",
-      "level": 6,
-      "title": "ドイツ語文法 - 形容詞の格変化 - 不定冠詞型",
-      "titleDe": "Grammatik: 形容詞の格変化 - 不定冠詞型",
-      "objectives": [
-        "形容詞の格変化 - 不定冠詞型を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "形容詞の格変化 - 不定冠詞型に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 形容詞の格変化 - 不定冠詞型",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 形容詞の格変化 - 不定冠詞型について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-114",
-      "level": 6,
-      "title": "ドイツ語文法 - 形容詞の格変化 - 無冠詞型",
-      "titleDe": "Grammatik: 形容詞の格変化 - 無冠詞型",
-      "objectives": [
-        "形容詞の格変化 - 無冠詞型を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "形容詞の格変化 - 無冠詞型に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 形容詞の格変化 - 無冠詞型",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 形容詞の格変化 - 無冠詞型について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-115",
-      "level": 6,
-      "title": "ドイツ語文法 - 形容詞の比較級と最上級",
-      "titleDe": "Grammatik: 形容詞の比較級と最上級",
-      "objectives": [
-        "形容詞の比較級と最上級を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "形容詞の比較級と最上級に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 形容詞の比較級と最上級",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 形容詞の比較級と最上級について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-116",
-      "level": 6,
-      "title": "ドイツ語文法 - 人称代名詞の完全マスター",
-      "titleDe": "Grammatik: 人称代名詞の完全マスター",
-      "objectives": [
-        "人称代名詞の完全マスターを習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "人称代名詞の完全マスターに関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 人称代名詞の完全マスター",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 人称代名詞の完全マスターについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-117",
-      "level": 6,
-      "title": "ドイツ語文法 - 指示代名詞 dieser, solcher, welcher",
-      "titleDe": "Grammatik: 指示代名詞 dieser, solcher, welcher",
-      "objectives": [
-        "指示代名詞 dieser, solcher, welcherを習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "指示代名詞 dieser, solcher, welcherに関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 指示代名詞 dieser, solcher, welcher",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 指示代名詞 dieser, solcher, welcherについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-118",
-      "level": 6,
-      "title": "ドイツ語文法 - 所有代名詞の格変化",
-      "titleDe": "Grammatik: 所有代名詞の格変化",
-      "objectives": [
-        "所有代名詞の格変化を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "所有代名詞の格変化に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 所有代名詞の格変化",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 所有代名詞の格変化について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-119",
-      "level": 6,
-      "title": "ドイツ語文法 - 疑問詞の格変化",
-      "titleDe": "Grammatik: 疑問詞の格変化",
-      "objectives": [
-        "疑問詞の格変化を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "疑問詞の格変化に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 疑問詞の格変化",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 疑問詞の格変化について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-120",
-      "level": 6,
-      "title": "ドイツ語文法 - 関係代名詞の用法",
-      "titleDe": "Grammatik: 関係代名詞の用法",
-      "objectives": [
-        "関係代名詞の用法を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "関係代名詞の用法に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 関係代名詞の用法",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 関係代名詞の用法について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-121",
-      "level": 6,
-      "title": "ドイツ語文法 - 再帰代名詞と反射動詞",
-      "titleDe": "Grammatik: 再帰代名詞と反射動詞",
-      "objectives": [
-        "再帰代名詞と反射動詞を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "再帰代名詞と反射動詞に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 再帰代名詞と反射動詞",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 再帰代名詞と反射動詞について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-122",
-      "level": 6,
-      "title": "ドイツ語文法 - 冠詞の使い分け規則",
-      "titleDe": "Grammatik: 冠詞の使い分け規則",
-      "objectives": [
-        "冠詞の使い分け規則を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "冠詞の使い分け規則に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 冠詞の使い分け規則",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 冠詞の使い分け規則について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-123",
-      "level": 6,
-      "title": "ドイツ語文法 - 冠詞の省略パターン",
-      "titleDe": "Grammatik: 冠詞の省略パターン",
-      "objectives": [
-        "冠詞の省略パターンを習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "冠詞の省略パターンに関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 冠詞の省略パターン",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 冠詞の省略パターンについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-124",
-      "level": 6,
-      "title": "ドイツ語文法 - 格変化の総合演習1",
-      "titleDe": "Grammatik: 格変化の総合演習1",
-      "objectives": [
-        "格変化の総合演習1を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "格変化の総合演習1に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 格変化の総合演習1",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 格変化の総合演習1について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-125",
-      "level": 6,
-      "title": "ドイツ語文法 - 格変化の総合演習2",
-      "titleDe": "Grammatik: 格変化の総合演習2",
-      "objectives": [
-        "格変化の総合演習2を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "格変化の総合演習2に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 格変化の総合演習2",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 格変化の総合演習2について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-126",
-      "level": 6,
-      "title": "ドイツ語文法 - 複雑な格変化の分析",
-      "titleDe": "Grammatik: 複雑な格変化の分析",
-      "objectives": [
-        "複雑な格変化の分析を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "複雑な格変化の分析に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 複雑な格変化の分析",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 複雑な格変化の分析について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-127",
-      "level": 6,
-      "title": "ドイツ語文法 - 格変化の実践例文",
-      "titleDe": "Grammatik: 格変化の実践例文",
-      "objectives": [
-        "格変化の実践例文を習得する",
-        "ドイツ語文法の深い理解",
-        "実践的な応用法"
-      ],
-      "content": {
-        "introduction": "格変化の実践例文に関する専門的なガイド。ドイツ語文法の重要な概念です。",
-        "sections": [
-          {
-            "title": "ドイツ語文法 - 格変化の実践例文",
-            "content": "格変化に関する学習内容。このレッスンでは、ドイツ語文法 - 格変化の実践例文について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-128",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語の基本構造と形成規則",
-      "titleDe": "Zusammensetzung: 複合語の基本構造と形成規則",
-      "objectives": [
-        "複合語の基本構造と形成規則を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語の基本構造と形成規則に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語の基本構造と形成規則",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語の基本構造と形成規則について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-129",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 名詞+名詞の複合語",
-      "titleDe": "Zusammensetzung: 名詞+名詞の複合語",
-      "objectives": [
-        "名詞+名詞の複合語を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "名詞+名詞の複合語に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 名詞+名詞の複合語",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 名詞+名詞の複合語について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-130",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 形容詞+名詞の複合語",
-      "titleDe": "Zusammensetzung: 形容詞+名詞の複合語",
-      "objectives": [
-        "形容詞+名詞の複合語を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "形容詞+名詞の複合語に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 形容詞+名詞の複合語",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 形容詞+名詞の複合語について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-131",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 動詞+名詞の複合語",
-      "titleDe": "Zusammensetzung: 動詞+名詞の複合語",
-      "objectives": [
-        "動詞+名詞の複合語を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "動詞+名詞の複合語に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 動詞+名詞の複合語",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 動詞+名詞の複合語について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-132",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語の性（Genus）の決定",
-      "titleDe": "Zusammensetzung: 複合語の性（Genus）の決定",
-      "objectives": [
-        "複合語の性（Genus）の決定を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語の性（Genus）の決定に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語の性（Genus）の決定",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語の性（Genus）の決定について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-133",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語の複数形の作り方",
-      "titleDe": "Zusammensetzung: 複合語の複数形の作り方",
-      "objectives": [
-        "複合語の複数形の作り方を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語の複数形の作り方に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語の複数形の作り方",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語の複数形の作り方について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-134",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語への接尾辞の付加",
-      "titleDe": "Zusammensetzung: 複合語への接尾辞の付加",
-      "objectives": [
-        "複合語への接尾辞の付加を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語への接尾辞の付加に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語への接尾辞の付加",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語への接尾辞の付加について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-135",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語への接頭辞の付加",
-      "titleDe": "Zusammensetzung: 複合語への接頭辞の付加",
-      "objectives": [
-        "複合語への接頭辞の付加を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語への接頭辞の付加に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語への接頭辞の付加",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語への接頭辞の付加について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-136",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語の意味の非字義性",
-      "titleDe": "Zusammensetzung: 複合語の意味の非字義性",
-      "objectives": [
-        "複合語の意味の非字義性を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語の意味の非字義性に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語の意味の非字義性",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語の意味の非字義性について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-137",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 分離可能複合動詞（Trennbare Verben）",
-      "titleDe": "Zusammensetzung: 分離可能複合動詞（Trennbare Verben）",
-      "objectives": [
-        "分離可能複合動詞（Trennbare Verben）を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "分離可能複合動詞（Trennbare Verben）に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 分離可能複合動詞（Trennbare Verben）",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 分離可能複合動詞（Trennbare Verben）について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-138",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 非分離複合動詞（Untrennbare Verben）",
-      "titleDe": "Zusammensetzung: 非分離複合動詞（Untrennbare Verben）",
-      "objectives": [
-        "非分離複合動詞（Untrennbare Verben）を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "非分離複合動詞（Untrennbare Verben）に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 非分離複合動詞（Untrennbare Verben）",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 非分離複合動詞（Untrennbare Verben）について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-139",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合動詞の活用パターン",
-      "titleDe": "Zusammensetzung: 複合動詞の活用パターン",
-      "objectives": [
-        "複合動詞の活用パターンを習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合動詞の活用パターンに関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合動詞の活用パターン",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合動詞の活用パターンについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-140",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合動詞の過去分詞形成",
-      "titleDe": "Zusammensetzung: 複合動詞の過去分詞形成",
-      "objectives": [
-        "複合動詞の過去分詞形成を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合動詞の過去分詞形成に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合動詞の過去分詞形成",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合動詞の過去分詞形成について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-141",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合形容詞の形成と活用",
-      "titleDe": "Zusammensetzung: 複合形容詞の形成と活用",
-      "objectives": [
-        "複合形容詞の形成と活用を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合形容詞の形成と活用に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合形容詞の形成と活用",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合形容詞の形成と活用について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-142",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合副詞の形成",
-      "titleDe": "Zusammensetzung: 複合副詞の形成",
-      "objectives": [
-        "複合副詞の形成を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合副詞の形成に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合副詞の形成",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合副詞の形成について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-143",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合前置詞の用法",
-      "titleDe": "Zusammensetzung: 複合前置詞の用法",
-      "objectives": [
-        "複合前置詞の用法を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合前置詞の用法に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合前置詞の用法",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合前置詞の用法について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-144",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合接続詞の用法",
-      "titleDe": "Zusammensetzung: 複合接続詞の用法",
-      "objectives": [
-        "複合接続詞の用法を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合接続詞の用法に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合接続詞の用法",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合接続詞の用法について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-145",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合数詞と序数",
-      "titleDe": "Zusammensetzung: 複合数詞と序数",
-      "objectives": [
-        "複合数詞と序数を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合数詞と序数に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合数詞と序数",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合数詞と序数について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-146",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語の語根変化",
-      "titleDe": "Zusammensetzung: 複合語の語根変化",
-      "objectives": [
-        "複合語の語根変化を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語の語根変化に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語の語根変化",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語の語根変化について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-147",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語とその言い換え",
-      "titleDe": "Zusammensetzung: 複合語とその言い換え",
-      "objectives": [
-        "複合語とその言い換えを習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語とその言い換えに関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語とその言い換え",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語とその言い換えについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-148",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語の発音パターン",
-      "titleDe": "Zusammensetzung: 複合語の発音パターン",
-      "objectives": [
-        "複合語の発音パターンを習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語の発音パターンに関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語の発音パターン",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語の発音パターンについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-149",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語の同義語との違い",
-      "titleDe": "Zusammensetzung: 複合語の同義語との違い",
-      "objectives": [
-        "複合語の同義語との違いを習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語の同義語との違いに関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語の同義語との違い",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語の同義語との違いについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-150",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語辞書と頻出100語",
-      "titleDe": "Zusammensetzung: 複合語辞書と頻出100語",
-      "objectives": [
-        "複合語辞書と頻出100語を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語辞書と頻出100語に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語辞書と頻出100語",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語辞書と頻出100語について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-151",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語の分解と推測法",
-      "titleDe": "Zusammensetzung: 複合語の分解と推測法",
-      "objectives": [
-        "複合語の分解と推測法を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語の分解と推測法に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語の分解と推測法",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語の分解と推測法について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-152",
-      "level": 6,
-      "title": "ドイツ語複合語マスター - 複合語の実践練習と問題集",
-      "titleDe": "Zusammensetzung: 複合語の実践練習と問題集",
-      "objectives": [
-        "複合語の実践練習と問題集を習得する",
-        "複合語認識力を高める",
-        "ドイツ語特有の言語現象を理解"
-      ],
-      "content": {
-        "introduction": "複合語の実践練習と問題集に関する専門的なガイド。ドイツ語の複合語体系を完全習得します。",
-        "sections": [
-          {
-            "title": "ドイツ語複合語マスター - 複合語の実践練習と問題集",
-            "content": "複合語に関する学習内容。このレッスンでは、ドイツ語複合語マスター - 複合語の実践練習と問題集について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-153",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語の音韻体系と音声学",
-      "titleDe": "Aussprache: ドイツ語の音韻体系と音声学",
-      "objectives": [
-        "ドイツ語の音韻体系と音声学を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語の音韻体系と音声学に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語の音韻体系と音声学",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語の音韻体系と音声学について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-154",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語の単母音の発音",
-      "titleDe": "Aussprache: ドイツ語の単母音の発音",
-      "objectives": [
-        "ドイツ語の単母音の発音を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語の単母音の発音に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語の単母音の発音",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語の単母音の発音について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-155",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語の長音と短音の区別",
-      "titleDe": "Aussprache: ドイツ語の長音と短音の区別",
-      "objectives": [
-        "ドイツ語の長音と短音の区別を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語の長音と短音の区別に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語の長音と短音の区別",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語の長音と短音の区別について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-156",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ウムラウト（ä, ö, ü）の正しい発音",
-      "titleDe": "Aussprache: ウムラウト（ä, ö, ü）の正しい発音",
-      "objectives": [
-        "ウムラウト（ä, ö, ü）の正しい発音を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ウムラウト（ä, ö, ü）の正しい発音に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ウムラウト（ä, ö, ü）の正しい発音",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ウムラウト（ä, ö, ü）の正しい発音について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-157",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - 二重母音（ei, ai, au, eu, äu）の発音",
-      "titleDe": "Aussprache: 二重母音（ei, ai, au, eu, äu）の発音",
-      "objectives": [
-        "二重母音（ei, ai, au, eu, äu）の発音を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "二重母音（ei, ai, au, eu, äu）の発音に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - 二重母音（ei, ai, au, eu, äu）の発音",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - 二重母音（ei, ai, au, eu, äu）の発音について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-158",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語の破裂音（p, b, t, d, k, g）",
-      "titleDe": "Aussprache: ドイツ語の破裂音（p, b, t, d, k, g）",
-      "objectives": [
-        "ドイツ語の破裂音（p, b, t, d, k, g）を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語の破裂音（p, b, t, d, k, g）に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語の破裂音（p, b, t, d, k, g）",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語の破裂音（p, b, t, d, k, g）について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-159",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語の摩擦音（f, v, s, z, sch, ch）",
-      "titleDe": "Aussprache: ドイツ語の摩擦音（f, v, s, z, sch, ch）",
-      "objectives": [
-        "ドイツ語の摩擦音（f, v, s, z, sch, ch）を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語の摩擦音（f, v, s, z, sch, ch）に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語の摩擦音（f, v, s, z, sch, ch）",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語の摩擦音（f, v, s, z, sch, ch）について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-160",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語のr音 - 標準発音",
-      "titleDe": "Aussprache: ドイツ語のr音 - 標準発音",
-      "objectives": [
-        "ドイツ語のr音 - 標準発音を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語のr音 - 標準発音に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語のr音 - 標準発音",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語のr音 - 標準発音について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-161",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語の鼻音と液音（m, n, ng, l）",
-      "titleDe": "Aussprache: ドイツ語の鼻音と液音（m, n, ng, l）",
-      "objectives": [
-        "ドイツ語の鼻音と液音（m, n, ng, l）を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語の鼻音と液音（m, n, ng, l）に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語の鼻音と液音（m, n, ng, l）",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語の鼻音と液音（m, n, ng, l）について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-162",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - 語末の-ig, -lich, -keitの発音",
-      "titleDe": "Aussprache: 語末の-ig, -lich, -keitの発音",
-      "objectives": [
-        "語末の-ig, -lich, -keitの発音を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "語末の-ig, -lich, -keitの発音に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - 語末の-ig, -lich, -keitの発音",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - 語末の-ig, -lich, -keitの発音について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-163",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語の語幹強調（Wortakzent）",
-      "titleDe": "Aussprache: ドイツ語の語幹強調（Wortakzent）",
-      "objectives": [
-        "ドイツ語の語幹強調（Wortakzent）を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語の語幹強調（Wortakzent）に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語の語幹強調（Wortakzent）",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語の語幹強調（Wortakzent）について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-164",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - 複合語の語幹強調パターン",
-      "titleDe": "Aussprache: 複合語の語幹強調パターン",
-      "objectives": [
-        "複合語の語幹強調パターンを習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "複合語の語幹強調パターンに関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - 複合語の語幹強調パターン",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - 複合語の語幹強調パターンについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-165",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - 文中のイントネーション",
-      "titleDe": "Aussprache: 文中のイントネーション",
-      "objectives": [
-        "文中のイントネーションを習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "文中のイントネーションに関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - 文中のイントネーション",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - 文中のイントネーションについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-166",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - 陳述文と疑問文の抑揚の違い",
-      "titleDe": "Aussprache: 陳述文と疑問文の抑揚の違い",
-      "objectives": [
-        "陳述文と疑問文の抑揚の違いを習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "陳述文と疑問文の抑揚の違いに関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - 陳述文と疑問文の抑揚の違い",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - 陳述文と疑問文の抑揚の違いについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-167",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - 音のリエゾンと連結",
-      "titleDe": "Aussprache: 音のリエゾンと連結",
-      "objectives": [
-        "音のリエゾンと連結を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "音のリエゾンと連結に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - 音のリエゾンと連結",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - 音のリエゾンと連結について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-168",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語の方言差（北部・南部・オーストリア）",
-      "titleDe": "Aussprache: ドイツ語の方言差（北部・南部・オーストリア）",
-      "objectives": [
-        "ドイツ語の方言差（北部・南部・オーストリア）を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語の方言差（北部・南部・オーストリア）に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語の方言差（北部・南部・オーストリア）",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語の方言差（北部・南部・オーストリア）について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-169",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - 国際音声記号（IPA）の使い方",
-      "titleDe": "Aussprache: 国際音声記号（IPA）の使い方",
-      "objectives": [
-        "国際音声記号（IPA）の使い方を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "国際音声記号（IPA）の使い方に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - 国際音声記号（IPA）の使い方",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - 国際音声記号（IPA）の使い方について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-170",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - ドイツ語と英語の発音比較",
-      "titleDe": "Aussprache: ドイツ語と英語の発音比較",
-      "objectives": [
-        "ドイツ語と英語の発音比較を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "ドイツ語と英語の発音比較に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - ドイツ語と英語の発音比較",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - ドイツ語と英語の発音比較について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-171",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - 発音改善のための練習法",
-      "titleDe": "Aussprache: 発音改善のための練習法",
-      "objectives": [
-        "発音改善のための練習法を習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "発音改善のための練習法に関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - 発音改善のための練習法",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - 発音改善のための練習法について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-172",
-      "level": 6,
-      "title": "ドイツ語発音完全ガイド - シャドーイングと聴解トレーニング",
-      "titleDe": "Aussprache: シャドーイングと聴解トレーニング",
-      "objectives": [
-        "シャドーイングと聴解トレーニングを習得する",
-        "正確なドイツ語発音を獲得",
-        "聴解力の向上"
-      ],
-      "content": {
-        "introduction": "シャドーイングと聴解トレーニングに関する専門的なガイド。ドイツ語の正確な発音を習得するための学習資料です。",
-        "sections": [
-          {
-            "title": "ドイツ語発音完全ガイド - シャドーイングと聴解トレーニング",
-            "content": "発音に関する学習内容。このレッスンでは、ドイツ語発音完全ガイド - シャドーイングと聴解トレーニングについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-173",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ文学の抜粋と読解",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ文学の抜粋と読解",
-      "objectives": [
-        "ドイツ文学の抜粋と読解を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ文学の抜粋と読解を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ文学の抜粋と読解",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ文学の抜粋と読解について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-174",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツのニュース記事とメディア",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツのニュース記事とメディア",
-      "objectives": [
-        "ドイツのニュース記事とメディアを習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツのニュース記事とメディアを通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツのニュース記事とメディア",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツのニュース記事とメディアについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-175",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ビジネスドイツ語 - 文書とメール",
-      "titleDe": "Fortgeschrittenes Deutsch: ビジネスドイツ語 - 文書とメール",
-      "objectives": [
-        "ビジネスドイツ語 - 文書とメールを習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ビジネスドイツ語 - 文書とメールを通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ビジネスドイツ語 - 文書とメール",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ビジネスドイツ語 - 文書とメールについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-176",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ビジネスドイツ語 - プレゼンテーション",
-      "titleDe": "Fortgeschrittenes Deutsch: ビジネスドイツ語 - プレゼンテーション",
-      "objectives": [
-        "ビジネスドイツ語 - プレゼンテーションを習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ビジネスドイツ語 - プレゼンテーションを通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ビジネスドイツ語 - プレゼンテーション",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ビジネスドイツ語 - プレゼンテーションについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-177",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ文化と言語使用",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ文化と言語使用",
-      "objectives": [
-        "ドイツ文化と言語使用を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ文化と言語使用を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ文化と言語使用",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ文化と言語使用について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-178",
-      "level": 6,
-      "title": "ドイツ語上級講座 - 映画とドイツ語 - スクリーンドイツ語",
-      "titleDe": "Fortgeschrittenes Deutsch: 映画とドイツ語 - スクリーンドイツ語",
-      "objectives": [
-        "映画とドイツ語 - スクリーンドイツ語を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "映画とドイツ語 - スクリーンドイツ語を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - 映画とドイツ語 - スクリーンドイツ語",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - 映画とドイツ語 - スクリーンドイツ語について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-179",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ語の歌詞と音楽",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ語の歌詞と音楽",
-      "objectives": [
-        "ドイツ語の歌詞と音楽を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ語の歌詞と音楽を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ語の歌詞と音楽",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ語の歌詞と音楽について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-180",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ語インタビューと会話",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ語インタビューと会話",
-      "objectives": [
-        "ドイツ語インタビューと会話を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ語インタビューと会話を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ語インタビューと会話",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ語インタビューと会話について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-181",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ポッドキャストとラジオのドイツ語",
-      "titleDe": "Fortgeschrittenes Deutsch: ポッドキャストとラジオのドイツ語",
-      "objectives": [
-        "ポッドキャストとラジオのドイツ語を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ポッドキャストとラジオのドイツ語を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ポッドキャストとラジオのドイツ語",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ポッドキャストとラジオのドイツ語について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-182",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ語テレビドラマの視聴",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ語テレビドラマの視聴",
-      "objectives": [
-        "ドイツ語テレビドラマの視聴を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ語テレビドラマの視聴を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ語テレビドラマの視聴",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ語テレビドラマの視聴について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-183",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ語SNSと日常用語",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ語SNSと日常用語",
-      "objectives": [
-        "ドイツ語SNSと日常用語を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ語SNSと日常用語を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ語SNSと日常用語",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ語SNSと日常用語について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-184",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ語のユーモアと言葉遊び",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ語のユーモアと言葉遊び",
-      "objectives": [
-        "ドイツ語のユーモアと言葉遊びを習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ語のユーモアと言葉遊びを通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ語のユーモアと言葉遊び",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ語のユーモアと言葉遊びについて詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-185",
-      "level": 6,
-      "title": "ドイツ語上級講座 - 地域別ドイツ語方言の特徴",
-      "titleDe": "Fortgeschrittenes Deutsch: 地域別ドイツ語方言の特徴",
-      "objectives": [
-        "地域別ドイツ語方言の特徴を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "地域別ドイツ語方言の特徴を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - 地域別ドイツ語方言の特徴",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - 地域別ドイツ語方言の特徴について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-186",
-      "level": 6,
-      "title": "ドイツ語上級講座 - 歴史的ドイツ語の変化",
-      "titleDe": "Fortgeschrittenes Deutsch: 歴史的ドイツ語の変化",
-      "objectives": [
-        "歴史的ドイツ語の変化を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "歴史的ドイツ語の変化を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - 歴史的ドイツ語の変化",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - 歴史的ドイツ語の変化について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-187",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ語の標準化と正書法",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ語の標準化と正書法",
-      "objectives": [
-        "ドイツ語の標準化と正書法を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ語の標準化と正書法を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ語の標準化と正書法",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ語の標準化と正書法について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-188",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ語の最新用語と造語",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ語の最新用語と造語",
-      "objectives": [
-        "ドイツ語の最新用語と造語を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ語の最新用語と造語を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ語の最新用語と造語",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ語の最新用語と造語について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-189",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ語の敬語と社会言語学",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ語の敬語と社会言語学",
-      "objectives": [
-        "ドイツ語の敬語と社会言語学を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ語の敬語と社会言語学を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ語の敬語と社会言語学",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ語の敬語と社会言語学について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-190",
-      "level": 6,
-      "title": "ドイツ語上級講座 - ドイツ語のジェンダー表現",
-      "titleDe": "Fortgeschrittenes Deutsch: ドイツ語のジェンダー表現",
-      "objectives": [
-        "ドイツ語のジェンダー表現を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "ドイツ語のジェンダー表現を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - ドイツ語のジェンダー表現",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - ドイツ語のジェンダー表現について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-191",
-      "level": 6,
-      "title": "ドイツ語上級講座 - 技術用語とドイツ語",
-      "titleDe": "Fortgeschrittenes Deutsch: 技術用語とドイツ語",
-      "objectives": [
-        "技術用語とドイツ語を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "技術用語とドイツ語を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - 技術用語とドイツ語",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - 技術用語とドイツ語について詳しく解説します。"
-          }
-        ]
-      }
-    },
-    {
-      "id": "de-192",
-      "level": 6,
-      "title": "ドイツ語上級講座 - 医学用語とドイツ語",
-      "titleDe": "Fortgeschrittenes Deutsch: 医学用語とドイツ語",
-      "objectives": [
-        "医学用語とドイツ語を習得する",
-        "実践的なドイツ語を学ぶ",
-        "文化的背景を理解"
-      ],
-      "content": {
-        "introduction": "医学用語とドイツ語を通じて、ドイツ語の実践的な応用と文化的背景を学びます。",
-        "sections": [
-          {
-            "title": "ドイツ語上級講座 - 医学用語とドイツ語",
-            "content": "応用・上級に関する学習内容。このレッスンでは、ドイツ語上級講座 - 医学用語とドイツ語について詳しく解説します。"
-          }
-        ]
-      }
+      "level": 3,
+      "title": "中級 - 交通と方向案内",
+      "titleDe": "Mittelstufe - Verkehr und Wegbeschreibung",
+      "objectives": [
+        "公共交通機関を完璧に利用できる",
+        "道を尋ねたり、案内したりできる",
+        "移動手段を比較・選択できる",
+        "目的地への行き方を複雑に説明できる"
+      ],
+      "content": {
+        "introduction": "ドイツは公共交通網が発達しており、車がなくても移動が容易です。このレッスンでは、列車、バス、地下鉄などの利用方法と、道案内の複雑な表現を習得します。ドイツ人は詳細な方向指示を好むため、正確な表現が重要です。",
+        "sections": [
+          {
+            "title": "駅と切符購入",
+            "phrases": [
+              {
+                "german": "Wo ist der Bahnhof?",
+                "romaji": "vo ist der BAHN-hof?",
+                "japanese": "駅はどこですか？",
+                "usage": "駅の位置確認"
+              },
+              {
+                "german": "Ich möchte nach Berlin fahren.",
+                "romaji": "ikh MERKH-tuh nahkh ber-LIN FAH-ren",
+                "japanese": "私はベルリンに行きたいです。",
+                "usage": "目的地指定"
+              },
+              {
+                "german": "Eine Fahrkarte nach München bitte.",
+                "romaji": "AY-nuh FAHR-kar-tuh nahkh MÜN-khen BIT-uh",
+                "japanese": "ミュンヘン行きの乗車券をください。",
+                "usage": "切符購入"
+              },
+              {
+                "german": "Hin- und Rückfahrt oder einfach?",
+                "romaji": "hin oont RÜCK-fahrt OH-der AYN-fakh?",
+                "japanese": "往復ですか、それとも片道ですか？",
+                "usage": "切符販売者の質問"
+              },
+              {
+                "german": "Zweiter Klasse bitte.",
+                "romaji": "TSVAY-ter KLAS-uh BIT-uh",
+                "japanese": "2等車でお願いします。",
+                "usage": "座席等級指定"
+              }
+            ]
+          },
+          {
+            "title": "乗車と経路確認",
+            "phrases": [
+              {
+                "german": "Welcher Bahnsteig für Berlin?",
+                "romaji": "VEL-kher BAHN-shtyg für ber-LIN?",
+                "japanese": "ベルリン行きはどのプラットフォームですか？",
+                "usage": "プラットフォーム確認"
+              },
+              {
+                "german": "Der Zug fährt von Gleis 5 ab.",
+                "romaji": "der tsoog fairt fon glys fünf AHP",
+                "japanese": "列車は線路5から出発します。",
+                "usage": "駅員の案内"
+              },
+              {
+                "german": "Muss ich umsteigen?",
+                "romaji": "mus ikh UM-shty-gen?",
+                "japanese": "乗り換える必要がありますか？",
+                "usage": "乗り換え確認"
+              },
+              {
+                "german": "Wo muss ich aussteigen?",
+                "romaji": "vo mus ikh OUS-shty-gen?",
+                "japanese": "どこで降りればいいですか？",
+                "usage": "降車駅確認"
+              },
+              {
+                "german": "Wie lange dauert die Fahrt?",
+                "romaji": "vee LAHNG-uh DAUER-ert dee fahrt?",
+                "japanese": "乗車時間はどのくらいですか？",
+                "usage": "所要時間確認"
+              }
+            ]
+          },
+          {
+            "title": "道案内と方向",
+            "phrases": [
+              {
+                "german": "Wie komme ich zum Schloss?",
+                "romaji": "vee KOM-uh ikh tsum shloss?",
+                "japanese": "城へはどう行きますか？",
+                "usage": "方向指示を求める"
+              },
+              {
+                "german": "Gehen Sie geradeaus.",
+                "romaji": "GAY-en zee guh-RAH-duh-ous",
+                "japanese": "まっすぐ進んでください。",
+                "usage": "方向指示（直進）"
+              },
+              {
+                "german": "Biegen Sie nach links ab.",
+                "romaji": "BEE-gen zee nahkh links AHP",
+                "japanese": "左に曲がってください。",
+                "usage": "方向指示（左折）"
+              },
+              {
+                "german": "Nehmen Sie die zweite Straße rechts.",
+                "romaji": "NAY-men zee dee TSVAY-tuh SHRAH-suh rekhts",
+                "japanese": "右の2番目の通りを取ってください。",
+                "usage": "詳細な方向指示"
+              },
+              {
+                "german": "Das ist etwa 500 Meter von hier.",
+                "romaji": "dahs ist ET-vah FÜNF-hun-dert MAY-ter fon heer",
+                "japanese": "ここから約500メートルです。",
+                "usage": "距離説明"
+              }
+            ]
+          },
+          {
+            "title": "交通手段の比較",
+            "phrases": [
+              {
+                "german": "Welche Option ist schneller?",
+                "romaji": "VEL-khuh OP-tsee-ohn ist SHNELLER?",
+                "japanese": "どの選択肢が速いですか？",
+                "usage": "手段の比較"
+              },
+              {
+                "german": "Der Zug ist billiger als das Auto.",
+                "romaji": "der tsoog ist BIL-lee-ger als dahs OW-to",
+                "japanese": "列車は車より安いです。",
+                "usage": "コスト比較"
+              },
+              {
+                "german": "Mit dem Bus dauert es länger.",
+                "romaji": "mit dem bus DAUER-ert es LEHNG-er",
+                "japanese": "バスでは時間がかかります。",
+                "usage": "時間比較"
+              },
+              {
+                "german": "Ich nehme lieber den Zug.",
+                "romaji": "ikh NAY-muh LEE-ber den tsoog",
+                "japanese": "私はむしろ列車を取ります。",
+                "usage": "選好表明"
+              }
+            ]
+          },
+          {
+            "title": "交通関連語彙",
+            "items": [
+              {"german": "Bahnhof", "japanese": "駅"},
+              {"german": "Zug", "japanese": "列車"},
+              {"german": "Bus", "japanese": "バス"},
+              {"german": "U-Bahn", "japanese": "地下鉄"},
+              {"german": "S-Bahn", "japanese": "近距離列車"},
+              {"german": "Straße", "japanese": "通り"},
+              {"german": "Platz", "japanese": "広場"},
+              {"german": "Brücke", "japanese": "橋"},
+              {"german": "Fahrkarte", "japanese": "乗車券"},
+              {"german": "Gleis", "japanese": "線路・プラットフォーム"}
+            ]
+          }
+        ]
+      },
+      "practiceQuestions": [
+        {
+          "id": "de-006-q1",
+          "type": "fill-blank",
+          "question": "「駅はどこですか？」をドイツ語で言ってください。",
+          "answer": "Wo ist der Bahnhof?"
+        },
+        {
+          "id": "de-006-q2",
+          "type": "fill-blank",
+          "question": "「ベルリン行きはどのプラットフォームですか？」をドイツ語で言ってください。",
+          "hint": "「Welcher Bahnsteig」で始まります",
+          "answer": "Welcher Bahnsteig für Berlin?"
+        },
+        {
+          "id": "de-006-q3",
+          "type": "multiple-choice",
+          "question": "「Muss ich umsteigen?」という文の意味として正しいのはどれですか？",
+          "options": [
+            "乗り換える必要がありますか？",
+            "どこで乗ればいいですか？",
+            "列車は速いですか？",
+            "切符はいくらですか？"
+          ],
+          "answer": 0
+        },
+        {
+          "id": "de-006-q4",
+          "type": "fill-blank",
+          "question": "「まっすぐ進んでください」をドイツ語で言ってください。",
+          "hint": "「Gehen Sie」で始まります",
+          "answer": "Gehen Sie geradeaus."
+        }
+      ],
+      "resources": [
+        {
+          "type": "video",
+          "title": "ドイツ交通機関実践ガイド",
+          "url": "#",
+          "duration": "11分"
+        },
+        {
+          "type": "grammar",
+          "title": "命令形（Imperativ）",
+          "content": "方向指示では敬語命令形を使用します。Gehen Sie～, Biegen Sie～ など。これは敬意を示しつつ指示する表現。"
+        },
+        {
+          "type": "note",
+          "title": "ドイツ鉄道システム",
+          "content": "ドイツ国鉄（DB）は時間に正確で有名。DBのアプリやウェブサイトで切符購入・乗車変更が可能。BahnCard（定期乗車券）があると割引がある。"
+        }
+      ]
     }
   ]
 }

@@ -30,7 +30,7 @@ export default function KoreanLessonViewer() {
       <div className="mb-8 p-4 bg-blue-50 rounded-lg">
         <h2 className="text-lg font-semibold text-gray-900 mb-3">学習目標</h2>
         <ul className="space-y-2">
-          {currentLesson.objectives.map((obj, idx) => (
+          {currentLesson.objectives.map((obj: string, idx: number) => (
             <li key={idx} className="flex items-start">
               <span className="text-blue-600 mr-3">✓</span>
               <span className="text-gray-700">{obj}</span>
@@ -44,12 +44,12 @@ export default function KoreanLessonViewer() {
       </div>
 
       <div className="mb-8 space-y-6">
-        {currentLesson.content.sections.map((section, idx) => (
+        {currentLesson.content.sections.map((section: any, idx: number) => (
           <div key={idx} className="border-l-4 border-blue-500 pl-6">
             <h3 className="text-xl font-semibold text-gray-900 mb-4">{section.title}</h3>
             {section.phrases && (
               <div className="space-y-3">
-                {section.phrases.map((phrase, pidx) => (
+                {section.phrases.map((phrase: any, pidx: number) => (
                   <div key={pidx} className="bg-gray-50 p-4 rounded-lg">
                     <p className="font-bold text-gray-900">{phrase.korean}</p>
                     <p className="text-sm text-gray-500">{phrase.romaji}</p>
@@ -60,7 +60,7 @@ export default function KoreanLessonViewer() {
             )}
             {section.pronouns && (
               <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-                {section.pronouns.map((p, pidx) => (
+                {section.pronouns.map((p: any, pidx: number) => (
                   <div key={pidx} className="bg-gray-50 p-3 rounded-lg">
                     <p className="font-bold">{p.korean}</p>
                     <p className="text-sm text-gray-700">{p.meaning}</p>
@@ -70,7 +70,7 @@ export default function KoreanLessonViewer() {
             )}
             {section.items && (
               <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                {section.items.map((item, pidx) => (
+                {section.items.map((item: any, pidx: number) => (
                   <div key={pidx} className="bg-blue-100 p-3 rounded-lg">
                     <p className="font-bold">{item.korean}</p>
                     <p className="text-sm text-gray-700">{item.japanese}</p>
@@ -80,7 +80,7 @@ export default function KoreanLessonViewer() {
             )}
             {section.days && (
               <div className="grid grid-cols-2 md:grid-cols-2 gap-2">
-                {section.days.map((day, pidx) => (
+                {section.days.map((day: any, pidx: number) => (
                   <div key={pidx} className="flex justify-between p-3 bg-gray-50 rounded-lg">
                     <span className="font-semibold">{day.korean}</span>
                     <span className="text-gray-600">{day.japanese}</span>

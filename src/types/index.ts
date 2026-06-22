@@ -32,7 +32,7 @@ export type LessonSection =
   | { type: 'heading'; level: 2 | 3; content: string }
   | { type: 'bullet-list'; items: string[] }
   | { type: 'numbered-list'; items: string[] }
-  | { type: 'highlight-box'; title: string; items: string[] }
+  | { type: 'highlight-box'; title: string; items?: string[]; content?: string }
   | { type: 'info-box'; content: string }
   | { type: 'practice'; question: string; auxiliaryPrompt: string; answer: string }
   | { type: 'glossary'; terms: { term: string; definition: string }[] }
@@ -56,6 +56,8 @@ export interface Lesson {
   sections: LessonSection[];
   gameTags?: GameTag[];
   isComingSoon?: boolean;
+  checkItemsRecommendation?: boolean;
+  [key: string]: any; // Allow additional properties for language-specific fields
 }
 
 export interface Course {
