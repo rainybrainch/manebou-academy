@@ -38,6 +38,7 @@ import { partyPoliticsCategory, internationalPoliticsCategory, constitutionLawCa
 import { localGovernmentCategory, populismAuthoritarianismCategory, politicsEconomicsCategory, digitalPoliticsCategory } from './course-political-topics';
 import { englishAcademyCategory } from './course-english-academy';
 import { koreanAcademyCategory } from './course-korean-academy';
+import { classicalChineseCategory } from './course-classical-chinese';
 
 const nisaBasicsCategory: Category = {
   id: 'nisa-basics',
@@ -595,6 +596,7 @@ export const categories: Category[] = [
   digitalPoliticsCategory,
   englishAcademyCategory,
   koreanAcademyCategory,
+  classicalChineseCategory,
 ];
 
 export function getCourse(courseId: string) {
