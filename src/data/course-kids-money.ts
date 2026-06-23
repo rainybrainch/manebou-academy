@@ -10,7 +10,7 @@ import { Category } from '@/types';
 export const kidsMoneyCategory: Category = {
   id: 'kids-money',
   title: 'お{金|かね}ってなんだろう？',
-  description: 'お金のしくみをゼロから楽しく学ぼう！全3章・9{講|こう}{義|ぎ}。むずかしい言葉はぜんぶふりがなつきだよ。',
+  description: 'お{金|かね}の{仕|し}{組|く}みをゼロから{楽|たの}しく{学|まな}ぼう！{全|ぜん}3{章|しょう}・9{講|こう}{義|ぎ}。{難|むずか}しい{言|こと}{葉|ば}は{全|ぜん}{部|ぶ}ふりがなつきだよ。',
   level: '入門',
   topicCategoryId: 'cat-money',
   image: '/images/courses/money-basics.webp',
@@ -33,7 +33,7 @@ export const kidsMoneyCategory: Category = {
           isPremium: false,
           checkItems: [
             'お{金|かね}が「{交|こう}{換|かん}の{道|どう}{具|ぐ}」だと{説|せつ}{明|めい}できる',
-            '{物|もの}{々|もの}{交|こう}{換|かん}の{不|ふ}{便|べん}さをともだちにはなせる',
+            '{物|もの}{々|もの}{交|こう}{換|かん}の{不|ふ}{便|べん}さを{友|とも}{達|だち}に{話|はな}せる',
             'お{金|かね}の3つの{役|やく}{割|わり}をおぼえた',
           ],
           sections: [
@@ -46,7 +46,7 @@ export const kidsMoneyCategory: Category = {
             },
             {
               type: 'info-box',
-              content: 'みんなはコンビニやスーパーでお{金|かね}を{使|つか}ったことがあるよね。でも「なんで{紙|かみ}きれをわたすだけでジュースがもらえるの？」って{思|おも}ったことない？いっしょに{考|かんが}えてみよう！',
+              content: 'みんなはコンビニやスーパーでお{金|かね}を{使|つか}ったことがあるよね。でも「なんで{紙|かみ}{切|き}れを{渡|わた}すだけでジュースがもらえるの？」って{思|おも}ったことない？いっしょに{考|かんが}えてみよう！',
             },
             { type: 'heading', level: 2, content: 'もしお{金|かね}がなかったらどうなる？' },
             {
@@ -544,7 +544,7 @@ export const kidsMoneyCategory: Category = {
             {
               type: 'character-speech',
               lines: [
-                { character: 'enda', text: 'みんなは{将|しょう}{来|らい}なにになりたい？ぼくはプログラマーになるのが{夢|ゆめ}なんだ！', emotion: 'happy' },
+                { character: 'enda', text: 'みんなは{将|しょう}{来|らい}{何|なに}になりたい？ぼくはプログラマーになるのが{夢|ゆめ}なんだ！', emotion: 'happy' },
                 { character: 'all', text: 'ぼくは{先|せん}{生|せい}かな！でも{働|はたら}くってどういうことか、まだよくわかってないんだよね…', emotion: 'thinking' },
                 { character: 'tamezo', text: 'じゃあいっしょに{学|まな}ぼう！{働|はたら}くとお{金|かね}の{関|かん}{係|けい}をかんたんに{説|せつ}{明|めい}するよ！', emotion: 'normal' },
               ],
