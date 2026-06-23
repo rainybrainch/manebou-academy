@@ -47,6 +47,18 @@ body {
   display: none;
 }
 
+/* ふりがな（ルビ）— 漢字の真上に表示 */
+ruby {
+  ruby-position: over;
+  display: inline ruby;
+}
+rt {
+  font-size: 0.5em;
+  line-height: 1.2;
+  text-align: center;
+  color: inherit;
+}
+
 /* Keyboard focus indicator for accessibility */
 button:focus-visible,
 a:focus-visible,

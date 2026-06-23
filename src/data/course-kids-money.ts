@@ -40,7 +40,7 @@ export const kidsMoneyCategory: Category = {
             {
               type: 'character-speech',
               lines: [
-                { character: 'all', text: 'やあ！ぼくは{オール|おーる}。いっしょにお{金|かね}のことを{学|まな}んでいこう！', emotion: 'happy' },
+                { character: 'all', text: 'やあ！ぼくはオール。いっしょにお{金|かね}のことを{学|まな}んでいこう！', emotion: 'happy' },
                 { character: 'enda', text: 'ぼくはえんだ！{投|とう}{資|し}はじめたばかりで{分|わ}からないことだらけ〜。いっしょに{学|まな}ぼう！', emotion: 'happy' },
               ],
             },
@@ -287,7 +287,7 @@ export const kidsMoneyCategory: Category = {
             { type: 'heading', level: 2, content: '{予|よ}{算|さん}を{立|た}ててみよう' },
             {
               type: 'highlight-box',
-              title: '1{ヶ月|かげつ}の{予|よ}{算|さん}{例|れい}（お{小遣|こづか}い1000{円|えん}のばあい）',
+              title: '1ヶ{月|げつ}の{予|よ}{算|さん}{例|れい}（お{小遣|こづか}い1000{円|えん}のばあい）',
               items: [
                 '{貯|ちょ}{金|きん}：300{円|えん}（30%）→ {大|たい}{切|せつ}なものを{買|か}うためにとっておく',
                 '{必|ひつ}{要|よう}なもの：200{円|えん}（20%）→ ノートや{文|ぶん}{房|ぼう}{具|ぐ}など',
