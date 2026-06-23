@@ -10,6 +10,7 @@ import LessonLike from './LessonLike';
 import LessonTimer from './LessonTimer';
 import LessonTOC from './LessonTOC';
 import ComicSection from './lesson/ComicSection';
+import CharacterSpeech from './CharacterSpeech';
 
 interface LessonContentProps {
   lesson: Lesson;
@@ -612,6 +613,9 @@ function SectionRenderer({ section }: { section: LessonSection }) {
 
     case 'comic':
       return <ComicSection comic={section.data} />;
+
+    case 'character-speech':
+      return <CharacterSpeech lines={section.lines} />;
 
     default:
       return null;

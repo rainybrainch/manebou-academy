@@ -1,4 +1,5 @@
 import { Category } from '@/types';
+// キャラクター: all=オール / gokucho=極超 / en=円 / shizo=試造株式
 
 // ============================================================
 // マネぼうジュニア - 子ども向けコース
@@ -37,6 +38,13 @@ export const kidsMoneyCategory: Category = {
           ],
           sections: [
             {
+              type: 'character-speech',
+              lines: [
+                { character: 'all', text: 'やあ！ぼくは{オール|おーる}。いっしょにお{金|かね}のことを{学|まな}んでいこう！', emotion: 'happy' },
+                { character: 'en', text: 'わたしは{円|えん}よ。むずかしいことも{優|やさ}しくせつめいするから{安心|あんしん}してね！', emotion: 'happy' },
+              ],
+            },
+            {
               type: 'info-box',
               content: 'みんなはコンビニやスーパーでお{金|かね}を{使|つか}ったことがあるよね。でも「なんで{紙|かみ}きれをわたすだけでジュースがもらえるの？」って{思|おも}ったことない？いっしょに{考|かんが}えてみよう！',
             },
@@ -59,6 +67,13 @@ export const kidsMoneyCategory: Category = {
               ],
             },
             { type: 'heading', level: 2, content: 'なんで{紙|かみ}に{価値|かち}があるの？' },
+            {
+              type: 'character-speech',
+              lines: [
+                { character: 'gokucho', text: '{俺様|おれさま}の{名前|なまえ}は{極超|ごくちょう}！ここでちょっとむずかしい{話|はなし}だ。1{万円|まんえん}{札|さつ}は{紙|かみ}なのに、なぜ{価値|かち}があるんだ？', emotion: 'thinking' },
+                { character: 'shizo', text: 'それはね、みんなが「これには{価値|かち}がある」と{信|しん}じているからだよ。ぼくは{試造株式|しぞうかぶしき}。{信用|しんよう}ってたいせつなんだ！', emotion: 'normal' },
+              ],
+            },
             {
               type: 'text',
               content: '1{万円|まんえん}{札|さつ}はただの{紙|かみ}だよ。でも1{万円|まんえん}として{使|つか}えるのは、「みんながこれには{価値|かち}がある」と{信|しん}じているから。\nこれを**{信用|しんよう}**というよ。',
@@ -102,6 +117,13 @@ export const kidsMoneyCategory: Category = {
             'お{金|かね}のかたちがかわっても「{信用|しんよう}」はかわらないとわかった',
           ],
           sections: [
+            {
+              type: 'character-speech',
+              lines: [
+                { character: 'en', text: 'むかしは{貝殻|かいがら}がお{金|かね}だったって{知|し}ってた？お{金|かね}のれきしはとてもおもしろいよ！', emotion: 'happy' },
+                { character: 'all', text: 'えっ、{貝殻|かいがら}！？それはしらなかった！いっしょにまなぼう！', emotion: 'surprised' },
+              ],
+            },
             {
               type: 'info-box',
               content: 'スーパーでの{支払|しはら}いにスマホをつかったことある？でもむかしは{貝殻|かいがら}がお{金|かね}だったんだよ！お{金|かね}のれきしをたどってみよう。',
@@ -170,6 +192,13 @@ export const kidsMoneyCategory: Category = {
             'なぜ{銀行|ぎんこう}にあずけると{安全|あんぜん}なのかをせつめいできる',
           ],
           sections: [
+            {
+              type: 'character-speech',
+              lines: [
+                { character: 'shizo', text: '{銀行|ぎんこう}ってこわいイメージがある{人|ひと}もいるかも。でもじつはとっても{便利|べんり}でたいせつなばしょだよ！', emotion: 'normal' },
+                { character: 'gokucho', text: 'ふん、{銀行|ぎんこう}のしくみをしればこわくない！いっしょにせいふくするぞ！', emotion: 'happy' },
+              ],
+            },
             {
               type: 'info-box',
               content: 'おうちの{人|ひと}がATMでお{金|かね}を{出|だ}し{入|い}れするのを{見|み}たことあるよね？{銀行|ぎんこう}はいったいなにをしているところなんだろう？',
@@ -240,6 +269,13 @@ export const kidsMoneyCategory: Category = {
           ],
           sections: [
             {
+              type: 'character-speech',
+              lines: [
+                { character: 'all', text: 'ぼくはお{小遣|こづか}いをもらったら{全部|ぜんぶ}{使|つか}いきっちゃうんだよね…', emotion: 'thinking' },
+                { character: 'en', text: 'それあるある！かしこい{使|つか}い{方|かた}にはコツがあるのよ。いっしょに{見|み}てみましょう！', emotion: 'happy' },
+              ],
+            },
+            {
               type: 'info-box',
               content: 'お{小遣|こづか}いをもらっても「あれ、もうなくなった！」ってことない？かしこい{使|つか}い{方|かた}を{一緒|いっしょ}に{考|かんが}えよう！',
             },
@@ -299,6 +335,13 @@ export const kidsMoneyCategory: Category = {
           ],
           sections: [
             {
+              type: 'character-speech',
+              lines: [
+                { character: 'shizo', text: '{貯金|ちょきん}って、ただがまんするだけじゃつまらないよね。でも{理由|りゆう}がわかると{全然|ぜんぜん}ちがうよ！', emotion: 'normal' },
+                { character: 'gokucho', text: '{俺様|おれさま}はしょうらいのゆめのために{毎月|まいつき}{貯金|ちょきん}してるぞ！もくひょうがあるとつづけられる！', emotion: 'happy' },
+              ],
+            },
+            {
               type: 'info-box',
               content: '「{貯金|ちょきん}しなさい」っておとなによく{言|い}われるよね。なぜたいせつなのか{理由|りゆう}がわかると、{貯金|ちょきん}がもっとたのしくなるよ！',
             },
@@ -356,6 +399,13 @@ export const kidsMoneyCategory: Category = {
             '{税金|ぜいきん}がなければ{社会|しゃかい}がどうなるかわかった',
           ],
           sections: [
+            {
+              type: 'character-speech',
+              lines: [
+                { character: 'all', text: 'ねえ{円|えん}、コンビニで110{円|えん}はらったのに、{商品|しょうひん}の{値段|ねだん}は100{円|えん}だったよ？なんで？', emotion: 'thinking' },
+                { character: 'en', text: 'それが{消費税|しょうひぜい}よ！その10{円|えん}がみんなの{学校|がっこう}や{道路|どうろ}になってるの。くわしくせつめいするね！', emotion: 'normal' },
+              ],
+            },
             {
               type: 'info-box',
               content: 'コンビニで100{円|えん}のおかしを{買|か}ったら110{円|えん}だった、なんで？それが**{消費税|しょうひぜい}**だよ。{税金|ぜいきん}ってなんのためにあるのかいっしょに{見|み}ていこう！',
@@ -426,6 +476,13 @@ export const kidsMoneyCategory: Category = {
           ],
           sections: [
             {
+              type: 'character-speech',
+              lines: [
+                { character: 'gokucho', text: '{俺様|おれさま}は{投資|とうし}でしょうらいおおもうけしてやる！リスクなんておそれない！', emotion: 'happy' },
+                { character: 'shizo', text: 'ちょっとまって{極超|ごくちょう}！リスクをただしく{知|し}ることがたいせつだよ。いっしょに{学|まな}ぼう！', emotion: 'thinking' },
+              ],
+            },
+            {
               type: 'info-box',
               content: '「{投資|とうし}」ということばをきいたことある？お{金|かね}がふえるイメージだけど、リスクもあるんだよ。ただしく{知|し}っておこう！',
             },
@@ -485,6 +542,14 @@ export const kidsMoneyCategory: Category = {
           ],
           sections: [
             {
+              type: 'character-speech',
+              lines: [
+                { character: 'en', text: 'みんなはしょうらいなにになりたい？{円|えん}はプログラマーになるのがゆめなの！', emotion: 'happy' },
+                { character: 'all', text: 'ぼくは{先生|せんせい}かな！でも{働|はたら}くってどういうことか、まだよくわかってないんだよね…', emotion: 'thinking' },
+                { character: 'shizo', text: 'じゃあいっしょに{学|まな}ぼう！{働|はたら}くとお{金|かね}のかんけいをかんたんにせつめいするよ！', emotion: 'normal' },
+              ],
+            },
+            {
               type: 'info-box',
               content: 'しょうらいなりたいゆめはある？{働|はたら}くこととお{金|かね}の{関係|かんけい}を{知|し}っておくと、ゆめをかなえるヒントになるよ！',
             },
@@ -534,6 +599,15 @@ export const kidsMoneyCategory: Category = {
           ],
           sections: [
             {
+              type: 'character-speech',
+              lines: [
+                { character: 'gokucho', text: 'ゲームのレアアイテムってなんであんなにたかいんだ！むかつく！', emotion: 'surprised' },
+                { character: 'shizo', text: 'それにはちゃんとしたりゆうがあるんだよ。「{需要|じゅよう}と{供給|きょうきゅう}」ってことばをしれば{謎|なぞ}がとけるよ！', emotion: 'normal' },
+                { character: 'all', text: 'じゅようときょうきゅう？むずかしそう…', emotion: 'thinking' },
+                { character: 'en', text: 'ぜんぜんむずかしくないよ！ゲームの{話|はなし}でわかりやすくせつめいするね！', emotion: 'happy' },
+              ],
+            },
+            {
               type: 'info-box',
               content: 'オンラインゲームのレアアイテムってなぜたかい？それが**{経済|けいざい}**のきほんなんだよ！{身近|みじか}な{例|れい}でかんがえてみよう。',
             },
@@ -573,7 +647,7 @@ export const kidsMoneyCategory: Category = {
             {
               type: 'summary',
               content: '{経済|けいざい}は「ほしい{人|ひと}のかず」と「{売|う}っているりょう」のバランスでうごいている。これがわかるとニュースの「{物価|ぶっか}{上昇|じょうしょう}」のいみもわかるようになるよ！',
-              nextLesson: 'コースしゅうりょう！おめでとう！マネぼうジュニアをつづけてほかのコースにもチャレンジしよう！',
+              nextLesson: 'コースしゅうりょう！4にんといっしょにべんきょうしてくれてありがとう！マネぼうジュニアのほかのコースにもチャレンジしよう！',
             },
           ],
         },

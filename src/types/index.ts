@@ -27,6 +27,15 @@ export interface TopicCategory {
   genreId: string;
 }
 
+// マネぼうジュニアのキャラクター
+export type JuniorCharacter = 'all' | 'gokucho' | 'en' | 'shizo';
+
+export interface CharacterLine {
+  character: JuniorCharacter;
+  text: string;
+  emotion?: 'normal' | 'happy' | 'thinking' | 'surprised';
+}
+
 export type LessonSection =
   | { type: 'text'; content: string }
   | { type: 'heading'; level: 2 | 3; content: string }
@@ -38,7 +47,8 @@ export type LessonSection =
   | { type: 'glossary'; terms: { term: string; definition: string }[] }
   | { type: 'summary'; content: string; nextLesson: string }
   | { type: 'image'; src: string; alt: string; caption?: string }
-  | { type: 'comic'; data: ComicData };
+  | { type: 'comic'; data: ComicData }
+  | { type: 'character-speech'; lines: CharacterLine[] };
 
 export interface GameTag {
   source: 'ZAi';
