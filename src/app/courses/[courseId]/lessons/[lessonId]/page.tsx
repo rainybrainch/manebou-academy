@@ -22,15 +22,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const result = getLesson(courseId, lessonId);
   if (!result) return {};
   const { lesson, course, category } = result;
-  const desc = `${category.title} › ${course.title} — ${lesson.title}を学ぼう。マネぼうアカデミーでお金の知識を楽しく習得。`;
+  const desc = `${category.title} › ${course.title} — ${lesson.title}を学ぼう。マネぼうジュニアでお金の知識を楽しく習得。`;
   return {
-    title: `${lesson.title} | ${course.title} | マネぼうアカデミー`,
+    title: `${lesson.title} | ${course.title} | マネぼうジュニア`,
     description: desc,
     openGraph: {
       title: lesson.title,
       description: desc,
       url: `https://manebou-juku.vercel.app/courses/${courseId}/lessons/${lessonId}`,
-      siteName: 'マネぼうアカデミー',
+      siteName: 'マネぼうジュニア',
       locale: 'ja_JP',
       type: 'article',
     },

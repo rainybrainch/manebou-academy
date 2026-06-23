@@ -340,13 +340,29 @@ function PracticeSection({ section }: { section: Extract<LessonSection, { type: 
   );
 }
 
+// {漢字|かんじ} 形式のルビをパースしてReactNodeに変換
+function parseInline(text: string, keyOffset = 0): React.ReactNode[] {
+  // まず **bold** と {text|ruby} を混在させてパース
+  const regex = /\*\*(.+?)\*\*|\{([^|{}]+)\|([^|{}]+)\}/g;
+  const nodes: React.ReactNode[] = [];
+  let last = 0;
+  let match: RegExpExecArray | null;
+  let idx = keyOffset;
+  while ((match = regex.exec(text)) !== null) {
+    if (match.index > last) nodes.push(text.slice(last, match.index));
+    if (match[1] !== undefined) {
+      nodes.push(<strong key={idx++} style={{ fontWeight: 700, color: 'var(--mb-dark)' }}>{match[1]}</strong>);
+    } else {
+      nodes.push(<ruby key={idx++}>{match[2]}<rt>{match[3]}</rt></ruby>);
+    }
+    last = match.index + match[0].length;
+  }
+  if (last < text.length) nodes.push(text.slice(last));
+  return nodes;
+}
+
 function renderBold(text: string): React.ReactNode[] {
-  const parts = text.split(/\*\*(.+?)\*\*/g);
-  return parts.map((part, i) =>
-    i % 2 === 1
-      ? <strong key={i} style={{ fontWeight: 700, color: 'var(--mb-dark)' }}>{part}</strong>
-      : part
-  );
+  return parseInline(text);
 }
 
 // Renders paragraph text with whitespace-pre-wrap + ①②③ item parsing + bold support

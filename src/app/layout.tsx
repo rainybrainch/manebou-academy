@@ -18,26 +18,26 @@ const zenMaru = Zen_Maru_Gothic({
 });
 
 export const metadata: Metadata = {
-  title: 'マネぼうアカデミー',
-  description: 'ゲームで遊んだら、経済がわかった。お金の知識を楽しく学べるオンライン学習プラットフォーム。',
+  title: 'マネぼうジュニア',
+  description: 'お金のことを楽しく学ぼう！小学生・中学生のためのお金の学校。',
   manifest: '/manifest.json',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
-    title: 'マネぼう',
+    title: 'マネぼうジュニア',
   },
   openGraph: {
-    title: 'マネぼうアカデミー',
-    description: 'ゲームで遊んだら、経済がわかった。お金の基本から資産形成まで楽しく学ぼう。',
+    title: 'マネぼうジュニア',
+    description: 'お金のことを楽しく学ぼう！小学生・中学生のためのお金の学校。',
     url: 'https://manebou-juku.vercel.app',
-    siteName: 'マネぼうアカデミー',
+    siteName: 'マネぼうジュニア',
     locale: 'ja_JP',
     type: 'website',
   },
   twitter: {
     card: 'summary',
-    title: 'マネぼうアカデミー',
-    description: 'ゲームで遊んだら、経済がわかった。お金の知識を楽しく学ぼう。',
+    title: 'マネぼうジュニア',
+    description: 'お金のことを楽しく学ぼう！小学生・中学生のためのお金の学校。',
   },
   other: {
     'mobile-web-app-capable': 'yes',

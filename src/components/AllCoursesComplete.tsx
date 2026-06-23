@@ -33,7 +33,7 @@ export default function AllCoursesComplete() {
         </div>
         <div style={{ fontFamily: "'Zen Maru Gothic', sans-serif", color: 'rgba(255,255,255,0.7)', fontSize: '13px', lineHeight: 1.6 }}>
           全{totalAvailable}講義をクリアしました。<br />
-          あなたはマネぼうアカデミーの最高学習者です。
+          あなたはマネぼうジュニアの最高学習者です。
         </div>
         <div className="flex justify-center gap-1 mt-4 flex-wrap">
           {['💴', '📈', '🎲', '🏦', '📚', '💰'].map((e, i) => (

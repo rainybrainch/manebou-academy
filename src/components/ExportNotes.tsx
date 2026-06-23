@@ -31,7 +31,7 @@ export default function ExportNotes() {
   if (!mounted || count === 0) return null;
 
   async function exportMarkdown() {
-    const lines: string[] = [`# マネぼうアカデミー — マイメモ`, `エクスポート日: ${new Date().toLocaleDateString('ja-JP')}`, ''];
+    const lines: string[] = [`# マネぼうジュニア — マイメモ`, `エクスポート日: ${new Date().toLocaleDateString('ja-JP')}`, ''];
     categories.forEach(cat => {
       let catHeader = false;
       cat.courses.forEach(course => {

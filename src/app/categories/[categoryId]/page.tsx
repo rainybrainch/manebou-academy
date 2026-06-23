@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const tc = getTopicCategoryById(categoryId);
   if (!tc) return {};
   return {
-    title: `${tc.title} | マネぼうアカデミー`,
+    title: `${tc.title} | マネぼうジュニア`,
     description: tc.description,
   };
 }

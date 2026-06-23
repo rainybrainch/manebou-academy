@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!result) return {};
   const { course, category } = result;
   return {
-    title: `${course.title} | ${category.title} | マネぼうアカデミー`,
+    title: `${course.title} | ${category.title} | マネぼうジュニア`,
     description: course.description ?? `${course.title}の全講義を学ぼう。${category.title}のコースです。`,
   };
 }

@@ -5,7 +5,7 @@ import { categories } from '@/data/courses';
 import { topicCategories } from '@/data/structure';
 
 export const metadata: Metadata = {
-  title: 'コース一覧 | マネぼうアカデミー',
+  title: 'コース一覧 | マネぼうジュニア',
   description: 'お金・投資・経済・ZAiゲームなど全コースの一覧。自分のペースで学習を始めよう。',
 };
 import OverallProgressBar from '@/components/OverallProgressBar';

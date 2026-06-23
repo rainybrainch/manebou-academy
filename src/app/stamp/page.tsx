@@ -2,7 +2,7 @@ import { type Metadata } from 'next';
 import StampClient from './StampClient';
 
 export const metadata: Metadata = {
-  title: 'スタンプカード | マネぼうアカデミー',
+  title: 'スタンプカード | マネぼうジュニア',
   description: '対面授業のデイリーコードを入力してスタンプを集めよう。10個でクーポン獲得。実績バッジも解除できます。',
 };
 

@@ -145,7 +145,7 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
           <Link href="/" className="hover:opacity-90 transition-opacity flex items-center gap-2 leading-none">
             <Image
               src="/academy-icon.webp"
-              alt="マネぼうアカデミー"
+              alt="マネぼうジュニア"
               width={36}
               height={36}
               className="rounded-lg shrink-0"
@@ -153,10 +153,10 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
             />
             <div className="flex flex-col leading-none">
               <span style={{ color: 'var(--mb-sky)', fontFamily: "'Dela Gothic One', sans-serif", fontSize: '13px', letterSpacing: '0.04em', lineHeight: 1.1 }}>
-                マネぼうアカデミー
+                マネぼうジュニア
               </span>
               <span style={{ color: 'rgba(91,200,232,0.5)', fontFamily: "'Dela Gothic One', sans-serif", fontSize: '9px', letterSpacing: '0.06em', lineHeight: 1.1 }}>
-                MANEBOU ACADEMY
+                MANEBOU JUNIOR
               </span>
             </div>
           </Link>
@@ -246,10 +246,10 @@ export default function LayoutShell({ children }: { children: React.ReactNode })
         <div className="pt-16 px-8 pb-5" style={{ borderBottom: '1px solid rgba(255,255,255,0.1)' }}>
           <div>
             <div style={{ fontFamily: "'Dela Gothic One', sans-serif", color: 'var(--mb-sky)', fontSize: '18px', lineHeight: 1.2 }}>
-              マネぼうアカデミー
+              マネぼうジュニア
             </div>
             <div style={{ fontFamily: "'Dela Gothic One', sans-serif", color: 'rgba(91,200,232,0.45)', fontSize: '11px', letterSpacing: '0.05em', marginTop: '2px' }}>
-              MANEBOU ACADEMY
+              MANEBOU JUNIOR
             </div>
           </div>
           <div style={{ color: 'rgba(255,255,255,0.45)', fontSize: '10px', letterSpacing: '2px', marginTop: '4px' }}>

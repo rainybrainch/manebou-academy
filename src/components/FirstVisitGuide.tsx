@@ -44,7 +44,7 @@ export default function FirstVisitGuide() {
       {open && (
         <div className="px-4 py-4 bg-white">
           <p className="text-xs mb-3" style={{ color: 'rgba(26,26,46,0.6)', fontFamily: "'Zen Maru Gothic', sans-serif" }}>
-            マネぼうアカデミーは、毎日少しずつ本物のマネーリテラシーが身につくアカデミーです。
+            マネぼうジュニアは、毎日少しずつ本物のマネーリテラシーが身につくアカデミーです。
           </p>
           <div className="space-y-2 mb-4">
             {steps.map((s, i) => (

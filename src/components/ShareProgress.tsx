@@ -32,10 +32,10 @@ export default function ShareProgress() {
     completedCount >= 50  ? '50講義突破！金融知識がどんどん深まる💎' :
     completedCount >= 20  ? '着実に積み上げ中。お金と仲良くなっています📈' :
     completedCount >= 10  ? 'お金の知識を積み上げ中！継続が力🌱' :
-                            'マネぼうアカデミーで学び始めました！';
+                            'マネぼうジュニアで学び始めました！';
 
   const text = [
-    '📚 マネぼうアカデミー 学習記録',
+    '📚 マネぼうジュニア 学習記録',
     '',
     `✅ 完了講義　${completedCount} / ${totalLessons} 講義`,
     `${bar(completedCount, totalLessons)} ${pct}%`,
@@ -50,7 +50,7 @@ export default function ShareProgress() {
   ].join('\n');
 
   const tweetText = [
-    `📚 マネぼうアカデミーで学習中！`,
+    `📚 マネぼうジュニアで学習中！`,
     `✅ ${completedCount}/${totalLessons}講義完了（${pct}%）`,
     streakDays >= 1 ? `🔥 ${streakDays}日連続学習中` : `🏅 実績${badges}個獲得`,
     '',
@@ -62,7 +62,7 @@ export default function ShareProgress() {
   async function handleShare() {
     try {
       if (navigator.share) {
-        await navigator.share({ title: 'マネぼうアカデミー 学習記録', text });
+        await navigator.share({ title: 'マネぼうジュニア 学習記録', text });
       } else {
         await navigator.clipboard.writeText(text);
       }

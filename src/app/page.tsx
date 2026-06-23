@@ -51,7 +51,7 @@ export default function HomePage() {
               className="inline-block text-[9px] font-bold tracking-[3px] px-2.5 py-1 rounded"
               style={{ background: 'rgba(245,200,66,0.15)', color: 'var(--mb-gold)', border: '1px solid rgba(245,200,66,0.3)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
             >
-              MANEBOU ACADEMY
+              MANEBOU JUNIOR
             </div>
             <div className="flex items-center gap-1.5 px-2 py-1 rounded-full" style={{ background: 'rgba(76,175,125,0.15)', border: '1px solid rgba(76,175,125,0.3)' }}>
               <span className="w-1.5 h-1.5 rounded-full inline-block" style={{ background: 'var(--mb-green)', animation: 'pulse 2s infinite' }} />
@@ -64,14 +64,14 @@ export default function HomePage() {
             className="text-2xl leading-tight mb-2"
             style={{ fontFamily: "'Dela Gothic One', sans-serif", color: 'white' }}
           >
-            遊んで学んだら、<br />
-            <span style={{ color: 'var(--mb-gold)' }}>経済がわかった。</span>
+            お金のことを、<br />
+            <span style={{ color: 'var(--mb-gold)' }}>楽しく学ぼう！</span>
           </h1>
           <p
             className="text-xs leading-relaxed"
             style={{ color: 'rgba(255,255,255,0.55)', fontFamily: "'Zen Maru Gothic', sans-serif" }}
           >
-            お金の基本から資産形成まで。全{topicCategories.length}ジャンル・{totalLessons}講義を楽しく学ぼう。
+            小学生・中学生のためのお金の学校。全{totalLessons}講義をふりがなつきで楽しく学べるよ！
           </p>
 
           <HeroCtaButton />
