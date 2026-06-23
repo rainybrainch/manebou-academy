@@ -28,7 +28,8 @@ export interface TopicCategory {
 }
 
 // マネぼうジュニアのキャラクター
-export type JuniorCharacter = 'all' | 'gokucho' | 'en' | 'shizo';
+// all=おーる局長(フクロウ) / enda=えんだ(カエル) / tamezo=ためぞう(ゾウ) / kawshi=かうっしー(ウシ)
+export type JuniorCharacter = 'all' | 'enda' | 'tamezo' | 'kawshi';
 
 export interface CharacterLine {
   character: JuniorCharacter;

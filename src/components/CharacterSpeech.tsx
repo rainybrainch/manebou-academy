@@ -4,10 +4,13 @@ import React from 'react';
 import Image from 'next/image';
 import { CharacterLine, JuniorCharacter } from '@/types';
 
-// ── キャラクター設定 ──────────────────────────────────────
+// ── キャラクター設定 ──────────────────────────────────────────
+// all    = おーる局長（フクロウ）先生・ゲームマスター役
+// enda   = えんだ（カエル）　　投資初心者・質問役
+// tamezo = ためぞう（ゾウ）　　貯金大好き・保守派
+// kawshi = かうっしー（ウシ）　買い物大好き・衝動買い派
 const CHARACTER_CONFIG: Record<JuniorCharacter, {
   name: string;
-  nameReading: string;
   color: string;
   bgColor: string;
   borderColor: string;
@@ -15,44 +18,40 @@ const CHARACTER_CONFIG: Record<JuniorCharacter, {
   side: 'left' | 'right';
 }> = {
   all: {
-    name: 'オール',
-    nameReading: 'おーる',
-    color: '#F5C842',
-    bgColor: 'rgba(245,200,66,0.1)',
-    borderColor: 'rgba(245,200,66,0.5)',
-    imagePath: '/images/characters/all.webp',
+    name: 'おーる局長',
+    color: '#5B9BD5',
+    bgColor: 'rgba(91,155,213,0.1)',
+    borderColor: 'rgba(91,155,213,0.5)',
+    imagePath: '/images/characters/all.png',
     side: 'left',
   },
-  gokucho: {
-    name: '極超',
-    nameReading: 'ごくちょう',
-    color: '#E8354A',
-    bgColor: 'rgba(232,53,74,0.08)',
-    borderColor: 'rgba(232,53,74,0.4)',
-    imagePath: '/images/characters/gokucho.webp',
+  enda: {
+    name: 'えんだ',
+    color: '#70B86E',
+    bgColor: 'rgba(112,184,110,0.1)',
+    borderColor: 'rgba(112,184,110,0.5)',
+    imagePath: '/images/characters/enda.png',
     side: 'right',
   },
-  en: {
-    name: '円',
-    nameReading: 'えん',
-    color: '#5BC8E8',
-    bgColor: 'rgba(91,200,232,0.1)',
-    borderColor: 'rgba(91,200,232,0.5)',
-    imagePath: '/images/characters/en.webp',
+  tamezo: {
+    name: 'ためぞう',
+    color: '#9B9B9B',
+    bgColor: 'rgba(155,155,155,0.1)',
+    borderColor: 'rgba(155,155,155,0.5)',
+    imagePath: '/images/characters/tamezo.png',
     side: 'left',
   },
-  shizo: {
-    name: '試造株式',
-    nameReading: 'しぞうかぶしき',
-    color: '#4CAF7D',
-    bgColor: 'rgba(76,175,125,0.1)',
-    borderColor: 'rgba(76,175,125,0.5)',
-    imagePath: '/images/characters/shizo.webp',
+  kawshi: {
+    name: 'かうっしー',
+    color: '#E8914A',
+    bgColor: 'rgba(232,145,74,0.1)',
+    borderColor: 'rgba(232,145,74,0.4)',
+    imagePath: '/images/characters/kawshi.png',
     side: 'right',
   },
 };
 
-// ── ふりがな付きテキスト処理 ────────────────────────────────
+// ── ふりがな付きテキスト処理 ──────────────────────────────────
 function renderLine(text: string): React.ReactNode[] {
   const regex = /\{([^|{}]+)\|([^|{}]+)\}/g;
   const nodes: React.ReactNode[] = [];
@@ -68,37 +67,47 @@ function renderLine(text: string): React.ReactNode[] {
   return nodes;
 }
 
-// ── プレースホルダーアバター ────────────────────────────────
-function AvatarPlaceholder({ character, size = 56 }: { character: JuniorCharacter; size?: number }) {
+// ── キャラクターアバター ──────────────────────────────────────
+function CharacterAvatar({ character }: { character: JuniorCharacter }) {
   const cfg = CHARACTER_CONFIG[character];
-  const initials = cfg.name.slice(0, 1);
   return (
-    <div
-      style={{
-        width: size,
-        height: size,
-        borderRadius: '50%',
-        background: cfg.color,
-        border: `3px solid ${cfg.borderColor}`,
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        flexShrink: 0,
-        fontSize: size * 0.38,
-        fontFamily: "'Dela Gothic One', sans-serif",
-        color: 'white',
-        boxShadow: `0 3px 0 ${cfg.borderColor}`,
-        position: 'relative',
-        overflow: 'hidden',
-      }}
-    >
-      {/* 画像が配置されたら Image コンポーネントに差し替え */}
-      <span>{initials}</span>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 3, flexShrink: 0 }}>
+      <div
+        style={{
+          width: 72,
+          height: 72,
+          borderRadius: '50%',
+          border: `3px solid ${cfg.color}`,
+          background: cfg.bgColor,
+          overflow: 'hidden',
+          boxShadow: `0 3px 0 ${cfg.borderColor}`,
+          position: 'relative',
+        }}
+      >
+        <Image
+          src={cfg.imagePath}
+          alt={cfg.name}
+          fill
+          style={{ objectFit: 'cover', objectPosition: 'center top' }}
+          sizes="72px"
+        />
+      </div>
+      <span
+        style={{
+          fontSize: 10,
+          fontWeight: 700,
+          color: cfg.color,
+          fontFamily: "'Zen Maru Gothic', sans-serif",
+          whiteSpace: 'nowrap',
+        }}
+      >
+        {cfg.name}
+      </span>
     </div>
   );
 }
 
-// ── 吹き出し1行 ─────────────────────────────────────────────
+// ── 吹き出し1行 ───────────────────────────────────────────────
 function SpeechBubble({ line }: { line: CharacterLine }) {
   const cfg = CHARACTER_CONFIG[line.character];
   const isRight = cfg.side === 'right';
@@ -110,55 +119,40 @@ function SpeechBubble({ line }: { line: CharacterLine }) {
         flexDirection: isRight ? 'row-reverse' : 'row',
         alignItems: 'flex-end',
         gap: 10,
-        marginBottom: 16,
+        marginBottom: 14,
       }}
     >
-      {/* アバター */}
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 4 }}>
-        <AvatarPlaceholder character={line.character} size={52} />
-        <span
-          style={{
-            fontSize: 9,
-            fontWeight: 700,
-            color: cfg.color,
-            fontFamily: "'Zen Maru Gothic', sans-serif",
-            whiteSpace: 'nowrap',
-          }}
-        >
-          {cfg.name}
-        </span>
-      </div>
+      <CharacterAvatar character={line.character} />
 
       {/* 吹き出し本体 */}
-      <div style={{ position: 'relative', maxWidth: 'calc(100% - 80px)' }}>
-        {/* 吹き出しの三角 */}
+      <div style={{ position: 'relative', maxWidth: 'calc(100% - 92px)' }}>
+        {/* 三角（外枠） */}
         <div
           style={{
             position: 'absolute',
-            bottom: 14,
-            [isRight ? 'right' : 'left']: -8,
+            bottom: 16,
+            [isRight ? 'right' : 'left']: -9,
+            width: 0,
+            height: 0,
+            borderTop: '9px solid transparent',
+            borderBottom: '9px solid transparent',
+            [isRight ? 'borderLeft' : 'borderRight']: `11px solid ${cfg.color}`,
+          }}
+        />
+        {/* 三角（内側） */}
+        <div
+          style={{
+            position: 'absolute',
+            bottom: 17,
+            [isRight ? 'right' : 'left']: -6,
             width: 0,
             height: 0,
             borderTop: '8px solid transparent',
             borderBottom: '8px solid transparent',
-            [isRight ? 'borderLeft' : 'borderRight']: `10px solid ${cfg.color}`,
-          }}
-        />
-        {/* 内側の三角（背景色） */}
-        <div
-          style={{
-            position: 'absolute',
-            bottom: 15,
-            [isRight ? 'right' : 'left']: -6,
-            width: 0,
-            height: 0,
-            borderTop: '7px solid transparent',
-            borderBottom: '7px solid transparent',
-            [isRight ? 'borderLeft' : 'borderRight']: `9px solid ${cfg.bgColor}`,
+            [isRight ? 'borderLeft' : 'borderRight']: `10px solid ${cfg.bgColor}`,
           }}
         />
 
-        {/* テキストボックス */}
         <div
           style={{
             background: cfg.bgColor,
@@ -172,7 +166,7 @@ function SpeechBubble({ line }: { line: CharacterLine }) {
             style={{
               margin: 0,
               fontSize: '0.88rem',
-              lineHeight: 1.8,
+              lineHeight: 1.85,
               color: 'var(--mb-dark)',
               fontFamily: "'Zen Maru Gothic', sans-serif",
             }}
@@ -185,15 +179,15 @@ function SpeechBubble({ line }: { line: CharacterLine }) {
   );
 }
 
-// ── メインコンポーネント ─────────────────────────────────────
+// ── メインコンポーネント ──────────────────────────────────────
 export default function CharacterSpeech({ lines }: { lines: CharacterLine[] }) {
   return (
     <div
       style={{
-        background: 'rgba(255,253,245,0.8)',
+        background: 'rgba(255,253,245,0.85)',
         border: '2px dashed rgba(26,26,46,0.12)',
-        borderRadius: 16,
-        padding: '16px 12px',
+        borderRadius: 18,
+        padding: '16px 12px 8px',
         marginBottom: '1.25rem',
       }}
     >
