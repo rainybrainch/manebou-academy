@@ -2,8 +2,8 @@ import { test, expect } from '@playwright/test';
 
 test.describe('ZAi UNIT4 - 理論株価と株価', () => {
   test.beforeEach(async ({ page }) => {
-    // Navigate to UNIT4 page
-    await page.goto('http://localhost:3000/courses/zai-12unit/4');
+    // Navigate to UNIT4 page (uses baseURL from playwright.config)
+    await page.goto('/courses/zai-12unit/4');
     // Wait for content to load
     await page.waitForLoadState('networkidle');
   });
@@ -168,42 +168,42 @@ test.describe('ZAi UNIT4 - 理論株価と株価', () => {
 
 test.describe('UNIT1-3, UNIT5, UNIT12 回帰確認', () => {
   test('UNIT1 ページが正常に読み込まれる', async ({ page }) => {
-    await page.goto('http://localhost:3000/courses/zai-12unit/1');
+    await page.goto('/courses/zai-12unit/1');
     await page.waitForLoadState('networkidle');
     const title = await page.textContent('h1');
     expect(title).toBeTruthy();
   });
 
   test('UNIT2 ページが正常に読み込まれる', async ({ page }) => {
-    await page.goto('http://localhost:3000/courses/zai-12unit/2');
+    await page.goto('/courses/zai-12unit/2');
     await page.waitForLoadState('networkidle');
     const title = await page.textContent('h1');
     expect(title).toBeTruthy();
   });
 
   test('UNIT3 ページが正常に読み込まれる', async ({ page }) => {
-    await page.goto('http://localhost:3000/courses/zai-12unit/3');
+    await page.goto('/courses/zai-12unit/3');
     await page.waitForLoadState('networkidle');
     const title = await page.textContent('h1');
     expect(title).toBeTruthy();
   });
 
   test('UNIT5 ページが正常に読み込まれる', async ({ page }) => {
-    await page.goto('http://localhost:3000/courses/zai-12unit/5');
+    await page.goto('/courses/zai-12unit/5');
     await page.waitForLoadState('networkidle');
     const title = await page.textContent('h1');
     expect(title).toBeTruthy();
   });
 
   test('UNIT12 ページが正常に読み込まれる', async ({ page }) => {
-    await page.goto('http://localhost:3000/courses/zai-12unit/12');
+    await page.goto('/courses/zai-12unit/12');
     await page.waitForLoadState('networkidle');
     const title = await page.textContent('h1');
     expect(title).toBeTruthy();
   });
 
   test('ドイツ語教材ページが正常に読み込まれる', async ({ page }) => {
-    await page.goto('http://localhost:3000/german');
+    await page.goto('/german');
     await page.waitForLoadState('networkidle');
     const content = await page.textContent('body');
     expect(content).toBeTruthy();
