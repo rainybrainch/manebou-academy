@@ -895,11 +895,13 @@ export const zai12unitCategory: Zai12UnitCategory = {
       keywords: ['株主', 'オーナー', 'オーナーマインド', '投資', '企業'],
 
       estimatedTime: {
-        introduction: 10,
-        classroom: 15,
-        gamePlay: 25,
-        reflection: 15,
-        total: 65,
+        introduction: 5,
+        setup: 5,
+        gamePlay: 30,
+        reflection: 10,
+        classroom: 7,
+        summary: 3,
+        total: 60,
       },
 
       academicContent: {
@@ -937,14 +939,14 @@ export const zai12unitCategory: Zai12UnitCategory = {
 
         realWorldConnection: {
           type: 'highlight-box',
-          title: 'リスクの現実例',
+          title: 'リスクとリターンの関係',
           examples: [
-            'テスラの株：成長期待で大きく上がるけど、悪いニュースで大きく下がる',
-            'NTT（通信）：毎日必要だから株価は安定。配当も安定。',
-            '製薬会社：新薬の認可次第で大きく変わる可能性',
+            'ゲーム内では、会社の株価変動でリスクを体感しています。',
+            '現実の会社も、同じようにリスクとリターンのバランスが違います。',
+            '成長期待の高い会社は株価が大きく動く可能性があり、安定した会社は株価が落ち着いている傾向があります。',
           ],
           explanation:
-            'リスクとリターンはセット。大きく儲けたければ、失敗のリスクも受け入れる必要があります。',
+            'リスクとリターンはセット。大きく儲けたければ、失敗のリスクも受け入れる必要があります。また、調べて選んでも、経営環境の変化で予想と違う結果になる可能性があります。',
         },
 
         summary: {
@@ -986,7 +988,7 @@ export const zai12unitCategory: Zai12UnitCategory = {
         purpose:
           'リスク・リターンの基本関係を体験させ、「投資には必ずリスクがある」ことを理解させる。同時に、リスク管理の重要性を伝える。',
 
-        estimatedTime: 65,
+        estimatedTime: 60,
 
         materialsNeeded: [
           'ZAi ボード',
@@ -1003,39 +1005,35 @@ export const zai12unitCategory: Zai12UnitCategory = {
         ],
 
         introduction: {
-          duration_minutes: 10,
+          duration_minutes: 5,
           questions: [
             'ゲームをしていて、上手くいった時とうまくいかなかった時があったと思います。その差は何だと思いますか？',
             'リスクって、悪いことばかりじゃないんですけど、どういう意味だと思いますか？',
-            '安心できる投資と、冒険的な投資。どっちが好きですか？',
           ],
           notes: '株価変動の体験を引き出す。子どもの感情を大切に。',
           expectedResponses: [
             '「運」「選ぶ会社」「タイミング」など',
             '「失敗する可能性」「大きく変わること」など',
-            '「安心」「冒険」という言葉が出てくれば理想的',
           ],
           teachingPoints: [
-            'リスクは必ずしも悪いもんではない',
+            'リスクは必ずしも悪いものではない',
             'リスクとリターンはセット',
           ],
         },
 
-        academySession: {
-          duration_minutes: 15,
-          focus: 'リスク・リターンの関係',
+        setupSession: {
+          duration_minutes: 5,
+          title: 'リスク・リターンの基本確認',
           content: [
-            'リスク（変動幅）の定義',
+            'リスク（変動幅）の定義を簡潔に説明',
             'リスクが大きいほどリターンの可能性も大きい',
-            '景気がリスクに影響する',
-            'リスク管理の方法',
+            'リスク管理が大切という見通しを伝える',
           ],
-          notes: 'グラフを使って株価変動を可視化。子どもレベルでの説明（難しい数式は不要）。',
-          timing: '導入の後、ゲーム前に実施。',
+          notes: 'グラフを使って株価変動を可視化。子どもレベルでの説明（難しい数式は不要）。ゲームの準備をする。',
         },
 
         gameSession: {
-          duration_minutes: 25,
+          duration_minutes: 30,
           setup: [
             '株価の変動を全員で見る',
             '「あ、上がった」「あ、下がった」という体験を共有',
@@ -1065,17 +1063,16 @@ export const zai12unitCategory: Zai12UnitCategory = {
         },
 
         reflection: {
-          duration_minutes: 15,
+          duration_minutes: 10,
           structure: [
-            '個人：自分のリスク選好度',
-            '全員で：リスク管理の工夫',
+            '個人：自分のリスク選好度を認識させる',
+            '全員で：リスク管理の工夫を共有',
             '先生から：「大人の投資もこんな感じ」という話',
           ],
           sharingPrompts: [
             '株価が動いた時、どう感じましたか？',
             'あなたはリスクをどのくらい取りたいですか？',
             'リスク管理で工夫したことはありますか？',
-            '次のゲームではどうしたいですか？',
           ],
           notes: [
             'リスク回避的な子も、冒険好きな子も認める',
@@ -1083,27 +1080,38 @@ export const zai12unitCategory: Zai12UnitCategory = {
           ],
         },
 
-        commonResponses: [
-          {
-            scenario: '子どもが「株価が下がった。失敗した」と落ち込む',
-            response:
-              '「大丈夫。リスクを取るってこと。失敗から学ぶことが大切」と励まし。',
-          },
-        ],
+        academySession: {
+          duration_minutes: 7,
+          focus: 'リスク・リターンと分散投資',
+          content: [
+            'リスク（変動幅）の定義',
+            'リスクが大きいほどリターンの可能性も大きい',
+            'リスク管理（分散投資）の重要性',
+            '調べて選んでも予想と違う結果になる可能性があること',
+          ],
+          notes: 'アカデミーページの「キーワード解説」を使いながら説明。',
+        },
 
-        teachingNotes: [
-          'リスク・リターンはセット関係を体験から理解させる',
-          'リスク管理（分散投資）の重要性を伝える',
-        ],
+        summarySession: {
+          duration_minutes: 3,
+          title: 'UNIT3 のまとめ',
+          content: [
+            'リスク・リターンはセットであること',
+            'リスク管理（分散投資）が大切であること',
+            '投資には必ずリスクがあり、調べても予想と違う結果になる可能性があること',
+            '次のUNIT4では「本来の価値」と「今の価格」の違いを学ぶこと',
+          ],
+          notes: '今日の学びを整理し、次のステップへの期待感を高める。',
+        },
 
-        nextUnit: 'UNIT4：理論株価と株価',
+        nextUnit: 'UNIT4 理論株価と株価',
         nextUnitPreview: '次は、「本来の価値」と「今の価格」の違いを学びます。',
       },
 
       worksheet: {
         classroomWork: {
           title: '授業ワーク：リスク度合いを整理する',
-          duration_minutes: 10,
+          duration_minutes: 7,
           instructions: 'ゲーム後にアカデミーページで記入。各会社のリスク度合いをまとめる。',
           questions: [
             '高リスクな会社はどれですか',
@@ -1210,20 +1218,16 @@ export const zai12unitCategory: Zai12UnitCategory = {
                 isCorrect: false,
               },
               {
-                text: 'リスクを認識した上で、工夫すること',
+                text: 'リスクを認識した上で、工夫してバランスを考えること',
                 isCorrect: true,
               },
               {
                 text: 'できるだけ多くお金を稼ぐこと',
                 isCorrect: false,
               },
-              {
-                text: 'リスクとリターンのバランスを考えること',
-                isCorrect: true,
-              },
             ],
             explanation:
-              'リスク管理 = リスクをゼロにすることではなく、リスクを理解して工夫すること。リスクとリターンのバランスを自分のペースで決めることが大切。',
+              'リスク管理 = リスクをゼロにすることではなく、リスクを理解した上で工夫すること。リスクとリターンのバランスを自分のペースで決めることが大切です。',
           },
         ],
       },
