@@ -1,4 +1,5 @@
 ﻿import { Category } from '@/types';
+import { zai12unitCategory } from './course-zai-12unit';
 import { moneyKnowledgeCategory } from './course-money-knowledge';
 import { stockIntroCategory } from './course-stock-intro';
 import { zaiCategory } from './course-zai';

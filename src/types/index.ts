@@ -96,3 +96,179 @@ export type ComicData = {
   generatedAt?: string;
   imageVersion?: string;
 };
+
+// ── ZAi 株ゲーム 入門コース（全12UNIT） ──────────────
+// 正式仕様（2026-07-15 確定）
+// 旧 course-zai.ts から独立した新カリキュラム
+
+export interface ZaiQuizOption {
+  text: string;
+  isCorrect: boolean;
+}
+
+export interface ZaiQuizQuestion {
+  id: string;
+  question: string;
+  options: ZaiQuizOption[];
+  explanation: string;
+}
+
+export interface ZaiWorksheet {
+  classroomWork?: {
+    title: string;
+    duration_minutes: number;
+    instructions: string;
+    questions: string[];
+    format: 'web' | 'paper' | 'both';
+  };
+  gameRecording?: {
+    title: string;
+    duration_minutes: number;
+    instructions: string;
+    recordingItems: string[];
+    format: 'web' | 'paper' | 'both';
+  };
+  reflection?: {
+    title: string;
+    duration_minutes: number;
+    instructions: string;
+    questions: string[];
+    format: 'web' | 'paper' | 'both';
+  };
+  homework?: {
+    title: string;
+    duration_days: number;
+    instructions: string;
+    tasks: string[];
+    format: 'printable' | 'web' | 'both';
+    notes?: string;
+  };
+}
+
+export interface ZaiTeacherGuide {
+  purpose: string;
+  estimatedTime: number;
+  materialsNeeded: string[];
+  preparation?: string[];
+  introduction?: {
+    duration_minutes: number;
+    questions: string[];
+    notes: string;
+    expectedResponses?: string[];
+    teachingPoints?: string[];
+  };
+  setupSession?: {
+    duration_minutes: number;
+    title?: string;
+    content: string[];
+    notes?: string;
+  };
+  gameSession?: {
+    duration_minutes: number;
+    setup?: string[];
+    flow: string[];
+    questions_to_ask: string[];
+    stoppingPoints: string[];
+    notes: string[];
+  };
+  academySession?: {
+    duration_minutes: number;
+    focus: string;
+    content: string[];
+    notes: string;
+    timing?: string;
+  };
+  reflection?: {
+    duration_minutes: number;
+    structure: string[];
+    sharingPrompts: string[];
+    notes: string[];
+  };
+  summarySession?: {
+    duration_minutes: number;
+    title?: string;
+    content: string[];
+    notes?: string;
+  };
+  commonResponses?: Array<{
+    scenario: string;
+    response: string;
+  }>;
+  teachingNotes?: string[];
+  nextUnit?: string;
+  nextUnitPreview?: string;
+}
+
+export interface ZaiAcademicContent {
+  introduction?: {
+    type: string;
+    title?: string;
+    content: string;
+  };
+  keywords_explanation?: Array<{
+    term: string;
+    explanation: string;
+  }>;
+  realWorldConnection?: {
+    type: string;
+    title: string;
+    examples?: string[];
+    explanation?: string;
+  };
+  summary?: {
+    points: string[];
+  };
+}
+
+export interface ZaiGameContent {
+  overview: string;
+  focus: string;
+  duration_minutes: number;
+}
+
+export interface ZaiUnit {
+  id: string;
+  unitNumber: number;
+  title: string;
+  theme?: string;
+  learningGoals: string[];
+  goalStatement: string;
+  keywords: string[];
+  estimatedTime?: {
+    introduction?: number;
+    setup?: number;
+    gamePlay?: number;
+    reflection?: number;
+    classroom?: number;
+    summary?: number;
+    total: number;
+  };
+  academicContent?: ZaiAcademicContent;
+  gameContent?: ZaiGameContent;
+  gameQuestions?: string[];
+  reflection?: {
+    sharingPoints: string[];
+  };
+  teacherGuide?: ZaiTeacherGuide;
+  worksheet?: ZaiWorksheet;
+  quiz?: {
+    title: string;
+    questions: ZaiQuizQuestion[];
+  };
+  navigation?: {
+    unitNumber: number;
+    nextUnit?: string;
+    nextUnitTitle?: string;
+    prevUnit?: string;
+    prevUnitTitle?: string;
+  };
+}
+
+export interface Zai12UnitCategory {
+  id: string;
+  title: string;
+  description: string;
+  level: CourseLevel;
+  topicCategoryId?: string;
+  units: ZaiUnit[];
+}
