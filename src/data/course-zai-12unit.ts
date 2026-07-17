@@ -1023,7 +1023,7 @@ export const zai12unitCategory: Zai12UnitCategory = {
 
         setupSession: {
           duration_minutes: 5,
-          title: 'リスク・リターンの基本確認',
+          title: 'ゲーム準備・リスク・リターンの基本確認',
           content: [
             'リスク（変動幅）の定義を簡潔に説明',
             'リスクが大きいほどリターンの可能性も大きい',
@@ -1090,6 +1090,7 @@ export const zai12unitCategory: Zai12UnitCategory = {
             '調べて選んでも予想と違う結果になる可能性があること',
           ],
           notes: 'アカデミーページの「キーワード解説」を使いながら説明。',
+          timing: 'ゲーム後、振り返りセッションの直後に実施。',
         },
 
         summarySession: {
